@@ -1,0 +1,191 @@
+{
+  "project": "KP Fasteners",
+  "generated": "2026-09-29",
+  "linking_model": "tri-directional (up to hub / sideways to siblings / down to specifics). Per docs/internal-linking.md.",
+  "rules": {
+    "every_leaf_links_to_its_hub": true,
+    "every_hub_links_to_its_leaves": true,
+    "sibling_leaves_cross_link_per_page": "2-3",
+    "cross_cluster_links_per_page": "0-1"
+  },
+  "nodes": {
+    "/": {
+      "role": "root",
+      "cluster": "C01",
+      "outbound": [
+        "/products/",
+        "/products/foundation-bolts/",
+        "/products/solar-accessories/",
+        "/products/stud-bolts/",
+        "/materials/high-tensile-fasteners/",
+        "/materials/stainless-steel-fasteners/",
+        "/industries/solar-mounting-fasteners/",
+        "/quality/",
+        "/about/",
+        "/contact/",
+        "/request-quote/"
+      ]
+    },
+    "/about/": {"cluster": "C02", "outbound": ["/", "/quality/", "/products/", "/contact/"]},
+    "/quality/": {"cluster": "C03", "outbound": ["/", "/products/stud-bolts/", "/materials/high-tensile-fasteners/", "/request-quote/"]},
+    "/contact/": {"cluster": "C04", "outbound": ["/", "/request-quote/", "/about/"]},
+    "/request-quote/": {"cluster": "C05", "outbound": ["/", "/contact/", "/products/", "/products/custom-fasteners/"]},
+    "/products/": {
+      "role": "hub",
+      "cluster": "C06",
+      "outbound": [
+        "/products/foundation-bolts/",
+        "/products/stud-bolts/",
+        "/products/tie-rods/",
+        "/products/csk-allen-bolts/",
+        "/products/scaffold-accessories/",
+        "/products/solar-accessories/",
+        "/products/hex-bolts-nuts/",
+        "/products/custom-fasteners/",
+        "/materials/high-tensile-fasteners/",
+        "/materials/stainless-steel-fasteners/",
+        "/request-quote/"
+      ]
+    },
+    "/products/foundation-bolts/": {
+      "cluster": "C07",
+      "outbound": [
+        "/products/",
+        "/products/stud-bolts/",
+        "/products/scaffold-accessories/",
+        "/materials/high-tensile-fasteners/",
+        "/industries/construction-infrastructure/",
+        "/quality/",
+        "/request-quote/"
+      ]
+    },
+    "/products/stud-bolts/": {
+      "cluster": "C08",
+      "outbound": [
+        "/products/",
+        "/products/foundation-bolts/",
+        "/products/hex-bolts-nuts/",
+        "/materials/high-tensile-fasteners/",
+        "/quality/",
+        "/request-quote/"
+      ]
+    },
+    "/products/tie-rods/": {
+      "cluster": "C09",
+      "outbound": [
+        "/products/",
+        "/products/scaffold-accessories/",
+        "/products/foundation-bolts/",
+        "/industries/construction-infrastructure/",
+        "/request-quote/"
+      ]
+    },
+    "/products/csk-allen-bolts/": {
+      "cluster": "C10",
+      "outbound": [
+        "/products/",
+        "/products/hex-bolts-nuts/",
+        "/materials/high-tensile-fasteners/",
+        "/materials/stainless-steel-fasteners/",
+        "/request-quote/"
+      ]
+    },
+    "/products/scaffold-accessories/": {
+      "cluster": "C11",
+      "outbound": [
+        "/products/",
+        "/products/tie-rods/",
+        "/products/foundation-bolts/",
+        "/industries/construction-infrastructure/",
+        "/request-quote/"
+      ]
+    },
+    "/products/solar-accessories/": {
+      "cluster": "C12",
+      "outbound": [
+        "/products/",
+        "/industries/solar-mounting-fasteners/",
+        "/materials/stainless-steel-fasteners/",
+        "/products/hex-bolts-nuts/",
+        "/request-quote/"
+      ]
+    },
+    "/products/hex-bolts-nuts/": {
+      "cluster": "C13",
+      "outbound": [
+        "/products/",
+        "/products/csk-allen-bolts/",
+        "/products/stud-bolts/",
+        "/materials/high-tensile-fasteners/",
+        "/materials/stainless-steel-fasteners/",
+        "/request-quote/"
+      ]
+    },
+    "/products/custom-fasteners/": {
+      "cluster": "C14",
+      "outbound": [
+        "/products/",
+        "/products/foundation-bolts/",
+        "/products/stud-bolts/",
+        "/materials/high-tensile-fasteners/",
+        "/quality/",
+        "/request-quote/"
+      ]
+    },
+    "/materials/high-tensile-fasteners/": {
+      "cluster": "C15",
+      "outbound": [
+        "/products/",
+        "/products/hex-bolts-nuts/",
+        "/products/stud-bolts/",
+        "/products/foundation-bolts/",
+        "/quality/",
+        "/request-quote/"
+      ]
+    },
+    "/materials/stainless-steel-fasteners/": {
+      "cluster": "C16",
+      "outbound": [
+        "/products/",
+        "/products/solar-accessories/",
+        "/products/hex-bolts-nuts/",
+        "/industries/solar-mounting-fasteners/",
+        "/request-quote/"
+      ]
+    },
+    "/industries/solar-mounting-fasteners/": {
+      "cluster": "C17",
+      "outbound": [
+        "/products/solar-accessories/",
+        "/materials/stainless-steel-fasteners/",
+        "/products/foundation-bolts/",
+        "/request-quote/"
+      ]
+    },
+    "/industries/construction-infrastructure/": {
+      "cluster": "C18",
+      "outbound": [
+        "/products/foundation-bolts/",
+        "/products/scaffold-accessories/",
+        "/products/tie-rods/",
+        "/materials/high-tensile-fasteners/",
+        "/request-quote/"
+      ]
+    },
+    "/industries/automotive-heavy-engineering/": {
+      "cluster": "C19",
+      "outbound": [
+        "/products/hex-bolts-nuts/",
+        "/products/custom-fasteners/",
+        "/materials/high-tensile-fasteners/",
+        "/request-quote/"
+      ]
+    }
+  },
+  "verification": {
+    "orphan_pages": [],
+    "every_page_has_min_2_inbound": true,
+    "every_leaf_links_to_hub_products": true,
+    "every_page_links_to_conversion_endpoint": true
+  }
+}

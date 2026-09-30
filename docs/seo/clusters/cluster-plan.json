@@ -1,0 +1,358 @@
+{
+  "project": "KP Fasteners (kpfasteners.com)",
+  "generated": "2026-09-29",
+  "method": "SERP-overlap clustering (sample-based, 7/4/2/0 thresholds). India geo bias.",
+  "volumes_kd_status": "NEEDS DataForSEO",
+  "cluster_count": 19,
+  "keyword_count": 58,
+  "rejected_count": 4,
+  "merged_count": 2,
+  "clusters": [
+    {
+      "id": "C01",
+      "name": "Brand / Homepage",
+      "canonical_url": "/",
+      "primary_keyword": "industrial fasteners manufacturer ahmedabad",
+      "intent": "commercial/navigational",
+      "keywords": [
+        {"kw": "kp fasteners", "intent": "navigational"},
+        {"kw": "kp fasteners ahmedabad", "intent": "navigational"},
+        {"kw": "industrial fasteners manufacturer ahmedabad", "intent": "commercial"},
+        {"kw": "industrial fasteners manufacturer india", "intent": "commercial"},
+        {"kw": "bolt and nut manufacturer ahmedabad", "intent": "commercial"},
+        {"kw": "fastener supplier india", "intent": "commercial"}
+      ],
+      "priority": "P0",
+      "serp_evidence": "brand + national commercial mix; hosts marketplace listings (IndiaMART, TradeIndia) alongside manufacturer sites."
+    },
+    {
+      "id": "C02",
+      "name": "About / Company",
+      "canonical_url": "/about/",
+      "primary_keyword": "fastener manufacturer ahmedabad",
+      "intent": "trust/navigational",
+      "keywords": [
+        {"kw": "fastener manufacturer ahmedabad", "intent": "commercial"},
+        {"kw": "fastener company ahmedabad", "intent": "commercial"},
+        {"kw": "kp fasteners about", "intent": "navigational"},
+        {"kw": "fastener maker gujarat", "intent": "commercial"}
+      ],
+      "priority": "P1",
+      "note": "Local intent handled via LocalBusiness schema; keywords also referenced on homepage."
+    },
+    {
+      "id": "C03",
+      "name": "Quality / MTC",
+      "canonical_url": "/quality/",
+      "primary_keyword": "fastener mill test certificate en 10204 3.1",
+      "intent": "commercial-investigation",
+      "keywords": [
+        {"kw": "fastener mill test certificate", "intent": "commercial-investigation"},
+        {"kw": "en 10204 3.1 fasteners", "intent": "commercial-investigation"},
+        {"kw": "fastener quality control", "intent": "informational"},
+        {"kw": "bolt tensile testing", "intent": "informational"},
+        {"kw": "ppap fasteners", "intent": "commercial-investigation"}
+      ],
+      "priority": "P1"
+    },
+    {
+      "id": "C04",
+      "name": "Contact",
+      "canonical_url": "/contact/",
+      "primary_keyword": "kp fasteners contact",
+      "intent": "navigational",
+      "keywords": [
+        {"kw": "kp fasteners contact", "intent": "navigational"},
+        {"kw": "kp fasteners phone number", "intent": "navigational"},
+        {"kw": "fastener supplier ahmedabad contact", "intent": "commercial"}
+      ],
+      "priority": "P0"
+    },
+    {
+      "id": "C05",
+      "name": "Request Quote",
+      "canonical_url": "/request-quote/",
+      "primary_keyword": "request fastener quote",
+      "intent": "transactional",
+      "keywords": [
+        {"kw": "request fastener quote", "intent": "transactional"},
+        {"kw": "bolt rfq form", "intent": "transactional"},
+        {"kw": "fastener quote india", "intent": "transactional"}
+      ],
+      "priority": "P0"
+    },
+    {
+      "id": "C06",
+      "name": "Products Hub",
+      "canonical_url": "/products/",
+      "primary_keyword": "industrial fasteners manufacturer",
+      "intent": "commercial",
+      "keywords": [
+        {"kw": "industrial fasteners manufacturer", "intent": "commercial"},
+        {"kw": "fastener product range", "intent": "commercial"},
+        {"kw": "bolt nut manufacturer india", "intent": "commercial"}
+      ],
+      "priority": "P0",
+      "role": "hub"
+    },
+    {
+      "id": "C07",
+      "name": "Foundation / Anchor Bolts (ANCHOR CLUSTER — greenfield vs SRG)",
+      "canonical_url": "/products/foundation-bolts/",
+      "primary_keyword": "foundation bolts manufacturer",
+      "intent": "transactional",
+      "keywords": [
+        {"kw": "foundation bolts manufacturer", "intent": "transactional"},
+        {"kw": "foundation bolts manufacturer ahmedabad", "intent": "transactional"},
+        {"kw": "anchor bolts manufacturer india", "intent": "transactional"},
+        {"kw": "ms foundation bolt", "intent": "transactional"},
+        {"kw": "j type foundation bolt", "intent": "transactional"},
+        {"kw": "l type foundation bolt", "intent": "transactional"},
+        {"kw": "hold down bolt supplier", "intent": "transactional"},
+        {"kw": "u bolt manufacturer", "intent": "transactional"},
+        {"kw": "hd bolt supplier india", "intent": "transactional"},
+        {"kw": "foundation bolt price india", "intent": "commercial"}
+      ],
+      "priority": "P0",
+      "serp_verdict": "manufacturer-dominated (LG Industries, Fabiron, MB Enterprise, Arvind); marketplace share moderate. Winnable greenfield.",
+      "merged_from": ["foundation bolts", "anchor bolts"],
+      "cannibalisation_note": "Anchor and foundation are commercially synonymous for KP's use case. Section-split on-page (J/L/U shapes) not URL-split."
+    },
+    {
+      "id": "C08",
+      "name": "Stud Bolts",
+      "canonical_url": "/products/stud-bolts/",
+      "primary_keyword": "stud bolts manufacturer",
+      "intent": "transactional",
+      "keywords": [
+        {"kw": "stud bolts manufacturer", "intent": "transactional"},
+        {"kw": "astm a193 b7 studs", "intent": "transactional"},
+        {"kw": "astm a193 b7m studs", "intent": "transactional"},
+        {"kw": "threaded studs manufacturer india", "intent": "transactional"},
+        {"kw": "double end stud bolts", "intent": "transactional"},
+        {"kw": "stud bolt with a194 2h nut", "intent": "commercial-investigation"}
+      ],
+      "priority": "P0",
+      "serp_verdict": "oil-and-gas / EPC dominated. MTC EN 10204 3.1 is table-stakes."
+    },
+    {
+      "id": "C09",
+      "name": "Tie Rods",
+      "canonical_url": "/products/tie-rods/",
+      "primary_keyword": "tie rod manufacturer",
+      "intent": "transactional",
+      "keywords": [
+        {"kw": "tie rod manufacturer", "intent": "transactional"},
+        {"kw": "formwork tie rod", "intent": "transactional"},
+        {"kw": "shuttering tie rod", "intent": "transactional"},
+        {"kw": "16mm tie rod", "intent": "transactional"},
+        {"kw": "17mm tie rod", "intent": "transactional"},
+        {"kw": "english thread tie rod", "intent": "commercial-investigation"},
+        {"kw": "french thread tie rod", "intent": "commercial-investigation"}
+      ],
+      "priority": "P1",
+      "adjacent_cluster": "C11",
+      "serp_overlap_with_c11": "high (~6 shared domains)"
+    },
+    {
+      "id": "C10",
+      "name": "CSK Allen Bolts",
+      "canonical_url": "/products/csk-allen-bolts/",
+      "primary_keyword": "csk allen bolts manufacturer",
+      "intent": "transactional",
+      "keywords": [
+        {"kw": "csk allen bolts manufacturer", "intent": "transactional"},
+        {"kw": "countersunk socket head bolt", "intent": "transactional"},
+        {"kw": "csk socket screw", "intent": "transactional"},
+        {"kw": "din 7991 bolt supplier", "intent": "transactional"}
+      ],
+      "priority": "P1",
+      "gap": "NEEDS DataForSEO for volume + KD"
+    },
+    {
+      "id": "C11",
+      "name": "Scaffold Accessories",
+      "canonical_url": "/products/scaffold-accessories/",
+      "primary_keyword": "scaffold accessories manufacturer",
+      "intent": "transactional",
+      "keywords": [
+        {"kw": "scaffold accessories manufacturer", "intent": "transactional"},
+        {"kw": "scaffolding fasteners", "intent": "transactional"},
+        {"kw": "formwork fasteners", "intent": "transactional"},
+        {"kw": "wing nut manufacturer india", "intent": "transactional"},
+        {"kw": "tie rod nut supplier", "intent": "transactional"},
+        {"kw": "anchor nut chuck nut", "intent": "transactional"},
+        {"kw": "waller plate manufacturer", "intent": "transactional"}
+      ],
+      "priority": "P0",
+      "adjacent_cluster": "C09",
+      "note": "Kept separate from tie-rods despite SERP overlap ~6, because intent splits between rod SKU and nut/plate SKU."
+    },
+    {
+      "id": "C12",
+      "name": "Solar Accessories (ANCHOR CLUSTER — greenfield vs SRG)",
+      "canonical_url": "/products/solar-accessories/",
+      "primary_keyword": "solar mounting accessories manufacturer",
+      "intent": "transactional",
+      "keywords": [
+        {"kw": "solar mounting accessories manufacturer", "intent": "transactional"},
+        {"kw": "solar structure fasteners", "intent": "transactional"},
+        {"kw": "mms fasteners", "intent": "transactional"},
+        {"kw": "solar bolts ss 304", "intent": "transactional"},
+        {"kw": "solar hex bolt m8 m10", "intent": "transactional"},
+        {"kw": "t head bolt solar", "intent": "transactional"},
+        {"kw": "hanger bolt epdm washer", "intent": "transactional"},
+        {"kw": "solar fastener price", "intent": "commercial"}
+      ],
+      "priority": "P0",
+      "serp_verdict": "no dominant Indian solar-fastener specialist. Winnable.",
+      "sibling_cluster": "C17"
+    },
+    {
+      "id": "C13",
+      "name": "Hex Bolts and Nuts",
+      "canonical_url": "/products/hex-bolts-nuts/",
+      "primary_keyword": "hex bolts and nuts manufacturer",
+      "intent": "transactional",
+      "keywords": [
+        {"kw": "hex bolts and nuts manufacturer", "intent": "transactional"},
+        {"kw": "hex bolts manufacturer", "intent": "transactional"},
+        {"kw": "hex nuts manufacturer", "intent": "transactional"},
+        {"kw": "din 933 bolts", "intent": "transactional"},
+        {"kw": "din 931 bolts", "intent": "transactional"},
+        {"kw": "iso 4017 bolts", "intent": "transactional"},
+        {"kw": "din 934 nuts", "intent": "transactional"}
+      ],
+      "priority": "P1",
+      "gap": "NEEDS DataForSEO to decide whether hex-bolts and hex-nuts split into two pages; consolidated for v1.",
+      "merged_from": ["hex bolts", "hex nuts"]
+    },
+    {
+      "id": "C14",
+      "name": "Custom Fasteners",
+      "canonical_url": "/products/custom-fasteners/",
+      "primary_keyword": "custom fasteners manufacturer",
+      "intent": "transactional",
+      "keywords": [
+        {"kw": "custom fasteners manufacturer", "intent": "transactional"},
+        {"kw": "oem fastener supplier", "intent": "transactional"},
+        {"kw": "drawing based fastener manufacturer", "intent": "transactional"},
+        {"kw": "special fasteners india", "intent": "transactional"},
+        {"kw": "non standard fasteners", "intent": "transactional"}
+      ],
+      "priority": "P1",
+      "note": "High-margin RFQ magnet. Distinct SERP from other product clusters."
+    },
+    {
+      "id": "C15",
+      "name": "High Tensile Fasteners (Material)",
+      "canonical_url": "/materials/high-tensile-fasteners/",
+      "primary_keyword": "high tensile bolts manufacturer",
+      "intent": "commercial-investigation",
+      "keywords": [
+        {"kw": "high tensile bolts manufacturer", "intent": "commercial"},
+        {"kw": "grade 8.8 bolts", "intent": "commercial"},
+        {"kw": "grade 10.9 bolts", "intent": "commercial"},
+        {"kw": "grade 12.9 bolts", "intent": "commercial"},
+        {"kw": "grade 8.8 vs 10.9", "intent": "commercial-investigation"},
+        {"kw": "high tensile fastener grades", "intent": "informational"}
+      ],
+      "priority": "P1",
+      "adjacent_clusters": ["C08", "C13"]
+    },
+    {
+      "id": "C16",
+      "name": "Stainless Steel Fasteners (Material)",
+      "canonical_url": "/materials/stainless-steel-fasteners/",
+      "primary_keyword": "stainless steel fasteners manufacturer",
+      "intent": "commercial-investigation",
+      "keywords": [
+        {"kw": "stainless steel fasteners manufacturer", "intent": "commercial"},
+        {"kw": "ss 304 bolts", "intent": "commercial"},
+        {"kw": "ss 316 bolts", "intent": "commercial"},
+        {"kw": "ss 316L bolts", "intent": "commercial"},
+        {"kw": "ss 304 vs ss 316", "intent": "commercial-investigation"},
+        {"kw": "a2 vs a4 fasteners", "intent": "commercial-investigation"},
+        {"kw": "marine grade fasteners", "intent": "commercial"}
+      ],
+      "priority": "P1",
+      "sibling_cluster": "C12"
+    },
+    {
+      "id": "C17",
+      "name": "Solar Mounting Industry",
+      "canonical_url": "/industries/solar-mounting-fasteners/",
+      "primary_keyword": "solar mounting bolts supplier",
+      "intent": "commercial",
+      "keywords": [
+        {"kw": "solar mounting bolts supplier", "intent": "commercial"},
+        {"kw": "solar structure fastener supplier", "intent": "commercial"},
+        {"kw": "solar epc fastener partner", "intent": "commercial"},
+        {"kw": "rooftop solar fasteners", "intent": "commercial"},
+        {"kw": "ground mount solar bolts", "intent": "commercial"}
+      ],
+      "priority": "P1",
+      "sibling_cluster": "C12",
+      "note": "Sector intent — cross-link to /products/solar-accessories/ (SKU intent)."
+    },
+    {
+      "id": "C18",
+      "name": "Construction & Infrastructure Industry",
+      "canonical_url": "/industries/construction-infrastructure/",
+      "primary_keyword": "construction fasteners supplier",
+      "intent": "commercial",
+      "keywords": [
+        {"kw": "construction fasteners supplier", "intent": "commercial"},
+        {"kw": "infrastructure bolts india", "intent": "commercial"},
+        {"kw": "peb fasteners", "intent": "commercial"},
+        {"kw": "prefab building bolts", "intent": "commercial"}
+      ],
+      "priority": "P2",
+      "note": "Cross-link to /products/foundation-bolts/ and /products/scaffold-accessories/."
+    },
+    {
+      "id": "C19",
+      "name": "Automotive & Heavy Engineering Industry",
+      "canonical_url": "/industries/automotive-heavy-engineering/",
+      "primary_keyword": "automotive fasteners manufacturer",
+      "intent": "commercial",
+      "keywords": [
+        {"kw": "automotive fasteners manufacturer", "intent": "commercial"},
+        {"kw": "oem automotive fasteners india", "intent": "commercial"},
+        {"kw": "heavy engineering bolts", "intent": "commercial"}
+      ],
+      "priority": "P2",
+      "note": "Publish only if KP confirms serving these OEMs; otherwise fold into /products/custom-fasteners/."
+    }
+  ],
+  "rejected_clusters": [
+    {
+      "cluster": "Per-standard pages (/din-933/, /iso-4017/)",
+      "reason": "Standards intent overlaps with product category SERP; consolidated as sections inside product pages."
+    },
+    {
+      "cluster": "Per-size micro-pages (/m10-hex-bolt/, /m12-hex-bolt/)",
+      "reason": "Cannibalisation, thin content. Covered in product page spec matrix."
+    },
+    {
+      "cluster": "City-doorway pages (/hex-bolts-in-surat/, /fasteners-supplier-rajkot/)",
+      "reason": "AGENTS.md §4/5. No physical branch presence in those cities."
+    },
+    {
+      "cluster": "DIY / consumer queries (how to remove rusted bolt, bolts near me)",
+      "reason": "Wrong audience — not B2B procurement."
+    }
+  ],
+  "merges": [
+    {"from": ["foundation bolts", "anchor bolts"], "into": "C07"},
+    {"from": ["hex bolts", "hex nuts"], "into": "C13", "provisional": true, "note": "Split into two pages only if DataForSEO shows distinct volume + non-overlapping SERPs."}
+  ],
+  "flags": {
+    "NEEDS_DataForSEO": [
+      "search volumes for all 58 keywords",
+      "keyword difficulty scores",
+      "dedicated SERP pull for hex-bolts-nuts / csk-allen / SS materials / construction / automotive clusters",
+      "AI Overview presence check per keyword"
+    ]
+  }
+}
