@@ -13,31 +13,38 @@
 - **Colour discipline.** One brand accent (gold) used sparingly on CTAs, one supporting accent (steel/silver-blue) for structural elements. Rest is high-contrast neutrals.
 - **Metallic finishes stay in imagery.** The logo carries the silver + gold gloss; the UI itself uses flat, print-safe versions of those hues.
 
-## 2. Colour tokens (all light-theme)
+## 2. Colour tokens (all light-theme, logo-derived, WCAG 2.1 AA validated)
 
-Values are **NEEDS VERIFICATION** against WCAG 4.5:1 on the real background — the token names are frozen, the exact hex codes are validated during Phase B of the [dev plan](development-plan.md).
+Extraction methodology + raw hex weights: [`design-palette-extraction.md`](design-palette-extraction.md).
+Pair-by-pair contrast: [`design-contrast-report.md`](design-contrast-report.md).
 
-| Token | Hex (draft) | Role |
+| Token | Hex | Role |
 |---|---|---|
-| `--color-bg` | `#F7F5F0` | Off-white page background (echoes the business-card ground) |
-| `--color-surface` | `#FFFFFF` | Card / panel surface, alternates with `--color-bg` |
-| `--color-surface-alt` | `#EFECE4` | Section band, table header row |
-| `--color-border` | `#DAD4C6` | Hairline borders on tables, cards, dividers |
-| `--color-border-strong` | `#B7B0A0` | Interactive border, focused input |
-| `--color-ink` | `#1B1D22` | Primary body text (steel-black, not pure black — matches the wrench in the logo) |
-| `--color-ink-muted` | `#4B5058` | Secondary text, captions, table cell secondary |
-| `--color-ink-soft` | `#6A6F79` | Placeholder, disabled, meta |
-| `--color-brand-gold` | `#B8862B` | Primary brand accent — CTAs, key numbers, hero underline |
-| `--color-brand-gold-hover` | `#9C6F1E` | CTA hover / active |
-| `--color-brand-gold-soft` | `#EFDDB8` | Gold background wash (subtle, e.g. quote-block) |
-| `--color-brand-steel` | `#2E3A46` | Supporting industrial navy/steel — header text, section H2 |
-| `--color-brand-steel-soft` | `#DDE3E9` | Steel wash (industry cards) |
-| `--color-focus` | `#0A66C2` | Accessible focus ring (contrasts on both `--color-bg` and `--color-surface`) |
-| `--color-success` | `#1F7A3A` | Form success |
-| `--color-warning` | `#8A5A00` | Form warning / verification-required banner |
-| `--color-danger` | `#B4231C` | Form error |
+| `--color-bg` | `#F7F5F0` | Off-white page background — business-card ground (logo background is pure white; we keep the warmer off-white for large surface area comfort). |
+| `--color-surface` | `#FFFFFF` | Card / panel surface, matches logo background exactly. |
+| `--color-surface-alt` | `#EFECE4` | Section band, table header row. |
+| `--color-border` | `#DAD4C6` | Hairline borders on tables, cards, dividers. |
+| `--color-border-strong` | `#7A7568` | Interactive border, focused input — darkened from the draft `#B7B0A0` to reach 3:1 UI contrast on both surfaces. |
+| `--color-ink` | `#1B1D22` | Primary body text — steel-black. Extracted dominant ink in the wrench letterform was `#303030`; we deepen to `#1B1D22` for AAA body-text contrast. |
+| `--color-ink-muted` | `#4B5058` | Secondary text, captions. |
+| `--color-ink-soft` | `#6A6F79` | Large caption / meta only — not for standard body copy. |
+| `--color-brand-gold` | `#886428` | Primary brand accent — CTAs, key numbers, hero underline. This is the **dominant mid-gold extracted from the KP wordmark**. It replaces the draft `#B8862B` because that lighter hue failed 4.5:1 for white text on gold and for gold body text on off-white. |
+| `--color-brand-gold-hover` | `#6E501F` | CTA hover / active. |
+| `--color-brand-gold-soft` | `#F0E2C0` | Gold background wash — OEM classification banner, quote block. |
+| `--color-brand-gold-strong` | `#5A421A` | Reserved for gold-on-gold-soft body text (e.g. text label inside gold banner). |
+| `--color-brand-steel` | `#2E3A46` | Supporting industrial navy — headings, secondary buttons. |
+| `--color-brand-steel-soft` | `#DDE3E9` | Steel wash (industry cards). |
+| `--color-brand-silver` | `#ACACAC` | **Logo-derived silver** — sampled from the wrench letterform. Used for iconography accents, silver-metal edge highlights, and the trading-classification banner. Never used for text on the light background. |
+| `--color-brand-silver-soft` | `#E5E5E5` | Trading-classification banner background. |
+| `--gradient-metal` | `linear-gradient(90deg,#ACACAC 0%,#C9B87A 50%,#886428 100%)` | Silver → gold metallic sweep for hero underline and decorative rules only. |
+| `--color-focus` | `#0A66C2` | Fallback focus ring when the element sits on a gold surface. |
+| `--color-success` | `#1F7A3A` | Form success. |
+| `--color-warning` | `#8A5A00` | Form warning / verification-required banner. |
+| `--color-danger` | `#B4231C` | Form error. |
 
-Contrast targets: primary text on background ≥ 7:1 (AAA where possible), secondary text ≥ 4.5:1. Gold text on background is only for large display (≥ 24 px) or on `--color-brand-steel` (dark on light gold background).
+Focus ring: `2px solid var(--color-brand-gold)` at `outline-offset: 2px` on all focusable elements. On gold surfaces the ring switches to `--color-focus` (`#0A66C2`) via the `data-on-gold` scope.
+
+**All 30 foreground × background pairs actually used in the UI pass WCAG AA. See the report.**
 
 ## 3. Typography
 

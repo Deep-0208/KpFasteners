@@ -10,5 +10,5 @@ export const metadata: Metadata = buildMetadata({
 });
 
 export default function Page() {
-  return <StubPage path="/products/stud-bolts/" title="Stud Bolts" />;
+  return <StubPage path="/products/stud-bolts/" title="Stud Bolts" classification="oem" />;
 }

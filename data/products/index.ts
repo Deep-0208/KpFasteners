@@ -1,3 +1,96 @@
-import type { ProductCategory } from '@/types/product';
+/**
+ * Product classification — reflects the OEM / trading split confirmed by
+ * Kabir Panchal on 2026-09-30 (see docs/business-profile.md §2b).
+ *
+ *   oem       — manufactured in-house at the Ahmedabad plant.
+ *   trading   — distributed only; sourced from partners.
+ *   ambiguous — mix of in-house and partner supply (SKU-specific).
+ */
+export type ProductClassification = 'oem' | 'trading' | 'ambiguous';
 
-export const productCategories: ProductCategory[] = [];
+export interface ProductCategory {
+  slug: string;
+  path: string;
+  name: string;
+  shortDescription: string;
+  classification: ProductClassification;
+  verifiedAt?: string;
+}
+
+export const productCategories: ProductCategory[] = [
+  {
+    slug: 'foundation-bolts',
+    path: '/products/foundation-bolts/',
+    name: 'Foundation Bolts',
+    shortDescription:
+      'J-, L-, U-type and hooked foundation / anchor bolts for civil and industrial anchoring.',
+    classification: 'oem',
+  },
+  {
+    slug: 'stud-bolts',
+    path: '/products/stud-bolts/',
+    name: 'Stud Bolts',
+    shortDescription: 'Metric and imperial stud bolts for flange and structural applications.',
+    classification: 'oem',
+  },
+  {
+    slug: 'sag-rods',
+    path: '/products/sag-rods/',
+    name: 'Sag Rods',
+    shortDescription:
+      'Threaded sag rods for PEB purlin bracing, structural steel, and solar racking cross-bracing.',
+    classification: 'oem',
+  },
+  {
+    slug: 'scaffold-accessories',
+    path: '/products/scaffold-accessories/',
+    name: 'Scaffold Accessories',
+    shortDescription:
+      'Scaffolding fastener accessories — manufactured and supplied, SKU-specific.',
+    classification: 'ambiguous',
+  },
+  {
+    slug: 'hex-bolts-nuts',
+    path: '/products/hex-bolts-nuts/',
+    name: 'Hex Bolts & Nuts',
+    shortDescription:
+      'Hex head bolts and hex nuts across metric and imperial standards — distribution range.',
+    classification: 'trading',
+  },
+  {
+    slug: 'csk-allen-bolts',
+    path: '/products/csk-allen-bolts/',
+    name: 'CSK Allen Bolts',
+    shortDescription:
+      'Countersunk socket-head cap screws — distribution range across grades and finishes.',
+    classification: 'trading',
+  },
+  {
+    slug: 'tie-rods',
+    path: '/products/tie-rods/',
+    name: 'Tie Rods',
+    shortDescription:
+      'Threaded tie rods and turnbuckle assemblies — distribution range.',
+    classification: 'trading',
+  },
+  {
+    slug: 'solar-accessories',
+    path: '/products/solar-accessories/',
+    name: 'Solar Accessories',
+    shortDescription:
+      'MMS bolts, T-head bolts, hanger bolts, module clamps — distribution range.',
+    classification: 'trading',
+  },
+  {
+    slug: 'custom-fasteners',
+    path: '/products/custom-fasteners/',
+    name: 'Custom Fasteners',
+    shortDescription:
+      'Drawing-based sourcing for non-standard fasteners — distribution / partner-supply.',
+    classification: 'trading',
+  },
+];
+
+export function findProduct(slug: string): ProductCategory | undefined {
+  return productCategories.find((p) => p.slug === slug);
+}

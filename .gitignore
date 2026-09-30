@@ -48,6 +48,9 @@ pnpm-debug.log*
 GST*
 URC*
 
+# competitor research — copyrighted competitor HTML, keep local only
+srgfasteners.com-audit/
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts

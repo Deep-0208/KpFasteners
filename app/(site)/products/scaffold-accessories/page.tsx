@@ -10,5 +10,5 @@ export const metadata: Metadata = buildMetadata({
 });
 
 export default function Page() {
-  return <StubPage path="/products/scaffold-accessories/" title="Scaffold Accessories" />;
+  return <StubPage path="/products/scaffold-accessories/" title="Scaffold Accessories" classification="ambiguous" />;
 }

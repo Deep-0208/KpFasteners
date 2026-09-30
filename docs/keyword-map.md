@@ -24,11 +24,19 @@ Priority scale: **P0** blocks launch, **P1** high SEO/UX/conversion impact, **P2
 
 Updated 2026-09-29 to match KP's actual product mix confirmed on the IndiaMART storefront (Nuts, Bolts, Anchor / Foundation Bolts, Scaffold Accessories, Solar Accessories, CSK Allen Bolts, Stud Bolts, Tie Rods). Categories not yet confirmed (Hex Nuts as a standalone page, Washers, Socket Screws generally) are held out of v1 pending client confirmation.
 
+**Revised 2026-09-30 — OEM vs. distribution split (Kabir Panchal, WhatsApp):**
+- **OEM (manufactured in-house):** `/products/foundation-bolts/`, `/products/stud-bolts/`, `/products/sag-rods/` (new — P0), and the anchor-bolt SKUs consolidated under `/products/foundation-bolts/`.
+- **Ambiguous (make-or-supply per SKU):** `/products/scaffold-accessories/`.
+- **Distribution only (trading, not manufactured):** `/products/hex-bolts-nuts/`, `/products/csk-allen-bolts/`, `/products/tie-rods/`, `/products/solar-accessories/`, `/products/custom-fasteners/`.
+
+Titles, meta descriptions and Product schema for the distribution rows must **not** claim manufacture. The primary-keyword column below is unchanged where the keyword itself does not assert manufacture; where a distribution page had `... manufacturer` as its primary keyword, the working title/meta shifts to `... supplier` or `... distribution range` (schema uses `seller`, not `manufacturer`).
+
 | URL | Primary keyword | Secondary keywords | Intent | Value | Priority |
 |---|---|---|---|---|---|
 | `/products/` | industrial fasteners manufacturer | fastener product range, bolt nut manufacturer ahmedabad | Commercial | High (hub) | **P0** |
 | `/products/foundation-bolts/` | foundation bolts manufacturer | anchor bolts, j bolts, l bolts, hold-down bolts, ms foundation bolts | Transactional | **Highest** (their active product line) | **P0** |
 | `/products/stud-bolts/` | stud bolts manufacturer | astm a193 b7 studs, threaded studs, tie rod studs | Transactional | High | **P0** |
+| `/products/sag-rods/` | sag rods manufacturer | sag rod for purlin, purlin sag rod supplier, threaded sag rod india, sag rod for solar racking | Transactional | High (OEM line, greenfield SERP) | **P0** *[cluster TBD]* |
 | `/products/tie-rods/` | tie rod manufacturer | threaded tie rods, formwork tie rods, scaffolding tie rods | Transactional | Medium–High | P1 |
 | `/products/csk-allen-bolts/` | csk allen bolts manufacturer | countersunk socket head bolts, csk socket screws | Transactional | Medium | P1 |
 | `/products/scaffold-accessories/` | scaffold accessories manufacturer | scaffolding fasteners, formwork fasteners, wing nut, tie rod nut | Transactional | High (construction sector) | **P0** |

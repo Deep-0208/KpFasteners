@@ -4,15 +4,39 @@ export interface SpecRow {
   cells: ReactNode[];
 }
 
-export function SpecTable({ headers, rows, caption }: { headers: string[]; rows: SpecRow[]; caption?: string }) {
+/**
+ * Responsive spec table.
+ *   - Horizontal scroll below the sm breakpoint.
+ *   - First column is sticky on mobile so row labels stay visible while the user pans.
+ *   - Cells use tabular-nums for aligned numeric comparison.
+ */
+export function SpecTable({
+  headers,
+  rows,
+  caption,
+}: {
+  headers: string[];
+  rows: SpecRow[];
+  caption?: string;
+}) {
   return (
     <div className="overflow-x-auto rounded-lg border border-border">
       <table className="min-w-full text-sm">
-        {caption && <caption className="p-2 text-left text-ink-muted">{caption}</caption>}
+        {caption && (
+          <caption className="p-2 text-left text-ink-muted">{caption}</caption>
+        )}
         <thead className="bg-surface-alt">
           <tr>
-            {headers.map((h) => (
-              <th key={h} className="px-3 py-2 text-left font-semibold text-brand-steel">
+            {headers.map((h, i) => (
+              <th
+                key={h}
+                scope="col"
+                className={
+                  i === 0
+                    ? 'sticky left-0 z-10 bg-surface-alt px-3 py-2 text-left font-semibold text-brand-steel'
+                    : 'px-3 py-2 text-left font-semibold text-brand-steel'
+                }
+              >
                 {h}
               </th>
             ))}
@@ -22,7 +46,14 @@ export function SpecTable({ headers, rows, caption }: { headers: string[]; rows:
           {rows.map((row, i) => (
             <tr key={i} className="border-t border-border">
               {row.cells.map((c, j) => (
-                <td key={j} className="px-3 py-2 font-mono tabular-nums text-ink">
+                <td
+                  key={j}
+                  className={
+                    j === 0
+                      ? 'sticky left-0 z-10 bg-surface px-3 py-2 font-mono tabular-nums text-ink'
+                      : 'px-3 py-2 font-mono tabular-nums text-ink'
+                  }
+                >
                   {c}
                 </td>
               ))}

@@ -45,6 +45,7 @@ export const routes: CanonicalRoute[] = [
   productsHub,
   p('/products/foundation-bolts/', 'Foundation Bolts', 'products', productsHub),
   p('/products/stud-bolts/', 'Stud Bolts', 'products', productsHub),
+  p('/products/sag-rods/', 'Sag Rods', 'products', productsHub),
   p('/products/tie-rods/', 'Tie Rods', 'products', productsHub),
   p('/products/csk-allen-bolts/', 'CSK Allen Bolts', 'products', productsHub),
   p('/products/scaffold-accessories/', 'Scaffold Accessories', 'products', productsHub),

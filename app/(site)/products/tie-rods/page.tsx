@@ -4,11 +4,11 @@ import { StubPage } from '@/components/ui/StubPage';
 
 export const metadata: Metadata = buildMetadata({
   path: '/products/tie-rods/',
-  title: "Tie Rods Manufacturer — KP Fasteners Ahmedabad",
-  description: "KP Fasteners supplies tie rods for formwork and structural applications, threaded to specification with matching wing nuts and water stoppers.",
+  title: "Tie Rods Supplier — KP Fasteners Ahmedabad",
+  description: "Tie rods and turnbuckle assemblies for formwork and structural applications — supplied as part of the KP Fasteners distribution range.",
   noindex: true,
 });
 
 export default function Page() {
-  return <StubPage path="/products/tie-rods/" title="Tie Rods" />;
+  return <StubPage path="/products/tie-rods/" title="Tie Rods" classification="trading" />;
 }

@@ -1,23 +1,49 @@
 @import "tailwindcss";
 
+/**
+ * KP Fasteners — light-only palette.
+ * Values derive from the logo (see docs/design-palette-extraction.md)
+ * and are verified against WCAG 2.1 AA (see docs/design-contrast-report.md).
+ * Light-only palette: no dark-mode media query handling anywhere.
+ */
 :root {
+  color-scheme: light;
+
+  /* Surfaces */
   --color-bg: #F7F5F0;
   --color-surface: #FFFFFF;
   --color-surface-alt: #EFECE4;
+
+  /* Borders */
   --color-border: #DAD4C6;
-  --color-border-strong: #B7B0A0;
+  --color-border-strong: #7A7568;
+
+  /* Text */
   --color-ink: #1B1D22;
   --color-ink-muted: #4B5058;
   --color-ink-soft: #6A6F79;
-  --color-brand-gold: #B8862B;
-  --color-brand-gold-hover: #9C6F1E;
-  --color-brand-gold-soft: #EFDDB8;
+
+  /* Brand — logo-derived */
+  --color-brand-gold: #886428;
+  --color-brand-gold-hover: #6E501F;
+  --color-brand-gold-soft: #F0E2C0;
+  --color-brand-gold-strong: #5A421A;
   --color-brand-steel: #2E3A46;
   --color-brand-steel-soft: #DDE3E9;
+  --color-brand-silver: #ACACAC;
+  --color-brand-silver-soft: #E5E5E5;
+
+  /* Metallic gradient — used only on decorative accents (hero underline etc.) */
+  --gradient-metal: linear-gradient(90deg, #ACACAC 0%, #C9B87A 50%, #886428 100%);
+
+  /* State */
   --color-focus: #0A66C2;
   --color-success: #1F7A3A;
   --color-warning: #8A5A00;
   --color-danger: #B4231C;
+
+  /* Font */
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
 }
 
 @theme inline {
@@ -32,8 +58,11 @@
   --color-brand-gold: var(--color-brand-gold);
   --color-brand-gold-hover: var(--color-brand-gold-hover);
   --color-brand-gold-soft: var(--color-brand-gold-soft);
+  --color-brand-gold-strong: var(--color-brand-gold-strong);
   --color-brand-steel: var(--color-brand-steel);
   --color-brand-steel-soft: var(--color-brand-steel-soft);
+  --color-brand-silver: var(--color-brand-silver);
+  --color-brand-silver-soft: var(--color-brand-silver-soft);
   --color-focus: var(--color-focus);
   --color-success: var(--color-success);
   --color-warning: var(--color-warning);
@@ -47,19 +76,49 @@ html {
 body {
   background: var(--color-bg);
   color: var(--color-ink);
+  font-family: var(--font-sans);
   font-size: 16px;
   line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
+/* Global focus ring — gold, high-contrast, always visible on keyboard nav. */
 *:focus-visible {
-  outline: 2px solid var(--color-focus);
+  outline: 2px solid var(--color-brand-gold);
   outline-offset: 2px;
   border-radius: 4px;
 }
 
+/* When the focus target sits on a gold surface, switch to steel-blue so it still shows. */
+.on-gold *:focus-visible,
+[data-on-gold] *:focus-visible {
+  outline-color: var(--color-focus);
+}
+
+/* Utility: subtle metallic underline used on hero + section headings. */
+.underline-metal {
+  background: var(--gradient-metal);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+/* Hero rule — a thin 4px metal band, decorative only. */
+.rule-metal {
+  height: 3px;
+  border: 0;
+  background: var(--gradient-metal);
+  border-radius: 2px;
+}
+
 @media (prefers-reduced-motion: reduce) {
-  * {
+  *,
+  *::before,
+  *::after {
     animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
     transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
   }
 }

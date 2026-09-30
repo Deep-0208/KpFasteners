@@ -7,11 +7,20 @@ interface SectionProps {
   className?: string;
   id?: string;
   'aria-labelledby'?: string;
+  'aria-label'?: string;
+  as?: 'section' | 'aside' | 'div';
 }
 
-export function Section({ children, variant = 'default', className, id, ...rest }: SectionProps) {
+export function Section({
+  children,
+  variant = 'default',
+  className,
+  id,
+  as: Tag = 'section',
+  ...rest
+}: SectionProps) {
   return (
-    <section
+    <Tag
       id={id}
       className={cn(
         'py-12 md:py-16 lg:py-24',
@@ -21,6 +30,6 @@ export function Section({ children, variant = 'default', className, id, ...rest 
       {...rest}
     >
       {children}
-    </section>
+    </Tag>
   );
 }

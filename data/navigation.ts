@@ -23,6 +23,7 @@ export const footerGroups: NavGroup[] = [
     items: [
       { label: 'Foundation Bolts', href: '/products/foundation-bolts/' },
       { label: 'Stud Bolts', href: '/products/stud-bolts/' },
+      { label: 'Sag Rods', href: '/products/sag-rods/' },
       { label: 'Tie Rods', href: '/products/tie-rods/' },
       { label: 'CSK Allen Bolts', href: '/products/csk-allen-bolts/' },
       { label: 'Scaffold Accessories', href: '/products/scaffold-accessories/' },

@@ -20,6 +20,7 @@ Every entry mirrors [`keyword-map.md`](keyword-map.md). If the two ever disagree
 │  ├─ /products/hex-nuts/                  [P0]
 │  ├─ /products/socket-screws/             [P1]
 │  ├─ /products/studs-threaded-rods/       [P1]
+│  ├─ /products/sag-rods/                  [P0]  (OEM — added 2026-09-30)
 │  ├─ /products/washers/                   [P1]
 │  ├─ /products/anchor-foundation-bolts/   [P2]
 │  └─ /products/custom-fasteners/          [P1]

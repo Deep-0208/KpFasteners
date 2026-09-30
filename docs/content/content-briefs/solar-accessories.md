@@ -1,12 +1,14 @@
 # Content Brief: Solar Accessories
 
+> **REVISED 2026-09-30 — KP does not manufacture solar accessories; page repositioned as distribution + integration guide.** Kabir Panchal confirmed on 2026-09-30 that solar accessories are **trading only** in KP's product mix (`docs/business-profile.md §2b`). Sections **§2 (Schema types)** and **§3 H2 "Why KP wins"** have been rewritten below. The rest of the outline (dimensional matrices, coating decision, application matrix, FAQ) remains valid for a distribution page and stays untouched.
+
 Route: `/products/solar-accessories/`
 Priority: **P0**
-Cluster: **C12 — Solar Accessories (ANCHOR, greenfield vs SRG)**
+Cluster: **C12 — Solar Accessories (distribution page — no OEM claim)** `[distribution]`
 Owner (writer): TBD
 Reviewer (client): Mr. Pramod Panchal / Kabir Panchal
-Client-verification status: Solar-SKU catalogue, SS 304 vs SS 316 vs HDG mix, MMS-specific stock (T-head bolts, channel nuts, module clamps), coating salt-spray claim, MOQ, lead time, dispatch pin codes, EPC references, real product photography — all pending. See §10.
-Verified-as-of: 2026-09-29
+Client-verification status: Vendor list, SS 304 vs SS 316 vs HDG mix stocked, MMS-specific SKUs (T-head bolts, channel nuts, module clamps), coating salt-spray claim (from the vendors' own MTCs), MOQ, lead time, dispatch pin codes, EPC references, real product photography — all pending. See §10.
+Verified-as-of: 2026-09-30
 
 ---
 
@@ -20,10 +22,10 @@ Verified-as-of: 2026-09-29
   3. `mms fasteners`
   4. `solar bolts ss 304`
   5. `t head bolt solar` / `solar hex bolt m8 m10`
-- **Why KP wins on this SERP (evidence):**
-  - SRG has **no** dedicated solar-fastener page — SRG's nearest touch is a single "solar mounting structures" mention on the homepage as an application, and no `/industries/renewable-energy` route exists (per SRG audit `findings/sxo.md` §4: "Very weak / none"). Greenfield.
-  - KP already lists **Solar Accessories** as a self-declared category on IndiaMART (business-profile.md §1). Real inventory exists.
-  - No dominant Indian solar-fastener specialist ranks against the query set — SERP is a mix of MMS structure sellers and generic bolt marketplaces. A B2B page anchored on SS 304 / SS 316 + coastal decision framework will outperform them.
+- **Why KP wins on this SERP (evidence, distribution-page framing):**
+  - SRG has **no** dedicated solar-fastener page (`findings/sxo.md` §4). Greenfield.
+  - KP is a **specialist industrial fastener distributor** in Ahmedabad — a single procurement contact with an OEM anchor / foundation-bolt catalogue as adjacency. For an EPC buying a mixed BOQ this is a stronger value proposition than the pure MMS structure sellers who dominate the current SERP: one PO, one dispatch, and the KP team can also quote the substructure anchor bolts they manufacture.
+  - The page never claims "we manufacture solar bolts". It **does** claim: stock breadth, coating decision guidance (coastal-vs-inland SS 304 / SS 316 / HDG), and the ability to consolidate a rooftop/ground-mount BOQ with the OEM foundation-bolt line.
   - Depth wedge: a "which fastener for which mount type" decision matrix (§4.3) does not exist on SRG or any of the current top-10; this is a passage-citability engine for AI Overviews and ChatGPT.
 
 ---
@@ -32,15 +34,15 @@ Verified-as-of: 2026-09-29
 
 - **Primary keyword:** `solar mounting accessories manufacturer`
 - **Secondary keywords (from cluster C12):** `solar structure fasteners`, `mms fasteners`, `solar bolts ss 304`, `t head bolt solar`, `hanger bolt epdm washer`
-- **Title tag (58 chars):** `Solar Mounting Accessories Manufacturer | SS 304/316 | KP`
-- **Meta description (159 chars):** `T-head bolts, module clamps, MMS bolts and hanger bolts for rooftop and ground-mount solar. SS 304, SS 316 coastal, HDG steel. Ahmedabad-manufactured. Request BOQ.`
+- **Title tag (55 chars):** `Solar Mounting Accessories Supplier | SS 304/316 | KP`
+- **Meta description (159 chars):** `T-head bolts, module clamps, MMS bolts and hanger bolts for rooftop and ground-mount solar. SS 304, SS 316 coastal, HDG steel. Distribution range from KP Fasteners.`
 - **Canonical URL:** `https://kpfasteners.com/products/solar-accessories/`
 - **Open Graph title:** `Solar Mounting Accessories — SS 304 / SS 316 / HDG`
-- **Open Graph description:** `Fasteners for MMS, rooftop, ground-mount and tracker solar plants. T-head bolts, purlin bolts, mid & end clamps, hanger bolts, channel nuts. From KP Fasteners, Ahmedabad.`
+- **Open Graph description:** `Distribution range for MMS, rooftop, ground-mount and tracker solar plants. T-head bolts, purlin bolts, mid & end clamps, hanger bolts, channel nuts. Sourced by KP Fasteners, Ahmedabad.`
 - **Open Graph image filename:** `og-solar-accessories-kp-fasteners.webp` (1200x630, hero photo of module-clamp + T-head bolt + channel nut assembly on a rail cross-section).
 - **Schema types (JSON-LD):**
   - `BreadcrumbList` — Home > Products > Solar Accessories.
-  - `Product` — name, description, category "Solar mounting fasteners", brand = KP Fasteners, `material` array (SS 304 / SS 316 / HDG carbon steel), **no `offers.price`** (BOQ-only). Include `additionalType` = `https://schema.org/Product` and use `isRelatedTo` back to `/industries/solar-mounting-fasteners/`.
+  - `Product` — name, description, category "Solar mounting fasteners", `material` array (SS 304 / SS 316 / HDG carbon steel), **`seller` = KP Fasteners Organization @id** (distribution range — KP is the seller, not the manufacturer). `brand` is set only if the vendor brand is known and on the page; otherwise `brand` is omitted (do NOT fake a KP brand on trading SKUs). **No `manufacturer` node.** No `offers.price` (BOQ-only). Include `isRelatedTo` back to `/industries/solar-mounting-fasteners/`.
   - `FAQPage` — mapped 1:1 to visible FAQ (§5).
   - `Organization` (inherited).
   - **Do NOT include `AggregateRating`** — same reason as C07 (SRG's fabricated 4.9/128 pattern flagged in `findings/schema.md`).

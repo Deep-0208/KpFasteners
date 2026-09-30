@@ -12,12 +12,12 @@ const root = resolve(__dirname, '..');
 const source = join(root, 'logo.jpg.jpeg');
 const appDir = join(root, 'app');
 
-const GOLD = { r: 0xB8, g: 0x86, b: 0x2B };
+const GOLD = { r: 0x88, g: 0x64, b: 0x28 };
 
 function fallbackBuffer(size) {
   const svg = `<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="${size}" height="${size}" viewBox="0 0 ${size} ${size}">
-  <rect width="${size}" height="${size}" fill="#B8862B"/>
+  <rect width="${size}" height="${size}" fill="#886428"/>
   <text x="50%" y="50%" font-family="Inter, Arial, sans-serif" font-weight="700" font-size="${Math.round(size * 0.5)}"
         fill="#FFFFFF" text-anchor="middle" dominant-baseline="central">KP</text>
 </svg>`;

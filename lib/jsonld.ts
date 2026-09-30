@@ -73,6 +73,8 @@ export function breadcrumbs(trail: BreadcrumbEntry[]) {
   };
 }
 
+import type { ProductClassification } from '@/data/products/index';
+
 export interface ProductJsonLdInput {
   name: string;
   description: string;
@@ -80,10 +82,19 @@ export interface ProductJsonLdInput {
   material?: string;
   image?: string;
   path: string;
+  /**
+   * OEM       — manufactured in-house. Sets `manufacturer` to the KP Organization @id.
+   * trading   — distribution range. Sets `seller` to the KP Organization @id; `brand`
+   *             is the supplied brand if known, otherwise omitted (never faked as KP).
+   * ambiguous — some SKUs are OEM, others are supplied. Sets `seller` only.
+   */
+  classification: ProductClassification;
+  /** Brand name for `trading` items where the actual manufacturer's brand is known. */
+  brand?: string;
 }
 
 export function product(p: ProductJsonLdInput) {
-  return {
+  const base = {
     '@context': 'https://schema.org',
     '@type': 'Product',
     name: p.name,
@@ -91,10 +102,21 @@ export function product(p: ProductJsonLdInput) {
     category: p.category,
     ...(p.material ? { material: p.material } : {}),
     ...(p.image ? { image: `${SITE_URL}${p.image}` } : {}),
-    brand: { '@type': 'Brand', name: company.legalName },
-    manufacturer: { '@id': ORG_ID },
     url: `${SITE_URL}${p.path}`,
-  };
+  } as Record<string, unknown>;
+
+  if (p.classification === 'oem') {
+    base.brand = { '@type': 'Brand', name: company.legalName };
+    base.manufacturer = { '@id': ORG_ID };
+  } else if (p.classification === 'trading') {
+    base.seller = { '@id': ORG_ID };
+    if (p.brand) base.brand = { '@type': 'Brand', name: p.brand };
+  } else {
+    // ambiguous — some SKUs OEM, others sourced. Only seller is safe.
+    base.seller = { '@id': ORG_ID };
+  }
+
+  return base;
 }
 
 export function faqPage(items: { question: string; answer: string }[]) {

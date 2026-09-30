@@ -49,12 +49,13 @@ Runners-up: C08 stud-bolts (oil & gas EPC lane), C11 scaffold-accessories (Ahmed
 | C06 | Products Hub | `/products/` | industrial fasteners manufacturer | P0 |
 | **C07** | **Foundation Bolts (ANCHOR)** | `/products/foundation-bolts/` | foundation bolts manufacturer | **P0** |
 | C08 | Stud Bolts | `/products/stud-bolts/` | stud bolts manufacturer | P0 |
-| C09 | Tie Rods | `/products/tie-rods/` | tie rod manufacturer | P1 |
-| C10 | CSK Allen Bolts | `/products/csk-allen-bolts/` | csk allen bolts manufacturer | P1 |
+| C09 | Tie Rods | `/products/tie-rods/` | tie rod manufacturer `[distribution]` | P1 |
+| C10 | CSK Allen Bolts | `/products/csk-allen-bolts/` | csk allen bolts manufacturer `[distribution]` | P1 |
 | C11 | Scaffold Accessories | `/products/scaffold-accessories/` | scaffold accessories manufacturer | P0 |
-| **C12** | **Solar Accessories (ANCHOR)** | `/products/solar-accessories/` | solar mounting accessories manufacturer | **P0** |
-| C13 | Hex Bolts & Nuts | `/products/hex-bolts-nuts/` | hex bolts and nuts manufacturer | P1 |
-| C14 | Custom Fasteners | `/products/custom-fasteners/` | custom fasteners manufacturer | P1 |
+| **C12** | **Solar Accessories (ANCHOR)** | `/products/solar-accessories/` | solar mounting accessories manufacturer `[distribution]` | **P0** |
+| C13 | Hex Bolts & Nuts | `/products/hex-bolts-nuts/` | hex bolts and nuts manufacturer `[distribution]` | P1 |
+| C14 | Custom Fasteners | `/products/custom-fasteners/` | custom fasteners manufacturer `[distribution]` | P1 |
+| **C-SAG** | **Sag Rods (OEM, added 2026-09-30)** | `/products/sag-rods/` | sag rods manufacturer | **P0** *(id to be finalised)* |
 | C15 | High Tensile (material) | `/materials/high-tensile-fasteners/` | high tensile bolts manufacturer | P1 |
 | C16 | Stainless Steel (material) | `/materials/stainless-steel-fasteners/` | stainless steel fasteners manufacturer | P1 |
 | C17 | Solar Industry | `/industries/solar-mounting-fasteners/` | solar mounting bolts supplier | P1 |

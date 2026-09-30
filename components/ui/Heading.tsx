@@ -4,13 +4,23 @@ import { cn } from '@/lib/format';
 type Variant = 'hero' | 'section' | 'subsection' | 'card';
 type Level = 'h1' | 'h2' | 'h3' | 'h4';
 
+/**
+ * The `variant` sets the visual scale.
+ * The `as` prop sets the semantic level and MUST match the outline of the page
+ * (a section H2 uses `as="h2"`; a card title inside that section uses `as="h3"`).
+ */
 const VARIANT_CLASSES: Record<Variant, string> = {
-  hero: 'text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight',
+  hero: 'text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight leading-[1.05]',
   section: 'text-2xl sm:text-3xl md:text-4xl font-bold tracking-tight',
   subsection: 'text-xl sm:text-2xl md:text-3xl font-semibold',
   card: 'text-lg sm:text-xl font-semibold',
 };
 
+/**
+ * `as` and `variant` are not required to align (a hero H1 uses `as="h1"` variant `"hero"`;
+ * a section H2 uses `as="h2"` variant `"section"`). But: the same level should never appear
+ * at two different variants on a page, and levels must not be skipped.
+ */
 interface HeadingProps {
   as: Level;
   variant: Variant;
