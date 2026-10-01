@@ -15,26 +15,36 @@ const WA_URL =
   encodeURIComponent(company.whatsapp.prefill);
 const TEL = `tel:${company.telephones[0].replace(/[^\d+]/g, '')}`;
 
+const findCat = (slug: string) => productCategories.find((p) => p.slug === slug)!;
+
 const oemCards = [
   {
     name: 'Foundation / Anchor Bolts',
     value: 'J, L, U and hooked anchors — IS 5624, F1554 classes.',
     href: '/products/foundation-bolts/',
+    image: findCat('foundation-bolts').image,
+    imageAlt: findCat('foundation-bolts').imageAlt,
   },
   {
     name: 'Stud Bolts',
     value: 'ASTM A193 B7 / B8 / B8M, DIN 976 — flanges and structural.',
     href: '/products/stud-bolts/',
+    image: findCat('stud-bolts').image,
+    imageAlt: findCat('stud-bolts').imageAlt,
   },
   {
     name: 'Sag Rods',
     value: 'Threaded sag rods for PEB bracing and solar racking.',
     href: '/products/sag-rods/',
+    image: findCat('sag-rods').image,
+    imageAlt: findCat('sag-rods').imageAlt,
   },
   {
     name: 'Scaffold Accessories',
     value: 'Tie-rod nut sets, wing nuts, waller plates — make + supply.',
     href: '/products/scaffold-accessories/',
+    image: findCat('scaffold-accessories').image,
+    imageAlt: findCat('scaffold-accessories').imageAlt,
   },
 ];
 
@@ -43,26 +53,36 @@ const tradingCards = [
     name: 'Hex Bolts & Nuts',
     value: 'Metric and imperial, grades 4.6 to 10.9.',
     href: '/products/hex-bolts-nuts/',
+    image: findCat('hex-bolts-nuts').image,
+    imageAlt: findCat('hex-bolts-nuts').imageAlt,
   },
   {
     name: 'CSK Allen Bolts',
     value: 'Countersunk socket cap screws across finishes.',
     href: '/products/csk-allen-bolts/',
+    image: findCat('csk-allen-bolts').image,
+    imageAlt: findCat('csk-allen-bolts').imageAlt,
   },
   {
     name: 'Tie Rods',
     value: 'Formwork tie rods and turnbuckle assemblies.',
     href: '/products/tie-rods/',
+    image: findCat('tie-rods').image,
+    imageAlt: findCat('tie-rods').imageAlt,
   },
   {
     name: 'Solar Accessories',
     value: 'MMS bolts, T-head bolts, hanger bolts, module clamps.',
     href: '/products/solar-accessories/',
+    image: findCat('solar-accessories').image,
+    imageAlt: findCat('solar-accessories').imageAlt,
   },
   {
     name: 'Custom Fasteners',
     value: 'Drawing-based sourcing for non-standard SKUs.',
     href: '/products/custom-fasteners/',
+    image: findCat('custom-fasteners').image,
+    imageAlt: findCat('custom-fasteners').imageAlt,
   },
 ];
 
@@ -185,8 +205,14 @@ export default function HomePage() {
                 padding="lg"
                 className="flex h-full flex-col"
               >
-                <div className="aspect-[4/3] w-full rounded-md bg-brand-steel-soft/60 flex items-center justify-center text-xs text-ink-muted">
-                  Product photography pending — contact KP for current catalogue
+                <div className="relative aspect-[4/3] w-full overflow-hidden rounded-md bg-brand-steel-soft/40">
+                  <Image
+                    src={c.image}
+                    alt={c.imageAlt}
+                    fill
+                    sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw"
+                    className="object-contain"
+                  />
                 </div>
                 <Heading as="h3" variant="card" className="mt-4">
                   {c.name}
@@ -220,7 +246,16 @@ export default function HomePage() {
           <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-5">
             {tradingCards.map((c) => (
               <Card key={c.href} variant="default" padding="md" className="flex h-full flex-col">
-                <span className="badge badge-steel w-fit">Distribution range</span>
+                <div className="relative aspect-[4/3] w-full overflow-hidden rounded-md bg-brand-steel-soft/40">
+                  <Image
+                    src={c.image}
+                    alt={c.imageAlt}
+                    fill
+                    sizes="(min-width: 1024px) 20vw, (min-width: 640px) 50vw, 100vw"
+                    className="object-contain"
+                  />
+                </div>
+                <span className="badge badge-steel mt-3 w-fit">Distribution range</span>
                 <Heading as="h3" variant="card" className="mt-3">
                   {c.name}
                 </Heading>
