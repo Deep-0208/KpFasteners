@@ -2,30 +2,29 @@ import Link from 'next/link';
 import type { ReactNode } from 'react';
 import { cn } from '@/lib/format';
 
-type Variant = 'primary' | 'secondary' | 'ghost' | 'link';
+/**
+ * Visual variants map to the `.btn *` classes defined in globals.css so that
+ * the KP-approved gold-gradient / white-card / green-whatsapp treatments are
+ * available from a single component. Ghost + link remain Tailwind-only so
+ * they can layer over dark or coloured surfaces.
+ */
+type Variant = 'primary' | 'secondary' | 'whatsapp' | 'ghost' | 'link';
 type Size = 'sm' | 'md' | 'lg';
-
-const BASE =
-  'inline-flex items-center justify-center gap-2 rounded-md font-semibold ' +
-  'transition-colors transition-shadow duration-150 ' +
-  'focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-gold ' +
-  'disabled:cursor-not-allowed disabled:opacity-60';
 
 const SIZE: Record<Size, string> = {
   sm: 'min-h-[40px] px-4 py-2 text-sm',
-  md: 'min-h-[48px] px-5 py-3 text-sm',
-  lg: 'min-h-[52px] px-6 py-3.5 text-base',
+  md: '',                              // .btn already sets 48px min-h + padding
+  lg: 'min-h-[52px] px-7 py-3.5 text-base',
 };
 
-const VARIANT: Record<Variant, string> = {
-  primary:
-    'bg-brand-gold text-white shadow-card hover:bg-brand-gold-hover active:translate-y-px',
-  secondary:
-    'bg-brand-steel text-white shadow-card hover:bg-[color:var(--color-ink)] active:translate-y-px',
+const BTN_VARIANT: Record<Variant, string> = {
+  primary:   'btn btn-primary',
+  secondary: 'btn btn-secondary',
+  whatsapp:  'btn btn-whatsapp',
   ghost:
-    'border border-border-strong bg-transparent text-brand-steel hover:bg-surface-alt',
+    'inline-flex min-h-[48px] items-center justify-center gap-2 rounded-md border border-border-strong bg-transparent px-5 py-3 font-heading text-sm font-semibold text-brand-steel transition-colors hover:bg-surface-alt focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-gold',
   link:
-    'text-brand-gold-strong underline underline-offset-4 hover:text-brand-gold-hover',
+    'inline-flex items-center gap-1 font-heading text-sm font-semibold text-brand-gold-strong underline underline-offset-4 hover:text-brand-gold-hover focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-gold',
 };
 
 interface CommonProps {
@@ -58,7 +57,7 @@ export function Button(props: AnchorProps | ButtonNativeProps) {
     loading = false,
   } = props;
 
-  const classes = cn(BASE, SIZE[size], VARIANT[variant], className);
+  const classes = cn(BTN_VARIANT[variant], SIZE[size], className);
 
   if ('href' in props && props.href) {
     const { href, target, rel } = props;

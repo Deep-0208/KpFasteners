@@ -18,27 +18,28 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const root = resolve(__dirname, '..');
 
 // Tokens (kept in one place; must mirror app/globals.css)
+// Palette updated 2026-09-30 to match the client-approved kpfastner_old demo.
 const T = {
-  bg:                '#F7F5F0',
+  bg:                '#F8FAFC', // --bg-main
   surface:           '#FFFFFF',
-  surfaceAlt:        '#EFECE4',
-  border:            '#DAD4C6',
-  borderStrong:      '#7A7568',
-  ink:               '#1B1D22',
-  inkMuted:          '#4B5058',
-  inkSoft:           '#6A6F79',
-  brandGold:         '#886428',
-  brandGoldHover:    '#6E501F',
-  brandGoldSoft:     '#F0E2C0',
-  brandGoldStrong:   '#5A421A',
-  brandSteel:        '#2E3A46',
-  brandSteelSoft:    '#DDE3E9',
-  brandSilver:       '#ACACAC',
-  brandSilverSoft:   '#E5E5E5',
-  focus:             '#0A66C2',
-  success:           '#1F7A3A',
-  warning:           '#8A5A00',
-  danger:            '#B4231C',
+  surfaceAlt:        '#F1F5F9', // --bg-card-hover / steel-200
+  border:            '#E2E8F0', // --border-subtle / steel-300
+  borderStrong:      '#64748B', // deviation: steel-600 for 3:1 UI (task-approved nudge)
+  ink:               '#0F172A', // steel-900
+  inkMuted:          '#475569', // steel-700
+  inkSoft:           '#64748B', // steel-600
+  brandGold:         '#B45309', // gold-600 (nudged from gold-500 for AA on white)
+  brandGoldHover:    '#92400E', // gold-700
+  brandGoldSoft:     '#FEF3C7', // gold-100
+  brandGoldStrong:   '#92400E', // gold-700
+  brandSteel:        '#334155', // steel-800
+  brandSteelSoft:    '#F1F5F9', // steel-200
+  brandSilver:       '#94A3B8', // steel-500
+  brandSilverSoft:   '#E2E8F0', // steel-300
+  focus:             '#0284C7', // accent-cyan
+  success:           '#047857', // nudged from #059669 for 4.5:1 on white
+  warning:           '#92400E', // gold-700 (badge-gold text colour)
+  danger:            '#DC2626', // accent-red
   white:             '#FFFFFF',
 };
 

@@ -13,44 +13,77 @@
 - **Colour discipline.** One brand accent (gold) used sparingly on CTAs, one supporting accent (steel/silver-blue) for structural elements. Rest is high-contrast neutrals.
 - **Metallic finishes stay in imagery.** The logo carries the silver + gold gloss; the UI itself uses flat, print-safe versions of those hues.
 
-## 2. Colour tokens (all light-theme, logo-derived, WCAG 2.1 AA validated)
+## 2. Colour tokens (all light-theme, WCAG 2.1 AA validated)
 
-Extraction methodology + raw hex weights: [`design-palette-extraction.md`](design-palette-extraction.md).
-Pair-by-pair contrast: [`design-contrast-report.md`](design-contrast-report.md).
+> **Palette updated 2026-09-30 to match the client-approved demo at
+> `C:\Users\DELL\Desktop\kpfastner_old`.** The earlier logo-extracted palette
+> is documented for the record in [`design-palette-extraction.md`](design-palette-extraction.md).
+> Pair-by-pair contrast against the new palette: [`design-contrast-report.md`](design-contrast-report.md).
 
-| Token | Hex | Role |
+Two naming schemes are exposed. Ramp tokens (`--gold-*`, `--steel-*`) are the
+canonical values; semantic aliases (`--color-*`) resolve to ramp tokens and are
+kept so existing utility classes keep working.
+
+### Ramp — gold (logo 'P' screw + embossed wordmark)
+
+| Token | Hex |
+|---|---|
+| `--gold-50`  | `#FFFDF5` |
+| `--gold-100` | `#FEF3C7` |
+| `--gold-200` | `#FDE68A` |
+| `--gold-300` | `#FCD34D` |
+| `--gold-400` | `#F59E0B` |
+| `--gold-500` | `#D97706` |
+| `--gold-600` | `#B45309` |
+| `--gold-700` | `#92400E` |
+| `--gold-800` | `#78350F` |
+| `--gold-gradient` | `linear-gradient(135deg,#F59E0B 0%,#D97706 60%,#92400E 100%)` |
+
+### Ramp — steel (logo 'K' wrench / high-alloy steel)
+
+| Token | Hex |
+|---|---|
+| `--steel-50`…`--steel-900` | `#FFFFFF #F8FAFC #F1F5F9 #E2E8F0 #CBD5E1 #94A3B8 #64748B #475569 #334155 #0F172A` |
+| `--chrome-gradient` | `linear-gradient(135deg,#475569 0%,#1E293B 50%,#0F172A 100%)` |
+
+### Semantic aliases
+
+| Token | Resolves to | Role |
 |---|---|---|
-| `--color-bg` | `#F7F5F0` | Off-white page background — business-card ground (logo background is pure white; we keep the warmer off-white for large surface area comfort). |
-| `--color-surface` | `#FFFFFF` | Card / panel surface, matches logo background exactly. |
-| `--color-surface-alt` | `#EFECE4` | Section band, table header row. |
-| `--color-border` | `#DAD4C6` | Hairline borders on tables, cards, dividers. |
-| `--color-border-strong` | `#7A7568` | Interactive border, focused input — darkened from the draft `#B7B0A0` to reach 3:1 UI contrast on both surfaces. |
-| `--color-ink` | `#1B1D22` | Primary body text — steel-black. Extracted dominant ink in the wrench letterform was `#303030`; we deepen to `#1B1D22` for AAA body-text contrast. |
-| `--color-ink-muted` | `#4B5058` | Secondary text, captions. |
-| `--color-ink-soft` | `#6A6F79` | Large caption / meta only — not for standard body copy. |
-| `--color-brand-gold` | `#886428` | Primary brand accent — CTAs, key numbers, hero underline. This is the **dominant mid-gold extracted from the KP wordmark**. It replaces the draft `#B8862B` because that lighter hue failed 4.5:1 for white text on gold and for gold body text on off-white. |
-| `--color-brand-gold-hover` | `#6E501F` | CTA hover / active. |
-| `--color-brand-gold-soft` | `#F0E2C0` | Gold background wash — OEM classification banner, quote block. |
-| `--color-brand-gold-strong` | `#5A421A` | Reserved for gold-on-gold-soft body text (e.g. text label inside gold banner). |
-| `--color-brand-steel` | `#2E3A46` | Supporting industrial navy — headings, secondary buttons. |
-| `--color-brand-steel-soft` | `#DDE3E9` | Steel wash (industry cards). |
-| `--color-brand-silver` | `#ACACAC` | **Logo-derived silver** — sampled from the wrench letterform. Used for iconography accents, silver-metal edge highlights, and the trading-classification banner. Never used for text on the light background. |
-| `--color-brand-silver-soft` | `#E5E5E5` | Trading-classification banner background. |
-| `--gradient-metal` | `linear-gradient(90deg,#ACACAC 0%,#C9B87A 50%,#886428 100%)` | Silver → gold metallic sweep for hero underline and decorative rules only. |
-| `--color-focus` | `#0A66C2` | Fallback focus ring when the element sits on a gold surface. |
-| `--color-success` | `#1F7A3A` | Form success. |
-| `--color-warning` | `#8A5A00` | Form warning / verification-required banner. |
-| `--color-danger` | `#B4231C` | Form error. |
+| `--color-bg` | `--bg-main` (`#F8FAFC`) | Page background. |
+| `--color-surface` | `--bg-surface` (`#FFFFFF`) | Card / panel surface. |
+| `--color-surface-alt` | `--bg-card-hover` (`#F1F5F9`) | Section alt band. |
+| `--color-border` | `--border-subtle` (`#E2E8F0`) | Hairline borders. |
+| `--color-border-strong` | `--steel-600` (`#64748B`) | Interactive border. Deviation: task-listed mapping was `--border-medium` but that failed 3:1 UI, so we ramp one step darker. |
+| `--color-ink` | `--steel-900` (`#0F172A`) | Body text. |
+| `--color-ink-muted` | `--steel-700` (`#475569`) | Secondary text. |
+| `--color-ink-soft` | `--steel-600` (`#64748B`) | Large caption / meta only. |
+| `--color-brand-gold` | `--gold-600` (`#B45309`) | Primary gold. Deviation: task-listed mapping was `--gold-500` but that failed 4.5:1 for white-on-gold buttons and gold-on-white accent text; nudged one step per the "next darker gold" rule. |
+| `--color-brand-gold-hover` | `--gold-700` (`#92400E`) | Hover / active. |
+| `--color-brand-gold-soft` | `--gold-100` (`#FEF3C7`) | Gold wash. |
+| `--color-brand-gold-strong` | `--gold-700` (`#92400E`) | Gold-on-gold-soft body text. |
+| `--color-brand-steel` | `--steel-800` (`#334155`) | Heading / secondary. |
+| `--color-brand-steel-soft` | `--steel-200` (`#F1F5F9`) | Steel wash. |
+| `--color-brand-silver` | `--steel-500` (`#94A3B8`) | Iconography. |
+| `--color-brand-silver-soft` | `--steel-300` (`#E2E8F0`) | Trading-banner background. |
+| `--color-focus` | `--accent-cyan` (`#0284C7`) | Focus ring on gold surfaces. |
+| `--color-success` | `--accent-green` (`#047857`, nudged from `#059669` for AA) | Form success. |
+| `--color-warning` | `--gold-700` (`#92400E`) | Verification-required banner. |
+| `--color-danger` | `--accent-red` (`#DC2626`) | Form error. |
 
-Focus ring: `2px solid var(--color-brand-gold)` at `outline-offset: 2px` on all focusable elements. On gold surfaces the ring switches to `--color-focus` (`#0A66C2`) via the `data-on-gold` scope.
+The primary CTA sits on `--gold-gradient` (`#F59E0B → #D97706 → #92400E`), so
+white labels pass 4.5:1 across the whole sweep. Focus ring stays gold on light
+surfaces and switches to `--color-focus` on gold surfaces via `data-on-gold`.
 
 **All 30 foreground × background pairs actually used in the UI pass WCAG AA. See the report.**
 
 ## 3. Typography
 
-- **Primary sans:** Inter (variable, self-hosted via `next/font/google`).
-- **Optional display accent:** none on v1 — Inter Semi/Bold covers hero. If required later, add a single industrial display face; do not mix three fonts.
-- **Monospace (spec tables):** JetBrains Mono or Roboto Mono self-hosted; used only inside dimensional/spec tables.
+Three-font system, self-hosted via `next/font/google`:
+
+- **Body sans (`--font-sans`):** Inter (400/500/600/700).
+- **Display / headings (`--font-heading`):** Outfit (600/700/800). Applied to all headings, `.btn` labels, and top-nav / footer titles.
+- **Monospace (`--font-mono`):** JetBrains Mono (400/500/600); used inside `.mono-numbers` / spec-table cells only.
 - **Base body:** 16 px / 1.6 line height, `--color-ink`.
 - **Ramp (mobile → desktop):**
 
@@ -128,9 +161,11 @@ Do **not** ship each of these as a heavy generic UI kit — one file per compone
 - Use tables aggressively — they're where the trust lives.
 - Ship real photos.
 - Keep motion under 200 ms.
+- Use the gold gradient on the primary CTA and hero headline (`.text-gold-gradient`, `.btn-primary`), the metallic-card gold top-strip, and the subtle radial glow + 48px grid on the body. These are approved by the client.
 
 **Don't:**
-- No purple/pink gradients, glassmorphism, glowing borders, neumorphism.
+- No purple/pink gradients. The gold and chrome gradients defined in
+  `globals.css` are the only sanctioned gradients — do not invent others.
 - No hero video autoplay.
 - No stock-render fastener imagery.
 - No dark mode on v1.

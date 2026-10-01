@@ -2,48 +2,104 @@
 
 /**
  * KP Fasteners — light-only palette.
- * Values derive from the logo (see docs/design-palette-extraction.md)
- * and are verified against WCAG 2.1 AA (see docs/design-contrast-report.md).
- * Light-only palette: no dark-mode media query handling anywhere.
+ * Palette updated 2026-09-30 to match the client-approved demo at
+ * `C:\Users\DELL\Desktop\kpfastner_old` (see docs/design.md §2).
+ * Verified against WCAG 2.1 AA (see docs/design-contrast-report.md).
+ * Light-only. No dark-mode media query handling anywhere.
+ *
+ * Fonts are supplied through next/font (see app/layout.tsx) as:
+ *   --font-sans     Inter (body)
+ *   --font-heading  Outfit (display / headings / .btn labels)
+ *   --font-mono     JetBrains Mono (specs, tabular numerals)
  */
 :root {
   color-scheme: light;
 
-  /* Surfaces */
-  --color-bg: #F7F5F0;
-  --color-surface: #FFFFFF;
-  --color-surface-alt: #EFECE4;
+  /* Canvas */
+  --bg-main: #F8FAFC;
+  --bg-surface: #FFFFFF;
+  --bg-card: #FFFFFF;
+  --bg-card-hover: #F1F5F9;
+  --bg-glass: rgba(255, 255, 255, 0.92);
+  --bg-glass-strong: rgba(255, 255, 255, 0.98);
+
+  /* Gold ramp — logo 'P' screw + embossed wordmark */
+  --gold-50:  #FFFDF5;
+  --gold-100: #FEF3C7;
+  --gold-200: #FDE68A;
+  --gold-300: #FCD34D;
+  --gold-400: #F59E0B;
+  --gold-500: #D97706;
+  --gold-600: #B45309;
+  --gold-700: #92400E;
+  --gold-800: #78350F;
+  --gold-glow: rgba(217, 119, 6, 0.25);
+  --gold-gradient:       linear-gradient(135deg, #F59E0B 0%, #D97706 60%, #92400E 100%);
+  --gold-gradient-shine: linear-gradient(135deg, #FDE68A 0%, #F59E0B 50%, #B45309 100%);
+  --gold-gradient-soft:  linear-gradient(135deg, #FFFBEB 0%, #FEF3C7 100%);
+
+  /* Steel ramp — logo 'K' wrench / high-alloy steel */
+  --steel-50:  #FFFFFF;
+  --steel-100: #F8FAFC;
+  --steel-200: #F1F5F9;
+  --steel-300: #E2E8F0;
+  --steel-400: #CBD5E1;
+  --steel-500: #94A3B8;
+  --steel-600: #64748B;
+  --steel-700: #475569;
+  --steel-800: #334155;
+  --steel-900: #0F172A;
+  --chrome-gradient: linear-gradient(135deg, #475569 0%, #1E293B 50%, #0F172A 100%);
+  --chrome-surface:  linear-gradient(145deg, #FFFFFF 0%, #F1F5F9 100%);
+  --chrome-border:   linear-gradient(135deg, #CBD5E1 0%, #94A3B8 50%, #CBD5E1 100%);
+
+  /* Status */
+  --accent-cyan:  #0284C7;
+  --accent-green: #047857; /* nudged from #059669 to hit 4.5:1 on white */
+  --accent-red:   #DC2626;
 
   /* Borders */
-  --color-border: #DAD4C6;
-  --color-border-strong: #7A7568;
+  --border-subtle:    #E2E8F0;
+  --border-medium:    #CBD5E1;
+  --border-strong:    #64748B; /* deviation for 3:1 UI on interactive borders */
+  --border-gold:      #F59E0B;
+  --border-gold-soft: rgba(217, 119, 6, 0.3);
 
-  /* Text */
-  --color-ink: #1B1D22;
-  --color-ink-muted: #4B5058;
-  --color-ink-soft: #6A6F79;
+  /* Shadows */
+  --shadow-sm:   0 1px 3px  rgba(15, 23, 42, 0.08);
+  --shadow-md:   0 4px 16px rgba(15, 23, 42, 0.08);
+  --shadow-lg:   0 12px 32px rgba(15, 23, 42, 0.12);
+  --shadow-gold: 0 8px 24px rgba(217, 119, 6, 0.28);
 
-  /* Brand — logo-derived */
-  --color-brand-gold: #886428;
-  --color-brand-gold-hover: #6E501F;
-  --color-brand-gold-soft: #F0E2C0;
-  --color-brand-gold-strong: #5A421A;
-  --color-brand-steel: #2E3A46;
-  --color-brand-steel-soft: #DDE3E9;
-  --color-brand-silver: #ACACAC;
-  --color-brand-silver-soft: #E5E5E5;
+  /* ---------------------------------------------------------------------- */
+  /* Phase-B aliases — kept so existing utility classes keep working.       */
+  /* NOTE: --color-brand-gold is aliased to --gold-600 (not --gold-500) so  */
+  /* that white-on-gold buttons and gold-on-white accent text both hold    */
+  /* 4.5:1 AA. See docs/design-contrast-report.md.                          */
+  /* ---------------------------------------------------------------------- */
+  --color-bg:               var(--bg-main);
+  --color-surface:          var(--bg-surface);
+  --color-surface-alt:      var(--bg-card-hover);
+  --color-border:           var(--border-subtle);
+  --color-border-strong:    var(--border-strong);
+  --color-ink:              var(--steel-900);
+  --color-ink-muted:        var(--steel-700);
+  --color-ink-soft:         var(--steel-600);
+  --color-brand-gold:       var(--gold-600);
+  --color-brand-gold-hover: var(--gold-700);
+  --color-brand-gold-soft:  var(--gold-100);
+  --color-brand-gold-strong:var(--gold-700);
+  --color-brand-steel:      var(--steel-800);
+  --color-brand-steel-soft: var(--steel-200);
+  --color-brand-silver:     var(--steel-500);
+  --color-brand-silver-soft:var(--steel-300);
+  --color-focus:            var(--accent-cyan);
+  --color-success:          var(--accent-green);
+  --color-warning:          var(--gold-700);
+  --color-danger:           var(--accent-red);
 
-  /* Metallic gradient — used only on decorative accents (hero underline etc.) */
-  --gradient-metal: linear-gradient(90deg, #ACACAC 0%, #C9B87A 50%, #886428 100%);
-
-  /* State */
-  --color-focus: #0A66C2;
-  --color-success: #1F7A3A;
-  --color-warning: #8A5A00;
-  --color-danger: #B4231C;
-
-  /* Font */
-  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  /* Decorative metallic gradient — kept for legacy .rule-metal etc. */
+  --gradient-metal: var(--gold-gradient-shine);
 }
 
 @theme inline {
@@ -69,48 +125,218 @@
   --color-danger: var(--color-danger);
 }
 
+* {
+  box-sizing: border-box;
+}
+
 html {
   color-scheme: light;
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--color-bg);
-  color: var(--color-ink);
+  background-color: var(--bg-main);
+  color: var(--steel-800);
   font-family: var(--font-sans);
   font-size: 16px;
   line-height: 1.6;
+  overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image:
+    radial-gradient(circle at 12% 8%,  rgba(245, 158, 11, 0.07) 0%, transparent 40%),
+    radial-gradient(circle at 88% 65%, rgba(148, 163, 184, 0.12) 0%, transparent 45%),
+    linear-gradient(rgba(148, 163, 184, 0.07) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(148, 163, 184, 0.07) 1px, transparent 1px);
+  background-size: 100% 100%, 100% 100%, 48px 48px, 48px 48px;
 }
 
-/* Global focus ring — gold, high-contrast, always visible on keyboard nav. */
+/* Headings use Outfit, dark steel, tight tracking. */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  color: var(--steel-900);
+  letter-spacing: -0.02em;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+/* Global focus ring. */
 *:focus-visible {
-  outline: 2px solid var(--color-brand-gold);
+  outline: 2px solid var(--gold-600);
   outline-offset: 2px;
   border-radius: 4px;
 }
-
-/* When the focus target sits on a gold surface, switch to steel-blue so it still shows. */
 .on-gold *:focus-visible,
 [data-on-gold] *:focus-visible {
-  outline-color: var(--color-focus);
+  outline-color: var(--accent-cyan);
 }
 
-/* Utility: subtle metallic underline used on hero + section headings. */
+/* -------------------------------------------------------------------------- */
+/* Metallic text                                                              */
+/* -------------------------------------------------------------------------- */
+.text-gold-gradient {
+  background: var(--gold-gradient);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  display: inline-block;
+}
+.text-chrome-gradient {
+  background: var(--chrome-gradient);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  display: inline-block;
+}
+
+/* Legacy hero underline / metal rule (still referenced by /system + hero). */
 .underline-metal {
-  background: var(--gradient-metal);
+  background: var(--gold-gradient-shine);
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
 }
-
-/* Hero rule — a thin 4px metal band, decorative only. */
 .rule-metal {
   height: 3px;
   border: 0;
-  background: var(--gradient-metal);
+  background: var(--gold-gradient-shine);
   border-radius: 2px;
 }
+
+/* -------------------------------------------------------------------------- */
+/* Container / panels / cards                                                 */
+/* -------------------------------------------------------------------------- */
+.glass-panel {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  border-radius: 14px;
+  box-shadow: var(--shadow-sm);
+  transition: border-color 0.25s ease, box-shadow 0.25s ease, transform 0.25s ease;
+}
+.glass-panel:hover {
+  border-color: var(--border-gold);
+  box-shadow: 0 8px 24px rgba(217, 119, 6, 0.12);
+  transform: translateY(-2px);
+}
+
+.metallic-card {
+  background: #FFFFFF;
+  border: 1px solid var(--border-medium);
+  border-radius: 14px;
+  box-shadow: var(--shadow-md);
+  position: relative;
+  overflow: hidden;
+}
+.metallic-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: var(--gold-gradient);
+}
+
+/* -------------------------------------------------------------------------- */
+/* Buttons                                                                    */
+/* -------------------------------------------------------------------------- */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  min-height: 48px;
+  padding: 13px 26px;
+  border-radius: 9px;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 0.96rem;
+  line-height: 1;
+  letter-spacing: 0.01em;
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, background-color 0.25s ease, filter 0.25s ease;
+}
+
+.btn-primary {
+  background: var(--gold-gradient);
+  color: #FFFFFF;
+  box-shadow: var(--shadow-gold);
+}
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 26px rgba(217, 119, 6, 0.4);
+  filter: brightness(1.05);
+}
+
+.btn-secondary {
+  background: #FFFFFF;
+  color: var(--steel-800);
+  border-color: var(--border-medium);
+  box-shadow: var(--shadow-sm);
+}
+.btn-secondary:hover {
+  background: var(--steel-100);
+  border-color: var(--steel-600);
+  transform: translateY(-2px);
+}
+
+.btn-whatsapp {
+  background: #16A34A;
+  color: #FFFFFF;
+  box-shadow: 0 6px 18px rgba(22, 163, 74, 0.28);
+}
+.btn-whatsapp:hover {
+  background: #15803D;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 22px rgba(22, 163, 74, 0.38);
+}
+
+/* -------------------------------------------------------------------------- */
+/* Badges                                                                     */
+/* -------------------------------------------------------------------------- */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 13px;
+  border-radius: 9999px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+}
+.badge-gold {
+  background: #FEF3C7;
+  color: #92400E; /* gold-700 for 4.5:1 on the light wash */
+  border-color: #FCD34D;
+}
+.badge-steel {
+  background: #F1F5F9;
+  color: #334155; /* steel-800 for 4.5:1 on the light wash */
+  border-color: #CBD5E1;
+}
+.badge-green {
+  background: #ECFDF5;
+  color: #065F46;
+  border-color: #A7F3D0;
+}
+
+/* Tabular figures for weights / specs. */
+.mono-numbers {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+}
+
+/* Custom scrollbar. */
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-track { background: var(--bg-main); }
+::-webkit-scrollbar-thumb { background: var(--steel-400); border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: var(--gold-500); }
 
 @media (prefers-reduced-motion: reduce) {
   *,

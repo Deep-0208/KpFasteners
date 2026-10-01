@@ -1,3 +1,7 @@
+> **SUPERSEDED 2026-09-30 by kpfastner_old demo palette (Kabir-approved).
+> Kept for historical reference.** The live palette now lives in
+> `app/globals.css` and is described in [`design.md`](design.md) §2.
+
 # Logo palette extraction — KP Fasteners
 
 **Generated:** 2026-09-30

@@ -16,27 +16,52 @@ export const metadata: Metadata = {
   robots: { index: false, follow: false },
 };
 
+// Client-approved kpfastner_old palette (2026-09-30). Swatches list both the
+// canonical ramp tokens and the Phase-B semantic aliases they resolve to.
+const goldRamp: [string, string][] = [
+  ['--gold-50', '#FFFDF5'],
+  ['--gold-100', '#FEF3C7'],
+  ['--gold-200', '#FDE68A'],
+  ['--gold-300', '#FCD34D'],
+  ['--gold-400', '#F59E0B'],
+  ['--gold-500', '#D97706'],
+  ['--gold-600', '#B45309'],
+  ['--gold-700', '#92400E'],
+  ['--gold-800', '#78350F'],
+];
+const steelRamp: [string, string][] = [
+  ['--steel-50', '#FFFFFF'],
+  ['--steel-100', '#F8FAFC'],
+  ['--steel-200', '#F1F5F9'],
+  ['--steel-300', '#E2E8F0'],
+  ['--steel-400', '#CBD5E1'],
+  ['--steel-500', '#94A3B8'],
+  ['--steel-600', '#64748B'],
+  ['--steel-700', '#475569'],
+  ['--steel-800', '#334155'],
+  ['--steel-900', '#0F172A'],
+];
 const swatches: [string, string][] = [
-  ['--color-bg', '#F7F5F0'],
+  ['--color-bg', '#F8FAFC'],
   ['--color-surface', '#FFFFFF'],
-  ['--color-surface-alt', '#EFECE4'],
-  ['--color-border', '#DAD4C6'],
-  ['--color-border-strong', '#7A7568'],
-  ['--color-ink', '#1B1D22'],
-  ['--color-ink-muted', '#4B5058'],
-  ['--color-ink-soft', '#6A6F79'],
-  ['--color-brand-gold', '#886428'],
-  ['--color-brand-gold-hover', '#6E501F'],
-  ['--color-brand-gold-soft', '#F0E2C0'],
-  ['--color-brand-gold-strong', '#5A421A'],
-  ['--color-brand-steel', '#2E3A46'],
-  ['--color-brand-steel-soft', '#DDE3E9'],
-  ['--color-brand-silver', '#ACACAC'],
-  ['--color-brand-silver-soft', '#E5E5E5'],
-  ['--color-focus', '#0A66C2'],
-  ['--color-success', '#1F7A3A'],
-  ['--color-warning', '#8A5A00'],
-  ['--color-danger', '#B4231C'],
+  ['--color-surface-alt', '#F1F5F9'],
+  ['--color-border', '#E2E8F0'],
+  ['--color-border-strong', '#64748B'],
+  ['--color-ink', '#0F172A'],
+  ['--color-ink-muted', '#475569'],
+  ['--color-ink-soft', '#64748B'],
+  ['--color-brand-gold', '#B45309'],
+  ['--color-brand-gold-hover', '#92400E'],
+  ['--color-brand-gold-soft', '#FEF3C7'],
+  ['--color-brand-gold-strong', '#92400E'],
+  ['--color-brand-steel', '#334155'],
+  ['--color-brand-steel-soft', '#F1F5F9'],
+  ['--color-brand-silver', '#94A3B8'],
+  ['--color-brand-silver-soft', '#E2E8F0'],
+  ['--color-focus', '#0284C7'],
+  ['--color-success', '#047857'],
+  ['--color-warning', '#92400E'],
+  ['--color-danger', '#DC2626'],
 ];
 
 export default function SystemPage() {
@@ -69,24 +94,52 @@ export default function SystemPage() {
 
       <Section variant="alt">
         <Container>
-          <Heading as="h2" variant="section">
-            Palette
-          </Heading>
-          <div className="mt-6 grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
-            {swatches.map(([token, hex]) => (
+          <Heading as="h2" variant="section">Gold ramp</Heading>
+          <div className="mt-6 grid grid-cols-3 gap-3 sm:grid-cols-5 md:grid-cols-9">
+            {goldRamp.map(([token, hex]) => (
               <div key={token} className="rounded-md border border-border bg-surface p-3">
-                <div
-                  className="h-16 w-full rounded border border-border"
-                  style={{ background: hex }}
-                />
+                <div className="h-16 w-full rounded border border-border" style={{ background: hex }} />
                 <p className="mt-2 truncate font-mono text-xs text-ink">{token}</p>
                 <p className="font-mono text-xs text-ink-muted">{hex}</p>
               </div>
             ))}
           </div>
-          <div className="mt-6">
-            <p className="text-sm font-medium text-brand-steel">Metallic gradient</p>
-            <div className="mt-2 h-4 w-full max-w-xl rounded bg-gradient-metal" />
+
+          <Heading as="h2" variant="section" className="mt-10">Steel ramp</Heading>
+          <div className="mt-6 grid grid-cols-3 gap-3 sm:grid-cols-5 md:grid-cols-10">
+            {steelRamp.map(([token, hex]) => (
+              <div key={token} className="rounded-md border border-border bg-surface p-3">
+                <div className="h-16 w-full rounded border border-border" style={{ background: hex }} />
+                <p className="mt-2 truncate font-mono text-xs text-ink">{token}</p>
+                <p className="font-mono text-xs text-ink-muted">{hex}</p>
+              </div>
+            ))}
+          </div>
+
+          <Heading as="h2" variant="section" className="mt-10">Semantic aliases</Heading>
+          <div className="mt-6 grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
+            {swatches.map(([token, hex]) => (
+              <div key={token} className="rounded-md border border-border bg-surface p-3">
+                <div className="h-16 w-full rounded border border-border" style={{ background: hex }} />
+                <p className="mt-2 truncate font-mono text-xs text-ink">{token}</p>
+                <p className="font-mono text-xs text-ink-muted">{hex}</p>
+              </div>
+            ))}
+          </div>
+
+          <div className="mt-8 space-y-3">
+            <div>
+              <p className="text-sm font-semibold text-brand-steel">Gold gradient</p>
+              <div className="mt-2 h-6 w-full max-w-xl rounded bg-gradient-gold" />
+            </div>
+            <div>
+              <p className="text-sm font-semibold text-brand-steel">Gold gradient (shine)</p>
+              <div className="mt-2 h-6 w-full max-w-xl rounded bg-gradient-gold-shine" />
+            </div>
+            <div>
+              <p className="text-sm font-semibold text-brand-steel">Chrome gradient</p>
+              <div className="mt-2 h-6 w-full max-w-xl rounded bg-gradient-chrome" />
+            </div>
           </div>
         </Container>
       </Section>
@@ -121,6 +174,7 @@ export default function SystemPage() {
             </div>
             <div className="flex flex-wrap gap-3">
               <Button variant="secondary">Secondary</Button>
+              <Button variant="whatsapp">WhatsApp</Button>
               <Button variant="ghost">Ghost</Button>
               <Button variant="link">Link-style</Button>
             </div>
@@ -139,17 +193,17 @@ export default function SystemPage() {
             Cards
           </Heading>
           <div className="mt-6 grid gap-4 md:grid-cols-3">
-            <Card>
-              <p className="font-semibold text-brand-steel">Default card</p>
-              <p className="mt-2 text-sm text-ink">Hairline border, hover elevation.</p>
+            <Card variant="default">
+              <p className="font-semibold text-brand-steel">Default / glass</p>
+              <p className="mt-2 text-sm text-ink">Hairline border, gold-tinted hover.</p>
             </Card>
-            <Card variant="featured">
-              <p className="font-semibold text-brand-steel">Featured card</p>
-              <p className="mt-2 text-sm text-ink">Gold border, used for a primary product.</p>
+            <Card variant="metallic">
+              <p className="font-semibold text-brand-steel">Metallic</p>
+              <p className="mt-2 text-sm text-ink">Gold top strip, primary product treatment.</p>
             </Card>
             <Card variant="trust">
               <p className="font-semibold text-brand-steel">Trust card</p>
-              <p className="mt-2 text-sm text-ink">Steel wash — used on quality / trust modules.</p>
+              <p className="mt-2 text-sm text-ink">Steel wash — quality / trust modules.</p>
             </Card>
           </div>
         </Container>

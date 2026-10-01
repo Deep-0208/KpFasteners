@@ -1,16 +1,24 @@
 import type { ReactNode } from 'react';
 import { cn } from '@/lib/format';
 
-type Variant = 'default' | 'featured' | 'trust';
+/**
+ * Card visual language mirrors the client-approved demo.
+ *   default  → hairline border, subtle shadow, gold-tinted hover.
+ *   glass    → `.glass-panel` (same visual, kept as an explicit alias).
+ *   metallic → `.metallic-card` with the gold top strip.
+ *   featured → legacy alias, retained; renders `.metallic-card`.
+ *   trust    → steel wash card for quality / trust modules.
+ */
+type Variant = 'default' | 'glass' | 'metallic' | 'featured' | 'trust';
 type Padding = 'sm' | 'md' | 'lg';
 
-const VARIANT: Record<Variant, string> = {
-  default:
-    'border-border bg-surface hover:border-border-strong hover:shadow-card-hover',
-  featured:
-    'border-brand-gold bg-surface shadow-card hover:shadow-card-hover',
+const BASE: Record<Variant, string> = {
+  default:  'glass-panel',
+  glass:    'glass-panel',
+  metallic: 'metallic-card',
+  featured: 'metallic-card',
   trust:
-    'border-brand-steel-soft bg-brand-steel-soft/40',
+    'rounded-[14px] border border-brand-steel-soft bg-brand-steel-soft/40 shadow-card',
 };
 
 const PADDING: Record<Padding, string> = {
@@ -30,16 +38,5 @@ export function Card({
   variant?: Variant;
   padding?: Padding;
 }) {
-  return (
-    <div
-      className={cn(
-        'rounded-lg border shadow-card transition-all duration-150',
-        VARIANT[variant],
-        PADDING[padding],
-        className,
-      )}
-    >
-      {children}
-    </div>
-  );
+  return <div className={cn(BASE[variant], PADDING[padding], className)}>{children}</div>;
 }

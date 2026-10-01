@@ -523,8 +523,16 @@ All styling must adhere to a centralized token system defined in `tailwind.confi
   - Industrial Accent (Engineering safety amber / gold or precision blue for CTAs and focus points; max 3% visual presence)
   - Engineering White & Clean Light Grays (Background surfaces, specification card containers)
   - Technical Borders (Subtle, crisp border lines for specification tables and cards)
-- **Typography Tokens:**
-  - Font Family: Clean, readable industrial sans-serif (e.g., Inter, Outfit, or Roboto).
+- **Approved Client Palette (2026-09-30):** The colour system now matches the
+  client-approved `kpfastner_old` demo. Primary CTAs use the gold gradient
+  `linear-gradient(135deg, #F59E0B, #D97706, #92400E)` (`.btn-primary`) and the
+  hero headline uses `.text-gold-gradient`. See [`docs/design.md`](docs/design.md) §2
+  for tokens and [`docs/design-contrast-report.md`](docs/design-contrast-report.md)
+  for AA verification.
+- **Typography Tokens (three-font system, self-hosted via `next/font/google`):**
+  - `--font-sans` — **Inter** (400/500/600/700) for body copy and UI labels.
+  - `--font-heading` — **Outfit** (600/700/800) for all headings, `.btn` labels, footer/nav titles.
+  - `--font-mono` — **JetBrains Mono** (400/500/600) for spec tables (`.mono-numbers`).
   - Standardized Heading Ramp via UI components:
     - Hero: `text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold`
     - Section: `text-2xl sm:text-3xl md:text-4xl font-bold`
