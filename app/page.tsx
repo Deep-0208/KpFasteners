@@ -1,160 +1,339 @@
 import Link from 'next/link';
+import Image from 'next/image';
+import { Phone, MessageCircle, FileText, ArrowRight, CheckCircle2 } from 'lucide-react';
 import { Container } from '@/components/ui/Container';
 import { Section } from '@/components/ui/Section';
 import { Heading } from '@/components/ui/Heading';
 import { Card } from '@/components/ui/Card';
-import { VerificationRequired } from '@/components/ui/VerificationRequired';
-import { ClassificationBanner } from '@/components/ui/ClassificationBanner';
-import { homepage } from '@/data/homepage';
+import { JsonLd } from '@/components/seo/JsonLd';
+import { itemList } from '@/lib/jsonld';
 import { company } from '@/data/company';
+import { productCategories } from '@/data/products';
 
-/**
- * Homepage scaffold. Every block below is a placeholder — the visual
- * composition mirrors the client-approved demo (hero → trust bar → product
- * catalog → quality → local presence → closing CTA). Real copy will land in
- * a later gate; no `'use client'` needed — this stays a Server Component.
- */
+const WA_URL =
+  'https://wa.me/919898230448?text=' +
+  encodeURIComponent(company.whatsapp.prefill);
+const TEL = `tel:${company.telephones[0].replace(/[^\d+]/g, '')}`;
+
+const oemCards = [
+  {
+    name: 'Foundation / Anchor Bolts',
+    value: 'J, L, U and hooked anchors — IS 5624, F1554 classes.',
+    href: '/products/foundation-bolts/',
+  },
+  {
+    name: 'Stud Bolts',
+    value: 'ASTM A193 B7 / B8 / B8M, DIN 976 — flanges and structural.',
+    href: '/products/stud-bolts/',
+  },
+  {
+    name: 'Sag Rods',
+    value: 'Threaded sag rods for PEB bracing and solar racking.',
+    href: '/products/sag-rods/',
+  },
+  {
+    name: 'Scaffold Accessories',
+    value: 'Tie-rod nut sets, wing nuts, waller plates — make + supply.',
+    href: '/products/scaffold-accessories/',
+  },
+];
+
+const tradingCards = [
+  {
+    name: 'Hex Bolts & Nuts',
+    value: 'Metric and imperial, grades 4.6 to 10.9.',
+    href: '/products/hex-bolts-nuts/',
+  },
+  {
+    name: 'CSK Allen Bolts',
+    value: 'Countersunk socket cap screws across finishes.',
+    href: '/products/csk-allen-bolts/',
+  },
+  {
+    name: 'Tie Rods',
+    value: 'Formwork tie rods and turnbuckle assemblies.',
+    href: '/products/tie-rods/',
+  },
+  {
+    name: 'Solar Accessories',
+    value: 'MMS bolts, T-head bolts, hanger bolts, module clamps.',
+    href: '/products/solar-accessories/',
+  },
+  {
+    name: 'Custom Fasteners',
+    value: 'Drawing-based sourcing for non-standard SKUs.',
+    href: '/products/custom-fasteners/',
+  },
+];
+
+const trustBadges = [
+  'Est. 2017 · GST 24ARDPP9803A1Z3',
+  'MSME Registered',
+  'IndiaMART TrustSEAL · 100% response',
+  'MTC 3.1 on request',
+  '26–50 employees',
+  'Ahmedabad dispatch — pan-India',
+];
+
 export default function HomePage() {
-  const tel = `tel:${company.telephones[0].replace(/[^\d+]/g, '')}`;
-  const wa = `https://wa.me/${company.whatsapp.number.replace(/[^\d]/g, '')}?text=${encodeURIComponent(company.whatsapp.prefill)}`;
+  const oemItems = productCategories
+    .filter((p) => p.classification === 'oem')
+    .map((p) => ({ name: p.name, url: p.path }));
 
   return (
     <>
-      {/* 0. Verification band — removed at content-fill gate. */}
-      <Section>
-        <Container>
-          <VerificationRequired>
-            Site under construction — copy pending client review. Layout mirrors
-            the client-approved kpfastner_old demo (2026-09-30).
-          </VerificationRequired>
-        </Container>
-      </Section>
+      <JsonLd data={itemList(oemItems)} />
 
-      {/* 1. Hero — gold-gradient headline + primary/secondary/WhatsApp CTAs. */}
+      {/* 1. Hero */}
       <Section>
         <Container>
-          <p className="badge badge-gold">Industrial fasteners · Ahmedabad</p>
-          <Heading as="h1" variant="hero" className="mt-4">
-            <span className="text-gold-gradient">{homepage.heroH1}</span>
-          </Heading>
-          <hr className="rule-metal mt-4 w-40" aria-hidden="true" />
-          <p className="mt-6 max-w-2xl text-lg text-ink-muted">
-            {homepage.heroTagline}
-          </p>
-          <div className="mt-8 flex flex-wrap gap-3">
-            <Link href={homepage.primaryCta.href} className="btn btn-primary">
-              {homepage.primaryCta.label}
-            </Link>
-            <a href={tel} className="btn btn-secondary">
-              Call {company.telephones[0]}
-            </a>
-            <a href={wa} target="_blank" rel="noopener noreferrer" className="btn btn-whatsapp">
-              WhatsApp
-            </a>
+          <div className="grid gap-10 lg:grid-cols-[1.3fr_1fr] lg:items-center">
+            <div>
+              <p className="badge badge-gold">Ahmedabad · OEM Manufacturer</p>
+              <Heading as="h1" variant="hero" className="mt-4 font-heading">
+                Foundation, Anchor, Stud &amp; Sag Rod Bolts —{' '}
+                <span className="text-gold-gradient">Made in Ahmedabad</span>
+              </Heading>
+              <hr className="rule-metal mt-5 w-40" aria-hidden="true" />
+              <p className="mt-6 max-w-2xl text-lg text-ink-muted">
+                Manufactured in-house at our Ghanshyam Industrial Estate plant. Full
+                distribution range for construction, scaffolding and solar projects,
+                pan-India dispatch.
+              </p>
+              <div className="mt-8 flex flex-wrap gap-3">
+                <Link href="/request-quote/" className="btn btn-primary">
+                  <FileText aria-hidden="true" className="h-4 w-4" />
+                  &nbsp;Request Quote
+                </Link>
+                <a href={TEL} className="btn btn-secondary">
+                  <Phone aria-hidden="true" className="h-4 w-4" />
+                  &nbsp;{company.telephones[0]}
+                </a>
+                <a
+                  href={WA_URL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-whatsapp"
+                >
+                  <MessageCircle aria-hidden="true" className="h-4 w-4" />
+                  &nbsp;WhatsApp
+                </a>
+              </div>
+            </div>
+            <div className="relative">
+              <Card variant="metallic" padding="lg" className="flex items-center justify-center">
+                <div className="flex flex-col items-center gap-4 py-6">
+                  <Image
+                    src="/brand/logo.jpg.jpeg"
+                    alt="KP Fasteners logo"
+                    width={160}
+                    height={160}
+                    priority
+                    className="h-28 w-28 rounded object-cover shadow-card"
+                  />
+                  <p className="text-center font-heading text-xl font-semibold text-brand-steel">
+                    KP Fasteners
+                  </p>
+                  <p className="text-center text-xs text-ink-muted">
+                    Product photography pending
+                  </p>
+                </div>
+              </Card>
+            </div>
           </div>
         </Container>
       </Section>
 
-      {/* 2. Trust bar — light steel band with quick facts. */}
-      <Section variant="alt" aria-label="Trust bar">
+      {/* 2. Trust strip */}
+      <Section variant="alt" aria-label="Trust">
         <Container>
-          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-            {[
-              'MTC 3.1 certificates',
-              'MSME registered',
-              'GST 24ARDPP9803A1Z3',
-              'Ahmedabad manufacturing hub',
-            ].map((label) => (
-              <Card key={label} variant="glass" padding="sm">
-                <p className="font-heading text-sm font-semibold text-brand-steel">{label}</p>
-                <p className="mt-1 text-xs text-ink-muted">Populated in the content-fill gate.</p>
+          <ul className="flex flex-wrap items-center justify-center gap-3">
+            {trustBadges.map((b) => (
+              <li key={b}>
+                <span className="badge badge-steel">{b}</span>
+              </li>
+            ))}
+          </ul>
+          {/* VERIFICATION PENDING: Udyam / MSME registration number — do NOT
+              publish the number from the URC until Kabir confirms it is OK to display. */}
+        </Container>
+      </Section>
+
+      {/* 3. OEM products */}
+      <Section>
+        <Container>
+          <div className="flex flex-wrap items-end justify-between gap-3">
+            <div>
+              <span className="badge badge-gold">Manufactured in-house</span>
+              <Heading as="h2" variant="section" className="mt-3">
+                OEM product lines
+              </Heading>
+              <p className="mt-3 max-w-2xl text-ink-muted">
+                Made at our Ahmedabad plant. We quote with grade, coating, lead time
+                and MTC availability.
+              </p>
+            </div>
+            <Link href="/products/" className="btn btn-secondary">
+              All products
+            </Link>
+          </div>
+          <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+            {oemCards.map((c) => (
+              <Card
+                key={c.href}
+                variant="metallic"
+                padding="lg"
+                className="flex h-full flex-col"
+              >
+                <div className="aspect-[4/3] w-full rounded-md bg-brand-steel-soft/60 flex items-center justify-center text-xs text-ink-muted">
+                  Product photography pending — contact KP for current catalogue
+                </div>
+                <Heading as="h3" variant="card" className="mt-4">
+                  {c.name}
+                </Heading>
+                <p className="mt-2 flex-1 text-sm text-ink-muted">{c.value}</p>
+                <Link
+                  href={c.href}
+                  className="mt-4 inline-flex items-center gap-1 font-heading text-sm font-semibold text-brand-gold-strong hover:underline"
+                >
+                  View <ArrowRight aria-hidden="true" className="h-4 w-4" />
+                </Link>
               </Card>
             ))}
           </div>
         </Container>
       </Section>
 
-      {/* 3. Product catalog — OEM (gold) + trading (steel) rails. */}
-      <Section>
-        <Container>
-          <Heading as="h2" variant="section">Product catalog</Heading>
-          <p className="mt-3 max-w-2xl text-ink-muted">
-            Manufactured in-house at our Ahmedabad plant, plus a curated
-            distribution range for balance-of-plant hardware.
-          </p>
-          <div className="mt-8 grid gap-6 md:grid-cols-2">
-            <Card variant="metallic">
-              <ClassificationBanner classification="oem" />
-              <div className="mt-4">
-                <Heading as="h3" variant="card">In-house manufacturing</Heading>
-                <p className="mt-2 text-sm text-ink-muted">
-                  Foundation bolts · stud bolts · tie rods · sag rods · custom
-                  fasteners. Product cards land here after content review.
-                </p>
-              </div>
-            </Card>
-            <Card variant="glass">
-              <ClassificationBanner classification="trading" />
-              <div className="mt-4">
-                <Heading as="h3" variant="card">Distribution range</Heading>
-                <p className="mt-2 text-sm text-ink-muted">
-                  Hex bolts / nuts · CSK Allen bolts · solar &amp; scaffold
-                  accessories — sourced from vetted partners.
-                </p>
-              </div>
-            </Card>
-          </div>
-          <div className="mt-6">
-            <Link href="/products/" className="btn btn-secondary">
-              Browse all products
-            </Link>
-          </div>
-        </Container>
-      </Section>
-
-      {/* 4. Quality strip. */}
-      <Section variant="alt" aria-label="Quality">
-        <Container>
-          <Heading as="h2" variant="section">Quality &amp; certifications</Heading>
-          <p className="mt-3 max-w-2xl text-ink-muted">
-            EN 10204 3.1 MTCs, coating and dimensional QA protocols. Populated
-            in the content-fill gate.
-          </p>
-        </Container>
-      </Section>
-
-      {/* 5. Local presence. */}
-      <Section aria-label="Local presence">
-        <Container>
-          <Heading as="h2" variant="section">Ahmedabad manufacturing hub</Heading>
-          <p className="mt-3 max-w-2xl text-ink-muted">
-            Factory location, logistics reach, and export corridors. Populated
-            in the content-fill gate.
-          </p>
-        </Container>
-      </Section>
-
-      {/* 6. Closing CTA. */}
+      {/* 4. Distribution strip */}
       <Section variant="alt">
         <Container>
-          <Card variant="metallic" padding="lg">
-            <Heading as="h2" variant="subsection">
-              <span className="text-gold-gradient">Submit an RFQ or talk to a specialist</span>
+          <div>
+            <span className="badge badge-steel">Distribution range</span>
+            <Heading as="h2" variant="section" className="mt-3">
+              Also supplied from distribution
             </Heading>
             <p className="mt-3 max-w-2xl text-ink-muted">
-              Upload a drawing or share a bill of materials — we quote back with
-              standards, coatings, and lead time.
+              Honest positioning — these categories are sourced from vetted partners,
+              not manufactured by us. One PO, one dispatch, pan-India delivery.
             </p>
-            <div className="mt-6 flex flex-wrap gap-3">
-              <Link href="/request-quote/" className="btn btn-primary">
-                Request a quote
+          </div>
+          <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-5">
+            {tradingCards.map((c) => (
+              <Card key={c.href} variant="default" padding="md" className="flex h-full flex-col">
+                <span className="badge badge-steel w-fit">Distribution range</span>
+                <Heading as="h3" variant="card" className="mt-3">
+                  {c.name}
+                </Heading>
+                <p className="mt-2 flex-1 text-sm text-ink-muted">{c.value}</p>
+                <Link
+                  href={c.href}
+                  className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand-steel hover:text-brand-gold-strong"
+                >
+                  View <ArrowRight aria-hidden="true" className="h-4 w-4" />
+                </Link>
+              </Card>
+            ))}
+          </div>
+        </Container>
+      </Section>
+
+      {/* 5. How you buy */}
+      <Section>
+        <Container>
+          <Heading as="h2" variant="section">How you buy from us</Heading>
+          <p className="mt-3 max-w-2xl text-ink-muted">
+            Typical — confirmed on quote.
+            {/* VERIFICATION PENDING: dispatch SLAs — "24–72 hrs Ahmedabad / 3–5
+                days Gujarat / 5–8 days pan-India" taken from reference-defaults.md
+                row 16; Kabir to confirm as the publishable baseline. */}
+          </p>
+          <ol className="mt-8 grid gap-6 md:grid-cols-3">
+            {[
+              {
+                n: '1',
+                h: 'Share spec / drawing',
+                b: 'BOQ, drawing or part number — form, WhatsApp or email.',
+              },
+              {
+                n: '2',
+                h: 'Quote within 24 hrs',
+                b: 'Material, coating, lead time and MTC availability on the line.',
+              },
+              {
+                n: '3',
+                h: 'Dispatch',
+                b: '24–72 hrs Ahmedabad · 3–5 days Gujarat · 5–8 days pan-India.',
+              },
+            ].map((s) => (
+              <li key={s.n} className="metallic-card p-6">
+                <div className="font-heading text-3xl font-bold text-gold-gradient">{s.n}</div>
+                <Heading as="h3" variant="card" className="mt-3">{s.h}</Heading>
+                <p className="mt-2 text-sm text-ink-muted">{s.b}</p>
+              </li>
+            ))}
+          </ol>
+        </Container>
+      </Section>
+
+      {/* 6. Quality snippet */}
+      <Section variant="alt">
+        <Container>
+          <div className="grid gap-6 md:grid-cols-[2fr_1fr] md:items-center">
+            <div>
+              <Heading as="h2" variant="section">Documentation &amp; quality</Heading>
+              <p className="mt-3 max-w-2xl text-ink-muted">
+                EN 10204 3.1 mill test certificates on request, dimensional inspection
+                to IS 1367 / ISO 965, HDG per ISO 1461 where specified.
+              </p>
+              <ul className="mt-5 space-y-2 text-sm text-ink">
+                {[
+                  'MTC 3.1 on request for OEM orders',
+                  'Batch traceability on manufactured goods',
+                  'Coating per spec: self-colour, zinc, HDG, PTFE',
+                ].map((t) => (
+                  <li key={t} className="flex items-start gap-2">
+                    <CheckCircle2 aria-hidden="true" className="mt-0.5 h-4 w-4 text-brand-gold-strong" />
+                    <span>{t}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <div>
+              <Link href="/quality/" className="btn btn-secondary">
+                Read our quality page
               </Link>
-              <a href={wa} target="_blank" rel="noopener noreferrer" className="btn btn-whatsapp">
-                WhatsApp us
-              </a>
-              <a href={tel} className="btn btn-secondary">
-                Call {company.telephones[0]}
-              </a>
+            </div>
+          </div>
+        </Container>
+      </Section>
+
+      {/* 7. Closing CTA */}
+      <Section>
+        <Container>
+          <Card variant="metallic" padding="lg">
+            <div className="grid gap-6 md:grid-cols-[1.4fr_1fr] md:items-center">
+              <div>
+                <Heading as="h2" variant="subsection">
+                  <span className="text-gold-gradient">Share your BOQ. Quote back in 24 hrs.</span>
+                </Heading>
+                <p className="mt-3 max-w-2xl text-ink-muted">
+                  Upload a drawing or paste a bill of materials — we quote with
+                  standards, coatings and lead time.
+                </p>
+              </div>
+              <div className="flex flex-wrap gap-3">
+                <Link href="/request-quote/" className="btn btn-primary">
+                  Request a Quote
+                </Link>
+                <a
+                  href={WA_URL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-whatsapp"
+                >
+                  WhatsApp us
+                </a>
+              </div>
             </div>
           </Card>
         </Container>

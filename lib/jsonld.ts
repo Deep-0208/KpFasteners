@@ -119,6 +119,28 @@ export function product(p: ProductJsonLdInput) {
   return base;
 }
 
+export function contactPage(path: string) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'ContactPage',
+    url: `${SITE_URL}${path}`,
+    mainEntity: { '@id': ORG_ID },
+  };
+}
+
+export function itemList(items: { name: string; url: string }[]) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    itemListElement: items.map((it, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      name: it.name,
+      url: `${SITE_URL}${it.url}`,
+    })),
+  };
+}
+
 export function faqPage(items: { question: string; answer: string }[]) {
   return {
     '@context': 'https://schema.org',
