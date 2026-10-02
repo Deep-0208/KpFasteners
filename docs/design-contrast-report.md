@@ -1,6 +1,6 @@
 # Contrast report — KP Fasteners palette
 
-**Generated:** 2026-10-01
+**Generated:** 2026-10-02
 **Standard:** WCAG 2.1 AA
 **Thresholds:** 4.5:1 body text, 3:1 large text + non-text UI
 
