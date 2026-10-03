@@ -27,7 +27,7 @@ import { SpecTable } from '@/components/ui/SpecTable';
 import { GradeTable } from '@/components/ui/GradeTable';
 import { ClassificationBanner } from '@/components/ui/ClassificationBanner';
 import { JsonLd } from '@/components/seo/JsonLd';
-import { product as productSchema, faqPage } from '@/lib/jsonld';
+import { product as productSchema, faqPage, breadcrumbs as breadcrumbsSchema } from '@/lib/jsonld';
 import { findRoute } from '@/data/routes';
 import { company } from '@/data/company';
 
@@ -198,6 +198,7 @@ export default function Page() {
           classification: 'oem',
         })}
       />
+      <JsonLd data={breadcrumbsSchema(trail)} />
       <JsonLd data={faqPage(FAQS)} />
 
       {/* 1. Hero */}
