@@ -7,12 +7,18 @@ const home: CanonicalRoute = {
   breadcrumbTrail: [{ label: 'Home', href: '/' }],
 };
 
-const p = (path: string, label: string, group: CanonicalRoute['navGroup'], parent?: CanonicalRoute): CanonicalRoute => ({
+const p = (
+  path: string,
+  label: string,
+  group: CanonicalRoute['navGroup'],
+  parent?: CanonicalRoute,
+  opts?: { pendingContent?: boolean },
+): CanonicalRoute => ({
   path,
   priority: 0.7,
   changeFreq: 'monthly',
   navGroup: group,
-  pendingContent: true,
+  pendingContent: opts?.pendingContent ?? true,
   breadcrumbTrail: [
     { label: 'Home', href: '/' },
     ...(parent ? parent.breadcrumbTrail.slice(1) : []),
@@ -43,9 +49,9 @@ export const routes: CanonicalRoute[] = [
   p('/request-quote/', 'Request a Quote', 'company'),
   // Products
   productsHub,
-  p('/products/foundation-bolts/', 'Foundation Bolts', 'products', productsHub),
-  p('/products/stud-bolts/', 'Stud Bolts', 'products', productsHub),
-  p('/products/sag-rods/', 'Sag Rods', 'products', productsHub),
+  p('/products/foundation-bolts/', 'Foundation Bolts', 'products', productsHub, { pendingContent: false }),
+  p('/products/stud-bolts/', 'Stud Bolts', 'products', productsHub, { pendingContent: false }),
+  p('/products/sag-rods/', 'Sag Rods', 'products', productsHub, { pendingContent: false }),
   p('/products/tie-rods/', 'Tie Rods', 'products', productsHub),
   p('/products/csk-allen-bolts/', 'CSK Allen Bolts', 'products', productsHub),
   p('/products/scaffold-accessories/', 'Scaffold Accessories', 'products', productsHub),
