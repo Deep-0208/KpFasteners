@@ -8,6 +8,7 @@ import { MobileConversionBar } from '@/components/layout/MobileConversionBar';
 import { JsonLd } from '@/components/seo/JsonLd';
 import { organization, website, localBusiness } from '@/lib/jsonld';
 import { buildMetadata } from '@/lib/seo';
+import { DevTools } from '@/components/dev/DevTools';
 import './globals.css';
 
 /**
@@ -74,6 +75,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <JsonLd data={localBusiness()} />
         <Analytics />
         <SpeedInsights />
+        <DevTools />
       </body>
     </html>
   );
