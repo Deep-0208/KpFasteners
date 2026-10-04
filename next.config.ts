@@ -42,7 +42,13 @@ const nextConfig: NextConfig = {
     return [{ source: '/(.*)', headers: securityHeaders }];
   },
   async redirects() {
-    return [];
+    return [
+      {
+        source: '/quality/',
+        destination: '/tools/',
+        permanent: true,
+      },
+    ];
   },
 };
 

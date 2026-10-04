@@ -334,8 +334,8 @@ export default function HomePage() {
               </ul>
             </div>
             <div>
-              <Link href="/quality/" className="btn btn-secondary">
-                Read our quality page
+              <Link href="/tools/" className="btn btn-secondary">
+                Fastener engineering tools
               </Link>
             </div>
           </div>

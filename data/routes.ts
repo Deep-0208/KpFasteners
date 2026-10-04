@@ -43,7 +43,7 @@ export const routes: CanonicalRoute[] = [
   home,
   // Company & trust
   p('/about/', 'About', 'company', undefined, { pendingContent: false }),
-  p('/quality/', 'Quality', 'company'),
+  p('/tools/', 'Engineering Tools', 'company', undefined, { pendingContent: false }),
   p('/contact/', 'Contact', 'company'),
   p('/request-quote/', 'Request a Quote', 'company'),
   // Products

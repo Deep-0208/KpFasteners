@@ -12,7 +12,7 @@ export const headerNav: NavItem[] = [
   { label: 'Products', href: '/products/' },
   { label: 'Materials', href: '/materials/high-tensile-fasteners/' },
   { label: 'Industries', href: '/industries/solar-mounting-fasteners/' },
-  { label: 'Quality', href: '/quality/' },
+  { label: 'Tools', href: '/tools/' },
   { label: 'About', href: '/about/' },
   { label: 'Contact', href: '/contact/' },
 ];
@@ -51,7 +51,7 @@ export const footerGroups: NavGroup[] = [
     label: 'Company',
     items: [
       { label: 'About', href: '/about/' },
-      { label: 'Quality', href: '/quality/' },
+      { label: 'Engineering Tools', href: '/tools/' },
       { label: 'Contact', href: '/contact/' },
       { label: 'Request a Quote', href: '/request-quote/' },
     ],

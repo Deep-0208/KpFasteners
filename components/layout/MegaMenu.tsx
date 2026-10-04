@@ -145,10 +145,14 @@ export function MegaMenu({ onClose }: { onClose?: () => void }) {
               </Link>
             </li>
           </ul>
-          <div className="mt-3.5 rounded-md border border-border bg-surface-alt p-2">
-            <p className="text-xs font-medium text-brand-steel">MTC Documentation</p>
-            <p className="text-[11px] text-ink-muted">EN 10204 3.1 on dispatch</p>
-          </div>
+          <Link
+            href="/tools/"
+            onClick={onClose}
+            className="mt-3.5 block rounded-md border border-border bg-surface-alt p-2 transition-colors hover:border-brand-gold/40 hover:bg-surface"
+          >
+            <p className="text-xs font-medium text-brand-steel hover:text-brand-gold-strong">Engineering Tools &amp; MTC</p>
+            <p className="text-[11px] text-ink-muted">Weight, torque &amp; 3.1 certs →</p>
+          </Link>
         </div>
 
         {/* Column 4: Industries Served */}

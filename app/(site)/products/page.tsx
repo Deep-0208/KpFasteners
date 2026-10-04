@@ -422,10 +422,10 @@ export default function ProductsHubPage() {
             </Link>
             <span aria-hidden="true">·</span>
             <Link
-              href="/quality/"
+              href="/tools/"
               className="inline-flex items-center gap-1 font-semibold text-brand-steel hover:text-brand-gold-strong hover:underline"
             >
-              Quality &amp; MTC Certification <ArrowRight aria-hidden="true" className="h-3.5 w-3.5" />
+              Engineering Tools &amp; Calculators <ArrowRight aria-hidden="true" className="h-3.5 w-3.5" />
             </Link>
           </div>
         </Container>
@@ -949,8 +949,8 @@ export default function ProductsHubPage() {
                 </p>
               </div>
               <div className="flex flex-col gap-3 sm:flex-row lg:flex-col lg:items-end">
-                <Link href="/quality/" className="btn btn-secondary w-full sm:w-auto text-center">
-                  Review Quality Standards <ArrowRight aria-hidden="true" className="h-4 w-4" />
+                <Link href="/tools/" className="btn btn-secondary w-full sm:w-auto text-center">
+                  Fastener Weight &amp; Torque Tools <ArrowRight aria-hidden="true" className="h-4 w-4" />
                 </Link>
                 <Link href="/request-quote/?src=products-quality" className="btn btn-primary w-full sm:w-auto text-center">
                   Request Specification Quote
