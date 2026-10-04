@@ -372,7 +372,7 @@ export default function ProductsHubPage() {
             <Card variant="metallic" padding="lg" className="flex flex-col">
               <div className="flex items-center gap-2">
                 <Factory aria-hidden="true" className="h-5 w-5 text-brand-gold-strong" />
-                <span className="badge badge-gold">Manufactured in-house</span>
+                <span className="font-heading text-xs font-bold uppercase tracking-wider text-brand-gold-strong">Manufactured in-house</span>
               </div>
               <Heading as="h3" variant="card" className="mt-4">
                 OEM In-House (3 Families)
@@ -386,7 +386,7 @@ export default function ProductsHubPage() {
             <Card variant="metallic" padding="lg" className="flex flex-col">
               <div className="flex items-center gap-2">
                 <Wrench aria-hidden="true" className="h-5 w-5 text-brand-gold-strong" />
-                <span className="badge badge-gold">Manufactured &amp; supplied</span>
+                <span className="font-heading text-xs font-bold uppercase tracking-wider text-brand-gold-strong">Manufactured &amp; supplied</span>
               </div>
               <Heading as="h3" variant="card" className="mt-4">
                 Hybrid Supply (2 Families)
@@ -400,7 +400,7 @@ export default function ProductsHubPage() {
             <Card variant="metallic" padding="lg" className="flex flex-col">
               <div className="flex items-center gap-2">
                 <Truck aria-hidden="true" className="h-5 w-5 text-brand-steel" />
-                <span className="badge badge-steel">Distribution range</span>
+                <span className="font-heading text-xs font-bold uppercase tracking-wider text-brand-steel">Distribution range</span>
               </div>
               <Heading as="h3" variant="card" className="mt-4">
                 Distribution Range (4 Families)
@@ -458,9 +458,8 @@ export default function ProductsHubPage() {
               padding="lg"
               className="flex h-full flex-col transition-shadow hover:shadow-card-elevated"
             >
-              <div className="flex items-center justify-between gap-2">
-                <span className="badge badge-gold">Manufactured in-house</span>
-                <span className="font-mono text-xs text-ink-muted">IS 5624</span>
+              <div className="flex items-center justify-end">
+                <span className="font-mono text-xs font-semibold text-brand-steel">IS 5624</span>
               </div>
               <div className="relative mt-4 aspect-[4/3] w-full overflow-hidden rounded-md bg-brand-steel-soft/40">
                 <Image
@@ -497,9 +496,8 @@ export default function ProductsHubPage() {
               padding="lg"
               className="flex h-full flex-col transition-shadow hover:shadow-card-elevated"
             >
-              <div className="flex items-center justify-between gap-2">
-                <span className="badge badge-gold">Manufactured in-house</span>
-                <span className="font-mono text-xs text-ink-muted">ASTM A193</span>
+              <div className="flex items-center justify-end">
+                <span className="font-mono text-xs font-semibold text-brand-steel">ASTM A193</span>
               </div>
               <div className="relative mt-4 aspect-[4/3] w-full overflow-hidden rounded-md bg-brand-steel-soft/40">
                 <Image
@@ -536,9 +534,8 @@ export default function ProductsHubPage() {
               padding="lg"
               className="flex h-full flex-col transition-shadow hover:shadow-card-elevated"
             >
-              <div className="flex items-center justify-between gap-2">
-                <span className="badge badge-gold">Manufactured in-house</span>
-                <span className="font-mono text-xs text-ink-muted">IS 2062</span>
+              <div className="flex items-center justify-end">
+                <span className="font-mono text-xs font-semibold text-brand-steel">IS 2062</span>
               </div>
               <div className="relative mt-4 aspect-[4/3] w-full overflow-hidden rounded-md bg-brand-steel-soft/40">
                 <Image
@@ -575,9 +572,8 @@ export default function ProductsHubPage() {
               padding="lg"
               className="flex h-full flex-col transition-shadow hover:shadow-card-elevated"
             >
-              <div className="flex items-center justify-between gap-2">
-                <span className="badge badge-gold">Manufactured &amp; supplied</span>
-                <span className="font-mono text-xs text-ink-muted">BS 1139</span>
+              <div className="flex items-center justify-end">
+                <span className="font-mono text-xs font-semibold text-brand-steel">BS 1139</span>
               </div>
               <div className="relative mt-4 aspect-[4/3] w-full overflow-hidden rounded-md bg-brand-steel-soft/40">
                 <Image
@@ -614,9 +610,8 @@ export default function ProductsHubPage() {
               padding="lg"
               className="flex h-full flex-col transition-shadow hover:shadow-card-elevated"
             >
-              <div className="flex items-center justify-between gap-2">
-                <span className="badge badge-gold">Manufactured &amp; supplied</span>
-                <span className="font-mono text-xs text-ink-muted">Drawing-based</span>
+              <div className="flex items-center justify-end">
+                <span className="font-mono text-xs font-semibold text-brand-steel">Drawing-based</span>
               </div>
               <div className="relative mt-4 aspect-[4/3] w-full overflow-hidden rounded-md bg-brand-steel-soft/40">
                 <Image
@@ -653,9 +648,8 @@ export default function ProductsHubPage() {
               padding="lg"
               className="flex h-full flex-col transition-shadow hover:shadow-card-elevated"
             >
-              <div className="flex items-center justify-between gap-2">
-                <span className="badge badge-steel">Distribution range</span>
-                <span className="font-mono text-xs text-ink-muted">DIN 933</span>
+              <div className="flex items-center justify-end">
+                <span className="font-mono text-xs font-semibold text-brand-steel">DIN 933</span>
               </div>
               <div className="relative mt-4 aspect-[4/3] w-full overflow-hidden rounded-md bg-brand-steel-soft/40">
                 <Image
@@ -692,9 +686,8 @@ export default function ProductsHubPage() {
               padding="lg"
               className="flex h-full flex-col transition-shadow hover:shadow-card-elevated"
             >
-              <div className="flex items-center justify-between gap-2">
-                <span className="badge badge-steel">Distribution range</span>
-                <span className="font-mono text-xs text-ink-muted">DIN 7991</span>
+              <div className="flex items-center justify-end">
+                <span className="font-mono text-xs font-semibold text-brand-steel">DIN 7991</span>
               </div>
               <div className="relative mt-4 aspect-[4/3] w-full overflow-hidden rounded-md bg-brand-steel-soft/40">
                 <Image
@@ -731,9 +724,8 @@ export default function ProductsHubPage() {
               padding="lg"
               className="flex h-full flex-col transition-shadow hover:shadow-card-elevated"
             >
-              <div className="flex items-center justify-between gap-2">
-                <span className="badge badge-steel">Distribution range</span>
-                <span className="font-mono text-xs text-ink-muted">D15 / D20</span>
+              <div className="flex items-center justify-end">
+                <span className="font-mono text-xs font-semibold text-brand-steel">D15 / D20</span>
               </div>
               <div className="relative mt-4 aspect-[4/3] w-full overflow-hidden rounded-md bg-brand-steel-soft/40">
                 <Image
@@ -770,9 +762,8 @@ export default function ProductsHubPage() {
               padding="lg"
               className="flex h-full flex-col transition-shadow hover:shadow-card-elevated"
             >
-              <div className="flex items-center justify-between gap-2">
-                <span className="badge badge-steel">Distribution range</span>
-                <span className="font-mono text-xs text-ink-muted">SS 304 / HDG</span>
+              <div className="flex items-center justify-end">
+                <span className="font-mono text-xs font-semibold text-brand-steel">SS 304 / HDG</span>
               </div>
               <div className="relative mt-4 aspect-[4/3] w-full overflow-hidden rounded-md bg-brand-steel-soft/40">
                 <Image
