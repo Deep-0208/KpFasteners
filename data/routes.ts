@@ -73,7 +73,7 @@ export const routes: CanonicalRoute[] = [
     ],
   },
   p('/industries/solar-mounting-fasteners/', 'Solar Mounting Fasteners', 'industries', undefined, { pendingContent: false }),
-  p('/industries/construction-infrastructure/', 'Construction & Infrastructure', 'industries'),
+  p('/industries/construction-infrastructure/', 'Construction & Infrastructure', 'industries', undefined, { pendingContent: false }),
   p('/industries/automotive-heavy-engineering/', 'Automotive & Heavy Engineering', 'industries'),
   // Legal
   p('/privacy-policy/', 'Privacy Policy', 'legal'),
