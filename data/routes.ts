@@ -26,7 +26,7 @@ const p = (
   ],
 });
 
-const productsHub = p('/products/', 'Products', 'products');
+const productsHub = p('/products/', 'Products', 'products', undefined, { pendingContent: false });
 const materialsHub: CanonicalRoute = {
   path: '/materials/high-tensile-fasteners/',
   priority: 0.7,
