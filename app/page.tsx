@@ -144,12 +144,12 @@ export default function HomePage() {
               <Card variant="metallic" padding="lg" className="flex items-center justify-center">
                 <div className="flex flex-col items-center gap-4 py-6">
                   <Image
-                    src="/brand/logo.jpg.jpeg"
+                    src="/brand/logo.webp"
                     alt="KP Fasteners logo"
-                    width={160}
-                    height={160}
+                    width={986}
+                    height={651}
                     priority
-                    className="h-28 w-28 rounded object-cover shadow-card"
+                    className="h-28 w-auto object-contain"
                   />
                   <p className="text-center font-heading text-xl font-semibold text-brand-steel">
                     KP Fasteners

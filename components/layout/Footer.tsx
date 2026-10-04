@@ -30,11 +30,11 @@ export function Footer() {
           <div>
             <div className="flex items-center gap-2">
               <Image
-                src="/brand/logo.jpg.jpeg"
-                alt=""
-                width={40}
-                height={40}
-                className="h-10 w-10 rounded object-cover"
+                src="/brand/logo.webp"
+                alt="KP Fasteners"
+                width={986}
+                height={651}
+                className="h-10 w-auto object-contain"
               />
               <span className="font-heading text-base font-bold tracking-tight text-brand-steel">
                 {company.legalName}

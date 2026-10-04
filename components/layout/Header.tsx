@@ -97,8 +97,8 @@ export function Header() {
             <Image
               src="/brand/logo.webp"
               alt="KP Fasteners"
-              width={400}
-              height={294}
+              width={986}
+              height={651}
               priority
               className="h-12 w-auto object-contain md:h-16 lg:h-[70px]"
             />
