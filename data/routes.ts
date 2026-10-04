@@ -77,7 +77,7 @@ export const routes: CanonicalRoute[] = [
   p('/industries/automotive-heavy-engineering/', 'Automotive & Heavy Engineering', 'industries', undefined, { pendingContent: false }),
   // Legal
   p('/privacy-policy/', 'Privacy Policy', 'legal', undefined, { pendingContent: false }),
-  p('/terms/', 'Terms of Supply', 'legal'),
+  p('/terms/', 'Terms of Supply', 'legal', undefined, { pendingContent: false }),
 ];
 
 export function findRoute(path: string): CanonicalRoute | undefined {
