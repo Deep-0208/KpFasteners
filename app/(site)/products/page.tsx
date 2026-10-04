@@ -452,347 +452,42 @@ export default function ProductsHubPage() {
           </div>
 
           <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {/* 1. Foundation Bolts (OEM) */}
-            <Card
-              variant="metallic"
-              padding="lg"
-              className="flex h-full flex-col transition-shadow hover:shadow-card-elevated"
-            >
-              <div className="flex items-center justify-end">
-                <span className="font-mono text-xs font-semibold text-brand-steel">IS 5624</span>
-              </div>
-              <div className="relative mt-4 aspect-[4/3] w-full overflow-hidden rounded-md bg-brand-steel-soft/40">
-                <Image
-                  src="/images/products/bolts/j-bolt.jpg"
-                  alt="KP Fasteners foundation bolts — J, L, U and headed anchors"
-                  fill
-                  sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
-                  className="object-contain p-2"
-                />
-              </div>
-              <Heading as="h3" variant="card" className="mt-4">
-                Foundation Bolts
-              </Heading>
-              <p className="mt-2 flex-1 text-sm text-ink-muted">
-                J, L, U, headed and swedge anchors to IS 5624, DIN 529 and ASTM F1554. Mild steel, EN8D, and high-tensile grades with HDG or zinc plating.
-              </p>
-              <div className="mt-3 border-t border-border pt-3">
-                <p className="text-xs text-ink-muted">
-                  <span className="font-semibold text-brand-steel">Standards:</span>{' '}
-                  <span className="mono-numbers">IS 5624 · DIN 529 · ASTM F1554</span>
-                </p>
-              </div>
-              <Link
-                href="/products/foundation-bolts/"
-                className="mt-4 inline-flex items-center gap-1 font-heading text-sm font-semibold text-brand-gold-strong hover:underline"
+            {PRODUCT_CARDS.map((prod) => (
+              <Card
+                key={prod.slug}
+                variant="metallic"
+                padding="md"
+                className="flex h-full flex-col transition-shadow hover:shadow-card-elevated"
               >
-                View Foundation Bolts <ArrowRight aria-hidden="true" className="h-4 w-4" />
-              </Link>
-            </Card>
-
-            {/* 2. Stud Bolts (OEM) */}
-            <Card
-              variant="metallic"
-              padding="lg"
-              className="flex h-full flex-col transition-shadow hover:shadow-card-elevated"
-            >
-              <div className="flex items-center justify-end">
-                <span className="font-mono text-xs font-semibold text-brand-steel">ASTM A193</span>
-              </div>
-              <div className="relative mt-4 aspect-[4/3] w-full overflow-hidden rounded-md bg-brand-steel-soft/40">
-                <Image
-                  src="/images/products/threaded-rods/threaded-rod-stud.jpg"
-                  alt="KP Fasteners stud bolts — ASTM A193 B7 / B8 / B8M"
-                  fill
-                  sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
-                  className="object-contain p-2"
-                />
-              </div>
-              <Heading as="h3" variant="card" className="mt-4">
-                Stud Bolts
-              </Heading>
-              <p className="mt-2 flex-1 text-sm text-ink-muted">
-                Fully threaded, tap-end, and double-end studs to ASTM A193 B7 / B8 / B8M and DIN 976 for high-pressure piping, valves, and structural flanges.
-              </p>
-              <div className="mt-3 border-t border-border pt-3">
-                <p className="text-xs text-ink-muted">
-                  <span className="font-semibold text-brand-steel">Standards:</span>{' '}
-                  <span className="mono-numbers">ASTM A193 B7/B8/B8M · DIN 976</span>
+                <div className="relative aspect-[16/10] w-full overflow-hidden rounded-lg border border-border/60 bg-brand-steel-soft/30">
+                  <Image
+                    src={prod.image}
+                    alt={prod.imageAlt}
+                    fill
+                    sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
+                    className="object-cover"
+                  />
+                </div>
+                <Heading as="h3" variant="card" className="mt-4">
+                  {prod.name}
+                </Heading>
+                <p className="mt-2 flex-1 text-sm text-ink-muted">
+                  {prod.value}
                 </p>
-              </div>
-              <Link
-                href="/products/stud-bolts/"
-                className="mt-4 inline-flex items-center gap-1 font-heading text-sm font-semibold text-brand-gold-strong hover:underline"
-              >
-                View Stud Bolts <ArrowRight aria-hidden="true" className="h-4 w-4" />
-              </Link>
-            </Card>
-
-            {/* 3. Sag Rods (OEM) */}
-            <Card
-              variant="metallic"
-              padding="lg"
-              className="flex h-full flex-col transition-shadow hover:shadow-card-elevated"
-            >
-              <div className="flex items-center justify-end">
-                <span className="font-mono text-xs font-semibold text-brand-steel">IS 2062</span>
-              </div>
-              <div className="relative mt-4 aspect-[4/3] w-full overflow-hidden rounded-md bg-brand-steel-soft/40">
-                <Image
-                  src="/images/products/threaded-rods/threaded-rod-stud.jpg"
-                  alt="KP Fasteners threaded sag rod — representative image"
-                  fill
-                  sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
-                  className="object-contain p-2"
-                />
-              </div>
-              <Heading as="h3" variant="card" className="mt-4">
-                Sag Rods
-              </Heading>
-              <p className="mt-2 flex-1 text-sm text-ink-muted">
-                Threaded sag rods and tie bars for PEB purlin bracing, structural steel frames, and solar racking cross-bracing in customizable lengths.
-              </p>
-              <div className="mt-3 border-t border-border pt-3">
-                <p className="text-xs text-ink-muted">
-                  <span className="font-semibold text-brand-steel">Standards:</span>{' '}
-                  <span className="mono-numbers">IS 2062 · Grade 4.6 / 8.8</span>
-                </p>
-              </div>
-              <Link
-                href="/products/sag-rods/"
-                className="mt-4 inline-flex items-center gap-1 font-heading text-sm font-semibold text-brand-gold-strong hover:underline"
-              >
-                View Sag Rods <ArrowRight aria-hidden="true" className="h-4 w-4" />
-              </Link>
-            </Card>
-
-            {/* 4. Scaffold Accessories (Ambiguous) */}
-            <Card
-              variant="metallic"
-              padding="lg"
-              className="flex h-full flex-col transition-shadow hover:shadow-card-elevated"
-            >
-              <div className="flex items-center justify-end">
-                <span className="font-mono text-xs font-semibold text-brand-steel">BS 1139</span>
-              </div>
-              <div className="relative mt-4 aspect-[4/3] w-full overflow-hidden rounded-md bg-brand-steel-soft/40">
-                <Image
-                  src="/images/products/threaded-rods/wedge-anchor.jpg"
-                  alt="Scaffold accessories — wing nuts, nut sets, waller plates"
-                  fill
-                  sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
-                  className="object-contain p-2"
-                />
-              </div>
-              <Heading as="h3" variant="card" className="mt-4">
-                Scaffold Accessories
-              </Heading>
-              <p className="mt-2 flex-1 text-sm text-ink-muted">
-                Wing nuts, tie-rod nut sets, waller plates, water stoppers, and shuttering accessories for civil formwork and staging structures.
-              </p>
-              <div className="mt-3 border-t border-border pt-3">
-                <p className="text-xs text-ink-muted">
-                  <span className="font-semibold text-brand-steel">Standards:</span>{' '}
-                  <span className="mono-numbers">BS 1139 · EN 74 · IS 2750</span>
-                </p>
-              </div>
-              <Link
-                href="/products/scaffold-accessories/"
-                className="mt-4 inline-flex items-center gap-1 font-heading text-sm font-semibold text-brand-gold-strong hover:underline"
-              >
-                View Scaffold Accessories <ArrowRight aria-hidden="true" className="h-4 w-4" />
-              </Link>
-            </Card>
-
-            {/* 5. Custom Fasteners (Ambiguous) */}
-            <Card
-              variant="metallic"
-              padding="lg"
-              className="flex h-full flex-col transition-shadow hover:shadow-card-elevated"
-            >
-              <div className="flex items-center justify-end">
-                <span className="font-mono text-xs font-semibold text-brand-steel">Drawing-based</span>
-              </div>
-              <div className="relative mt-4 aspect-[4/3] w-full overflow-hidden rounded-md bg-brand-steel-soft/40">
-                <Image
-                  src="/images/products/bolts/socket-head-cap-screw.jpg"
-                  alt="Custom fasteners — non-standard and drawing-to-sample"
-                  fill
-                  sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
-                  className="object-contain p-2"
-                />
-              </div>
-              <Heading as="h3" variant="card" className="mt-4">
-                Custom Fasteners
-              </Heading>
-              <p className="mt-2 flex-1 text-sm text-ink-muted">
-                Drawing-based OEM manufacturing and non-standard fastener sourcing to customer blueprints, custom step-shanks, and special threads.
-              </p>
-              <div className="mt-3 border-t border-border pt-3">
-                <p className="text-xs text-ink-muted">
-                  <span className="font-semibold text-brand-steel">Standards:</span>{' '}
-                  <span className="mono-numbers">Custom Blueprints · ISO / DIN / ASTM</span>
-                </p>
-              </div>
-              <Link
-                href="/products/custom-fasteners/"
-                className="mt-4 inline-flex items-center gap-1 font-heading text-sm font-semibold text-brand-gold-strong hover:underline"
-              >
-                View Custom Fasteners <ArrowRight aria-hidden="true" className="h-4 w-4" />
-              </Link>
-            </Card>
-
-            {/* 6. Hex Bolts & Nuts (Trading) */}
-            <Card
-              variant="metallic"
-              padding="lg"
-              className="flex h-full flex-col transition-shadow hover:shadow-card-elevated"
-            >
-              <div className="flex items-center justify-end">
-                <span className="font-mono text-xs font-semibold text-brand-steel">DIN 933</span>
-              </div>
-              <div className="relative mt-4 aspect-[4/3] w-full overflow-hidden rounded-md bg-brand-steel-soft/40">
-                <Image
-                  src="/images/products/bolts/hex-bolt-hex-nut.jpg"
-                  alt="Hex bolts and nuts — DIN 933 / DIN 934 distribution range"
-                  fill
-                  sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
-                  className="object-contain p-2"
-                />
-              </div>
-              <Heading as="h3" variant="card" className="mt-4">
-                Hex Bolts &amp; Nuts
-              </Heading>
-              <p className="mt-2 flex-1 text-sm text-ink-muted">
-                DIN 933 / DIN 931 / ISO 4017 full-thread and half-thread hex bolts with matching DIN 934 nuts in property classes 4.6, 8.8, and 10.9.
-              </p>
-              <div className="mt-3 border-t border-border pt-3">
-                <p className="text-xs text-ink-muted">
-                  <span className="font-semibold text-brand-steel">Standards:</span>{' '}
-                  <span className="mono-numbers">DIN 933 · DIN 931 · ISO 4017 · DIN 934</span>
-                </p>
-              </div>
-              <Link
-                href="/products/hex-bolts-nuts/"
-                className="mt-4 inline-flex items-center gap-1 font-heading text-sm font-semibold text-brand-gold-strong hover:underline"
-              >
-                View Hex Bolts &amp; Nuts <ArrowRight aria-hidden="true" className="h-4 w-4" />
-              </Link>
-            </Card>
-
-            {/* 7. CSK Allen Bolts (Trading) */}
-            <Card
-              variant="metallic"
-              padding="lg"
-              className="flex h-full flex-col transition-shadow hover:shadow-card-elevated"
-            >
-              <div className="flex items-center justify-end">
-                <span className="font-mono text-xs font-semibold text-brand-steel">DIN 7991</span>
-              </div>
-              <div className="relative mt-4 aspect-[4/3] w-full overflow-hidden rounded-md bg-brand-steel-soft/40">
-                <Image
-                  src="/images/products/bolts/allen-socket-csk-screw.jpg"
-                  alt="Countersunk Allen socket screw — DIN 7991"
-                  fill
-                  sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
-                  className="object-contain p-2"
-                />
-              </div>
-              <Heading as="h3" variant="card" className="mt-4">
-                CSK Allen Bolts
-              </Heading>
-              <p className="mt-2 flex-1 text-sm text-ink-muted">
-                Countersunk socket head cap screws to DIN 7991 / ISO 10642 in high-tensile 10.9 and stainless steel for flush-mount mechanical assemblies.
-              </p>
-              <div className="mt-3 border-t border-border pt-3">
-                <p className="text-xs text-ink-muted">
-                  <span className="font-semibold text-brand-steel">Standards:</span>{' '}
-                  <span className="mono-numbers">DIN 7991 · ISO 10642 · Grade 10.9</span>
-                </p>
-              </div>
-              <Link
-                href="/products/csk-allen-bolts/"
-                className="mt-4 inline-flex items-center gap-1 font-heading text-sm font-semibold text-brand-gold-strong hover:underline"
-              >
-                View CSK Allen Bolts <ArrowRight aria-hidden="true" className="h-4 w-4" />
-              </Link>
-            </Card>
-
-            {/* 8. Tie Rods (Trading) */}
-            <Card
-              variant="metallic"
-              padding="lg"
-              className="flex h-full flex-col transition-shadow hover:shadow-card-elevated"
-            >
-              <div className="flex items-center justify-end">
-                <span className="font-mono text-xs font-semibold text-brand-steel">D15 / D20</span>
-              </div>
-              <div className="relative mt-4 aspect-[4/3] w-full overflow-hidden rounded-md bg-brand-steel-soft/40">
-                <Image
-                  src="/images/products/threaded-rods/threaded-rod-stud.jpg"
-                  alt="Formwork tie rods — D15 and D20 diameter"
-                  fill
-                  sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
-                  className="object-contain p-2"
-                />
-              </div>
-              <Heading as="h3" variant="card" className="mt-4">
-                Tie Rods
-              </Heading>
-              <p className="mt-2 flex-1 text-sm text-ink-muted">
-                Hot-rolled and cold-drawn formwork tie rods D15 / D20, English and French thread profiles, with compatible anchor nuts for concrete formwork.
-              </p>
-              <div className="mt-3 border-t border-border pt-3">
-                <p className="text-xs text-ink-muted">
-                  <span className="font-semibold text-brand-steel">Standards:</span>{' '}
-                  <span className="mono-numbers">D15 / D20 · Tensile 150 kN+</span>
-                </p>
-              </div>
-              <Link
-                href="/products/tie-rods/"
-                className="mt-4 inline-flex items-center gap-1 font-heading text-sm font-semibold text-brand-gold-strong hover:underline"
-              >
-                View Tie Rods <ArrowRight aria-hidden="true" className="h-4 w-4" />
-              </Link>
-            </Card>
-
-            {/* 9. Solar Accessories (Trading) */}
-            <Card
-              variant="metallic"
-              padding="lg"
-              className="flex h-full flex-col transition-shadow hover:shadow-card-elevated"
-            >
-              <div className="flex items-center justify-end">
-                <span className="font-mono text-xs font-semibold text-brand-steel">SS 304 / HDG</span>
-              </div>
-              <div className="relative mt-4 aspect-[4/3] w-full overflow-hidden rounded-md bg-brand-steel-soft/40">
-                <Image
-                  src="/images/products/bolts/hex-flange-bolt.jpg"
-                  alt="Solar mounting accessories — MMS bolts, clamps, hanger bolts"
-                  fill
-                  sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
-                  className="object-contain p-2"
-                />
-              </div>
-              <Heading as="h3" variant="card" className="mt-4">
-                Solar Accessories
-              </Heading>
-              <p className="mt-2 flex-1 text-sm text-ink-muted">
-                T-head bolts, MMS flange bolts, hanger bolts, and module clamps in SS 304 / SS 316 and hot-dip galvanized finishes for solar racking.
-              </p>
-              <div className="mt-3 border-t border-border pt-3">
-                <p className="text-xs text-ink-muted">
-                  <span className="font-semibold text-brand-steel">Standards:</span>{' '}
-                  <span className="mono-numbers">SS 304 · SS 316 · HDG · ISO 3506</span>
-                </p>
-              </div>
-              <Link
-                href="/products/solar-accessories/"
-                className="mt-4 inline-flex items-center gap-1 font-heading text-sm font-semibold text-brand-gold-strong hover:underline"
-              >
-                View Solar Accessories <ArrowRight aria-hidden="true" className="h-4 w-4" />
-              </Link>
-            </Card>
+                <div className="mt-3 border-t border-border pt-3">
+                  <p className="text-xs text-ink-muted">
+                    <span className="font-semibold text-brand-steel">Standards:</span>{' '}
+                    <span className="mono-numbers">{prod.standards}</span>
+                  </p>
+                </div>
+                <Link
+                  href={prod.href}
+                  className="mt-4 inline-flex items-center gap-1 font-heading text-sm font-semibold text-brand-gold-strong hover:underline"
+                >
+                  {prod.linkText} <ArrowRight aria-hidden="true" className="h-4 w-4" />
+                </Link>
+              </Card>
+            ))}
           </div>
         </Container>
       </Section>
