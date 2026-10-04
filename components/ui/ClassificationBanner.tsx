@@ -1,3 +1,4 @@
+import type { ReactNode } from 'react';
 import { Factory, Truck, AlertTriangle } from 'lucide-react';
 import type { ProductClassification } from '@/data/products/index';
 
@@ -41,8 +42,12 @@ const ICON: Record<ProductClassification, typeof Factory> = {
 
 export function ClassificationBanner({
   classification,
+  customBody,
+  children,
 }: {
   classification: ProductClassification;
+  customBody?: ReactNode;
+  children?: ReactNode;
 }) {
   const c = COPY[classification];
   const Icon = ICON[classification];
@@ -57,7 +62,7 @@ export function ClassificationBanner({
       <Icon aria-hidden="true" className="mt-0.5 h-5 w-5 shrink-0" />
       <div>
         <span className={`${c.badgeClass} mr-2 align-middle`}>{c.badge}</span>
-        <span className="align-middle">{c.body}</span>
+        <span className="align-middle">{children ?? customBody ?? c.body}</span>
       </div>
     </div>
   );

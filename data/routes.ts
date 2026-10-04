@@ -60,7 +60,18 @@ export const routes: CanonicalRoute[] = [
   p('/products/custom-fasteners/', 'Custom Fasteners', 'products', productsHub),
   // Materials
   materialsHub,
-  p('/materials/stainless-steel-fasteners/', 'Stainless Steel Fasteners', 'materials'),
+  {
+    path: '/materials/stainless-steel-fasteners/',
+    priority: 0.7,
+    changeFreq: 'monthly',
+    navGroup: 'materials',
+    pendingContent: false,
+    breadcrumbTrail: [
+      { label: 'Home', href: '/' },
+      { label: 'Materials', href: '/materials/high-tensile-fasteners/' },
+      { label: 'Stainless Steel Fasteners', href: '/materials/stainless-steel-fasteners/' },
+    ],
+  },
   // Industries
   p('/industries/solar-mounting-fasteners/', 'Solar Mounting Fasteners', 'industries'),
   p('/industries/construction-infrastructure/', 'Construction & Infrastructure', 'industries'),
