@@ -15,7 +15,7 @@ export function Breadcrumbs({ trail }: { trail: BreadcrumbEntry[] }) {
           {trail.map((t, i) => {
             const isLast = i === trail.length - 1;
             return (
-              <li key={t.href} className="flex items-center gap-1">
+              <li key={`${t.href}-${t.label}-${i}`} className="flex items-center gap-1">
                 {i > 0 && (
                   <span aria-hidden="true" className="text-ink-soft">
                     /

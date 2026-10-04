@@ -35,7 +35,6 @@ const materialsHub: CanonicalRoute = {
   pendingContent: false,
   breadcrumbTrail: [
     { label: 'Home', href: '/' },
-    { label: 'Materials', href: '/materials/high-tensile-fasteners/' },
     { label: 'High-Tensile Fasteners', href: '/materials/high-tensile-fasteners/' },
   ],
 };

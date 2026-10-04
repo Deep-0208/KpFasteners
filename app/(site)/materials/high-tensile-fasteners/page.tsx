@@ -254,7 +254,6 @@ export default function Page() {
   const route = findRoute(PATH);
   const trail = route?.breadcrumbTrail ?? [
     { label: 'Home', href: '/' },
-    { label: 'Materials', href: PATH },
     { label: 'High-Tensile Fasteners', href: PATH },
   ];
 
