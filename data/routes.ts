@@ -43,7 +43,7 @@ const materialsHub: CanonicalRoute = {
 export const routes: CanonicalRoute[] = [
   home,
   // Company & trust
-  p('/about/', 'About', 'company'),
+  p('/about/', 'About', 'company', undefined, { pendingContent: false }),
   p('/quality/', 'Quality', 'company'),
   p('/contact/', 'Contact', 'company'),
   p('/request-quote/', 'Request a Quote', 'company'),
