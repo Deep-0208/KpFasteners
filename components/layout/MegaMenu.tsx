@@ -3,9 +3,9 @@ import { ArrowRight, Factory, Truck, Layers, ShieldCheck } from 'lucide-react';
 
 /**
  * 4-column industrial mega menu for Products.
- * CSS-only hover / focus-within support without client JavaScript.
+ * Accepts optional onClose callback to dismiss menu on link selection.
  */
-export function MegaMenu() {
+export function MegaMenu({ onClose }: { onClose?: () => void }) {
   return (
     <div className="space-y-6">
       <div className="grid grid-cols-2 gap-6 md:grid-cols-4">
@@ -22,6 +22,7 @@ export function MegaMenu() {
             <li>
               <Link
                 href="/products/foundation-bolts/"
+                onClick={onClose}
                 className="block rounded py-0.5 text-ink hover:text-brand-gold-strong"
               >
                 Foundation Bolts
@@ -30,6 +31,7 @@ export function MegaMenu() {
             <li>
               <Link
                 href="/products/stud-bolts/"
+                onClick={onClose}
                 className="block rounded py-0.5 text-ink hover:text-brand-gold-strong"
               >
                 Stud Bolts
@@ -38,6 +40,7 @@ export function MegaMenu() {
             <li>
               <Link
                 href="/products/sag-rods/"
+                onClick={onClose}
                 className="block rounded py-0.5 text-ink hover:text-brand-gold-strong"
               >
                 Sag Rods
@@ -46,6 +49,7 @@ export function MegaMenu() {
             <li>
               <Link
                 href="/products/custom-fasteners/"
+                onClick={onClose}
                 className="block rounded py-0.5 text-ink hover:text-brand-gold-strong"
               >
                 Custom Fasteners
@@ -67,6 +71,7 @@ export function MegaMenu() {
             <li>
               <Link
                 href="/products/hex-bolts-nuts/"
+                onClick={onClose}
                 className="block rounded py-0.5 text-ink hover:text-brand-gold-strong"
               >
                 Hex Bolts &amp; Nuts
@@ -75,6 +80,7 @@ export function MegaMenu() {
             <li>
               <Link
                 href="/products/csk-allen-bolts/"
+                onClick={onClose}
                 className="block rounded py-0.5 text-ink hover:text-brand-gold-strong"
               >
                 CSK Allen Bolts
@@ -83,6 +89,7 @@ export function MegaMenu() {
             <li>
               <Link
                 href="/products/tie-rods/"
+                onClick={onClose}
                 className="block rounded py-0.5 text-ink hover:text-brand-gold-strong"
               >
                 Tie Rods
@@ -91,6 +98,7 @@ export function MegaMenu() {
             <li>
               <Link
                 href="/products/scaffold-accessories/"
+                onClick={onClose}
                 className="block rounded py-0.5 text-ink hover:text-brand-gold-strong"
               >
                 Scaffold Accessories
@@ -99,6 +107,7 @@ export function MegaMenu() {
             <li>
               <Link
                 href="/products/solar-accessories/"
+                onClick={onClose}
                 className="block rounded py-0.5 text-ink hover:text-brand-gold-strong"
               >
                 Solar Accessories
@@ -120,6 +129,7 @@ export function MegaMenu() {
             <li>
               <Link
                 href="/materials/high-tensile-fasteners/"
+                onClick={onClose}
                 className="block rounded py-0.5 text-ink hover:text-brand-gold-strong"
               >
                 High-Tensile (8.8, 10.9)
@@ -128,6 +138,7 @@ export function MegaMenu() {
             <li>
               <Link
                 href="/materials/stainless-steel-fasteners/"
+                onClick={onClose}
                 className="block rounded py-0.5 text-ink hover:text-brand-gold-strong"
               >
                 Stainless Steel (304, 316)
@@ -153,6 +164,7 @@ export function MegaMenu() {
             <li>
               <Link
                 href="/industries/construction-infrastructure/"
+                onClick={onClose}
                 className="block rounded py-0.5 text-ink hover:text-brand-gold-strong"
               >
                 Construction &amp; PEB
@@ -161,6 +173,7 @@ export function MegaMenu() {
             <li>
               <Link
                 href="/industries/solar-mounting-fasteners/"
+                onClick={onClose}
                 className="block rounded py-0.5 text-ink hover:text-brand-gold-strong"
               >
                 Solar Mounting Arrays
@@ -169,6 +182,7 @@ export function MegaMenu() {
             <li>
               <Link
                 href="/industries/automotive-heavy-engineering/"
+                onClick={onClose}
                 className="block rounded py-0.5 text-ink hover:text-brand-gold-strong"
               >
                 Heavy Engineering &amp; OEMs
@@ -182,6 +196,7 @@ export function MegaMenu() {
       <div className="flex flex-wrap items-center justify-between gap-3 border-t border-border pt-4 text-xs">
         <Link
           href="/products/"
+          onClick={onClose}
           className="inline-flex items-center gap-1 font-semibold text-brand-gold-strong hover:underline"
         >
           View All 9 Product Categories <ArrowRight aria-hidden="true" className="h-3.5 w-3.5" />
@@ -189,6 +204,7 @@ export function MegaMenu() {
         <span className="hidden text-ink-muted sm:inline">Ahmedabad Manufacturing &amp; Pan-India Dispatch</span>
         <Link
           href="/request-quote/"
+          onClick={onClose}
           className="font-semibold text-brand-steel hover:text-brand-gold-strong hover:underline"
         >
           Submit Drawing for RFQ →
