@@ -72,8 +72,7 @@ export const routes: CanonicalRoute[] = [
       { label: 'Stainless Steel Fasteners', href: '/materials/stainless-steel-fasteners/' },
     ],
   },
-  // Industries
-  p('/industries/solar-mounting-fasteners/', 'Solar Mounting Fasteners', 'industries'),
+  p('/industries/solar-mounting-fasteners/', 'Solar Mounting Fasteners', 'industries', undefined, { pendingContent: false }),
   p('/industries/construction-infrastructure/', 'Construction & Infrastructure', 'industries'),
   p('/industries/automotive-heavy-engineering/', 'Automotive & Heavy Engineering', 'industries'),
   // Legal
