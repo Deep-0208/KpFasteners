@@ -4,16 +4,7 @@ import { useState, useRef, useEffect, useCallback } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { usePathname } from 'next/navigation';
-import {
-  Phone,
-  ChevronDown,
-  MapPin,
-  ShieldCheck,
-  Clock,
-  MessageCircle,
-  FileText,
-  ArrowRight,
-} from 'lucide-react';
+import { Phone, ChevronDown, FileText, ArrowRight } from 'lucide-react';
 import { Container } from '@/components/ui/Container';
 import { headerNav } from '@/data/navigation';
 import { MegaMenu } from '@/components/layout/MegaMenu';
@@ -22,10 +13,11 @@ import { company } from '@/data/company';
 
 /**
  * Enterprise B2B Industrial Header
- * - Top Utility Strip: Factory verification, GST/MTC 3.1 credentials, operating hours, direct WhatsApp
- * - Main Nav: Tactile engineered navigation tabs, active state indicators, prominent brand anchor
- * - Conversion Area: Direct sales hotline pill + industrial RFQ action button
- * - MegaMenu: Architectural 4-column directory for standard & custom fastener lines
+ * - Clean, engineered navigation tabs with active state indicators
+ * - Prominent brand anchor with architectural divider
+ * - Direct factory sales hotline with live status indicator
+ * - High-contrast industrial RFQ procurement CTA
+ * - Architectural 4-column MegaMenu for standard & custom fastener lines
  */
 export function Header() {
   const [openMenu, setOpenMenu] = useState<string | null>(null);
@@ -34,11 +26,6 @@ export function Header() {
   const pathname = usePathname();
 
   const tel = `tel:${company.telephones[0].replace(/[^\d+]/g, '')}`;
-  const waUrl =
-    'https://wa.me/' +
-    company.whatsapp.number.replace(/[^\d]/g, '') +
-    '?text=' +
-    encodeURIComponent(company.whatsapp.prefill);
 
   /* Reset open menu on route change */
   const [prevPathname, setPrevPathname] = useState(pathname);
@@ -95,59 +82,12 @@ export function Header() {
   );
 
   return (
-    <header ref={headerRef} className="sticky top-0 z-40 w-full">
-      {/* 1. Top Industrial Utility Bar */}
-      <div className="relative border-t-[2.5px] border-amber-600 bg-slate-900 text-slate-300 text-xs">
-        <Container>
-          <div className="flex h-9 items-center justify-between gap-4">
-            {/* Left: Manufacturing Credentials */}
-            <div className="flex items-center gap-3 overflow-hidden text-[11px] sm:text-xs">
-              <span className="flex items-center gap-1.5 text-slate-200">
-                <MapPin aria-hidden="true" className="h-3.5 w-3.5 text-amber-500 shrink-0" />
-                <span className="font-semibold text-white">Ahmedabad Plant:</span>
-                <span className="hidden sm:inline">23/4 Ghanshyam Ind. Estate</span>
-              </span>
-              <span className="hidden md:inline text-slate-600" aria-hidden="true">|</span>
-              <span className="hidden md:flex items-center gap-1.5 text-slate-300">
-                <ShieldCheck aria-hidden="true" className="h-3.5 w-3.5 text-emerald-400 shrink-0" />
-                <span>GST: 24ARDPP9803A1Z3 · MTC 3.1 Traceable</span>
-              </span>
-            </div>
-
-            {/* Right: Operational Status & Rapid Hotlines */}
-            <div className="flex items-center gap-4 text-[11px] sm:text-xs">
-              <span className="hidden xl:flex items-center gap-1.5 text-slate-400">
-                <Clock aria-hidden="true" className="h-3.5 w-3.5 text-amber-500" />
-                <span>Mon–Sat 09:30–19:00 IST</span>
-              </span>
-              <a
-                href={waUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center gap-1 font-semibold text-emerald-400 transition-colors hover:text-emerald-300"
-                aria-label="Direct WhatsApp RFQ"
-              >
-                <MessageCircle aria-hidden="true" className="h-3.5 w-3.5" />
-                <span>WhatsApp RFQ</span>
-              </a>
-              <span className="hidden sm:inline text-slate-600" aria-hidden="true">|</span>
-              <a
-                href={tel}
-                className="hidden sm:flex items-center gap-1.5 font-medium text-slate-200 transition-colors hover:text-white"
-                aria-label={`Call ${company.telephones[0]}`}
-              >
-                <Phone aria-hidden="true" className="h-3.5 w-3.5 text-amber-500" />
-                <span>{company.telephones[0]}</span>
-              </a>
-            </div>
-          </div>
-        </Container>
-      </div>
-
-      {/* 2. Main Navigation Bar */}
-      <div className="border-b border-slate-200/90 bg-white/98 shadow-[0_2px_12px_rgba(15,23,42,0.06)] backdrop-blur-md">
-        <Container className="relative">
-          <div className="flex h-[72px] md:h-20 items-center justify-between gap-4">
+    <header
+      ref={headerRef}
+      className="sticky top-0 z-40 w-full border-b border-slate-200/90 bg-white/98 shadow-[0_2px_12px_rgba(15,23,42,0.06)] backdrop-blur-md"
+    >
+      <Container className="relative">
+        <div className="flex h-[72px] md:h-20 items-center justify-between gap-4">
             {/* Brand Logo Zone with Vertical Divider */}
             <div className="flex items-center">
               <Link
@@ -268,7 +208,6 @@ export function Header() {
             </div>
           )}
         </Container>
-      </div>
     </header>
   );
 }
