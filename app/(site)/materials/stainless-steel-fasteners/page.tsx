@@ -911,7 +911,7 @@ export default function Page() {
               <p className="mt-3 text-sm text-ink-muted">
                 For major infrastructure and public sector projects, KP Fasteners routes independent lot samples to accredited third-party NABL testing laboratories for complete optical emission spectrometry (OES) chemical analysis. Explore our{' '}
                 <Link
-                  href="/quality/"
+                  href="/tools/"
                   className="font-semibold text-brand-gold-strong hover:underline"
                 >
                   PMI verification and NABL partner tensile
@@ -1069,7 +1069,7 @@ export default function Page() {
               </div>
               <div className="text-center lg:text-right">
                 <Link
-                  href="/quality/"
+                  href="/tools/"
                   className="btn btn-secondary"
                 >
                   Explore our quality protocol

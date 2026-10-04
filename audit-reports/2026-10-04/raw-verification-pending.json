@@ -7,52 +7,27 @@
   {
     "file": "app\\(site)\\about\\page.tsx",
     "line": 61,
-    "text": "// VERIFICATION PENDING: owner legal name — Pramod per URC vs Kabir per practice? — ref: business-profile.md §1"
-  },
-  {
-    "file": "app\\(site)\\about\\page.tsx",
-    "line": 62,
-    "text": "// VERIFICATION PENDING: Founding year of operations (GST registered 2017; pre-2017 date pending client proof) — ref: brief §10 item 2"
-  },
-  {
-    "file": "app\\(site)\\about\\page.tsx",
-    "line": 63,
     "text": "// VERIFICATION PENDING: Exact shop-floor square footage, machine inventory, and annual tonnage — ref: brief §3 & §10 item 5"
   },
   {
     "file": "app\\(site)\\about\\page.tsx",
-    "line": 64,
+    "line": 62,
     "text": "// VERIFICATION PENDING: Real photograph of factory sign board, manufacturing shop floor, and warehouse at Ahmedabad — ref: brief §6 & §10 item 5"
   },
   {
     "file": "app\\(site)\\about\\page.tsx",
-    "line": 65,
+    "line": 63,
     "text": "// VERIFICATION PENDING: Specific third-party quality certifications beyond GST and Udyam MSME — ref: brief §5 & §10 item 8"
   },
   {
     "file": "app\\(site)\\about\\page.tsx",
-    "line": 298,
+    "line": 297,
     "text": "{/* VERIFICATION PENDING: Real photograph of factory sign board, manufacturing shop floor, and warehouse at Ahmedabad — ref: brief §6 & §10 item 5 */}"
   },
   {
     "file": "app\\(site)\\about\\page.tsx",
-    "line": 486,
-    "text": "{/* VERIFICATION PENDING: Founding year of operations (GST registered 2017; pre-2017 date pending client proof) — ref: brief §10 item 2 */}"
-  },
-  {
-    "file": "app\\(site)\\about\\page.tsx",
-    "line": 510,
+    "line": 508,
     "text": "{/* VERIFICATION PENDING: Exact shop-floor square footage, machine inventory, and annual tonnage — ref: brief §3 & §10 item 5 */}"
-  },
-  {
-    "file": "app\\(site)\\about\\page.tsx",
-    "line": 572,
-    "text": "{/* VERIFICATION PENDING: owner legal name — Pramod per URC vs Kabir per practice? — ref: business-profile.md §1 */}"
-  },
-  {
-    "file": "app\\(site)\\contact\\page.tsx",
-    "line": 237,
-    "text": "{/* VERIFICATION PENDING: contact-person name — business card lists"
   },
   {
     "file": "app\\(site)\\contact\\page.tsx",
@@ -921,17 +896,12 @@
   },
   {
     "file": "app\\page.tsx",
-    "line": 177,
-    "text": "{/* VERIFICATION PENDING: Udyam / MSME registration number — do NOT"
-  },
-  {
-    "file": "app\\page.tsx",
-    "line": 281,
+    "line": 279,
     "text": "{/* VERIFICATION PENDING: dispatch SLAs — \"24–72 hrs Ahmedabad / 3–5"
   },
   {
     "file": "docs\\business-profile.md",
-    "line": 175,
+    "line": 182,
     "text": "If a piece of content requires one of the above, it stays behind a `[VERIFICATION REQUIRED: …]` flag until answered."
   },
   {
@@ -1228,5 +1198,10 @@
     "file": "docs\\repository-baseline.md",
     "line": 48,
     "text": "4. **No content source of truth.** Until the client questionnaire (see [`business-profile.md` §8](business-profile.md#8-client-questionnaire)) is answered, the repo will accumulate `[VERIFICATION REQUIRED]` placeholders. Do not code around these — block the affected pages."
+  },
+  {
+    "file": "scripts\\generate-verification-pending.mjs",
+    "line": 25,
+    "text": "if (line.includes('VERIFICATION PENDING') || line.includes('VERIFICATION REQUIRED')) {"
   }
 ]

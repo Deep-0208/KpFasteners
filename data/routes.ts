@@ -44,8 +44,8 @@ export const routes: CanonicalRoute[] = [
   // Company & trust
   p('/about/', 'About', 'company', undefined, { pendingContent: false }),
   p('/tools/', 'Engineering Tools', 'company', undefined, { pendingContent: false }),
-  p('/contact/', 'Contact', 'company'),
-  p('/request-quote/', 'Request a Quote', 'company'),
+  p('/contact/', 'Contact', 'company', undefined, { pendingContent: false }),
+  p('/request-quote/', 'Request a Quote', 'company', undefined, { pendingContent: false }),
   // Products
   productsHub,
   p('/products/foundation-bolts/', 'Foundation Bolts', 'products', productsHub, { pendingContent: false }),

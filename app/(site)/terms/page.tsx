@@ -233,7 +233,7 @@ export default function TermsPage() {
                   <p>
                     In accordance with our commitment to procurement transparency (detailed on our{' '}
                     <Link href="/about/" className="underline hover:text-brand-steel">About</Link> and{' '}
-                    <Link href="/quality/" className="underline hover:text-brand-steel">Quality</Link> pages), all products
+                    <Link href="/tools/" className="underline hover:text-brand-steel">Tools</Link> pages), all products
                     are categorized into three distinct supply streams:
                   </p>
                   <ul className="list-disc pl-5 space-y-1">

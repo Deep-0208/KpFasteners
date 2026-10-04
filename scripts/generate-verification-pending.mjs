@@ -1,7 +1,38 @@
 import fs from 'node:fs';
 import path from 'node:path';
 
-const raw = JSON.parse(fs.readFileSync('audit-reports/2026-10-04/raw-verification-pending.json', 'utf8'));
+function walk(dir) {
+  let results = [];
+  if (!fs.existsSync(dir)) return results;
+  for (const f of fs.readdirSync(dir)) {
+    if (f === 'node_modules' || f === '.next' || f === '.git' || f === 'audit-reports') continue;
+    const full = path.join(dir, f);
+    const stat = fs.statSync(full);
+    if (stat.isDirectory()) {
+      results.push(...walk(full));
+    } else if (/\.(tsx?|mjs|jsx?|md)$/.test(f)) {
+      results.push(full);
+    }
+  }
+  return results;
+}
+
+const raw = [];
+for (const file of walk('.')) {
+  const content = fs.readFileSync(file, 'utf8');
+  const lines = content.split('\n');
+  lines.forEach((line, idx) => {
+    if (line.includes('VERIFICATION PENDING') || line.includes('VERIFICATION REQUIRED')) {
+      raw.push({
+        file: path.relative('.', file),
+        line: idx + 1,
+        text: line.trim()
+      });
+    }
+  });
+}
+
+fs.writeFileSync('audit-reports/2026-10-04/raw-verification-pending.json', JSON.stringify(raw, null, 2));
 
 // Filter only code files
 const codeMarkers = raw.filter(m => /^(app|components|data|lib)/.test(m.file));

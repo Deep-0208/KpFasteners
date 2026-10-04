@@ -817,7 +817,7 @@ export default function Page() {
               </div>
               <div className="text-center lg:text-right">
                 <Link
-                  href="/quality/"
+                  href="/tools/"
                   className="btn btn-secondary"
                 >
                   NABL tensile verification and MTC EN 10204 3.1

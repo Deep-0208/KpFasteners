@@ -1,7 +1,7 @@
 # Consolidated Inventory: Verification Pending Markers
 **Audit Date:** 2026-10-04  
 **Project:** KP Fasteners Web Platform (Pre-Launch)  
-**Total Markers in Source Code:** 185  
+**Total Markers in Source Code:** 179  
 
 > **OPERATIONAL DIRECTIVE (AGENTS.md & docs/business-profile.md):**  
 > "Never invent company facts, factory square footage, machine rosters, certifications (ISO, CE), material grades, tensile ratings, or customer logos. If data is unknown, flag it for client verification."  
@@ -14,11 +14,11 @@
 
 | Category | Markers Count | Impacted Subsystems |
 |---|---|---|
-| **Founding Year & Operational History** | 2 | `page.tsx` |
-| **Founder & Management Identification (Pramod vs Kabir Panchal)** | 6 | `page.tsx, page.tsx, page.tsx, page.tsx` |
+| **Founding Year & Operational History** | 0 | `` |
+| **Founder & Management Identification (Pramod vs Kabir Panchal)** | 4 | `page.tsx, page.tsx, page.tsx` |
 | **Factory Facility, Machinery & Plot Area** | 4 | `page.tsx` |
 | **Third-Party Quality Certifications (ISO 9001 / IATF)** | 37 | `page.tsx, page.tsx, page.tsx, page.tsx, page.tsx, page.tsx, page.tsx, page.tsx, page.tsx, page.tsx, page.tsx` |
-| **Material Grades & Public Standards Confirmation** | 136 | `page.tsx, page.tsx, page.tsx, page.tsx, page.tsx, page.tsx, page.tsx, page.tsx, page.tsx, page.tsx, page.tsx, page.tsx, page.tsx, page.tsx, page.tsx, page.tsx, page.tsx, page.tsx, page.tsx` |
+| **Material Grades & Public Standards Confirmation** | 134 | `page.tsx, page.tsx, page.tsx, page.tsx, page.tsx, page.tsx, page.tsx, page.tsx, page.tsx, page.tsx, page.tsx, page.tsx, page.tsx, page.tsx, page.tsx, page.tsx, page.tsx, page.tsx, page.tsx` |
 | **Tonnage, Lead Times & MOQ Constraints** | 0 | `` |
 | **Testing Laboratory & Inspection Equipment** | 0 | `` |
 | **Export Capability & IEC License** | 0 | `` |
@@ -28,25 +28,13 @@
 
 ## Detailed Inventory & Client Questionnaire
 
-### Founding Year & Operational History (2 markers)
-
-**Client Question for Kabir Panchal:**  
-> *What is the exact founding year of commercial operations for KP Fasteners? (GST registered 2017; pre-2017 proof required to claim earlier operating history).*
-
-| File Path | Line | Code Context |
-|---|---|---|
-| `app/(site)/about/page.tsx` | `62` | VERIFICATION PENDING: Founding year of operations (GST registered 2017; pre-2017 date pending client proof) — ref: brief §10 item 2 |
-| `app/(site)/about/page.tsx` | `486` | VERIFICATION PENDING: Founding year of operations (GST registered 2017; pre-2017 date pending client proof) — ref: brief §10 item 2 |
-
-### Founder & Management Identification (Pramod vs Kabir Panchal) (6 markers)
+### Founder & Management Identification (Pramod vs Kabir Panchal) (4 markers)
 
 **Client Question for Kabir Panchal:**  
 > *Clarify legal founder and management roles: Is Mr. Pramod Panchal the Proprietor and Mr. Kabir Panchal the Managing Director / day-to-day contact? How should each be cited on About page and Schema?*
 
 | File Path | Line | Code Context |
 |---|---|---|
-| `app/(site)/about/page.tsx` | `61` | VERIFICATION PENDING: owner legal name — Pramod per URC vs Kabir per practice? — ref: business-profile.md §1 |
-| `app/(site)/about/page.tsx` | `572` | VERIFICATION PENDING: owner legal name — Pramod per URC vs Kabir per practice? — ref: business-profile.md §1 |
 | `app/(site)/products/custom-fasteners/page.tsx` | `62` | VERIFICATION PENDING: Confirm tooldie ownership policy for repeat custom orders — ref: brief §10 item 10 |
 | `app/(site)/products/scaffold-accessories/page.tsx` | `144` | VERIFICATION PENDING: Water-stopper assembly stock status is pending Kabir |
 | `app/(site)/terms/page.tsx` | `283` | VERIFICATION PENDING: Commercial payment terms, advance percentage, and credit policy to be confirmed by Kabir and legal counsel — ref: brief §3  §10 Q2 |
@@ -59,10 +47,10 @@
 
 | File Path | Line | Code Context |
 |---|---|---|
-| `app/(site)/about/page.tsx` | `63` | VERIFICATION PENDING: Exact shop-floor square footage, machine inventory, and annual tonnage — ref: brief §3 & §10 item 5 |
-| `app/(site)/about/page.tsx` | `64` | VERIFICATION PENDING: Real photograph of factory sign board, manufacturing shop floor, and warehouse at Ahmedabad — ref: brief §6 & §10 item 5 |
-| `app/(site)/about/page.tsx` | `298` | VERIFICATION PENDING: Real photograph of factory sign board, manufacturing shop floor, and warehouse at Ahmedabad — ref: brief §6 & §10 item 5 |
-| `app/(site)/about/page.tsx` | `510` | VERIFICATION PENDING: Exact shop-floor square footage, machine inventory, and annual tonnage — ref: brief §3 & §10 item 5 |
+| `app/(site)/about/page.tsx` | `61` | VERIFICATION PENDING: Exact shop-floor square footage, machine inventory, and annual tonnage — ref: brief §3 & §10 item 5 |
+| `app/(site)/about/page.tsx` | `62` | VERIFICATION PENDING: Real photograph of factory sign board, manufacturing shop floor, and warehouse at Ahmedabad — ref: brief §6 & §10 item 5 |
+| `app/(site)/about/page.tsx` | `297` | VERIFICATION PENDING: Real photograph of factory sign board, manufacturing shop floor, and warehouse at Ahmedabad — ref: brief §6 & §10 item 5 |
+| `app/(site)/about/page.tsx` | `508` | VERIFICATION PENDING: Exact shop-floor square footage, machine inventory, and annual tonnage — ref: brief §3 & §10 item 5 |
 
 ### Third-Party Quality Certifications (ISO 9001 / IATF) (37 markers)
 
@@ -71,7 +59,7 @@
 
 | File Path | Line | Code Context |
 |---|---|---|
-| `app/(site)/about/page.tsx` | `65` | VERIFICATION PENDING: Specific third-party quality certifications beyond GST and Udyam MSME — ref: brief §5 & §10 item 8 |
+| `app/(site)/about/page.tsx` | `63` | VERIFICATION PENDING: Specific third-party quality certifications beyond GST and Udyam MSME — ref: brief §5 & §10 item 8 |
 | `app/(site)/industries/automotive-heavy-engineering/page.tsx` | `57` | VERIFICATION PENDING: Confirm IATF 16949 future roadmap (not claimed on v1) — ref: brief §10 item 4 |
 | `app/(site)/industries/automotive-heavy-engineering/page.tsx` | `58` | VERIFICATION PENDING: Confirm named tier references with written permission — ref: brief §10 item 5 |
 | `app/(site)/industries/automotive-heavy-engineering/page.tsx` | `532` | VERIFICATION PENDING: Confirm whether KP actively serves automotive OEMs or tier suppliers (tier-1, tier-2, tier-3) & IATF 16949 status — ref: brief §10 items 1 & 4 |
@@ -109,14 +97,13 @@
 | `app/(site)/products/tie-rods/page.tsx` | `59` | VERIFICATION PENDING: Confirm MOQ and lead time bands per diameter and accessory family — ref: brief §10 item 6 |
 | `app/(site)/products/tie-rods/page.tsx` | `737` | VERIFICATION PENDING: Confirm matching accessory inventory split (wing nuts, anchor plates, water bars, cones) — ref: brief §10 item 3 |
 
-### Material Grades & Public Standards Confirmation (136 markers)
+### Material Grades & Public Standards Confirmation (134 markers)
 
 **Client Question for Kabir Panchal:**  
 > *Confirm exact material grades and dimensional standards KP Fasteners actively manufactures vs trades. Can KP issue EN 10204 3.1 MTC for these specs?*
 
 | File Path | Line | Code Context |
 |---|---|---|
-| `app/(site)/contact/page.tsx` | `237` | VERIFICATION PENDING: contact-person name — business card lists |
 | `app/(site)/contact/page.tsx` | `240` | VERIFICATION PENDING: factory latlng — need 5-decimal coordinates |
 | `app/(site)/contact/page.tsx` | `242` | VERIFICATION PENDING: Google Business Profile URL — add to |
 | `app/(site)/industries/automotive-heavy-engineering/page.tsx` | `54` | VERIFICATION PENDING: Confirm whether KP actively serves automotive OEMs or tier suppliers (tier-1, tier-2, tier-3) — gates entire sector page — ref: brief §10 item 1 |
@@ -250,6 +237,5 @@
 | `app/(site)/terms/page.tsx` | `349` | VERIFICATION PENDING: Pass-through warranty wording on traded distribution items to be approved by counsel — ref: brief §3  §10 Q4 |
 | `app/(site)/terms/page.tsx` | `420` | VERIFICATION PENDING: Liability cap threshold and exclusions to be drafted by Indian commercial lawyer — ref: brief §3  §10 Q9 |
 | `app/(site)/terms/page.tsx` | `517` | VERIFICATION PENDING: Dispute resolution mechanism (sole arbitrator vs three-member panel) to be selected by legal counsel — ref: brief §3  §10 Q5 |
-| `app/page.tsx` | `177` | VERIFICATION PENDING: Udyam  MSME registration number — do NOT |
-| `app/page.tsx` | `281` | VERIFICATION PENDING: dispatch SLAs — "24–72 hrs Ahmedabad  3–5 |
+| `app/page.tsx` | `279` | VERIFICATION PENDING: dispatch SLAs — "24–72 hrs Ahmedabad  3–5 |
 

@@ -677,7 +677,7 @@ export default function Page() {
               <p className="mt-6 text-sm text-ink-muted">
                 Read more about our{' '}
                 <Link
-                  href="/quality/"
+                  href="/tools/"
                   className="font-semibold text-brand-gold-strong hover:underline"
                 >
                   MTC EN 10204 3.1 documentation and batch traceability

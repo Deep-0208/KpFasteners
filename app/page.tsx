@@ -87,8 +87,8 @@ const tradingCards = [
 ];
 
 const trustBadges = [
-  'Est. 2017 · GST 24ARDPP9803A1Z3',
-  'MSME Registered',
+  'Mfg. Since 2015 · GST 24ARDPP9803A1Z3',
+  'MSME Udyam UDYAM-GJ-01-0118182',
   'IndiaMART TrustSEAL · 100% response',
   'MTC 3.1 on request',
   '26–50 employees',
@@ -174,8 +174,6 @@ export default function HomePage() {
               </li>
             ))}
           </ul>
-          {/* VERIFICATION PENDING: Udyam / MSME registration number — do NOT
-              publish the number from the URC until Kabir confirms it is OK to display. */}
         </Container>
       </Section>
 

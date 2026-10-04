@@ -837,7 +837,7 @@ export default function Page() {
               </div>
               <div className="text-center lg:text-right">
                 <Link
-                  href="/quality/"
+                  href="/tools/"
                   className="btn btn-secondary"
                 >
                   MTC, PMI and HDG coating-thickness verification

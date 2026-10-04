@@ -875,7 +875,7 @@ export default function Page() {
               </div>
               <div className="space-y-4 text-center lg:text-right">
                 <Link
-                  href="/quality/"
+                  href="/tools/"
                   className="btn btn-secondary"
                 >
                   MTC EN 10204 3.1 pass-through and quality protocols →

@@ -16,20 +16,25 @@
 | GST registration date | **2017** | IndiaMART factsheet |
 | Banker | **ICICI Bank** | IndiaMART factsheet |
 | Total employees | **26–50** | IndiaMART factsheet |
-| Contact person (business card) | **Mr. Pramod Panchal** | Business card |
-| CEO (IndiaMART) | **P Panchal** | IndiaMART |
-| MD / contact (IndiaMART) | **Kabir Panchal** | IndiaMART |
-| ⚠ Name discrepancy | **CLIENT INPUT REQUIRED** — clarify whether Pramod Panchal and Kabir Panchal are the same person or two people (proprietor vs. day-to-day contact). Impacts `Organization.founder`, About page, and schema `contactPoint`. | — |
+| Contact person / Primary Name | **Mr. Kabir Panchal** (MD / Technical & Commercial Lead) | Client confirmation + IndiaMART |
+| Legal Proprietor | **Mr. Pramod Panchal** | GST REG-06 + Udyam URC Records |
+| Founder / Management Structure | **Mr. Kabir Panchal** leads operations and client communications; **Mr. Pramod Panchal** is the registered sole proprietor | Client confirmation (2026-10-04) |
+| Udyam Registration Number | **UDYAM-GJ-01-0118182** (Micro Enterprise, Manufacturing, NIC 24109) | Udyam Registration Certificate PDF |
+| Date of Commencement of Operations | **01/08/2015** (August 1, 2015 — 10+ years operational history) | Udyam Registration Certificate PDF |
+| GST number | **24ARDPP9803A1Z3** | GST REG-06 certificate |
+| GST registration date | **01/07/2017** | GST REG-06 certificate |
+| Banker | **ICICI Bank** | IndiaMART factsheet |
+| Total employees | **26–50** | IndiaMART factsheet |
 | Phone (primary) | **+91 98982 30448** | Business card + client confirm |
 | WhatsApp Business | **Enabled on +91 98982 30448** | Client confirm 2026-09-29 |
 | Sales email | **sales@kpfasteners.com** | Client confirm 2026-09-29 |
 | Business hours | **Mon–Sat, 09:30–19:00 IST; closed Sunday** | Client confirm 2026-09-29 |
-| Address (full) | **23/4 Ghanshyam Industrial Estate, Margha Farm, Ahmedabad – 380024, Gujarat, India** | Business card |
+| Address (full) | **23/4 Ghanshyam Industrial Estate, Margha Farm, Ahmedabad – 380024, Gujarat, India** | Business card + GST REG-06 + URC |
 | Address role | **Office + Factory + Warehouse (all at same address)** | Client confirm 2026-09-29 + IndiaMART photo album (Office, Manufacturing Unit ×2, Warehouse Unit, Stocks, Sign Board) |
 | Website (planned) | **https://kpfasteners.com** | Business card |
 | Existing IndiaMART storefront | **https://www.indiamart.com/kp-fasteners-ahmedabad/** — TrustSEAL verified, Payment Protected, 2 yrs on IndiaMART, 100 % call response rate | IndiaMART |
 | Product range (self-declared on IndiaMART) | Nuts, Bolts, **Anchor Bolts / Foundation Bolts**, **Scaffold Accessories**, **Solar Accessories**, **CSK Allen Bolts**, **Stud Bolts**, **Tie Rods**. Currently active listings: Foundation Bolt (4), Mild Steel Foundation Bolt (3), Tie Rod (1). | IndiaMART |
-| Existing certifications visible | **Certificate of Registration**, **MSME Certificate** (both shown as image thumbnails on IndiaMART — request high-res copies from client) | IndiaMART |
+| Existing certifications visible | **Certificate of Registration (GST)**, **MSME Certificate (Udyam)** (both validated against official PDF documents) | Official PDFs at repo root |
 | Positioning quote (client's own words) | "K P Fasteners is dedicated to providing the highest quality fasteners to meet all your industrial needs." | IndiaMART About Us |
 | Industry | Industrial fasteners | Card + IndiaMART |
 | Primary direct SEO competitor | https://www.srgfasteners.com/ | Assignment brief |
@@ -46,10 +51,12 @@ Remaining inferences that must not be published until the client confirms:
 
 - Export capability + IEC number (must NOT be claimed as "exporter" without proof).
 - ISO 9001 or any other third-party quality certification.
-- Founding year of the business (GST registered 2017, but operations may pre-date GST).
 
-**Closed 2026-09-30:**
-- Udyam / MSME certificate + URC PDFs received (`GST CERTY-K P FASTENERS-1.pdf`, `URC of K P fastener.pdf` at repo root). Numbers to be extracted for on-site display.
+**Closed 2026-10-04 (from official documents and client directive):**
+- **Primary Name:** Mr. Kabir Panchal confirmed as primary lead / contact person; Mr. Pramod Panchal confirmed as legal proprietor.
+- **Founding / Commencement Date:** 01/08/2015 confirmed via Udyam Registration Certificate `UDYAM-GJ-01-0118182`.
+- **MSME / Udyam Number:** `UDYAM-GJ-01-0118182` extracted and published.
+- **GSTIN:** `24ARDPP9803A1Z3` extracted from Form GST REG-06.
 
 ---
 

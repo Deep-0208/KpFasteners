@@ -1170,7 +1170,7 @@ export default function Page() {
               <p className="mt-4">
                 To examine our complete testing equipment roster, sample test certificates, and quality manual, visit our dedicated{' '}
                 <Link
-                  href="/quality/"
+                  href="/tools/"
                   className="font-semibold text-brand-gold-strong hover:underline"
                 >
                   MTC EN 10204 3.1 pass-through

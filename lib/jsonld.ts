@@ -17,6 +17,12 @@ export function organization() {
     email: company.email,
     telephone: company.telephones[0],
     sameAs: company.sameAs,
+    founder: {
+      '@type': 'Person',
+      name: company.contactPerson,
+    },
+    foundingDate: company.commencementDate ?? '2015-08-01',
+    taxID: company.gstin,
     address: {
       '@type': 'PostalAddress',
       streetAddress: company.address.streetAddress,

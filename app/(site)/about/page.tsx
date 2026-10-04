@@ -58,8 +58,6 @@ const MAP_SRC =
   encodeURIComponent('23/4 Ghanshyam Industrial Estate, Margha Farm, Ahmedabad 380024') +
   '&output=embed';
 
-// VERIFICATION PENDING: owner legal name — Pramod per URC vs Kabir per practice? — ref: business-profile.md §1
-// VERIFICATION PENDING: Founding year of operations (GST registered 2017; pre-2017 date pending client proof) — ref: brief §10 item 2
 // VERIFICATION PENDING: Exact shop-floor square footage, machine inventory, and annual tonnage — ref: brief §3 & §10 item 5
 // VERIFICATION PENDING: Real photograph of factory sign board, manufacturing shop floor, and warehouse at Ahmedabad — ref: brief §6 & §10 item 5
 // VERIFICATION PENDING: Specific third-party quality certifications beyond GST and Udyam MSME — ref: brief §5 & §10 item 8
@@ -73,7 +71,7 @@ const FAQS = [
   {
     question: 'Who leads KP Fasteners and when was the business established?',
     answer:
-      'KP Fasteners is a registered sole proprietorship led by Mr. Pramod Panchal, with Kabir Panchal managing day-to-day technical sales, commercial quotations, and dispatch coordination. Our GST registration is dated 2017, and our commercial operations are based out of our continuous facility in Ahmedabad, Gujarat.',
+      'KP Fasteners is led by Mr. Kabir Panchal, managing corporate leadership, technical sales, commercial quotations, and production coordination. Established with manufacturing operations commenced on 01 August 2015 (verified under Ministry of MSME Udyam Registration Certificate UDYAM-GJ-01-0118182; GST registered 2017), our continuous facility is located in Ahmedabad, Gujarat.',
   },
   {
     question: 'Where is your factory located, and is it at the same address as your office?',
@@ -83,7 +81,7 @@ const FAQS = [
   {
     question: 'What statutory registrations and quality documentation do you hold?',
     answer:
-      'We operate under verified GST registration (24ARDPP9803A1Z3) and national MSME registration with a Ministry of MSME Udyam Registration Certificate on file. Shipments are backed by manufacturer Mill Test Certificates (MTC EN 10204 3.1) detailing chemical melt analysis and mechanical proof loads. In adherence to strict E-E-A-T honesty, we do not claim unverified ISO certifications on this website until official certificate documentation is submitted.',
+      'We operate under verified GST registration (24ARDPP9803A1Z3) and national MSME registration with a Ministry of MSME Udyam Registration Certificate (UDYAM-GJ-01-0118182) on file. Shipments are backed by manufacturer Mill Test Certificates (MTC EN 10204 3.1) detailing chemical melt analysis and mechanical proof loads. In adherence to strict E-E-A-T honesty, we do not claim unverified ISO certifications on this website until official certificate documentation is submitted.',
   },
 ];
 
@@ -91,12 +89,13 @@ const BUSINESS_FACTS_ROWS = [
   { cells: ['Commercial Brand Name', 'KP Fasteners (K P Fasteners)', 'Official Business Card & IndiaMART Profile'] },
   { cells: ['Legal Entity Structure', 'Sole Proprietorship', 'Statutory GST Registration Records'] },
   { cells: ['Operational Classification', 'OEM Manufacturer & Wholesale Industrial Supplier', 'In-House Plant & Audited Sourcing Network'] },
-  { cells: ['GST Identification Number', '24ARDPP9803A1Z3 (Registered 2017)', 'Government of India GST Portal'] },
-  { cells: ['MSME Registration', 'Registered Enterprise (Udyam Certificate on File)', 'Ministry of MSME (Udyam URC Records)'] },
+  { cells: ['GST Identification Number', '24ARDPP9803A1Z3 (Registered 2017)', 'Government of India GST Portal (Form REG-06)'] },
+  { cells: ['MSME / Udyam Registration', 'UDYAM-GJ-01-0118182 (Micro Enterprise - Manufacturing)', 'Ministry of MSME, Government of India'] },
+  { cells: ['Commercial Commencement Date', '01 August 2015 (Over a decade of manufacturing experience)', 'Ministry of MSME Udyam Registration Records'] },
   { cells: ['Banking Partner', 'ICICI Bank', 'Commercial Account Factsheet'] },
   { cells: ['Permanent Workforce Band', '26 to 50 Personnel', 'Verified IndiaMART Enterprise Factsheet'] },
   { cells: ['Registered Facility Address', '23/4 Ghanshyam Industrial Estate, Margha Farm, Ahmedabad - 380024', 'Verified Co-Located Plant & Corporate Office'] },
-  { cells: ['Key Management & Sales', 'Mr. Pramod Panchal (Proprietor) · Kabir Panchal (Sales Desk)', 'Commercial Contacts & WhatsApp Business Desk'] },
+  { cells: ['Key Management & Leadership', 'Mr. Kabir Panchal (Managing Director / Operations Lead) · Pramod Panchal (Proprietor)', 'Commercial Contacts & Statutory Registrations'] },
   { cells: ['Operating Business Hours', 'Monday through Saturday, 09:30 – 19:00 IST (Sunday Closed)', 'Standard Commercial Shift Schedules'] },
   { cells: ['B2B Portal Verification', 'IndiaMART TrustSEAL Verified · 100% Call Response Rate', 'Public IndiaMART Verified Seller Factsheet'] },
 ];
@@ -483,7 +482,6 @@ export default function AboutPage() {
       </Section>
 
       {/* 3. Verified Business Facts */}
-      {/* VERIFICATION PENDING: Founding year of operations (GST registered 2017; pre-2017 date pending client proof) — ref: brief §10 item 2 */}
       <Section>
         <Container>
           <div className="flex items-center gap-3">
@@ -569,7 +567,6 @@ export default function AboutPage() {
       </Section>
 
       {/* 5. People & Leadership */}
-      {/* VERIFICATION PENDING: owner legal name — Pramod per URC vs Kabir per practice? — ref: business-profile.md §1 */}
       <Section>
         <Container>
           <div className="flex items-center gap-3">
@@ -581,7 +578,7 @@ export default function AboutPage() {
           <div className="mt-6 grid gap-8 md:grid-cols-2">
             <Prose>
               <p>
-                KP Fasteners is founded and led by <strong>Mr. Pramod Panchal</strong>, steering corporate governance and strategic supplier alliances. Day-to-day commercial operations, technical tender reviews, drawing feasibility assessments, and customer communications are spearheaded by <strong>Kabir Panchal</strong>.
+                KP Fasteners is led by <strong>Mr. Kabir Panchal</strong>, steering corporate leadership, commercial operations, technical tender reviews, drawing feasibility assessments, and direct customer communications. Operating under registered proprietorship records (Pramod Panchal, Proprietor), our leadership maintains hands-on shop-floor oversight across all production runs.
               </p>
               <p className="mt-4">
                 Our plant employs a dedicated team of 26 to 50 skilled machine operators, thread rolling specialists, quality inspection technicians, and logistics personnel. Every team member operates with a clear mandate: deliver certified fasteners that strictly match client specifications without material compromise.
@@ -626,12 +623,12 @@ export default function AboutPage() {
           </div>
 
           <div className="mt-8 flex flex-wrap items-center gap-4 text-sm text-ink-muted">
-            <span>Learn more about testing and MTC protocols:</span>
+            <span>Calculate fastener weights and tightening torque:</span>
             <Link
-              href="/quality/"
+              href="/tools/"
               className="font-semibold text-brand-gold-strong hover:underline"
             >
-              MTC EN 10204 3.1, in-house inspection and third-party testing →
+              Bolt weight estimator, torque calculator & embedment tools →
             </Link>
           </div>
         </Container>

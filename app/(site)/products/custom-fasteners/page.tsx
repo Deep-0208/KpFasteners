@@ -649,7 +649,7 @@ export default function Page() {
               </ul>
               <div className="mt-auto pt-6">
                 <Link
-                  href="/quality/"
+                  href="/tools/"
                   className="inline-flex items-center gap-1.5 text-sm font-semibold text-brand-gold-strong hover:underline"
                 >
                   Review our partner audit &amp; MTC verification protocol →
@@ -946,7 +946,7 @@ export default function Page() {
               <p className="mt-4">
                 To examine our complete testing equipment inventory, sample test certificates, and quality manual, visit our dedicated{' '}
                 <Link
-                  href="/quality/"
+                  href="/tools/"
                   className="font-semibold text-brand-gold-strong hover:underline"
                 >
                   MTC EN 10204 3.1 and NABL partner testing

@@ -1033,7 +1033,7 @@ export default function Page() {
               <p className="mt-4">
                 To review our complete quality inspection manual, testing instrumentation list, and sample test certificates, visit our dedicated{' '}
                 <Link
-                  href="/quality/"
+                  href="/tools/"
                   className="font-semibold text-brand-gold-strong hover:underline"
                 >
                   MTC EN 10204 3.1 pass-through

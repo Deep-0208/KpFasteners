@@ -61,7 +61,7 @@ export function MobileConversionBar() {
           href={wa}
           target="_blank"
           rel="noopener noreferrer"
-          className="flex min-h-[56px] items-center justify-center gap-2 border-x border-border bg-[#16A34A] text-sm font-semibold text-white hover:bg-[#15803D]"
+          className="flex min-h-[56px] items-center justify-center gap-2 border-x border-border bg-[#15803D] text-sm font-semibold text-white hover:bg-[#166534]"
           aria-label="Message on WhatsApp"
         >
           <MessageCircle aria-hidden="true" className="h-5 w-5" /> WhatsApp

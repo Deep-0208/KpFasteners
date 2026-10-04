@@ -217,6 +217,9 @@ export default function ContactPage() {
               Our quote form captures everything we need to price a job — standard,
               grade, coating, quantity, pin code, and your drawing.
             </p>
+            <p className="mt-4 text-xs text-ink-muted">
+              Commercial inquiries and drawing reviews are handled directly by our executive desk led by <strong>Mr. Kabir Panchal</strong>.
+            </p>
             <div className="mt-6 flex flex-wrap gap-3">
               <Link href="/request-quote/" className="btn btn-primary">
                 Request a Quote
@@ -234,9 +237,6 @@ export default function ContactPage() {
         </Container>
       </Section>
 
-      {/* VERIFICATION PENDING: contact-person name — business card lists
-          "Mr. Pramod Panchal" but IndiaMART storefront MD is "Kabir Panchal".
-          Resolve before publishing a named "Your enquiry lands with..." paragraph. */}
       {/* VERIFICATION PENDING: factory lat/lng — need 5-decimal coordinates
           from Google Maps to populate LocalBusiness.geo and Maps Static embed. */}
       {/* VERIFICATION PENDING: Google Business Profile URL — add to
