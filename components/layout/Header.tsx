@@ -87,20 +87,20 @@ export function Header() {
       className="sticky top-0 z-40 border-b border-border bg-glass backdrop-blur supports-[backdrop-filter]:bg-[color:var(--bg-glass)]"
     >
       <Container className="relative">
-        <div className="flex h-16 items-center justify-between gap-4">
-          {/* Logo only — text removed to match Honeywell reference */}
+        <div className="flex h-16 md:h-20 items-center justify-between gap-4">
+          {/* Logo only — prominent, high-res & properly sized */}
           <Link
             href="/"
-            className="flex items-center rounded focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-gold"
+            className="flex items-center rounded py-1 focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-gold"
             aria-label={`${company.legalName} — Home`}
           >
             <Image
               src="/brand/logo.webp"
               alt="KP Fasteners"
-              width={134}
-              height={96}
+              width={400}
+              height={294}
               priority
-              className="h-10 md:h-11 w-auto object-contain"
+              className="h-12 w-auto object-contain md:h-16 lg:h-[70px]"
             />
           </Link>
 

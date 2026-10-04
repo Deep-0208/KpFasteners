@@ -117,7 +117,7 @@ export function MobileMenu() {
             {/* Primary Navigation Links */}
             <ul className="flex flex-col gap-1">
               {headerNav.map((item) => (
-                <li key={item.href}>
+                <li key={`nav-${item.href}`}>
                   <Link
                     href={item.href}
                     onClick={() => setOpen(false)}
@@ -140,7 +140,7 @@ export function MobileMenu() {
                     </p>
                     <ul className="space-y-1">
                       {group.items.map((i) => (
-                        <li key={i.href}>
+                        <li key={`sub-${group.label}-${i.href}`}>
                           <Link
                             href={i.href}
                             onClick={() => setOpen(false)}
