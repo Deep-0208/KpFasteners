@@ -11,7 +11,7 @@ import { buildMetadata, SITE_URL } from '@/lib/seo';
 import { breadcrumbs as breadcrumbsSchema, faqPage } from '@/lib/jsonld';
 import { findRoute } from '@/data/routes';
 import { company } from '@/data/company';
-import { FileText, Phone, MessageCircle, ShieldCheck, Scale, Wrench, Anchor, CheckCircle2 } from 'lucide-react';
+import { FileText, Phone, MessageCircle, Scale, Wrench, Anchor, CheckCircle2 } from 'lucide-react';
 
 const PATH = '/tools/';
 
@@ -218,8 +218,11 @@ export default function ToolsPage() {
         <Container>
           <div className="grid gap-8 lg:grid-cols-12 lg:items-center">
             <div className="space-y-3 lg:col-span-8">
-              <span className="inline-flex items-center gap-1.5 rounded-full bg-white/10 px-3 py-1 text-xs font-semibold text-brand-gold">
-                <ShieldCheck aria-hidden="true" className="h-4 w-4" />
+              <span className="inline-flex items-center gap-2 rounded-full bg-white/10 px-3 py-1 text-xs font-semibold text-brand-gold">
+                <span className="relative flex h-2 w-2">
+                  <span className="animate-live-pulse absolute inline-flex h-full w-full rounded-full bg-accent-green opacity-75" />
+                  <span className="relative inline-flex rounded-full h-2 w-2 bg-accent-green" />
+                </span>
                 Ahmedabad Manufacturing Plant &amp; Direct Dispatch
               </span>
               <h2 className="font-heading text-2xl sm:text-3xl font-bold tracking-tight text-white">
@@ -233,7 +236,7 @@ export default function ToolsPage() {
             <div className="flex flex-col gap-3 sm:flex-row lg:col-span-4 lg:justify-end">
               <Link
                 href="/request-quote/"
-                className="btn btn-primary flex items-center justify-center gap-2 py-3 px-6 text-sm font-semibold shadow-lg"
+                className="btn btn-primary btn-shimmer flex items-center justify-center gap-2 py-3 px-6 text-sm font-semibold shadow-lg"
               >
                 <FileText aria-hidden="true" className="h-4 w-4" />
                 Submit Drawing for RFQ

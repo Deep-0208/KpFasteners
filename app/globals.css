@@ -213,12 +213,12 @@ h1, h2, h3, h4, h5, h6 {
   border: 1px solid var(--border-subtle);
   border-radius: 14px;
   box-shadow: var(--shadow-sm);
-  transition: border-color 0.25s ease, box-shadow 0.25s ease, transform 0.25s ease;
+  transition: border-color 0.25s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.25s cubic-bezier(0.16, 1, 0.3, 1), transform 0.25s cubic-bezier(0.16, 1, 0.3, 1);
 }
 .glass-panel:hover {
   border-color: var(--border-gold);
-  box-shadow: 0 8px 24px rgba(217, 119, 6, 0.12);
-  transform: translateY(-2px);
+  box-shadow: 0 10px 24px rgba(217, 119, 6, 0.14);
+  transform: translateY(-3px);
 }
 
 .metallic-card {
@@ -228,6 +228,7 @@ h1, h2, h3, h4, h5, h6 {
   box-shadow: var(--shadow-md);
   position: relative;
   overflow: hidden;
+  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.25s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.25s ease;
 }
 .metallic-card::before {
   content: '';
@@ -237,6 +238,11 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
   height: 3px;
   background: var(--gold-gradient);
+}
+.metallic-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 28px -4px rgba(15, 23, 42, 0.12), 0 0 0 1px rgba(217, 119, 6, 0.25);
+  border-color: rgba(217, 119, 6, 0.4);
 }
 
 /* -------------------------------------------------------------------------- */
@@ -258,7 +264,12 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
   cursor: pointer;
   border: 1px solid transparent;
-  transition: transform 0.25s ease, box-shadow 0.25s ease, background-color 0.25s ease, filter 0.25s ease;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.2s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.2s ease, background-color 0.2s ease, filter 0.2s ease, border-color 0.2s ease;
+}
+.btn:active {
+  transform: translateY(0) scale(0.98);
 }
 
 .btn-primary {
@@ -269,7 +280,26 @@ h1, h2, h3, h4, h5, h6 {
 .btn-primary:hover {
   transform: translateY(-2px);
   box-shadow: 0 10px 26px rgba(217, 119, 6, 0.4);
-  filter: brightness(1.05);
+  filter: brightness(1.06);
+}
+
+.btn-shimmer::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.25), transparent);
+  transform: skewX(-20deg);
+  transition: none;
+}
+.btn-shimmer:hover::after {
+  animation: btn-sweep 0.65s ease-out;
+}
+@keyframes btn-sweep {
+  0% { left: -100%; }
+  100% { left: 200%; }
 }
 
 .btn-secondary {
@@ -332,11 +362,93 @@ h1, h2, h3, h4, h5, h6 {
   font-variant-numeric: tabular-nums;
 }
 
-/* Custom scrollbar. */
-::-webkit-scrollbar { width: 8px; height: 8px; }
-::-webkit-scrollbar-track { background: var(--bg-main); }
-::-webkit-scrollbar-thumb { background: var(--steel-400); border-radius: 4px; }
-::-webkit-scrollbar-thumb:hover { background: var(--gold-500); }
+/* -------------------------------------------------------------------------- */
+/* Smooth Micro-Animations (Zero CLS, Zero LCP impact, Pure CSS)              */
+/* -------------------------------------------------------------------------- */
+
+/* Accordion smooth expansion */
+@keyframes accordion-expand {
+  from {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+details[open] > .accordion-body {
+  animation: accordion-expand 0.22s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Mega menu dropdown smooth entrance */
+@keyframes menu-slide-down {
+  from {
+    opacity: 0;
+    transform: translate(-50%, -6px) scale(0.99);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, 0) scale(1);
+  }
+}
+.animate-menu-slide-down {
+  animation: menu-slide-down 0.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Mobile drawer entrance */
+@keyframes drawer-slide {
+  from {
+    opacity: 0;
+    transform: translateY(-8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.animate-drawer-slide {
+  animation: drawer-slide 0.22s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Tab content smooth transition */
+@keyframes tab-fade {
+  from {
+    opacity: 0.75;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.animate-tab-fade {
+  animation: tab-fade 0.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Subtle live pulse indicator (for live status indicators / chips) */
+@keyframes live-pulse {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.45;
+    transform: scale(1.15);
+  }
+}
+.animate-live-pulse {
+  animation: live-pulse 2.2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* Smooth arrow shift on link hover */
+.group:hover .arrow-shift,
+a:hover .arrow-shift {
+  transform: translateX(3px);
+}
+.arrow-shift {
+  transition: transform 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
 
 @media (prefers-reduced-motion: reduce) {
   *,

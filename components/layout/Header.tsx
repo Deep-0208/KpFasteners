@@ -176,7 +176,7 @@ export function Header() {
             aria-label="Products directory"
             onMouseEnter={() => handleMouseEnter('Products')}
             onMouseLeave={handleMouseLeave}
-            className="absolute left-1/2 top-full z-50 w-[min(calc(100vw-2rem),62rem)] -translate-x-1/2 pt-2 transition-all duration-200"
+            className="absolute left-1/2 top-full z-50 w-[min(calc(100vw-2rem),62rem)] -translate-x-1/2 pt-2 animate-menu-slide-down"
           >
             <div className="overflow-hidden rounded-[14px] border border-border bg-surface p-6 shadow-card-hover">
               <div className="mb-4 h-[2px] w-full rounded-full bg-gradient-to-r from-brand-gold via-brand-steel to-brand-gold" />

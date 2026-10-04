@@ -16,7 +16,7 @@ export function Accordion({ items }: { items: AccordionItem[] }) {
       {items.map((item, i) => (
         <details key={i} className="group">
           <summary
-            className="flex cursor-pointer list-none items-center justify-between gap-3 p-4 font-semibold text-brand-steel"
+            className="flex cursor-pointer list-none items-center justify-between gap-3 p-4 font-semibold text-brand-steel transition-colors hover:bg-surface-alt/70"
           >
             <span>{item.question}</span>
             <ChevronDown
@@ -24,7 +24,7 @@ export function Accordion({ items }: { items: AccordionItem[] }) {
               className="h-5 w-5 shrink-0 text-brand-gold transition-transform duration-200 group-open:rotate-180"
             />
           </summary>
-          <div className="border-t border-border p-4 text-ink">{item.answer}</div>
+          <div className="accordion-body border-t border-border p-4 text-ink">{item.answer}</div>
         </details>
       ))}
     </div>

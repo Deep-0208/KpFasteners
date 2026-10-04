@@ -10,7 +10,6 @@ import {
   RotateCcw,
   AlertTriangle,
   FileText,
-  ShieldCheck,
   Copy,
   Check,
 } from 'lucide-react';
@@ -273,7 +272,7 @@ Generated via KP Fasteners Engineering Tools (https://kpfasteners.com/tools/)`;
          TAB 1: FASTENER WEIGHT CALCULATOR
          ──────────────────────────────────────────────────────────── */}
       {activeTab === 'weight' && (
-        <div className="grid gap-8 lg:grid-cols-12">
+        <div className="grid gap-8 lg:grid-cols-12 animate-tab-fade">
           {/* Input Controls */}
           <div className="space-y-6 rounded-2xl border border-border bg-surface p-6 shadow-sm lg:col-span-7">
             <div className="flex items-center justify-between border-b border-border pb-4">
@@ -501,7 +500,7 @@ Generated via KP Fasteners Engineering Tools (https://kpfasteners.com/tools/)`;
          TAB 2: TORQUE & CLAMP LOAD CALCULATOR
          ──────────────────────────────────────────────────────────── */}
       {activeTab === 'torque' && (
-        <div className="grid gap-8 lg:grid-cols-12">
+        <div className="grid gap-8 lg:grid-cols-12 animate-tab-fade">
           {/* Input Controls */}
           <div className="space-y-6 rounded-2xl border border-border bg-surface p-6 shadow-sm lg:col-span-7">
             <div className="border-b border-border pb-4">
@@ -655,7 +654,7 @@ Generated via KP Fasteners Engineering Tools (https://kpfasteners.com/tools/)`;
          TAB 3: FOUNDATION BOLT EMBEDMENT ESTIMATOR (IS 456)
          ──────────────────────────────────────────────────────────── */}
       {activeTab === 'embedment' && (
-        <div className="grid gap-8 lg:grid-cols-12">
+        <div className="grid gap-8 lg:grid-cols-12 animate-tab-fade">
           {/* Input Controls */}
           <div className="space-y-6 rounded-2xl border border-border bg-surface p-6 shadow-sm lg:col-span-7">
             <div className="border-b border-border pb-4">
@@ -799,7 +798,7 @@ Generated via KP Fasteners Engineering Tools (https://kpfasteners.com/tools/)`;
          TAB 4: METRIC THREAD & TENSILE STRESS AREA REFERENCE
          ──────────────────────────────────────────────────────────── */}
       {activeTab === 'pitch' && (
-        <div className="space-y-6">
+        <div className="space-y-6 animate-tab-fade">
           <div className="rounded-2xl border border-border bg-surface p-6 shadow-sm">
             <div className="mb-6 flex flex-wrap items-center justify-between gap-4 border-b border-border pb-4">
               <div>
@@ -807,7 +806,7 @@ Generated via KP Fasteners Engineering Tools (https://kpfasteners.com/tools/)`;
                   Metric Fastener Engineering Reference Matrix (ISO 898-1 / DIN 13)
                 </h2>
                 <p className="text-xs text-ink-muted">
-                  Tensile stress area ($A_s$), nominal pitch, and proof load ratings across coarse metric fasteners.
+                  Tensile stress area (As), nominal pitch, and proof load ratings across coarse metric fasteners.
                 </p>
               </div>
               <span className="badge badge-steel">Engineering Reference</span>
@@ -866,7 +865,10 @@ Generated via KP Fasteners Engineering Tools (https://kpfasteners.com/tools/)`;
         <div className="grid gap-6 lg:grid-cols-12 lg:items-center">
           <div className="space-y-2 lg:col-span-8">
             <div className="flex items-center gap-2 text-brand-gold-strong">
-              <ShieldCheck aria-hidden="true" className="h-5 w-5" />
+              <span className="relative flex h-2.5 w-2.5">
+                <span className="animate-live-pulse absolute inline-flex h-full w-full rounded-full bg-accent-green opacity-75" />
+                <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-accent-green" />
+              </span>
               <span className="text-xs font-bold uppercase tracking-wider">
                 Full Testing &amp; Material Test Certificate (MTC) Guarantee
               </span>
@@ -882,7 +884,7 @@ Generated via KP Fasteners Engineering Tools (https://kpfasteners.com/tools/)`;
           <div className="flex flex-col gap-3 sm:flex-row lg:col-span-4 lg:justify-end">
             <Link
               href="/request-quote/?cert=mtc-3.1"
-              className="btn btn-primary flex items-center justify-center gap-2 py-3 text-sm font-semibold"
+              className="btn btn-primary btn-shimmer flex items-center justify-center gap-2 py-3 text-sm font-semibold"
             >
               Request Quote with MTC →
             </Link>

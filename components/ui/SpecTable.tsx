@@ -44,13 +44,13 @@ export function SpecTable({
         </thead>
         <tbody>
           {rows.map((row, i) => (
-            <tr key={i} className="border-t border-border">
+            <tr key={i} className="group border-t border-border transition-colors duration-150 hover:bg-surface-alt/60">
               {row.cells.map((c, j) => (
                 <td
                   key={j}
                   className={
                     j === 0
-                      ? 'sticky left-0 z-10 bg-surface px-3 py-2 font-mono tabular-nums text-ink'
+                      ? 'sticky left-0 z-10 bg-surface px-3 py-2 font-mono tabular-nums text-ink transition-colors duration-150 group-hover:bg-surface-alt/60'
                       : 'px-3 py-2 font-mono tabular-nums text-ink'
                   }
                 >

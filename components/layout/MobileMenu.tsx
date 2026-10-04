@@ -81,7 +81,7 @@ export function MobileMenu() {
           role="dialog"
           aria-modal="true"
           aria-label="Main navigation"
-          className="fixed inset-0 top-16 z-50 overflow-y-auto bg-surface pb-28 shadow-2xl"
+          className="fixed inset-0 top-16 z-50 overflow-y-auto bg-surface pb-28 shadow-2xl animate-drawer-slide"
         >
           <nav aria-label="Mobile primary" className="px-4 py-6">
             {/* Top Quick Actions */}
