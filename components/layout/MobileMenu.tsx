@@ -69,9 +69,9 @@ export function MobileMenu() {
         aria-expanded={open}
         aria-controls="mobile-menu"
         onClick={() => setOpen((v) => !v)}
-        className="inline-flex h-12 w-12 items-center justify-center rounded-md text-brand-steel focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-gold"
+        className="inline-flex h-11 w-11 items-center justify-center rounded-lg border border-slate-200 bg-slate-50 text-slate-700 transition-colors hover:bg-slate-100 hover:text-slate-900 focus:outline-none focus-visible:ring-2 focus-visible:ring-amber-500"
       >
-        {open ? <X aria-hidden="true" className="h-6 w-6" /> : <Menu aria-hidden="true" className="h-6 w-6" />}
+        {open ? <X aria-hidden="true" className="h-5 w-5" /> : <Menu aria-hidden="true" className="h-5 w-5" />}
       </button>
 
       {open && (
@@ -81,34 +81,34 @@ export function MobileMenu() {
           role="dialog"
           aria-modal="true"
           aria-label="Main navigation"
-          className="fixed inset-0 top-16 z-50 overflow-y-auto bg-surface pb-28 shadow-2xl animate-drawer-slide"
+          className="fixed inset-x-0 bottom-0 top-[108px] z-50 overflow-y-auto bg-white pb-28 shadow-2xl transition-all"
         >
-          <nav aria-label="Mobile primary" className="px-4 py-6">
+          <nav aria-label="Mobile primary" className="px-4 py-5">
             {/* Top Quick Actions */}
-            <div className="mb-6 space-y-3 rounded-xl border border-border bg-surface-alt p-4">
+            <div className="mb-5 space-y-2.5 rounded-xl border border-slate-200 bg-slate-50/80 p-3.5">
               <Link
                 href="/request-quote/"
                 onClick={() => setOpen(false)}
-                className="btn btn-primary flex w-full items-center justify-center gap-2 py-3 text-center"
+                className="flex w-full items-center justify-center gap-2 rounded-lg bg-gradient-to-b from-amber-600 to-amber-700 py-3 font-heading text-sm font-bold text-white shadow-sm transition-all hover:from-amber-500 hover:to-amber-600"
               >
-                <FileText aria-hidden="true" className="h-4 w-4" />
-                Request a Quote
+                <FileText aria-hidden="true" className="h-4 w-4 text-amber-200" />
+                <span>Request a Fastener RFQ</span>
               </Link>
               <div className="grid grid-cols-2 gap-2 text-xs">
                 <a
                   href={tel}
-                  className="flex items-center justify-center gap-1.5 rounded-md border border-border bg-surface py-2.5 font-semibold text-brand-steel hover:text-brand-gold-strong"
+                  className="flex items-center justify-center gap-1.5 rounded-lg border border-slate-200 bg-white py-2.5 font-heading font-semibold text-slate-800 hover:bg-slate-50 hover:text-amber-800"
                 >
-                  <Phone aria-hidden="true" className="h-3.5 w-3.5 text-brand-gold-strong" />
-                  Call Sales
+                  <Phone aria-hidden="true" className="h-3.5 w-3.5 text-amber-600" />
+                  Call Direct
                 </a>
                 <a
                   href={wa}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center justify-center gap-1.5 rounded-md border border-border bg-surface py-2.5 font-semibold text-brand-steel hover:text-accent-green"
+                  className="flex items-center justify-center gap-1.5 rounded-lg border border-slate-200 bg-white py-2.5 font-heading font-semibold text-slate-800 hover:bg-emerald-50 hover:text-emerald-700"
                 >
-                  <MessageCircle aria-hidden="true" className="h-3.5 w-3.5 text-accent-green" />
+                  <MessageCircle aria-hidden="true" className="h-3.5 w-3.5 text-emerald-600" />
                   WhatsApp
                 </a>
               </div>
