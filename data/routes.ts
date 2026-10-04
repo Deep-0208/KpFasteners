@@ -76,7 +76,7 @@ export const routes: CanonicalRoute[] = [
   p('/industries/construction-infrastructure/', 'Construction & Infrastructure', 'industries', undefined, { pendingContent: false }),
   p('/industries/automotive-heavy-engineering/', 'Automotive & Heavy Engineering', 'industries', undefined, { pendingContent: false }),
   // Legal
-  p('/privacy-policy/', 'Privacy Policy', 'legal'),
+  p('/privacy-policy/', 'Privacy Policy', 'legal', undefined, { pendingContent: false }),
   p('/terms/', 'Terms of Supply', 'legal'),
 ];
 
