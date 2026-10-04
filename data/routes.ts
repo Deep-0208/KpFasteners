@@ -56,7 +56,7 @@ export const routes: CanonicalRoute[] = [
   p('/products/csk-allen-bolts/', 'CSK Allen Bolts', 'products', productsHub),
   p('/products/scaffold-accessories/', 'Scaffold Accessories', 'products', productsHub, { pendingContent: false }),
   p('/products/solar-accessories/', 'Solar Accessories', 'products', productsHub, { pendingContent: false }),
-  p('/products/hex-bolts-nuts/', 'Hex Bolts & Nuts', 'products', productsHub),
+  p('/products/hex-bolts-nuts/', 'Hex Bolts & Nuts', 'products', productsHub, { pendingContent: false }),
   p('/products/custom-fasteners/', 'Custom Fasteners', 'products', productsHub),
   // Materials
   materialsHub,
