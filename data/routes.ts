@@ -32,7 +32,7 @@ const materialsHub: CanonicalRoute = {
   priority: 0.7,
   changeFreq: 'monthly',
   navGroup: 'materials',
-  pendingContent: true,
+  pendingContent: false,
   breadcrumbTrail: [
     { label: 'Home', href: '/' },
     { label: 'Materials', href: '/materials/high-tensile-fasteners/' },
