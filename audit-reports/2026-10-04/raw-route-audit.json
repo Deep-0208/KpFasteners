@@ -1,0 +1,2412 @@
+[
+  {
+    "route": "/",
+    "status": 200,
+    "title": "KP Fasteners — Industrial Fastener Manufacturer, Ahmedabad",
+    "titleLength": 58,
+    "description": "KP Fasteners manufactures and supplies foundation bolts, stud bolts, tie rods and custom industrial fasteners from Ahmedabad, Gujarat. Request a quote today.",
+    "descriptionLength": 157,
+    "canonical": "https://kpfasteners.com/",
+    "canonicalOk": true,
+    "ogTitle": "KP Fasteners — Industrial Fastener Manufacturer, Ahmedabad",
+    "ogDesc": "KP Fasteners manufactures and supplies foundation bolts, stud bolts, tie rods and custom industrial fasteners from Ahmedabad, Gujarat. Request a quote today.",
+    "ogImage": "https://kpfasteners.com/brand/logo.jpg.jpeg",
+    "twitterCard": "summary_large_image",
+    "robotsDirective": "index, follow",
+    "h1Count": 1,
+    "h1Texts": [
+      "Foundation, Anchor, Stud &amp; Sag Rod Bolts — Made in Ahmedabad"
+    ],
+    "headingCount": 18,
+    "headingSkips": [],
+    "schemaTypes": [
+      "ItemList",
+      "Organization",
+      "WebSite",
+      "LocalBusiness"
+    ],
+    "hasAggregateRating": false,
+    "hasOffer": false,
+    "hasOrg": true,
+    "hasLocalBusiness": true,
+    "hasBreadcrumbs": false,
+    "hasProduct": false,
+    "hasFAQ": false,
+    "inBodyLinks": [
+      {
+        "href": "/request-quote/",
+        "anchor": "Request Quote"
+      },
+      {
+        "href": "/products/",
+        "anchor": "All products"
+      },
+      {
+        "href": "/products/foundation-bolts/",
+        "anchor": "View"
+      },
+      {
+        "href": "/products/stud-bolts/",
+        "anchor": "View"
+      },
+      {
+        "href": "/products/sag-rods/",
+        "anchor": "View"
+      },
+      {
+        "href": "/products/scaffold-accessories/",
+        "anchor": "View"
+      },
+      {
+        "href": "/products/hex-bolts-nuts/",
+        "anchor": "View"
+      },
+      {
+        "href": "/products/csk-allen-bolts/",
+        "anchor": "View"
+      },
+      {
+        "href": "/products/tie-rods/",
+        "anchor": "View"
+      },
+      {
+        "href": "/products/solar-accessories/",
+        "anchor": "View"
+      },
+      {
+        "href": "/products/custom-fasteners/",
+        "anchor": "View"
+      },
+      {
+        "href": "/tools/",
+        "anchor": "Fastener engineering tools"
+      },
+      {
+        "href": "/request-quote/",
+        "anchor": "Request a Quote"
+      },
+      {
+        "href": "/request-quote/",
+        "anchor": "RFQ"
+      }
+    ],
+    "matchedBannedPhrases": [],
+    "imagesCount": 12,
+    "imagesMissingAlt": 0,
+    "hasMobileBar": true,
+    "faqCount": 0
+  },
+  {
+    "route": "/about/",
+    "status": 200,
+    "title": "Fastener Manufacturer Ahmedabad | About KP Fasteners | KP",
+    "titleLength": 57,
+    "description": "Fastener manufacturer in Ahmedabad: OEM foundation, anchor, stud bolts and sag rods, plus complete distribution range. Certified MTC. Request a project quote.",
+    "descriptionLength": 158,
+    "canonical": "https://kpfasteners.com/about/",
+    "canonicalOk": true,
+    "ogTitle": "Fastener Manufacturer Ahmedabad | About KP Fasteners | KP",
+    "ogDesc": "Fastener manufacturer in Ahmedabad: OEM foundation, anchor, stud bolts and sag rods, plus complete distribution range. Certified MTC. Request a project quote.",
+    "ogImage": "https://kpfasteners.com/product-images/about/facility.jpg",
+    "twitterCard": "summary_large_image",
+    "robotsDirective": "index, follow",
+    "h1Count": 1,
+    "h1Texts": [
+      "About KP Fasteners: Ahmedabad Fastener Manufacturer &amp; Supplier"
+    ],
+    "headingCount": 23,
+    "headingSkips": [],
+    "schemaTypes": [
+      "AboutPage",
+      "Organization",
+      "LocalBusiness",
+      "BreadcrumbList",
+      "FAQPage",
+      "BreadcrumbList",
+      "Organization",
+      "WebSite",
+      "LocalBusiness"
+    ],
+    "hasAggregateRating": false,
+    "hasOffer": false,
+    "hasOrg": true,
+    "hasLocalBusiness": true,
+    "hasBreadcrumbs": true,
+    "hasProduct": false,
+    "hasFAQ": true,
+    "inBodyLinks": [
+      {
+        "href": "/",
+        "anchor": "Home"
+      },
+      {
+        "href": "/request-quote/?src=about",
+        "anchor": "Request a Project Quote"
+      },
+      {
+        "href": "/products/foundation-bolts/",
+        "anchor": "Foundation Bolts:"
+      },
+      {
+        "href": "/products/stud-bolts/",
+        "anchor": "Stud Bolts:"
+      },
+      {
+        "href": "/products/sag-rods/",
+        "anchor": "PEB Sag Rods:"
+      },
+      {
+        "href": "/products/custom-fasteners/",
+        "anchor": "Custom Drawing Fasteners:"
+      },
+      {
+        "href": "/products/hex-bolts-nuts/",
+        "anchor": "Hex Bolts &amp; Nuts:"
+      },
+      {
+        "href": "/products/csk-allen-bolts/",
+        "anchor": "CSK Allen &amp; Socket Screws:"
+      },
+      {
+        "href": "/products/tie-rods/",
+        "anchor": "Formwork Tie Rods:"
+      },
+      {
+        "href": "/products/solar-accessories/",
+        "anchor": "Solar Mounting Accessories:"
+      },
+      {
+        "href": "/contact/",
+        "anchor": "Visit Contact Portal"
+      },
+      {
+        "href": "/quality/",
+        "anchor": "MTC EN 10204 3.1, in-house inspection and third-party testing →"
+      },
+      {
+        "href": "/products/foundation-bolts/",
+        "anchor": "View Foundation Bolts Specifications"
+      },
+      {
+        "href": "/products/stud-bolts/",
+        "anchor": "View Stud Bolts Specifications"
+      },
+      {
+        "href": "/products/sag-rods/",
+        "anchor": "View PEB Sag Rods Specifications"
+      },
+      {
+        "href": "/products/scaffold-accessories/",
+        "anchor": "View Scaffold Accessories Specifications"
+      },
+      {
+        "href": "/products/custom-fasteners/",
+        "anchor": "View Custom Fasteners Specifications"
+      },
+      {
+        "href": "/products/hex-bolts-nuts/",
+        "anchor": "View Hex Bolts &amp; Nuts Specifications"
+      },
+      {
+        "href": "/products/csk-allen-bolts/",
+        "anchor": "View CSK Allen Bolts Specifications"
+      },
+      {
+        "href": "/products/tie-rods/",
+        "anchor": "View Formwork Tie Rods Specifications"
+      },
+      {
+        "href": "/products/solar-accessories/",
+        "anchor": "View Solar Accessories Specifications"
+      },
+      {
+        "href": "/products/",
+        "anchor": "Explore Full Product Range &amp; Master Catalog"
+      },
+      {
+        "href": "/industries/construction-infrastructure/",
+        "anchor": "Pre-Engineered Buildings (PEB)"
+      },
+      {
+        "href": "/industries/construction-infrastructure/",
+        "anchor": "Civil Infrastructure &amp; Bridges"
+      },
+      {
+        "href": "/industries/solar-mounting-fasteners/",
+        "anchor": "Solar Energy Infrastructure"
+      },
+      {
+        "href": "/industries/construction-infrastructure/",
+        "anchor": "Commercial High-Rise Formwork"
+      },
+      {
+        "href": "/products/stud-bolts/",
+        "anchor": "Process Piping &amp; Flange Assemblies"
+      },
+      {
+        "href": "/industries/automotive-heavy-engineering/",
+        "anchor": "Automotive &amp; Heavy Machinery"
+      },
+      {
+        "href": "/request-quote/?src=about",
+        "anchor": "Submit an RFQ Online"
+      },
+      {
+        "href": "/request-quote/",
+        "anchor": "RFQ"
+      }
+    ],
+    "matchedBannedPhrases": [],
+    "imagesCount": 3,
+    "imagesMissingAlt": 0,
+    "hasMobileBar": true,
+    "faqCount": 0
+  },
+  {
+    "route": "/tools/",
+    "status": 200,
+    "title": "Fastener Weight &amp; Torque Calculator | Engineering Tools | KP Fasteners",
+    "titleLength": 74,
+    "description": "Free industrial fastener engineering calculators: theoretical weight estimator for bolts, nuts and studs, bolt tightening torque calculator, and foundation embedment estimator. KP Fasteners Ahmedabad.",
+    "descriptionLength": 200,
+    "canonical": "https://kpfasteners.com/tools/",
+    "canonicalOk": true,
+    "ogTitle": "Fastener Weight &amp; Torque Calculator | Engineering Tools | KP Fasteners",
+    "ogDesc": "Free industrial fastener engineering calculators: theoretical weight estimator for bolts, nuts and studs, bolt tightening torque calculator, and foundation embedment estimator. KP Fasteners Ahmedabad.",
+    "ogImage": "https://kpfasteners.com/brand/logo.jpg.jpeg",
+    "twitterCard": "summary_large_image",
+    "robotsDirective": "index, follow",
+    "h1Count": 1,
+    "h1Texts": [
+      "Fastener Weight, Torque &amp; Embedment Calculators"
+    ],
+    "headingCount": 9,
+    "headingSkips": [],
+    "schemaTypes": [
+      "WebApplication",
+      "BreadcrumbList",
+      "FAQPage",
+      "BreadcrumbList",
+      "Organization",
+      "WebSite",
+      "LocalBusiness"
+    ],
+    "hasAggregateRating": false,
+    "hasOffer": false,
+    "hasOrg": true,
+    "hasLocalBusiness": true,
+    "hasBreadcrumbs": true,
+    "hasProduct": false,
+    "hasFAQ": true,
+    "inBodyLinks": [
+      {
+        "href": "/",
+        "anchor": "Home"
+      },
+      {
+        "href": "/request-quote/?fastener=Foundation%20J-Bolt%20(OEM%20In-House)&amp;size=M20x400&amp;qty=500&amp;weight=617kg",
+        "anchor": "Request Commercial RFQ for this Batch →"
+      },
+      {
+        "href": "/request-quote/?cert=mtc-3.1",
+        "anchor": "Request Quote with MTC →"
+      },
+      {
+        "href": "/products/foundation-bolts/",
+        "anchor": "Explore Foundation Bolts →"
+      },
+      {
+        "href": "/materials/high-tensile-fasteners/",
+        "anchor": "High-Tensile Grade Guide →"
+      },
+      {
+        "href": "/industries/construction-infrastructure/",
+        "anchor": "Construction Fasteners Range →"
+      },
+      {
+        "href": "/request-quote/",
+        "anchor": "Submit Drawing for RFQ"
+      },
+      {
+        "href": "/request-quote/",
+        "anchor": "RFQ"
+      }
+    ],
+    "matchedBannedPhrases": [],
+    "imagesCount": 2,
+    "imagesMissingAlt": 0,
+    "hasMobileBar": true,
+    "faqCount": 0
+  },
+  {
+    "route": "/contact/",
+    "status": 200,
+    "title": "Contact KP Fasteners — Ahmedabad Factory &amp; Sales",
+    "titleLength": 52,
+    "description": "Call, WhatsApp or email KP Fasteners at 23/4 Ghanshyam Industrial Estate, Ahmedabad 380024. Phone +91 98982 30448. Mon–Sat 09:30–19:00 IST.",
+    "descriptionLength": 139,
+    "canonical": "https://kpfasteners.com/contact/",
+    "canonicalOk": true,
+    "ogTitle": "Contact KP Fasteners — Ahmedabad Factory &amp; Sales",
+    "ogDesc": "Call, WhatsApp or email KP Fasteners at 23/4 Ghanshyam Industrial Estate, Ahmedabad 380024. Phone +91 98982 30448. Mon–Sat 09:30–19:00 IST.",
+    "ogImage": "https://kpfasteners.com/brand/logo.jpg.jpeg",
+    "twitterCard": "summary_large_image",
+    "robotsDirective": "index, follow",
+    "h1Count": 1,
+    "h1Texts": [
+      "Contact KP Fasteners"
+    ],
+    "headingCount": 11,
+    "headingSkips": [],
+    "schemaTypes": [
+      "ContactPage",
+      "LocalBusiness",
+      "BreadcrumbList",
+      "BreadcrumbList",
+      "Organization",
+      "WebSite",
+      "LocalBusiness"
+    ],
+    "hasAggregateRating": false,
+    "hasOffer": false,
+    "hasOrg": true,
+    "hasLocalBusiness": true,
+    "hasBreadcrumbs": true,
+    "hasProduct": false,
+    "hasFAQ": false,
+    "inBodyLinks": [
+      {
+        "href": "/",
+        "anchor": "Home"
+      },
+      {
+        "href": "/request-quote/",
+        "anchor": "Request a Quote"
+      },
+      {
+        "href": "/request-quote/",
+        "anchor": "RFQ"
+      }
+    ],
+    "matchedBannedPhrases": [],
+    "imagesCount": 2,
+    "imagesMissingAlt": 0,
+    "hasMobileBar": true,
+    "faqCount": 0
+  },
+  {
+    "route": "/request-quote/",
+    "status": 200,
+    "title": "Request a Fastener Quote — KP Fasteners, Ahmedabad",
+    "titleLength": 50,
+    "description": "Send your bolt, nut, stud or anchor RFQ to KP Fasteners in Ahmedabad. Upload a drawing or BOQ, or WhatsApp us on +91 98982 30448.",
+    "descriptionLength": 129,
+    "canonical": "https://kpfasteners.com/request-quote/",
+    "canonicalOk": true,
+    "ogTitle": "Request a Fastener Quote — KP Fasteners, Ahmedabad",
+    "ogDesc": "Send your bolt, nut, stud or anchor RFQ to KP Fasteners in Ahmedabad. Upload a drawing or BOQ, or WhatsApp us on +91 98982 30448.",
+    "ogImage": "https://kpfasteners.com/brand/logo.jpg.jpeg",
+    "twitterCard": "summary_large_image",
+    "robotsDirective": "index, follow",
+    "h1Count": 1,
+    "h1Texts": [
+      "Request a Fastener Quote"
+    ],
+    "headingCount": 4,
+    "headingSkips": [],
+    "schemaTypes": [
+      "ContactPage",
+      "BreadcrumbList",
+      "BreadcrumbList",
+      "Organization",
+      "WebSite",
+      "LocalBusiness"
+    ],
+    "hasAggregateRating": false,
+    "hasOffer": false,
+    "hasOrg": true,
+    "hasLocalBusiness": true,
+    "hasBreadcrumbs": true,
+    "hasProduct": false,
+    "hasFAQ": false,
+    "inBodyLinks": [
+      {
+        "href": "/",
+        "anchor": "Home"
+      },
+      {
+        "href": "/privacy-policy/",
+        "anchor": "privacy policy"
+      },
+      {
+        "href": "/request-quote/",
+        "anchor": "RFQ"
+      }
+    ],
+    "matchedBannedPhrases": [],
+    "imagesCount": 2,
+    "imagesMissingAlt": 0,
+    "hasMobileBar": true,
+    "faqCount": 0
+  },
+  {
+    "route": "/products/",
+    "status": 200,
+    "title": "Industrial Fasteners Manufacturer &amp; Product Range | KP",
+    "titleLength": 58,
+    "description": "Industrial fasteners manufacturer and supplier in Ahmedabad. Browse foundation bolts, stud bolts, sag rods, hex bolts &amp; solar hardware. Request an RFQ today.",
+    "descriptionLength": 161,
+    "canonical": "https://kpfasteners.com/products/",
+    "canonicalOk": true,
+    "ogTitle": "Industrial Fasteners Manufacturer &amp; Product Range | KP",
+    "ogDesc": "Industrial fasteners manufacturer and supplier in Ahmedabad. Browse foundation bolts, stud bolts, sag rods, hex bolts &amp; solar hardware. Request an RFQ today.",
+    "ogImage": "https://kpfasteners.com/product-images/products-hub/hero.jpg",
+    "twitterCard": "summary_large_image",
+    "robotsDirective": "index, follow",
+    "h1Count": 1,
+    "h1Texts": [
+      "Our Industrial Fastener Product Range"
+    ],
+    "headingCount": 26,
+    "headingSkips": [],
+    "schemaTypes": [
+      "CollectionPage",
+      "BreadcrumbList",
+      "FAQPage",
+      "BreadcrumbList",
+      "Organization",
+      "WebSite",
+      "LocalBusiness"
+    ],
+    "hasAggregateRating": false,
+    "hasOffer": false,
+    "hasOrg": true,
+    "hasLocalBusiness": true,
+    "hasBreadcrumbs": true,
+    "hasProduct": false,
+    "hasFAQ": true,
+    "inBodyLinks": [
+      {
+        "href": "/",
+        "anchor": "Home"
+      },
+      {
+        "href": "/request-quote/?src=products-hub",
+        "anchor": "Request a Quote"
+      },
+      {
+        "href": "/about/",
+        "anchor": "Ahmedabad Manufacturing Facility"
+      },
+      {
+        "href": "/tools/",
+        "anchor": "Engineering Tools &amp; Calculators"
+      },
+      {
+        "href": "/request-quote/?src=products-hub-grid",
+        "anchor": "Bulk RFQ Submission"
+      },
+      {
+        "href": "/products/foundation-bolts/",
+        "anchor": "View Foundation Bolts"
+      },
+      {
+        "href": "/products/stud-bolts/",
+        "anchor": "View Stud Bolts"
+      },
+      {
+        "href": "/products/sag-rods/",
+        "anchor": "View Sag Rods"
+      },
+      {
+        "href": "/products/scaffold-accessories/",
+        "anchor": "View Scaffold Accessories"
+      },
+      {
+        "href": "/products/custom-fasteners/",
+        "anchor": "View Custom Fasteners"
+      },
+      {
+        "href": "/products/hex-bolts-nuts/",
+        "anchor": "View Hex Bolts &amp; Nuts"
+      },
+      {
+        "href": "/products/csk-allen-bolts/",
+        "anchor": "View CSK Allen Bolts"
+      },
+      {
+        "href": "/products/tie-rods/",
+        "anchor": "View Tie Rods"
+      },
+      {
+        "href": "/products/solar-accessories/",
+        "anchor": "View Solar Accessories"
+      },
+      {
+        "href": "/materials/high-tensile-fasteners/",
+        "anchor": "Explore High-Tensile Fasteners"
+      },
+      {
+        "href": "/materials/stainless-steel-fasteners/",
+        "anchor": "Explore Stainless Steel Fasteners"
+      },
+      {
+        "href": "/industries/construction-infrastructure/",
+        "anchor": "View Construction Fasteners"
+      },
+      {
+        "href": "/industries/solar-mounting-fasteners/",
+        "anchor": "View Solar Fasteners"
+      },
+      {
+        "href": "/industries/automotive-heavy-engineering/",
+        "anchor": "View Heavy Engineering Fasteners"
+      },
+      {
+        "href": "/tools/",
+        "anchor": "Fastener Weight &amp; Torque Tools"
+      },
+      {
+        "href": "/request-quote/?src=products-quality",
+        "anchor": "Request Specification Quote"
+      },
+      {
+        "href": "/request-quote/?src=products-hub-closing",
+        "anchor": "Request a Formal Quote"
+      },
+      {
+        "href": "/request-quote/",
+        "anchor": "RFQ"
+      }
+    ],
+    "matchedBannedPhrases": [],
+    "imagesCount": 17,
+    "imagesMissingAlt": 0,
+    "hasMobileBar": true,
+    "faqCount": 0
+  },
+  {
+    "route": "/products/foundation-bolts/",
+    "status": 200,
+    "title": "Foundation Bolts Manufacturer | IS 5624 &amp; F1554 | KP",
+    "titleLength": 56,
+    "description": "J, L, U, headed &amp; swedge foundation bolts to IS 5624, DIN 529 and ASTM F1554. MS and high-tensile, HDG or zinc. Ahmedabad-manufactured. Request a BOQ quote.",
+    "descriptionLength": 160,
+    "canonical": "https://kpfasteners.com/products/foundation-bolts/",
+    "canonicalOk": true,
+    "ogTitle": "Foundation Bolts Manufacturer | IS 5624 &amp; F1554 | KP",
+    "ogDesc": "J, L, U, headed &amp; swedge foundation bolts to IS 5624, DIN 529 and ASTM F1554. MS and high-tensile, HDG or zinc. Ahmedabad-manufactured. Request a BOQ quote.",
+    "ogImage": "https://kpfasteners.com/images/products/bolts/j-bolt.jpg",
+    "twitterCard": "summary_large_image",
+    "robotsDirective": "index, follow",
+    "h1Count": 1,
+    "h1Texts": [
+      "Foundation Bolts Manufacturer — J, L, U, Headed &amp; Swedge Types"
+    ],
+    "headingCount": 38,
+    "headingSkips": [],
+    "schemaTypes": [
+      "Product",
+      "BreadcrumbList",
+      "FAQPage",
+      "BreadcrumbList",
+      "Organization",
+      "WebSite",
+      "LocalBusiness"
+    ],
+    "hasAggregateRating": false,
+    "hasOffer": false,
+    "hasOrg": true,
+    "hasLocalBusiness": true,
+    "hasBreadcrumbs": true,
+    "hasProduct": true,
+    "hasFAQ": true,
+    "productManufacturer": {
+      "@id": "https://kpfasteners.com/#organization"
+    },
+    "inBodyLinks": [
+      {
+        "href": "/",
+        "anchor": "Home"
+      },
+      {
+        "href": "/products/",
+        "anchor": "Products"
+      },
+      {
+        "href": "/request-quote/?product=foundation-bolts",
+        "anchor": "Request a BOQ quote"
+      },
+      {
+        "href": "/products/stud-bolts/",
+        "anchor": "chemical anchor stud bolts"
+      },
+      {
+        "href": "/products/stud-bolts/",
+        "anchor": "stud bolts and threaded rod"
+      },
+      {
+        "href": "/materials/high-tensile-fasteners/",
+        "anchor": "high-tensile property class 8.8 and 10.9"
+      },
+      {
+        "href": "/industries/construction-infrastructure/",
+        "anchor": "structural steel and PEB projects"
+      },
+      {
+        "href": "/quality/",
+        "anchor": "quality control &amp; MTC availability"
+      },
+      {
+        "href": "/request-quote/?product=foundation-bolts",
+        "anchor": "Request a BOQ quote"
+      },
+      {
+        "href": "/products/stud-bolts/",
+        "anchor": "ASTM A193 B7 stud bolts and threaded rod"
+      },
+      {
+        "href": "/products/sag-rods/",
+        "anchor": "Threaded sag rods for PEB bracing"
+      },
+      {
+        "href": "/products/scaffold-accessories/",
+        "anchor": "Scaffold anchor plates and base jacks"
+      },
+      {
+        "href": "/products/",
+        "anchor": "our full products range"
+      },
+      {
+        "href": "/request-quote/?product=foundation-bolts",
+        "anchor": "Request a BOQ quote"
+      },
+      {
+        "href": "/request-quote/",
+        "anchor": "RFQ"
+      }
+    ],
+    "matchedBannedPhrases": [],
+    "imagesCount": 3,
+    "imagesMissingAlt": 0,
+    "hasMobileBar": true,
+    "faqCount": 16
+  },
+  {
+    "route": "/products/stud-bolts/",
+    "status": 200,
+    "title": "Stud Bolts Manufacturer | ASTM A193 B7, B7M, B8M | KP",
+    "titleLength": 53,
+    "description": "Fully-threaded, tap-end and double-end stud bolts to ASTM A193 B7, B7M, B8M and A320 L7 — alloy &amp; stainless, MTC 3.1 on request. Ahmedabad-made. Request a BOQ.",
+    "descriptionLength": 163,
+    "canonical": "https://kpfasteners.com/products/stud-bolts/",
+    "canonicalOk": true,
+    "ogTitle": "Stud Bolts Manufacturer | ASTM A193 B7, B7M, B8M | KP",
+    "ogDesc": "Fully-threaded, tap-end and double-end stud bolts to ASTM A193 B7, B7M, B8M and A320 L7 — alloy &amp; stainless, MTC 3.1 on request. Ahmedabad-made. Request a BOQ.",
+    "ogImage": "https://kpfasteners.com/images/products/threaded-rods/threaded-rod-stud.jpg",
+    "twitterCard": "summary_large_image",
+    "robotsDirective": "index, follow",
+    "h1Count": 1,
+    "h1Texts": [
+      "Stud Bolts Manufacturer — ASTM A193 B7, B8, B8M &amp; L7"
+    ],
+    "headingCount": 38,
+    "headingSkips": [],
+    "schemaTypes": [
+      "Product",
+      "BreadcrumbList",
+      "FAQPage",
+      "BreadcrumbList",
+      "Organization",
+      "WebSite",
+      "LocalBusiness"
+    ],
+    "hasAggregateRating": false,
+    "hasOffer": false,
+    "hasOrg": true,
+    "hasLocalBusiness": true,
+    "hasBreadcrumbs": true,
+    "hasProduct": true,
+    "hasFAQ": true,
+    "productManufacturer": {
+      "@id": "https://kpfasteners.com/#organization"
+    },
+    "inBodyLinks": [
+      {
+        "href": "/",
+        "anchor": "Home"
+      },
+      {
+        "href": "/products/",
+        "anchor": "Products"
+      },
+      {
+        "href": "/request-quote/?product=stud-bolts",
+        "anchor": "Request a BOQ quote"
+      },
+      {
+        "href": "/products/foundation-bolts/",
+        "anchor": "cast-in foundation bolts (IS 5624 / F1554)"
+      },
+      {
+        "href": "/products/hex-bolts-nuts/",
+        "anchor": "matching heavy-hex nuts (A194 2H / 2HM / 8 / 8M) and hardened washers"
+      },
+      {
+        "href": "/products/tie-rods/",
+        "anchor": "tie-rod studs for formwork"
+      },
+      {
+        "href": "/materials/high-tensile-fasteners/",
+        "anchor": "alloy-steel property class comparison for high-tensile stud bolting"
+      },
+      {
+        "href": "/industries/construction-infrastructure/",
+        "anchor": "structural steel and heavy civil projects"
+      },
+      {
+        "href": "/quality/",
+        "anchor": "MTC EN 10204 3.1 documentation and batch traceability"
+      },
+      {
+        "href": "/request-quote/?product=stud-bolts",
+        "anchor": "Request a BOQ quote"
+      },
+      {
+        "href": "/products/foundation-bolts/",
+        "anchor": "cast-in foundation bolts (IS 5624 / F1554)"
+      },
+      {
+        "href": "/products/sag-rods/",
+        "anchor": "threaded sag rods for PEB bracing"
+      },
+      {
+        "href": "/products/tie-rods/",
+        "anchor": "tie-rod studs for formwork"
+      },
+      {
+        "href": "/products/",
+        "anchor": "our full products range"
+      },
+      {
+        "href": "/request-quote/?product=stud-bolts",
+        "anchor": "Request a BOQ quote"
+      },
+      {
+        "href": "/request-quote/",
+        "anchor": "RFQ"
+      }
+    ],
+    "matchedBannedPhrases": [],
+    "imagesCount": 3,
+    "imagesMissingAlt": 0,
+    "hasMobileBar": true,
+    "faqCount": 12
+  },
+  {
+    "route": "/products/sag-rods/",
+    "status": 200,
+    "title": "Sag Rods Manufacturer | PEB Purlin &amp; Solar Bracing | KP",
+    "titleLength": 59,
+    "description": "Threaded sag rods for PEB purlin bracing and solar racking cross-bracing. MS and high-tensile, HDG or zinc, MTC on request. Ahmedabad-made — request a BOQ quote.",
+    "descriptionLength": 161,
+    "canonical": "https://kpfasteners.com/products/sag-rods/",
+    "canonicalOk": true,
+    "ogTitle": "Sag Rods Manufacturer | PEB Purlin &amp; Solar Bracing | KP",
+    "ogDesc": "Threaded sag rods for PEB purlin bracing and solar racking cross-bracing. MS and high-tensile, HDG or zinc, MTC on request. Ahmedabad-made — request a BOQ quote.",
+    "ogImage": "https://kpfasteners.com/images/products/threaded-rods/threaded-rod-stud.jpg",
+    "twitterCard": "summary_large_image",
+    "robotsDirective": "index, follow",
+    "h1Count": 1,
+    "h1Texts": [
+      "Sag Rods Manufacturer — PEB Purlin &amp; Solar Bracing"
+    ],
+    "headingCount": 34,
+    "headingSkips": [],
+    "schemaTypes": [
+      "Product",
+      "BreadcrumbList",
+      "FAQPage",
+      "BreadcrumbList",
+      "Organization",
+      "WebSite",
+      "LocalBusiness"
+    ],
+    "hasAggregateRating": false,
+    "hasOffer": false,
+    "hasOrg": true,
+    "hasLocalBusiness": true,
+    "hasBreadcrumbs": true,
+    "hasProduct": true,
+    "hasFAQ": true,
+    "productManufacturer": {
+      "@id": "https://kpfasteners.com/#organization"
+    },
+    "inBodyLinks": [
+      {
+        "href": "/",
+        "anchor": "Home"
+      },
+      {
+        "href": "/products/",
+        "anchor": "Products"
+      },
+      {
+        "href": "/request-quote/?product=sag-rods",
+        "anchor": "Request a BOQ quote"
+      },
+      {
+        "href": "/products/stud-bolts/",
+        "anchor": "flange-clamp stud bolts"
+      },
+      {
+        "href": "/products/foundation-bolts/",
+        "anchor": "foundation anchor bolts"
+      },
+      {
+        "href": "/products/tie-rods/",
+        "anchor": "tie-rod stock for formwork and splice service"
+      },
+      {
+        "href": "/products/stud-bolts/",
+        "anchor": "DIN 976 metric threaded-rod studs"
+      },
+      {
+        "href": "/materials/high-tensile-fasteners/",
+        "anchor": "high-tensile property-class reference for bracing threaded rod"
+      },
+      {
+        "href": "/industries/solar-mounting-fasteners/",
+        "anchor": "solar module mounting and racking fasteners"
+      },
+      {
+        "href": "/industries/construction-infrastructure/",
+        "anchor": "structural steel and heavy civil projects"
+      },
+      {
+        "href": "/quality/",
+        "anchor": "MTC EN 10204 3.1 documentation and batch traceability"
+      },
+      {
+        "href": "/request-quote/?product=sag-rods",
+        "anchor": "Request a BOQ quote"
+      },
+      {
+        "href": "/products/foundation-bolts/",
+        "anchor": "cast-in foundation bolts (IS 5624 / F1554)"
+      },
+      {
+        "href": "/products/stud-bolts/",
+        "anchor": "stud bolts for flange clamping"
+      },
+      {
+        "href": "/products/scaffold-accessories/",
+        "anchor": "scaffold accessories and site-work hardware"
+      },
+      {
+        "href": "/products/",
+        "anchor": "our full products range"
+      },
+      {
+        "href": "/industries/solar-mounting-fasteners/",
+        "anchor": "solar mounting fasteners"
+      },
+      {
+        "href": "/industries/construction-infrastructure/",
+        "anchor": "construction &amp; infrastructure"
+      },
+      {
+        "href": "/request-quote/?product=sag-rods",
+        "anchor": "Request a BOQ quote"
+      },
+      {
+        "href": "/request-quote/",
+        "anchor": "RFQ"
+      }
+    ],
+    "matchedBannedPhrases": [],
+    "imagesCount": 3,
+    "imagesMissingAlt": 0,
+    "hasMobileBar": true,
+    "faqCount": 8
+  },
+  {
+    "route": "/products/tie-rods/",
+    "status": 200,
+    "title": "Tie Rod Manufacturer and Formwork Supplier | D15 D20 | KP",
+    "titleLength": 57,
+    "description": "D15 and D20 formwork tie rods with matching wing nuts, water bars, anchor plates and cones. Plain, HDG, zinc. MTC available. Request your project BOQ quote.",
+    "descriptionLength": 156,
+    "canonical": "https://kpfasteners.com/products/tie-rods/",
+    "canonicalOk": true,
+    "ogTitle": "Tie Rod Manufacturer and Formwork Supplier | D15 D20 | KP",
+    "ogDesc": "D15 and D20 formwork tie rods with matching wing nuts, water bars, anchor plates and cones. Plain, HDG, zinc. MTC available. Request your project BOQ quote.",
+    "ogImage": "https://kpfasteners.com/product-images/tie-rods/hero.jpg",
+    "twitterCard": "summary_large_image",
+    "robotsDirective": "index, follow",
+    "h1Count": 1,
+    "h1Texts": [
+      "Tie Rod Manufacturer &amp; Formwork Shuttering Hardware"
+    ],
+    "headingCount": 37,
+    "headingSkips": [],
+    "schemaTypes": [
+      "Product",
+      "BreadcrumbList",
+      "FAQPage",
+      "BreadcrumbList",
+      "Organization",
+      "WebSite",
+      "LocalBusiness"
+    ],
+    "hasAggregateRating": false,
+    "hasOffer": false,
+    "hasOrg": true,
+    "hasLocalBusiness": true,
+    "hasBreadcrumbs": true,
+    "hasProduct": true,
+    "hasFAQ": true,
+    "productSeller": {
+      "@id": "https://kpfasteners.com/#organization"
+    },
+    "inBodyLinks": [
+      {
+        "href": "/",
+        "anchor": "Home"
+      },
+      {
+        "href": "/products/",
+        "anchor": "Products"
+      },
+      {
+        "href": "/request-quote/?product=tie-rods",
+        "anchor": "Request a Tie-Rod BOQ Quote"
+      },
+      {
+        "href": "/about/",
+        "anchor": "Ahmedabad manufacturing facility"
+      },
+      {
+        "href": "/products/foundation-bolts/",
+        "anchor": "foundation bolts for the column bases"
+      },
+      {
+        "href": "/products/scaffold-accessories/",
+        "anchor": "scaffold base jacks and formwork clamps"
+      },
+      {
+        "href": "/products/sag-rods/",
+        "anchor": "Explore PEB sag rods and bracing →"
+      },
+      {
+        "href": "/products/stud-bolts/",
+        "anchor": "Explore all-thread stud bolts →"
+      },
+      {
+        "href": "/products/sag-rods/",
+        "anchor": "PEB sag rods"
+      },
+      {
+        "href": "/industries/construction-infrastructure/",
+        "anchor": "RCC and PEB construction fasteners →"
+      },
+      {
+        "href": "/products/scaffold-accessories/",
+        "anchor": "scaffold base jacks and formwork clamps →"
+      },
+      {
+        "href": "/products/foundation-bolts/",
+        "anchor": "foundation bolts for the column bases →"
+      },
+      {
+        "href": "/quality/",
+        "anchor": "MTC EN 10204 3.1 pass-through"
+      },
+      {
+        "href": "/products/sag-rods/",
+        "anchor": "View PEB sag rods and bracing"
+      },
+      {
+        "href": "/products/foundation-bolts/",
+        "anchor": "View foundation bolts for the column bases"
+      },
+      {
+        "href": "/products/scaffold-accessories/",
+        "anchor": "View scaffold base jacks and formwork clamps"
+      },
+      {
+        "href": "/industries/construction-infrastructure/",
+        "anchor": "View RCC and PEB construction fasteners"
+      },
+      {
+        "href": "/products/custom-fasteners/",
+        "anchor": "View custom drawing-based tie rods"
+      },
+      {
+        "href": "/request-quote/?product=tie-rods",
+        "anchor": "Submit a Tie-Rod BOQ"
+      },
+      {
+        "href": "/request-quote/",
+        "anchor": "RFQ"
+      }
+    ],
+    "matchedBannedPhrases": [],
+    "imagesCount": 3,
+    "imagesMissingAlt": 0,
+    "hasMobileBar": true,
+    "faqCount": 0
+  },
+  {
+    "route": "/products/csk-allen-bolts/",
+    "status": 200,
+    "title": "CSK Allen Bolts Manufacturer and Supplier | DIN 7991 | KP",
+    "titleLength": 57,
+    "description": "CSK Allen bolts (DIN 7991), socket cap (DIN 912) and button screws in Grade 8.8, 10.9, 12.9, SS. Black oxide, zinc, MTC available. Request your project quote.",
+    "descriptionLength": 158,
+    "canonical": "https://kpfasteners.com/products/csk-allen-bolts/",
+    "canonicalOk": true,
+    "ogTitle": "CSK Allen Bolts Manufacturer and Supplier | DIN 7991 | KP",
+    "ogDesc": "CSK Allen bolts (DIN 7991), socket cap (DIN 912) and button screws in Grade 8.8, 10.9, 12.9, SS. Black oxide, zinc, MTC available. Request your project quote.",
+    "ogImage": "https://kpfasteners.com/product-images/csk-allen/hero.jpg",
+    "twitterCard": "summary_large_image",
+    "robotsDirective": "index, follow",
+    "h1Count": 1,
+    "h1Texts": [
+      "CSK Allen Bolts Manufacturer &amp; Precision Socket Fastener Distribution"
+    ],
+    "headingCount": 38,
+    "headingSkips": [],
+    "schemaTypes": [
+      "Product",
+      "BreadcrumbList",
+      "FAQPage",
+      "BreadcrumbList",
+      "Organization",
+      "WebSite",
+      "LocalBusiness"
+    ],
+    "hasAggregateRating": false,
+    "hasOffer": false,
+    "hasOrg": true,
+    "hasLocalBusiness": true,
+    "hasBreadcrumbs": true,
+    "hasProduct": true,
+    "hasFAQ": true,
+    "productSeller": {
+      "@id": "https://kpfasteners.com/#organization"
+    },
+    "inBodyLinks": [
+      {
+        "href": "/",
+        "anchor": "Home"
+      },
+      {
+        "href": "/products/",
+        "anchor": "Products"
+      },
+      {
+        "href": "/request-quote/?product=csk-allen-bolts",
+        "anchor": "Request an Allen Bolt Quote"
+      },
+      {
+        "href": "/about/",
+        "anchor": "Ahmedabad manufacturing facility"
+      },
+      {
+        "href": "/products/foundation-bolts/",
+        "anchor": "in-house foundation bolts for heavy base frames"
+      },
+      {
+        "href": "/products/stud-bolts/",
+        "anchor": "continuous threaded stud bolts"
+      },
+      {
+        "href": "/products/hex-bolts-nuts/",
+        "anchor": "matching hex nuts and washers"
+      },
+      {
+        "href": "/materials/high-tensile-fasteners/",
+        "anchor": "Explore PC 10.9 / 12.9 high-tensile guide →"
+      },
+      {
+        "href": "/materials/stainless-steel-fasteners/",
+        "anchor": "Explore SS A2 vs SS A4 corrosion guide →"
+      },
+      {
+        "href": "/industries/automotive-heavy-engineering/",
+        "anchor": "automotive and heavy machine assemblies →"
+      },
+      {
+        "href": "/products/solar-accessories/",
+        "anchor": "solar MMS clamp bolts →"
+      },
+      {
+        "href": "/products/scaffold-accessories/",
+        "anchor": "scaffold accessory sub-assembly →"
+      },
+      {
+        "href": "/quality/",
+        "anchor": "MTC EN 10204 3.1 pass-through"
+      },
+      {
+        "href": "/products/hex-bolts-nuts/",
+        "anchor": "View matching hex nuts and washers"
+      },
+      {
+        "href": "/materials/high-tensile-fasteners/",
+        "anchor": "View PC 10.9 / 12.9 decision guide"
+      },
+      {
+        "href": "/materials/stainless-steel-fasteners/",
+        "anchor": "View SS A2 vs SS A4 for service"
+      },
+      {
+        "href": "/industries/automotive-heavy-engineering/",
+        "anchor": "View automotive and heavy machine assemblies"
+      },
+      {
+        "href": "/products/custom-fasteners/",
+        "anchor": "View custom drawing-based socket screws"
+      },
+      {
+        "href": "/request-quote/?product=csk-allen-bolts",
+        "anchor": "Submit an RFQ Online"
+      },
+      {
+        "href": "/request-quote/",
+        "anchor": "RFQ"
+      }
+    ],
+    "matchedBannedPhrases": [],
+    "imagesCount": 3,
+    "imagesMissingAlt": 0,
+    "hasMobileBar": true,
+    "faqCount": 0
+  },
+  {
+    "route": "/products/scaffold-accessories/",
+    "status": 200,
+    "title": "Scaffold Accessories Supplier | Tie Rods, Wing Nuts | KP",
+    "titleLength": 56,
+    "description": "Formwork tie rods (D15/D20), wing nuts, waller plates and shuttering hardware — manufactured and supplied from Ahmedabad, HDG options, MTC. Request BOQ.",
+    "descriptionLength": 152,
+    "canonical": "https://kpfasteners.com/products/scaffold-accessories/",
+    "canonicalOk": true,
+    "ogTitle": "Scaffold Accessories Supplier | Tie Rods, Wing Nuts | KP",
+    "ogDesc": "Formwork tie rods (D15/D20), wing nuts, waller plates and shuttering hardware — manufactured and supplied from Ahmedabad, HDG options, MTC. Request BOQ.",
+    "ogImage": "https://kpfasteners.com/images/products/threaded-rods/wedge-anchor.jpg",
+    "twitterCard": "summary_large_image",
+    "robotsDirective": "index, follow",
+    "h1Count": 1,
+    "h1Texts": [
+      "Scaffold Accessories Manufacturer &amp; Supplier"
+    ],
+    "headingCount": 38,
+    "headingSkips": [],
+    "schemaTypes": [
+      "Product",
+      "BreadcrumbList",
+      "FAQPage",
+      "BreadcrumbList",
+      "Organization",
+      "WebSite",
+      "LocalBusiness"
+    ],
+    "hasAggregateRating": false,
+    "hasOffer": false,
+    "hasOrg": true,
+    "hasLocalBusiness": true,
+    "hasBreadcrumbs": true,
+    "hasProduct": true,
+    "hasFAQ": true,
+    "productSeller": {
+      "@id": "https://kpfasteners.com/#organization"
+    },
+    "inBodyLinks": [
+      {
+        "href": "/",
+        "anchor": "Home"
+      },
+      {
+        "href": "/products/",
+        "anchor": "Products"
+      },
+      {
+        "href": "/request-quote/?product=scaffold-accessories",
+        "anchor": "Request a BOQ quote"
+      },
+      {
+        "href": "/products/tie-rods/",
+        "anchor": "D15 or D20 formwork tie rod"
+      },
+      {
+        "href": "/products/foundation-bolts/",
+        "anchor": "foundation-bolt range"
+      },
+      {
+        "href": "/products/tie-rods/",
+        "anchor": "tie-rod stock and turnbuckle assemblies"
+      },
+      {
+        "href": "/products/hex-bolts-nuts/",
+        "anchor": "hex nuts and matched washer stock"
+      },
+      {
+        "href": "/industries/construction-infrastructure/",
+        "anchor": "structural, RCC formwork and precast construction projects"
+      },
+      {
+        "href": "/quality/",
+        "anchor": "MTC EN 10204 3.1 documentation and batch traceability"
+      },
+      {
+        "href": "/request-quote/?product=scaffold-accessories",
+        "anchor": "Request a BOQ quote"
+      },
+      {
+        "href": "/products/foundation-bolts/",
+        "anchor": "foundation bolts for shore-tower base plates"
+      },
+      {
+        "href": "/products/tie-rods/",
+        "anchor": "formwork tie rods (D15 / D20)"
+      },
+      {
+        "href": "/products/stud-bolts/",
+        "anchor": "stud bolts for flange and structural clamping"
+      },
+      {
+        "href": "/products/",
+        "anchor": "our full products range"
+      },
+      {
+        "href": "/industries/construction-infrastructure/",
+        "anchor": "construction &amp; infrastructure"
+      },
+      {
+        "href": "/request-quote/?product=scaffold-accessories",
+        "anchor": "Request a BOQ quote"
+      },
+      {
+        "href": "/request-quote/",
+        "anchor": "RFQ"
+      }
+    ],
+    "matchedBannedPhrases": [],
+    "imagesCount": 3,
+    "imagesMissingAlt": 0,
+    "hasMobileBar": true,
+    "faqCount": 14
+  },
+  {
+    "route": "/products/solar-accessories/",
+    "status": 200,
+    "title": "Solar Mounting Accessories Manufacturer &amp; Supply | KP",
+    "titleLength": 57,
+    "description": "T-head bolts, module clamps, MMS bolts &amp; hanger bolts for rooftop and ground solar. SS 304, SS 316 coastal, HDG steel. Sourced by KP Fasteners. Request a quote.",
+    "descriptionLength": 164,
+    "canonical": "https://kpfasteners.com/products/solar-accessories/",
+    "canonicalOk": true,
+    "ogTitle": "Solar Mounting Accessories Manufacturer &amp; Supply | KP",
+    "ogDesc": "T-head bolts, module clamps, MMS bolts &amp; hanger bolts for rooftop and ground solar. SS 304, SS 316 coastal, HDG steel. Sourced by KP Fasteners. Request a quote.",
+    "ogImage": "https://kpfasteners.com/product-images/solar-accessories/hero.jpg",
+    "twitterCard": "summary_large_image",
+    "robotsDirective": "index, follow",
+    "h1Count": 1,
+    "h1Texts": [
+      "Solar Mounting Accessories Manufacturer &amp; Wholesale Supply"
+    ],
+    "headingCount": 23,
+    "headingSkips": [],
+    "schemaTypes": [
+      "Product",
+      "BreadcrumbList",
+      "FAQPage",
+      "BreadcrumbList",
+      "Organization",
+      "WebSite",
+      "LocalBusiness"
+    ],
+    "hasAggregateRating": false,
+    "hasOffer": false,
+    "hasOrg": true,
+    "hasLocalBusiness": true,
+    "hasBreadcrumbs": true,
+    "hasProduct": true,
+    "hasFAQ": true,
+    "productSeller": {
+      "@id": "https://kpfasteners.com/#organization"
+    },
+    "inBodyLinks": [
+      {
+        "href": "/",
+        "anchor": "Home"
+      },
+      {
+        "href": "/products/",
+        "anchor": "Products"
+      },
+      {
+        "href": "/request-quote/?product=solar-accessories",
+        "anchor": "Request a solar-BOQ quote"
+      },
+      {
+        "href": "/products/foundation-bolts/",
+        "anchor": "J-bolts and L-bolts for concrete pier anchorage"
+      },
+      {
+        "href": "/industries/solar-mounting-fasteners/",
+        "anchor": "our solar industry page: fastener stacks by mount type, dispatch pin codes and EPC references"
+      },
+      {
+        "href": "/materials/stainless-steel-fasteners/",
+        "anchor": "SS 304 vs SS 316 for solar service"
+      },
+      {
+        "href": "/quality/",
+        "anchor": "MTC EN 10204 3.1 documentation and batch traceability →"
+      },
+      {
+        "href": "/industries/solar-mounting-fasteners/",
+        "anchor": "View our solar industry page: fastener stacks by mount type, dispatch pin codes and EPC references"
+      },
+      {
+        "href": "/materials/stainless-steel-fasteners/",
+        "anchor": "View SS 304 vs SS 316 for solar service"
+      },
+      {
+        "href": "/products/hex-bolts-nuts/",
+        "anchor": "View SS 304 hex bolts and nuts"
+      },
+      {
+        "href": "/products/foundation-bolts/",
+        "anchor": "View J-bolts and L-bolts for concrete pier anchorage"
+      },
+      {
+        "href": "/products/custom-fasteners/",
+        "anchor": "View custom specials on drawing"
+      },
+      {
+        "href": "/products/",
+        "anchor": "Browse our full products range"
+      },
+      {
+        "href": "/request-quote/?product=solar-accessories",
+        "anchor": "Send us your solar BOQ"
+      },
+      {
+        "href": "/request-quote/",
+        "anchor": "RFQ"
+      }
+    ],
+    "matchedBannedPhrases": [],
+    "imagesCount": 3,
+    "imagesMissingAlt": 0,
+    "hasMobileBar": true,
+    "faqCount": 0
+  },
+  {
+    "route": "/products/hex-bolts-nuts/",
+    "status": 200,
+    "title": "Hex Bolts and Nuts Manufacturer &amp; Distributor | KP",
+    "titleLength": 54,
+    "description": "Hex bolts &amp; nuts to DIN 931/933/934, ISO 4014/4017. Property class 4.6 to 10.9 &amp; SS 304/316. Zinc, HDG, black oxide. MTC available. Request your project quote.",
+    "descriptionLength": 167,
+    "canonical": "https://kpfasteners.com/products/hex-bolts-nuts/",
+    "canonicalOk": true,
+    "ogTitle": "Hex Bolts and Nuts Manufacturer &amp; Distributor | KP",
+    "ogDesc": "Hex bolts &amp; nuts to DIN 931/933/934, ISO 4014/4017. Property class 4.6 to 10.9 &amp; SS 304/316. Zinc, HDG, black oxide. MTC available. Request your project quote.",
+    "ogImage": "https://kpfasteners.com/product-images/hex-bolts-nuts/hero.jpg",
+    "twitterCard": "summary_large_image",
+    "robotsDirective": "index, follow",
+    "h1Count": 1,
+    "h1Texts": [
+      "Hex Bolts and Nuts Manufacturer &amp; Wholesale Supply"
+    ],
+    "headingCount": 24,
+    "headingSkips": [],
+    "schemaTypes": [
+      "Product",
+      "BreadcrumbList",
+      "FAQPage",
+      "BreadcrumbList",
+      "Organization",
+      "WebSite",
+      "LocalBusiness"
+    ],
+    "hasAggregateRating": false,
+    "hasOffer": false,
+    "hasOrg": true,
+    "hasLocalBusiness": true,
+    "hasBreadcrumbs": true,
+    "hasProduct": true,
+    "hasFAQ": true,
+    "productSeller": {
+      "@id": "https://kpfasteners.com/#organization"
+    },
+    "inBodyLinks": [
+      {
+        "href": "/",
+        "anchor": "Home"
+      },
+      {
+        "href": "/products/",
+        "anchor": "Products"
+      },
+      {
+        "href": "/request-quote/?product=hex-bolts-nuts",
+        "anchor": "Request a hex bolt/nut quote"
+      },
+      {
+        "href": "/products/foundation-bolts/",
+        "anchor": "foundation bolts for PEB column base plates"
+      },
+      {
+        "href": "/products/stud-bolts/",
+        "anchor": "stud bolts for flange joints"
+      },
+      {
+        "href": "/materials/high-tensile-fasteners/",
+        "anchor": "property class 8.8 / 10.9 decision guide"
+      },
+      {
+        "href": "/quality/",
+        "anchor": "MTC EN 10204 3.1 pass-through and quality protocols →"
+      },
+      {
+        "href": "/materials/high-tensile-fasteners/",
+        "anchor": "View property class 8.8 / 10.9 decision guide"
+      },
+      {
+        "href": "/materials/stainless-steel-fasteners/",
+        "anchor": "View SS 304 vs SS 316 for service environment"
+      },
+      {
+        "href": "/products/csk-allen-bolts/",
+        "anchor": "View socket head cap screws and countersunk bolts"
+      },
+      {
+        "href": "/industries/construction-infrastructure/",
+        "anchor": "View PEB structural fastener schedules"
+      },
+      {
+        "href": "/industries/automotive-heavy-engineering/",
+        "anchor": "View heavy machinery and automotive tier hardware"
+      },
+      {
+        "href": "/products/custom-fasteners/",
+        "anchor": "View custom specials on drawing"
+      },
+      {
+        "href": "/products/",
+        "anchor": "Browse our full product range"
+      },
+      {
+        "href": "/request-quote/?product=hex-bolts-nuts",
+        "anchor": "Send a BOQ for quotation"
+      },
+      {
+        "href": "/request-quote/",
+        "anchor": "RFQ"
+      }
+    ],
+    "matchedBannedPhrases": [],
+    "imagesCount": 3,
+    "imagesMissingAlt": 0,
+    "hasMobileBar": true,
+    "faqCount": 0
+  },
+  {
+    "route": "/products/custom-fasteners/",
+    "status": 200,
+    "title": "Custom Fasteners Manufacturer and Sourcing Partner | KP",
+    "titleLength": 55,
+    "description": "Custom fastener manufacturing and sourcing to print. Send PDF or CAD drawings for quote on tolerances, materials, finishes and lead times. Upload your drawing.",
+    "descriptionLength": 159,
+    "canonical": "https://kpfasteners.com/products/custom-fasteners/",
+    "canonicalOk": true,
+    "ogTitle": "Custom Fasteners Manufacturer and Sourcing Partner | KP",
+    "ogDesc": "Custom fastener manufacturing and sourcing to print. Send PDF or CAD drawings for quote on tolerances, materials, finishes and lead times. Upload your drawing.",
+    "ogImage": "https://kpfasteners.com/product-images/custom/hero.jpg",
+    "twitterCard": "summary_large_image",
+    "robotsDirective": "index, follow",
+    "h1Count": 1,
+    "h1Texts": [
+      "Custom Fasteners Manufacturer &amp; Precision Sourcing Partner"
+    ],
+    "headingCount": 35,
+    "headingSkips": [],
+    "schemaTypes": [
+      "Product",
+      "BreadcrumbList",
+      "FAQPage",
+      "BreadcrumbList",
+      "Organization",
+      "WebSite",
+      "LocalBusiness"
+    ],
+    "hasAggregateRating": false,
+    "hasOffer": false,
+    "hasOrg": true,
+    "hasLocalBusiness": true,
+    "hasBreadcrumbs": true,
+    "hasProduct": true,
+    "hasFAQ": true,
+    "productSeller": {
+      "@id": "https://kpfasteners.com/#organization"
+    },
+    "inBodyLinks": [
+      {
+        "href": "/",
+        "anchor": "Home"
+      },
+      {
+        "href": "/products/",
+        "anchor": "Products"
+      },
+      {
+        "href": "/request-quote/?product=custom-fasteners",
+        "anchor": "Upload Drawing for Quote"
+      },
+      {
+        "href": "/about/",
+        "anchor": "Inspect our Ahmedabad facility &amp; equipment →"
+      },
+      {
+        "href": "/quality/",
+        "anchor": "Review our partner audit &amp; MTC verification protocol →"
+      },
+      {
+        "href": "/products/hex-bolts-nuts/",
+        "anchor": "hex bolts and nuts"
+      },
+      {
+        "href": "/products/stud-bolts/",
+        "anchor": "ASTM A193 B7 stud bolts"
+      },
+      {
+        "href": "/products/foundation-bolts/",
+        "anchor": "foundation bolts"
+      },
+      {
+        "href": "/industries/solar-mounting-fasteners/",
+        "anchor": "View custom solar mounting fasteners →"
+      },
+      {
+        "href": "/industries/construction-infrastructure/",
+        "anchor": "View construction and infrastructure fasteners →"
+      },
+      {
+        "href": "/industries/automotive-heavy-engineering/",
+        "anchor": "View automotive and heavy machinery fasteners →"
+      },
+      {
+        "href": "/industries/automotive-heavy-engineering/",
+        "anchor": "View machinery and equipment fasteners →"
+      },
+      {
+        "href": "/quality/",
+        "anchor": "MTC EN 10204 3.1 and NABL partner testing"
+      },
+      {
+        "href": "/terms/",
+        "anchor": "terms of supply (IP and confidentiality)"
+      },
+      {
+        "href": "/products/foundation-bolts/",
+        "anchor": "View OEM foundation-bolt catalogue"
+      },
+      {
+        "href": "/products/stud-bolts/",
+        "anchor": "View OEM stud-bolt catalogue"
+      },
+      {
+        "href": "/products/sag-rods/",
+        "anchor": "View OEM-manufactured sag rods"
+      },
+      {
+        "href": "/materials/high-tensile-fasteners/",
+        "anchor": "View high-tensile grade decision guide"
+      },
+      {
+        "href": "/materials/stainless-steel-fasteners/",
+        "anchor": "View SS 304 / 316 / 316L for your service"
+      },
+      {
+        "href": "/request-quote/?product=custom-fasteners",
+        "anchor": "Upload Your Drawing Now"
+      },
+      {
+        "href": "/request-quote/",
+        "anchor": "RFQ"
+      }
+    ],
+    "matchedBannedPhrases": [],
+    "imagesCount": 3,
+    "imagesMissingAlt": 0,
+    "hasMobileBar": true,
+    "faqCount": 0
+  },
+  {
+    "route": "/materials/high-tensile-fasteners/",
+    "status": 200,
+    "title": "High-Tensile Bolts Manufacturer | PC 8.8 10.9 12.9 | KP",
+    "titleLength": 55,
+    "description": "Property class 4.6, 8.8, 10.9 &amp; 12.9 compared to ISO 898-1: yield, UTS, hardness, torque &amp; HDE risk. Pick the right grade for your joint. Request an RFQ quote.",
+    "descriptionLength": 167,
+    "canonical": "https://kpfasteners.com/materials/high-tensile-fasteners/",
+    "canonicalOk": true,
+    "ogTitle": "High-Tensile Bolts Manufacturer | PC 8.8 10.9 12.9 | KP",
+    "ogDesc": "Property class 4.6, 8.8, 10.9 &amp; 12.9 compared to ISO 898-1: yield, UTS, hardness, torque &amp; HDE risk. Pick the right grade for your joint. Request an RFQ quote.",
+    "ogImage": "https://kpfasteners.com/product-images/high-tensile/hero.jpg",
+    "twitterCard": "summary_large_image",
+    "robotsDirective": "index, follow",
+    "h1Count": 1,
+    "h1Texts": [
+      "High-Tensile Fasteners — Property Class 8.8, 10.9 &amp; 12.9 Decision Guide"
+    ],
+    "headingCount": 31,
+    "headingSkips": [],
+    "schemaTypes": [
+      "WebPage",
+      "FAQPage",
+      "BreadcrumbList",
+      "Organization",
+      "WebSite",
+      "LocalBusiness"
+    ],
+    "hasAggregateRating": false,
+    "hasOffer": false,
+    "hasOrg": true,
+    "hasLocalBusiness": true,
+    "hasBreadcrumbs": true,
+    "hasProduct": false,
+    "hasFAQ": true,
+    "inBodyLinks": [
+      {
+        "href": "/",
+        "anchor": "Home"
+      },
+      {
+        "href": "/request-quote/?material=high-tensile",
+        "anchor": "Request a high-tensile quote"
+      },
+      {
+        "href": "/materials/stainless-steel-fasteners/",
+        "anchor": "stainless-steel equivalent (A2-70 / A4-70)"
+      },
+      {
+        "href": "/materials/stainless-steel-fasteners/",
+        "anchor": "stainless-steel equivalent (A2-70 / A4-70)"
+      },
+      {
+        "href": "/products/foundation-bolts/",
+        "anchor": "View foundation bolts in PC 4.6 / 8.8"
+      },
+      {
+        "href": "/products/stud-bolts/",
+        "anchor": "View stud bolts to ASTM A193 B7 and ISO 898-1 PC 8.8 / 10.9"
+      },
+      {
+        "href": "/products/sag-rods/",
+        "anchor": "View sag rods in PC 4.6 / 8.8"
+      },
+      {
+        "href": "/products/hex-bolts-nuts/",
+        "anchor": "View hex bolts and nuts, PC 4.6 to 10.9"
+      },
+      {
+        "href": "/products/csk-allen-bolts/",
+        "anchor": "View PC 12.9 socket head cap screws (black oxide)"
+      },
+      {
+        "href": "/products/custom-fasteners/",
+        "anchor": "View custom high-tensile fasteners to drawing"
+      },
+      {
+        "href": "/products/",
+        "anchor": "Browse all industrial fastener product lines"
+      },
+      {
+        "href": "/industries/construction-infrastructure/",
+        "anchor": "Construction &amp; infrastructure fasteners"
+      },
+      {
+        "href": "/industries/automotive-heavy-engineering/",
+        "anchor": "Automotive &amp; heavy engineering"
+      },
+      {
+        "href": "/industries/solar-mounting-fasteners/",
+        "anchor": "Solar mounting fasteners"
+      },
+      {
+        "href": "/quality/",
+        "anchor": "NABL tensile verification and MTC EN 10204 3.1"
+      },
+      {
+        "href": "/request-quote/?material=high-tensile",
+        "anchor": "Send a BOQ with the chosen grade"
+      },
+      {
+        "href": "/request-quote/",
+        "anchor": "RFQ"
+      }
+    ],
+    "matchedBannedPhrases": [],
+    "imagesCount": 3,
+    "imagesMissingAlt": 0,
+    "hasMobileBar": true,
+    "faqCount": 0
+  },
+  {
+    "route": "/materials/stainless-steel-fasteners/",
+    "status": 200,
+    "title": "Stainless Steel Fasteners Manufacturer | SS 304 vs 316 | KP",
+    "titleLength": 59,
+    "description": "SS 304, 316, 316L &amp; 316Ti compared: chemistry, PREN, corrosion, magnetism &amp; ISO 3506 specs. Decision tree for solar, coastal &amp; pharma. Request an RFQ quote.",
+    "descriptionLength": 168,
+    "canonical": "https://kpfasteners.com/materials/stainless-steel-fasteners/",
+    "canonicalOk": true,
+    "ogTitle": "Stainless Steel Fasteners Manufacturer | SS 304 vs 316 | KP",
+    "ogDesc": "SS 304, 316, 316L &amp; 316Ti compared: chemistry, PREN, corrosion, magnetism &amp; ISO 3506 specs. Decision tree for solar, coastal &amp; pharma. Request an RFQ quote.",
+    "ogImage": "https://kpfasteners.com/product-images/stainless-steel/hero.jpg",
+    "twitterCard": "summary_large_image",
+    "robotsDirective": "index, follow",
+    "h1Count": 1,
+    "h1Texts": [
+      "Stainless Steel Fasteners — SS 304 vs SS 316 Decision Guide"
+    ],
+    "headingCount": 48,
+    "headingSkips": [],
+    "schemaTypes": [
+      "WebPage",
+      "FAQPage",
+      "BreadcrumbList",
+      "Organization",
+      "WebSite",
+      "LocalBusiness"
+    ],
+    "hasAggregateRating": false,
+    "hasOffer": false,
+    "hasOrg": true,
+    "hasLocalBusiness": true,
+    "hasBreadcrumbs": true,
+    "hasProduct": false,
+    "hasFAQ": true,
+    "inBodyLinks": [
+      {
+        "href": "/",
+        "anchor": "Home"
+      },
+      {
+        "href": "/materials/high-tensile-fasteners/",
+        "anchor": "Materials"
+      },
+      {
+        "href": "/request-quote/?material=stainless-steel",
+        "anchor": "Request an SS fastener quote"
+      },
+      {
+        "href": "/materials/high-tensile-fasteners/",
+        "anchor": "carbon-steel high-tensile grade decision"
+      },
+      {
+        "href": "/products/custom-fasteners/",
+        "anchor": "duplex 2205 and specialty stainless on drawing"
+      },
+      {
+        "href": "/materials/high-tensile-fasteners/",
+        "anchor": "carbon-steel high-tensile grade decision"
+      },
+      {
+        "href": "/quality/",
+        "anchor": "PMI verification and NABL partner tensile"
+      },
+      {
+        "href": "/products/hex-bolts-nuts/",
+        "anchor": "View SS 304 / 316 hex bolt family"
+      },
+      {
+        "href": "/products/stud-bolts/",
+        "anchor": "View SS 316 pressure studs (A193 B8M)"
+      },
+      {
+        "href": "/products/csk-allen-bolts/",
+        "anchor": "View SS A4-70 socket cap screws"
+      },
+      {
+        "href": "/products/solar-accessories/",
+        "anchor": "View SS 304 / 316 solar MMS fasteners"
+      },
+      {
+        "href": "/products/foundation-bolts/",
+        "anchor": "View stainless foundation bolts"
+      },
+      {
+        "href": "/products/sag-rods/",
+        "anchor": "View stainless sag rods"
+      },
+      {
+        "href": "/products/custom-fasteners/",
+        "anchor": "View duplex 2205 and specialty stainless on drawing"
+      },
+      {
+        "href": "/products/",
+        "anchor": "Browse all industrial fastener product categories"
+      },
+      {
+        "href": "/industries/solar-mounting-fasteners/",
+        "anchor": "Solar mounting fasteners"
+      },
+      {
+        "href": "/industries/construction-infrastructure/",
+        "anchor": "Construction &amp; infrastructure fasteners"
+      },
+      {
+        "href": "/industries/automotive-heavy-engineering/",
+        "anchor": "Automotive &amp; heavy engineering"
+      },
+      {
+        "href": "/quality/",
+        "anchor": "Explore our quality protocol"
+      },
+      {
+        "href": "/request-quote/?material=stainless-steel",
+        "anchor": "Send an SS fastener BOQ"
+      },
+      {
+        "href": "/request-quote/",
+        "anchor": "RFQ"
+      }
+    ],
+    "matchedBannedPhrases": [],
+    "imagesCount": 3,
+    "imagesMissingAlt": 0,
+    "hasMobileBar": true,
+    "faqCount": 0
+  },
+  {
+    "route": "/industries/solar-mounting-fasteners/",
+    "status": 200,
+    "title": "Solar Mounting Bolts Supplier | Rooftop &amp; Ground-Mount | KP",
+    "titleLength": 63,
+    "description": "Fastener BOMs for rooftop residential, C&amp;I, ground-mount &amp; tracker solar: SS 304/316 module hardware, HDG substructure &amp; OEM pier anchors. Request an RFQ quote.",
+    "descriptionLength": 172,
+    "canonical": "https://kpfasteners.com/industries/solar-mounting-fasteners/",
+    "canonicalOk": true,
+    "ogTitle": "Solar Mounting Bolts Supplier | Rooftop &amp; Ground-Mount | KP",
+    "ogDesc": "Fastener BOMs for rooftop residential, C&amp;I, ground-mount &amp; tracker solar: SS 304/316 module hardware, HDG substructure &amp; OEM pier anchors. Request an RFQ quote.",
+    "ogImage": "https://kpfasteners.com/product-images/solar/hero.jpg",
+    "twitterCard": "summary_large_image",
+    "robotsDirective": "index, follow",
+    "h1Count": 1,
+    "h1Texts": [
+      "Solar Mounting Fasteners Supplier — Rooftop, Ground-Mount &amp; Tracker BOMs"
+    ],
+    "headingCount": 30,
+    "headingSkips": [],
+    "schemaTypes": [
+      "WebPage",
+      "FAQPage",
+      "BreadcrumbList",
+      "Organization",
+      "WebSite",
+      "LocalBusiness"
+    ],
+    "hasAggregateRating": false,
+    "hasOffer": false,
+    "hasOrg": true,
+    "hasLocalBusiness": true,
+    "hasBreadcrumbs": true,
+    "hasProduct": false,
+    "hasFAQ": true,
+    "inBodyLinks": [
+      {
+        "href": "/",
+        "anchor": "Home"
+      },
+      {
+        "href": "/request-quote/?industry=solar",
+        "anchor": "Send a solar BOQ"
+      },
+      {
+        "href": "/products/custom-fasteners/",
+        "anchor": "/products/custom-fasteners/"
+      },
+      {
+        "href": "/products/solar-accessories/",
+        "anchor": "SKU catalogue for solar MMS fasteners"
+      },
+      {
+        "href": "/materials/stainless-steel-fasteners/",
+        "anchor": "Explore our full SS 304 vs SS 316 vs SS 316L decision tree →"
+      },
+      {
+        "href": "/materials/high-tensile-fasteners/",
+        "anchor": "Compare HDG 8.8 vs 10.9 for substructure connections →"
+      },
+      {
+        "href": "/products/foundation-bolts/",
+        "anchor": "J-bolts, L-bolts and headed anchorage for concrete piers"
+      },
+      {
+        "href": "/products/stud-bolts/",
+        "anchor": "chemical anchor stud retrofit"
+      },
+      {
+        "href": "/products/solar-accessories/",
+        "anchor": "View SKU catalogue for solar MMS fasteners"
+      },
+      {
+        "href": "/products/foundation-bolts/",
+        "anchor": "View J-bolts, L-bolts and headed anchorage for concrete piers"
+      },
+      {
+        "href": "/products/stud-bolts/",
+        "anchor": "View chemical anchor stud retrofit"
+      },
+      {
+        "href": "/products/hex-bolts-nuts/",
+        "anchor": "View SS 304 hex bolts for structure sub-assembly"
+      },
+      {
+        "href": "/materials/stainless-steel-fasteners/",
+        "anchor": "View SS 304 vs SS 316 vs SS 316L decision tree"
+      },
+      {
+        "href": "/materials/high-tensile-fasteners/",
+        "anchor": "View HDG 8.8 vs 10.9 for substructure"
+      },
+      {
+        "href": "/products/",
+        "anchor": "Browse all industrial fastener product lines"
+      },
+      {
+        "href": "/quality/",
+        "anchor": "MTC, PMI and HDG coating-thickness verification"
+      },
+      {
+        "href": "/request-quote/?industry=solar",
+        "anchor": "Send a solar BOQ"
+      },
+      {
+        "href": "/request-quote/",
+        "anchor": "RFQ"
+      }
+    ],
+    "matchedBannedPhrases": [],
+    "imagesCount": 3,
+    "imagesMissingAlt": 0,
+    "hasMobileBar": true,
+    "faqCount": 0
+  },
+  {
+    "route": "/industries/construction-infrastructure/",
+    "status": 200,
+    "title": "Construction &amp; Infrastructure Fasteners Supplier | KP",
+    "titleLength": 57,
+    "description": "PEB anchor bolts, structural 8.8 hex bolts, sag rods, tie rods, HDG foundation bolts &amp; bridge fasteners from KP Fasteners, Ahmedabad. Request a project quote.",
+    "descriptionLength": 162,
+    "canonical": "https://kpfasteners.com/industries/construction-infrastructure/",
+    "canonicalOk": true,
+    "ogTitle": "Construction &amp; Infrastructure Fasteners Supplier | KP",
+    "ogDesc": "PEB anchor bolts, structural 8.8 hex bolts, sag rods, tie rods, HDG foundation bolts &amp; bridge fasteners from KP Fasteners, Ahmedabad. Request a project quote.",
+    "ogImage": "https://kpfasteners.com/product-images/construction/hero.jpg",
+    "twitterCard": "summary_large_image",
+    "robotsDirective": "index, follow",
+    "h1Count": 1,
+    "h1Texts": [
+      "Construction Fasteners Supplier — PEB, High-Rise, Bridges &amp; Tunnels"
+    ],
+    "headingCount": 29,
+    "headingSkips": [],
+    "schemaTypes": [
+      "WebPage",
+      "FAQPage",
+      "BreadcrumbList",
+      "Organization",
+      "WebSite",
+      "LocalBusiness"
+    ],
+    "hasAggregateRating": false,
+    "hasOffer": false,
+    "hasOrg": true,
+    "hasLocalBusiness": true,
+    "hasBreadcrumbs": true,
+    "hasProduct": false,
+    "hasFAQ": true,
+    "inBodyLinks": [
+      {
+        "href": "/",
+        "anchor": "Home"
+      },
+      {
+        "href": "/request-quote/?industry=construction",
+        "anchor": "Send a construction BOQ"
+      },
+      {
+        "href": "/products/foundation-bolts/",
+        "anchor": "foundation bolts (IS 5624 / F1554)"
+      },
+      {
+        "href": "/products/sag-rods/",
+        "anchor": "PEB sag rods"
+      },
+      {
+        "href": "/products/stud-bolts/",
+        "anchor": "ASTM A193 B7 / B8M stud bolts"
+      },
+      {
+        "href": "/products/hex-bolts-nuts/",
+        "anchor": "PC 8.8 HDG structural hex bolts"
+      },
+      {
+        "href": "/products/tie-rods/",
+        "anchor": "D15 / D20 formwork tie rods"
+      },
+      {
+        "href": "/products/scaffold-accessories/",
+        "anchor": "base jacks, swivel couplers, formwork clamps"
+      },
+      {
+        "href": "/materials/high-tensile-fasteners/",
+        "anchor": "Explore our high-tensile grade decision guide for structural steel →"
+      },
+      {
+        "href": "/materials/stainless-steel-fasteners/",
+        "anchor": "Review SS 316 selection for tunnel and water-retaining service →"
+      },
+      {
+        "href": "/quality/",
+        "anchor": "MTC EN 10204 3.1 and NABL partner tensile testing →"
+      },
+      {
+        "href": "/products/foundation-bolts/",
+        "anchor": "View foundation bolts (IS 5624 / F1554)"
+      },
+      {
+        "href": "/products/sag-rods/",
+        "anchor": "View PEB sag rods"
+      },
+      {
+        "href": "/products/stud-bolts/",
+        "anchor": "View ASTM A193 B7 / B8M stud bolts"
+      },
+      {
+        "href": "/products/tie-rods/",
+        "anchor": "View D15 / D20 formwork tie rods"
+      },
+      {
+        "href": "/products/scaffold-accessories/",
+        "anchor": "View base jacks, swivel couplers, formwork clamps"
+      },
+      {
+        "href": "/products/hex-bolts-nuts/",
+        "anchor": "View PC 8.8 HDG structural hex bolts"
+      },
+      {
+        "href": "/materials/high-tensile-fasteners/",
+        "anchor": "View grade decision for structural steel"
+      },
+      {
+        "href": "/materials/stainless-steel-fasteners/",
+        "anchor": "View SS 316 for tunnel and water-retaining service"
+      },
+      {
+        "href": "/products/",
+        "anchor": "Browse all industrial fastener product lines"
+      },
+      {
+        "href": "/request-quote/?industry=construction",
+        "anchor": "Send a construction BOQ"
+      },
+      {
+        "href": "/request-quote/",
+        "anchor": "RFQ"
+      }
+    ],
+    "matchedBannedPhrases": [],
+    "imagesCount": 3,
+    "imagesMissingAlt": 0,
+    "hasMobileBar": true,
+    "faqCount": 0
+  },
+  {
+    "route": "/industries/automotive-heavy-engineering/",
+    "status": 200,
+    "title": "Automotive Fasteners Manufacturer &amp; Heavy Engg | KP",
+    "titleLength": 55,
+    "description": "High-tensile PC 10.9 &amp; 12.9 bolts, custom studs, socket screws, and heavy engineering fasteners from KP Fasteners, Ahmedabad. Request your drawing quote today.",
+    "descriptionLength": 163,
+    "canonical": "https://kpfasteners.com/industries/automotive-heavy-engineering/",
+    "canonicalOk": true,
+    "ogTitle": "Automotive Fasteners Manufacturer &amp; Heavy Engg | KP",
+    "ogDesc": "High-tensile PC 10.9 &amp; 12.9 bolts, custom studs, socket screws, and heavy engineering fasteners from KP Fasteners, Ahmedabad. Request your drawing quote today.",
+    "ogImage": "https://kpfasteners.com/product-images/automotive/hero.jpg",
+    "twitterCard": "summary_large_image",
+    "robotsDirective": "index, follow",
+    "h1Count": 1,
+    "h1Texts": [
+      "Automotive Fasteners Manufacturer &amp; Heavy Engineering Supply"
+    ],
+    "headingCount": 25,
+    "headingSkips": [],
+    "schemaTypes": [
+      "WebPage",
+      "FAQPage",
+      "BreadcrumbList",
+      "Organization",
+      "WebSite",
+      "LocalBusiness"
+    ],
+    "hasAggregateRating": false,
+    "hasOffer": false,
+    "hasOrg": true,
+    "hasLocalBusiness": true,
+    "hasBreadcrumbs": true,
+    "hasProduct": false,
+    "hasFAQ": true,
+    "inBodyLinks": [
+      {
+        "href": "/",
+        "anchor": "Home"
+      },
+      {
+        "href": "/request-quote/?industry=automotive-heavy-engg",
+        "anchor": "Send engineering drawing"
+      },
+      {
+        "href": "/products/custom-fasteners/",
+        "anchor": "custom specials on drawing"
+      },
+      {
+        "href": "/products/stud-bolts/",
+        "anchor": "A193 B7 / B7M / B16 OEM stud bolts"
+      },
+      {
+        "href": "/products/hex-bolts-nuts/",
+        "anchor": "PC 10.9 structural hex bolts"
+      },
+      {
+        "href": "/products/csk-allen-bolts/",
+        "anchor": "PC 12.9 socket cap in black oxide"
+      },
+      {
+        "href": "/materials/high-tensile-fasteners/",
+        "anchor": "Explore our full high-tensile grade decision guide (Class 8.8 vs 10.9 vs 12.9) →"
+      },
+      {
+        "href": "/materials/stainless-steel-fasteners/",
+        "anchor": "Review SS 316 / 316L for corrosive powertrain &amp; exhaust service →"
+      },
+      {
+        "href": "/products/custom-fasteners/",
+        "anchor": "custom specials on drawing"
+      },
+      {
+        "href": "/quality/",
+        "anchor": "MTC EN 10204 3.1, PPAP Level 2 / 3, PMI, NABL tensile →"
+      },
+      {
+        "href": "/products/custom-fasteners/",
+        "anchor": "View custom specials on drawing"
+      },
+      {
+        "href": "/materials/high-tensile-fasteners/",
+        "anchor": "View high-tensile grade decision guide"
+      },
+      {
+        "href": "/products/hex-bolts-nuts/",
+        "anchor": "View PC 10.9 structural hex bolts"
+      },
+      {
+        "href": "/products/csk-allen-bolts/",
+        "anchor": "View PC 12.9 socket cap in black oxide"
+      },
+      {
+        "href": "/products/stud-bolts/",
+        "anchor": "View A193 B7 / B7M / B16 OEM stud bolts"
+      },
+      {
+        "href": "/materials/stainless-steel-fasteners/",
+        "anchor": "View SS 316 / 316L for corrosive service"
+      },
+      {
+        "href": "/products/",
+        "anchor": "Browse all industrial fastener product lines"
+      },
+      {
+        "href": "/request-quote/?industry=automotive-heavy-engg",
+        "anchor": "Send an automotive / heavy-engg drawing"
+      },
+      {
+        "href": "/request-quote/",
+        "anchor": "RFQ"
+      }
+    ],
+    "matchedBannedPhrases": [],
+    "imagesCount": 3,
+    "imagesMissingAlt": 0,
+    "hasMobileBar": true,
+    "faqCount": 0
+  },
+  {
+    "route": "/privacy-policy/",
+    "status": 200,
+    "title": "KP Fasteners Privacy Policy &amp; Data Protection Notice | KP",
+    "titleLength": 61,
+    "description": "KP Fasteners privacy policy for RFQs, drawing uploads &amp; website use. Minimum data collected for quote processing under DPDPA 2023. Draft pending legal review.",
+    "descriptionLength": 162,
+    "canonical": "https://kpfasteners.com/privacy-policy/",
+    "canonicalOk": true,
+    "ogTitle": "KP Fasteners Privacy Policy &amp; Data Protection Notice | KP",
+    "ogDesc": "KP Fasteners privacy policy for RFQs, drawing uploads &amp; website use. Minimum data collected for quote processing under DPDPA 2023. Draft pending legal review.",
+    "ogImage": "https://kpfasteners.com/brand/logo.jpg.jpeg",
+    "twitterCard": "summary_large_image",
+    "robotsDirective": "index, follow",
+    "h1Count": 1,
+    "h1Texts": [
+      "Privacy Policy"
+    ],
+    "headingCount": 13,
+    "headingSkips": [],
+    "schemaTypes": [
+      "WebPage",
+      "BreadcrumbList",
+      "BreadcrumbList",
+      "Organization",
+      "WebSite",
+      "LocalBusiness"
+    ],
+    "hasAggregateRating": false,
+    "hasOffer": false,
+    "hasOrg": true,
+    "hasLocalBusiness": true,
+    "hasBreadcrumbs": true,
+    "hasProduct": false,
+    "hasFAQ": false,
+    "inBodyLinks": [
+      {
+        "href": "/",
+        "anchor": "Home"
+      },
+      {
+        "href": "/request-quote/",
+        "anchor": "Request a Quote"
+      },
+      {
+        "href": "/contact/",
+        "anchor": "Contact"
+      },
+      {
+        "href": "/terms/",
+        "anchor": "Terms of Supply and Website Use"
+      },
+      {
+        "href": "/contact/",
+        "anchor": "Contact Our Team"
+      },
+      {
+        "href": "/request-quote/",
+        "anchor": "Submit an RFQ"
+      },
+      {
+        "href": "/",
+        "anchor": "Return to Homepage"
+      },
+      {
+        "href": "/request-quote/",
+        "anchor": "RFQ"
+      }
+    ],
+    "matchedBannedPhrases": [],
+    "imagesCount": 2,
+    "imagesMissingAlt": 0,
+    "hasMobileBar": true,
+    "faqCount": 0
+  },
+  {
+    "route": "/terms/",
+    "status": 200,
+    "title": "KP Fasteners Terms of Use &amp; Industrial Supply Terms | KP",
+    "titleLength": 60,
+    "description": "KP Fasteners terms of use and commercial supply for RFQs, drawing evaluations, order fulfilment and website use. Draft terms subject to Indian legal review.",
+    "descriptionLength": 156,
+    "canonical": "https://kpfasteners.com/terms/",
+    "canonicalOk": true,
+    "ogTitle": "KP Fasteners Terms of Use &amp; Industrial Supply Terms | KP",
+    "ogDesc": "KP Fasteners terms of use and commercial supply for RFQs, drawing evaluations, order fulfilment and website use. Draft terms subject to Indian legal review.",
+    "ogImage": "https://kpfasteners.com/brand/logo.jpg.jpeg",
+    "twitterCard": "summary_large_image",
+    "robotsDirective": "index, follow",
+    "h1Count": 1,
+    "h1Texts": [
+      "Terms of Use &amp; Supply"
+    ],
+    "headingCount": 19,
+    "headingSkips": [],
+    "schemaTypes": [
+      "WebPage",
+      "BreadcrumbList",
+      "BreadcrumbList",
+      "Organization",
+      "WebSite",
+      "LocalBusiness"
+    ],
+    "hasAggregateRating": false,
+    "hasOffer": false,
+    "hasOrg": true,
+    "hasLocalBusiness": true,
+    "hasBreadcrumbs": true,
+    "hasProduct": false,
+    "hasFAQ": false,
+    "inBodyLinks": [
+      {
+        "href": "/",
+        "anchor": "Home"
+      },
+      {
+        "href": "/request-quote/",
+        "anchor": "Request a Quote"
+      },
+      {
+        "href": "/about/",
+        "anchor": "About"
+      },
+      {
+        "href": "/quality/",
+        "anchor": "Quality"
+      },
+      {
+        "href": "/privacy-policy/",
+        "anchor": "Privacy Policy"
+      },
+      {
+        "href": "/contact/",
+        "anchor": "Contact KP Fasteners"
+      },
+      {
+        "href": "/contact/",
+        "anchor": "Contact Our Team"
+      },
+      {
+        "href": "/request-quote/",
+        "anchor": "Submit an RFQ"
+      },
+      {
+        "href": "/",
+        "anchor": "Return to Homepage"
+      },
+      {
+        "href": "/request-quote/",
+        "anchor": "RFQ"
+      }
+    ],
+    "matchedBannedPhrases": [],
+    "imagesCount": 2,
+    "imagesMissingAlt": 0,
+    "hasMobileBar": true,
+    "faqCount": 0
+  }
+]

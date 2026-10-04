@@ -1,0 +1,2998 @@
+{
+  "/": {
+    "inboundCount": 23,
+    "uniqueInboundSourcesCount": 21,
+    "outboundCount": 14,
+    "uniqueOutboundTargetsCount": 12,
+    "inbound": [
+      {
+        "source": "/about/",
+        "anchor": "Home"
+      },
+      {
+        "source": "/tools/",
+        "anchor": "Home"
+      },
+      {
+        "source": "/contact/",
+        "anchor": "Home"
+      },
+      {
+        "source": "/request-quote/",
+        "anchor": "Home"
+      },
+      {
+        "source": "/products/",
+        "anchor": "Home"
+      },
+      {
+        "source": "/products/foundation-bolts/",
+        "anchor": "Home"
+      },
+      {
+        "source": "/products/stud-bolts/",
+        "anchor": "Home"
+      },
+      {
+        "source": "/products/sag-rods/",
+        "anchor": "Home"
+      },
+      {
+        "source": "/products/tie-rods/",
+        "anchor": "Home"
+      },
+      {
+        "source": "/products/csk-allen-bolts/",
+        "anchor": "Home"
+      },
+      {
+        "source": "/products/scaffold-accessories/",
+        "anchor": "Home"
+      },
+      {
+        "source": "/products/solar-accessories/",
+        "anchor": "Home"
+      },
+      {
+        "source": "/products/hex-bolts-nuts/",
+        "anchor": "Home"
+      },
+      {
+        "source": "/products/custom-fasteners/",
+        "anchor": "Home"
+      },
+      {
+        "source": "/materials/high-tensile-fasteners/",
+        "anchor": "Home"
+      },
+      {
+        "source": "/materials/stainless-steel-fasteners/",
+        "anchor": "Home"
+      },
+      {
+        "source": "/industries/solar-mounting-fasteners/",
+        "anchor": "Home"
+      },
+      {
+        "source": "/industries/construction-infrastructure/",
+        "anchor": "Home"
+      },
+      {
+        "source": "/industries/automotive-heavy-engineering/",
+        "anchor": "Home"
+      },
+      {
+        "source": "/privacy-policy/",
+        "anchor": "Home"
+      },
+      {
+        "source": "/privacy-policy/",
+        "anchor": "Return to Homepage"
+      },
+      {
+        "source": "/terms/",
+        "anchor": "Home"
+      },
+      {
+        "source": "/terms/",
+        "anchor": "Return to Homepage"
+      }
+    ],
+    "outbound": [
+      {
+        "target": "/request-quote/",
+        "anchor": "Request Quote"
+      },
+      {
+        "target": "/products/",
+        "anchor": "All products"
+      },
+      {
+        "target": "/products/foundation-bolts/",
+        "anchor": "View"
+      },
+      {
+        "target": "/products/stud-bolts/",
+        "anchor": "View"
+      },
+      {
+        "target": "/products/sag-rods/",
+        "anchor": "View"
+      },
+      {
+        "target": "/products/scaffold-accessories/",
+        "anchor": "View"
+      },
+      {
+        "target": "/products/hex-bolts-nuts/",
+        "anchor": "View"
+      },
+      {
+        "target": "/products/csk-allen-bolts/",
+        "anchor": "View"
+      },
+      {
+        "target": "/products/tie-rods/",
+        "anchor": "View"
+      },
+      {
+        "target": "/products/solar-accessories/",
+        "anchor": "View"
+      },
+      {
+        "target": "/products/custom-fasteners/",
+        "anchor": "View"
+      },
+      {
+        "target": "/tools/",
+        "anchor": "Fastener engineering tools"
+      },
+      {
+        "target": "/request-quote/",
+        "anchor": "Request a Quote"
+      },
+      {
+        "target": "/request-quote/",
+        "anchor": "RFQ"
+      }
+    ]
+  },
+  "/about/": {
+    "inboundCount": 5,
+    "uniqueInboundSourcesCount": 5,
+    "outboundCount": 30,
+    "uniqueOutboundTargetsCount": 17,
+    "inbound": [
+      {
+        "source": "/products/",
+        "anchor": "Ahmedabad Manufacturing Facility"
+      },
+      {
+        "source": "/products/tie-rods/",
+        "anchor": "Ahmedabad manufacturing facility"
+      },
+      {
+        "source": "/products/csk-allen-bolts/",
+        "anchor": "Ahmedabad manufacturing facility"
+      },
+      {
+        "source": "/products/custom-fasteners/",
+        "anchor": "Inspect our Ahmedabad facility &amp; equipment →"
+      },
+      {
+        "source": "/terms/",
+        "anchor": "About"
+      }
+    ],
+    "outbound": [
+      {
+        "target": "/",
+        "anchor": "Home"
+      },
+      {
+        "target": "/request-quote/",
+        "anchor": "Request a Project Quote"
+      },
+      {
+        "target": "/products/foundation-bolts/",
+        "anchor": "Foundation Bolts:"
+      },
+      {
+        "target": "/products/stud-bolts/",
+        "anchor": "Stud Bolts:"
+      },
+      {
+        "target": "/products/sag-rods/",
+        "anchor": "PEB Sag Rods:"
+      },
+      {
+        "target": "/products/custom-fasteners/",
+        "anchor": "Custom Drawing Fasteners:"
+      },
+      {
+        "target": "/products/hex-bolts-nuts/",
+        "anchor": "Hex Bolts &amp; Nuts:"
+      },
+      {
+        "target": "/products/csk-allen-bolts/",
+        "anchor": "CSK Allen &amp; Socket Screws:"
+      },
+      {
+        "target": "/products/tie-rods/",
+        "anchor": "Formwork Tie Rods:"
+      },
+      {
+        "target": "/products/solar-accessories/",
+        "anchor": "Solar Mounting Accessories:"
+      },
+      {
+        "target": "/contact/",
+        "anchor": "Visit Contact Portal"
+      },
+      {
+        "target": "/quality/",
+        "anchor": "MTC EN 10204 3.1, in-house inspection and third-party testing →"
+      },
+      {
+        "target": "/products/foundation-bolts/",
+        "anchor": "View Foundation Bolts Specifications"
+      },
+      {
+        "target": "/products/stud-bolts/",
+        "anchor": "View Stud Bolts Specifications"
+      },
+      {
+        "target": "/products/sag-rods/",
+        "anchor": "View PEB Sag Rods Specifications"
+      },
+      {
+        "target": "/products/scaffold-accessories/",
+        "anchor": "View Scaffold Accessories Specifications"
+      },
+      {
+        "target": "/products/custom-fasteners/",
+        "anchor": "View Custom Fasteners Specifications"
+      },
+      {
+        "target": "/products/hex-bolts-nuts/",
+        "anchor": "View Hex Bolts &amp; Nuts Specifications"
+      },
+      {
+        "target": "/products/csk-allen-bolts/",
+        "anchor": "View CSK Allen Bolts Specifications"
+      },
+      {
+        "target": "/products/tie-rods/",
+        "anchor": "View Formwork Tie Rods Specifications"
+      },
+      {
+        "target": "/products/solar-accessories/",
+        "anchor": "View Solar Accessories Specifications"
+      },
+      {
+        "target": "/products/",
+        "anchor": "Explore Full Product Range &amp; Master Catalog"
+      },
+      {
+        "target": "/industries/construction-infrastructure/",
+        "anchor": "Pre-Engineered Buildings (PEB)"
+      },
+      {
+        "target": "/industries/construction-infrastructure/",
+        "anchor": "Civil Infrastructure &amp; Bridges"
+      },
+      {
+        "target": "/industries/solar-mounting-fasteners/",
+        "anchor": "Solar Energy Infrastructure"
+      },
+      {
+        "target": "/industries/construction-infrastructure/",
+        "anchor": "Commercial High-Rise Formwork"
+      },
+      {
+        "target": "/products/stud-bolts/",
+        "anchor": "Process Piping &amp; Flange Assemblies"
+      },
+      {
+        "target": "/industries/automotive-heavy-engineering/",
+        "anchor": "Automotive &amp; Heavy Machinery"
+      },
+      {
+        "target": "/request-quote/",
+        "anchor": "Submit an RFQ Online"
+      },
+      {
+        "target": "/request-quote/",
+        "anchor": "RFQ"
+      }
+    ]
+  },
+  "/tools/": {
+    "inboundCount": 3,
+    "uniqueInboundSourcesCount": 2,
+    "outboundCount": 8,
+    "uniqueOutboundTargetsCount": 5,
+    "inbound": [
+      {
+        "source": "/",
+        "anchor": "Fastener engineering tools"
+      },
+      {
+        "source": "/products/",
+        "anchor": "Engineering Tools &amp; Calculators"
+      },
+      {
+        "source": "/products/",
+        "anchor": "Fastener Weight &amp; Torque Tools"
+      }
+    ],
+    "outbound": [
+      {
+        "target": "/",
+        "anchor": "Home"
+      },
+      {
+        "target": "/request-quote/",
+        "anchor": "Request Commercial RFQ for this Batch →"
+      },
+      {
+        "target": "/request-quote/",
+        "anchor": "Request Quote with MTC →"
+      },
+      {
+        "target": "/products/foundation-bolts/",
+        "anchor": "Explore Foundation Bolts →"
+      },
+      {
+        "target": "/materials/high-tensile-fasteners/",
+        "anchor": "High-Tensile Grade Guide →"
+      },
+      {
+        "target": "/industries/construction-infrastructure/",
+        "anchor": "Construction Fasteners Range →"
+      },
+      {
+        "target": "/request-quote/",
+        "anchor": "Submit Drawing for RFQ"
+      },
+      {
+        "target": "/request-quote/",
+        "anchor": "RFQ"
+      }
+    ]
+  },
+  "/contact/": {
+    "inboundCount": 5,
+    "uniqueInboundSourcesCount": 3,
+    "outboundCount": 3,
+    "uniqueOutboundTargetsCount": 2,
+    "inbound": [
+      {
+        "source": "/about/",
+        "anchor": "Visit Contact Portal"
+      },
+      {
+        "source": "/privacy-policy/",
+        "anchor": "Contact"
+      },
+      {
+        "source": "/privacy-policy/",
+        "anchor": "Contact Our Team"
+      },
+      {
+        "source": "/terms/",
+        "anchor": "Contact KP Fasteners"
+      },
+      {
+        "source": "/terms/",
+        "anchor": "Contact Our Team"
+      }
+    ],
+    "outbound": [
+      {
+        "target": "/",
+        "anchor": "Home"
+      },
+      {
+        "target": "/request-quote/",
+        "anchor": "Request a Quote"
+      },
+      {
+        "target": "/request-quote/",
+        "anchor": "RFQ"
+      }
+    ]
+  },
+  "/request-quote/": {
+    "inboundCount": 70,
+    "uniqueInboundSourcesCount": 22,
+    "outboundCount": 3,
+    "uniqueOutboundTargetsCount": 3,
+    "inbound": [
+      {
+        "source": "/",
+        "anchor": "Request Quote"
+      },
+      {
+        "source": "/",
+        "anchor": "Request a Quote"
+      },
+      {
+        "source": "/",
+        "anchor": "RFQ"
+      },
+      {
+        "source": "/about/",
+        "anchor": "Request a Project Quote"
+      },
+      {
+        "source": "/about/",
+        "anchor": "Submit an RFQ Online"
+      },
+      {
+        "source": "/about/",
+        "anchor": "RFQ"
+      },
+      {
+        "source": "/tools/",
+        "anchor": "Request Commercial RFQ for this Batch →"
+      },
+      {
+        "source": "/tools/",
+        "anchor": "Request Quote with MTC →"
+      },
+      {
+        "source": "/tools/",
+        "anchor": "Submit Drawing for RFQ"
+      },
+      {
+        "source": "/tools/",
+        "anchor": "RFQ"
+      },
+      {
+        "source": "/contact/",
+        "anchor": "Request a Quote"
+      },
+      {
+        "source": "/contact/",
+        "anchor": "RFQ"
+      },
+      {
+        "source": "/request-quote/",
+        "anchor": "RFQ"
+      },
+      {
+        "source": "/products/",
+        "anchor": "Request a Quote"
+      },
+      {
+        "source": "/products/",
+        "anchor": "Bulk RFQ Submission"
+      },
+      {
+        "source": "/products/",
+        "anchor": "Request Specification Quote"
+      },
+      {
+        "source": "/products/",
+        "anchor": "Request a Formal Quote"
+      },
+      {
+        "source": "/products/",
+        "anchor": "RFQ"
+      },
+      {
+        "source": "/products/foundation-bolts/",
+        "anchor": "Request a BOQ quote"
+      },
+      {
+        "source": "/products/foundation-bolts/",
+        "anchor": "Request a BOQ quote"
+      },
+      {
+        "source": "/products/foundation-bolts/",
+        "anchor": "Request a BOQ quote"
+      },
+      {
+        "source": "/products/foundation-bolts/",
+        "anchor": "RFQ"
+      },
+      {
+        "source": "/products/stud-bolts/",
+        "anchor": "Request a BOQ quote"
+      },
+      {
+        "source": "/products/stud-bolts/",
+        "anchor": "Request a BOQ quote"
+      },
+      {
+        "source": "/products/stud-bolts/",
+        "anchor": "Request a BOQ quote"
+      },
+      {
+        "source": "/products/stud-bolts/",
+        "anchor": "RFQ"
+      },
+      {
+        "source": "/products/sag-rods/",
+        "anchor": "Request a BOQ quote"
+      },
+      {
+        "source": "/products/sag-rods/",
+        "anchor": "Request a BOQ quote"
+      },
+      {
+        "source": "/products/sag-rods/",
+        "anchor": "Request a BOQ quote"
+      },
+      {
+        "source": "/products/sag-rods/",
+        "anchor": "RFQ"
+      },
+      {
+        "source": "/products/tie-rods/",
+        "anchor": "Request a Tie-Rod BOQ Quote"
+      },
+      {
+        "source": "/products/tie-rods/",
+        "anchor": "Submit a Tie-Rod BOQ"
+      },
+      {
+        "source": "/products/tie-rods/",
+        "anchor": "RFQ"
+      },
+      {
+        "source": "/products/csk-allen-bolts/",
+        "anchor": "Request an Allen Bolt Quote"
+      },
+      {
+        "source": "/products/csk-allen-bolts/",
+        "anchor": "Submit an RFQ Online"
+      },
+      {
+        "source": "/products/csk-allen-bolts/",
+        "anchor": "RFQ"
+      },
+      {
+        "source": "/products/scaffold-accessories/",
+        "anchor": "Request a BOQ quote"
+      },
+      {
+        "source": "/products/scaffold-accessories/",
+        "anchor": "Request a BOQ quote"
+      },
+      {
+        "source": "/products/scaffold-accessories/",
+        "anchor": "Request a BOQ quote"
+      },
+      {
+        "source": "/products/scaffold-accessories/",
+        "anchor": "RFQ"
+      },
+      {
+        "source": "/products/solar-accessories/",
+        "anchor": "Request a solar-BOQ quote"
+      },
+      {
+        "source": "/products/solar-accessories/",
+        "anchor": "Send us your solar BOQ"
+      },
+      {
+        "source": "/products/solar-accessories/",
+        "anchor": "RFQ"
+      },
+      {
+        "source": "/products/hex-bolts-nuts/",
+        "anchor": "Request a hex bolt/nut quote"
+      },
+      {
+        "source": "/products/hex-bolts-nuts/",
+        "anchor": "Send a BOQ for quotation"
+      },
+      {
+        "source": "/products/hex-bolts-nuts/",
+        "anchor": "RFQ"
+      },
+      {
+        "source": "/products/custom-fasteners/",
+        "anchor": "Upload Drawing for Quote"
+      },
+      {
+        "source": "/products/custom-fasteners/",
+        "anchor": "Upload Your Drawing Now"
+      },
+      {
+        "source": "/products/custom-fasteners/",
+        "anchor": "RFQ"
+      },
+      {
+        "source": "/materials/high-tensile-fasteners/",
+        "anchor": "Request a high-tensile quote"
+      },
+      {
+        "source": "/materials/high-tensile-fasteners/",
+        "anchor": "Send a BOQ with the chosen grade"
+      },
+      {
+        "source": "/materials/high-tensile-fasteners/",
+        "anchor": "RFQ"
+      },
+      {
+        "source": "/materials/stainless-steel-fasteners/",
+        "anchor": "Request an SS fastener quote"
+      },
+      {
+        "source": "/materials/stainless-steel-fasteners/",
+        "anchor": "Send an SS fastener BOQ"
+      },
+      {
+        "source": "/materials/stainless-steel-fasteners/",
+        "anchor": "RFQ"
+      },
+      {
+        "source": "/industries/solar-mounting-fasteners/",
+        "anchor": "Send a solar BOQ"
+      },
+      {
+        "source": "/industries/solar-mounting-fasteners/",
+        "anchor": "Send a solar BOQ"
+      },
+      {
+        "source": "/industries/solar-mounting-fasteners/",
+        "anchor": "RFQ"
+      },
+      {
+        "source": "/industries/construction-infrastructure/",
+        "anchor": "Send a construction BOQ"
+      },
+      {
+        "source": "/industries/construction-infrastructure/",
+        "anchor": "Send a construction BOQ"
+      },
+      {
+        "source": "/industries/construction-infrastructure/",
+        "anchor": "RFQ"
+      },
+      {
+        "source": "/industries/automotive-heavy-engineering/",
+        "anchor": "Send engineering drawing"
+      },
+      {
+        "source": "/industries/automotive-heavy-engineering/",
+        "anchor": "Send an automotive / heavy-engg drawing"
+      },
+      {
+        "source": "/industries/automotive-heavy-engineering/",
+        "anchor": "RFQ"
+      },
+      {
+        "source": "/privacy-policy/",
+        "anchor": "Request a Quote"
+      },
+      {
+        "source": "/privacy-policy/",
+        "anchor": "Submit an RFQ"
+      },
+      {
+        "source": "/privacy-policy/",
+        "anchor": "RFQ"
+      },
+      {
+        "source": "/terms/",
+        "anchor": "Request a Quote"
+      },
+      {
+        "source": "/terms/",
+        "anchor": "Submit an RFQ"
+      },
+      {
+        "source": "/terms/",
+        "anchor": "RFQ"
+      }
+    ],
+    "outbound": [
+      {
+        "target": "/",
+        "anchor": "Home"
+      },
+      {
+        "target": "/privacy-policy/",
+        "anchor": "privacy policy"
+      },
+      {
+        "target": "/request-quote/",
+        "anchor": "RFQ"
+      }
+    ]
+  },
+  "/products/": {
+    "inboundCount": 22,
+    "uniqueInboundSourcesCount": 16,
+    "outboundCount": 23,
+    "uniqueOutboundTargetsCount": 18,
+    "inbound": [
+      {
+        "source": "/",
+        "anchor": "All products"
+      },
+      {
+        "source": "/about/",
+        "anchor": "Explore Full Product Range &amp; Master Catalog"
+      },
+      {
+        "source": "/products/foundation-bolts/",
+        "anchor": "Products"
+      },
+      {
+        "source": "/products/foundation-bolts/",
+        "anchor": "our full products range"
+      },
+      {
+        "source": "/products/stud-bolts/",
+        "anchor": "Products"
+      },
+      {
+        "source": "/products/stud-bolts/",
+        "anchor": "our full products range"
+      },
+      {
+        "source": "/products/sag-rods/",
+        "anchor": "Products"
+      },
+      {
+        "source": "/products/sag-rods/",
+        "anchor": "our full products range"
+      },
+      {
+        "source": "/products/tie-rods/",
+        "anchor": "Products"
+      },
+      {
+        "source": "/products/csk-allen-bolts/",
+        "anchor": "Products"
+      },
+      {
+        "source": "/products/scaffold-accessories/",
+        "anchor": "Products"
+      },
+      {
+        "source": "/products/scaffold-accessories/",
+        "anchor": "our full products range"
+      },
+      {
+        "source": "/products/solar-accessories/",
+        "anchor": "Products"
+      },
+      {
+        "source": "/products/solar-accessories/",
+        "anchor": "Browse our full products range"
+      },
+      {
+        "source": "/products/hex-bolts-nuts/",
+        "anchor": "Products"
+      },
+      {
+        "source": "/products/hex-bolts-nuts/",
+        "anchor": "Browse our full product range"
+      },
+      {
+        "source": "/products/custom-fasteners/",
+        "anchor": "Products"
+      },
+      {
+        "source": "/materials/high-tensile-fasteners/",
+        "anchor": "Browse all industrial fastener product lines"
+      },
+      {
+        "source": "/materials/stainless-steel-fasteners/",
+        "anchor": "Browse all industrial fastener product categories"
+      },
+      {
+        "source": "/industries/solar-mounting-fasteners/",
+        "anchor": "Browse all industrial fastener product lines"
+      },
+      {
+        "source": "/industries/construction-infrastructure/",
+        "anchor": "Browse all industrial fastener product lines"
+      },
+      {
+        "source": "/industries/automotive-heavy-engineering/",
+        "anchor": "Browse all industrial fastener product lines"
+      }
+    ],
+    "outbound": [
+      {
+        "target": "/",
+        "anchor": "Home"
+      },
+      {
+        "target": "/request-quote/",
+        "anchor": "Request a Quote"
+      },
+      {
+        "target": "/about/",
+        "anchor": "Ahmedabad Manufacturing Facility"
+      },
+      {
+        "target": "/tools/",
+        "anchor": "Engineering Tools &amp; Calculators"
+      },
+      {
+        "target": "/request-quote/",
+        "anchor": "Bulk RFQ Submission"
+      },
+      {
+        "target": "/products/foundation-bolts/",
+        "anchor": "View Foundation Bolts"
+      },
+      {
+        "target": "/products/stud-bolts/",
+        "anchor": "View Stud Bolts"
+      },
+      {
+        "target": "/products/sag-rods/",
+        "anchor": "View Sag Rods"
+      },
+      {
+        "target": "/products/scaffold-accessories/",
+        "anchor": "View Scaffold Accessories"
+      },
+      {
+        "target": "/products/custom-fasteners/",
+        "anchor": "View Custom Fasteners"
+      },
+      {
+        "target": "/products/hex-bolts-nuts/",
+        "anchor": "View Hex Bolts &amp; Nuts"
+      },
+      {
+        "target": "/products/csk-allen-bolts/",
+        "anchor": "View CSK Allen Bolts"
+      },
+      {
+        "target": "/products/tie-rods/",
+        "anchor": "View Tie Rods"
+      },
+      {
+        "target": "/products/solar-accessories/",
+        "anchor": "View Solar Accessories"
+      },
+      {
+        "target": "/materials/high-tensile-fasteners/",
+        "anchor": "Explore High-Tensile Fasteners"
+      },
+      {
+        "target": "/materials/stainless-steel-fasteners/",
+        "anchor": "Explore Stainless Steel Fasteners"
+      },
+      {
+        "target": "/industries/construction-infrastructure/",
+        "anchor": "View Construction Fasteners"
+      },
+      {
+        "target": "/industries/solar-mounting-fasteners/",
+        "anchor": "View Solar Fasteners"
+      },
+      {
+        "target": "/industries/automotive-heavy-engineering/",
+        "anchor": "View Heavy Engineering Fasteners"
+      },
+      {
+        "target": "/tools/",
+        "anchor": "Fastener Weight &amp; Torque Tools"
+      },
+      {
+        "target": "/request-quote/",
+        "anchor": "Request Specification Quote"
+      },
+      {
+        "target": "/request-quote/",
+        "anchor": "Request a Formal Quote"
+      },
+      {
+        "target": "/request-quote/",
+        "anchor": "RFQ"
+      }
+    ]
+  },
+  "/products/foundation-bolts/": {
+    "inboundCount": 26,
+    "uniqueInboundSourcesCount": 16,
+    "outboundCount": 15,
+    "uniqueOutboundTargetsCount": 9,
+    "inbound": [
+      {
+        "source": "/",
+        "anchor": "View"
+      },
+      {
+        "source": "/about/",
+        "anchor": "Foundation Bolts:"
+      },
+      {
+        "source": "/about/",
+        "anchor": "View Foundation Bolts Specifications"
+      },
+      {
+        "source": "/tools/",
+        "anchor": "Explore Foundation Bolts →"
+      },
+      {
+        "source": "/products/",
+        "anchor": "View Foundation Bolts"
+      },
+      {
+        "source": "/products/stud-bolts/",
+        "anchor": "cast-in foundation bolts (IS 5624 / F1554)"
+      },
+      {
+        "source": "/products/stud-bolts/",
+        "anchor": "cast-in foundation bolts (IS 5624 / F1554)"
+      },
+      {
+        "source": "/products/sag-rods/",
+        "anchor": "foundation anchor bolts"
+      },
+      {
+        "source": "/products/sag-rods/",
+        "anchor": "cast-in foundation bolts (IS 5624 / F1554)"
+      },
+      {
+        "source": "/products/tie-rods/",
+        "anchor": "foundation bolts for the column bases"
+      },
+      {
+        "source": "/products/tie-rods/",
+        "anchor": "foundation bolts for the column bases →"
+      },
+      {
+        "source": "/products/tie-rods/",
+        "anchor": "View foundation bolts for the column bases"
+      },
+      {
+        "source": "/products/csk-allen-bolts/",
+        "anchor": "in-house foundation bolts for heavy base frames"
+      },
+      {
+        "source": "/products/scaffold-accessories/",
+        "anchor": "foundation-bolt range"
+      },
+      {
+        "source": "/products/scaffold-accessories/",
+        "anchor": "foundation bolts for shore-tower base plates"
+      },
+      {
+        "source": "/products/solar-accessories/",
+        "anchor": "J-bolts and L-bolts for concrete pier anchorage"
+      },
+      {
+        "source": "/products/solar-accessories/",
+        "anchor": "View J-bolts and L-bolts for concrete pier anchorage"
+      },
+      {
+        "source": "/products/hex-bolts-nuts/",
+        "anchor": "foundation bolts for PEB column base plates"
+      },
+      {
+        "source": "/products/custom-fasteners/",
+        "anchor": "foundation bolts"
+      },
+      {
+        "source": "/products/custom-fasteners/",
+        "anchor": "View OEM foundation-bolt catalogue"
+      },
+      {
+        "source": "/materials/high-tensile-fasteners/",
+        "anchor": "View foundation bolts in PC 4.6 / 8.8"
+      },
+      {
+        "source": "/materials/stainless-steel-fasteners/",
+        "anchor": "View stainless foundation bolts"
+      },
+      {
+        "source": "/industries/solar-mounting-fasteners/",
+        "anchor": "J-bolts, L-bolts and headed anchorage for concrete piers"
+      },
+      {
+        "source": "/industries/solar-mounting-fasteners/",
+        "anchor": "View J-bolts, L-bolts and headed anchorage for concrete piers"
+      },
+      {
+        "source": "/industries/construction-infrastructure/",
+        "anchor": "foundation bolts (IS 5624 / F1554)"
+      },
+      {
+        "source": "/industries/construction-infrastructure/",
+        "anchor": "View foundation bolts (IS 5624 / F1554)"
+      }
+    ],
+    "outbound": [
+      {
+        "target": "/",
+        "anchor": "Home"
+      },
+      {
+        "target": "/products/",
+        "anchor": "Products"
+      },
+      {
+        "target": "/request-quote/",
+        "anchor": "Request a BOQ quote"
+      },
+      {
+        "target": "/products/stud-bolts/",
+        "anchor": "chemical anchor stud bolts"
+      },
+      {
+        "target": "/products/stud-bolts/",
+        "anchor": "stud bolts and threaded rod"
+      },
+      {
+        "target": "/materials/high-tensile-fasteners/",
+        "anchor": "high-tensile property class 8.8 and 10.9"
+      },
+      {
+        "target": "/industries/construction-infrastructure/",
+        "anchor": "structural steel and PEB projects"
+      },
+      {
+        "target": "/quality/",
+        "anchor": "quality control &amp; MTC availability"
+      },
+      {
+        "target": "/request-quote/",
+        "anchor": "Request a BOQ quote"
+      },
+      {
+        "target": "/products/stud-bolts/",
+        "anchor": "ASTM A193 B7 stud bolts and threaded rod"
+      },
+      {
+        "target": "/products/sag-rods/",
+        "anchor": "Threaded sag rods for PEB bracing"
+      },
+      {
+        "target": "/products/scaffold-accessories/",
+        "anchor": "Scaffold anchor plates and base jacks"
+      },
+      {
+        "target": "/products/",
+        "anchor": "our full products range"
+      },
+      {
+        "target": "/request-quote/",
+        "anchor": "Request a BOQ quote"
+      },
+      {
+        "target": "/request-quote/",
+        "anchor": "RFQ"
+      }
+    ]
+  },
+  "/products/stud-bolts/": {
+    "inboundCount": 25,
+    "uniqueInboundSourcesCount": 15,
+    "outboundCount": 16,
+    "uniqueOutboundTargetsCount": 10,
+    "inbound": [
+      {
+        "source": "/",
+        "anchor": "View"
+      },
+      {
+        "source": "/about/",
+        "anchor": "Stud Bolts:"
+      },
+      {
+        "source": "/about/",
+        "anchor": "View Stud Bolts Specifications"
+      },
+      {
+        "source": "/about/",
+        "anchor": "Process Piping &amp; Flange Assemblies"
+      },
+      {
+        "source": "/products/",
+        "anchor": "View Stud Bolts"
+      },
+      {
+        "source": "/products/foundation-bolts/",
+        "anchor": "chemical anchor stud bolts"
+      },
+      {
+        "source": "/products/foundation-bolts/",
+        "anchor": "stud bolts and threaded rod"
+      },
+      {
+        "source": "/products/foundation-bolts/",
+        "anchor": "ASTM A193 B7 stud bolts and threaded rod"
+      },
+      {
+        "source": "/products/sag-rods/",
+        "anchor": "flange-clamp stud bolts"
+      },
+      {
+        "source": "/products/sag-rods/",
+        "anchor": "DIN 976 metric threaded-rod studs"
+      },
+      {
+        "source": "/products/sag-rods/",
+        "anchor": "stud bolts for flange clamping"
+      },
+      {
+        "source": "/products/tie-rods/",
+        "anchor": "Explore all-thread stud bolts →"
+      },
+      {
+        "source": "/products/csk-allen-bolts/",
+        "anchor": "continuous threaded stud bolts"
+      },
+      {
+        "source": "/products/scaffold-accessories/",
+        "anchor": "stud bolts for flange and structural clamping"
+      },
+      {
+        "source": "/products/hex-bolts-nuts/",
+        "anchor": "stud bolts for flange joints"
+      },
+      {
+        "source": "/products/custom-fasteners/",
+        "anchor": "ASTM A193 B7 stud bolts"
+      },
+      {
+        "source": "/products/custom-fasteners/",
+        "anchor": "View OEM stud-bolt catalogue"
+      },
+      {
+        "source": "/materials/high-tensile-fasteners/",
+        "anchor": "View stud bolts to ASTM A193 B7 and ISO 898-1 PC 8.8 / 10.9"
+      },
+      {
+        "source": "/materials/stainless-steel-fasteners/",
+        "anchor": "View SS 316 pressure studs (A193 B8M)"
+      },
+      {
+        "source": "/industries/solar-mounting-fasteners/",
+        "anchor": "chemical anchor stud retrofit"
+      },
+      {
+        "source": "/industries/solar-mounting-fasteners/",
+        "anchor": "View chemical anchor stud retrofit"
+      },
+      {
+        "source": "/industries/construction-infrastructure/",
+        "anchor": "ASTM A193 B7 / B8M stud bolts"
+      },
+      {
+        "source": "/industries/construction-infrastructure/",
+        "anchor": "View ASTM A193 B7 / B8M stud bolts"
+      },
+      {
+        "source": "/industries/automotive-heavy-engineering/",
+        "anchor": "A193 B7 / B7M / B16 OEM stud bolts"
+      },
+      {
+        "source": "/industries/automotive-heavy-engineering/",
+        "anchor": "View A193 B7 / B7M / B16 OEM stud bolts"
+      }
+    ],
+    "outbound": [
+      {
+        "target": "/",
+        "anchor": "Home"
+      },
+      {
+        "target": "/products/",
+        "anchor": "Products"
+      },
+      {
+        "target": "/request-quote/",
+        "anchor": "Request a BOQ quote"
+      },
+      {
+        "target": "/products/foundation-bolts/",
+        "anchor": "cast-in foundation bolts (IS 5624 / F1554)"
+      },
+      {
+        "target": "/products/hex-bolts-nuts/",
+        "anchor": "matching heavy-hex nuts (A194 2H / 2HM / 8 / 8M) and hardened washers"
+      },
+      {
+        "target": "/products/tie-rods/",
+        "anchor": "tie-rod studs for formwork"
+      },
+      {
+        "target": "/materials/high-tensile-fasteners/",
+        "anchor": "alloy-steel property class comparison for high-tensile stud bolting"
+      },
+      {
+        "target": "/industries/construction-infrastructure/",
+        "anchor": "structural steel and heavy civil projects"
+      },
+      {
+        "target": "/quality/",
+        "anchor": "MTC EN 10204 3.1 documentation and batch traceability"
+      },
+      {
+        "target": "/request-quote/",
+        "anchor": "Request a BOQ quote"
+      },
+      {
+        "target": "/products/foundation-bolts/",
+        "anchor": "cast-in foundation bolts (IS 5624 / F1554)"
+      },
+      {
+        "target": "/products/sag-rods/",
+        "anchor": "threaded sag rods for PEB bracing"
+      },
+      {
+        "target": "/products/tie-rods/",
+        "anchor": "tie-rod studs for formwork"
+      },
+      {
+        "target": "/products/",
+        "anchor": "our full products range"
+      },
+      {
+        "target": "/request-quote/",
+        "anchor": "Request a BOQ quote"
+      },
+      {
+        "target": "/request-quote/",
+        "anchor": "RFQ"
+      }
+    ]
+  },
+  "/products/sag-rods/": {
+    "inboundCount": 14,
+    "uniqueInboundSourcesCount": 10,
+    "outboundCount": 20,
+    "uniqueOutboundTargetsCount": 11,
+    "inbound": [
+      {
+        "source": "/",
+        "anchor": "View"
+      },
+      {
+        "source": "/about/",
+        "anchor": "PEB Sag Rods:"
+      },
+      {
+        "source": "/about/",
+        "anchor": "View PEB Sag Rods Specifications"
+      },
+      {
+        "source": "/products/",
+        "anchor": "View Sag Rods"
+      },
+      {
+        "source": "/products/foundation-bolts/",
+        "anchor": "Threaded sag rods for PEB bracing"
+      },
+      {
+        "source": "/products/stud-bolts/",
+        "anchor": "threaded sag rods for PEB bracing"
+      },
+      {
+        "source": "/products/tie-rods/",
+        "anchor": "Explore PEB sag rods and bracing →"
+      },
+      {
+        "source": "/products/tie-rods/",
+        "anchor": "PEB sag rods"
+      },
+      {
+        "source": "/products/tie-rods/",
+        "anchor": "View PEB sag rods and bracing"
+      },
+      {
+        "source": "/products/custom-fasteners/",
+        "anchor": "View OEM-manufactured sag rods"
+      },
+      {
+        "source": "/materials/high-tensile-fasteners/",
+        "anchor": "View sag rods in PC 4.6 / 8.8"
+      },
+      {
+        "source": "/materials/stainless-steel-fasteners/",
+        "anchor": "View stainless sag rods"
+      },
+      {
+        "source": "/industries/construction-infrastructure/",
+        "anchor": "PEB sag rods"
+      },
+      {
+        "source": "/industries/construction-infrastructure/",
+        "anchor": "View PEB sag rods"
+      }
+    ],
+    "outbound": [
+      {
+        "target": "/",
+        "anchor": "Home"
+      },
+      {
+        "target": "/products/",
+        "anchor": "Products"
+      },
+      {
+        "target": "/request-quote/",
+        "anchor": "Request a BOQ quote"
+      },
+      {
+        "target": "/products/stud-bolts/",
+        "anchor": "flange-clamp stud bolts"
+      },
+      {
+        "target": "/products/foundation-bolts/",
+        "anchor": "foundation anchor bolts"
+      },
+      {
+        "target": "/products/tie-rods/",
+        "anchor": "tie-rod stock for formwork and splice service"
+      },
+      {
+        "target": "/products/stud-bolts/",
+        "anchor": "DIN 976 metric threaded-rod studs"
+      },
+      {
+        "target": "/materials/high-tensile-fasteners/",
+        "anchor": "high-tensile property-class reference for bracing threaded rod"
+      },
+      {
+        "target": "/industries/solar-mounting-fasteners/",
+        "anchor": "solar module mounting and racking fasteners"
+      },
+      {
+        "target": "/industries/construction-infrastructure/",
+        "anchor": "structural steel and heavy civil projects"
+      },
+      {
+        "target": "/quality/",
+        "anchor": "MTC EN 10204 3.1 documentation and batch traceability"
+      },
+      {
+        "target": "/request-quote/",
+        "anchor": "Request a BOQ quote"
+      },
+      {
+        "target": "/products/foundation-bolts/",
+        "anchor": "cast-in foundation bolts (IS 5624 / F1554)"
+      },
+      {
+        "target": "/products/stud-bolts/",
+        "anchor": "stud bolts for flange clamping"
+      },
+      {
+        "target": "/products/scaffold-accessories/",
+        "anchor": "scaffold accessories and site-work hardware"
+      },
+      {
+        "target": "/products/",
+        "anchor": "our full products range"
+      },
+      {
+        "target": "/industries/solar-mounting-fasteners/",
+        "anchor": "solar mounting fasteners"
+      },
+      {
+        "target": "/industries/construction-infrastructure/",
+        "anchor": "construction &amp; infrastructure"
+      },
+      {
+        "target": "/request-quote/",
+        "anchor": "Request a BOQ quote"
+      },
+      {
+        "target": "/request-quote/",
+        "anchor": "RFQ"
+      }
+    ]
+  },
+  "/products/tie-rods/": {
+    "inboundCount": 12,
+    "uniqueInboundSourcesCount": 7,
+    "outboundCount": 20,
+    "uniqueOutboundTargetsCount": 11,
+    "inbound": [
+      {
+        "source": "/",
+        "anchor": "View"
+      },
+      {
+        "source": "/about/",
+        "anchor": "Formwork Tie Rods:"
+      },
+      {
+        "source": "/about/",
+        "anchor": "View Formwork Tie Rods Specifications"
+      },
+      {
+        "source": "/products/",
+        "anchor": "View Tie Rods"
+      },
+      {
+        "source": "/products/stud-bolts/",
+        "anchor": "tie-rod studs for formwork"
+      },
+      {
+        "source": "/products/stud-bolts/",
+        "anchor": "tie-rod studs for formwork"
+      },
+      {
+        "source": "/products/sag-rods/",
+        "anchor": "tie-rod stock for formwork and splice service"
+      },
+      {
+        "source": "/products/scaffold-accessories/",
+        "anchor": "D15 or D20 formwork tie rod"
+      },
+      {
+        "source": "/products/scaffold-accessories/",
+        "anchor": "tie-rod stock and turnbuckle assemblies"
+      },
+      {
+        "source": "/products/scaffold-accessories/",
+        "anchor": "formwork tie rods (D15 / D20)"
+      },
+      {
+        "source": "/industries/construction-infrastructure/",
+        "anchor": "D15 / D20 formwork tie rods"
+      },
+      {
+        "source": "/industries/construction-infrastructure/",
+        "anchor": "View D15 / D20 formwork tie rods"
+      }
+    ],
+    "outbound": [
+      {
+        "target": "/",
+        "anchor": "Home"
+      },
+      {
+        "target": "/products/",
+        "anchor": "Products"
+      },
+      {
+        "target": "/request-quote/",
+        "anchor": "Request a Tie-Rod BOQ Quote"
+      },
+      {
+        "target": "/about/",
+        "anchor": "Ahmedabad manufacturing facility"
+      },
+      {
+        "target": "/products/foundation-bolts/",
+        "anchor": "foundation bolts for the column bases"
+      },
+      {
+        "target": "/products/scaffold-accessories/",
+        "anchor": "scaffold base jacks and formwork clamps"
+      },
+      {
+        "target": "/products/sag-rods/",
+        "anchor": "Explore PEB sag rods and bracing →"
+      },
+      {
+        "target": "/products/stud-bolts/",
+        "anchor": "Explore all-thread stud bolts →"
+      },
+      {
+        "target": "/products/sag-rods/",
+        "anchor": "PEB sag rods"
+      },
+      {
+        "target": "/industries/construction-infrastructure/",
+        "anchor": "RCC and PEB construction fasteners →"
+      },
+      {
+        "target": "/products/scaffold-accessories/",
+        "anchor": "scaffold base jacks and formwork clamps →"
+      },
+      {
+        "target": "/products/foundation-bolts/",
+        "anchor": "foundation bolts for the column bases →"
+      },
+      {
+        "target": "/quality/",
+        "anchor": "MTC EN 10204 3.1 pass-through"
+      },
+      {
+        "target": "/products/sag-rods/",
+        "anchor": "View PEB sag rods and bracing"
+      },
+      {
+        "target": "/products/foundation-bolts/",
+        "anchor": "View foundation bolts for the column bases"
+      },
+      {
+        "target": "/products/scaffold-accessories/",
+        "anchor": "View scaffold base jacks and formwork clamps"
+      },
+      {
+        "target": "/industries/construction-infrastructure/",
+        "anchor": "View RCC and PEB construction fasteners"
+      },
+      {
+        "target": "/products/custom-fasteners/",
+        "anchor": "View custom drawing-based tie rods"
+      },
+      {
+        "target": "/request-quote/",
+        "anchor": "Submit a Tie-Rod BOQ"
+      },
+      {
+        "target": "/request-quote/",
+        "anchor": "RFQ"
+      }
+    ]
+  },
+  "/products/csk-allen-bolts/": {
+    "inboundCount": 9,
+    "uniqueInboundSourcesCount": 7,
+    "outboundCount": 20,
+    "uniqueOutboundTargetsCount": 14,
+    "inbound": [
+      {
+        "source": "/",
+        "anchor": "View"
+      },
+      {
+        "source": "/about/",
+        "anchor": "CSK Allen &amp; Socket Screws:"
+      },
+      {
+        "source": "/about/",
+        "anchor": "View CSK Allen Bolts Specifications"
+      },
+      {
+        "source": "/products/",
+        "anchor": "View CSK Allen Bolts"
+      },
+      {
+        "source": "/products/hex-bolts-nuts/",
+        "anchor": "View socket head cap screws and countersunk bolts"
+      },
+      {
+        "source": "/materials/high-tensile-fasteners/",
+        "anchor": "View PC 12.9 socket head cap screws (black oxide)"
+      },
+      {
+        "source": "/materials/stainless-steel-fasteners/",
+        "anchor": "View SS A4-70 socket cap screws"
+      },
+      {
+        "source": "/industries/automotive-heavy-engineering/",
+        "anchor": "PC 12.9 socket cap in black oxide"
+      },
+      {
+        "source": "/industries/automotive-heavy-engineering/",
+        "anchor": "View PC 12.9 socket cap in black oxide"
+      }
+    ],
+    "outbound": [
+      {
+        "target": "/",
+        "anchor": "Home"
+      },
+      {
+        "target": "/products/",
+        "anchor": "Products"
+      },
+      {
+        "target": "/request-quote/",
+        "anchor": "Request an Allen Bolt Quote"
+      },
+      {
+        "target": "/about/",
+        "anchor": "Ahmedabad manufacturing facility"
+      },
+      {
+        "target": "/products/foundation-bolts/",
+        "anchor": "in-house foundation bolts for heavy base frames"
+      },
+      {
+        "target": "/products/stud-bolts/",
+        "anchor": "continuous threaded stud bolts"
+      },
+      {
+        "target": "/products/hex-bolts-nuts/",
+        "anchor": "matching hex nuts and washers"
+      },
+      {
+        "target": "/materials/high-tensile-fasteners/",
+        "anchor": "Explore PC 10.9 / 12.9 high-tensile guide →"
+      },
+      {
+        "target": "/materials/stainless-steel-fasteners/",
+        "anchor": "Explore SS A2 vs SS A4 corrosion guide →"
+      },
+      {
+        "target": "/industries/automotive-heavy-engineering/",
+        "anchor": "automotive and heavy machine assemblies →"
+      },
+      {
+        "target": "/products/solar-accessories/",
+        "anchor": "solar MMS clamp bolts →"
+      },
+      {
+        "target": "/products/scaffold-accessories/",
+        "anchor": "scaffold accessory sub-assembly →"
+      },
+      {
+        "target": "/quality/",
+        "anchor": "MTC EN 10204 3.1 pass-through"
+      },
+      {
+        "target": "/products/hex-bolts-nuts/",
+        "anchor": "View matching hex nuts and washers"
+      },
+      {
+        "target": "/materials/high-tensile-fasteners/",
+        "anchor": "View PC 10.9 / 12.9 decision guide"
+      },
+      {
+        "target": "/materials/stainless-steel-fasteners/",
+        "anchor": "View SS A2 vs SS A4 for service"
+      },
+      {
+        "target": "/industries/automotive-heavy-engineering/",
+        "anchor": "View automotive and heavy machine assemblies"
+      },
+      {
+        "target": "/products/custom-fasteners/",
+        "anchor": "View custom drawing-based socket screws"
+      },
+      {
+        "target": "/request-quote/",
+        "anchor": "Submit an RFQ Online"
+      },
+      {
+        "target": "/request-quote/",
+        "anchor": "RFQ"
+      }
+    ]
+  },
+  "/products/scaffold-accessories/": {
+    "inboundCount": 11,
+    "uniqueInboundSourcesCount": 8,
+    "outboundCount": 17,
+    "uniqueOutboundTargetsCount": 9,
+    "inbound": [
+      {
+        "source": "/",
+        "anchor": "View"
+      },
+      {
+        "source": "/about/",
+        "anchor": "View Scaffold Accessories Specifications"
+      },
+      {
+        "source": "/products/",
+        "anchor": "View Scaffold Accessories"
+      },
+      {
+        "source": "/products/foundation-bolts/",
+        "anchor": "Scaffold anchor plates and base jacks"
+      },
+      {
+        "source": "/products/sag-rods/",
+        "anchor": "scaffold accessories and site-work hardware"
+      },
+      {
+        "source": "/products/tie-rods/",
+        "anchor": "scaffold base jacks and formwork clamps"
+      },
+      {
+        "source": "/products/tie-rods/",
+        "anchor": "scaffold base jacks and formwork clamps →"
+      },
+      {
+        "source": "/products/tie-rods/",
+        "anchor": "View scaffold base jacks and formwork clamps"
+      },
+      {
+        "source": "/products/csk-allen-bolts/",
+        "anchor": "scaffold accessory sub-assembly →"
+      },
+      {
+        "source": "/industries/construction-infrastructure/",
+        "anchor": "base jacks, swivel couplers, formwork clamps"
+      },
+      {
+        "source": "/industries/construction-infrastructure/",
+        "anchor": "View base jacks, swivel couplers, formwork clamps"
+      }
+    ],
+    "outbound": [
+      {
+        "target": "/",
+        "anchor": "Home"
+      },
+      {
+        "target": "/products/",
+        "anchor": "Products"
+      },
+      {
+        "target": "/request-quote/",
+        "anchor": "Request a BOQ quote"
+      },
+      {
+        "target": "/products/tie-rods/",
+        "anchor": "D15 or D20 formwork tie rod"
+      },
+      {
+        "target": "/products/foundation-bolts/",
+        "anchor": "foundation-bolt range"
+      },
+      {
+        "target": "/products/tie-rods/",
+        "anchor": "tie-rod stock and turnbuckle assemblies"
+      },
+      {
+        "target": "/products/hex-bolts-nuts/",
+        "anchor": "hex nuts and matched washer stock"
+      },
+      {
+        "target": "/industries/construction-infrastructure/",
+        "anchor": "structural, RCC formwork and precast construction projects"
+      },
+      {
+        "target": "/quality/",
+        "anchor": "MTC EN 10204 3.1 documentation and batch traceability"
+      },
+      {
+        "target": "/request-quote/",
+        "anchor": "Request a BOQ quote"
+      },
+      {
+        "target": "/products/foundation-bolts/",
+        "anchor": "foundation bolts for shore-tower base plates"
+      },
+      {
+        "target": "/products/tie-rods/",
+        "anchor": "formwork tie rods (D15 / D20)"
+      },
+      {
+        "target": "/products/stud-bolts/",
+        "anchor": "stud bolts for flange and structural clamping"
+      },
+      {
+        "target": "/products/",
+        "anchor": "our full products range"
+      },
+      {
+        "target": "/industries/construction-infrastructure/",
+        "anchor": "construction &amp; infrastructure"
+      },
+      {
+        "target": "/request-quote/",
+        "anchor": "Request a BOQ quote"
+      },
+      {
+        "target": "/request-quote/",
+        "anchor": "RFQ"
+      }
+    ]
+  },
+  "/products/solar-accessories/": {
+    "inboundCount": 8,
+    "uniqueInboundSourcesCount": 6,
+    "outboundCount": 15,
+    "uniqueOutboundTargetsCount": 9,
+    "inbound": [
+      {
+        "source": "/",
+        "anchor": "View"
+      },
+      {
+        "source": "/about/",
+        "anchor": "Solar Mounting Accessories:"
+      },
+      {
+        "source": "/about/",
+        "anchor": "View Solar Accessories Specifications"
+      },
+      {
+        "source": "/products/",
+        "anchor": "View Solar Accessories"
+      },
+      {
+        "source": "/products/csk-allen-bolts/",
+        "anchor": "solar MMS clamp bolts →"
+      },
+      {
+        "source": "/materials/stainless-steel-fasteners/",
+        "anchor": "View SS 304 / 316 solar MMS fasteners"
+      },
+      {
+        "source": "/industries/solar-mounting-fasteners/",
+        "anchor": "SKU catalogue for solar MMS fasteners"
+      },
+      {
+        "source": "/industries/solar-mounting-fasteners/",
+        "anchor": "View SKU catalogue for solar MMS fasteners"
+      }
+    ],
+    "outbound": [
+      {
+        "target": "/",
+        "anchor": "Home"
+      },
+      {
+        "target": "/products/",
+        "anchor": "Products"
+      },
+      {
+        "target": "/request-quote/",
+        "anchor": "Request a solar-BOQ quote"
+      },
+      {
+        "target": "/products/foundation-bolts/",
+        "anchor": "J-bolts and L-bolts for concrete pier anchorage"
+      },
+      {
+        "target": "/industries/solar-mounting-fasteners/",
+        "anchor": "our solar industry page: fastener stacks by mount type, dispatch pin codes and EPC references"
+      },
+      {
+        "target": "/materials/stainless-steel-fasteners/",
+        "anchor": "SS 304 vs SS 316 for solar service"
+      },
+      {
+        "target": "/quality/",
+        "anchor": "MTC EN 10204 3.1 documentation and batch traceability →"
+      },
+      {
+        "target": "/industries/solar-mounting-fasteners/",
+        "anchor": "View our solar industry page: fastener stacks by mount type, dispatch pin codes and EPC references"
+      },
+      {
+        "target": "/materials/stainless-steel-fasteners/",
+        "anchor": "View SS 304 vs SS 316 for solar service"
+      },
+      {
+        "target": "/products/hex-bolts-nuts/",
+        "anchor": "View SS 304 hex bolts and nuts"
+      },
+      {
+        "target": "/products/foundation-bolts/",
+        "anchor": "View J-bolts and L-bolts for concrete pier anchorage"
+      },
+      {
+        "target": "/products/custom-fasteners/",
+        "anchor": "View custom specials on drawing"
+      },
+      {
+        "target": "/products/",
+        "anchor": "Browse our full products range"
+      },
+      {
+        "target": "/request-quote/",
+        "anchor": "Send us your solar BOQ"
+      },
+      {
+        "target": "/request-quote/",
+        "anchor": "RFQ"
+      }
+    ]
+  },
+  "/products/hex-bolts-nuts/": {
+    "inboundCount": 17,
+    "uniqueInboundSourcesCount": 13,
+    "outboundCount": 16,
+    "uniqueOutboundTargetsCount": 12,
+    "inbound": [
+      {
+        "source": "/",
+        "anchor": "View"
+      },
+      {
+        "source": "/about/",
+        "anchor": "Hex Bolts &amp; Nuts:"
+      },
+      {
+        "source": "/about/",
+        "anchor": "View Hex Bolts &amp; Nuts Specifications"
+      },
+      {
+        "source": "/products/",
+        "anchor": "View Hex Bolts &amp; Nuts"
+      },
+      {
+        "source": "/products/stud-bolts/",
+        "anchor": "matching heavy-hex nuts (A194 2H / 2HM / 8 / 8M) and hardened washers"
+      },
+      {
+        "source": "/products/csk-allen-bolts/",
+        "anchor": "matching hex nuts and washers"
+      },
+      {
+        "source": "/products/csk-allen-bolts/",
+        "anchor": "View matching hex nuts and washers"
+      },
+      {
+        "source": "/products/scaffold-accessories/",
+        "anchor": "hex nuts and matched washer stock"
+      },
+      {
+        "source": "/products/solar-accessories/",
+        "anchor": "View SS 304 hex bolts and nuts"
+      },
+      {
+        "source": "/products/custom-fasteners/",
+        "anchor": "hex bolts and nuts"
+      },
+      {
+        "source": "/materials/high-tensile-fasteners/",
+        "anchor": "View hex bolts and nuts, PC 4.6 to 10.9"
+      },
+      {
+        "source": "/materials/stainless-steel-fasteners/",
+        "anchor": "View SS 304 / 316 hex bolt family"
+      },
+      {
+        "source": "/industries/solar-mounting-fasteners/",
+        "anchor": "View SS 304 hex bolts for structure sub-assembly"
+      },
+      {
+        "source": "/industries/construction-infrastructure/",
+        "anchor": "PC 8.8 HDG structural hex bolts"
+      },
+      {
+        "source": "/industries/construction-infrastructure/",
+        "anchor": "View PC 8.8 HDG structural hex bolts"
+      },
+      {
+        "source": "/industries/automotive-heavy-engineering/",
+        "anchor": "PC 10.9 structural hex bolts"
+      },
+      {
+        "source": "/industries/automotive-heavy-engineering/",
+        "anchor": "View PC 10.9 structural hex bolts"
+      }
+    ],
+    "outbound": [
+      {
+        "target": "/",
+        "anchor": "Home"
+      },
+      {
+        "target": "/products/",
+        "anchor": "Products"
+      },
+      {
+        "target": "/request-quote/",
+        "anchor": "Request a hex bolt/nut quote"
+      },
+      {
+        "target": "/products/foundation-bolts/",
+        "anchor": "foundation bolts for PEB column base plates"
+      },
+      {
+        "target": "/products/stud-bolts/",
+        "anchor": "stud bolts for flange joints"
+      },
+      {
+        "target": "/materials/high-tensile-fasteners/",
+        "anchor": "property class 8.8 / 10.9 decision guide"
+      },
+      {
+        "target": "/quality/",
+        "anchor": "MTC EN 10204 3.1 pass-through and quality protocols →"
+      },
+      {
+        "target": "/materials/high-tensile-fasteners/",
+        "anchor": "View property class 8.8 / 10.9 decision guide"
+      },
+      {
+        "target": "/materials/stainless-steel-fasteners/",
+        "anchor": "View SS 304 vs SS 316 for service environment"
+      },
+      {
+        "target": "/products/csk-allen-bolts/",
+        "anchor": "View socket head cap screws and countersunk bolts"
+      },
+      {
+        "target": "/industries/construction-infrastructure/",
+        "anchor": "View PEB structural fastener schedules"
+      },
+      {
+        "target": "/industries/automotive-heavy-engineering/",
+        "anchor": "View heavy machinery and automotive tier hardware"
+      },
+      {
+        "target": "/products/custom-fasteners/",
+        "anchor": "View custom specials on drawing"
+      },
+      {
+        "target": "/products/",
+        "anchor": "Browse our full product range"
+      },
+      {
+        "target": "/request-quote/",
+        "anchor": "Send a BOQ for quotation"
+      },
+      {
+        "target": "/request-quote/",
+        "anchor": "RFQ"
+      }
+    ]
+  },
+  "/products/custom-fasteners/": {
+    "inboundCount": 15,
+    "uniqueInboundSourcesCount": 11,
+    "outboundCount": 21,
+    "uniqueOutboundTargetsCount": 15,
+    "inbound": [
+      {
+        "source": "/",
+        "anchor": "View"
+      },
+      {
+        "source": "/about/",
+        "anchor": "Custom Drawing Fasteners:"
+      },
+      {
+        "source": "/about/",
+        "anchor": "View Custom Fasteners Specifications"
+      },
+      {
+        "source": "/products/",
+        "anchor": "View Custom Fasteners"
+      },
+      {
+        "source": "/products/tie-rods/",
+        "anchor": "View custom drawing-based tie rods"
+      },
+      {
+        "source": "/products/csk-allen-bolts/",
+        "anchor": "View custom drawing-based socket screws"
+      },
+      {
+        "source": "/products/solar-accessories/",
+        "anchor": "View custom specials on drawing"
+      },
+      {
+        "source": "/products/hex-bolts-nuts/",
+        "anchor": "View custom specials on drawing"
+      },
+      {
+        "source": "/materials/high-tensile-fasteners/",
+        "anchor": "View custom high-tensile fasteners to drawing"
+      },
+      {
+        "source": "/materials/stainless-steel-fasteners/",
+        "anchor": "duplex 2205 and specialty stainless on drawing"
+      },
+      {
+        "source": "/materials/stainless-steel-fasteners/",
+        "anchor": "View duplex 2205 and specialty stainless on drawing"
+      },
+      {
+        "source": "/industries/solar-mounting-fasteners/",
+        "anchor": "/products/custom-fasteners/"
+      },
+      {
+        "source": "/industries/automotive-heavy-engineering/",
+        "anchor": "custom specials on drawing"
+      },
+      {
+        "source": "/industries/automotive-heavy-engineering/",
+        "anchor": "custom specials on drawing"
+      },
+      {
+        "source": "/industries/automotive-heavy-engineering/",
+        "anchor": "View custom specials on drawing"
+      }
+    ],
+    "outbound": [
+      {
+        "target": "/",
+        "anchor": "Home"
+      },
+      {
+        "target": "/products/",
+        "anchor": "Products"
+      },
+      {
+        "target": "/request-quote/",
+        "anchor": "Upload Drawing for Quote"
+      },
+      {
+        "target": "/about/",
+        "anchor": "Inspect our Ahmedabad facility &amp; equipment →"
+      },
+      {
+        "target": "/quality/",
+        "anchor": "Review our partner audit &amp; MTC verification protocol →"
+      },
+      {
+        "target": "/products/hex-bolts-nuts/",
+        "anchor": "hex bolts and nuts"
+      },
+      {
+        "target": "/products/stud-bolts/",
+        "anchor": "ASTM A193 B7 stud bolts"
+      },
+      {
+        "target": "/products/foundation-bolts/",
+        "anchor": "foundation bolts"
+      },
+      {
+        "target": "/industries/solar-mounting-fasteners/",
+        "anchor": "View custom solar mounting fasteners →"
+      },
+      {
+        "target": "/industries/construction-infrastructure/",
+        "anchor": "View construction and infrastructure fasteners →"
+      },
+      {
+        "target": "/industries/automotive-heavy-engineering/",
+        "anchor": "View automotive and heavy machinery fasteners →"
+      },
+      {
+        "target": "/industries/automotive-heavy-engineering/",
+        "anchor": "View machinery and equipment fasteners →"
+      },
+      {
+        "target": "/quality/",
+        "anchor": "MTC EN 10204 3.1 and NABL partner testing"
+      },
+      {
+        "target": "/terms/",
+        "anchor": "terms of supply (IP and confidentiality)"
+      },
+      {
+        "target": "/products/foundation-bolts/",
+        "anchor": "View OEM foundation-bolt catalogue"
+      },
+      {
+        "target": "/products/stud-bolts/",
+        "anchor": "View OEM stud-bolt catalogue"
+      },
+      {
+        "target": "/products/sag-rods/",
+        "anchor": "View OEM-manufactured sag rods"
+      },
+      {
+        "target": "/materials/high-tensile-fasteners/",
+        "anchor": "View high-tensile grade decision guide"
+      },
+      {
+        "target": "/materials/stainless-steel-fasteners/",
+        "anchor": "View SS 304 / 316 / 316L for your service"
+      },
+      {
+        "target": "/request-quote/",
+        "anchor": "Upload Your Drawing Now"
+      },
+      {
+        "target": "/request-quote/",
+        "anchor": "RFQ"
+      }
+    ]
+  },
+  "/materials/high-tensile-fasteners/": {
+    "inboundCount": 19,
+    "uniqueInboundSourcesCount": 12,
+    "outboundCount": 17,
+    "uniqueOutboundTargetsCount": 14,
+    "inbound": [
+      {
+        "source": "/tools/",
+        "anchor": "High-Tensile Grade Guide →"
+      },
+      {
+        "source": "/products/",
+        "anchor": "Explore High-Tensile Fasteners"
+      },
+      {
+        "source": "/products/foundation-bolts/",
+        "anchor": "high-tensile property class 8.8 and 10.9"
+      },
+      {
+        "source": "/products/stud-bolts/",
+        "anchor": "alloy-steel property class comparison for high-tensile stud bolting"
+      },
+      {
+        "source": "/products/sag-rods/",
+        "anchor": "high-tensile property-class reference for bracing threaded rod"
+      },
+      {
+        "source": "/products/csk-allen-bolts/",
+        "anchor": "Explore PC 10.9 / 12.9 high-tensile guide →"
+      },
+      {
+        "source": "/products/csk-allen-bolts/",
+        "anchor": "View PC 10.9 / 12.9 decision guide"
+      },
+      {
+        "source": "/products/hex-bolts-nuts/",
+        "anchor": "property class 8.8 / 10.9 decision guide"
+      },
+      {
+        "source": "/products/hex-bolts-nuts/",
+        "anchor": "View property class 8.8 / 10.9 decision guide"
+      },
+      {
+        "source": "/products/custom-fasteners/",
+        "anchor": "View high-tensile grade decision guide"
+      },
+      {
+        "source": "/materials/stainless-steel-fasteners/",
+        "anchor": "Materials"
+      },
+      {
+        "source": "/materials/stainless-steel-fasteners/",
+        "anchor": "carbon-steel high-tensile grade decision"
+      },
+      {
+        "source": "/materials/stainless-steel-fasteners/",
+        "anchor": "carbon-steel high-tensile grade decision"
+      },
+      {
+        "source": "/industries/solar-mounting-fasteners/",
+        "anchor": "Compare HDG 8.8 vs 10.9 for substructure connections →"
+      },
+      {
+        "source": "/industries/solar-mounting-fasteners/",
+        "anchor": "View HDG 8.8 vs 10.9 for substructure"
+      },
+      {
+        "source": "/industries/construction-infrastructure/",
+        "anchor": "Explore our high-tensile grade decision guide for structural steel →"
+      },
+      {
+        "source": "/industries/construction-infrastructure/",
+        "anchor": "View grade decision for structural steel"
+      },
+      {
+        "source": "/industries/automotive-heavy-engineering/",
+        "anchor": "Explore our full high-tensile grade decision guide (Class 8.8 vs 10.9 vs 12.9) →"
+      },
+      {
+        "source": "/industries/automotive-heavy-engineering/",
+        "anchor": "View high-tensile grade decision guide"
+      }
+    ],
+    "outbound": [
+      {
+        "target": "/",
+        "anchor": "Home"
+      },
+      {
+        "target": "/request-quote/",
+        "anchor": "Request a high-tensile quote"
+      },
+      {
+        "target": "/materials/stainless-steel-fasteners/",
+        "anchor": "stainless-steel equivalent (A2-70 / A4-70)"
+      },
+      {
+        "target": "/materials/stainless-steel-fasteners/",
+        "anchor": "stainless-steel equivalent (A2-70 / A4-70)"
+      },
+      {
+        "target": "/products/foundation-bolts/",
+        "anchor": "View foundation bolts in PC 4.6 / 8.8"
+      },
+      {
+        "target": "/products/stud-bolts/",
+        "anchor": "View stud bolts to ASTM A193 B7 and ISO 898-1 PC 8.8 / 10.9"
+      },
+      {
+        "target": "/products/sag-rods/",
+        "anchor": "View sag rods in PC 4.6 / 8.8"
+      },
+      {
+        "target": "/products/hex-bolts-nuts/",
+        "anchor": "View hex bolts and nuts, PC 4.6 to 10.9"
+      },
+      {
+        "target": "/products/csk-allen-bolts/",
+        "anchor": "View PC 12.9 socket head cap screws (black oxide)"
+      },
+      {
+        "target": "/products/custom-fasteners/",
+        "anchor": "View custom high-tensile fasteners to drawing"
+      },
+      {
+        "target": "/products/",
+        "anchor": "Browse all industrial fastener product lines"
+      },
+      {
+        "target": "/industries/construction-infrastructure/",
+        "anchor": "Construction &amp; infrastructure fasteners"
+      },
+      {
+        "target": "/industries/automotive-heavy-engineering/",
+        "anchor": "Automotive &amp; heavy engineering"
+      },
+      {
+        "target": "/industries/solar-mounting-fasteners/",
+        "anchor": "Solar mounting fasteners"
+      },
+      {
+        "target": "/quality/",
+        "anchor": "NABL tensile verification and MTC EN 10204 3.1"
+      },
+      {
+        "target": "/request-quote/",
+        "anchor": "Send a BOQ with the chosen grade"
+      },
+      {
+        "target": "/request-quote/",
+        "anchor": "RFQ"
+      }
+    ]
+  },
+  "/materials/stainless-steel-fasteners/": {
+    "inboundCount": 15,
+    "uniqueInboundSourcesCount": 9,
+    "outboundCount": 21,
+    "uniqueOutboundTargetsCount": 15,
+    "inbound": [
+      {
+        "source": "/products/",
+        "anchor": "Explore Stainless Steel Fasteners"
+      },
+      {
+        "source": "/products/csk-allen-bolts/",
+        "anchor": "Explore SS A2 vs SS A4 corrosion guide →"
+      },
+      {
+        "source": "/products/csk-allen-bolts/",
+        "anchor": "View SS A2 vs SS A4 for service"
+      },
+      {
+        "source": "/products/solar-accessories/",
+        "anchor": "SS 304 vs SS 316 for solar service"
+      },
+      {
+        "source": "/products/solar-accessories/",
+        "anchor": "View SS 304 vs SS 316 for solar service"
+      },
+      {
+        "source": "/products/hex-bolts-nuts/",
+        "anchor": "View SS 304 vs SS 316 for service environment"
+      },
+      {
+        "source": "/products/custom-fasteners/",
+        "anchor": "View SS 304 / 316 / 316L for your service"
+      },
+      {
+        "source": "/materials/high-tensile-fasteners/",
+        "anchor": "stainless-steel equivalent (A2-70 / A4-70)"
+      },
+      {
+        "source": "/materials/high-tensile-fasteners/",
+        "anchor": "stainless-steel equivalent (A2-70 / A4-70)"
+      },
+      {
+        "source": "/industries/solar-mounting-fasteners/",
+        "anchor": "Explore our full SS 304 vs SS 316 vs SS 316L decision tree →"
+      },
+      {
+        "source": "/industries/solar-mounting-fasteners/",
+        "anchor": "View SS 304 vs SS 316 vs SS 316L decision tree"
+      },
+      {
+        "source": "/industries/construction-infrastructure/",
+        "anchor": "Review SS 316 selection for tunnel and water-retaining service →"
+      },
+      {
+        "source": "/industries/construction-infrastructure/",
+        "anchor": "View SS 316 for tunnel and water-retaining service"
+      },
+      {
+        "source": "/industries/automotive-heavy-engineering/",
+        "anchor": "Review SS 316 / 316L for corrosive powertrain &amp; exhaust service →"
+      },
+      {
+        "source": "/industries/automotive-heavy-engineering/",
+        "anchor": "View SS 316 / 316L for corrosive service"
+      }
+    ],
+    "outbound": [
+      {
+        "target": "/",
+        "anchor": "Home"
+      },
+      {
+        "target": "/materials/high-tensile-fasteners/",
+        "anchor": "Materials"
+      },
+      {
+        "target": "/request-quote/",
+        "anchor": "Request an SS fastener quote"
+      },
+      {
+        "target": "/materials/high-tensile-fasteners/",
+        "anchor": "carbon-steel high-tensile grade decision"
+      },
+      {
+        "target": "/products/custom-fasteners/",
+        "anchor": "duplex 2205 and specialty stainless on drawing"
+      },
+      {
+        "target": "/materials/high-tensile-fasteners/",
+        "anchor": "carbon-steel high-tensile grade decision"
+      },
+      {
+        "target": "/quality/",
+        "anchor": "PMI verification and NABL partner tensile"
+      },
+      {
+        "target": "/products/hex-bolts-nuts/",
+        "anchor": "View SS 304 / 316 hex bolt family"
+      },
+      {
+        "target": "/products/stud-bolts/",
+        "anchor": "View SS 316 pressure studs (A193 B8M)"
+      },
+      {
+        "target": "/products/csk-allen-bolts/",
+        "anchor": "View SS A4-70 socket cap screws"
+      },
+      {
+        "target": "/products/solar-accessories/",
+        "anchor": "View SS 304 / 316 solar MMS fasteners"
+      },
+      {
+        "target": "/products/foundation-bolts/",
+        "anchor": "View stainless foundation bolts"
+      },
+      {
+        "target": "/products/sag-rods/",
+        "anchor": "View stainless sag rods"
+      },
+      {
+        "target": "/products/custom-fasteners/",
+        "anchor": "View duplex 2205 and specialty stainless on drawing"
+      },
+      {
+        "target": "/products/",
+        "anchor": "Browse all industrial fastener product categories"
+      },
+      {
+        "target": "/industries/solar-mounting-fasteners/",
+        "anchor": "Solar mounting fasteners"
+      },
+      {
+        "target": "/industries/construction-infrastructure/",
+        "anchor": "Construction &amp; infrastructure fasteners"
+      },
+      {
+        "target": "/industries/automotive-heavy-engineering/",
+        "anchor": "Automotive &amp; heavy engineering"
+      },
+      {
+        "target": "/quality/",
+        "anchor": "Explore our quality protocol"
+      },
+      {
+        "target": "/request-quote/",
+        "anchor": "Send an SS fastener BOQ"
+      },
+      {
+        "target": "/request-quote/",
+        "anchor": "RFQ"
+      }
+    ]
+  },
+  "/industries/solar-mounting-fasteners/": {
+    "inboundCount": 9,
+    "uniqueInboundSourcesCount": 7,
+    "outboundCount": 18,
+    "uniqueOutboundTargetsCount": 11,
+    "inbound": [
+      {
+        "source": "/about/",
+        "anchor": "Solar Energy Infrastructure"
+      },
+      {
+        "source": "/products/",
+        "anchor": "View Solar Fasteners"
+      },
+      {
+        "source": "/products/sag-rods/",
+        "anchor": "solar module mounting and racking fasteners"
+      },
+      {
+        "source": "/products/sag-rods/",
+        "anchor": "solar mounting fasteners"
+      },
+      {
+        "source": "/products/solar-accessories/",
+        "anchor": "our solar industry page: fastener stacks by mount type, dispatch pin codes and EPC references"
+      },
+      {
+        "source": "/products/solar-accessories/",
+        "anchor": "View our solar industry page: fastener stacks by mount type, dispatch pin codes and EPC references"
+      },
+      {
+        "source": "/products/custom-fasteners/",
+        "anchor": "View custom solar mounting fasteners →"
+      },
+      {
+        "source": "/materials/high-tensile-fasteners/",
+        "anchor": "Solar mounting fasteners"
+      },
+      {
+        "source": "/materials/stainless-steel-fasteners/",
+        "anchor": "Solar mounting fasteners"
+      }
+    ],
+    "outbound": [
+      {
+        "target": "/",
+        "anchor": "Home"
+      },
+      {
+        "target": "/request-quote/",
+        "anchor": "Send a solar BOQ"
+      },
+      {
+        "target": "/products/custom-fasteners/",
+        "anchor": "/products/custom-fasteners/"
+      },
+      {
+        "target": "/products/solar-accessories/",
+        "anchor": "SKU catalogue for solar MMS fasteners"
+      },
+      {
+        "target": "/materials/stainless-steel-fasteners/",
+        "anchor": "Explore our full SS 304 vs SS 316 vs SS 316L decision tree →"
+      },
+      {
+        "target": "/materials/high-tensile-fasteners/",
+        "anchor": "Compare HDG 8.8 vs 10.9 for substructure connections →"
+      },
+      {
+        "target": "/products/foundation-bolts/",
+        "anchor": "J-bolts, L-bolts and headed anchorage for concrete piers"
+      },
+      {
+        "target": "/products/stud-bolts/",
+        "anchor": "chemical anchor stud retrofit"
+      },
+      {
+        "target": "/products/solar-accessories/",
+        "anchor": "View SKU catalogue for solar MMS fasteners"
+      },
+      {
+        "target": "/products/foundation-bolts/",
+        "anchor": "View J-bolts, L-bolts and headed anchorage for concrete piers"
+      },
+      {
+        "target": "/products/stud-bolts/",
+        "anchor": "View chemical anchor stud retrofit"
+      },
+      {
+        "target": "/products/hex-bolts-nuts/",
+        "anchor": "View SS 304 hex bolts for structure sub-assembly"
+      },
+      {
+        "target": "/materials/stainless-steel-fasteners/",
+        "anchor": "View SS 304 vs SS 316 vs SS 316L decision tree"
+      },
+      {
+        "target": "/materials/high-tensile-fasteners/",
+        "anchor": "View HDG 8.8 vs 10.9 for substructure"
+      },
+      {
+        "target": "/products/",
+        "anchor": "Browse all industrial fastener product lines"
+      },
+      {
+        "target": "/quality/",
+        "anchor": "MTC, PMI and HDG coating-thickness verification"
+      },
+      {
+        "target": "/request-quote/",
+        "anchor": "Send a solar BOQ"
+      },
+      {
+        "target": "/request-quote/",
+        "anchor": "RFQ"
+      }
+    ]
+  },
+  "/industries/construction-infrastructure/": {
+    "inboundCount": 17,
+    "uniqueInboundSourcesCount": 12,
+    "outboundCount": 22,
+    "uniqueOutboundTargetsCount": 12,
+    "inbound": [
+      {
+        "source": "/about/",
+        "anchor": "Pre-Engineered Buildings (PEB)"
+      },
+      {
+        "source": "/about/",
+        "anchor": "Civil Infrastructure &amp; Bridges"
+      },
+      {
+        "source": "/about/",
+        "anchor": "Commercial High-Rise Formwork"
+      },
+      {
+        "source": "/tools/",
+        "anchor": "Construction Fasteners Range →"
+      },
+      {
+        "source": "/products/",
+        "anchor": "View Construction Fasteners"
+      },
+      {
+        "source": "/products/foundation-bolts/",
+        "anchor": "structural steel and PEB projects"
+      },
+      {
+        "source": "/products/stud-bolts/",
+        "anchor": "structural steel and heavy civil projects"
+      },
+      {
+        "source": "/products/sag-rods/",
+        "anchor": "structural steel and heavy civil projects"
+      },
+      {
+        "source": "/products/sag-rods/",
+        "anchor": "construction &amp; infrastructure"
+      },
+      {
+        "source": "/products/tie-rods/",
+        "anchor": "RCC and PEB construction fasteners →"
+      },
+      {
+        "source": "/products/tie-rods/",
+        "anchor": "View RCC and PEB construction fasteners"
+      },
+      {
+        "source": "/products/scaffold-accessories/",
+        "anchor": "structural, RCC formwork and precast construction projects"
+      },
+      {
+        "source": "/products/scaffold-accessories/",
+        "anchor": "construction &amp; infrastructure"
+      },
+      {
+        "source": "/products/hex-bolts-nuts/",
+        "anchor": "View PEB structural fastener schedules"
+      },
+      {
+        "source": "/products/custom-fasteners/",
+        "anchor": "View construction and infrastructure fasteners →"
+      },
+      {
+        "source": "/materials/high-tensile-fasteners/",
+        "anchor": "Construction &amp; infrastructure fasteners"
+      },
+      {
+        "source": "/materials/stainless-steel-fasteners/",
+        "anchor": "Construction &amp; infrastructure fasteners"
+      }
+    ],
+    "outbound": [
+      {
+        "target": "/",
+        "anchor": "Home"
+      },
+      {
+        "target": "/request-quote/",
+        "anchor": "Send a construction BOQ"
+      },
+      {
+        "target": "/products/foundation-bolts/",
+        "anchor": "foundation bolts (IS 5624 / F1554)"
+      },
+      {
+        "target": "/products/sag-rods/",
+        "anchor": "PEB sag rods"
+      },
+      {
+        "target": "/products/stud-bolts/",
+        "anchor": "ASTM A193 B7 / B8M stud bolts"
+      },
+      {
+        "target": "/products/hex-bolts-nuts/",
+        "anchor": "PC 8.8 HDG structural hex bolts"
+      },
+      {
+        "target": "/products/tie-rods/",
+        "anchor": "D15 / D20 formwork tie rods"
+      },
+      {
+        "target": "/products/scaffold-accessories/",
+        "anchor": "base jacks, swivel couplers, formwork clamps"
+      },
+      {
+        "target": "/materials/high-tensile-fasteners/",
+        "anchor": "Explore our high-tensile grade decision guide for structural steel →"
+      },
+      {
+        "target": "/materials/stainless-steel-fasteners/",
+        "anchor": "Review SS 316 selection for tunnel and water-retaining service →"
+      },
+      {
+        "target": "/quality/",
+        "anchor": "MTC EN 10204 3.1 and NABL partner tensile testing →"
+      },
+      {
+        "target": "/products/foundation-bolts/",
+        "anchor": "View foundation bolts (IS 5624 / F1554)"
+      },
+      {
+        "target": "/products/sag-rods/",
+        "anchor": "View PEB sag rods"
+      },
+      {
+        "target": "/products/stud-bolts/",
+        "anchor": "View ASTM A193 B7 / B8M stud bolts"
+      },
+      {
+        "target": "/products/tie-rods/",
+        "anchor": "View D15 / D20 formwork tie rods"
+      },
+      {
+        "target": "/products/scaffold-accessories/",
+        "anchor": "View base jacks, swivel couplers, formwork clamps"
+      },
+      {
+        "target": "/products/hex-bolts-nuts/",
+        "anchor": "View PC 8.8 HDG structural hex bolts"
+      },
+      {
+        "target": "/materials/high-tensile-fasteners/",
+        "anchor": "View grade decision for structural steel"
+      },
+      {
+        "target": "/materials/stainless-steel-fasteners/",
+        "anchor": "View SS 316 for tunnel and water-retaining service"
+      },
+      {
+        "target": "/products/",
+        "anchor": "Browse all industrial fastener product lines"
+      },
+      {
+        "target": "/request-quote/",
+        "anchor": "Send a construction BOQ"
+      },
+      {
+        "target": "/request-quote/",
+        "anchor": "RFQ"
+      }
+    ]
+  },
+  "/industries/automotive-heavy-engineering/": {
+    "inboundCount": 9,
+    "uniqueInboundSourcesCount": 7,
+    "outboundCount": 19,
+    "uniqueOutboundTargetsCount": 10,
+    "inbound": [
+      {
+        "source": "/about/",
+        "anchor": "Automotive &amp; Heavy Machinery"
+      },
+      {
+        "source": "/products/",
+        "anchor": "View Heavy Engineering Fasteners"
+      },
+      {
+        "source": "/products/csk-allen-bolts/",
+        "anchor": "automotive and heavy machine assemblies →"
+      },
+      {
+        "source": "/products/csk-allen-bolts/",
+        "anchor": "View automotive and heavy machine assemblies"
+      },
+      {
+        "source": "/products/hex-bolts-nuts/",
+        "anchor": "View heavy machinery and automotive tier hardware"
+      },
+      {
+        "source": "/products/custom-fasteners/",
+        "anchor": "View automotive and heavy machinery fasteners →"
+      },
+      {
+        "source": "/products/custom-fasteners/",
+        "anchor": "View machinery and equipment fasteners →"
+      },
+      {
+        "source": "/materials/high-tensile-fasteners/",
+        "anchor": "Automotive &amp; heavy engineering"
+      },
+      {
+        "source": "/materials/stainless-steel-fasteners/",
+        "anchor": "Automotive &amp; heavy engineering"
+      }
+    ],
+    "outbound": [
+      {
+        "target": "/",
+        "anchor": "Home"
+      },
+      {
+        "target": "/request-quote/",
+        "anchor": "Send engineering drawing"
+      },
+      {
+        "target": "/products/custom-fasteners/",
+        "anchor": "custom specials on drawing"
+      },
+      {
+        "target": "/products/stud-bolts/",
+        "anchor": "A193 B7 / B7M / B16 OEM stud bolts"
+      },
+      {
+        "target": "/products/hex-bolts-nuts/",
+        "anchor": "PC 10.9 structural hex bolts"
+      },
+      {
+        "target": "/products/csk-allen-bolts/",
+        "anchor": "PC 12.9 socket cap in black oxide"
+      },
+      {
+        "target": "/materials/high-tensile-fasteners/",
+        "anchor": "Explore our full high-tensile grade decision guide (Class 8.8 vs 10.9 vs 12.9) →"
+      },
+      {
+        "target": "/materials/stainless-steel-fasteners/",
+        "anchor": "Review SS 316 / 316L for corrosive powertrain &amp; exhaust service →"
+      },
+      {
+        "target": "/products/custom-fasteners/",
+        "anchor": "custom specials on drawing"
+      },
+      {
+        "target": "/quality/",
+        "anchor": "MTC EN 10204 3.1, PPAP Level 2 / 3, PMI, NABL tensile →"
+      },
+      {
+        "target": "/products/custom-fasteners/",
+        "anchor": "View custom specials on drawing"
+      },
+      {
+        "target": "/materials/high-tensile-fasteners/",
+        "anchor": "View high-tensile grade decision guide"
+      },
+      {
+        "target": "/products/hex-bolts-nuts/",
+        "anchor": "View PC 10.9 structural hex bolts"
+      },
+      {
+        "target": "/products/csk-allen-bolts/",
+        "anchor": "View PC 12.9 socket cap in black oxide"
+      },
+      {
+        "target": "/products/stud-bolts/",
+        "anchor": "View A193 B7 / B7M / B16 OEM stud bolts"
+      },
+      {
+        "target": "/materials/stainless-steel-fasteners/",
+        "anchor": "View SS 316 / 316L for corrosive service"
+      },
+      {
+        "target": "/products/",
+        "anchor": "Browse all industrial fastener product lines"
+      },
+      {
+        "target": "/request-quote/",
+        "anchor": "Send an automotive / heavy-engg drawing"
+      },
+      {
+        "target": "/request-quote/",
+        "anchor": "RFQ"
+      }
+    ]
+  },
+  "/privacy-policy/": {
+    "inboundCount": 2,
+    "uniqueInboundSourcesCount": 2,
+    "outboundCount": 8,
+    "uniqueOutboundTargetsCount": 4,
+    "inbound": [
+      {
+        "source": "/request-quote/",
+        "anchor": "privacy policy"
+      },
+      {
+        "source": "/terms/",
+        "anchor": "Privacy Policy"
+      }
+    ],
+    "outbound": [
+      {
+        "target": "/",
+        "anchor": "Home"
+      },
+      {
+        "target": "/request-quote/",
+        "anchor": "Request a Quote"
+      },
+      {
+        "target": "/contact/",
+        "anchor": "Contact"
+      },
+      {
+        "target": "/terms/",
+        "anchor": "Terms of Supply and Website Use"
+      },
+      {
+        "target": "/contact/",
+        "anchor": "Contact Our Team"
+      },
+      {
+        "target": "/request-quote/",
+        "anchor": "Submit an RFQ"
+      },
+      {
+        "target": "/",
+        "anchor": "Return to Homepage"
+      },
+      {
+        "target": "/request-quote/",
+        "anchor": "RFQ"
+      }
+    ]
+  },
+  "/terms/": {
+    "inboundCount": 2,
+    "uniqueInboundSourcesCount": 2,
+    "outboundCount": 10,
+    "uniqueOutboundTargetsCount": 6,
+    "inbound": [
+      {
+        "source": "/products/custom-fasteners/",
+        "anchor": "terms of supply (IP and confidentiality)"
+      },
+      {
+        "source": "/privacy-policy/",
+        "anchor": "Terms of Supply and Website Use"
+      }
+    ],
+    "outbound": [
+      {
+        "target": "/",
+        "anchor": "Home"
+      },
+      {
+        "target": "/request-quote/",
+        "anchor": "Request a Quote"
+      },
+      {
+        "target": "/about/",
+        "anchor": "About"
+      },
+      {
+        "target": "/quality/",
+        "anchor": "Quality"
+      },
+      {
+        "target": "/privacy-policy/",
+        "anchor": "Privacy Policy"
+      },
+      {
+        "target": "/contact/",
+        "anchor": "Contact KP Fasteners"
+      },
+      {
+        "target": "/contact/",
+        "anchor": "Contact Our Team"
+      },
+      {
+        "target": "/request-quote/",
+        "anchor": "Submit an RFQ"
+      },
+      {
+        "target": "/",
+        "anchor": "Return to Homepage"
+      },
+      {
+        "target": "/request-quote/",
+        "anchor": "RFQ"
+      }
+    ]
+  }
+}
