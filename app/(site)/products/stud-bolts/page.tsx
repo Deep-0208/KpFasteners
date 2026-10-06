@@ -2,7 +2,6 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import Image from 'next/image';
 import {
-  Phone,
   MessageCircle,
   FileText,
   ArrowRight,
@@ -28,12 +27,12 @@ import { SpecTable } from '@/components/ui/SpecTable';
 import { GradeTable } from '@/components/ui/GradeTable';
 import { ClassificationBanner } from '@/components/ui/ClassificationBanner';
 import { JsonLd } from '@/components/seo/JsonLd';
-import { product as productSchema, faqPage, breadcrumbs as breadcrumbsSchema } from '@/lib/jsonld';
+import { product as productSchema, faqPage } from '@/lib/jsonld';
 import { findRoute } from '@/data/routes';
 import { company } from '@/data/company';
 
 const PATH = '/products/stud-bolts/';
-const HERO_IMAGE = '/images/products/threaded-rods/threaded-rod-stud.jpg';
+const HERO_IMAGE = '/images/products/threaded-rods/threaded-rod-stud.webp';
 
 const META_TITLE = 'Stud Bolts Manufacturer | ASTM A193 B7, B7M, B8M | KP';
 const META_DESCRIPTION =
@@ -49,7 +48,6 @@ export const metadata: Metadata = buildMetadata({
 const WA_PREFILL =
   'Hi KP Fasteners, I need a stud-bolt quote. Grade: [B7/B7M/B8/B8M/L7], Dia x Length: [ ], Coating: [Black/HDG/PTFE], Nut: [A194 2H/2HM/8/8M], Quantity: [ ], MTC: [Y/N], Dispatch pin: [ ]';
 const WA_URL = 'https://wa.me/919898230448?text=' + encodeURIComponent(WA_PREFILL);
-const TEL = `tel:${company.telephones[0].replace(/[^\d+]/g, '')}`;
 
 const FAQS = [
   {
@@ -241,7 +239,6 @@ export default function Page() {
           classification: 'oem',
         })}
       />
-      <JsonLd data={breadcrumbsSchema(trail)} />
       <JsonLd data={faqPage(FAQS)} />
 
       {/* 1. Hero */}
@@ -263,32 +260,29 @@ export default function Page() {
                 pressure vessels, pumps, compressors and heavy structural work. We quote
                 against your flange-bolt schedule with material, coating and MTC.
               </p>
-              <div className="mt-8 flex flex-wrap gap-3">
+              <div className="mt-8 flex flex-wrap items-center gap-3.5">
                 <Link
                   href="/request-quote/?product=stud-bolts"
-                  className="btn btn-primary"
+                  className="btn btn-primary shadow-gold"
                 >
                   <FileText aria-hidden="true" className="h-4 w-4" />
-                  &nbsp;Request a BOQ quote
+                  <span>Request a BOQ Quote</span>
+                  <ArrowRight aria-hidden="true" className="h-4 w-4 ml-0.5" />
                 </Link>
                 <a
                   href={WA_URL}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="btn btn-whatsapp"
+                  className="btn btn-secondary"
                 >
-                  <MessageCircle aria-hidden="true" className="h-4 w-4" />
-                  &nbsp;WhatsApp a specialist
-                </a>
-                <a href={TEL} className="btn btn-secondary">
-                  <Phone aria-hidden="true" className="h-4 w-4" />
-                  &nbsp;{company.telephones[0]}
+                  <MessageCircle aria-hidden="true" className="h-4 w-4 text-emerald-600" />
+                  <span>WhatsApp a Specialist</span>
                 </a>
               </div>
             </div>
             <div className="relative">
               <Card variant="metallic" padding="lg" className="overflow-hidden">
-                <div className="relative aspect-[4/3] w-full overflow-hidden rounded-md bg-brand-steel-soft/40">
+                <div className="relative aspect-[4/3] w-full overflow-hidden rounded-md bg-transparent p-3">
                   <Image
                     src={HERO_IMAGE}
                     alt="ASTM A193 B7 stud bolt and threaded-rod stock manufactured by KP Fasteners"
@@ -630,7 +624,7 @@ export default function Page() {
             , share the flange bolt schedule or BOQ and we quote per grade, coating and
             nut pairing.
           </p>
-          <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-5">
+          <div className="mt-8 grid gap-6 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-5">
             {APPLICATIONS.map(({ icon: Icon, name, body }) => (
               <Card key={name} variant="default" padding="md" className="flex h-full flex-col">
                 <Icon aria-hidden="true" className="h-6 w-6 text-brand-gold-strong" />

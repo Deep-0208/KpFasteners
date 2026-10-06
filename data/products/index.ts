@@ -35,8 +35,8 @@ export const productCategories: ProductCategory[] = [
     shortDescription:
       'J-, L-, U-type and hooked foundation / anchor bolts for civil and industrial anchoring.',
     classification: 'oem',
-    image: '/images/products/bolts/j-bolt.jpg',
-    imageAlt: 'KP Fasteners foundation bolt — representative image (photo pending)',
+    image: '/images/products/bolts/j-bolt.webp',
+    imageAlt: 'KP Fasteners foundation bolt — J, L, U and hooked anchors',
   },
   {
     slug: 'stud-bolts',
@@ -44,8 +44,8 @@ export const productCategories: ProductCategory[] = [
     name: 'Stud Bolts',
     shortDescription: 'Metric and imperial stud bolts for flange and structural applications.',
     classification: 'oem',
-    image: '/images/products/threaded-rods/threaded-rod-stud.jpg',
-    imageAlt: 'KP Fasteners stud bolt — representative image (photo pending)',
+    image: '/images/products/threaded-rods/threaded-rod-stud.webp',
+    imageAlt: 'KP Fasteners stud bolt — ASTM A193 B7 / B8 / B8M continuous threaded rod',
   },
   {
     slug: 'sag-rods',
@@ -54,8 +54,8 @@ export const productCategories: ProductCategory[] = [
     shortDescription:
       'Threaded sag rods for PEB purlin bracing, structural steel, and solar racking cross-bracing.',
     classification: 'oem',
-    image: '/images/products/threaded-rods/threaded-rod-stud.jpg',
-    imageAlt: 'KP Fasteners threaded sag rod — representative image (photo pending)',
+    image: '/images/products/threaded-rods/sag-rod.webp',
+    imageAlt: 'KP Fasteners threaded sag rod for PEB and solar purlin bracing',
   },
   {
     slug: 'scaffold-accessories',
@@ -64,8 +64,8 @@ export const productCategories: ProductCategory[] = [
     shortDescription:
       'Scaffolding fastener accessories — manufactured and supplied, SKU-specific.',
     classification: 'ambiguous',
-    image: '/images/products/threaded-rods/wedge-anchor.jpg',
-    imageAlt: 'Scaffold accessory — representative image (photo pending)',
+    image: '/images/products/threaded-rods/wedge-anchor.webp',
+    imageAlt: 'Scaffold accessory — formwork hardware and wedge anchor accessories',
   },
   {
     slug: 'hex-bolts-nuts',
@@ -74,8 +74,8 @@ export const productCategories: ProductCategory[] = [
     shortDescription:
       'Hex head bolts and hex nuts across metric and imperial standards — distribution range.',
     classification: 'trading',
-    image: '/images/products/bolts/hex-bolt-hex-nut.jpg',
-    imageAlt: 'Hex bolt and hex nut — representative image (photo pending)',
+    image: '/images/products/bolts/hex-bolt-hex-nut.webp',
+    imageAlt: 'Hex bolt and hex nut — DIN 933 / DIN 934 distribution range',
   },
   {
     slug: 'csk-allen-bolts',
@@ -84,8 +84,8 @@ export const productCategories: ProductCategory[] = [
     shortDescription:
       'Countersunk socket-head cap screws — distribution range across grades and finishes.',
     classification: 'trading',
-    image: '/images/products/bolts/allen-socket-csk-screw.jpg',
-    imageAlt: 'Countersunk Allen socket screw — representative image (photo pending)',
+    image: '/images/products/bolts/allen-socket-csk-screw.webp',
+    imageAlt: 'Countersunk Allen socket screw — DIN 7991 distribution range',
   },
   {
     slug: 'tie-rods',
@@ -94,8 +94,8 @@ export const productCategories: ProductCategory[] = [
     shortDescription:
       'Threaded tie rods and turnbuckle assemblies — distribution range.',
     classification: 'trading',
-    image: '/images/products/threaded-rods/threaded-rod-stud.jpg',
-    imageAlt: 'Tie rod — representative image (photo pending)',
+    image: '/images/products/threaded-rods/tie-rod.webp',
+    imageAlt: 'Tie rod and formwork rod — D15 and D20 distribution range',
   },
   {
     slug: 'solar-accessories',
@@ -104,8 +104,8 @@ export const productCategories: ProductCategory[] = [
     shortDescription:
       'MMS bolts, T-head bolts, hanger bolts, module clamps — distribution range.',
     classification: 'trading',
-    image: '/images/products/bolts/hex-flange-bolt.jpg',
-    imageAlt: 'Solar mounting accessory — representative image (photo pending)',
+    image: '/images/products/bolts/hex-flange-bolt.webp',
+    imageAlt: 'Solar mounting accessory — hex flange bolt and mounting hardware',
   },
   {
     slug: 'custom-fasteners',
@@ -114,8 +114,8 @@ export const productCategories: ProductCategory[] = [
     shortDescription:
       'Drawing-based sourcing for non-standard fasteners — distribution / partner-supply.',
     classification: 'trading',
-    image: '/images/products/bolts/socket-head-cap-screw.jpg',
-    imageAlt: 'Socket-head cap screw — representative image (photo pending)',
+    image: '/images/products/bolts/socket-head-cap-screw.webp',
+    imageAlt: 'Custom fasteners — socket-head cap screw and precision machined hardware',
   },
 ];
 

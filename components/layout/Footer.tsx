@@ -24,7 +24,7 @@ const groupsForColumns = [
 export function Footer() {
   const year = new Date().getFullYear();
   return (
-    <footer className="border-t border-border bg-surface">
+    <footer className="border-t border-border bg-surface pb-16 md:pb-0">
       <Container>
         <div className="grid gap-8 py-12 md:grid-cols-4">
           <div>

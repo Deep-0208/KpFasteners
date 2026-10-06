@@ -34,7 +34,7 @@
   --gold-700: #92400E;
   --gold-800: #78350F;
   --gold-glow: rgba(217, 119, 6, 0.25);
-  --gold-gradient:       linear-gradient(135deg, #F59E0B 0%, #D97706 60%, #92400E 100%);
+  --gold-gradient:       linear-gradient(135deg, #D97706 0%, #B45309 50%, #78350F 100%);
   --gold-gradient-shine: linear-gradient(135deg, #FDE68A 0%, #F59E0B 50%, #B45309 100%);
   --gold-gradient-soft:  linear-gradient(135deg, #FFFBEB 0%, #FEF3C7 100%);
 

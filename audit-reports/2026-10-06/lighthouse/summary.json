@@ -1,0 +1,146 @@
+[
+  {
+    "test": "foundation-bolts-desktop",
+    "finalUrl": "http://localhost:3000/products/foundation-bolts/",
+    "scores": {
+      "performance": 99,
+      "accessibility": 96,
+      "bestPractices": 96,
+      "seo": 100
+    },
+    "cwv": {
+      "fcp": "0.4 s",
+      "lcp": "1.0 s",
+      "cls": "0",
+      "tbt": "0 ms",
+      "speedIndex": "0.6 s",
+      "inp": "N/A (lab)"
+    }
+  },
+  {
+    "test": "foundation-bolts-mobile",
+    "finalUrl": "http://localhost:3000/products/foundation-bolts/",
+    "scores": {
+      "performance": 86,
+      "accessibility": 97,
+      "bestPractices": 96,
+      "seo": 100
+    },
+    "cwv": {
+      "fcp": "1.7 s",
+      "lcp": "4.2 s",
+      "cls": "0",
+      "tbt": "40 ms",
+      "speedIndex": "1.7 s",
+      "inp": "N/A (lab)"
+    }
+  },
+  {
+    "test": "home-desktop",
+    "finalUrl": "http://localhost:3000/",
+    "scores": {
+      "performance": 99,
+      "accessibility": 96,
+      "bestPractices": 96,
+      "seo": 100
+    },
+    "cwv": {
+      "fcp": "0.3 s",
+      "lcp": "0.9 s",
+      "cls": "0",
+      "tbt": "10 ms",
+      "speedIndex": "0.7 s",
+      "inp": "N/A (lab)"
+    }
+  },
+  {
+    "test": "home-mobile",
+    "finalUrl": "http://localhost:3000/",
+    "scores": {
+      "performance": 78,
+      "accessibility": 96,
+      "bestPractices": 96,
+      "seo": 100
+    },
+    "cwv": {
+      "fcp": "1.1 s",
+      "lcp": "4.7 s",
+      "cls": "0",
+      "tbt": "180 ms",
+      "speedIndex": "4.4 s",
+      "inp": "N/A (lab)"
+    }
+  },
+  {
+    "test": "request-quote-desktop",
+    "finalUrl": "http://localhost:3000/request-quote/",
+    "scores": {
+      "performance": 100,
+      "accessibility": 97,
+      "bestPractices": 96,
+      "seo": 100
+    },
+    "cwv": {
+      "fcp": "0.3 s",
+      "lcp": "0.7 s",
+      "cls": "0",
+      "tbt": "0 ms",
+      "speedIndex": "0.4 s",
+      "inp": "N/A (lab)"
+    }
+  },
+  {
+    "test": "request-quote-mobile",
+    "finalUrl": "http://localhost:3000/request-quote/",
+    "scores": {
+      "performance": 91,
+      "accessibility": 97,
+      "bestPractices": 96,
+      "seo": 100
+    },
+    "cwv": {
+      "fcp": "0.9 s",
+      "lcp": "3.5 s",
+      "cls": "0",
+      "tbt": "50 ms",
+      "speedIndex": "0.9 s",
+      "inp": "N/A (lab)"
+    }
+  },
+  {
+    "test": "stainless-steel-desktop",
+    "finalUrl": "http://localhost:3000/materials/stainless-steel-fasteners/",
+    "scores": {
+      "performance": 100,
+      "accessibility": 96,
+      "bestPractices": 96,
+      "seo": 100
+    },
+    "cwv": {
+      "fcp": "0.3 s",
+      "lcp": "0.8 s",
+      "cls": "0",
+      "tbt": "0 ms",
+      "speedIndex": "0.5 s",
+      "inp": "N/A (lab)"
+    }
+  },
+  {
+    "test": "stainless-steel-mobile",
+    "finalUrl": "http://localhost:3000/materials/stainless-steel-fasteners/",
+    "scores": {
+      "performance": 87,
+      "accessibility": 96,
+      "bestPractices": 96,
+      "seo": 100
+    },
+    "cwv": {
+      "fcp": "1.2 s",
+      "lcp": "3.9 s",
+      "cls": "0",
+      "tbt": "120 ms",
+      "speedIndex": "1.2 s",
+      "inp": "N/A (lab)"
+    }
+  }
+]

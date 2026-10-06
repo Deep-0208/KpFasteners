@@ -30,7 +30,7 @@ import { findRoute } from '@/data/routes';
 import { company } from '@/data/company';
 
 const PATH = '/materials/high-tensile-fasteners/';
-const HERO_IMAGE = '/product-images/high-tensile/hero.jpg';
+const HERO_IMAGE = '/images/products/threaded-rods/b7-stud.webp';
 
 // Title: 55 chars (50–60 range). Meta description: 159 chars (150–160 range).
 const META_TITLE = 'High-Tensile Bolts Manufacturer | PC 8.8 10.9 12.9 | KP';
@@ -292,32 +292,29 @@ export default function Page() {
               <p className="mt-6 max-w-2xl text-lg text-ink-muted">
                 An engineering decision guide to carbon and alloy steel fastener property classes under ISO 898-1 and IS 1367. Compare proof load, tensile strength, yield ratios, hydrogen embrittlement risks, and surface coating compatibilities for structural and heavy machinery connections.
               </p>
-              <div className="mt-8 flex flex-wrap gap-3">
+              <div className="mt-8 flex flex-wrap items-center gap-3.5">
                 <Link
                   href="/request-quote/?material=high-tensile"
-                  className="btn btn-primary"
+                  className="btn btn-primary shadow-gold"
                 >
                   <FileText aria-hidden="true" className="h-4 w-4" />
-                  &nbsp;Request a high-tensile quote
+                  <span>Request High-Tensile Quote</span>
+                  <ArrowRight aria-hidden="true" className="h-4 w-4 ml-0.5" />
                 </Link>
                 <a
                   href={WA_URL}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="btn btn-whatsapp"
+                  className="btn btn-secondary"
                 >
-                  <MessageCircle aria-hidden="true" className="h-4 w-4" />
-                  &nbsp;WhatsApp grade question
-                </a>
-                <a href={TEL} className="btn btn-secondary">
-                  <Phone aria-hidden="true" className="h-4 w-4" />
-                  &nbsp;{company.telephones[0]}
+                  <MessageCircle aria-hidden="true" className="h-4 w-4 text-emerald-600" />
+                  <span>WhatsApp Grade Question</span>
                 </a>
               </div>
             </div>
             <div className="relative">
               <Card variant="metallic" padding="lg" className="overflow-hidden">
-                <div className="relative aspect-[4/3] w-full overflow-hidden rounded-md bg-brand-steel-soft/40">
+                <div className="relative aspect-[4/3] w-full overflow-hidden rounded-md bg-transparent p-3">
                   <Image
                     src={HERO_IMAGE}
                     alt="KP Fasteners high-tensile bolts inventory — Grade 8.8, 10.9, and 12.9 fasteners for structural and industrial applications"

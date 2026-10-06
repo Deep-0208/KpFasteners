@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { useMemo, useState, type FormEvent, type ReactNode } from 'react';
-import { CheckCircle2, AlertCircle, Loader2, MessageCircle, Phone } from 'lucide-react';
+import { CheckCircle2, AlertCircle, Loader2, MessageCircle, Phone, UploadCloud } from 'lucide-react';
 
 const MAX_UPLOAD_BYTES = 8 * 1024 * 1024;
 const ALLOWED_MIME = new Set([
@@ -221,33 +221,57 @@ export function RFQForm({ productOptions }: RFQFormProps) {
         </div>
       )}
 
-      <div className="grid gap-5 md:grid-cols-2">
-        <Field label="Full name" name="fullName" required autoComplete="name" error={errors.fullName} />
-        <Field label="Company" name="company" required autoComplete="organization" error={errors.company} />
-        <Field label="Email" name="email" type="email" autoComplete="email" error={errors.email} help="Email or phone — at least one." />
-        <Field label="Phone" name="phone" type="tel" autoComplete="tel" error={errors.phone} help="With country code — +91…" />
-        <Field label="City / pin code" name="country_city" placeholder="India / Ahmedabad" error={errors.country_city} />
-        <SelectField
-          label="Product / category"
-          name="productCategory"
-          required
-          options={productOptions}
-          error={errors.productCategory}
-        />
-        <Field label="Grade / material" name="material" placeholder="e.g., 8.8, SS 316, B7" error={errors.material} />
-        <Field label="Coating" name="coating" placeholder="e.g., HDG, Zinc yellow, PTFE" error={errors.coating} />
-        <Field label="Size / range" name="size" placeholder="e.g., M20 × 300 mm" error={errors.size} />
-        <Field label="Quantity / tonnage" name="quantity" placeholder="e.g., 500 pcs / 200 kg" error={errors.quantity} />
-        <Field
-          label="Delivery pin code"
-          name="deliveryPin"
-          inputMode="numeric"
-          placeholder="6-digit"
-          error={errors.deliveryPin}
-        />
+      {/* Step 1: Fastener Requirements */}
+      <div className="rounded-xl border border-slate-200/90 bg-slate-50/50 p-4 sm:p-5 space-y-4">
+        <div className="flex items-center justify-between border-b border-slate-200 pb-2.5">
+          <p className="font-heading text-xs font-bold uppercase tracking-wider text-slate-800 flex items-center gap-1.5">
+            <span className="flex h-5 w-5 items-center justify-center rounded-full bg-amber-600 text-[11px] font-bold text-white">1</span>
+            Fastener Specifications &amp; Blueprint
+          </p>
+          <span className="text-[11px] font-medium text-slate-500">BOQ / Drawing</span>
+        </div>
+        <div className="grid gap-4 sm:grid-cols-2">
+          <SelectField
+            label="Product / category"
+            name="productCategory"
+            required
+            options={productOptions}
+            error={errors.productCategory}
+          />
+          <Field label="Size / dimension" name="size" placeholder="e.g., M20 × 300 mm" error={errors.size} />
+          <Field label="Grade / material" name="material" placeholder="e.g., 8.8, SS 316, B7" error={errors.material} />
+          <Field label="Coating / finish" name="coating" placeholder="e.g., HDG, Zinc yellow, PTFE" error={errors.coating} />
+          <Field label="Quantity / tonnage" name="quantity" placeholder="e.g., 500 pcs / 200 kg" error={errors.quantity} />
+        </div>
+        <div className="pt-2">
+          <FileField label="Engineering Drawing / BOQ" name="drawing" error={errors.drawing} />
+        </div>
       </div>
 
-      <FileField label="Drawing / BOQ" name="drawing" error={errors.drawing} />
+      {/* Step 2: Commercial Delivery & Contact Information */}
+      <div className="rounded-xl border border-slate-200/90 bg-slate-50/50 p-4 sm:p-5 space-y-4">
+        <div className="flex items-center justify-between border-b border-slate-200 pb-2.5">
+          <p className="font-heading text-xs font-bold uppercase tracking-wider text-slate-800 flex items-center gap-1.5">
+            <span className="flex h-5 w-5 items-center justify-center rounded-full bg-amber-600 text-[11px] font-bold text-white">2</span>
+            Contact &amp; Delivery Destination
+          </p>
+          <span className="text-[11px] font-medium text-slate-500">24-hr Quote SLA</span>
+        </div>
+        <div className="grid gap-4 sm:grid-cols-2">
+          <Field label="Full name" name="fullName" required autoComplete="name" error={errors.fullName} />
+          <Field label="Company" name="company" required autoComplete="organization" error={errors.company} />
+          <Field label="Email" name="email" type="email" autoComplete="email" error={errors.email} help="Email or phone — at least one." />
+          <Field label="Phone" name="phone" type="tel" autoComplete="tel" error={errors.phone} help="With country code — +91…" />
+          <Field
+            label="Delivery pin code"
+            name="deliveryPin"
+            inputMode="numeric"
+            placeholder="6-digit PIN"
+            error={errors.deliveryPin}
+          />
+          <Field label="City / country" name="country_city" placeholder="e.g., Ahmedabad / India" error={errors.country_city} />
+        </div>
+      </div>
 
       <label className="grid gap-1">
         <span className="text-sm font-medium text-ink">Additional notes</span>
@@ -423,25 +447,37 @@ function FileField({
   const errorId = `${id}-error`;
   const helpId = `${id}-help`;
   return (
-    <label htmlFor={id} className="grid gap-1">
-      <span className="text-sm font-medium text-ink">{label}</span>
-      <input
-        id={id}
-        name={name}
-        type="file"
-        accept=".pdf,.dwg,.dxf,.png,.jpg,.jpeg"
-        aria-invalid={error ? 'true' : undefined}
-        aria-describedby={error ? errorId : helpId}
-        className="min-h-[48px] rounded-md border border-border bg-white p-3 text-sm text-ink file:mr-3 file:rounded file:border-0 file:bg-brand-steel-soft file:px-3 file:py-2 file:text-sm file:text-brand-steel"
-      />
-      <span id={helpId} className="text-xs text-ink-muted">
-        PDF, DWG, DXF, PNG or JPG — maximum 8 MB. Kept confidential.
-      </span>
+    <div className="grid gap-1.5">
+      <div className="flex items-center justify-between text-xs font-semibold text-slate-800">
+        <span>{label}</span>
+        <span className="font-normal text-slate-500">Optional · Max 8 MB</span>
+      </div>
+      <label
+        htmlFor={id}
+        className="group relative flex cursor-pointer flex-col items-center justify-center rounded-xl border-2 border-dashed border-slate-300 bg-white p-5 text-center transition-all hover:border-amber-500 hover:bg-amber-50/40"
+      >
+        <UploadCloud aria-hidden="true" className="h-8 w-8 text-slate-400 group-hover:text-amber-600 transition-colors" />
+        <p className="mt-2 text-xs sm:text-sm font-semibold text-slate-700 group-hover:text-amber-950">
+          Click to upload or drag &amp; drop drawing / BOQ
+        </p>
+        <p className="mt-1 text-[11px] text-slate-500">
+          PDF, DWG, DXF, PNG or JPG (Kept strictly confidential)
+        </p>
+        <input
+          id={id}
+          name={name}
+          type="file"
+          accept=".pdf,.dwg,.dxf,.png,.jpg,.jpeg"
+          aria-invalid={error ? 'true' : undefined}
+          aria-describedby={error ? errorId : helpId}
+          className="absolute inset-0 h-full w-full cursor-pointer opacity-0"
+        />
+      </label>
       {error && (
         <span id={errorId} className="text-xs text-danger">
           {error}
         </span>
       )}
-    </label>
+    </div>
   );
 }

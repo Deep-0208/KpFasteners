@@ -26,12 +26,12 @@ import { Accordion } from '@/components/ui/Accordion';
 import { SpecTable } from '@/components/ui/SpecTable';
 import { ClassificationBanner } from '@/components/ui/ClassificationBanner';
 import { JsonLd } from '@/components/seo/JsonLd';
-import { product as productSchema, faqPage, breadcrumbs as breadcrumbsSchema } from '@/lib/jsonld';
+import { product as productSchema, faqPage } from '@/lib/jsonld';
 import { findRoute } from '@/data/routes';
 import { company } from '@/data/company';
 
 const PATH = '/products/custom-fasteners/';
-const HERO_IMAGE = '/product-images/custom/hero.jpg';
+const HERO_IMAGE = '/images/products/bolts/socket-head-cap-screw.webp';
 
 // Title: 55 chars (50–60 range, primary keyword first). Meta description: 159 chars (150–160 range).
 const META_TITLE = 'Custom Fasteners Manufacturer and Sourcing Partner | KP';
@@ -473,7 +473,6 @@ export default function Page() {
           classification: 'ambiguous',
         })}
       />
-      <JsonLd data={breadcrumbsSchema(trail)} />
       <JsonLd data={faqPage(FAQS)} />
 
       {/* 1. Hero */}
@@ -491,13 +490,14 @@ export default function Page() {
               <p className="mt-6 max-w-2xl text-lg text-ink-muted">
                 Precision non-standard bolts, specialized studs, drawing-machined hardware, and customer-print fasteners. Straightforward threaded components manufactured in our Ahmedabad plant; complex cold-headed specials and specialty alloys sourced through vetted partner mills with complete EN 10204 3.1 MTC traceability.
               </p>
-              <div className="mt-8 flex flex-wrap gap-3">
+              <div className="mt-8 flex flex-wrap items-center gap-3.5">
                 <Link
                   href="/request-quote/?product=custom-fasteners"
-                  className="btn btn-primary"
+                  className="btn btn-primary shadow-gold"
                 >
                   <UploadCloud aria-hidden="true" className="h-4 w-4" />
-                  Upload Drawing for Quote
+                  <span>Upload Drawing for Quote</span>
+                  <ArrowRight aria-hidden="true" className="h-4 w-4 ml-0.5" />
                 </Link>
                 <a
                   href={WA_URL}
@@ -505,18 +505,14 @@ export default function Page() {
                   rel="noopener noreferrer"
                   className="btn btn-secondary"
                 >
-                  <MessageCircle aria-hidden="true" className="h-4 w-4 text-brand-gold-strong" />
-                  WhatsApp Drawing Desk
-                </a>
-                <a href={TEL} className="btn btn-secondary">
-                  <Phone aria-hidden="true" className="h-4 w-4 text-brand-gold-strong" />
-                  +91 98982 30448
+                  <MessageCircle aria-hidden="true" className="h-4 w-4 text-emerald-600" />
+                  <span>WhatsApp Drawing Desk</span>
                 </a>
               </div>
             </div>
             <div>
               <Card variant="metallic" padding="lg" className="overflow-hidden">
-                <div className="relative aspect-[4/3] w-full overflow-hidden rounded-md bg-brand-steel-soft/40">
+                <div className="relative aspect-[4/3] w-full overflow-hidden rounded-md bg-transparent p-3">
                   <Image
                     src={HERO_IMAGE}
                     alt="KP Fasteners custom drawing-based fastener manufacturing and sourcing — precision engineering blueprints, machined sample parts, and specialized industrial hardware"
@@ -674,7 +670,7 @@ export default function Page() {
             Our structured procurement workflow ensures design accuracy, tooling feasibility, and metallurgical compliance at every phase:
           </p>
 
-          <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-5">
+          <div className="mt-8 grid gap-6 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-5">
             <Card variant="default" padding="md" className="flex flex-col">
               <span className="text-2xl font-bold font-mono text-brand-gold-strong">01</span>
               <Heading as="h3" variant="card" className="mt-2 text-base">

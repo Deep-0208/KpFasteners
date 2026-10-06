@@ -1,57 +1,119 @@
-# deps
+# Dependencies & Package Managers
 node_modules/
 .pnp
 .pnp.js
+.pnpm-store/
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
 
-# testing
+# Testing, Coverage & Audit Dumps
 coverage/
+.nyc_output/
+playwright-report/
+test-results/
+lighthouse-report/
+*.report.html
+*.report.json
+*.report.report.html
+*.report.report.json
 
-# next.js
+# Next.js & Build Outputs
 .next/
 out/
-
-# production
 build/
+dist/
+.turbo/
 
-# misc
-.DS_Store
-*.pem
-Thumbs.db
+# Caches
+.eslintcache
+.stylelintcache
+.cache/
 
-# env — keep only .env.example
-.env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
 
-# logs
+# Logs
+*.log
+logs/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
-# IDE
+# Python & Virtual Environments
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Environment & Secrets — keep only .env.example
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env*.local
+.env*.backup
+*.pem
+*.key
+*.crt
+*.cert
+
+# IDE & Code Editors
 .vscode/
 .idea/
+.cursor/
+.zed/
+.fleet/
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
 
-# vercel
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+desktop.ini
+$RECYCLE.BIN/
+
+# Temporary, Backup & Scratch Files
+*.tmp
+*.temp
+*.bak
+*.backup
+*~
+scratch/
+
+# Archives & Large Compressed Bundles
+*.zip
+*.tar.gz
+*.7z
+*.rar
+
+# Deployment Platforms
 .vercel
 
-# client-confidential PDFs (kept locally, never pushed)
+# Client-Confidential Documents (kept locally, never pushed)
 *.pdf
 GST*
 URC*
 
-# competitor research — copyrighted competitor assets, keep local only
+# Competitor Research & Scraped Reference Assets (kept local only)
 srgfasteners.com-audit/
 product-images/
-
-# typescript
-*.tsbuildinfo
-next-env.d.ts

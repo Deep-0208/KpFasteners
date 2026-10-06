@@ -32,7 +32,7 @@ import { findRoute } from '@/data/routes';
 import { company } from '@/data/company';
 
 const PATH = '/industries/automotive-heavy-engineering/';
-const HERO_IMAGE = '/product-images/automotive/hero.jpg';
+const HERO_IMAGE = '/images/products/bolts/allen-socket-head-cap-screw.webp';
 
 // Title: 52 chars (50–60 range, primary keyword first). Meta description: 158 chars (150–160 range).
 const META_TITLE = 'Automotive Fasteners Manufacturer & Heavy Engg | KP';
@@ -482,32 +482,29 @@ export default function Page() {
               <p className="mt-6 max-w-2xl text-lg text-ink-muted">
                 Precision high-tensile fasteners, socket head cap screws, and drawing-based custom studs for tier-2/tier-3 automotive component manufacturing and heavy machinery OEMs. Backed by MTC EN 10204 3.1, in-house hardness testing, and full heat-number traceability.
               </p>
-              <div className="mt-8 flex flex-wrap gap-3">
+              <div className="mt-8 flex flex-wrap items-center gap-3.5">
                 <Link
                   href="/request-quote/?industry=automotive-heavy-engg"
-                  className="btn btn-primary"
+                  className="btn btn-primary shadow-gold"
                 >
                   <FileText aria-hidden="true" className="h-4 w-4" />
-                  &nbsp;Send engineering drawing
+                  <span>Send Engineering Drawing</span>
+                  <ArrowRight aria-hidden="true" className="h-4 w-4 ml-0.5" />
                 </Link>
                 <a
                   href={WA_URL}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="btn btn-whatsapp"
+                  className="btn btn-secondary"
                 >
-                  <MessageCircle aria-hidden="true" className="h-4 w-4" />
-                  &nbsp;WhatsApp our heavy-engg desk
-                </a>
-                <a href={TEL} className="btn btn-secondary">
-                  <Phone aria-hidden="true" className="h-4 w-4" />
-                  &nbsp;{company.telephones[0]}
+                  <MessageCircle aria-hidden="true" className="h-4 w-4 text-emerald-600" />
+                  <span>WhatsApp Heavy-Engg Desk</span>
                 </a>
               </div>
             </div>
             <div className="relative">
               <Card variant="metallic" padding="lg" className="overflow-hidden">
-                <div className="relative aspect-[4/3] w-full overflow-hidden rounded-md bg-brand-steel-soft/40">
+                <div className="relative aspect-[4/3] w-full overflow-hidden rounded-md bg-transparent p-3">
                   <Image
                     src={HERO_IMAGE}
                     alt="KP Fasteners high-tensile automotive fasteners — Class 10.9 and 12.9 bolts, socket cap screws, and precision studs"

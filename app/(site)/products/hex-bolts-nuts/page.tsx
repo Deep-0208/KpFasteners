@@ -28,12 +28,12 @@ import { Accordion } from '@/components/ui/Accordion';
 import { SpecTable } from '@/components/ui/SpecTable';
 import { ClassificationBanner } from '@/components/ui/ClassificationBanner';
 import { JsonLd } from '@/components/seo/JsonLd';
-import { product as productSchema, faqPage, breadcrumbs as breadcrumbsSchema } from '@/lib/jsonld';
+import { product as productSchema, faqPage } from '@/lib/jsonld';
 import { findRoute } from '@/data/routes';
 import { company } from '@/data/company';
 
 const PATH = '/products/hex-bolts-nuts/';
-const HERO_IMAGE = '/product-images/hex-bolts-nuts/hero.jpg';
+const HERO_IMAGE = '/images/products/bolts/hex-bolt-hex-nut.webp';
 
 // Title: 52 chars (50–60 range, primary keyword first). Meta description: 160 chars (150–160 range).
 const META_TITLE = 'Hex Bolts and Nuts Manufacturer & Distributor | KP';
@@ -525,7 +525,6 @@ export default function Page() {
           classification: 'trading',
         })}
       />
-      <JsonLd data={breadcrumbsSchema(trail)} />
       <JsonLd data={faqPage(FAQS)} />
 
       {/* 1. Hero */}
@@ -543,32 +542,29 @@ export default function Page() {
               <p className="mt-6 max-w-2xl text-lg text-ink-muted">
                 Metric hex head bolts, companion hex nuts, and hardened washers supplied across Property Classes 4.6, 8.8, 10.9, and austenitic stainless steel. Distributed from vetted partner mills in Ahmedabad with full MTC EN 10204 3.1 pass-through and lot traceability.
               </p>
-              <div className="mt-8 flex flex-wrap gap-3">
+              <div className="mt-8 flex flex-wrap items-center gap-3.5">
                 <Link
                   href="/request-quote/?product=hex-bolts-nuts"
-                  className="btn btn-primary"
+                  className="btn btn-primary shadow-gold"
                 >
                   <FileText aria-hidden="true" className="h-4 w-4" />
-                  &nbsp;Request a hex bolt/nut quote
+                  <span>Request Hex Bolt / Nut Quote</span>
+                  <ArrowRight aria-hidden="true" className="h-4 w-4 ml-0.5" />
                 </Link>
                 <a
                   href={WA_URL}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="btn btn-whatsapp"
+                  className="btn btn-secondary"
                 >
-                  <MessageCircle aria-hidden="true" className="h-4 w-4" />
-                  &nbsp;WhatsApp our hex desk
-                </a>
-                <a href={TEL} className="btn btn-secondary">
-                  <Phone aria-hidden="true" className="h-4 w-4" />
-                  &nbsp;{company.telephones[0]}
+                  <MessageCircle aria-hidden="true" className="h-4 w-4 text-emerald-600" />
+                  <span>WhatsApp Our Hex Desk</span>
                 </a>
               </div>
             </div>
             <div className="relative">
               <Card variant="metallic" padding="lg" className="overflow-hidden">
-                <div className="relative aspect-[4/3] w-full overflow-hidden rounded-md bg-brand-steel-soft/40">
+                <div className="relative aspect-[4/3] w-full overflow-hidden rounded-md bg-transparent p-3">
                   <Image
                     src={HERO_IMAGE}
                     alt="KP Fasteners hex bolts and nuts inventory — high-tensile Class 8.8 and 10.9 bolts, standard nuts and heavy hex hardware"

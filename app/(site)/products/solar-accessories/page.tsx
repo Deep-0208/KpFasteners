@@ -27,12 +27,12 @@ import { Accordion } from '@/components/ui/Accordion';
 import { SpecTable } from '@/components/ui/SpecTable';
 import { ClassificationBanner } from '@/components/ui/ClassificationBanner';
 import { JsonLd } from '@/components/seo/JsonLd';
-import { product as productSchema, faqPage, breadcrumbs as breadcrumbsSchema } from '@/lib/jsonld';
+import { product as productSchema, faqPage } from '@/lib/jsonld';
 import { findRoute } from '@/data/routes';
 import { company } from '@/data/company';
 
 const PATH = '/products/solar-accessories/';
-const HERO_IMAGE = '/product-images/solar-accessories/hero.jpg';
+const HERO_IMAGE = '/images/products/bolts/hex-flange-bolt.webp';
 
 // Title: 53 chars (50–60 range, primary keyword first). Meta description: 157 chars (150–160 range).
 const META_TITLE = 'Solar Mounting Accessories Manufacturer & Supply | KP';
@@ -486,7 +486,6 @@ export default function Page() {
           classification: 'trading',
         })}
       />
-      <JsonLd data={breadcrumbsSchema(trail)} />
       <JsonLd data={faqPage(FAQS)} />
 
       {/* 1. Hero */}
@@ -504,32 +503,29 @@ export default function Page() {
               <p className="mt-6 max-w-2xl text-lg text-ink-muted">
                 Complete module mounting structure (MMS) hardware schedules for solar EPCs. From T-head hammerhead bolts and spring channel nuts to aluminum mid/end clamps and rooftop hanger bolts, supplied from Ahmedabad in SS 304, coastal SS 316, and hot-dip galvanized steel.
               </p>
-              <div className="mt-8 flex flex-wrap gap-3">
+              <div className="mt-8 flex flex-wrap items-center gap-3.5">
                 <Link
                   href="/request-quote/?product=solar-accessories"
-                  className="btn btn-primary"
+                  className="btn btn-primary shadow-gold"
                 >
                   <FileText aria-hidden="true" className="h-4 w-4" />
-                  &nbsp;Request a solar-BOQ quote
+                  <span>Request a Solar-BOQ Quote</span>
+                  <ArrowRight aria-hidden="true" className="h-4 w-4 ml-0.5" />
                 </Link>
                 <a
                   href={WA_URL}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="btn btn-whatsapp"
+                  className="btn btn-secondary"
                 >
-                  <MessageCircle aria-hidden="true" className="h-4 w-4" />
-                  &nbsp;WhatsApp a specialist
-                </a>
-                <a href={TEL} className="btn btn-secondary">
-                  <Phone aria-hidden="true" className="h-4 w-4" />
-                  &nbsp;{company.telephones[0]}
+                  <MessageCircle aria-hidden="true" className="h-4 w-4 text-emerald-600" />
+                  <span>WhatsApp a Specialist</span>
                 </a>
               </div>
             </div>
             <div className="relative">
               <Card variant="metallic" padding="lg" className="overflow-hidden">
-                <div className="relative aspect-[4/3] w-full overflow-hidden rounded-md bg-brand-steel-soft/40">
+                <div className="relative aspect-[4/3] w-full overflow-hidden rounded-md bg-transparent p-3">
                   <Image
                     src={HERO_IMAGE}
                     alt="KP Fasteners solar mounting hardware — T-bolts, aluminum mid and end clamps, channel nuts, and hanger bolts"

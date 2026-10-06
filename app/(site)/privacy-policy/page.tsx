@@ -9,7 +9,6 @@ import { Card } from '@/components/ui/Card';
 import { Prose } from '@/components/ui/Prose';
 import { Breadcrumbs } from '@/components/ui/Breadcrumbs';
 import { JsonLd } from '@/components/seo/JsonLd';
-import { breadcrumbs } from '@/lib/jsonld';
 import { findRoute } from '@/data/routes';
 
 const PATH = '/privacy-policy/';
@@ -44,12 +43,9 @@ export default function PrivacyPolicyPage() {
     dateModified: '2026-10-04',
   };
 
-  const breadcrumbSchema = breadcrumbs(trail);
-
   return (
     <>
       <JsonLd data={webPageSchema} />
-      <JsonLd data={breadcrumbSchema} />
 
       {/* 1. Hero & Legal Content Section */}
       <Section variant="default">

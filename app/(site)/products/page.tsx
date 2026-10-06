@@ -20,12 +20,12 @@ import { Card } from '@/components/ui/Card';
 import { Breadcrumbs } from '@/components/ui/Breadcrumbs';
 import { Accordion } from '@/components/ui/Accordion';
 import { JsonLd } from '@/components/seo/JsonLd';
-import { breadcrumbs, faqPage } from '@/lib/jsonld';
+import { faqPage } from '@/lib/jsonld';
 import { company } from '@/data/company';
 import { findRoute } from '@/data/routes';
 
 const PATH = '/products/';
-const HERO_IMAGE = '/product-images/products-hub/hero.jpg';
+const HERO_IMAGE = '/images/products/bolts/hex-bolt-hex-nut.webp';
 
 const META_TITLE = 'Industrial Fasteners Manufacturer & Product Range | KP';
 const META_DESCRIPTION =
@@ -71,7 +71,7 @@ const PRODUCT_CARDS: ProductCardData[] = [
     badgeClass: 'badge badge-gold',
     value: 'J, L, U, headed and swedge anchors to IS 5624, DIN 529 and ASTM F1554. Mild steel, EN8D, and high-tensile grades with HDG or zinc plating.',
     standards: 'IS 5624 · DIN 529 · ASTM F1554',
-    image: '/images/products/bolts/j-bolt.jpg',
+    image: '/images/products/bolts/j-bolt.webp',
     imageAlt: 'KP Fasteners foundation bolts — J, L, U and headed anchors',
     linkText: 'View Foundation Bolts',
   },
@@ -84,7 +84,7 @@ const PRODUCT_CARDS: ProductCardData[] = [
     badgeClass: 'badge badge-gold',
     value: 'Fully threaded, tap-end, and double-end studs to ASTM A193 B7 / B8 / B8M and DIN 976 for high-pressure piping, valves, and structural flanges.',
     standards: 'ASTM A193 B7/B8/B8M · DIN 976',
-    image: '/images/products/threaded-rods/threaded-rod-stud.jpg',
+    image: '/images/products/threaded-rods/threaded-rod-stud.webp',
     imageAlt: 'KP Fasteners stud bolts — ASTM A193 B7 / B8 / B8M',
     linkText: 'View Stud Bolts',
   },
@@ -97,8 +97,8 @@ const PRODUCT_CARDS: ProductCardData[] = [
     badgeClass: 'badge badge-gold',
     value: 'Threaded sag rods and tie bars for PEB purlin bracing, structural steel frames, and solar racking cross-bracing in customizable lengths.',
     standards: 'IS 2062 · Grade 4.6 / 8.8',
-    image: '/images/products/threaded-rods/threaded-rod-stud.jpg',
-    imageAlt: 'KP Fasteners threaded sag rod — representative image',
+    image: '/images/products/threaded-rods/sag-rod.webp',
+    imageAlt: 'KP Fasteners threaded sag rod for PEB and solar purlin bracing',
     linkText: 'View Sag Rods',
   },
   // Ambiguous (2) — Hybrid: manufactured in-house or partner-supplied SKU-specific
@@ -111,7 +111,7 @@ const PRODUCT_CARDS: ProductCardData[] = [
     badgeClass: 'badge badge-gold',
     value: 'Wing nuts, tie-rod nut sets, waller plates, water stoppers, and shuttering accessories for civil formwork and staging structures.',
     standards: 'BS 1139 · EN 74 · IS 2750',
-    image: '/images/products/threaded-rods/wedge-anchor.jpg',
+    image: '/images/products/threaded-rods/wedge-anchor.webp',
     imageAlt: 'Scaffold accessories — wing nuts, nut sets, waller plates',
     linkText: 'View Scaffold Accessories',
   },
@@ -124,7 +124,7 @@ const PRODUCT_CARDS: ProductCardData[] = [
     badgeClass: 'badge badge-gold',
     value: 'Drawing-based OEM manufacturing and non-standard fastener sourcing to customer blueprints, custom step-shanks, and special threads.',
     standards: 'Custom Blueprints · ISO / DIN / ASTM',
-    image: '/images/products/bolts/socket-head-cap-screw.jpg',
+    image: '/images/products/bolts/socket-head-cap-screw.webp',
     imageAlt: 'Custom fasteners — non-standard and drawing-to-sample',
     linkText: 'View Custom Fasteners',
   },
@@ -138,7 +138,7 @@ const PRODUCT_CARDS: ProductCardData[] = [
     badgeClass: 'badge badge-steel',
     value: 'DIN 933 / DIN 931 / ISO 4017 full-thread and half-thread hex bolts with matching DIN 934 nuts in property classes 4.6, 8.8, and 10.9.',
     standards: 'DIN 933 · DIN 931 · ISO 4017 · DIN 934',
-    image: '/images/products/bolts/hex-bolt-hex-nut.jpg',
+    image: '/images/products/bolts/hex-bolt-hex-nut.webp',
     imageAlt: 'Hex bolts and nuts — DIN 933 / DIN 934 distribution range',
     linkText: 'View Hex Bolts & Nuts',
   },
@@ -151,7 +151,7 @@ const PRODUCT_CARDS: ProductCardData[] = [
     badgeClass: 'badge badge-steel',
     value: 'Countersunk socket head cap screws to DIN 7991 / ISO 10642 in high-tensile 10.9 and stainless steel for flush-mount mechanical assemblies.',
     standards: 'DIN 7991 · ISO 10642 · Grade 10.9 / A2',
-    image: '/images/products/bolts/allen-socket-csk-screw.jpg',
+    image: '/images/products/bolts/allen-socket-csk-screw.webp',
     imageAlt: 'Countersunk Allen socket screw — DIN 7991',
     linkText: 'View CSK Allen Bolts',
   },
@@ -164,7 +164,7 @@ const PRODUCT_CARDS: ProductCardData[] = [
     badgeClass: 'badge badge-steel',
     value: 'Hot-rolled and cold-drawn formwork tie rods D15 / D20, English and French thread profiles, with compatible anchor nuts for concrete formwork.',
     standards: 'D15 / D20 · Tensile 150 kN+',
-    image: '/images/products/threaded-rods/threaded-rod-stud.jpg',
+    image: '/images/products/threaded-rods/tie-rod.webp',
     imageAlt: 'Formwork tie rods — D15 and D20 diameter',
     linkText: 'View Tie Rods',
   },
@@ -177,7 +177,7 @@ const PRODUCT_CARDS: ProductCardData[] = [
     badgeClass: 'badge badge-steel',
     value: 'T-head bolts, MMS flange bolts, hanger bolts, and module clamps in SS 304 / SS 316 and hot-dip galvanized finishes for solar racking.',
     standards: 'SS 304 · SS 316 · HDG · ISO 3506',
-    image: '/images/products/bolts/hex-flange-bolt.jpg',
+    image: '/images/products/bolts/hex-flange-bolt.webp',
     imageAlt: 'Solar mounting accessories — MMS bolts, clamps, hanger bolts',
     linkText: 'View Solar Accessories',
   },
@@ -191,7 +191,7 @@ const MATERIAL_CARDS = [
     badge: 'Class 8.8, 10.9 & 12.9',
     description:
       'Property class 8.8, 10.9, and 12.9 carbon and alloy steels, plus IS 5624 property class 4.6 for foundation anchorage. Heat-treated for structural steel, heavy machinery, and high-load civil connections.',
-    image: '/product-images/high-tensile/hero.jpg',
+    image: '/product-images/high-tensile/hero.webp',
     imageAlt: 'High-tensile fasteners — property class 8.8 and 10.9 bolts',
     linkText: 'Explore High-Tensile Fasteners',
   },
@@ -202,7 +202,7 @@ const MATERIAL_CARDS = [
     badge: 'A2-70 & A4-70 Marine Grade',
     description:
       'Austenitic stainless steels providing superior atmospheric and chemical corrosion resistance. SS 304 (A2-70) for outdoor infrastructure and food-grade service; marine-grade SS 316 (A4-70) with 2–3% molybdenum for coastal and chemical environments.',
-    image: '/product-images/stainless-steel/hero.jpg',
+    image: '/product-images/stainless-steel/hero.webp',
     imageAlt: 'Stainless steel fasteners — SS 304 and SS 316 grades',
     linkText: 'Explore Stainless Steel Fasteners',
   },
@@ -216,7 +216,7 @@ const INDUSTRY_CARDS = [
     badge: 'Heavy Civil & PEB',
     description:
       'Pre-engineered buildings (PEB), structural steel framing, civil foundations, shuttering formwork, and precast infrastructure anchors meeting IS 5624 and IS 1367 load standards.',
-    image: '/product-images/construction/hero.jpg',
+    image: '/product-images/construction/hero.webp',
     imageAlt: 'Construction and infrastructure fasteners on job site',
     linkText: 'View Construction Fasteners',
   },
@@ -227,7 +227,7 @@ const INDUSTRY_CARDS = [
     badge: 'Rooftop & Utility MMS',
     description:
       'Corrosion-resistant solar module mounting structure (MMS) hardware including T-head bolts, mid/end clamps, flange nuts, and hanger bolts designed for 25-year structural service life.',
-    image: '/product-images/solar/hero.jpg',
+    image: '/product-images/solar/hero.webp',
     imageAlt: 'Solar mounting fasteners and module clamp assemblies',
     linkText: 'View Solar Fasteners',
   },
@@ -238,7 +238,7 @@ const INDUSTRY_CARDS = [
     badge: 'Machinery & Plant OEMs',
     description:
       'High-tensile socket head cap screws, precision hex fasteners, and custom drawing-matched components engineered for equipment manufacturers, tooling fixtures, and industrial machinery.',
-    image: '/product-images/automotive/hero.jpg',
+    image: '/product-images/automotive/hero.webp',
     imageAlt: 'Heavy engineering and machinery fasteners',
     linkText: 'View Heavy Engineering Fasteners',
   },
@@ -290,13 +290,11 @@ export default function ProductsHubPage() {
     },
   };
 
-  const breadcrumbSchema = breadcrumbs(trail);
   const faqSchema = faqPage(FAQS);
 
   return (
     <>
       <JsonLd data={collectionPageSchema} />
-      <JsonLd data={breadcrumbSchema} />
       <JsonLd data={faqSchema} />
 
       {/* 1. Hero Section */}
@@ -317,36 +315,33 @@ export default function ProductsHubPage() {
                 Select an engineering family below, navigate by material or industry, or share technical
                 drawings for custom precision fabrication.
               </p>
-              <div className="mt-8 flex flex-wrap gap-3">
-                <Link href="/request-quote/?src=products-hub" className="btn btn-primary">
+              <div className="mt-8 flex flex-wrap items-center gap-3.5">
+                <Link href="/request-quote/?src=products-hub" className="btn btn-primary shadow-gold">
                   <FileText aria-hidden="true" className="h-4 w-4" />
-                  &nbsp;Request a Quote
+                  <span>Request Product Range Quote</span>
+                  <ArrowRight aria-hidden="true" className="h-4 w-4 ml-0.5" />
                 </Link>
-                <a href={TEL} className="btn btn-secondary">
-                  <Phone aria-hidden="true" className="h-4 w-4 text-brand-gold-strong" />
-                  &nbsp;{company.telephones[0]}
-                </a>
                 <a
                   href={WA_URL}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="btn btn-whatsapp"
+                  className="btn btn-secondary"
                 >
-                  <MessageCircle aria-hidden="true" className="h-4 w-4" />
-                  &nbsp;WhatsApp Sales
+                  <MessageCircle aria-hidden="true" className="h-4 w-4 text-emerald-600" />
+                  <span>WhatsApp Inquiry</span>
                 </a>
               </div>
             </div>
 
             {/* VERIFICATION PENDING: Real inventory lay-flat photography for products hub hero — ref: brief §6 / §10 Q5 */}
-            <div className="relative aspect-[16/11] w-full overflow-hidden rounded-xl border border-metal-subtle bg-brand-steel-soft/30 shadow-card">
+            <div className="relative aspect-[16/11] w-full overflow-hidden rounded-xl bg-transparent p-3">
               <Image
                 src={HERO_IMAGE}
                 alt="KP Fasteners industrial fastener product range overview in Ahmedabad"
                 fill
                 priority
                 sizes="(min-width: 1024px) 45vw, 100vw"
-                className="object-cover"
+                className="object-contain"
               />
             </div>
           </div>
@@ -459,13 +454,13 @@ export default function ProductsHubPage() {
                 padding="md"
                 className="flex h-full flex-col transition-shadow hover:shadow-card-elevated"
               >
-                <div className="relative aspect-[16/10] w-full overflow-hidden rounded-lg border border-border/60 bg-brand-steel-soft/30">
+                <div className="relative aspect-[16/10] w-full overflow-hidden rounded-lg bg-transparent p-2">
                   <Image
                     src={prod.image}
                     alt={prod.imageAlt}
                     fill
                     sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
-                    className="object-cover"
+                    className="object-contain transition-transform duration-300 hover:scale-105"
                   />
                 </div>
                 <Heading as="h3" variant="card" className="mt-4">
@@ -509,13 +504,13 @@ export default function ProductsHubPage() {
           <div className="mt-8 grid gap-6 md:grid-cols-2">
             {MATERIAL_CARDS.map((mat) => (
               <Card key={mat.slug} variant="metallic" padding="lg" className="flex flex-col">
-                <div className="relative aspect-[16/9] w-full overflow-hidden rounded-md bg-brand-steel-soft/40">
+                <div className="relative aspect-[16/9] w-full overflow-hidden rounded-md bg-transparent p-2">
                   <Image
                     src={mat.image}
                     alt={mat.imageAlt}
                     fill
                     sizes="(min-width: 768px) 50vw, 100vw"
-                    className="object-cover"
+                    className="object-contain"
                   />
                 </div>
 
@@ -559,13 +554,13 @@ export default function ProductsHubPage() {
             {/* VERIFICATION PENDING: Client to confirm heavy engineering & automotive OEM client base — ref: brief §4.3 / §10 Q3 */}
             {INDUSTRY_CARDS.map((ind) => (
               <Card key={ind.slug} variant="metallic" padding="lg" className="flex flex-col">
-                <div className="relative aspect-[16/9] w-full overflow-hidden rounded-md bg-brand-steel-soft/40">
+                <div className="relative aspect-[16/9] w-full overflow-hidden rounded-md bg-transparent p-2">
                   <Image
                     src={ind.image}
                     alt={ind.imageAlt}
                     fill
                     sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
-                    className="object-cover"
+                    className="object-contain"
                   />
                 </div>
 

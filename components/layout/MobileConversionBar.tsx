@@ -47,7 +47,7 @@ export function MobileConversionBar() {
     <div
       role="complementary"
       aria-label="Quick contact"
-      className="fixed inset-x-0 bottom-0 z-30 border-t border-border bg-surface shadow-card-hover md:hidden"
+      className="fixed inset-x-0 bottom-0 z-30 border-t border-border bg-surface pb-[env(safe-area-inset-bottom)] shadow-card-hover md:hidden"
     >
       <div className="grid grid-cols-[1fr_1fr_1fr_auto]">
         <a

@@ -29,12 +29,12 @@ import { Accordion } from '@/components/ui/Accordion';
 import { SpecTable } from '@/components/ui/SpecTable';
 import { ClassificationBanner } from '@/components/ui/ClassificationBanner';
 import { JsonLd } from '@/components/seo/JsonLd';
-import { product as productSchema, faqPage, breadcrumbs as breadcrumbsSchema } from '@/lib/jsonld';
+import { product as productSchema, faqPage } from '@/lib/jsonld';
 import { findRoute } from '@/data/routes';
 import { company } from '@/data/company';
 
 const PATH = '/products/csk-allen-bolts/';
-const HERO_IMAGE = '/product-images/csk-allen/hero.jpg';
+const HERO_IMAGE = '/images/products/bolts/allen-socket-csk-screw.webp';
 
 // Title: 57 chars (50–60 range, primary keyword first). Meta description: 158 chars (150–160 range).
 const META_TITLE = 'CSK Allen Bolts Manufacturer and Supplier | DIN 7991 | KP';
@@ -427,7 +427,6 @@ export default function Page() {
           classification: 'trading',
         })}
       />
-      <JsonLd data={breadcrumbsSchema(trail)} />
       <JsonLd data={faqPage(FAQS)} />
 
       {/* 1. Hero */}
@@ -445,13 +444,14 @@ export default function Page() {
               <p className="mt-6 max-w-2xl text-lg text-ink-muted">
                 Countersunk socket head screws (DIN 7991 / ISO 10642), socket head cap screws (DIN 912 / ISO 4762), and button head screws (DIN 7380) supplied across Property Classes 8.8, 10.9, 12.9, and austenitic stainless steel. Distributed from vetted partner mills in Ahmedabad with complete EN 10204 3.1 MTC pass-through and lot traceability.
               </p>
-              <div className="mt-8 flex flex-wrap gap-3">
+              <div className="mt-8 flex flex-wrap items-center gap-3.5">
                 <Link
                   href="/request-quote/?product=csk-allen-bolts"
-                  className="btn btn-primary"
+                  className="btn btn-primary shadow-gold"
                 >
                   <FileText aria-hidden="true" className="h-4 w-4" />
-                  Request an Allen Bolt Quote
+                  <span>Request an Allen Bolt Quote</span>
+                  <ArrowRight aria-hidden="true" className="h-4 w-4 ml-0.5" />
                 </Link>
                 <a
                   href={WA_URL}
@@ -459,18 +459,14 @@ export default function Page() {
                   rel="noopener noreferrer"
                   className="btn btn-secondary"
                 >
-                  <MessageCircle aria-hidden="true" className="h-4 w-4 text-brand-gold-strong" />
-                  WhatsApp Tool-Room Desk
-                </a>
-                <a href={TEL} className="btn btn-secondary">
-                  <Phone aria-hidden="true" className="h-4 w-4 text-brand-gold-strong" />
-                  +91 98982 30448
+                  <MessageCircle aria-hidden="true" className="h-4 w-4 text-emerald-600" />
+                  <span>WhatsApp Tool-Room Desk</span>
                 </a>
               </div>
             </div>
             <div>
               <Card variant="metallic" padding="lg" className="overflow-hidden">
-                <div className="relative aspect-[4/3] w-full overflow-hidden rounded-md bg-brand-steel-soft/40">
+                <div className="relative aspect-[4/3] w-full overflow-hidden rounded-md bg-transparent p-3">
                   <Image
                     src={HERO_IMAGE}
                     alt="KP Fasteners CSK Allen bolts and socket head screws inventory — DIN 7991 countersunk, DIN 912 socket cap, and DIN 7380 button head in Grade 10.9, 12.9, and stainless steel"

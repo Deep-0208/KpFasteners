@@ -23,8 +23,8 @@ export function Section({
     <Tag
       id={id}
       className={cn(
-        'py-12 md:py-16 lg:py-24',
-        variant === 'alt' ? 'bg-surface' : 'bg-bg',
+        'py-8 md:py-10 lg:py-12',
+        variant === 'alt' ? 'bg-slate-100/70 border-y border-slate-200/80' : 'bg-transparent',
         className,
       )}
       {...rest}

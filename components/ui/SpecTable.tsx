@@ -20,8 +20,12 @@ export function SpecTable({
   caption?: string;
 }) {
   return (
-    <div className="overflow-x-auto rounded-lg border border-border">
-      <table className="min-w-full text-sm">
+    <div className="relative">
+      <div className="sm:hidden mb-1.5 flex items-center justify-end gap-1 text-[11px] font-semibold text-slate-500">
+        <span>Swipe table horizontally →</span>
+      </div>
+      <div className="overflow-x-auto rounded-lg border border-border shadow-xs">
+        <table className="min-w-full text-sm">
         {caption && (
           <caption className="p-2 text-left text-ink-muted">{caption}</caption>
         )}
@@ -62,5 +66,6 @@ export function SpecTable({
         </tbody>
       </table>
     </div>
-  );
+  </div>
+);
 }

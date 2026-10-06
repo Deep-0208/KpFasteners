@@ -8,7 +8,7 @@ import { Heading } from '@/components/ui/Heading';
 import { Card } from '@/components/ui/Card';
 import { Breadcrumbs } from '@/components/ui/Breadcrumbs';
 import { JsonLd } from '@/components/seo/JsonLd';
-import { contactPage, localBusiness, breadcrumbs } from '@/lib/jsonld';
+import { contactPage } from '@/lib/jsonld';
 import { company } from '@/data/company';
 import { findRoute } from '@/data/routes';
 
@@ -38,10 +38,6 @@ export default function ContactPage() {
   return (
     <>
       <JsonLd data={contactPage('/contact/')} />
-      {/* NOTE: localBusiness JSON-LD does not include `geo` yet — lat/lng
-          pending from Google Maps. DO NOT invent coordinates. */}
-      <JsonLd data={localBusiness()} />
-      <JsonLd data={breadcrumbs(trail)} />
 
       <Section>
         <Container>

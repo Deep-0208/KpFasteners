@@ -34,7 +34,7 @@ import { findRoute } from '@/data/routes';
 import { company } from '@/data/company';
 
 const PATH = '/materials/stainless-steel-fasteners/';
-const HERO_IMAGE = '/product-images/stainless-steel/hero.jpg';
+const HERO_IMAGE = '/images/products/bolts/allen-socket-button-head-screw.webp';
 
 // Title: 59 chars (50–60 range). Meta description: 156 chars (150–160 range).
 const META_TITLE = 'Stainless Steel Fasteners Manufacturer | SS 304 vs 316 | KP';
@@ -312,32 +312,29 @@ export default function Page() {
               <p className="mt-6 max-w-2xl text-lg text-ink-muted">
                 A technical guide to austenitic stainless steel fasteners (SS 304, 304L, 316, 316L, 316Ti) and duplex alloys under ISO 3506. Understand pitting resistance, corrosion tradeoffs, cold-work magnetism, and when to specify molybdenum-bearing grades for solar, marine, and chemical service.
               </p>
-              <div className="mt-8 flex flex-wrap gap-3">
+              <div className="mt-8 flex flex-wrap items-center gap-3.5">
                 <Link
                   href="/request-quote/?material=stainless-steel"
-                  className="btn btn-primary"
+                  className="btn btn-primary shadow-gold"
                 >
                   <FileText aria-hidden="true" className="h-4 w-4" />
-                  &nbsp;Request an SS fastener quote
+                  <span>Request SS Fastener Quote</span>
+                  <ArrowRight aria-hidden="true" className="h-4 w-4 ml-0.5" />
                 </Link>
                 <a
                   href={WA_URL}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="btn btn-whatsapp"
+                  className="btn btn-secondary"
                 >
-                  <MessageCircle aria-hidden="true" className="h-4 w-4" />
-                  &nbsp;WhatsApp grade question
-                </a>
-                <a href={TEL} className="btn btn-secondary">
-                  <Phone aria-hidden="true" className="h-4 w-4" />
-                  &nbsp;{company.telephones[0]}
+                  <MessageCircle aria-hidden="true" className="h-4 w-4 text-emerald-600" />
+                  <span>WhatsApp Grade Question</span>
                 </a>
               </div>
             </div>
             <div className="relative">
               <Card variant="metallic" padding="lg" className="overflow-hidden">
-                <div className="relative aspect-[4/3] w-full overflow-hidden rounded-md bg-brand-steel-soft/40">
+                <div className="relative aspect-[4/3] w-full overflow-hidden rounded-md bg-transparent p-3">
                   <Image
                     src={HERO_IMAGE}
                     alt="KP Fasteners stainless steel fasteners inventory — SS 304 and SS 316 bolts, studs, and precision hardware"

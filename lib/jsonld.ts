@@ -13,15 +13,15 @@ export function organization() {
     '@id': ORG_ID,
     name: company.legalName,
     url: SITE_URL,
-    logo: `${SITE_URL}/brand/logo.jpg.jpeg`,
+    logo: `${SITE_URL}/brand/logo.webp`,
     email: company.email,
     telephone: company.telephones[0],
     sameAs: company.sameAs,
     founder: {
       '@type': 'Person',
-      name: company.contactPerson,
+      name: company.proprietor ?? company.contactPerson,
     },
-    foundingDate: company.commencementDate ?? '2015-08-01',
+    foundingDate: company.commencementDate ?? '2017-07-01',
     taxID: company.gstin,
     address: {
       '@type': 'PostalAddress',
@@ -52,6 +52,7 @@ export function localBusiness() {
     '@id': LOCALBUSINESS_ID,
     name: company.legalName,
     url: SITE_URL,
+    image: `${SITE_URL}/brand/logo.webp`,
     telephone: company.telephones[0],
     email: company.email,
     address: {
@@ -62,6 +63,23 @@ export function localBusiness() {
       postalCode: company.address.postalCode,
       addressCountry: company.address.country,
     },
+    // Ahmedabad plant with pan-India dispatch — declare both the city and the
+    // national supply footprint for local + national relevance.
+    areaServed: [
+      { '@type': 'City', name: 'Ahmedabad' },
+      { '@type': 'Country', name: 'India' },
+    ],
+    // geo is emitted only once the real Google Business Profile pin is supplied
+    // in data/company.ts (company.geo). Never ship fabricated coordinates.
+    ...(company.geo
+      ? {
+          geo: {
+            '@type': 'GeoCoordinates',
+            latitude: company.geo.lat,
+            longitude: company.geo.lng,
+          },
+        }
+      : {}),
     ...(company.hours ? { openingHours: company.hours } : {}),
   };
 }

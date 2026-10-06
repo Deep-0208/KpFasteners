@@ -28,12 +28,12 @@ import { Accordion } from '@/components/ui/Accordion';
 import { SpecTable } from '@/components/ui/SpecTable';
 import { ClassificationBanner } from '@/components/ui/ClassificationBanner';
 import { JsonLd } from '@/components/seo/JsonLd';
-import { product as productSchema, faqPage, breadcrumbs as breadcrumbsSchema } from '@/lib/jsonld';
+import { product as productSchema, faqPage } from '@/lib/jsonld';
 import { findRoute } from '@/data/routes';
 import { company } from '@/data/company';
 
 const PATH = '/products/tie-rods/';
-const HERO_IMAGE = '/product-images/tie-rods/hero.jpg';
+const HERO_IMAGE = '/images/products/threaded-rods/tie-rod.webp';
 
 // Title: 57 chars (50–60 range, primary keyword first). Meta description: 156 chars (150–160 range).
 const META_TITLE = 'Tie Rod Manufacturer and Formwork Supplier | D15 D20 | KP';
@@ -562,7 +562,6 @@ export default function Page() {
           classification: 'trading',
         })}
       />
-      <JsonLd data={breadcrumbsSchema(trail)} />
       <JsonLd data={faqPage(FAQS)} />
 
       {/* 1. Hero */}
@@ -580,13 +579,14 @@ export default function Page() {
               <p className="mt-6 max-w-2xl text-lg text-ink-muted">
                 D15 and D20 continuous coil-threaded formwork tie rods supplied alongside matching malleable wing nuts, anchor spreader plates, water-stop assemblies, and chamfer cones. Sourced through vetted primary mills in Ahmedabad with complete EN 10204 3.1 MTC pass-through.
               </p>
-              <div className="mt-8 flex flex-wrap gap-3">
+              <div className="mt-8 flex flex-wrap items-center gap-3.5">
                 <Link
                   href="/request-quote/?product=tie-rods"
-                  className="btn btn-primary"
+                  className="btn btn-primary shadow-gold"
                 >
                   <FileText aria-hidden="true" className="h-4 w-4" />
-                  Request a Tie-Rod BOQ Quote
+                  <span>Request a Tie-Rod BOQ Quote</span>
+                  <ArrowRight aria-hidden="true" className="h-4 w-4 ml-0.5" />
                 </Link>
                 <a
                   href={WA_URL}
@@ -594,18 +594,14 @@ export default function Page() {
                   rel="noopener noreferrer"
                   className="btn btn-secondary"
                 >
-                  <MessageCircle aria-hidden="true" className="h-4 w-4 text-brand-gold-strong" />
-                  WhatsApp Formwork Desk
-                </a>
-                <a href={TEL} className="btn btn-secondary">
-                  <Phone aria-hidden="true" className="h-4 w-4 text-brand-gold-strong" />
-                  +91 98982 30448
+                  <MessageCircle aria-hidden="true" className="h-4 w-4 text-emerald-600" />
+                  <span>WhatsApp Formwork Desk</span>
                 </a>
               </div>
             </div>
             <div>
               <Card variant="metallic" padding="lg" className="overflow-hidden">
-                <div className="relative aspect-[4/3] w-full overflow-hidden rounded-md bg-brand-steel-soft/40">
+                <div className="relative aspect-[4/3] w-full overflow-hidden rounded-md bg-transparent p-3">
                   <Image
                     src={HERO_IMAGE}
                     alt="KP Fasteners formwork tie rods inventory — D15 and D20 coil rods, matching hex wing nuts, and anchor spreader plates"

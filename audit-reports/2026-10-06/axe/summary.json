@@ -1,0 +1,80 @@
+[
+  {
+    "route": "/",
+    "slug": "home",
+    "status": "violations_found",
+    "file": "C:\\Users\\DELL\\Desktop\\SEO\\KpFasteners SEO\\audit-reports\\2026-10-06\\axe\\home.json"
+  },
+  {
+    "route": "/about/",
+    "slug": "about",
+    "status": "violations_found",
+    "file": "C:\\Users\\DELL\\Desktop\\SEO\\KpFasteners SEO\\audit-reports\\2026-10-06\\axe\\about.json"
+  },
+  {
+    "route": "/tools/",
+    "slug": "tools",
+    "status": "violations_found",
+    "file": "C:\\Users\\DELL\\Desktop\\SEO\\KpFasteners SEO\\audit-reports\\2026-10-06\\axe\\tools.json"
+  },
+  {
+    "route": "/contact/",
+    "slug": "contact",
+    "status": "violations_found",
+    "file": "C:\\Users\\DELL\\Desktop\\SEO\\KpFasteners SEO\\audit-reports\\2026-10-06\\axe\\contact.json"
+  },
+  {
+    "route": "/request-quote/",
+    "slug": "request-quote",
+    "status": "violations_found",
+    "file": "C:\\Users\\DELL\\Desktop\\SEO\\KpFasteners SEO\\audit-reports\\2026-10-06\\axe\\request-quote.json"
+  },
+  {
+    "route": "/products/",
+    "slug": "products",
+    "status": "violations_found",
+    "file": "C:\\Users\\DELL\\Desktop\\SEO\\KpFasteners SEO\\audit-reports\\2026-10-06\\axe\\products.json"
+  },
+  {
+    "route": "/products/foundation-bolts/",
+    "slug": "products-foundation-bolts",
+    "status": "violations_found",
+    "file": "C:\\Users\\DELL\\Desktop\\SEO\\KpFasteners SEO\\audit-reports\\2026-10-06\\axe\\products-foundation-bolts.json"
+  },
+  {
+    "route": "/products/stud-bolts/",
+    "slug": "products-stud-bolts",
+    "status": "violations_found",
+    "file": "C:\\Users\\DELL\\Desktop\\SEO\\KpFasteners SEO\\audit-reports\\2026-10-06\\axe\\products-stud-bolts.json"
+  },
+  {
+    "route": "/materials/high-tensile-fasteners/",
+    "slug": "materials-high-tensile-fasteners",
+    "status": "violations_found",
+    "file": "C:\\Users\\DELL\\Desktop\\SEO\\KpFasteners SEO\\audit-reports\\2026-10-06\\axe\\materials-high-tensile-fasteners.json"
+  },
+  {
+    "route": "/materials/stainless-steel-fasteners/",
+    "slug": "materials-stainless-steel-fasteners",
+    "status": "violations_found",
+    "file": "C:\\Users\\DELL\\Desktop\\SEO\\KpFasteners SEO\\audit-reports\\2026-10-06\\axe\\materials-stainless-steel-fasteners.json"
+  },
+  {
+    "route": "/industries/construction-infrastructure/",
+    "slug": "industries-construction-infrastructure",
+    "status": "violations_found",
+    "file": "C:\\Users\\DELL\\Desktop\\SEO\\KpFasteners SEO\\audit-reports\\2026-10-06\\axe\\industries-construction-infrastructure.json"
+  },
+  {
+    "route": "/terms/",
+    "slug": "terms",
+    "status": "violations_found",
+    "file": "C:\\Users\\DELL\\Desktop\\SEO\\KpFasteners SEO\\audit-reports\\2026-10-06\\axe\\terms.json"
+  },
+  {
+    "route": "/privacy-policy/",
+    "slug": "privacy-policy",
+    "status": "violations_found",
+    "file": "C:\\Users\\DELL\\Desktop\\SEO\\KpFasteners SEO\\audit-reports\\2026-10-06\\axe\\privacy-policy.json"
+  }
+]

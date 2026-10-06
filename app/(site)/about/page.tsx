@@ -30,12 +30,12 @@ import { Breadcrumbs } from '@/components/ui/Breadcrumbs';
 import { Accordion } from '@/components/ui/Accordion';
 import { SpecTable } from '@/components/ui/SpecTable';
 import { JsonLd } from '@/components/seo/JsonLd';
-import { organization, breadcrumbs, faqPage } from '@/lib/jsonld';
+import { faqPage } from '@/lib/jsonld';
 import { findRoute } from '@/data/routes';
 import { company } from '@/data/company';
 
 const PATH = '/about/';
-const HERO_IMAGE = '/product-images/about/facility.jpg';
+const HERO_IMAGE = '/product-images/about/facility.webp';
 
 // Title: 57 chars (50–60 range, primary keyword first). Meta description: 158 chars (150–160 range).
 const META_TITLE = 'Fastener Manufacturer Ahmedabad | About KP Fasteners | KP';
@@ -279,18 +279,9 @@ export default function AboutPage() {
     mainEntity: { '@id': `${SITE_URL}/#organization` },
   };
 
-  const localBusinessRef = {
-    '@context': 'https://schema.org',
-    '@type': 'LocalBusiness',
-    '@id': `${SITE_URL}/#localbusiness`,
-  };
-
   return (
     <>
       <JsonLd data={aboutPageSchema} />
-      <JsonLd data={organization()} />
-      <JsonLd data={localBusinessRef} />
-      <JsonLd data={breadcrumbs(trail)} />
       <JsonLd data={faqPage(FAQS)} />
 
       {/* 1. Hero */}
@@ -308,13 +299,14 @@ export default function AboutPage() {
               <p className="mt-6 max-w-2xl text-lg text-ink-muted">
                 KP Fasteners is an Ahmedabad-based industrial fastener manufacturer and wholesale distributor operating from 23/4 Ghanshyam Industrial Estate, Margha Farm, Ahmedabad. We manufacture four dedicated OEM product lines in-house and distribute a broad range of standard industrial fasteners backed by verified mill test certification.
               </p>
-              <div className="mt-8 flex flex-wrap gap-3">
+              <div className="mt-8 flex flex-wrap items-center gap-3.5">
                 <Link
                   href="/request-quote/?src=about"
-                  className="btn btn-primary"
+                  className="btn btn-primary shadow-gold"
                 >
                   <FileText aria-hidden="true" className="h-4 w-4" />
-                  Request a Project Quote
+                  <span>Request a Project Quote</span>
+                  <ArrowRight aria-hidden="true" className="h-4 w-4 ml-0.5" />
                 </Link>
                 <a
                   href={WA_URL}
@@ -322,18 +314,14 @@ export default function AboutPage() {
                   rel="noopener noreferrer"
                   className="btn btn-secondary"
                 >
-                  <MessageCircle aria-hidden="true" className="h-4 w-4 text-brand-gold-strong" />
-                  WhatsApp Sales Desk
-                </a>
-                <a href={TEL} className="btn btn-secondary">
-                  <Phone aria-hidden="true" className="h-4 w-4 text-brand-gold-strong" />
-                  +91 98982 30448
+                  <MessageCircle aria-hidden="true" className="h-4 w-4 text-emerald-600" />
+                  <span>WhatsApp Sales Desk</span>
                 </a>
               </div>
             </div>
             <div>
               <Card variant="metallic" padding="lg" className="overflow-hidden">
-                <div className="relative aspect-[4/3] w-full overflow-hidden rounded-md bg-brand-steel-soft/40">
+                <div className="relative aspect-[4/3] w-full overflow-hidden rounded-md bg-transparent p-3">
                   <Image
                     src={HERO_IMAGE}
                     alt="KP Fasteners facility sign board and industrial manufacturing plant in Ahmedabad, Gujarat"

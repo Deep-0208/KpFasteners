@@ -29,12 +29,12 @@ import { findRoute } from '@/data/routes';
 import { company } from '@/data/company';
 
 const PATH = '/industries/solar-mounting-fasteners/';
-const HERO_IMAGE = '/product-images/solar/hero.jpg';
+const HERO_IMAGE = '/images/products/bolts/hex-flange-bolt.webp';
 
 // Title: 59 chars (50–60 range). Meta description: 160 chars (150–160 range).
 const META_TITLE = 'Solar Mounting Bolts Supplier | Rooftop & Ground-Mount | KP';
 const META_DESCRIPTION =
-  'Fastener BOMs for rooftop residential, C&I, ground-mount & tracker solar: SS 304/316 module hardware, HDG substructure & OEM pier anchors. Request an RFQ quote.';
+  'Solar fastener BOMs for rooftop, commercial, and tracker projects: SS 304/316 hardware, HDG substructure, and OEM pier anchors. Request an RFQ quote.';
 
 export const metadata: Metadata = buildMetadata({
   path: PATH,
@@ -389,32 +389,29 @@ export default function Page() {
               <p className="mt-6 max-w-2xl text-lg text-ink-muted">
                 Engineered fastener bills of materials (BOMs) for utility ground-mount, commercial rooftop, and tracker solar arrays. From in-house manufactured foundation pier anchors to corrosion-resistant SS 304/316 module mounting hardware, delivered across India.
               </p>
-              <div className="mt-8 flex flex-wrap gap-3">
+              <div className="mt-8 flex flex-wrap items-center gap-3.5">
                 <Link
                   href="/request-quote/?industry=solar"
-                  className="btn btn-primary"
+                  className="btn btn-primary shadow-gold"
                 >
                   <FileText aria-hidden="true" className="h-4 w-4" />
-                  &nbsp;Send a solar BOQ
+                  <span>Send a Solar BOQ</span>
+                  <ArrowRight aria-hidden="true" className="h-4 w-4 ml-0.5" />
                 </Link>
                 <a
                   href={WA_URL}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="btn btn-whatsapp"
+                  className="btn btn-secondary"
                 >
-                  <MessageCircle aria-hidden="true" className="h-4 w-4" />
-                  &nbsp;WhatsApp our solar desk
-                </a>
-                <a href={TEL} className="btn btn-secondary">
-                  <Phone aria-hidden="true" className="h-4 w-4" />
-                  &nbsp;{company.telephones[0]}
+                  <MessageCircle aria-hidden="true" className="h-4 w-4 text-emerald-600" />
+                  <span>WhatsApp Solar Desk</span>
                 </a>
               </div>
             </div>
             <div className="relative">
               <Card variant="metallic" padding="lg" className="overflow-hidden">
-                <div className="relative aspect-[4/3] w-full overflow-hidden rounded-md bg-brand-steel-soft/40">
+                <div className="relative aspect-[4/3] w-full overflow-hidden rounded-md bg-transparent p-3">
                   <Image
                     src={HERO_IMAGE}
                     alt="KP Fasteners solar mounting hardware — T-bolts, mid and end clamps, foundation bolts, and purlin fasteners for solar structures"

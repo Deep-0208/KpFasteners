@@ -6,7 +6,7 @@ import { Heading } from '@/components/ui/Heading';
 import { Card } from '@/components/ui/Card';
 import { Breadcrumbs } from '@/components/ui/Breadcrumbs';
 import { JsonLd } from '@/components/seo/JsonLd';
-import { contactPage, breadcrumbs } from '@/lib/jsonld';
+import { contactPage } from '@/lib/jsonld';
 import { findRoute } from '@/data/routes';
 import { productCategories } from '@/data/products';
 import { RFQForm } from '@/components/forms/RFQForm';
@@ -37,7 +37,6 @@ export default function RequestQuotePage() {
   return (
     <>
       <JsonLd data={contactPage('/request-quote/')} />
-      <JsonLd data={breadcrumbs(trail)} />
 
       <Section>
         <Container>

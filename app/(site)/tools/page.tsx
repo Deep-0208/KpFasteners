@@ -8,18 +8,18 @@ import { Accordion } from '@/components/ui/Accordion';
 import { JsonLd } from '@/components/seo/JsonLd';
 import { FastenerToolsHub } from '@/components/tools/FastenerToolsHub';
 import { buildMetadata, SITE_URL } from '@/lib/seo';
-import { breadcrumbs as breadcrumbsSchema, faqPage } from '@/lib/jsonld';
+import { faqPage } from '@/lib/jsonld';
 import { findRoute } from '@/data/routes';
 import { company } from '@/data/company';
-import { FileText, Phone, MessageCircle, Scale, Wrench, Anchor, CheckCircle2 } from 'lucide-react';
+import { FileText, MessageCircle, Scale, Wrench, Anchor, CheckCircle2 } from 'lucide-react';
 
 const PATH = '/tools/';
 
 export const metadata: Metadata = buildMetadata({
   path: PATH,
-  title: 'Fastener Weight & Torque Calculator | Engineering Tools | KP Fasteners',
+  title: 'Fastener Weight & Torque Calculator | KP Fasteners',
   description:
-    'Free industrial fastener engineering calculators: theoretical weight estimator for bolts, nuts and studs, bolt tightening torque calculator, and foundation embedment estimator. KP Fasteners Ahmedabad.',
+    'Free industrial fastener engineering calculators: bolt and nut weight estimator, tightening torque, and foundation embedment depth. KP Fasteners.',
 });
 
 const FAQS = [
@@ -70,13 +70,11 @@ export default function ToolsPage() {
     },
   };
 
-  const tel = `tel:${company.telephones[0].replace(/[^\d+]/g, '')}`;
   const wa = `https://wa.me/${company.whatsapp.number.replace(/[^\d]/g, '')}?text=${encodeURIComponent('Hello KP Fasteners, I calculated my fastener requirements using your Engineering Tools and would like to request an official quote.')}`;
 
   return (
     <>
       <JsonLd data={webAppSchema} />
-      <JsonLd data={breadcrumbsSchema(trail)} />
       <JsonLd data={faqPage(FAQS)} />
 
       {/* 1. HERO SECTION */}
@@ -236,19 +234,11 @@ export default function ToolsPage() {
             <div className="flex flex-col gap-3 sm:flex-row lg:col-span-4 lg:justify-end">
               <Link
                 href="/request-quote/"
-                className="btn btn-primary btn-shimmer flex items-center justify-center gap-2 py-3 px-6 text-sm font-semibold shadow-lg"
+                className="btn btn-primary btn-shimmer flex items-center justify-center gap-2 py-3 px-6 text-sm font-semibold shadow-gold"
               >
                 <FileText aria-hidden="true" className="h-4 w-4" />
-                Submit Drawing for RFQ
+                <span>Submit Drawing for RFQ</span>
               </Link>
-
-              <a
-                href={tel}
-                className="inline-flex items-center justify-center gap-2 rounded-xl border border-white/20 bg-white/5 py-3 px-5 text-sm font-semibold text-white hover:bg-white/10 transition-colors"
-              >
-                <Phone aria-hidden="true" className="h-4 w-4 text-brand-gold" />
-                Call Desk
-              </a>
 
               <a
                 href={wa}
@@ -257,7 +247,7 @@ export default function ToolsPage() {
                 className="inline-flex items-center justify-center gap-2 rounded-xl border border-white/20 bg-white/5 py-3 px-5 text-sm font-semibold text-white hover:bg-white/10 transition-colors"
               >
                 <MessageCircle aria-hidden="true" className="h-4 w-4 text-accent-green" />
-                WhatsApp Sales
+                <span>WhatsApp Sales Desk</span>
               </a>
             </div>
           </div>
