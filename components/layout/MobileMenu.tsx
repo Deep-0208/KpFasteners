@@ -1,25 +1,42 @@
 'use client';
 
 import Link from 'next/link';
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState, useSyncExternalStore } from 'react';
+import { createPortal } from 'react-dom';
 import { Menu, X, FileText, Phone, MessageCircle } from 'lucide-react';
 import { headerNav, footerGroups } from '@/data/navigation';
 import { company } from '@/data/company';
 
+const emptySubscribe = () => () => {};
+
 /**
  * Full-screen mobile drawer.
+ *   - Portaled to document.body so ancestor transforms/backdrop-filters cannot clip it.
  *   - Esc closes.
+ *   - Auto-closes when window resized to desktop.
  *   - Focus is trapped inside the drawer while open.
  *   - Scroll lock on <body> while open.
- *   - Bottom padding prevents overlap with MobileConversionBar.
+ *   - Bottom padding prevents overlap with mobile conversion bars.
  */
 export function MobileMenu() {
   const [open, setOpen] = useState(false);
+  const mounted = useSyncExternalStore(emptySubscribe, () => true, () => false);
   const dialogRef = useRef<HTMLDivElement>(null);
   const openerRef = useRef<HTMLButtonElement>(null);
 
   const tel = `tel:${company.telephones[0].replace(/[^\d+]/g, '')}`;
   const wa = `https://wa.me/${company.whatsapp.number.replace(/[^\d]/g, '')}?text=${encodeURIComponent(company.whatsapp.prefill)}`;
+
+  // Auto-close on resize to desktop breakpoint
+  useEffect(() => {
+    const onResize = () => {
+      if (window.innerWidth >= 1024) {
+        setOpen(false);
+      }
+    };
+    window.addEventListener('resize', onResize);
+    return () => window.removeEventListener('resize', onResize);
+  }, []);
 
   useEffect(() => {
     if (!open) return;
@@ -61,7 +78,7 @@ export function MobileMenu() {
   }, [open]);
 
   return (
-    <div className="md:hidden">
+    <div className="lg:hidden">
       <button
         ref={openerRef}
         type="button"
@@ -74,16 +91,16 @@ export function MobileMenu() {
         {open ? <X aria-hidden="true" className="h-5 w-5" /> : <Menu aria-hidden="true" className="h-5 w-5" />}
       </button>
 
-      {open && (
+      {open && mounted && createPortal(
         <div
           id="mobile-menu"
           ref={dialogRef}
           role="dialog"
           aria-modal="true"
           aria-label="Main navigation"
-          className="fixed inset-x-0 bottom-0 top-[72px] md:top-20 z-50 overflow-y-auto bg-white pb-28 shadow-2xl transition-all"
+          className="fixed inset-x-0 bottom-0 top-[72px] z-50 overflow-y-auto bg-white pb-36 shadow-2xl transition-all lg:hidden"
         >
-          <nav aria-label="Mobile primary" className="px-4 py-5">
+          <nav aria-label="Mobile primary" className="mx-auto max-w-lg px-4 py-5">
             {/* Top Quick Actions */}
             <div className="mb-5 space-y-2.5 rounded-xl border border-slate-200 bg-slate-50/80 p-3.5">
               <Link
@@ -121,7 +138,7 @@ export function MobileMenu() {
                   <Link
                     href={item.href}
                     onClick={() => setOpen(false)}
-                    className="flex min-h-[48px] items-center rounded-lg px-3 py-3 text-base font-semibold text-ink transition-colors hover:bg-surface-alt"
+                    className="flex min-h-[48px] items-center rounded-lg px-3.5 py-3 text-base font-semibold text-slate-800 transition-colors hover:bg-slate-100 hover:text-amber-900"
                   >
                     {item.label}
                   </Link>
@@ -130,12 +147,12 @@ export function MobileMenu() {
             </ul>
 
             {/* Categorized Product & Material Links */}
-            <div className="mt-6 grid gap-6 border-t border-border pt-6">
+            <div className="mt-6 grid gap-6 border-t border-slate-200 pt-6">
               {footerGroups
                 .filter((g) => g.label === 'Products' || g.label === 'Materials' || g.label === 'Industries')
                 .map((group) => (
                   <div key={group.label}>
-                    <p className="mb-2 text-xs font-semibold uppercase tracking-wider text-brand-gold-strong">
+                    <p className="mb-2 text-xs font-bold uppercase tracking-wider text-amber-700">
                       {group.label}
                     </p>
                     <ul className="space-y-1">
@@ -144,7 +161,7 @@ export function MobileMenu() {
                           <Link
                             href={i.href}
                             onClick={() => setOpen(false)}
-                            className="flex min-h-[44px] items-center rounded-md px-3 py-2 text-sm text-ink hover:bg-surface-alt"
+                            className="flex min-h-[44px] items-center rounded-md px-3 py-2 text-sm text-slate-700 hover:bg-slate-100 hover:text-slate-900"
                           >
                             {i.label}
                           </Link>
@@ -155,7 +172,8 @@ export function MobileMenu() {
                 ))}
             </div>
           </nav>
-        </div>
+        </div>,
+        document.body
       )}
     </div>
   );

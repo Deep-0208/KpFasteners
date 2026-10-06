@@ -29,7 +29,6 @@ import { ClassificationBanner } from '@/components/ui/ClassificationBanner';
 import { JsonLd } from '@/components/seo/JsonLd';
 import { product as productSchema, faqPage } from '@/lib/jsonld';
 import { findRoute } from '@/data/routes';
-import { company } from '@/data/company';
 
 const PATH = '/products/stud-bolts/';
 const HERO_IMAGE = '/images/products/threaded-rods/threaded-rod-stud.webp';

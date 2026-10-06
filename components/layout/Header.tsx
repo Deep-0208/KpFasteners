@@ -84,12 +84,12 @@ export function Header() {
   return (
     <header
       ref={headerRef}
-      className="sticky top-0 z-40 w-full border-b border-slate-200/90 bg-white/98 shadow-[0_2px_12px_rgba(15,23,42,0.06)] backdrop-blur-md"
+      className="sticky top-0 z-40 w-full border-b border-slate-200/90 bg-white shadow-[0_2px_12px_rgba(15,23,42,0.06)]"
     >
       <Container className="relative">
-        <div className="flex h-[72px] md:h-20 items-center justify-between gap-4">
+        <div className="flex h-[72px] lg:h-20 items-center justify-between gap-4">
             {/* Brand Logo Zone with Vertical Divider */}
-            <div className="flex items-center">
+            <div className="flex items-center shrink-0">
               <Link
                 href="/"
                 className="flex items-center rounded-md p-1 focus:outline-none focus-visible:ring-2 focus-visible:ring-amber-500"
@@ -101,7 +101,7 @@ export function Header() {
                   width={986}
                   height={651}
                   priority
-                  className="h-12 w-auto object-contain md:h-14 lg:h-[62px]"
+                  className="h-11 w-auto object-contain sm:h-12 lg:h-[58px]"
                 />
               </Link>
               <div
@@ -111,7 +111,7 @@ export function Header() {
             </div>
 
             {/* Desktop Navigation Links */}
-            <nav aria-label="Primary" className="hidden h-full items-center md:flex">
+            <nav aria-label="Primary" className="hidden h-full items-center lg:flex">
               <ul className="flex h-full items-center gap-1">
                 {headerNav.map((item) => {
                   const isProducts = item.href === '/products/';
@@ -133,7 +133,7 @@ export function Header() {
                         aria-haspopup={isProducts ? 'true' : undefined}
                         aria-controls={isProducts ? 'products-mega-menu' : undefined}
                         onKeyDown={(e) => isProducts && handleNavKeyDown(e, 'Products')}
-                        className={`inline-flex items-center gap-1.5 rounded-lg px-3.5 py-2 font-heading text-[14.5px] font-semibold tracking-tight transition-all duration-150 focus:outline-none focus-visible:ring-2 focus-visible:ring-amber-500 ${
+                        className={`inline-flex items-center gap-1.5 rounded-lg px-3 py-2 font-heading text-[14px] xl:text-[14.5px] xl:px-3.5 font-semibold tracking-tight transition-all duration-150 focus:outline-none focus-visible:ring-2 focus-visible:ring-amber-500 ${
                           isActive || isMenuOpen
                             ? 'bg-amber-50 text-amber-900 border border-amber-200/80 shadow-xs'
                             : 'text-slate-700 hover:bg-slate-100/80 hover:text-slate-900 border border-transparent'
@@ -156,11 +156,11 @@ export function Header() {
             </nav>
 
             {/* Right Action Affordances */}
-            <div className="hidden items-center gap-3 md:flex">
+            <div className="hidden items-center gap-3 lg:flex">
               {/* Direct Sales Hotline */}
               <a
                 href={tel}
-                className="group hidden items-center gap-2.5 rounded-lg border border-slate-200/90 bg-slate-50/70 px-3 py-1.5 transition-all hover:border-amber-300 hover:bg-amber-50/50 lg:flex"
+                className="group hidden items-center gap-2.5 rounded-lg border border-slate-200/90 bg-slate-50/70 px-3 py-1.5 transition-all hover:border-amber-300 hover:bg-amber-50/50 xl:flex"
                 aria-label={`Call ${company.telephones[0]}`}
               >
                 <div className="flex h-7 w-7 items-center justify-center rounded-md bg-amber-100 text-amber-800 group-hover:bg-amber-500 group-hover:text-white transition-colors">
