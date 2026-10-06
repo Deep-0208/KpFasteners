@@ -64,7 +64,8 @@ __pycache__/
 *.crt
 *.cert
 
-# IDE & Code Editors
+# IDE & Code Editors / Agents
+.agents/
 .vscode/
 .idea/
 .cursor/
