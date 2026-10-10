@@ -65,7 +65,7 @@ export async function POST(req: Request) {
     await resend.emails.send({
       from: 'KP Fasteners <noreply@kpfasteners.com>',
       to,
-      subject: `New contact — ${parsed.data.fullName}`,
+      subject: `New contact - ${parsed.data.fullName}`,
       text: `${parsed.data.fullName} <${parsed.data.email}>\n\n${parsed.data.message}`,
     });
   } catch (err) {

@@ -37,7 +37,7 @@ const HERO_IMAGE = '/images/products/threaded-rods/wedge-anchor.webp';
 // Title: 56 chars. Meta description: 155 chars.
 const META_TITLE = 'Scaffold Accessories Supplier | Tie Rods, Wing Nuts | KP';
 const META_DESCRIPTION =
-  'Formwork tie rods (D15/D20), wing nuts, waller plates and shuttering hardware — manufactured and supplied from Ahmedabad, HDG options, MTC. Request BOQ.';
+  'Formwork tie rods (D15/D20), wing nuts, waller plates and shuttering hardware - manufactured and supplied from Ahmedabad, HDG options, MTC. Request BOQ.';
 
 export const metadata: Metadata = buildMetadata({
   path: PATH,
@@ -54,7 +54,7 @@ const FAQS = [
   {
     question: 'What tie-rod diameters do you supply for formwork?',
     answer:
-      'D15 (nominal Ø15 mm) and D20 (nominal Ø20 mm) are the two standard formwork tie-rod diameters we quote against — D15 is the workhorse for standard wall and column shutters, D20 is specified where higher concrete pressure or wider walls require a higher safe working load (bridge piers, retaining walls, heavier precast forms). Wing nuts and waller plates come in matching sizes and are not interchangeable between D15 and D20. Specify system (PERI-style / Doka-style / generic) on the RFQ and we confirm fit before despatch.',
+      'D15 (nominal Ø15 mm) and D20 (nominal Ø20 mm) are the two standard formwork tie-rod diameters we quote against - D15 is the workhorse for standard wall and column shutters, D20 is specified where higher concrete pressure or wider walls require a higher safe working load (bridge piers, retaining walls, heavier precast forms). Wing nuts and waller plates come in matching sizes and are not interchangeable between D15 and D20. Specify system (PERI-style / Doka-style / generic) on the RFQ and we confirm fit before despatch.',
   },
   {
     question: 'Are your tie rods and wing nuts compatible with PERI, Doka or MEVA formwork?',
@@ -64,12 +64,12 @@ const FAQS = [
   {
     question: 'Can I get hot-dip galvanised coating with a specified thickness?',
     answer:
-      'Yes — HDG per IS 2629 / ISO 1461 is the standard finish for repeat-use waller plates and wing nuts because these pieces are stored on-site through monsoons and cycles of pour-and-strip. Specify the coating-class / film thickness in µm on the RFQ (standard IS 2629 class per thickness). Tie rods themselves are commonly supplied self-colour where they will be recovered from a formed pour, or HDG where they stay in service.',
+      'Yes - HDG per IS 2629 / ISO 1461 is the standard finish for repeat-use waller plates and wing nuts because these pieces are stored on-site through monsoons and cycles of pour-and-strip. Specify the coating-class / film thickness in µm on the RFQ (standard IS 2629 class per thickness). Tie rods themselves are commonly supplied self-colour where they will be recovered from a formed pour, or HDG where they stay in service.',
   },
   {
     question: 'Do you supply matching wing nuts, waller plates and water-stopper assemblies as a system set?',
     answer:
-      'Yes — the standard quote covers wing nut + tie rod + waller plate as a matched set in D15 or D20. Sleeve nuts (chuck nuts) and matching hex nuts are supplied as companion items on the same lot. Water-stopper tie-rod assemblies (tie rod fitted with a PVC or rubber water-stop disc for water-retaining walls — basement, water tank, ETP) are available on confirmed enquiry; mark the water-stop requirement on the RFQ line so the matching disc ships with the rod.',
+      'Yes - the standard quote covers wing nut + tie rod + waller plate as a matched set in D15 or D20. Sleeve nuts (chuck nuts) and matching hex nuts are supplied as companion items on the same lot. Water-stopper tie-rod assemblies (tie rod fitted with a PVC or rubber water-stop disc for water-retaining walls - basement, water tank, ETP) are available on confirmed enquiry; mark the water-stop requirement on the RFQ line so the matching disc ships with the rod.',
   },
   {
     question: 'Is EN 10204 3.1 MTC available on the manufactured items in this range?',
@@ -78,7 +78,7 @@ const FAQS = [
   },
 ];
 
-// VARIANTS: { use: string | ReactNode } — mirrors the type-safe inline cross-link
+// VARIANTS: { use: string | ReactNode } - mirrors the type-safe inline cross-link
 // pattern established on /products/sag-rods/ (Phase D-3).
 const VARIANTS: {
   name: string;
@@ -90,7 +90,7 @@ const VARIANTS: {
     name: 'Formwork tie rods (D15 / D20)',
     use: (
       <>
-        Full-thread rod — the workhorse of two-face wall and column shutters. Passed
+        Full-thread rod - the workhorse of two-face wall and column shutters. Passed
         through both shuttering faces and clamped with a wing nut + waller plate at
         each end. Pairs with our{' '}
         <Link
@@ -131,8 +131,8 @@ const VARIANTS: {
   },
   {
     name: 'Sleeve nuts / chuck nuts',
-    use: 'Longer nut used in slab and column formwork — engages the tie rod through a plywood or steel shutter and gives a longer thread engagement than a plain hex nut. Supplied in D15 and D20 to match the rod.',
-    range: 'Length 100 – 200 mm · D15 / D20 thread',
+    use: 'Longer nut used in slab and column formwork - engages the tie rod through a plywood or steel shutter and gives a longer thread engagement than a plain hex nut. Supplied in D15 and D20 to match the rod.',
+    range: 'Length 100 - 200 mm · D15 / D20 thread',
     finish: 'Self-colour, Zinc',
   },
   {
@@ -147,8 +147,8 @@ const VARIANTS: {
   },
   {
     name: 'Form ties / snap ties (one-time-use)',
-    use: 'MS tie with a pre-set clamping width (typical 150 – 400 mm), snapped off after the pour at the designed debond zone. Single-use consumable for lighter shuttering.',
-    range: 'Clamping widths 150 – 400 mm',
+    use: 'MS tie with a pre-set clamping width (typical 150 - 400 mm), snapped off after the pour at the designed debond zone. Single-use consumable for lighter shuttering.',
+    range: 'Clamping widths 150 - 400 mm',
     // VERIFICATION PENDING: Form-tie / snap-tie range is listed per standards
     // completeness. KP's actual stocked sub-type (loop vs. she-bolt vs. snap)
     // is pending Kabir Panchal confirmation. See docs/content/content-briefs/
@@ -157,7 +157,7 @@ const VARIANTS: {
   },
   {
     name: 'Scaffold tube couplers',
-    use: 'Right-angle, swivel and sleeve couplers for tubular scaffold assemblies, drop-forged or pressed steel per IS 2750 / BS 1139. Supplied on confirmed enquiry — not every lot carries the full coupler range.',
+    use: 'Right-angle, swivel and sleeve couplers for tubular scaffold assemblies, drop-forged or pressed steel per IS 2750 / BS 1139. Supplied on confirmed enquiry - not every lot carries the full coupler range.',
     range: 'Right-angle / swivel / sleeve · IS 2750 / BS 1139',
     // VERIFICATION PENDING: Scaffold coupler stock status and any IS 2750 ISI
     // licence number are pending Kabir Panchal confirmation. See docs/content/
@@ -170,17 +170,17 @@ const VARIANTS: {
 // VERIFICATION PENDING: HDG routing (in-house zinc tank vs. partner galvaniser)
 // is pending Kabir Panchal confirmation. See docs/content/content-briefs/
 // scaffold-accessories.md §10 item 4. Copy below is intentionally silent on
-// the routing — only the specification standard is named.
+// the routing - only the specification standard is named.
 const COATINGS = [
   {
     name: 'Hot-Dip Galvanised (HDG)',
     body:
-      'Zinc dip per IS 2629 / ISO 1461 — the field default for repeat-use wing nuts and waller plates that live on site through monsoon cycles. Coating-class / film thickness in µm specified on the RFQ. Salt-spray performance per ASTM B117 on request.',
+      'Zinc dip per IS 2629 / ISO 1461 - the field default for repeat-use wing nuts and waller plates that live on site through monsoon cycles. Coating-class / film thickness in µm specified on the RFQ. Salt-spray performance per ASTM B117 on request.',
   },
   {
     name: 'Zinc Electroplating',
     body:
-      'Trivalent passivated zinc for short-service and indoor-stored items — sleeve nuts and lighter chuck nuts kept in the yard between pours. Lighter film than HDG; not a substitute for HDG on items left outdoors through monsoon.',
+      'Trivalent passivated zinc for short-service and indoor-stored items - sleeve nuts and lighter chuck nuts kept in the yard between pours. Lighter film than HDG; not a substitute for HDG on items left outdoors through monsoon.',
   },
   {
     name: 'Self-Colour (Black MS)',
@@ -194,7 +194,7 @@ const APPLICATIONS = [
     icon: Building2,
     name: 'RCC slab and wall formwork',
     body:
-      'Standard column and wall shutters on high-rise RCC — the D15 wing-nut / tie-rod / waller-plate set is the workhorse clamp assembly.',
+      'Standard column and wall shutters on high-rise RCC - the D15 wing-nut / tie-rod / waller-plate set is the workhorse clamp assembly.',
   },
   {
     icon: Layers,
@@ -241,14 +241,14 @@ const RELATED = [
     name: 'Tie Rods',
     anchor: 'formwork tie rods (D15 / D20)',
     body:
-      'Threaded tie rods and turnbuckle assemblies — the paired product supplied alongside the wing-nut and waller-plate set for complete two-face shuttering lots.',
+      'Threaded tie rods and turnbuckle assemblies - the paired product supplied alongside the wing-nut and waller-plate set for complete two-face shuttering lots.',
   },
   {
     href: '/products/stud-bolts/',
     name: 'Stud Bolts',
     anchor: 'stud bolts for flange and structural clamping',
     body:
-      'Fully-threaded, tap-end and double-end stud bolts to ASTM A193 B7 / B8M and DIN 976 — for the flange and structural clamping that often ships alongside formwork hardware.',
+      'Fully-threaded, tap-end and double-end stud bolts to ASTM A193 B7 / B8M and DIN 976 - for the flange and structural clamping that often ships alongside formwork hardware.',
   },
 ];
 
@@ -266,7 +266,7 @@ export default function Page() {
         data={productSchema({
           name: 'Scaffold Accessories',
           description:
-            'Scaffold and shuttering accessories — formwork tie rods (D15 / D20), wing nuts, waller plates, sleeve nuts, water-stopper tie-rod assemblies and companion scaffolding hardware. Manufactured in Ahmedabad and supplied through our vetted partner network on an SKU-specific basis, with MS and hot-dip galvanised finishes.',
+            'Scaffold and shuttering accessories - formwork tie rods (D15 / D20), wing nuts, waller plates, sleeve nuts, water-stopper tie-rod assemblies and companion scaffolding hardware. Manufactured in Ahmedabad and supplied through our vetted partner network on an SKU-specific basis, with MS and hot-dip galvanised finishes.',
           category: 'Scaffold Accessories / Formwork Hardware',
           material: 'Mild Steel (IS 2062), Galvanised MS',
           image: HERO_IMAGE,
@@ -291,7 +291,7 @@ export default function Page() {
               <p className="mt-6 max-w-2xl text-lg text-ink-muted">
                 Formwork tie rods, wing nuts, waller plates, sleeve nuts and
                 companion shuttering hardware for RCC formwork, precast yards and
-                high-rise construction — supplied from our Ahmedabad plant, with
+                high-rise construction - supplied from our Ahmedabad plant, with
                 select items manufactured in-house and others sourced from vetted
                 partners. SKU-specific; the make-or-supply split is confirmed on the
                 quote line.
@@ -321,7 +321,7 @@ export default function Page() {
                 <div className="relative aspect-[4/3] w-full overflow-hidden rounded-md bg-transparent p-3">
                   <Image
                     src={HERO_IMAGE}
-                    alt="KP Fasteners scaffold-accessories inventory — formwork tie rods, wing nuts and waller plates for RCC shuttering"
+                    alt="KP Fasteners scaffold-accessories inventory - formwork tie rods, wing nuts and waller plates for RCC shuttering"
                     fill
                     priority
                     sizes="(min-width: 1024px) 40vw, 100vw"
@@ -341,14 +341,14 @@ export default function Page() {
       <Section variant="alt">
         <Container>
           <Heading as="h2" variant="section">
-            What &ldquo;scaffold accessories&rdquo; covers — and where KP fits
+            What &ldquo;scaffold accessories&rdquo; covers - and where KP fits
           </Heading>
           <div className="mt-6 grid gap-8 md:grid-cols-2">
             <Prose>
               <p>
                 In Indian construction trade usage, &ldquo;scaffold accessories&rdquo;
                 most often refers to the shuttering-hardware family: wing nuts,
-                tie-rod sets, waller plates, sleeve nuts and form ties — the
+                tie-rod sets, waller plates, sleeve nuts and form ties - the
                 consumables that hold the formwork faces together while concrete is
                 poured and cures. The companion family is scaffold-tube hardware
                 (right-angle, swivel and sleeve couplers per IS 2750 / BS 1139)
@@ -372,7 +372,7 @@ export default function Page() {
                 KP Fasteners manufactures selected items in this range at our
                 Ghanshyam Industrial Estate plant in Ahmedabad and supplies the
                 balance through a vetted partner network. The make-or-supply split
-                is SKU-specific and is confirmed on the quote line — for the
+                is SKU-specific and is confirmed on the quote line - for the
                 manufactured items we issue EN 10204 3.1 MTCs with batch
                 traceability; for the traded items we pass through the originating
                 mill certificate.
@@ -385,7 +385,7 @@ export default function Page() {
                 >
                   foundation-bolt range
                 </Link>{' '}
-                is the anchorage side of the same project — shore-tower base-plate
+                is the anchorage side of the same project - shore-tower base-plate
                 anchors and scaffold-upright feet are typically supplied on the same
                 despatch.
               </p>
@@ -400,7 +400,7 @@ export default function Page() {
           <Heading as="h2" variant="section">Standards we quote against</Heading>
           <p className="mt-3 max-w-3xl text-ink-muted">
             Formwork tie rods and wing nuts do not have a single global product
-            standard — the family is governed by vendor-proprietary geometry at the
+            standard - the family is governed by vendor-proprietary geometry at the
             system level and by the published standards for the base steel, the
             thread form and the coating class. The rows below map the standards
             that govern the materials and finishes we supply against.
@@ -418,7 +418,7 @@ export default function Page() {
                   cells: [
                     'IS 2062',
                     'India (BIS)',
-                    'Hot-rolled structural steel — base round-bar and plate stock',
+                    'Hot-rolled structural steel - base round-bar and plate stock',
                     'Base steel for tie rods, waller plates and sleeve nuts',
                   ],
                 },
@@ -450,7 +450,7 @@ export default function Page() {
                   cells: [
                     'EN 12812',
                     'Europe (CEN)',
-                    'Falsework — performance requirements and general design',
+                    'Falsework - performance requirements and general design',
                     'Governs the falsework / scaffolding structure the accessories serve',
                   ],
                 },
@@ -458,7 +458,7 @@ export default function Page() {
                   cells: [
                     'IS 2750',
                     'India (BIS)',
-                    'Steel scaffoldings — tubes and couplers',
+                    'Steel scaffoldings - tubes and couplers',
                     'Right-angle, swivel and sleeve couplers (confirmed-enquiry)',
                   ],
                 },
@@ -466,7 +466,7 @@ export default function Page() {
                   cells: [
                     'BS 1139',
                     'UK (BSI)',
-                    'Metal scaffolding — tubes and couplers',
+                    'Metal scaffolding - tubes and couplers',
                     'Alternate standard reference on UK-specified coupler orders',
                   ],
                 },
@@ -499,7 +499,7 @@ export default function Page() {
             <p className="mt-3 text-xs text-ink-muted">
               Thread form per IS 1367 (Part 3) / ISO 965 at 6g tolerance. HDG film
               thickness per EN ISO 1461 / IS 2629. Safe-working-load values are
-              lot-specific and are not stated in this standards table — see the
+              lot-specific and are not stated in this standards table - see the
               working-load reference below.
             </p>
           </div>
@@ -515,13 +515,13 @@ export default function Page() {
           <p className="mt-3 max-w-3xl text-ink-muted">
             Sub-type is specified by the formwork system and the project
             specification. The make-or-supply split against each row is
-            SKU-specific and is confirmed on the quote line — some items are made
+            SKU-specific and is confirmed on the quote line - some items are made
             at our Ahmedabad plant; others are sourced from our vetted partner
             network.
           </p>
           {/* VERIFICATION PENDING: Per-sub-type make-or-supply split, scaffold-
               coupler stock status, water-stopper assembly stock status, form-tie
-              variant stocked and HDG routing — all pending Kabir Panchal
+              variant stocked and HDG routing - all pending Kabir Panchal
               confirmation per docs/content/content-briefs/scaffold-accessories.md
               §10. Markers also appear inside the VARIANTS and COATINGS data
               bodies above. */}
@@ -561,8 +561,7 @@ export default function Page() {
           </Heading>
           <p className="mt-3 max-w-3xl text-ink-muted">
             Working-load values on formwork tie rods are a function of the base
-            steel, the section, the thread condition and the lot&apos;s mill test —
-            not the nominal diameter alone. The ranges below are the industry
+            steel, the section, the thread condition and the lot&apos;s mill test - not the nominal diameter alone. The ranges below are the industry
             default reference bands quoted by European formwork-system
             manufacturers against the D15 and D20 geometries; they are reference
             only, not a KP-specific rating. The actual SWL for your supply is set
@@ -589,7 +588,7 @@ export default function Page() {
                   cells: [
                     'D15 (Ø15 mm)',
                     'Standard wall and column shutters, routine two-face RCC formwork',
-                    'Lot-specific — confirmed on quote against mill test',
+                    'Lot-specific - confirmed on quote against mill test',
                     'EN 10204 3.1 MTC on request for manufactured items',
                   ],
                 },
@@ -597,7 +596,7 @@ export default function Page() {
                   cells: [
                     'D20 (Ø20 mm)',
                     'Heavier walls, column lifts, bridge piers and precast formwork',
-                    'Lot-specific — confirmed on quote against mill test',
+                    'Lot-specific - confirmed on quote against mill test',
                     'EN 10204 3.1 MTC on request for manufactured items',
                   ],
                 },
@@ -659,7 +658,7 @@ export default function Page() {
           <p className="mt-3 max-w-3xl text-ink-muted">
             A short decision block for site engineers and procurement officers
             working from an RCC formwork schedule or precast yard BOM. KP supplies
-            against the formwork engineer&apos;s specification — we do not perform
+            against the formwork engineer&apos;s specification - we do not perform
             the shutter design or the SWL rating ourselves.
           </p>
           <div className="mt-8 grid gap-6 md:grid-cols-2">
@@ -762,7 +761,7 @@ export default function Page() {
         <Container>
           <Card variant="trust" padding="lg">
             <Heading as="h2" variant="subsection">
-              Brand compatibility — PERI, Doka, MEVA and other formwork systems
+              Brand compatibility - PERI, Doka, MEVA and other formwork systems
             </Heading>
             {/* VERIFICATION PENDING: System-specific brand compatibility (PERI
                 DYWIDAG DW 15, Doka system codes, MEVA codes) is pending Kabir
@@ -776,7 +775,7 @@ export default function Page() {
               Our items are supplied as system-neutral D15 and D20 geometry that
               fits most European-style formwork systems. We do not claim to be an
               approved or endorsed supplier of PERI, Doka, MEVA, NOE or ULMA
-              systems — each of those vendors runs proprietary tie-rod and
+              systems - each of those vendors runs proprietary tie-rod and
               wing-nut geometries that are not covered by a system-neutral quote.
             </p>
             <p className="mt-3 text-ink-muted">
@@ -799,7 +798,7 @@ export default function Page() {
               <Heading as="h2" variant="section">Quality control &amp; documentation</Heading>
               <ul className="mt-6 space-y-3 text-ink">
                 {[
-                  'Dimensional inspection — diameter, waller-plate size and thread engagement — on every manufactured lot.',
+                  'Dimensional inspection - diameter, waller-plate size and thread engagement - on every manufactured lot.',
                   'Thread gauge inspection to ISO 965 / IS 1367 (6g go / no-go) on tie-rod and nut lots.',
                   'HDG coating-thickness check per EN ISO 1461 / IS 2629 class on coated lots.',
                   'EN 10204 3.1 mill test certificates on request for the manufactured items; pass-through of the originating mill certificate for the traded items.',

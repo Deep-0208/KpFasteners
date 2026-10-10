@@ -59,9 +59,9 @@ interface ProductCardData {
   linkText: string;
 }
 
-{/* VERIFICATION PENDING: Real inventory lay-flat photography for products hub hero — ref: brief §6 / §10 Q5 */}
+{/* VERIFICATION PENDING: Real inventory lay-flat photography for products hub hero - ref: brief §6 / §10 Q5 */}
 const PRODUCT_CARDS: ProductCardData[] = [
-  // OEM (3) — Manufactured in-house at Ahmedabad plant
+  // OEM (3) - Manufactured in-house at Ahmedabad plant
   {
     slug: 'foundation-bolts',
     name: 'Foundation Bolts',
@@ -72,7 +72,7 @@ const PRODUCT_CARDS: ProductCardData[] = [
     value: 'J, L, U, headed and swedge anchors to IS 5624, DIN 529 and ASTM F1554. Mild steel, EN8D, and high-tensile grades with HDG or zinc plating.',
     standards: 'IS 5624 · DIN 529 · ASTM F1554',
     image: '/images/products/bolts/foundation-anchor-bolts.webp',
-    imageAlt: 'KP Fasteners foundation bolts — J, L, U and mechanical anchor bolts to IS 5624 and ASTM F1554',
+    imageAlt: 'KP Fasteners foundation bolts - J, L, U and mechanical anchor bolts to IS 5624 and ASTM F1554',
     linkText: 'View Foundation Bolts',
   },
   {
@@ -101,7 +101,7 @@ const PRODUCT_CARDS: ProductCardData[] = [
     imageAlt: 'KP Fasteners threaded sag rod assembly with dual hex nuts for structural PEB bracing',
     linkText: 'View Sag Rods',
   },
-  // Ambiguous (2) — Hybrid: manufactured in-house or partner-supplied SKU-specific
+  // Ambiguous (2) - Hybrid: manufactured in-house or partner-supplied SKU-specific
   {
     slug: 'scaffold-accessories',
     name: 'Scaffold Accessories',
@@ -112,7 +112,7 @@ const PRODUCT_CARDS: ProductCardData[] = [
     value: 'Wing nuts, tie-rod nut sets, waller plates, water stoppers, and shuttering accessories for civil formwork and staging structures.',
     standards: 'BS 1139 · EN 74 · IS 2750',
     image: '/images/products/threaded-rods/wedge-anchor.webp',
-    imageAlt: 'Scaffold accessories — wing nuts, nut sets, waller plates',
+    imageAlt: 'Scaffold accessories - wing nuts, nut sets, waller plates',
     linkText: 'View Scaffold Accessories',
   },
   {
@@ -125,10 +125,10 @@ const PRODUCT_CARDS: ProductCardData[] = [
     value: 'Drawing-based OEM manufacturing and non-standard fastener sourcing to customer blueprints, custom step-shanks, and special threads.',
     standards: 'Custom Blueprints · ISO / DIN / ASTM',
     image: '/images/products/bolts/socket-head-cap-screw.webp',
-    imageAlt: 'Custom fasteners — non-standard and drawing-to-sample',
+    imageAlt: 'Custom fasteners - non-standard and drawing-to-sample',
     linkText: 'View Custom Fasteners',
   },
-  // Trading (4) — Distribution range from vetted partners
+  // Trading (4) - Distribution range from vetted partners
   {
     slug: 'hex-bolts-nuts',
     name: 'Hex Bolts & Nuts',
@@ -137,9 +137,9 @@ const PRODUCT_CARDS: ProductCardData[] = [
     badgeText: 'Distribution range',
     badgeClass: 'badge badge-steel',
     value: 'DIN 933 / DIN 931 / ISO 4017 full-thread and half-thread hex bolts with matching DIN 934 nuts in property classes 4.6, 8.8, and 10.9.',
-    standards: 'DIN 933 · DIN 931 · ISO 4017 · DIN 934',
+    standards: 'DIN 933, DIN 931, ISO 4017, DIN 934',
     image: '/images/products/bolts/hex-bolt-hex-nut.webp',
-    imageAlt: 'Hex bolts and nuts — DIN 933 / DIN 934 distribution range',
+    imageAlt: 'Hex bolts and nuts - DIN 933 / DIN 934 distribution range',
     linkText: 'View Hex Bolts & Nuts',
   },
   {
@@ -150,9 +150,9 @@ const PRODUCT_CARDS: ProductCardData[] = [
     badgeText: 'Distribution range',
     badgeClass: 'badge badge-steel',
     value: 'Countersunk socket head cap screws to DIN 7991 / ISO 10642 in high-tensile 10.9 and stainless steel for flush-mount mechanical assemblies.',
-    standards: 'DIN 7991 · ISO 10642 · Grade 10.9 / A2',
+    standards: 'DIN 7991, ISO 10642, Grade 10.9 / A2',
     image: '/images/products/bolts/allen-socket-csk-screw.webp',
-    imageAlt: 'Countersunk Allen socket screw — DIN 7991',
+    imageAlt: 'Countersunk Allen socket screw - DIN 7991',
     linkText: 'View CSK Allen Bolts',
   },
   {
@@ -163,9 +163,9 @@ const PRODUCT_CARDS: ProductCardData[] = [
     badgeText: 'Distribution range',
     badgeClass: 'badge badge-steel',
     value: 'Hot-rolled and cold-drawn formwork tie rods D15 / D20, English and French thread profiles, with compatible anchor nuts for concrete formwork.',
-    standards: 'D15 / D20 · Tensile 150 kN+',
+    standards: 'D15 / D20, Tensile 150 kN+',
     image: '/images/products/threaded-rods/tie-rod.webp',
-    imageAlt: 'Formwork tie rods — D15 and D20 diameter',
+    imageAlt: 'Formwork tie rods - D15 and D20 diameter',
     linkText: 'View Tie Rods',
   },
   {
@@ -176,9 +176,9 @@ const PRODUCT_CARDS: ProductCardData[] = [
     badgeText: 'Distribution range',
     badgeClass: 'badge badge-steel',
     value: 'T-head bolts, MMS flange bolts, hanger bolts, and module clamps in SS 304 / SS 316 and hot-dip galvanized finishes for solar racking.',
-    standards: 'SS 304 · SS 316 · HDG · ISO 3506',
+    standards: 'SS 304, SS 316, HDG, ISO 3506',
     image: '/images/products/bolts/hex-flange-bolt.webp',
-    imageAlt: 'Solar mounting accessories — MMS bolts, clamps, hanger bolts',
+    imageAlt: 'Solar mounting accessories - MMS bolts, clamps, hanger bolts',
     linkText: 'View Solar Accessories',
   },
 ];
@@ -192,7 +192,7 @@ const MATERIAL_CARDS = [
     description:
       'Property class 8.8, 10.9, and 12.9 carbon and alloy steels, plus IS 5624 property class 4.6 for foundation anchorage. Heat-treated for structural steel, heavy machinery, and high-load civil connections.',
     image: '/product-images/high-tensile/hero.webp',
-    imageAlt: 'High-tensile fasteners — property class 8.8 and 10.9 bolts',
+    imageAlt: 'High-tensile fasteners - property class 8.8 and 10.9 bolts',
     linkText: 'Explore High-Tensile Fasteners',
   },
   {
@@ -201,7 +201,7 @@ const MATERIAL_CARDS = [
     href: '/materials/stainless-steel-fasteners/',
     badge: 'A2-70 & A4-70 Marine Grade',
     description:
-      'Austenitic stainless steels providing superior atmospheric and chemical corrosion resistance. SS 304 (A2-70) for outdoor infrastructure and food-grade service; marine-grade SS 316 (A4-70) with 2–3% molybdenum for coastal and chemical environments.',
+      'Austenitic stainless steels providing superior atmospheric and chemical corrosion resistance. SS 304 (A2-70) for outdoor infrastructure and food-grade service; marine-grade SS 316 (A4-70) with 2-3% molybdenum for coastal and chemical environments.',
     image: '/product-images/stainless-steel/hero.webp',
     imageAlt: 'KP Fasteners stainless steel 304 and 316 fastener range including U-bolts, nuts, washers and studs',
     linkText: 'Explore Stainless Steel Fasteners',
@@ -248,7 +248,7 @@ const FAQS = [
   {
     question: 'Do you manufacture all these categories in-house, or do you also trade?',
     answer:
-      'KP Fasteners is a registered Manufacturer and Wholesale supplier in Ahmedabad. Foundation bolts, stud bolts, and sag rods are manufactured directly in-house at our Ghanshyam Industrial Estate facility. Other fastener families—such as hex bolts & nuts, CSK Allen bolts, formwork tie rods, and solar mounting hardware—are supplied through our vetted industrial partner network with incoming dimensional and grade inspection before dispatch.',
+      'KP Fasteners is a registered Manufacturer and Wholesale supplier in Ahmedabad. Foundation bolts, stud bolts, and sag rods are manufactured directly in-house at our Ghanshyam Industrial Estate facility. Other fastener families - such as hex bolts & nuts, CSK Allen bolts, formwork tie rods, and solar mounting hardware - are supplied through our vetted industrial partner network with incoming dimensional and grade inspection before dispatch.',
   },
   {
     question: 'What if my fastener requirement is not listed in these nine categories?',
@@ -333,7 +333,7 @@ export default function ProductsHubPage() {
               </div>
             </div>
 
-            {/* VERIFICATION PENDING: Real inventory lay-flat photography for products hub hero — ref: brief §6 / §10 Q5 */}
+            {/* VERIFICATION PENDING: Real inventory lay-flat photography for products hub hero - ref: brief §6 / §10 Q5 */}
             <div className="relative aspect-[16/11] w-full overflow-hidden rounded-xl bg-transparent p-3">
               <Image
                 src={HERO_IMAGE}
@@ -551,7 +551,7 @@ export default function ProductsHubPage() {
           </div>
 
           <div className="mt-8 grid gap-6 md:grid-cols-3">
-            {/* VERIFICATION PENDING: Client to confirm heavy engineering & automotive OEM client base — ref: brief §4.3 / §10 Q3 */}
+            {/* VERIFICATION PENDING: Client to confirm heavy engineering & automotive OEM client base - ref: brief §4.3 / §10 Q3 */}
             {INDUSTRY_CARDS.map((ind) => (
               <Card key={ind.slug} variant="metallic" padding="lg" className="flex flex-col">
                 <div className="relative aspect-[16/9] w-full overflow-hidden rounded-md bg-metal-subtle/20">
@@ -589,13 +589,13 @@ export default function ProductsHubPage() {
       {/* 6. "What we don't sell" honesty wedge */}
       <Section variant="alt" aria-label="Scope Exclusions">
         <Container>
-          {/* VERIFICATION PENDING: Client to confirm 'What we don't sell' exclusion list — ref: brief §3 / §10 Q4 */}
+          {/* VERIFICATION PENDING: Client to confirm 'What we don't sell' exclusion list - ref: brief §3 / §10 Q4 */}
           <div className="rounded-xl border border-metal-subtle bg-surface p-6 sm:p-8">
             <div className="flex items-start gap-4">
               <ShieldCheck aria-hidden="true" className="mt-1 h-6 w-6 shrink-0 text-brand-gold-strong" />
               <div>
                 <Heading as="h2" variant="card" className="text-brand-steel">
-                  What We Do Not Sell — Upfront Procurement Honesty
+                  What We Do Not Sell - Upfront Procurement Honesty
                 </Heading>
                 <p className="mt-3 text-ink-muted">
                   Industrial buyers lose valuable time discovering after multiple emails that a vendor cannot supply
@@ -656,8 +656,8 @@ export default function ProductsHubPage() {
             and stock availability.
           </p>
 
-          {/* VERIFICATION PENDING: Client to confirm exact made-vs-traded split across all categories before publish — ref: brief §5 Q1 / §10 Q2 */}
-          {/* VERIFICATION PENDING: Client to confirm custom fastener MOQ and typical lead times — ref: brief §5 Q2 */}
+          {/* VERIFICATION PENDING: Client to confirm exact made-vs-traded split across all categories before publish - ref: brief §5 Q1 / §10 Q2 */}
+          {/* VERIFICATION PENDING: Client to confirm custom fastener MOQ and typical lead times - ref: brief §5 Q2 */}
           <div className="mt-8 max-w-3xl">
             <Accordion items={FAQS} />
           </div>
@@ -696,7 +696,7 @@ export default function ProductsHubPage() {
               </a>
             </div>
             <p className="mt-6 text-xs text-ink-muted">
-              Working Hours: Mon–Sat 09:30–19:00 IST · Ahmedabad Manufacturing Facility &amp; Pan-India Dispatch
+              Working Hours: Mon-Sat 09:30-19:00 IST · Ahmedabad Manufacturing Facility &amp; Pan-India Dispatch
             </p>
           </Card>
         </Container>

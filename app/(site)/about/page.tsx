@@ -37,7 +37,7 @@ import { company } from '@/data/company';
 const PATH = '/about/';
 const HERO_IMAGE = '/product-images/about/facility.webp';
 
-// Title: 57 chars (50–60 range, primary keyword first). Meta description: 158 chars (150–160 range).
+// Title: 57 chars (50-60 range, primary keyword first). Meta description: 158 chars (150-160 range).
 const META_TITLE = 'Fastener Manufacturer Ahmedabad | About KP Fasteners | KP';
 const META_DESCRIPTION =
   'Fastener manufacturer in Ahmedabad: OEM foundation, anchor, stud bolts and sag rods, plus complete distribution range. Certified MTC. Request a project quote.';
@@ -58,9 +58,9 @@ const MAP_SRC =
   encodeURIComponent('23/4 Ghanshyam Industrial Estate, Margha Farm, Ahmedabad 380024') +
   '&output=embed';
 
-// VERIFICATION PENDING: Exact shop-floor square footage, machine inventory, and annual tonnage — ref: brief §3 & §10 item 5
-// VERIFICATION PENDING: Real photograph of factory sign board, manufacturing shop floor, and warehouse at Ahmedabad — ref: brief §6 & §10 item 5
-// VERIFICATION PENDING: Specific third-party quality certifications beyond GST and Udyam MSME — ref: brief §5 & §10 item 8
+// VERIFICATION PENDING: Exact shop-floor square footage, machine inventory, and annual tonnage - ref: brief §3 & §10 item 5
+// VERIFICATION PENDING: Real photograph of factory sign board, manufacturing shop floor, and warehouse at Ahmedabad - ref: brief §6 & §10 item 5
+// VERIFICATION PENDING: Specific third-party quality certifications beyond GST and Udyam MSME - ref: brief §5 & §10 item 8
 
 const FAQS = [
   {
@@ -96,7 +96,7 @@ const BUSINESS_FACTS_ROWS = [
   { cells: ['Permanent Workforce Band', '26 to 50 Personnel', 'Verified IndiaMART Enterprise Factsheet'] },
   { cells: ['Registered Facility Address', '23/4 Ghanshyam Industrial Estate, Margha Farm, Ahmedabad - 380024', 'Verified Co-Located Plant & Corporate Office'] },
   { cells: ['Key Management & Leadership', 'Mr. Kabir Panchal (Managing Director / Operations Lead) · Pramod Panchal (Proprietor)', 'Commercial Contacts & Statutory Registrations'] },
-  { cells: ['Operating Business Hours', 'Monday through Saturday, 09:30 – 19:00 IST (Sunday Closed)', 'Standard Commercial Shift Schedules'] },
+  { cells: ['Operating Business Hours', 'Monday through Saturday, 09:30 - 19:00 IST (Sunday Closed)', 'Standard Commercial Shift Schedules'] },
   { cells: ['B2B Portal Verification', 'IndiaMART TrustSEAL Verified · 100% Call Response Rate', 'Public IndiaMART Verified Seller Factsheet'] },
 ];
 
@@ -104,7 +104,7 @@ const SPLIT_ROWS = [
   {
     cells: [
       'Foundation Anchor Bolts',
-      'OEM — Manufactured In-House',
+      'OEM - Manufactured In-House',
       'IS 5624, DIN 529, ASTM F1554',
       'Cold-sawing, threading, and bending on dedicated shop floor lines',
     ],
@@ -112,7 +112,7 @@ const SPLIT_ROWS = [
   {
     cells: [
       'Continuous & Stud Bolts',
-      'OEM — Manufactured In-House',
+      'OEM - Manufactured In-House',
       'ASTM A193 B7 / B8M, IS 1367',
       'Precision bar-cutting, chamfering, and thread rolling up to M64',
     ],
@@ -120,7 +120,7 @@ const SPLIT_ROWS = [
   {
     cells: [
       'PEB Structural Sag Rods',
-      'OEM — Manufactured In-House',
+      'OEM - Manufactured In-House',
       'IS 2062 Grade E250 / PC 4.6',
       'Single and double-end threading tailored to purlin framing drawings',
     ],
@@ -128,7 +128,7 @@ const SPLIT_ROWS = [
   {
     cells: [
       'Scaffold Staging Accessories',
-      'Hybrid — In-House & Sourced',
+      'Hybrid - In-House & Sourced',
       'EN 12810, IS 2750',
       'Fabricated base jack shells made in-house; specialized couplers sourced',
     ],
@@ -136,7 +136,7 @@ const SPLIT_ROWS = [
   {
     cells: [
       'Custom Print Fasteners',
-      'Hybrid — In-House & Sourced',
+      'Hybrid - In-House & Sourced',
       'Customer Engineering Drawings',
       'Simple studs/anchors made in-house; complex cold-headed parts sourced',
     ],
@@ -181,7 +181,7 @@ const STANDARDS_ROWS = [
   { cells: ['IS 1363 / 1364', 'BIS (India)', 'Hexagon head bolts, screws, and nuts (rough and precision grades)'] },
   { cells: ['DIN 529', 'DIN (Germany)', 'Masonry anchor bolts and foundation bolts for heavy equipment clamping'] },
   { cells: ['DIN 931 / 933 / 934', 'DIN (Germany)', 'Hexagon bolts (partial/full thread) and companion standard hexagon nuts'] },
-  { cells: ['ISO 898-1', 'ISO (Global)', 'Mechanical properties of fasteners made of carbon steel and alloy steel (Classes 4.6–12.9)'] },
+  { cells: ['ISO 898-1', 'ISO (Global)', 'Mechanical properties of fasteners made of carbon steel and alloy steel (Classes 4.6-12.9)'] },
   { cells: ['ISO 3506-1 / -2', 'ISO (Global)', 'Mechanical properties of corrosion-resistant stainless steel fasteners (Grades A2 / A4)'] },
   { cells: ['ISO 4014 / 4017 / 4032', 'ISO (Global)', 'International metric hexagon bolts, screws, and nuts standards'] },
   { cells: ['ASTM F1554', 'ASTM (USA)', 'Anchor bolts designed to anchor structural supports to concrete foundations (Grades 36, 55, 105)'] },
@@ -285,7 +285,7 @@ export default function AboutPage() {
       <JsonLd data={faqPage(FAQS)} />
 
       {/* 1. Hero */}
-      {/* VERIFICATION PENDING: Real photograph of factory sign board, manufacturing shop floor, and warehouse at Ahmedabad — ref: brief §6 & §10 item 5 */}
+      {/* VERIFICATION PENDING: Real photograph of factory sign board, manufacturing shop floor, and warehouse at Ahmedabad - ref: brief §6 & §10 item 5 */}
       <Section>
         <Container>
           <Breadcrumbs trail={trail} />
@@ -493,7 +493,7 @@ export default function AboutPage() {
       </Section>
 
       {/* 4. Single Co-Located Facility & Where We Are Located */}
-      {/* VERIFICATION PENDING: Exact shop-floor square footage, machine inventory, and annual tonnage — ref: brief §3 & §10 item 5 */}
+      {/* VERIFICATION PENDING: Exact shop-floor square footage, machine inventory, and annual tonnage - ref: brief §3 & §10 item 5 */}
       <Section variant="alt">
         <Container>
           <div className="flex items-center gap-3">
@@ -516,7 +516,7 @@ export default function AboutPage() {
                   <span>Commercial Working Hours:</span>
                 </div>
                 <p className="mt-1 text-xs">
-                  Monday to Saturday: 09:30 – 19:00 IST · Closed Sunday. Client visits and third-party witness inspections are welcomed by prior appointment.
+                  Monday to Saturday: 09:30 - 19:00 IST · Closed Sunday. Client visits and third-party witness inspections are welcomed by prior appointment.
                 </p>
               </div>
               <div className="mt-6 flex flex-wrap gap-3">
@@ -752,7 +752,7 @@ export default function AboutPage() {
               </a>
             </div>
             <p className="mt-6 text-xs text-ink-muted">
-              Working Hours: Mon–Sat 09:30–19:00 IST · Registered Facility: 23/4 Ghanshyam Industrial Estate, Margha Farm, Ahmedabad 380024
+              Working Hours: Mon-Sat 09:30-19:00 IST · Registered Facility: 23/4 Ghanshyam Industrial Estate, Margha Farm, Ahmedabad 380024
             </p>
           </Card>
         </Container>

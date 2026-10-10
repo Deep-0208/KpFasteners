@@ -32,7 +32,7 @@ import { company } from '@/data/company';
 const PATH = '/industries/solar-mounting-fasteners/';
 const HERO_IMAGE = '/images/products/bolts/hex-flange-bolt.webp';
 
-// Title: 59 chars (50–60 range). Meta description: 160 chars (150–160 range).
+// Title: 59 chars (50-60 range). Meta description: 160 chars (150-160 range).
 const META_TITLE = 'Solar Mounting Bolts Supplier | Rooftop & Ground-Mount | KP';
 const META_DESCRIPTION =
   'Solar fastener BOMs for rooftop, commercial, and tracker projects: SS 304/316 hardware, HDG substructure, and OEM pier anchors. Request an RFQ quote.';
@@ -49,29 +49,29 @@ const WA_PREFILL =
 const WA_URL = 'https://wa.me/919898230448?text=' + encodeURIComponent(WA_PREFILL);
 const TEL = `tel:${company.telephones[0].replace(/[^\d+]/g, '')}`;
 
-// VERIFICATION PENDING: Confirm tracker OEM supply scope — does KP supply tracker torque-tube BOMs today or fixed-tilt + rooftop only? — ref: brief §10 item 1
-// VERIFICATION PENDING: Confirm dispatch SLA table by state and pin-code cluster — ref: brief §10 item 2
-// VERIFICATION PENDING: Confirm anonymised project references and named EPC references with written permission — ref: brief §10 items 3 & 4
-// VERIFICATION PENDING: Confirm coastal solar project references with SS 316 upgrade — ref: brief §10 item 5
-// VERIFICATION PENDING: Real photograph of solar MMS cross-section and fastener inventory at KP Fasteners Ahmedabad facility — ref: brief §6 hero-solar-industry-kp.webp & §10 item 6
-// VERIFICATION PENDING: Confirm indicative fastener quantities per MWp — ref: brief §10 item 7
-// VERIFICATION PENDING: Confirm stocked J-bolt sizes for solar piers vs MTO lead times — ref: brief §10 item 8
+// VERIFICATION PENDING: Confirm tracker OEM supply scope - does KP supply tracker torque-tube BOMs today or fixed-tilt + rooftop only? - ref: brief §10 item 1
+// VERIFICATION PENDING: Confirm dispatch SLA table by state and pin-code cluster - ref: brief §10 item 2
+// VERIFICATION PENDING: Confirm anonymised project references and named EPC references with written permission - ref: brief §10 items 3 & 4
+// VERIFICATION PENDING: Confirm coastal solar project references with SS 316 upgrade - ref: brief §10 item 5
+// VERIFICATION PENDING: Real photograph of solar MMS cross-section and fastener inventory at KP Fasteners Ahmedabad facility - ref: brief §6 hero-solar-industry-kp.webp & §10 item 6
+// VERIFICATION PENDING: Confirm indicative fastener quantities per MWp - ref: brief §10 item 7
+// VERIFICATION PENDING: Confirm stocked J-bolt sizes for solar piers vs MTO lead times - ref: brief §10 item 8
 
 const FAQS = [
   {
     question: 'Do you supply fasteners for both rooftop and ground-mount solar?',
     answer:
-      'Yes — rooftop residential, rooftop commercial & industrial (C&I), ground-mount fixed-tilt and single-axis tracker projects. The fastener bill of materials differs by project type: SS 304 throughout for inland rooftop; HDG 8.8 substructure plus SS 304 module-side for ground-mount; and a mandatory upgrade to SS 316 on all exposed hardware within ~5 km of the coast.',
+      'Yes - rooftop residential, rooftop commercial & industrial (C&I), ground-mount fixed-tilt and single-axis tracker projects. The fastener bill of materials differs by project type: SS 304 throughout for inland rooftop; HDG 8.8 substructure plus SS 304 module-side for ground-mount; and a mandatory upgrade to SS 316 on all exposed hardware within ~5 km of the coast.',
   },
   {
     question: 'Does KP manufacture any of these solar fasteners in-house?',
     answer:
-      'We manufacture the substructure anchorage in-house at our Ahmedabad plant — including J-bolt, L-bolt, and headed foundation bolts to IS 5624 and ASTM F1554 for concrete piers. The module-side fasteners (T-head bolts, module clamps, hanger bolts, MMS purlin bolts) are distributed from vetted partner mills, enabling complete fastener schedules to be consolidated on a single PO with full MTC pass-through.',
+      'We manufacture the substructure anchorage in-house at our Ahmedabad plant - including J-bolt, L-bolt, and headed foundation bolts to IS 5624 and ASTM F1554 for concrete piers. The module-side fasteners (T-head bolts, module clamps, hanger bolts, MMS purlin bolts) are distributed from vetted partner mills, enabling complete fastener schedules to be consolidated on a single PO with full MTC pass-through.',
   },
   {
     question: 'What is your typical lead time to a solar project site?',
     answer:
-      'Standard stocked SKUs ship within 24–48 hours for Gujarat sites, 3–5 days for Rajasthan, and 5–8 days for Tamil Nadu and Karnataka project clusters. Custom made-to-order foundation bolts with project-specific embedment lengths or headed geometries typically require 7–14 days.',
+      'Standard stocked SKUs ship within 24-48 hours for Gujarat sites, 3-5 days for Rajasthan, and 5-8 days for Tamil Nadu and Karnataka project clusters. Custom made-to-order foundation bolts with project-specific embedment lengths or headed geometries typically require 7-14 days.',
   },
   {
     question: 'Do you supply MTC EN 10204 3.1 and salt-spray reports for solar BOQs?',
@@ -129,7 +129,7 @@ const SPEC_SCHEDULE_ROWS = [
     cells: [
       'Foundation Pier Anchor Bolt',
       'J-bolt / L-bolt / Headed Anchor',
-      'M16 – M30 × 450 – 900 mm',
+      'M16 - M30 × 450 - 900 mm',
       'IS 5624 Gr 4.6 / HDG Gr 8.8',
       'Cast into concrete pier to anchor vertical column base plates',
     ],
@@ -138,7 +138,7 @@ const SPEC_SCHEDULE_ROWS = [
     cells: [
       'Column to Base Connection Bolt',
       'Hex Bolt + Heavy Nut + Washer',
-      'M12 – M16 × 35 – 55 mm',
+      'M12 - M16 × 35 - 55 mm',
       'Grade 8.8 Hot-Dip Galvanised',
       'Secures vertical column upright to embedded pier base plate',
     ],
@@ -147,7 +147,7 @@ const SPEC_SCHEDULE_ROWS = [
     cells: [
       'Rafter & Purlin Fastener',
       'Flange Bolt / Hex Bolt + Flange Nut',
-      'M10 – M12 × 25 – 40 mm',
+      'M10 - M12 × 25 - 40 mm',
       'Grade 8.8 HDG / Geomet',
       'Fastens cold-formed purlins across longitudinal support rafters',
     ],
@@ -156,7 +156,7 @@ const SPEC_SCHEDULE_ROWS = [
     cells: [
       'Rail Mounting T-Bolt',
       'Hammer-Head T-Bolt + Flange Nut',
-      'M8 – M10 × 25 – 35 mm',
+      'M8 - M10 × 25 - 35 mm',
       'SS 304 (A2-70) / SS 316 (A4-70)',
       'Locks extruded aluminum mounting rail to steel purlin framework',
     ],
@@ -165,7 +165,7 @@ const SPEC_SCHEDULE_ROWS = [
     cells: [
       'Module Mid Clamp Bolt',
       'Allen Socket Cap Screw + Channel Nut',
-      'M8 × 35 – 50 mm',
+      'M8 × 35 - 50 mm',
       'SS 304 (A2-70) / SS 316 (A4-70)',
       'Clamps two adjacent solar PV module frames securely to rail',
     ],
@@ -174,7 +174,7 @@ const SPEC_SCHEDULE_ROWS = [
     cells: [
       'Module End Clamp Bolt',
       'Allen Socket Cap Screw + Channel Nut',
-      'M8 × 30 – 45 mm',
+      'M8 × 30 - 45 mm',
       'SS 304 (A2-70) / SS 316 (A4-70)',
       'Secures outer perimeter module frame at row and string terminations',
     ],
@@ -183,7 +183,7 @@ const SPEC_SCHEDULE_ROWS = [
     cells: [
       'Roof Penetration Hanger Bolt',
       'Dual-Thread Stud + EPDM Washer',
-      'M10 – M12 × 200 – 300 mm',
+      'M10 - M12 × 200 - 300 mm',
       'SS 304 (A2-70) Stainless Steel',
       'Penetrates sheet roofing into rafters with watertight EPDM seal',
     ],
@@ -243,22 +243,22 @@ const ENVIRONMENT_ROWS = [
 
 const SLA_ROWS = [
   {
-    cells: ['Gujarat (Home State)', 'Ahmedabad, Mehsana, Rajkot, Charanka, Mundra, Khavda', '24–48 hours'],
+    cells: ['Gujarat (Home State)', 'Ahmedabad, Mehsana, Rajkot, Charanka, Mundra, Khavda', '24-48 hours'],
   },
   {
-    cells: ['Rajasthan', 'Bikaner, Jaisalmer, Jodhpur, Bhadla', '3–5 business days'],
+    cells: ['Rajasthan', 'Bikaner, Jaisalmer, Jodhpur, Bhadla', '3-5 business days'],
   },
   {
-    cells: ['Maharashtra', 'Dhule, Solapur, Pune, Nagpur, Nashik', '4–6 business days'],
+    cells: ['Maharashtra', 'Dhule, Solapur, Pune, Nagpur, Nashik', '4-6 business days'],
   },
   {
-    cells: ['Karnataka', 'Pavagada, Bellary, Tumkur, Koppal', '5–7 business days'],
+    cells: ['Karnataka', 'Pavagada, Bellary, Tumkur, Koppal', '5-7 business days'],
   },
   {
-    cells: ['Tamil Nadu', 'Tuticorin, Ramanathapuram, Kamuthi, Coimbatore', '5–8 business days'],
+    cells: ['Tamil Nadu', 'Tuticorin, Ramanathapuram, Kamuthi, Coimbatore', '5-8 business days'],
   },
   {
-    cells: ['Andhra Pradesh & Telangana', 'Anantapur, Kurnool, Mahbubnagar', '5–7 business days'],
+    cells: ['Andhra Pradesh & Telangana', 'Anantapur, Kurnool, Mahbubnagar', '5-7 business days'],
   },
   {
     cells: ['North-East & Remote Hill Terrains', 'Assam, Arunachal Pradesh, Himachal Pradesh', 'Quoted per site logistics'],
@@ -269,7 +269,7 @@ const GLOSSARY_TERMS = [
   {
     title: 'MMS (Module Mounting Structure)',
     description:
-      'The complete engineered metallic support structure—including vertical columns, rafters, purlins, and rails—that fixes photovoltaic modules at the calculated tilt angle to maximize solar irradiance.',
+      'The complete engineered metallic support structure - including vertical columns, rafters, purlins, and rails - that fixes photovoltaic modules at the calculated tilt angle to maximize solar irradiance.',
   },
   {
     title: 'Purlins & Rafters',
@@ -376,7 +376,7 @@ export default function Page() {
       <JsonLd data={faqPage(FAQS)} />
 
       {/* 1. Hero */}
-      {/* VERIFICATION PENDING: Real photograph of solar MMS cross-section and fastener inventory at KP Fasteners Ahmedabad facility — ref: brief §6 hero-solar-industry-kp.webp & §10 item 6 */}
+      {/* VERIFICATION PENDING: Real photograph of solar MMS cross-section and fastener inventory at KP Fasteners Ahmedabad facility - ref: brief §6 hero-solar-industry-kp.webp & §10 item 6 */}
       <Section>
         <Container>
           <Breadcrumbs trail={trail} />
@@ -384,7 +384,7 @@ export default function Page() {
             <div>
               <p className="badge badge-gold">Solar Photovoltaic Fastener Supply · Rooftop, C&amp;I &amp; Ground-Mount</p>
               <Heading as="h1" variant="hero" className="mt-4 font-heading">
-                <span className="text-gold-gradient">Solar Mounting Fasteners</span> Supplier — Rooftop, Ground-Mount &amp; Tracker BOMs
+                <span className="text-gold-gradient">Solar Mounting Fasteners</span> Supplier - Rooftop, Ground-Mount &amp; Tracker BOMs
               </Heading>
               <hr className="rule-metal mt-5 w-40" aria-hidden="true" />
               <p className="mt-6 max-w-2xl text-lg text-ink-muted">
@@ -415,7 +415,7 @@ export default function Page() {
                 <div className="relative aspect-[4/3] w-full overflow-hidden rounded-md bg-transparent p-3">
                   <Image
                     src={HERO_IMAGE}
-                    alt="KP Fasteners solar mounting hardware — T-bolts, mid and end clamps, foundation bolts, and purlin fasteners for solar structures"
+                    alt="KP Fasteners solar mounting hardware - T-bolts, mid and end clamps, foundation bolts, and purlin fasteners for solar structures"
                     fill
                     priority
                     sizes="(min-width: 1024px) 40vw, 100vw"
@@ -427,7 +427,7 @@ export default function Page() {
           </div>
           <div className="mt-8">
             <ClassificationBanner classification="ambiguous">
-              Solar structure fasteners — SS 304/316 trading from vetted mills; project-spec OEM via{' '}
+              Solar structure fasteners - SS 304/316 trading from vetted mills; project-spec OEM via{' '}
               <Link href="/products/custom-fasteners/" className="font-semibold underline">
                 /products/custom-fasteners/
               </Link>.
@@ -448,7 +448,7 @@ export default function Page() {
                 Solar engineering procurement requires viewing fasteners not merely as discrete catalog items, but as an integrated <strong>structural bill of materials (BOM)</strong> that secures a multi-megawatt capital asset against high wind uplift, seismic vibration, and multi-decade atmospheric corrosion.
               </p>
               <p className="mt-4">
-                This industry page serves as an EPC project guide, detailing complete hardware stacks for specific mounting typologies—from concrete pier anchorage to module clamps—and defining material selection rules for coastal and industrial environments.
+                This industry page serves as an EPC project guide, detailing complete hardware stacks for specific mounting typologies - from concrete pier anchorage to module clamps - and defining material selection rules for coastal and industrial environments.
               </p>
             </Prose>
             <Prose>
@@ -470,7 +470,7 @@ export default function Page() {
       </Section>
 
       {/* 3. Fastener Stack Per Project Type */}
-      {/* VERIFICATION PENDING: Confirm tracker OEM supply scope — does KP supply tracker torque-tube BOMs today or fixed-tilt + rooftop only? — ref: brief §10 item 1 */}
+      {/* VERIFICATION PENDING: Confirm tracker OEM supply scope - does KP supply tracker torque-tube BOMs today or fixed-tilt + rooftop only? - ref: brief §10 item 1 */}
       <Section>
         <Container>
           <div className="flex items-center gap-3">
@@ -503,7 +503,7 @@ export default function Page() {
                 Rooftop Residential
               </Heading>
               <p className="mt-2 text-xs text-ink-muted">
-                1–10 kWp installations on tiled or metal sheet roofs. Driven by dual-thread hanger bolts with EPDM sealing washers, aluminum mounting rails, and SS 304 module clamps.
+                1-10 kWp installations on tiled or metal sheet roofs. Driven by dual-thread hanger bolts with EPDM sealing washers, aluminum mounting rails, and SS 304 module clamps.
               </p>
             </Card>
 
@@ -538,7 +538,7 @@ export default function Page() {
       </Section>
 
       {/* 4. Fastener Specification Schedule */}
-      {/* VERIFICATION PENDING: Confirm indicative fastener quantities per MWp — ref: brief §10 item 7 */}
+      {/* VERIFICATION PENDING: Confirm indicative fastener quantities per MWp - ref: brief §10 item 7 */}
       <Section variant="alt">
         <Container>
           <Heading as="h2" variant="section">
@@ -643,7 +643,7 @@ export default function Page() {
                 Solar photovoltaic modules carry standard 25-year manufacturer performance warranties. However, an entire solar array is only as durable as its smallest mechanical connection. If sub-grade foundation anchors or module clamps corrode prematurely, the resulting maintenance overhead, retorquing cycles, and generation downtime can severely erode project internal rate of return (IRR).
               </p>
               <p className="mt-4">
-                Accelerated laboratory salt-spray hours (such as ASTM B117) provide comparative quality metrics between production lots, but cannot simulate cyclic real-world atmospheric conditions. In natural service, hot-dip galvanized coatings form a protective zinc carbonate patina that resists uniform oxidation at predictable consumption rates (typically 1–2 µm per year in benign C2 inland environments).
+                Accelerated laboratory salt-spray hours (such as ASTM B117) provide comparative quality metrics between production lots, but cannot simulate cyclic real-world atmospheric conditions. In natural service, hot-dip galvanized coatings form a protective zinc carbonate patina that resists uniform oxidation at predictable consumption rates (typically 1-2 µm per year in benign C2 inland environments).
               </p>
             </Prose>
             <Prose>
@@ -713,8 +713,8 @@ export default function Page() {
       </Section>
 
       {/* 9. Dispatch SLAs by Solar Cluster */}
-      {/* VERIFICATION PENDING: Confirm dispatch SLA table by state and pin-code cluster — ref: brief §10 item 2 */}
-      {/* VERIFICATION PENDING: Confirm stocked J-bolt sizes for solar piers vs MTO lead times — ref: brief §10 item 8 */}
+      {/* VERIFICATION PENDING: Confirm dispatch SLA table by state and pin-code cluster - ref: brief §10 item 2 */}
+      {/* VERIFICATION PENDING: Confirm stocked J-bolt sizes for solar piers vs MTO lead times - ref: brief §10 item 8 */}
       <Section>
         <Container>
           <div className="flex items-center gap-3">
@@ -735,15 +735,15 @@ export default function Page() {
                 'Target Dispatch SLA (Standard Stocked SKUs)',
               ]}
               rows={SLA_ROWS}
-              caption="Indicative transit SLAs for standard stocked solar fasteners. Custom foundation bolt production runs carry a 7–14 day manufacturing lead time."
+              caption="Indicative transit SLAs for standard stocked solar fasteners. Custom foundation bolt production runs carry a 7-14 day manufacturing lead time."
             />
           </div>
         </Container>
       </Section>
 
       {/* 10. Project References */}
-      {/* VERIFICATION PENDING: Confirm anonymised project references and named EPC references with written permission — ref: brief §10 items 3 & 4 */}
-      {/* VERIFICATION PENDING: Confirm coastal solar project references with SS 316 upgrade — ref: brief §10 item 5 */}
+      {/* VERIFICATION PENDING: Confirm anonymised project references and named EPC references with written permission - ref: brief §10 items 3 & 4 */}
+      {/* VERIFICATION PENDING: Confirm coastal solar project references with SS 316 upgrade - ref: brief §10 item 5 */}
       <Section variant="alt">
         <Container>
           <div className="flex items-center gap-3">

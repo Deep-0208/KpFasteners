@@ -99,7 +99,7 @@ export function MegaMenu({ onClose }: { onClose?: () => void }) {
               {
                 href: '/products/hex-bolts-nuts/',
                 label: 'Hex Bolts & Nuts',
-                desc: 'DIN 933 / 934 · Property Class 4.6–10.9',
+                desc: 'DIN 933 / 934 · Property Class 4.6-10.9',
               },
               {
                 href: '/products/csk-allen-bolts/',

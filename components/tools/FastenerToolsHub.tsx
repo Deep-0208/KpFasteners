@@ -314,7 +314,7 @@ Generated via KP Fasteners Engineering Tools (https://kpfasteners.com/tools/)`;
                 >
                   {FASTENER_TYPES.map((f) => (
                     <option key={f.id} value={f.id}>
-                      {f.name} — {f.standard}
+                      {f.name} - {f.standard}
                     </option>
                   ))}
                 </select>
@@ -545,7 +545,7 @@ Generated via KP Fasteners Engineering Tools (https://kpfasteners.com/tools/)`;
                 >
                   {PROPERTY_CLASSES.map((c) => (
                     <option key={c.classId} value={c.classId}>
-                      {c.name} — Yield/Proof {c.proofStressMpa} MPa
+                      {c.name} - Yield/Proof {c.proofStressMpa} MPa
                     </option>
                   ))}
                 </select>
@@ -716,7 +716,7 @@ Generated via KP Fasteners Engineering Tools (https://kpfasteners.com/tools/)`;
                   className="w-full rounded-xl border border-border bg-surface px-3.5 py-2.5 text-sm font-medium text-ink focus:border-brand-gold focus:outline-none focus:ring-2 focus:ring-brand-gold/20"
                 >
                   <option value="M20">M20 Grade (Characteristic Strength 20 N/mm²)</option>
-                  <option value="M25">M25 Grade (Characteristic Strength 25 N/mm² — Recommended)</option>
+                  <option value="M25">M25 Grade (Characteristic Strength 25 N/mm² - Recommended)</option>
                   <option value="M30">M30 Grade (Characteristic Strength 30 N/mm²)</option>
                   <option value="M35">M35 Grade (Characteristic Strength 35 N/mm²)</option>
                   <option value="M40">M40 Grade (Characteristic Strength 40 N/mm² Heavy Base)</option>

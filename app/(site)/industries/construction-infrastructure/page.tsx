@@ -35,7 +35,7 @@ import { company } from '@/data/company';
 const PATH = '/industries/construction-infrastructure/';
 const HERO_IMAGE = '/images/products/bolts/j-bolt.webp';
 
-// Title: 56 chars (50–60 range). Meta description: 157 chars (150–160 range).
+// Title: 56 chars (50-60 range). Meta description: 157 chars (150-160 range).
 const META_TITLE = 'Construction & Infrastructure Fasteners Supplier | KP';
 const META_DESCRIPTION =
   'PEB anchor bolts, structural 8.8 hex bolts, sag rods, tie rods, HDG foundation bolts & bridge fasteners from KP Fasteners, Ahmedabad. Request a project quote.';
@@ -52,14 +52,14 @@ const WA_PREFILL =
 const WA_URL = 'https://wa.me/919898230448?text=' + encodeURIComponent(WA_PREFILL);
 const TEL = `tel:${company.telephones[0].replace(/[^\d+]/g, '')}`;
 
-// VERIFICATION PENDING: Confirm tunnel / metro-rail scope — does KP actively supply SS 316 fasteners to metro-tunnel contractors, or is this an aspirational segment? — ref: brief §10 item 1
-// VERIFICATION PENDING: Confirm lifting-anchor stud scope for precast — in-house, sourced, or not offered? — ref: brief §10 item 2
-// VERIFICATION PENDING: Confirm dispatch SLA table by metro-cluster pin codes — ref: brief §10 item 3 & §4.4
-// VERIFICATION PENDING: Confirm anonymised project references (PEB m², RCC floors, bridge span) — ref: brief §10 item 4 & §4.5
-// VERIFICATION PENDING: Confirm named EPC references with written permission — ref: brief §10 item 5
-// VERIFICATION PENDING: Real photograph of PEB base plate installation and construction fastener inventory at KP Fasteners Ahmedabad facility — ref: brief §6 hero-construction-industry-kp.webp & §10 item 6
-// VERIFICATION PENDING: Confirm whether KP has approved-vendor status on any state or central agency vendor list (SOR / NIT) that we may cite — ref: brief §10 item 7
-// VERIFICATION PENDING: Confirm exclusion of post-tensioning tendons, bridge stay-cable anchorages, and soil-nailing bars — ref: brief §10 item 8
+// VERIFICATION PENDING: Confirm tunnel / metro-rail scope - does KP actively supply SS 316 fasteners to metro-tunnel contractors, or is this an aspirational segment? - ref: brief §10 item 1
+// VERIFICATION PENDING: Confirm lifting-anchor stud scope for precast - in-house, sourced, or not offered? - ref: brief §10 item 2
+// VERIFICATION PENDING: Confirm dispatch SLA table by metro-cluster pin codes - ref: brief §10 item 3 & §4.4
+// VERIFICATION PENDING: Confirm anonymised project references (PEB m², RCC floors, bridge span) - ref: brief §10 item 4 & §4.5
+// VERIFICATION PENDING: Confirm named EPC references with written permission - ref: brief §10 item 5
+// VERIFICATION PENDING: Real photograph of PEB base plate installation and construction fastener inventory at KP Fasteners Ahmedabad facility - ref: brief §6 hero-construction-industry-kp.webp & §10 item 6
+// VERIFICATION PENDING: Confirm whether KP has approved-vendor status on any state or central agency vendor list (SOR / NIT) that we may cite - ref: brief §10 item 7
+// VERIFICATION PENDING: Confirm exclusion of post-tensioning tendons, bridge stay-cable anchorages, and soil-nailing bars - ref: brief §10 item 8
 
 const FAQS = [
   {
@@ -70,17 +70,17 @@ const FAQS = [
   {
     question: 'Do you supply fasteners against a structural engineer’s drawing / project BOQ?',
     answer:
-      'Yes — submit your structural engineering drawing, bolt schedule (geometry, diameter, embedment, projection, grade, coating, and quantities), and site delivery pin code. We quote back against the drawing schedule, with OEM foundation bolts, anchor bolts, stud bolts, and sag rods manufactured in-house, and structural hex bolts, scaffold accessories, and formwork tie rods supplied from vetted partner mills on a consolidated PO.',
+      'Yes - submit your structural engineering drawing, bolt schedule (geometry, diameter, embedment, projection, grade, coating, and quantities), and site delivery pin code. We quote back against the drawing schedule, with OEM foundation bolts, anchor bolts, stud bolts, and sag rods manufactured in-house, and structural hex bolts, scaffold accessories, and formwork tie rods supplied from vetted partner mills on a consolidated PO.',
   },
   {
     question: 'What is your typical lead time for a PEB foundation-bolt BOQ?',
     answer:
-      'Standard-shape anchor bolts (J-bolt, L-bolt, headed, M16–M30) in hot-dip galvanized finish dispatch within 24–48 hours ex-Ahmedabad for Gujarat sites, and 3–8 business days pan-India. Custom embedment lengths or ASTM F1554 Grade 55 production runs take 7–14 days. Headed F1554 Grade 105 heavy anchorage is quoted with project-specific mill scheduling.',
+      'Standard-shape anchor bolts (J-bolt, L-bolt, headed, M16-M30) in hot-dip galvanized finish dispatch within 24-48 hours ex-Ahmedabad for Gujarat sites, and 3-8 business days pan-India. Custom embedment lengths or ASTM F1554 Grade 55 production runs take 7-14 days. Headed F1554 Grade 105 heavy anchorage is quoted with project-specific mill scheduling.',
   },
   {
     question: 'Can you supply fasteners for a bridge or metro-tunnel project?',
     answer:
-      'Yes for bridges — including HDG Class 8.8 structural steel hex bolts, foundation studs for bearing pedestals, and parapet anchor bolts. For metro-tunnel lining fixings, we supply SS 316 fasteners (distribution range) and chemical anchor studs (OEM). Note that long-span bridge stay cables, post-tensioning strands, and soil-nailing bars are outside KP’s mechanical fastener product scope.',
+      'Yes for bridges - including HDG Class 8.8 structural steel hex bolts, foundation studs for bearing pedestals, and parapet anchor bolts. For metro-tunnel lining fixings, we supply SS 316 fasteners (distribution range) and chemical anchor studs (OEM). Note that long-span bridge stay cables, post-tensioning strands, and soil-nailing bars are outside KP’s mechanical fastener product scope.',
   },
   {
     question: 'What MTC and documentation do you provide on a construction BOQ?',
@@ -104,7 +104,7 @@ const PROJECT_STACK_ROWS = [
   {
     cells: [
       'Industrial Shed & Warehouse',
-      'Hook anchor bolt / Welded plate bolt (M16–M36)',
+      'Hook anchor bolt / Welded plate bolt (M16-M36)',
       'Roof & wall sag rod bracing system',
       'Flange bolts + cold-formed purlin fasteners',
       'HDG Grade 4.6 / 8.8',
@@ -170,7 +170,7 @@ const PROJECT_STACK_ROWS = [
   {
     cells: [
       'Highway Road Furniture',
-      'Crash barrier & sign gantry anchor bolts (M20–M36)',
+      'Crash barrier & sign gantry anchor bolts (M20-M36)',
       'Gantry overhead framework studs',
       'Button head anti-theft bolts + HDG nuts',
       'HDG Class 8.8',
@@ -196,7 +196,7 @@ const SPEC_SCHEDULE_ROWS = [
     cells: [
       'Foundation Anchor Bolt (J / L Shape)',
       'IS 2062 / Class 4.6 / ASTM F1554 Gr 36/55',
-      'M16 – M64 × 300 – 2500 mm',
+      'M16 - M64 × 300 - 2500 mm',
       'IS 5624 / ASTM F1554',
       'Anchoring column base plates, equipment pedestals, and civil structural framing',
     ],
@@ -205,7 +205,7 @@ const SPEC_SCHEDULE_ROWS = [
     cells: [
       'Plate-Headed Foundation Bolt',
       'ASTM F1554 Gr 55 / Gr 105 / Class 8.8',
-      'M20 – M72 × 400 – 3000 mm',
+      'M20 - M72 × 400 - 3000 mm',
       'ASTM F1554 / IS 5624',
       'Heavy dynamic load anchorage in bridge pedestals, stamping presses, and precast columns',
     ],
@@ -214,7 +214,7 @@ const SPEC_SCHEDULE_ROWS = [
     cells: [
       'PEB Sag Rod / Purlin Tie Rod',
       'IS 2062 Gr E250 / Mild Steel',
-      'M10 – M20 × 1200 – 3500 mm',
+      'M10 - M20 × 1200 - 3500 mm',
       'IS 801 / AISC Spec',
       'Restraining lateral torsional buckling and sag across cold-formed Z and C purlins',
     ],
@@ -223,7 +223,7 @@ const SPEC_SCHEDULE_ROWS = [
     cells: [
       'Formwork Shuttering Tie Rod',
       'High-Yield Cold-Rolled Carbon Steel',
-      'Dia 15/17 mm & 20/22 mm × 1000 – 6000 mm',
+      'Dia 15/17 mm & 20/22 mm × 1000 - 6000 mm',
       'IS 14687 / DIN 18216',
       'Withstanding fresh hydrostatic concrete pressure across vertical RCC wall pours',
     ],
@@ -232,7 +232,7 @@ const SPEC_SCHEDULE_ROWS = [
     cells: [
       'Structural Hex Bolt & Heavy Nut',
       'Property Class 8.8 / 10.9 (HDG)',
-      'M12 – M36 × 35 – 220 mm',
+      'M12 - M36 × 35 - 220 mm',
       'IS 1367 / IS 1364 / ISO 898-1',
       'Moment and shear connections in structural steel frames, PEB rafters, and crane girders',
     ],
@@ -241,7 +241,7 @@ const SPEC_SCHEDULE_ROWS = [
     cells: [
       'High-Tensile Flange Stud Bolt',
       'ASTM A193 B7 / Nut ASTM A194 2H',
-      'M16 – M48 × 100 – 1000 mm',
+      'M16 - M48 × 100 - 1000 mm',
       'ASTM A193 / ASTM A194',
       'Bridge bearing pedestals, expansion joint fixings, and high-pressure industrial pipe flanges',
     ],
@@ -250,7 +250,7 @@ const SPEC_SCHEDULE_ROWS = [
     cells: [
       'Stainless Steel Chemical Anchor Stud',
       'SS 316 (A4-70) / ASTM A193 B8M',
-      'M10 – M30 × 110 – 380 mm',
+      'M10 - M30 × 110 - 380 mm',
       'ISO 3506-1 / ASTM A193',
       'Post-installed chemical anchoring into cured concrete in tunnels, metros, and coastal structures',
     ],
@@ -259,7 +259,7 @@ const SPEC_SCHEDULE_ROWS = [
     cells: [
       'Scaffold Adjustable Base Jack',
       'Seamless Heavy-Gauge Tube (Q235)',
-      'Dia 32 / 38 mm × 350 – 650 mm',
+      'Dia 32 / 38 mm × 350 - 650 mm',
       'IS 14687 / EN 12812',
       'Ground load transfer and precise vertical leveling for formwork staging towers',
     ],
@@ -277,10 +277,10 @@ const SPEC_SCHEDULE_ROWS = [
 
 const STANDARDS_ROWS = [
   {
-    cells: ['IS 5624', 'Bureau of Indian Standards (BIS)', 'Foundation bolts — dimensions, bending hook radii, and thread lengths'],
+    cells: ['IS 5624', 'Bureau of Indian Standards (BIS)', 'Foundation bolts - dimensions, bending hook radii, and thread lengths'],
   },
   {
-    cells: ['IS 1367 (Parts 1–20)', 'Bureau of Indian Standards (BIS)', 'Mechanical properties, tolerances, and proof load testing of steel fasteners'],
+    cells: ['IS 1367 (Parts 1-20)', 'Bureau of Indian Standards (BIS)', 'Mechanical properties, tolerances, and proof load testing of steel fasteners'],
   },
   {
     cells: ['IS 1363 & IS 1364', 'Bureau of Indian Standards (BIS)', 'Hexagon head bolts, screws, and nuts (product grades A, B, and C)'],
@@ -292,7 +292,7 @@ const STANDARDS_ROWS = [
     cells: ['IS 2062', 'Bureau of Indian Standards (BIS)', 'Hot-rolled medium and high-tensile structural steel for anchor bars and sag rods'],
   },
   {
-    cells: ['IS 14687', 'Bureau of Indian Standards (BIS)', 'Falsework for concrete structures — tie rod tension and scaffolding design safety'],
+    cells: ['IS 14687', 'Bureau of Indian Standards (BIS)', 'Falsework for concrete structures - tie rod tension and scaffolding design safety'],
   },
   {
     cells: ['DIN 18216 & DIN 18218', 'Deutsches Institut für Normung (DIN)', 'Formwork tie anchors and fresh concrete lateral pressure calculations'],
@@ -323,8 +323,8 @@ const MATERIAL_DEFAULT_ROWS = [
       'Pre-Engineered Building (PEB)',
       'HDG Class 8.8 structural bolts & purlin bolts',
       'HDG anchor bolt (IS 5624 Gr 4.6 / F1554 Gr 55)',
-      '—',
-      '—',
+      '-',
+      '-',
     ],
   },
   {
@@ -333,7 +333,7 @@ const MATERIAL_DEFAULT_ROWS = [
       'HDG Class 8.8 structural connections',
       'HDG foundation bolt for core columns',
       'SS 304 plumbing & external facade anchors',
-      '—',
+      '-',
     ],
   },
   {
@@ -341,7 +341,7 @@ const MATERIAL_DEFAULT_ROWS = [
       'Bridges & Elevated Flyovers',
       'HDG Class 8.8 / ASTM A193 B7',
       'HDG heavy pedestal anchor studs',
-      '—',
+      '-',
       'HDG + dual epoxy barrier over-coat',
     ],
   },
@@ -359,8 +359,8 @@ const MATERIAL_DEFAULT_ROWS = [
       'Precast & Prefab Yard',
       'HDG Class 8.8 structural bolts',
       'HDG cast-in headed plate anchors',
-      '—',
-      '—',
+      '-',
+      '-',
     ],
   },
   {
@@ -376,25 +376,25 @@ const MATERIAL_DEFAULT_ROWS = [
 
 const SLA_ROWS = [
   {
-    cells: ['Gujarat (Home State)', 'Ahmedabad, Surat, Vadodara, Rajkot, Gandhinagar, Mundra', '24–48 hours'],
+    cells: ['Gujarat (Home State)', 'Ahmedabad, Surat, Vadodara, Rajkot, Gandhinagar, Mundra', '24-48 hours'],
   },
   {
-    cells: ['Maharashtra', 'Mumbai, Navi Mumbai, Pune, Nagpur, Nashik', '3–5 business days'],
+    cells: ['Maharashtra', 'Mumbai, Navi Mumbai, Pune, Nagpur, Nashik', '3-5 business days'],
   },
   {
-    cells: ['Rajasthan', 'Jaipur, Udaipur, Jodhpur, Kota, Bhiwadi', '3–5 business days'],
+    cells: ['Rajasthan', 'Jaipur, Udaipur, Jodhpur, Kota, Bhiwadi', '3-5 business days'],
   },
   {
-    cells: ['Madhya Pradesh', 'Indore, Bhopal, Gwalior, Jabalpur', '4–6 business days'],
+    cells: ['Madhya Pradesh', 'Indore, Bhopal, Gwalior, Jabalpur', '4-6 business days'],
   },
   {
-    cells: ['Karnataka & Tamil Nadu', 'Bengaluru, Chennai, Hosur, Coimbatore', '5–8 business days'],
+    cells: ['Karnataka & Tamil Nadu', 'Bengaluru, Chennai, Hosur, Coimbatore', '5-8 business days'],
   },
   {
-    cells: ['National Capital Region (NCR)', 'Delhi, Noida, Gurugram, Faridabad, Ghaziabad', '5–8 business days'],
+    cells: ['National Capital Region (NCR)', 'Delhi, Noida, Gurugram, Faridabad, Ghaziabad', '5-8 business days'],
   },
   {
-    cells: ['Uttar Pradesh & Bihar', 'Lucknow, Kanpur, Varanasi, Patna', '6–10 business days'],
+    cells: ['Uttar Pradesh & Bihar', 'Lucknow, Kanpur, Varanasi, Patna', '6-10 business days'],
   },
   {
     cells: ['North-East & Remote Hilly Corridors', 'Guwahati, Siliguri, Dehradun, Jammu', 'Quoted per site logistics'],
@@ -502,7 +502,7 @@ export default function Page() {
       <JsonLd data={faqPage(FAQS)} />
 
       {/* 1. Hero */}
-      {/* VERIFICATION PENDING: Real photograph of PEB base plate installation and construction fastener inventory at KP Fasteners Ahmedabad facility — ref: brief §6 hero-construction-industry-kp.webp & §10 item 6 */}
+      {/* VERIFICATION PENDING: Real photograph of PEB base plate installation and construction fastener inventory at KP Fasteners Ahmedabad facility - ref: brief §6 hero-construction-industry-kp.webp & §10 item 6 */}
       <Section>
         <Container>
           <Breadcrumbs trail={trail} />
@@ -510,7 +510,7 @@ export default function Page() {
             <div>
               <p className="badge badge-gold">Construction &amp; Infrastructure Sector Supply · PEB, RCC &amp; Bridges</p>
               <Heading as="h1" variant="hero" className="mt-4 font-heading">
-                <span className="text-gold-gradient">Construction Fasteners</span> Supplier — PEB, High-Rise, Bridges &amp; Tunnels
+                <span className="text-gold-gradient">Construction Fasteners</span> Supplier - PEB, High-Rise, Bridges &amp; Tunnels
               </Heading>
               <hr className="rule-metal mt-5 w-40" aria-hidden="true" />
               <p className="mt-6 max-w-2xl text-lg text-ink-muted">
@@ -541,7 +541,7 @@ export default function Page() {
                 <div className="relative aspect-[4/3] w-full overflow-hidden rounded-md bg-transparent p-3">
                   <Image
                     src={HERO_IMAGE}
-                    alt="KP Fasteners construction and infrastructure hardware — foundation anchor bolts, PEB sag rods, and structural hex bolts"
+                    alt="KP Fasteners construction and infrastructure hardware - foundation anchor bolts, PEB sag rods, and structural hex bolts"
                     fill
                     priority
                     sizes="(min-width: 1024px) 40vw, 100vw"
@@ -553,7 +553,7 @@ export default function Page() {
           </div>
           <div className="mt-8">
             <ClassificationBanner classification="ambiguous">
-              Construction fasteners — OEM for foundation bolts, stud bolts, sag rods; trading hex/csk from vetted mills.
+              Construction fasteners - OEM for foundation bolts, stud bolts, sag rods; trading hex/csk from vetted mills.
             </ClassificationBanner>
           </div>
         </Container>
@@ -579,7 +579,7 @@ export default function Page() {
             </Prose>
             <Prose>
               <p>
-                KP Fasteners resolves this procurement challenge through a combined manufacturing and verified distribution model operated directly from our Ahmedabad facility. We manufacture critical custom anchorage items in-house—including{' '}
+                KP Fasteners resolves this procurement challenge through a combined manufacturing and verified distribution model operated directly from our Ahmedabad facility. We manufacture critical custom anchorage items in-house - including{' '}
                 <Link
                   href="/products/foundation-bolts/"
                   className="font-semibold text-brand-gold-strong hover:underline"
@@ -600,7 +600,7 @@ export default function Page() {
                 >
                   ASTM A193 B7 / B8M stud bolts
                 </Link>
-                —while distributing factory-certified{' '}
+                -while distributing factory-certified{' '}
                 <Link
                   href="/products/hex-bolts-nuts/"
                   className="font-semibold text-brand-gold-strong hover:underline"
@@ -632,7 +632,7 @@ export default function Page() {
       </Section>
 
       {/* 3. Fastener Stack Per Project Type */}
-      {/* VERIFICATION PENDING: Confirm tunnel / metro-rail scope & lifting-anchor stud scope for precast — ref: brief §10 items 1 & 2 */}
+      {/* VERIFICATION PENDING: Confirm tunnel / metro-rail scope & lifting-anchor stud scope for precast - ref: brief §10 items 1 & 2 */}
       <Section>
         <Container>
           <div className="flex items-center gap-3">
@@ -814,7 +814,7 @@ export default function Page() {
       </Section>
 
       {/* 7. Structural Scope Boundary & Product Exclusions Callout */}
-      {/* VERIFICATION PENDING: Confirm exclusion of post-tensioning tendons, bridge stay-cable anchorages, and soil-nailing bars — ref: brief §10 item 8 */}
+      {/* VERIFICATION PENDING: Confirm exclusion of post-tensioning tendons, bridge stay-cable anchorages, and soil-nailing bars - ref: brief §10 item 8 */}
       <Section>
         <Container>
           <div className="rounded-xl border border-border bg-surface p-8 shadow-card">
@@ -883,7 +883,7 @@ export default function Page() {
       </Section>
 
       {/* 8. Why Ahmedabad Base Matters & Dispatch SLAs */}
-      {/* VERIFICATION PENDING: Confirm dispatch SLA table by metro-cluster pin codes — ref: brief §10 item 3 & §4.4 */}
+      {/* VERIFICATION PENDING: Confirm dispatch SLA table by metro-cluster pin codes - ref: brief §10 item 3 & §4.4 */}
       <Section variant="alt">
         <Container>
           <div className="flex items-center gap-3">
@@ -903,7 +903,7 @@ export default function Page() {
             </Prose>
             <Prose>
               <p>
-                For project sites throughout Gujarat—including Sanand, Dholera SIR, Dahej PCPIR, Surat, and Rajkot—we provide same-week and 24–48 hour direct dispatches for standard stocked anchor sizes. Fabricators across Rajasthan and Maharashtra benefit from rapid 3–5 business day delivery, while our centralized logistics network maintains dependable dispatch SLAs for infrastructure clusters across South and North India.
+                For project sites throughout Gujarat - including Sanand, Dholera SIR, Dahej PCPIR, Surat, and Rajkot - we provide same-week and 24-48 hour direct dispatches for standard stocked anchor sizes. Fabricators across Rajasthan and Maharashtra benefit from rapid 3-5 business day delivery, while our centralized logistics network maintains dependable dispatch SLAs for infrastructure clusters across South and North India.
               </p>
             </Prose>
           </div>
@@ -916,7 +916,7 @@ export default function Page() {
                 'Target Dispatch SLA (Standard Stocked Hardware)',
               ]}
               rows={SLA_ROWS}
-              caption="Indicative road freight dispatch SLAs for standard construction fasteners. Custom foundation bolt fabrication runs carry a 7–14 business day manufacturing lead time."
+              caption="Indicative road freight dispatch SLAs for standard construction fasteners. Custom foundation bolt fabrication runs carry a 7-14 business day manufacturing lead time."
             />
           </div>
         </Container>
@@ -971,8 +971,8 @@ export default function Page() {
       </Section>
 
       {/* 10. Project Supply Track Record */}
-      {/* VERIFICATION PENDING: Confirm anonymised project references and named EPC references with written permission — ref: brief §10 items 4 & 5 */}
-      {/* VERIFICATION PENDING: Confirm whether KP has approved-vendor status on any state or central agency vendor list (SOR / NIT) that we may cite — ref: brief §10 item 7 */}
+      {/* VERIFICATION PENDING: Confirm anonymised project references and named EPC references with written permission - ref: brief §10 items 4 & 5 */}
+      {/* VERIFICATION PENDING: Confirm whether KP has approved-vendor status on any state or central agency vendor list (SOR / NIT) that we may cite - ref: brief §10 item 7 */}
       <Section variant="alt">
         <Container>
           <div className="flex items-center gap-3">

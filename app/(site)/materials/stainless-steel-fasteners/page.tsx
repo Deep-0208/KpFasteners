@@ -37,7 +37,7 @@ import { company } from '@/data/company';
 const PATH = '/materials/stainless-steel-fasteners/';
 const HERO_IMAGE = '/product-images/stainless-steel/hero.webp';
 
-// Title: 59 chars (50–60 range). Meta description: 156 chars (150–160 range).
+// Title: 59 chars (50-60 range). Meta description: 156 chars (150-160 range).
 const META_TITLE = 'Stainless Steel Fasteners Manufacturer | SS 304 vs 316 | KP';
 const META_DESCRIPTION =
   'SS 304, 316, 316L & 316Ti compared: chemistry, PREN, corrosion, magnetism & ISO 3506 specs. Decision tree for solar, coastal & pharma. Request an RFQ quote.';
@@ -54,62 +54,62 @@ const WA_PREFILL =
 const WA_URL = 'https://wa.me/919898230448?text=' + encodeURIComponent(WA_PREFILL);
 const TEL = `tel:${company.telephones[0].replace(/[^\d+]/g, '')}`;
 
-// VERIFICATION PENDING: Confirm whether KP performs PMI inspection in-house with an owned XRF analyzer or routes lots to an accredited NABL testing partner — ref: brief §10 item 3
-// VERIFICATION PENDING: Confirm in-house vs partner passivation discipline and chemical bath standards — ref: brief §10 item 4
-// VERIFICATION PENDING: Confirm named NABL partner testing laboratory for external verification — ref: brief §10 item 5
-// VERIFICATION PENDING: Confirm whether SS 202 is ever supplied under KP dispatch or excluded entirely from inventory — ref: brief §10 item 2
-// VERIFICATION PENDING: Confirm whether SS 316Ti is stocked or supplied strictly on-quote — ref: brief §10 item 1
-// VERIFICATION PENDING: Real photograph of mixed SS 304 and SS 316 fastener inventory at KP Fasteners Ahmedabad facility — ref: brief §6 hero-ss-fasteners-kp.webp & §10 item 6
+// VERIFICATION PENDING: Confirm whether KP performs PMI inspection in-house with an owned XRF analyzer or routes lots to an accredited NABL testing partner - ref: brief §10 item 3
+// VERIFICATION PENDING: Confirm in-house vs partner passivation discipline and chemical bath standards - ref: brief §10 item 4
+// VERIFICATION PENDING: Confirm named NABL partner testing laboratory for external verification - ref: brief §10 item 5
+// VERIFICATION PENDING: Confirm whether SS 202 is ever supplied under KP dispatch or excluded entirely from inventory - ref: brief §10 item 2
+// VERIFICATION PENDING: Confirm whether SS 316Ti is stocked or supplied strictly on-quote - ref: brief §10 item 1
+// VERIFICATION PENDING: Real photograph of mixed SS 304 and SS 316 fastener inventory at KP Fasteners Ahmedabad facility - ref: brief §6 hero-ss-fasteners-kp.webp & §10 item 6
 
 const FAQS = [
   {
-    question: 'SS 304 vs SS 316 for solar — which grade for which site?',
+    question: 'SS 304 vs SS 316 for solar - which grade for which site?',
     answer:
-      'Inland rooftop and inland ground-mount: SS 304 (A2-70) is the industry default and sufficient for a 25-year design life. Within ~5 km of the coast, or on cement / fertiliser plant rooftops: upgrade to SS 316 (A4-70). The upgrade cost is around 20–30% on the SS fastener line item but is the single highest-leverage decision on the plant long-term maintenance budget — chlorine-induced pitting on 304 progresses silently and shows up as rust streaks after 3–5 monsoon cycles.',
+      'Inland rooftop and inland ground-mount: SS 304 (A2-70) is the industry default and sufficient for a 25-year design life. Within ~5 km of the coast, or on cement / fertiliser plant rooftops: upgrade to SS 316 (A4-70). The upgrade cost is around 20-30% on the SS fastener line item but is the single highest-leverage decision on the plant long-term maintenance budget - chlorine-induced pitting on 304 progresses silently and shows up as rust streaks after 3-5 monsoon cycles.',
   },
   {
     question: 'Will SS 316 rust in coastal service?',
     answer:
-      'SS 316 resists chloride-pitting corrosion well up to the near-shore atmosphere (PREN 24–27). In the actual marine splash zone (continuous seawater wetting with evaporation, PREN requirement > 35), SS 316 is marginal — specify duplex 2205 or super-duplex instead. Rust-tea staining on an SS 316 fastener a few months into coastal service is almost always free iron contamination from the install (bolt drill-dust, cross-contamination with carbon-steel tools) and is resolved by local passivation per ASTM A967.',
+      'SS 316 resists chloride-pitting corrosion well up to the near-shore atmosphere (PREN 24-27). In the actual marine splash zone (continuous seawater wetting with evaporation, PREN requirement > 35), SS 316 is marginal - specify duplex 2205 or super-duplex instead. Rust-tea staining on an SS 316 fastener a few months into coastal service is almost always free iron contamination from the install (bolt drill-dust, cross-contamination with carbon-steel tools) and is resolved by local passivation per ASTM A967.',
   },
   {
     question: 'Does magnet pull on an SS fastener mean it is "fake 316"?',
     answer:
-      'No. SS 304 and SS 316 are austenitic in the annealed state and are weakly magnetic to non-magnetic — but cold-work (thread rolling, cold heading) induces martensite on the thread crests and the head, which makes the finished fastener feel slightly magnetic. A moderate magnet pull on a cold-headed SS 304 bolt is normal and expected. To actually verify grade, use PMI (handheld XRF), a nitric-acid drop test, or send a sample for lab chemistry.',
+      'No. SS 304 and SS 316 are austenitic in the annealed state and are weakly magnetic to non-magnetic - but cold-work (thread rolling, cold heading) induces martensite on the thread crests and the head, which makes the finished fastener feel slightly magnetic. A moderate magnet pull on a cold-headed SS 304 bolt is normal and expected. To actually verify grade, use PMI (handheld XRF), a nitric-acid drop test, or send a sample for lab chemistry.',
   },
   {
     question: 'What is the difference between SS 316 and SS 316L and SS 316Ti?',
     answer:
-      'SS 316 is the general-purpose Mo-bearing austenitic (C ≤ 0.08%). SS 316L is the low-carbon variant (C ≤ 0.03%) specified for welded assemblies — the lower carbon suppresses sensitisation (chromium-carbide precipitation at grain boundaries) that would otherwise strip the HAZ of its corrosion protection. SS 316Ti is titanium-stabilised 316 for sustained service above ~500 °C, where even 316L low carbon is not enough to prevent sensitisation — titanium ties up the carbon as TiC and keeps chromium available for passivation.',
+      'SS 316 is the general-purpose Mo-bearing austenitic (C ≤ 0.08%). SS 316L is the low-carbon variant (C ≤ 0.03%) specified for welded assemblies - the lower carbon suppresses sensitisation (chromium-carbide precipitation at grain boundaries) that would otherwise strip the HAZ of its corrosion protection. SS 316Ti is titanium-stabilised 316 for sustained service above ~500 °C, where even 316L low carbon is not enough to prevent sensitisation - titanium ties up the carbon as TiC and keeps chromium available for passivation.',
   },
   {
-    question: 'What is A2 and A4 — are they the same as SS 304 and SS 316?',
+    question: 'What is A2 and A4 - are they the same as SS 304 and SS 316?',
     answer:
-      'Close, but the designations describe two different things. A2 and A4 are the ISO 3506 austenitic steel group designations (A2 = 304-based chemistry, A4 = 316-based chemistry). The number after the dash (A2-70, A4-70, A4-80) is the mechanical property class — A4-70 means a 316-based bolt with minimum 700 MPa UTS and 450 MPa yield after cold-working. So "SS 316 A4-70" is the full specification an engineer should write on the drawing.',
+      'Close, but the designations describe two different things. A2 and A4 are the ISO 3506 austenitic steel group designations (A2 = 304-based chemistry, A4 = 316-based chemistry). The number after the dash (A2-70, A4-70, A4-80) is the mechanical property class - A4-70 means a 316-based bolt with minimum 700 MPa UTS and 450 MPa yield after cold-working. So "SS 316 A4-70" is the full specification an engineer should write on the drawing.',
   },
 ];
 
 const CHEMISTRY_ROWS = [
   {
-    cells: ['SS 202', '17.0–19.0', '4.0–6.0', '—', '0.15', '7.5–10.0', '0.25 max'],
+    cells: ['SS 202', '17.0-19.0', '4.0-6.0', '-', '0.15', '7.5-10.0', '0.25 max'],
   },
   {
-    cells: ['SS 304', '18.0–20.0', '8.0–10.5', '—', '0.08', '2.00', '0.10 max'],
+    cells: ['SS 304', '18.0-20.0', '8.0-10.5', '-', '0.08', '2.00', '0.10 max'],
   },
   {
-    cells: ['SS 304L', '18.0–20.0', '8.0–12.0', '—', '0.03', '2.00', '0.10 max'],
+    cells: ['SS 304L', '18.0-20.0', '8.0-12.0', '-', '0.03', '2.00', '0.10 max'],
   },
   {
-    cells: ['SS 316', '16.0–18.0', '10.0–14.0', '2.0–3.0', '0.08', '2.00', '0.10 max'],
+    cells: ['SS 316', '16.0-18.0', '10.0-14.0', '2.0-3.0', '0.08', '2.00', '0.10 max'],
   },
   {
-    cells: ['SS 316L', '16.0–18.0', '10.0–14.0', '2.0–3.0', '0.03', '2.00', '0.10 max'],
+    cells: ['SS 316L', '16.0-18.0', '10.0-14.0', '2.0-3.0', '0.03', '2.00', '0.10 max'],
   },
   {
-    cells: ['SS 316Ti', '16.0–18.0', '10.0–14.0', '2.0–3.0', '0.08', '2.00', 'Ti 5×(C+N)–0.70'],
+    cells: ['SS 316Ti', '16.0-18.0', '10.0-14.0', '2.0-3.0', '0.08', '2.00', 'Ti 5×(C+N)-0.70'],
   },
   {
-    cells: ['Duplex 2205', '22.0–23.0', '4.5–6.5', '3.0–3.5', '0.03', '2.00', '0.14–0.20'],
+    cells: ['Duplex 2205', '22.0-23.0', '4.5-6.5', '3.0-3.5', '0.03', '2.00', '0.14-0.20'],
   },
 ];
 
@@ -136,25 +136,25 @@ const MECHANICAL_ROWS = [
 
 const PREN_ROWS = [
   {
-    cells: ['SS 202', '15–18', 'Indoor dry environments only; rust-prone outdoors'],
+    cells: ['SS 202', '15-18', 'Indoor dry environments only; rust-prone outdoors'],
   },
   {
-    cells: ['SS 304', '18–20', 'Inland urban, rooftop solar, general engineering'],
+    cells: ['SS 304', '18-20', 'Inland urban, rooftop solar, general engineering'],
   },
   {
-    cells: ['SS 304L', '18–20', 'Welded inland fabrication; HAZ corrosion protection'],
+    cells: ['SS 304L', '18-20', 'Welded inland fabrication; HAZ corrosion protection'],
   },
   {
-    cells: ['SS 316', '24–27', 'Coastal within 5 km, chemical, cement, fertilizer atmospheres'],
+    cells: ['SS 316', '24-27', 'Coastal within 5 km, chemical, cement, fertilizer atmospheres'],
   },
   {
-    cells: ['SS 316L', '24–27', 'Welded coastal structures, sanitary pharma, cleanrooms'],
+    cells: ['SS 316L', '24-27', 'Welded coastal structures, sanitary pharma, cleanrooms'],
   },
   {
-    cells: ['SS 316Ti', '24–25', 'High-temperature petrochemical and exhaust systems (≥ 500 °C)'],
+    cells: ['SS 316Ti', '24-25', 'High-temperature petrochemical and exhaust systems (≥ 500 °C)'],
   },
   {
-    cells: ['Duplex 2205', '34–38', 'Marine splash zone, desalination, stress-corrosion cracking'],
+    cells: ['Duplex 2205', '34-38', 'Marine splash zone, desalination, stress-corrosion cracking'],
   },
 ];
 
@@ -175,13 +175,13 @@ const CORROSION_ROWS = [
     cells: ['Chemical plant (dilute acids)', '✗', 'Marginal', 'Marginal', '✓', '✓'],
   },
   {
-    cells: ['Pharma / cleanroom', '✓', '✓ (Default)', '✓ (Welded)', '—', '—'],
+    cells: ['Pharma / cleanroom', '✓', '✓ (Default)', '✓ (Welded)', '-', '-'],
   },
   {
-    cells: ['Food contact (dry / ambient)', '✓ (Default)', '✓', '✓', '—', '—'],
+    cells: ['Food contact (dry / ambient)', '✓ (Default)', '✓', '✓', '-', '-'],
   },
   {
-    cells: ['Food contact (wet, salted)', 'Risk', '✓ (Default)', '✓', '—', '—'],
+    cells: ['Food contact (wet, salted)', 'Risk', '✓ (Default)', '✓', '-', '-'],
   },
   {
     cells: ['Fertiliser plant atmosphere', 'Risk', '✓', '✓', '✓', '✓'],
@@ -190,10 +190,10 @@ const CORROSION_ROWS = [
     cells: ['Cement plant atmosphere', 'Risk', '✓', '✓', '✓', '✓'],
   },
   {
-    cells: ['≥ 500 °C sustained heat', 'Marginal', 'Marginal', 'Marginal', '✓ (Default)', '—'],
+    cells: ['≥ 500 °C sustained heat', 'Marginal', 'Marginal', 'Marginal', '✓ (Default)', '-'],
   },
   {
-    cells: ['Welded + corrosive service', 'Risk (Sensitisation)', 'Risk', '✓ (Default)', '—', '✓'],
+    cells: ['Welded + corrosive service', 'Risk (Sensitisation)', 'Risk', '✓ (Default)', '-', '✓'],
   },
 ];
 
@@ -299,7 +299,7 @@ export default function Page() {
       <JsonLd data={faqPage(FAQS)} />
 
       {/* 1. Hero */}
-      {/* VERIFICATION PENDING: Real photograph of mixed SS 304 and SS 316 fastener inventory at KP Fasteners Ahmedabad facility — ref: brief §6 hero-ss-fasteners-kp.webp & §10 item 6 */}
+      {/* VERIFICATION PENDING: Real photograph of mixed SS 304 and SS 316 fastener inventory at KP Fasteners Ahmedabad facility - ref: brief §6 hero-ss-fasteners-kp.webp & §10 item 6 */}
       <Section>
         <Container>
           <Breadcrumbs trail={trail} />
@@ -307,7 +307,7 @@ export default function Page() {
             <div>
               <p className="badge badge-gold">Material Hub · SS 304 &amp; SS 316</p>
               <Heading as="h1" variant="hero" className="mt-4 font-heading">
-                <span className="text-gold-gradient">Stainless Steel Fasteners</span> — SS 304 vs SS 316 Decision Guide
+                <span className="text-gold-gradient">Stainless Steel Fasteners</span> - SS 304 vs SS 316 Decision Guide
               </Heading>
               <hr className="rule-metal mt-5 w-40" aria-hidden="true" />
               <p className="mt-6 max-w-2xl text-lg text-ink-muted">
@@ -338,7 +338,7 @@ export default function Page() {
                 <div className="relative aspect-[4/3] w-full overflow-hidden rounded-md bg-transparent p-3">
                   <Image
                     src={HERO_IMAGE}
-                    alt="KP Fasteners stainless steel fasteners inventory — SS 304 and SS 316 bolts, studs, and precision hardware"
+                    alt="KP Fasteners stainless steel fasteners inventory - SS 304 and SS 316 bolts, studs, and precision hardware"
                     fill
                     priority
                     sizes="(min-width: 1024px) 40vw, 100vw"
@@ -365,7 +365,7 @@ export default function Page() {
           <div className="mt-6 grid gap-8 md:grid-cols-2">
             <Prose>
               <p>
-                <strong>SS 304 (A2-70)</strong> is the default specification for inland, rooftop, and general industrial environments. It provides reliable corrosion resistance against moisture, rain, and benign atmospheric exposure at the lowest alloy cost. However, in environments with chlorides—such as coastal air within 5 km of the sea, chemical fumes, or fertilizer dust—SS 304 is prone to localized pitting and crevice corrosion.
+                <strong>SS 304 (A2-70)</strong> is the default specification for inland, rooftop, and general industrial environments. It provides reliable corrosion resistance against moisture, rain, and benign atmospheric exposure at the lowest alloy cost. However, in environments with chlorides - such as coastal air within 5 km of the sea, chemical fumes, or fertilizer dust - SS 304 is prone to localized pitting and crevice corrosion.
               </p>
               <p className="mt-4">
                 <strong>SS 316 (A4-70)</strong> adds 2.0% to 3.0% molybdenum, elevating the alloy&apos;s Pitting Resistance Equivalent Number (PREN) from ~19 to ~25. This molybdenum addition stabilizes the passive chromium-oxide surface film in the presence of chloride ions, preventing pit initiation. For coastal solar plants, chemical processing skids, and marine applications, upgrading to SS 316 is the standard engineering safeguard against premature fastener failure.
@@ -402,7 +402,7 @@ export default function Page() {
 
           <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {/* SS 202 */}
-            {/* VERIFICATION PENDING: Confirm whether SS 202 is ever supplied under KP dispatch or excluded entirely from inventory — ref: brief §10 item 2 */}
+            {/* VERIFICATION PENDING: Confirm whether SS 202 is ever supplied under KP dispatch or excluded entirely from inventory - ref: brief §10 item 2 */}
             <Card variant="default" padding="lg">
               <div className="flex items-center justify-between">
                 <Heading as="h3" variant="card">
@@ -411,7 +411,7 @@ export default function Page() {
                 <span className="badge badge-steel">Budget Austenitic</span>
               </div>
               <p className="mt-3 text-sm text-ink-muted">
-                A budget austenitic alloy where manganese (7.5–10%) and nitrogen partially substitute for expensive nickel (4–6%). Suitable exclusively for dry indoor fixtures and temporary decorative trim.
+                A budget austenitic alloy where manganese (7.5-10%) and nitrogen partially substitute for expensive nickel (4-6%). Suitable exclusively for dry indoor fixtures and temporary decorative trim.
               </p>
               <div className="mt-4 rounded-md border border-amber-300 bg-amber-50 p-3 text-xs text-amber-900">
                 <strong>Engineering Notice:</strong> KP Fasteners does not recommend SS 202 for structural, outdoor, or load-bearing installations. SS 202 rusts rapidly under outdoor moisture despite the stainless label.
@@ -427,7 +427,7 @@ export default function Page() {
                 <span className="badge badge-gold">Inland Workhorse</span>
               </div>
               <p className="mt-3 text-sm text-ink-muted">
-                The global 18/8 standard (18–20% Cr, 8–10.5% Ni). Forms a tenacious self-healing chromium-oxide passive film. The industry workhorse for inland solar structures, electrical enclosures, machinery frames, and general architectural hardware.
+                The global 18/8 standard (18-20% Cr, 8-10.5% Ni). Forms a tenacious self-healing chromium-oxide passive film. The industry workhorse for inland solar structures, electrical enclosures, machinery frames, and general architectural hardware.
               </p>
               <p className="mt-4 text-xs font-medium text-ink-soft">
                 ISO 3506 property class: A2-70 · Min UTS: 700 MPa · PREN: ~19
@@ -446,7 +446,7 @@ export default function Page() {
                 Low-carbon variant of 304 (C ≤ 0.03% max). Eliminates chromium carbide formation during welding, preserving corrosion resistance across the weld heat-affected zone without requiring post-weld solution annealing.
               </p>
               <p className="mt-4 text-xs font-medium text-ink-soft">
-                Chemistry: Cr 18–20% · Ni 8–12% · C ≤ 0.03% · PREN: ~19
+                Chemistry: Cr 18-20%, Ni 8-12%, C ≤ 0.03%, PREN ~19
               </p>
             </Card>
 
@@ -459,10 +459,10 @@ export default function Page() {
                 <span className="badge badge-gold">Chloride Resistant</span>
               </div>
               <p className="mt-3 text-sm text-ink-muted">
-                Alloyed with 2.0–3.0% molybdenum (16–18% Cr, 10–14% Ni). Dramatically improves resistance to localized chloride pitting and crevice corrosion. Mandatory for coastal solar within 5 km of seawater, marine atmospheres, and chemical plants.
+                Alloyed with 2.0-3.0% molybdenum (16-18% Cr, 10-14% Ni). Dramatically improves resistance to localized chloride pitting and crevice corrosion. Mandatory for coastal solar within 5 km of seawater, marine atmospheres, and chemical plants.
               </p>
               <p className="mt-4 text-xs font-medium text-ink-soft">
-                ISO 3506 property class: A4-70 · Min UTS: 700 MPa · PREN: ~25
+                ISO 3506 property class: A4-70, Min UTS: 700 MPa, PREN ~25
               </p>
             </Card>
 
@@ -475,15 +475,15 @@ export default function Page() {
                 <span className="badge badge-steel">Welded Coastal &amp; Pharma</span>
               </div>
               <p className="mt-3 text-sm text-ink-muted">
-                Ultra-low carbon 316 (C ≤ 0.03% max) with 2–3% molybdenum. Engineered for welded coastal fabrications, pharmaceutical cleanrooms, sanitary food processing, and chemical reactors requiring uncompromised weld-zone integrity.
+                Ultra-low carbon 316 (C ≤ 0.03% max) with 2-3% molybdenum. Engineered for welded coastal fabrications, pharmaceutical cleanrooms, sanitary food processing, and chemical reactors requiring uncompromised weld-zone integrity.
               </p>
               <p className="mt-4 text-xs font-medium text-ink-soft">
-                Chemistry: Cr 16–18% · Ni 10–14% · Mo 2–3% · C ≤ 0.03%
+                Chemistry: Cr 16-18%, Ni 10-14%, Mo 2-3%, C ≤ 0.03%
               </p>
             </Card>
 
             {/* SS 316Ti */}
-            {/* VERIFICATION PENDING: Confirm whether SS 316Ti is stocked or supplied strictly on-quote — ref: brief §10 item 1 */}
+            {/* VERIFICATION PENDING: Confirm whether SS 316Ti is stocked or supplied strictly on-quote - ref: brief §10 item 1 */}
             <Card variant="default" padding="lg">
               <div className="flex items-center justify-between">
                 <Heading as="h3" variant="card">
@@ -500,7 +500,7 @@ export default function Page() {
             </Card>
 
             {/* Duplex 2205 */}
-            {/* VERIFICATION PENDING: Confirm duplex 2205 minimum batch quantity and sourcing lead time — ref: brief §10 item 1 */}
+            {/* VERIFICATION PENDING: Confirm duplex 2205 minimum batch quantity and sourcing lead time - ref: brief §10 item 1 */}
             <Card variant="default" padding="lg" className="sm:col-span-2 lg:col-span-3">
               <div className="flex flex-wrap items-center justify-between gap-2">
                 <Heading as="h3" variant="card">
@@ -509,7 +509,7 @@ export default function Page() {
                 <span className="badge badge-steel">Severe Marine &amp; Desalination</span>
               </div>
               <p className="mt-3 text-sm text-ink-muted">
-                A 50/50 austenitic-ferritic microstructure delivering double the yield strength of 300-series stainless (minimum 450 MPa yield) and superior resistance to chloride stress corrosion cracking (SCC) with a PREN rating of 34–38. Specified for direct marine splash zones, offshore platforms, and aggressive chemical processing. Supplied to customer drawings via our{' '}
+                A 50/50 austenitic-ferritic microstructure delivering double the yield strength of 300-series stainless (minimum 450 MPa yield) and superior resistance to chloride stress corrosion cracking (SCC) with a PREN rating of 34-38. Specified for direct marine splash zones, offshore platforms, and aggressive chemical processing. Supplied to customer drawings via our{' '}
                 <Link
                   href="/products/custom-fasteners/"
                   className="font-semibold text-brand-gold-strong hover:underline"
@@ -576,7 +576,7 @@ export default function Page() {
                 Step 3: Will the fastener or connected joint undergo welding during assembly?
               </Heading>
               <p className="mt-2 text-sm text-ink-muted">
-                Welding creates a thermal gradient where adjacent base metal reaches sensitization temperatures (450–850 °C), risking intergranular corrosion along the heat-affected zone (HAZ).
+                Welding creates a thermal gradient where adjacent base metal reaches sensitization temperatures (450-850 °C), risking intergranular corrosion along the heat-affected zone (HAZ).
               </p>
               <div className="mt-3 flex flex-wrap gap-2 text-sm">
                 <span className="rounded bg-brand-steel-soft px-3 py-1 font-semibold text-brand-steel">
@@ -632,7 +632,7 @@ export default function Page() {
             Chemical composition comparison (ASTM A276 / A479)
           </Heading>
           <p className="mt-3 max-w-3xl text-ink-muted">
-            The key compositional difference between 304 and 316 is the 2.0–3.0% molybdenum addition in 316, accompanied by higher nickel content. Carbon limits define standard versus low-carbon (&ldquo;L&rdquo;) variants. All values represent standard weight percentages.
+            The key compositional difference between 304 and 316 is the 2.0-3.0% molybdenum addition in 316, accompanied by higher nickel content. Carbon limits define standard versus low-carbon (&ldquo;L&rdquo;) variants. All values represent standard weight percentages.
           </p>
 
           <div className="mt-8">
@@ -704,13 +704,13 @@ export default function Page() {
               </p>
             </div>
             <div className="rounded-lg border border-border bg-surface p-4">
-              <span className="font-semibold text-brand-gold-strong">PREN 24 – 27</span>
+              <span className="font-semibold text-brand-gold-strong">PREN 24 - 27</span>
               <p className="mt-1 text-xs text-ink-muted">
                 Coastal atmosphere capable up to ~5 km from shoreline. Stable against industrial airborne chlorides. (SS 316, 316L, 316Ti).
               </p>
             </div>
             <div className="rounded-lg border border-border bg-surface p-4">
-              <span className="font-semibold text-brand-steel">PREN 34 – 38</span>
+              <span className="font-semibold text-brand-steel">PREN 34 - 38</span>
               <p className="mt-1 text-xs text-ink-muted">
                 Direct marine splash zone, wet salt crystallization, and aggressive chemical processing. (Duplex 2205).
               </p>
@@ -763,7 +763,7 @@ export default function Page() {
           <div className="mt-6 grid gap-8 md:grid-cols-2">
             <Prose>
               <p>
-                A widespread misconception among procurement inspectors is that genuine 300-series stainless fasteners must be completely non-magnetic, and that any magnet pull signifies counterfeit material. In physical reality, fully annealed austenitic stainless steel (face-centered cubic crystal structure) is non-magnetic, but cold mechanical working—such as cold heading the bolt head and thread rolling the shank—causes partial transformation into strain-induced martensite (body-centered tetragonal).
+                A widespread misconception among procurement inspectors is that genuine 300-series stainless fasteners must be completely non-magnetic, and that any magnet pull signifies counterfeit material. In physical reality, fully annealed austenitic stainless steel (face-centered cubic crystal structure) is non-magnetic, but cold mechanical working - such as cold heading the bolt head and thread rolling the shank - causes partial transformation into strain-induced martensite (body-centered tetragonal).
               </p>
               <p className="mt-4">
                 As a result, high-tensile cold-worked fasteners (such as A2-70 and A4-70 bolts) naturally exhibit a weak to moderate magnetic attraction, particularly around the thread crests and forged head. This response is a normal metallurgical consequence of cold-work strengthening and does not indicate poor alloy quality or iron contamination.
@@ -782,7 +782,7 @@ export default function Page() {
       </Section>
 
       {/* 10. Passivation & Pickling */}
-      {/* VERIFICATION PENDING: Confirm in-house vs partner passivation discipline and chemical bath standards — ref: brief §10 item 4 */}
+      {/* VERIFICATION PENDING: Confirm in-house vs partner passivation discipline and chemical bath standards - ref: brief §10 item 4 */}
       <Section variant="alt">
         <Container>
           <Heading as="h2" variant="section">
@@ -827,15 +827,15 @@ export default function Page() {
       </Section>
 
       {/* 11. Verification & Anti-Fraud */}
-      {/* VERIFICATION PENDING: Confirm whether KP performs PMI inspection in-house with an owned XRF analyzer or routes lots to an accredited NABL testing partner — ref: brief §10 item 3 */}
-      {/* VERIFICATION PENDING: Confirm named NABL partner testing laboratory for external verification — ref: brief §10 item 5 */}
+      {/* VERIFICATION PENDING: Confirm whether KP performs PMI inspection in-house with an owned XRF analyzer or routes lots to an accredited NABL testing partner - ref: brief §10 item 3 */}
+      {/* VERIFICATION PENDING: Confirm named NABL partner testing laboratory for external verification - ref: brief §10 item 5 */}
       <Section>
         <Container>
           <Heading as="h2" variant="section">
             How to verify stainless fastener grades: preventing material substitution
           </Heading>
           <p className="mt-3 max-w-3xl text-ink-muted">
-            Material substitution—such as supplying SS 202 as SS 304, or un-alloyed SS 304 as premium SS 316—is a major procurement risk in the fastener trade. KP Fasteners supports robust positive verification through transparent documentation and verifiable test methods:
+            Material substitution - such as supplying SS 202 as SS 304, or un-alloyed SS 304 as premium SS 316 - is a major procurement risk in the fastener trade. KP Fasteners supports robust positive verification through transparent documentation and verifiable test methods:
           </p>
 
           <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
@@ -859,7 +859,7 @@ export default function Page() {
                 </Heading>
               </div>
               <p className="mt-3 text-sm text-ink-muted">
-                Handheld X-ray Fluorescence (XRF) analyzer inspection. Provides non-destructive, elemental alloy verification within 10 seconds, confirming 2.0–3.0% molybdenum in SS 316 vs ~0% in SS 304.
+                Handheld X-ray Fluorescence (XRF) analyzer inspection. Provides non-destructive, elemental alloy verification within 10 seconds, confirming 2.0-3.0% molybdenum in SS 316 vs ~0% in SS 304.
               </p>
             </Card>
 

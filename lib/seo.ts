@@ -29,7 +29,7 @@ export function buildMetadata({ path, title, description, ogImage, noindex }: Bu
 
   // When a page supplies its own image (e.g. a product hero), use it. Otherwise
   // leave images unset so the generated 1200x630 card from app/opengraph-image.tsx
-  // is inherited — never fall back to the raw logo, which crops badly on social.
+  // is inherited - never fall back to the raw logo, which crops badly on social.
   if (ogImage) {
     openGraph.images = [{ url: ogImage }];
     twitter.images = [ogImage];

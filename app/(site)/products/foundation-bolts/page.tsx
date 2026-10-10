@@ -57,72 +57,72 @@ const FAQS = [
   {
     question: 'What shapes and sizes do you produce?',
     answer:
-      'J-bolts, L-bolts, U-bolts, hooked and cranked bolts, straight bolts with anchor plate, headed HD bolts, and swedge bolts. Diameters and lengths are quoted against the IS 5624:2021 M8–M72 envelope; confirm the exact range on your BOQ line.',
+      'J-bolts, L-bolts, U-bolts, hooked and cranked bolts, straight bolts with anchor plate, headed HD bolts, and swedge bolts. Diameters and lengths are quoted against the IS 5624:2021 M8-M72 envelope; confirm the exact range on your BOQ line.',
   },
   {
     question: 'Do you supply MS foundation bolts, and what is the typical coating?',
     answer:
-      'Yes — mild steel foundation bolts to property class 4.6 are one of our active lines. Standard coating options are self-colour (black), zinc electroplated, and hot-dip galvanised per IS 2629 / ASTM A153. HDG is the default recommendation for cast-in outdoor applications.',
+      'Yes - mild steel foundation bolts to property class 4.6 are one of our active lines. Standard coating options are self-colour (black), zinc electroplated, and hot-dip galvanised per IS 2629 / ASTM A153. HDG is the default recommendation for cast-in outdoor applications.',
   },
   {
     question: 'Can you supply against a project BOQ or drawing?',
     answer:
-      'Yes. Send the drawing or BOQ — shape, diameter, embedment length, projection above concrete, coating and quantity per size — via the quote form or on WhatsApp at +91 98982 30448. We supply to fabricator drawings and structural-engineer specifications; KP does not perform the anchorage design itself.',
+      'Yes. Send the drawing or BOQ - shape, diameter, embedment length, projection above concrete, coating and quantity per size - via the quote form or on WhatsApp at +91 98982 30448. We supply to fabricator drawings and structural-engineer specifications; KP does not perform the anchorage design itself.',
   },
   {
     question: 'Do you provide mill test certificates and what is the typical lead time?',
     answer:
-      'EN 10204 3.1 mill test certificates are available on request for manufactured lots, with batch traceability by heat number. Lead time depends on diameter band, coating and quantity — confirmed with the quote within one working day.',
+      'EN 10204 3.1 mill test certificates are available on request for manufactured lots, with batch traceability by heat number. Lead time depends on diameter band, coating and quantity - confirmed with the quote within one working day.',
   },
 ];
 
 const VARIANTS = [
   {
     name: 'J-bolts (J-type foundation bolt)',
-    use: 'Cast-in curved hook — the most common shape for PEB and structural steel column base plates.',
-    range: 'M12 – M36 × 150 – 900 mm',
+    use: 'Cast-in curved hook - the most common shape for PEB and structural steel column base plates.',
+    range: 'M12 - M36 × 150 - 900 mm',
     finish: 'Self-colour, zinc, HDG',
   },
   {
     name: 'L-bolts (L-type anchor bolt)',
     use: 'Right-angle hook for light structural steel, equipment skids and PEB purlins.',
-    range: 'M10 – M30 × 150 – 750 mm',
+    range: 'M10 - M30 × 150 - 750 mm',
     finish: 'Self-colour, zinc, HDG',
   },
   {
     name: 'U-bolts (loop foundation bolt)',
     use: 'Twin-shank U form for machinery grouting and pipe clamp fixing.',
-    range: 'M10 – M30 × bend dia to drawing',
+    range: 'M10 - M30 × bend dia to drawing',
     finish: 'Self-colour, zinc, HDG',
   },
   {
     name: 'Headed HD anchor bolts',
     use: 'Forged hex or heavy-hex head at the embedded end; used where ASTM F1554 Grade 55 is specified.',
-    range: 'M16 – M42 × 300 – 1,200 mm',
+    range: 'M16 - M42 × 300 - 1,200 mm',
     finish: 'HDG preferred, self-colour on request',
   },
   {
     name: 'Hooked / cranked bolts',
     use: 'IS 5624 Type A/B forged-end bolts for general civil anchorage.',
-    range: 'M12 – M36 × to drawing',
+    range: 'M12 - M36 × to drawing',
     finish: 'Self-colour, zinc, HDG',
   },
   {
     name: 'Straight bolts with anchor plate',
     use: 'DIN 529 Type M / L plate-anchored straight rod for grouted base plates.',
-    range: 'M16 – M42 × to drawing',
+    range: 'M16 - M42 × to drawing',
     finish: 'HDG preferred',
   },
   {
     name: 'Swedge bolts',
-    use: 'Indented shank for high pull-out resistance — transmission tower footings and vibrating machinery.',
-    range: 'M16 – M36 × to drawing',
+    use: 'Indented shank for high pull-out resistance - transmission tower footings and vibrating machinery.',
+    range: 'M16 - M36 × to drawing',
     finish: 'HDG',
   },
   {
     name: 'Chemical anchor stud bolts',
     use: 'Full-thread stud for post-installed resin anchoring. See our full range of {STUD_LINK}.',
-    range: 'M10 – M30 × 100 – 600 mm',
+    range: 'M10 - M30 × 100 - 600 mm',
     finish: 'Zinc, HDG, SS on request',
   },
 ];
@@ -188,7 +188,7 @@ export default function Page() {
         data={productSchema({
           name: 'Foundation Bolts',
           description:
-            'Cast-in J, L, U, hooked, headed and swedge foundation bolts manufactured to IS 5624, DIN 529 and ASTM F1554 — mild steel and high-tensile grades, with hot-dip galvanised, zinc electroplated or self-colour finishes.',
+            'Cast-in J, L, U, hooked, headed and swedge foundation bolts manufactured to IS 5624, DIN 529 and ASTM F1554 - mild steel and high-tensile grades, with hot-dip galvanised, zinc electroplated or self-colour finishes.',
           category: 'Industrial Fasteners',
           material: 'Mild Steel (IS 2062), High-Tensile Carbon Steel',
           image: HERO_IMAGE,
@@ -206,13 +206,11 @@ export default function Page() {
             <div>
               <p className="badge badge-gold">OEM · Manufactured in Ahmedabad</p>
               <Heading as="h1" variant="hero" className="mt-4 font-heading">
-                <span className="text-gold-gradient">Foundation Bolts</span> Manufacturer
-                — J, L, U, Headed &amp; Swedge Types
+                <span className="text-gold-gradient">Foundation Bolts</span> Manufacturer - J, L, U, Headed &amp; Swedge Types
               </Heading>
               <hr className="rule-metal mt-5 w-40" aria-hidden="true" />
               <p className="mt-6 max-w-2xl text-lg text-ink-muted">
-                Cast-in foundation and anchor bolts to IS 5624, DIN 529 and ASTM F1554
-                — made at our Ghanshyam Industrial Estate plant for PEB, machinery
+                Cast-in foundation and anchor bolts to IS 5624, DIN 529 and ASTM F1554 - made at our Ghanshyam Industrial Estate plant for PEB, machinery
                 grouting, solar substructure and transmission-tower projects. We quote
                 against your BOQ with material, coating and lead time.
               </p>
@@ -260,12 +258,11 @@ export default function Page() {
       {/* 2. Technical overview */}
       <Section variant="alt">
         <Container>
-          <Heading as="h2" variant="section">What a foundation bolt is — and where KP fits</Heading>
+          <Heading as="h2" variant="section">What a foundation bolt is - and where KP fits</Heading>
           <div className="mt-6 grid gap-8 md:grid-cols-2">
             <Prose>
               <p>
-                A foundation bolt — also called an anchor bolt or hold-down bolt —
-                is a cast-in-concrete fastener that transfers tension and shear from a
+                A foundation bolt - also called an anchor bolt or hold-down bolt - is a cast-in-concrete fastener that transfers tension and shear from a
                 steel base plate into a reinforced-concrete footing. IS 5624 defines the
                 dimensional and material requirements for cast-in types in India; DIN 529
                 covers equivalent shape families used across European-standard projects;
@@ -310,7 +307,7 @@ export default function Page() {
         <Container>
           <Heading as="h2" variant="section">Standards we manufacture against</Heading>
           <p className="mt-3 max-w-3xl text-ink-muted">
-            Every row below is referenced to a published standard — BIS, DIN or
+            Every row below is referenced to a published standard - BIS, DIN or
             ASTM. We do not publish invented proof-load or yield values; mating hex
             nuts follow IS 1363.
           </p>
@@ -334,7 +331,7 @@ export default function Page() {
                   cells: [
                     'IS 5624:1993 / 2021',
                     'India (BIS)',
-                    'Cast-in foundation bolts M8–M72',
+                    'Cast-in foundation bolts M8-M72',
                     'Property class 4.6 (grade C per IS 1367)',
                     'General civil, PEB, machinery grouting',
                   ],
@@ -353,7 +350,7 @@ export default function Page() {
                     'ASTM F1554 Gr 36',
                     'USA (ASTM)',
                     'Anchor bolts, 36 ksi yield (248 MPa min)',
-                    'Gr 36 — low-carbon steel',
+                    'Gr 36 - low-carbon steel',
                     'General anchorage, EPC projects',
                   ],
                 },
@@ -362,7 +359,7 @@ export default function Page() {
                     'ASTM F1554 Gr 55',
                     'USA (ASTM)',
                     'Anchor bolts, 55 ksi yield (380 MPa min)',
-                    'Gr 55 — colour code yellow',
+                    'Gr 55 - colour code yellow',
                     'Welded or grouted high-load anchorage',
                   ],
                 },
@@ -371,7 +368,7 @@ export default function Page() {
                     'ASTM F1554 Gr 105†',
                     'USA (ASTM)',
                     'Anchor bolts, 105 ksi yield (724 MPa min)',
-                    'Gr 105 — colour code red; A563 Gr DH nuts',
+                    'Gr 105 - colour code red; A563 Gr DH nuts',
                     'Wind-turbine, heavy structural (on-quote)',
                   ],
                 },
@@ -380,7 +377,7 @@ export default function Page() {
                     'IS 1367 (Part 2 & 3)',
                     'India (BIS)',
                     'Product grades + mechanical properties',
-                    'Property classes 3.6 – 12.9',
+                    'Property classes 3.6 - 12.9',
                     'Referenced by IS 5624 for grade C tolerance',
                   ],
                 },
@@ -471,11 +468,11 @@ export default function Page() {
                 'Typical coating',
               ]}
               rows={[
-                { cells: ['IS 5624 class 4.6 (MS)', '240', '400', '22', '114 – 209', 'Self-colour / zinc / HDG'] },
-                { cells: ['ASTM F1554 Gr 36', '248', '400 – 550', '23', '≤ 223', 'HDG / zinc / plain'] },
+                { cells: ['IS 5624 class 4.6 (MS)', '240', '400', '22', '114 - 209', 'Self-colour / zinc / HDG'] },
+                { cells: ['ASTM F1554 Gr 36', '248', '400 - 550', '23', '≤ 223', 'HDG / zinc / plain'] },
                 { cells: ['ASTM F1554 Gr 55', '380', '517 min', '21', '≤ 223', 'HDG / zinc / plain'] },
-                { cells: ['Property class 8.8', '640', '800', '12', '242 – 316', 'HDG / zinc'] },
-                { cells: ['Property class 10.9', '900', '1,040', '9', '304 – 361', 'HDG (embrittlement controls)'] },
+                { cells: ['Property class 8.8', '640', '800', '12', '242 - 316', 'HDG / zinc'] },
+                { cells: ['Property class 10.9', '900', '1,040', '9', '304 - 361', 'HDG (embrittlement controls)'] },
               ]}
             />
             <p className="mt-3 text-xs text-ink-muted">
@@ -514,13 +511,13 @@ export default function Page() {
           <Heading as="h2" variant="section">How to specify a foundation bolt</Heading>
           <p className="mt-3 max-w-3xl text-ink-muted">
             A short decision block for procurement teams working from a structural
-            drawing. KP does not perform the anchorage design — we supply to your
+            drawing. KP does not perform the anchorage design - we supply to your
             engineer’s specification.
           </p>
           <div className="mt-8 grid gap-6 md:grid-cols-2">
             <Card variant="trust" padding="lg">
               <Heading as="h3" variant="card">
-                Step 1 — Pick the shape from the load path
+                Step 1 - Pick the shape from the load path
               </Heading>
               <Prose className="mt-3">
                 <ul className="list-disc space-y-2 pl-5">
@@ -533,7 +530,7 @@ export default function Page() {
             </Card>
             <Card variant="trust" padding="lg">
               <Heading as="h3" variant="card">
-                Step 2 — Pick the material grade from the load
+                Step 2 - Pick the material grade from the load
               </Heading>
               <Prose className="mt-3">
                 <ul className="list-disc space-y-2 pl-5">
@@ -545,7 +542,7 @@ export default function Page() {
             </Card>
             <Card variant="trust" padding="lg">
               <Heading as="h3" variant="card">
-                Step 3 — Pick the coating from the exposure
+                Step 3 - Pick the coating from the exposure
               </Heading>
               <Prose className="mt-3">
                 <ul className="list-disc space-y-2 pl-5">
@@ -557,7 +554,7 @@ export default function Page() {
             </Card>
             <Card variant="trust" padding="lg">
               <Heading as="h3" variant="card">
-                Step 4 — Confirm embedment and projection
+                Step 4 - Confirm embedment and projection
               </Heading>
               <Prose className="mt-3">
                 <ul className="list-disc space-y-2 pl-5">

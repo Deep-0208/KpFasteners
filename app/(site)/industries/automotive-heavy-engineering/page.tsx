@@ -35,7 +35,7 @@ import { company } from '@/data/company';
 const PATH = '/industries/automotive-heavy-engineering/';
 const HERO_IMAGE = '/images/products/bolts/allen-socket-head-cap-screw.webp';
 
-// Title: 52 chars (50–60 range, primary keyword first). Meta description: 158 chars (150–160 range).
+// Title: 52 chars (50-60 range, primary keyword first). Meta description: 158 chars (150-160 range).
 const META_TITLE = 'Automotive Fasteners Manufacturer & Heavy Engg | KP';
 const META_DESCRIPTION =
   'High-tensile PC 10.9 & 12.9 bolts, custom studs, socket screws, and heavy engineering fasteners from KP Fasteners, Ahmedabad. Request your drawing quote today.';
@@ -52,16 +52,16 @@ const WA_PREFILL =
 const WA_URL = 'https://wa.me/919898230448?text=' + encodeURIComponent(WA_PREFILL);
 const TEL = `tel:${company.telephones[0].replace(/[^\d+]/g, '')}`;
 
-// VERIFICATION PENDING: Confirm whether KP actively serves automotive OEMs or tier suppliers (tier-1, tier-2, tier-3) — gates entire sector page — ref: brief §10 item 1
-// VERIFICATION PENDING: Confirm heavy-engineering sector list (power / machinery / mining / oil & gas BOP / agricultural) — ref: brief §10 item 2
-// VERIFICATION PENDING: Confirm PPAP capability (Level 2 on request vs Level 3 case-by-case) — ref: brief §10 item 3
-// VERIFICATION PENDING: Confirm IATF 16949 future roadmap (not claimed on v1) — ref: brief §10 item 4
-// VERIFICATION PENDING: Confirm named tier references with written permission — ref: brief §10 item 5
-// VERIFICATION PENDING: Confirm in-house PMI gun on-site vs route-to-NABL-partner only — ref: brief §10 item 6
-// VERIFICATION PENDING: Confirm First Article Inspection Report (FAIR) template availability — ref: brief §10 item 7
-// VERIFICATION PENDING: Confirm OEM-coded coating partners (zinc-nickel / Dacromet / Geomet) — ref: brief §10 item 8
-// VERIFICATION PENDING: Real photograph of PC 10.9/12.9 inventory at KP Fasteners Ahmedabad facility — ref: brief §6 hero-automotive-heavy-engg-kp.webp & §10 item 9
-// VERIFICATION PENDING: Confirm priority sector weighting for hero narrative (tier-2 passenger / heavy earth-moving / power BOP) — ref: brief §10 item 10
+// VERIFICATION PENDING: Confirm whether KP actively serves automotive OEMs or tier suppliers (tier-1, tier-2, tier-3) - gates entire sector page - ref: brief §10 item 1
+// VERIFICATION PENDING: Confirm heavy-engineering sector list (power / machinery / mining / oil & gas BOP / agricultural) - ref: brief §10 item 2
+// VERIFICATION PENDING: Confirm PPAP capability (Level 2 on request vs Level 3 case-by-case) - ref: brief §10 item 3
+// VERIFICATION PENDING: Confirm IATF 16949 future roadmap (not claimed on v1) - ref: brief §10 item 4
+// VERIFICATION PENDING: Confirm named tier references with written permission - ref: brief §10 item 5
+// VERIFICATION PENDING: Confirm in-house PMI gun on-site vs route-to-NABL-partner only - ref: brief §10 item 6
+// VERIFICATION PENDING: Confirm First Article Inspection Report (FAIR) template availability - ref: brief §10 item 7
+// VERIFICATION PENDING: Confirm OEM-coded coating partners (zinc-nickel / Dacromet / Geomet) - ref: brief §10 item 8
+// VERIFICATION PENDING: Real photograph of PC 10.9/12.9 inventory at KP Fasteners Ahmedabad facility - ref: brief §6 hero-automotive-heavy-engg-kp.webp & §10 item 9
+// VERIFICATION PENDING: Confirm priority sector weighting for hero narrative (tier-2 passenger / heavy earth-moving / power BOP) - ref: brief §10 item 10
 
 const FAQS = [
   {
@@ -72,17 +72,17 @@ const FAQS = [
   {
     question: 'Can you supply PPAP documentation?',
     answer:
-      'PPAP Level 2 documentation—comprising initial sample inspection reports, mill test certificates (MTC EN 10204 3.1), coating thickness validation, and dimensional logs—is available on request for custom fabrication batches. Level 3 documentation, including statistical process capability studies (CpK) and formal line audits, is reviewed on a case-by-case basis depending on project duration and tooling lead time.',
+      'PPAP Level 2 documentation - comprising initial sample inspection reports, mill test certificates (MTC EN 10204 3.1), coating thickness validation, and dimensional logs - is available on request for custom fabrication batches. Level 3 documentation, including statistical process capability studies (CpK) and formal line audits, is reviewed on a case-by-case basis depending on project duration and tooling lead time.',
   },
   {
     question: 'What is the typical lead time for a drawing-based automotive fastener?',
     answer:
-      'Standard high-tensile fasteners (PC 10.9 / 12.9 in common metric diameters with standard plating) ship within 10–21 days. Custom geometries requiring dedicated cold-heading tooling or specialized alloy bar machining generally require 4–8 weeks for initial first-article inspection samples (FAIR). Standard production MOQ is 500 kg per SKU; pilot prototype quantities are quoted on individual feasibility.',
+      'Standard high-tensile fasteners (PC 10.9 / 12.9 in common metric diameters with standard plating) ship within 10-21 days. Custom geometries requiring dedicated cold-heading tooling or specialized alloy bar machining generally require 4-8 weeks for initial first-article inspection samples (FAIR). Standard production MOQ is 500 kg per SKU; pilot prototype quantities are quoted on individual feasibility.',
   },
   {
     question: 'Why do you avoid hot-dip galvanizing on PC 10.9 and 12.9?',
     answer:
-      'Hot-dip galvanizing introduces severe risks of hydrogen embrittlement in high-strength steels exceeding 1000 MPa tensile strength, per ISO 898-1 standards. Our recommended surface barrier for Class 10.9 is mechanical galvanizing or non-electrolytic zinc flake coatings (such as Geomet or Dacromet), while Class 12.9 is supplied in chemical black oxide only. HDG on 10.9 is strictly limited and requires a mandatory 190–230 °C de-embrittlement bake within four hours of acid pickling.',
+      'Hot-dip galvanizing introduces severe risks of hydrogen embrittlement in high-strength steels exceeding 1000 MPa tensile strength, per ISO 898-1 standards. Our recommended surface barrier for Class 10.9 is mechanical galvanizing or non-electrolytic zinc flake coatings (such as Geomet or Dacromet), while Class 12.9 is supplied in chemical black oxide only. HDG on 10.9 is strictly limited and requires a mandatory 190-230 °C de-embrittlement bake within four hours of acid pickling.',
   },
   {
     question: 'Can you supply A193 B7 / B16 flange studs for the power / oil & gas side?',
@@ -155,7 +155,7 @@ const FASTENER_STACK_ROWS = [
       'Flange Hex Bolt + Prevailing Torque Flange Nut',
       'Property Class 10.9 (ISO 898-1)',
       'Zinc-Nickel (Zn-Ni) / Geomet 500',
-      'Tightened to 70–80% of yield stress; torque-angle control recommended',
+      'Tightened to 70-80% of yield stress; torque-angle control recommended',
     ],
   },
   {
@@ -164,7 +164,7 @@ const FASTENER_STACK_ROWS = [
       'Hexagon Head Cap Screw + Hardened Flat Washer',
       'Property Class 10.9 / 12.9',
       'Mechanical Zinc / Phosphate & Oil',
-      'High dynamic shear; controlled friction coefficient µ = 0.12–0.15',
+      'High dynamic shear; controlled friction coefficient µ = 0.12-0.15',
     ],
   },
   {
@@ -227,9 +227,9 @@ const SPEC_SCHEDULE_ROWS = [
   {
     cells: [
       'Class 8.8 Structural Bolt',
-      '800 – 830 MPa',
+      '800 - 830 MPa',
       '640 MPa',
-      'M6 – M36',
+      'M6 - M36',
       'ISO 898-1 / DIN 931 / DIN 933',
       'Chassis brackets, cab mounts, agricultural frames, general industrial equipment',
     ],
@@ -237,9 +237,9 @@ const SPEC_SCHEDULE_ROWS = [
   {
     cells: [
       'Class 10.9 High-Tensile Bolt',
-      '1040 – 1090 MPa',
+      '1040 - 1090 MPa',
       '940 MPa',
-      'M8 – M36',
+      'M8 - M36',
       'ISO 898-1 / DIN 931 / DIN 6914',
       'Powertrain mounting, suspension arm joints, axle flanges, mining machine frames',
     ],
@@ -249,7 +249,7 @@ const SPEC_SCHEDULE_ROWS = [
       'Class 12.9 Socket Cap Screw',
       '1220 MPa',
       '1100 MPa',
-      'M6 – M30',
+      'M6 - M30',
       'ISO 898-1 / DIN 912 / ISO 4762',
       'Tool-and-die fixtures, high-pressure hydraulic pumps, cylinder heads, stamping dies',
     ],
@@ -259,7 +259,7 @@ const SPEC_SCHEDULE_ROWS = [
       'ASTM A325 Heavy Structural Bolt',
       '830 MPa min',
       '635 MPa min',
-      '1/2" – 1-1/2"',
+      '1/2" - 1-1/2"',
       'ASTM A325 / ASME B18.2.6',
       'Heavy crane runway girders, equipment skid frames, structural machinery bases',
     ],
@@ -267,9 +267,9 @@ const SPEC_SCHEDULE_ROWS = [
   {
     cells: [
       'ASTM A490 High-Strength Bolt',
-      '1040 – 1210 MPa',
+      '1040 - 1210 MPa',
       '900 MPa min',
-      '1/2" – 1-1/2"',
+      '1/2" - 1-1/2"',
       'ASTM A490 / ASME B18.2.6',
       'High-stress dynamic equipment joints, crusher frames, mining shaker screens',
     ],
@@ -279,7 +279,7 @@ const SPEC_SCHEDULE_ROWS = [
       'ASTM A193 B7 Alloy Stud Bolt',
       '860 MPa min',
       '725 MPa min',
-      'M12 – M64 (1/2" – 2-1/2")',
+      'M12 - M64 (1/2" - 2-1/2")',
       'ASTM A193 / A194 2H',
       'High-temperature turbine casing flanges, boiler piping, pressure vessels, refinery valves',
     ],
@@ -290,16 +290,16 @@ const COATING_ROWS = [
   {
     cells: [
       'Zinc Flake (Geomet / Dacromet)',
-      '5 – 15 µm',
+      '5 - 15 µm',
       '1000+ hours',
-      'Zero hydrogen embrittlement risk; integrated lubricant provides tight friction (µ = 0.12–0.15)',
+      'Zero hydrogen embrittlement risk; integrated lubricant provides tight friction (µ = 0.12-0.15)',
       'Automotive powertrain, chassis Class 10.9 fasteners, exposed trailer hardware',
     ],
   },
   {
     cells: [
-      'Zinc-Nickel (Zn-Ni 12–15% Ni)',
-      '6 – 12 µm',
+      'Zinc-Nickel (Zn-Ni 12-15% Ni)',
+      '6 - 12 µm',
       '1200+ hours',
       'Superior resistance to road salts and high engine temperatures (up to 200 °C); excellent galvanic match to aluminum',
       'Automotive engine bay, brake caliper brackets, steering linkages, electrical earth studs',
@@ -308,8 +308,8 @@ const COATING_ROWS = [
   {
     cells: [
       'Trivalent Zinc Electroplate (Cr3+)',
-      '5 – 12 µm',
-      '72 – 240 hours',
+      '5 - 12 µm',
+      '72 - 240 hours',
       'Uniform thin layer preserves thread pitch; mandatory hydrogen bake-out required for Class 10.9',
       'Interior vehicle hardware, agricultural machinery, cabin brackets, electrical enclosures',
     ],
@@ -317,7 +317,7 @@ const COATING_ROWS = [
   {
     cells: [
       'Hot-Dip Galvanizing (HDG)',
-      '45 – 85 µm',
+      '45 - 85 µm',
       '2000+ hours',
       'Exceptional sacrificial zinc protection; requires thread overtapping; prohibited on Class 12.9 due to embrittlement',
       'Heavy earth-moving structural skids, mining gantry anchors, outdoor substation hardware',
@@ -326,7 +326,7 @@ const COATING_ROWS = [
   {
     cells: [
       'Chemical Black Oxide',
-      '0.5 – 1.0 µm',
+      '0.5 - 1.0 µm',
       'Nil (requires oil film)',
       'Zero dimensional change on precision threads; excellent oil retention; non-reflective optical finish',
       'Class 12.9 socket cap screws, internal machine tool fixtures, hydraulic cylinder tooling',
@@ -348,7 +348,7 @@ const DRAWING_CHECKLIST_ROWS = [
     cells: ['Critical Dimensional Tolerances', 'Identifies tight diametrical tolerances (h6/g6) requiring secondary CNC turning or centerless grinding.'],
   },
   {
-    cells: ['Coating Specification & Friction Range', 'Specifies OEM coating standard (e.g., Geomet 500A) and coefficient of friction window (e.g., µ = 0.12–0.15).'],
+    cells: ['Coating Specification & Friction Range', 'Specifies OEM coating standard (e.g., Geomet 500A) and coefficient of friction window (e.g., µ = 0.12-0.15).'],
   },
   {
     cells: ['Non-Destructive Testing Requirements', 'Dictates magnetic particle inspection (MPI) for surface cracks or ultrasonic testing on heavy diameters.'],
@@ -469,7 +469,7 @@ export default function Page() {
       <JsonLd data={faqPage(FAQS)} />
 
       {/* 1. Hero */}
-      {/* VERIFICATION PENDING: Real photograph of PC 10.9/12.9 inventory at KP Fasteners Ahmedabad facility — ref: brief §6 hero-automotive-heavy-engg-kp.webp & §10 item 9 */}
+      {/* VERIFICATION PENDING: Real photograph of PC 10.9/12.9 inventory at KP Fasteners Ahmedabad facility - ref: brief §6 hero-automotive-heavy-engg-kp.webp & §10 item 9 */}
       <Section>
         <Container>
           <Breadcrumbs trail={trail} />
@@ -508,7 +508,7 @@ export default function Page() {
                 <div className="relative aspect-[4/3] w-full overflow-hidden rounded-md bg-transparent p-3">
                   <Image
                     src={HERO_IMAGE}
-                    alt="KP Fasteners high-tensile automotive fasteners — Class 10.9 and 12.9 bolts, socket cap screws, and precision studs"
+                    alt="KP Fasteners high-tensile automotive fasteners - Class 10.9 and 12.9 bolts, socket cap screws, and precision studs"
                     fill
                     priority
                     sizes="(min-width: 1024px) 40vw, 100vw"
@@ -520,20 +520,20 @@ export default function Page() {
           </div>
           <div className="mt-8">
             <ClassificationBanner classification="ambiguous">
-              Automotive &amp; heavy-engineering fasteners — drawing-based OEM via custom-fasteners; property-class 8.8/10.9/12.9 hex trading from vetted mills. Not IATF 16949 certified — tier-1/tier-2 appropriate only.
+              Automotive &amp; heavy-engineering fasteners - drawing-based OEM via custom-fasteners; property-class 8.8/10.9/12.9 hex trading from vetted mills. Not IATF 16949 certified - tier-1/tier-2 appropriate only.
             </ClassificationBanner>
           </div>
         </Container>
       </Section>
 
       {/* 2. Scope & Target Audience: Who this page is for (and who it is NOT for) */}
-      {/* VERIFICATION PENDING: Confirm whether KP actively serves automotive OEMs or tier suppliers (tier-1, tier-2, tier-3) & IATF 16949 status — ref: brief §10 items 1 & 4 */}
+      {/* VERIFICATION PENDING: Confirm whether KP actively serves automotive OEMs or tier suppliers (tier-1, tier-2, tier-3) & IATF 16949 status - ref: brief §10 items 1 & 4 */}
       <Section variant="alt">
         <Container>
           <div className="flex items-center gap-3">
             <HardHat aria-hidden="true" className="h-6 w-6 text-brand-gold-strong" />
             <Heading as="h2" variant="section">
-              Who this page is for — and who it is NOT for
+              Who this page is for - and who it is NOT for
             </Heading>
           </div>
           <div className="mt-6 grid gap-8 md:grid-cols-2">
@@ -600,7 +600,7 @@ export default function Page() {
       </Section>
 
       {/* 3. Fastener Stack Per Sub-Sector */}
-      {/* VERIFICATION PENDING: Confirm heavy-engineering sector list (power / machinery / mining / oil & gas BOP / agricultural) — ref: brief §10 item 2 */}
+      {/* VERIFICATION PENDING: Confirm heavy-engineering sector list (power / machinery / mining / oil & gas BOP / agricultural) - ref: brief §10 item 2 */}
       <Section>
         <Container>
           <div className="flex items-center gap-3">
@@ -729,7 +729,7 @@ export default function Page() {
       </Section>
 
       {/* 5. Coating Choice Block: Durability vs Tribology */}
-      {/* VERIFICATION PENDING: Confirm OEM-coded coating partners (zinc-nickel / Dacromet / Geomet) — ref: brief §10 item 8 */}
+      {/* VERIFICATION PENDING: Confirm OEM-coded coating partners (zinc-nickel / Dacromet / Geomet) - ref: brief §10 item 8 */}
       <Section>
         <Container>
           <div className="flex items-center gap-3">
@@ -741,7 +741,7 @@ export default function Page() {
           <div className="mt-6 grid gap-8 md:grid-cols-2">
             <Prose>
               <p>
-                In high-tensile engineering, surface coating selection is not simply a matter of red-rust salt-spray hours. For automotive bolted joints, <strong>tribological consistency</strong>—specifically maintaining a controlled coefficient of friction (µ typically between 0.12 and 0.15)—is critical to ensure that applied tightening torque translates accurately into clamping preload without under-tightening or thread stripping.
+                In high-tensile engineering, surface coating selection is not simply a matter of red-rust salt-spray hours. For automotive bolted joints, <strong>tribological consistency</strong>-specifically maintaining a controlled coefficient of friction (µ typically between 0.12 and 0.15)-is critical to ensure that applied tightening torque translates accurately into clamping preload without under-tightening or thread stripping.
               </p>
               <p className="mt-4">
                 Furthermore, fasteners heat-treated above 320 HV (such as Property Class 10.9 and 12.9) are highly vulnerable to <strong>hydrogen embrittlement</strong> during acid pickling and electroplating baths. Atomic hydrogen diffuses into the steel grain boundaries, triggering sudden catastrophic brittle fracture under sustained static tensile load.
@@ -752,7 +752,7 @@ export default function Page() {
                 To eliminate hydrogen risks, our primary recommendation for Class 10.9 automotive fasteners is <strong>non-electrolytic zinc flake coatings (Geomet 500 / Dacromet)</strong>. Applied via a dip-spin and thermal curing process, zinc flake coatings introduce zero hydrogen into the steel lattice, deliver over 1,000 hours of neutral salt-spray resistance (ASTM B117), and incorporate integrated lubricants that guarantee uniform torque-tension dynamics.
               </p>
               <p className="mt-4">
-                For Class 12.9 fasteners, we strictly supply chemical <strong>black oxide with oil</strong>. Black oxide adds no dimensional thickness, preserving ultra-precise class 6g thread fits on high-stress tool-room socket screws. Where electroplating is unavoidable on Class 10.9 components, mandatory de-embrittlement baking at 200–220 °C is performed within four hours of plating.
+                For Class 12.9 fasteners, we strictly supply chemical <strong>black oxide with oil</strong>. Black oxide adds no dimensional thickness, preserving ultra-precise class 6g thread fits on high-stress tool-room socket screws. Where electroplating is unavoidable on Class 10.9 components, mandatory de-embrittlement baking at 200-220 °C is performed within four hours of plating.
               </p>
             </Prose>
           </div>
@@ -890,7 +890,7 @@ export default function Page() {
       </Section>
 
       {/* 8. Quality Documentation & Dispatch Envelope */}
-      {/* VERIFICATION PENDING: Confirm PPAP capability (Level 2 on request vs Level 3 case-by-case), FAIR template, and in-house PMI gun — ref: brief §10 items 3, 6 & 7 */}
+      {/* VERIFICATION PENDING: Confirm PPAP capability (Level 2 on request vs Level 3 case-by-case), FAIR template, and in-house PMI gun - ref: brief §10 items 3, 6 & 7 */}
       <Section variant="alt">
         <Container>
           <div className="rounded-xl border border-border bg-surface p-5 sm:p-6 lg:p-8 shadow-card overflow-hidden">

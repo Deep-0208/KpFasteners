@@ -12,7 +12,7 @@ import { VerificationRequired } from '@/components/ui/VerificationRequired';
 import { ClassificationBanner } from '@/components/ui/ClassificationBanner';
 
 export const metadata: Metadata = {
-  title: 'Design system — KP Fasteners',
+  title: 'Design system - KP Fasteners',
   robots: { index: false, follow: false },
 };
 
@@ -150,13 +150,13 @@ export default function SystemPage() {
             Typography ramp
           </Heading>
           <div className="mt-6 space-y-4">
-            <Heading as="h3" variant="hero">Hero heading — the datasheet is the page</Heading>
-            <Heading as="h3" variant="section">Section heading — foundation bolts</Heading>
-            <Heading as="h3" variant="subsection">Subsection heading — mechanical properties</Heading>
-            <Heading as="h3" variant="card">Card heading — grade 8.8</Heading>
+            <Heading as="h3" variant="hero">Hero heading - the datasheet is the page</Heading>
+            <Heading as="h3" variant="section">Section heading - foundation bolts</Heading>
+            <Heading as="h3" variant="subsection">Subsection heading - mechanical properties</Heading>
+            <Heading as="h3" variant="card">Card heading - grade 8.8</Heading>
             <p className="text-base leading-7 text-ink">Body text at 16px / 1.6 line-height. High tensile bolts to IS 1367 / ISO 898-1, grade 8.8 minimum, hot-dip galvanised on request.</p>
-            <p className="text-sm text-ink-muted">Muted secondary caption — dimensions in millimetres unless otherwise noted.</p>
-            <p className="text-sm text-ink-soft">Soft meta / disabled — pending client verification.</p>
+            <p className="text-sm text-ink-muted">Muted secondary caption - dimensions in millimetres unless otherwise noted.</p>
+            <p className="text-sm text-ink-soft">Soft meta / disabled - pending client verification.</p>
           </div>
         </Container>
       </Section>
@@ -203,7 +203,7 @@ export default function SystemPage() {
             </Card>
             <Card variant="trust">
               <p className="font-semibold text-brand-steel">Trust card</p>
-              <p className="mt-2 text-sm text-ink">Steel wash — quality / trust modules.</p>
+              <p className="mt-2 text-sm text-ink">Steel wash - quality / trust modules.</p>
             </Card>
           </div>
         </Container>
@@ -252,8 +252,8 @@ export default function SystemPage() {
             <Accordion
               items={[
                 { question: 'Do you offer HDG?', answer: 'Yes, hot-dip galvanising is available on request for outdoor applications.' },
-                { question: 'Metric and imperial?', answer: 'Both — metric M6 to M64 and imperial 1/4" to 2.5".' },
-                { question: 'Lead time?', answer: 'Typically 7–14 working days depending on quantity and finish.' },
+                { question: 'Metric and imperial?', answer: 'Both - metric M6 to M64 and imperial 1/4" to 2.5".' },
+                { question: 'Lead time?', answer: 'Typically 7-14 working days depending on quantity and finish.' },
               ]}
             />
           </div>

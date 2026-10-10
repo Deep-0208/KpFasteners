@@ -8,7 +8,7 @@ const Agentation = dynamic(
 );
 
 /**
- * DevTools — mounts visual annotation and feedback tooling for AI agents.
+ * DevTools - mounts visual annotation and feedback tooling for AI agents.
  * Only rendered in development mode (`NODE_ENV === 'development'`).
  * In production, this component renders null and incurs zero runtime cost.
  */

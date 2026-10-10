@@ -51,7 +51,7 @@ function isAllowedOrigin(req: Request): boolean {
   }
 }
 
-// Magic-byte sniff — accept PDF, PNG, JPEG, DWG, DXF (text).
+// Magic-byte sniff - accept PDF, PNG, JPEG, DWG, DXF (text).
 function sniffAllowed(bytes: Uint8Array, filename: string): boolean {
   const sig = Array.from(bytes.slice(0, 8))
     .map((b) => b.toString(16).padStart(2, '0'))
@@ -64,7 +64,7 @@ function sniffAllowed(bytes: Uint8Array, filename: string): boolean {
   if (sig.startsWith('ffd8ff')) return true;
   // DWG: 'AC' + 4-char version (AC1012, AC1024, etc.) → 41 43 31
   if (sig.startsWith('414331')) return true;
-  // DXF (ASCII) starts with "  0\nSECTION" or similar — permit by extension
+  // DXF (ASCII) starts with "  0\nSECTION" or similar - permit by extension
   const ext = filename.toLowerCase().split('.').pop() ?? '';
   if (ext === 'dxf') {
     const head = new TextDecoder().decode(bytes.slice(0, 32)).trim().toUpperCase();
@@ -111,7 +111,7 @@ export async function POST(req: Request) {
     return NextResponse.json({ error: 'Validation failed', fieldErrors }, { status: 400 });
   }
 
-  // Honeypot — behave as success without actually sending
+  // Honeypot - behave as success without actually sending
   if (parsed.data.company_website && parsed.data.company_website.length > 0) {
     console.warn(JSON.stringify({ evt: 'quote.honeypot', reqId }));
     return NextResponse.json({ status: 'ok' });
@@ -166,16 +166,16 @@ export async function POST(req: Request) {
       [
         ['Name', d.fullName],
         ['Company', d.company],
-        ['Email', d.email || '—'],
-        ['Phone', d.phone || '—'],
-        ['City', d.country_city || '—'],
+        ['Email', d.email || '-'],
+        ['Phone', d.phone || '-'],
+        ['City', d.country_city || '-'],
         ['Product', d.productCategory],
-        ['Grade / material', d.material || '—'],
-        ['Coating', d.coating || '—'],
-        ['Size', d.size || '—'],
-        ['Quantity', d.quantity || '—'],
-        ['Dispatch pin', d.deliveryPin || '—'],
-        ['Notes', d.notes || '—'],
+        ['Grade / material', d.material || '-'],
+        ['Coating', d.coating || '-'],
+        ['Size', d.size || '-'],
+        ['Quantity', d.quantity || '-'],
+        ['Dispatch pin', d.deliveryPin || '-'],
+        ['Notes', d.notes || '-'],
       ]
         .map(([k, v]) => `${k}: ${v}`)
         .join('\n');
@@ -183,7 +183,7 @@ export async function POST(req: Request) {
     await resend.emails.send({
       from: 'KP Fasteners <noreply@kpfasteners.com>',
       to: salesTo,
-      subject: `New RFQ — ${d.productCategory} — ${d.company}`,
+      subject: `New RFQ - ${d.productCategory} - ${d.company}`,
       text: salesText,
       attachments: attachment
         ? [{ filename: attachment.filename, content: attachment.content }]
@@ -195,22 +195,22 @@ export async function POST(req: Request) {
         `Hi ${d.fullName.split(' ')[0]},\n\n` +
         `Thanks for sending your RFQ to KP Fasteners. Here's what we received:\n\n` +
         `Product: ${d.productCategory}\n` +
-        `Grade / material: ${d.material || '—'}\n` +
-        `Coating: ${d.coating || '—'}\n` +
-        `Size: ${d.size || '—'}\n` +
-        `Quantity: ${d.quantity || '—'}\n` +
-        `Dispatch pin code: ${d.deliveryPin || '—'}\n` +
+        `Grade / material: ${d.material || '-'}\n` +
+        `Coating: ${d.coating || '-'}\n` +
+        `Size: ${d.size || '-'}\n` +
+        `Quantity: ${d.quantity || '-'}\n` +
+        `Dispatch pin code: ${d.deliveryPin || '-'}\n` +
         `Drawing attached: ${attachment ? 'yes' : 'no'}\n` +
-        `Notes: ${d.notes || '—'}\n\n` +
+        `Notes: ${d.notes || '-'}\n\n` +
         `We'll reply from sales@kpfasteners.com within one working day.\n\n` +
-        `If it's urgent, WhatsApp us on +91 98982 30448 (Mon–Sat 09:30–19:00 IST)\n` +
+        `If it's urgent, WhatsApp us on +91 98982 30448 (Mon-Sat 09:30-19:00 IST)\n` +
         `and quote reference ${reqId}.\n\n` +
         `Regards,\nKP Fasteners\n23/4 Ghanshyam Industrial Estate, Ahmedabad 380024\nGST 24ARDPP9803A1Z3\n`;
 
       await resend.emails.send({
         from: 'KP Fasteners <sales@kpfasteners.com>',
         to: d.email,
-        subject: `We've received your RFQ — KP Fasteners`,
+        subject: `We've received your RFQ - KP Fasteners`,
         text: buyerText,
       });
     }

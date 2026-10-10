@@ -36,7 +36,7 @@ const HERO_IMAGE = '/images/products/threaded-rods/sag-rod.webp';
 
 const META_TITLE = 'Sag Rods Manufacturer | PEB Purlin & Solar Bracing | KP';
 const META_DESCRIPTION =
-  'Threaded sag rods for PEB purlin bracing and solar racking cross-bracing. MS and high-tensile, HDG or zinc, MTC on request. Ahmedabad-made — request a BOQ quote.';
+  'Threaded sag rods for PEB purlin bracing and solar racking cross-bracing. MS and high-tensile, HDG or zinc, MTC on request. Ahmedabad-made - request a BOQ quote.';
 
 export const metadata: Metadata = buildMetadata({
   path: PATH,
@@ -46,29 +46,29 @@ export const metadata: Metadata = buildMetadata({
 });
 
 const WA_PREFILL =
-  'Hello KP Fasteners, I need sag rods — Diameter: [M12/M16/M20/M24 or ½"/⅝"/¾"/1"], Length: [ ], Thread each end: [mm], Coating: [HDG/Zinc/Plain], Quantity: [ ], MTC: [Y/N]';
+  'Hello KP Fasteners, I need sag rods - Diameter: [M12/M16/M20/M24 or ½"/⅝"/¾"/1"], Length: [ ], Thread each end: [mm], Coating: [HDG/Zinc/Plain], Quantity: [ ], MTC: [Y/N]';
 const WA_URL = 'https://wa.me/919898230448?text=' + encodeURIComponent(WA_PREFILL);
 
 const FAQS = [
   {
     question: 'What size sag rod do I need for a PEB purlin bracing run?',
     answer:
-      'Diameter is set by the structural designer against the purlin span, sheeting load and the number of sag-rod lines in the bay — a Z-purlin 6 m span is commonly specified at M16 with HDG coating, but exact selection must come from the project span table and the fabricator’s standard detail. KP supplies to the engineer’s callout; we do not perform the bracing design itself. Share the drawing or the schedule and we quote by diameter, length and coating.',
+      'Diameter is set by the structural designer against the purlin span, sheeting load and the number of sag-rod lines in the bay - a Z-purlin 6 m span is commonly specified at M16 with HDG coating, but exact selection must come from the project span table and the fabricator’s standard detail. KP supplies to the engineer’s callout; we do not perform the bracing design itself. Share the drawing or the schedule and we quote by diameter, length and coating.',
   },
   {
     question: 'Can I get sag rods pre-cut to length?',
     answer:
-      'Yes — cut-to-length to drawing is the standard supply form. Specify the overall rod length and the thread length at each end on the RFQ (typical thread run is 75–150 mm per end). For long bays beyond stock length we supply with a mid-coupler; call it out on the schedule so we ship the matching coupler and nuts in the same lot.',
+      'Yes - cut-to-length to drawing is the standard supply form. Specify the overall rod length and the thread length at each end on the RFQ (typical thread run is 75-150 mm per end). For long bays beyond stock length we supply with a mid-coupler; call it out on the schedule so we ship the matching coupler and nuts in the same lot.',
   },
   {
     question: 'What coating is recommended for solar racking sag rods?',
     answer:
-      'Hot-dip galvanised (HDG) to ASTM A153 Class B / C or IS 2629 is the field default for outdoor exposure — solar racking cross-bracing and PEB roof purlin bracing both live outside and need the zinc film thickness. Zinc electroplate is only suitable for indoor or short-service lines. For coastal / high-humidity sites, confirm the coating class on the quote line.',
+      'Hot-dip galvanised (HDG) to ASTM A153 Class B / C or IS 2629 is the field default for outdoor exposure - solar racking cross-bracing and PEB roof purlin bracing both live outside and need the zinc film thickness. Zinc electroplate is only suitable for indoor or short-service lines. For coastal / high-humidity sites, confirm the coating class on the quote line.',
   },
   {
     question: 'Do you supply the matching hex nuts, washers and turnbuckles?',
     answer:
-      'Yes — the sag-rod lot ships with matching hex nuts (two per rod, standard) and flat washers on request. Turnbuckles for adjustable mid-span tensioning are available as a companion item. Pairings and finishes are matched to the rod coating. See our hex bolts & nuts range for standalone nut and washer supply.',
+      'Yes - the sag-rod lot ships with matching hex nuts (two per rod, standard) and flat washers on request. Turnbuckles for adjustable mid-span tensioning are available as a companion item. Pairings and finishes are matched to the rod coating. See our hex bolts & nuts range for standalone nut and washer supply.',
   },
   {
     question: 'Is EN 10204 3.1 MTC available on sag-rod lots?',
@@ -77,7 +77,7 @@ const FAQS = [
   },
 ];
 
-// VARIANTS: { use: string | ReactNode } — mirrors the type-safe inline cross-link
+// VARIANTS: { use: string | ReactNode } - mirrors the type-safe inline cross-link
 // pattern established on /products/stud-bolts/ (Phase D-2).
 const VARIANTS: {
   name: string;
@@ -88,13 +88,13 @@ const VARIANTS: {
   {
     name: 'Threaded both ends with hex nuts',
     use: 'The default sag-rod sub-type: plain round-bar body with a run of thread at each end for a hex nut and washer. One pass through the purlin web at each end anchors the bay.',
-    range: 'M12 – M24 / ½" – 1" × to length',
+    range: 'M12 - M24 / ½" - 1" × to length',
     finish: 'HDG, Zinc, Plain / Oiled',
   },
   {
     name: 'Threaded both ends with centre turnbuckle',
     use: 'Threaded ends with a mid-span turnbuckle (right / left-hand thread body) for in-field tensioning after the roof sheet is laid. Used where the bracing line crosses a sag that must be pulled flat on site.',
-    range: 'M12 – M20 × to length',
+    range: 'M12 - M20 × to length',
     finish: 'HDG, Zinc',
   },
   {
@@ -112,7 +112,7 @@ const VARIANTS: {
         when the project uses both.
       </>
     ),
-    range: 'M12 – M24 × cut-to-spec up to 6 m',
+    range: 'M12 - M24 × cut-to-spec up to 6 m',
     finish: 'HDG, Zinc, Plain',
   },
   {
@@ -130,7 +130,7 @@ const VARIANTS: {
         .
       </>
     ),
-    range: 'M12 – M24 × 1 / 2 / 3 / 6 m',
+    range: 'M12 - M24 × 1 / 2 / 3 / 6 m',
     finish: 'HDG, Zinc, Plain',
   },
 ];
@@ -139,12 +139,12 @@ const COATINGS = [
   {
     name: 'Hot-Dip Galvanised (HDG)',
     body:
-      'Zinc dip to ASTM A153 Class B / C or IS 2629 — the field default for outdoor PEB roof purlin bracing and for solar racking cross-bracing. Zinc film thickness is specified against the coating-class table on the RFQ. Nut threads are over-tapped per ASME B18.2.6 to accept HDG studs.',
+      'Zinc dip to ASTM A153 Class B / C or IS 2629 - the field default for outdoor PEB roof purlin bracing and for solar racking cross-bracing. Zinc film thickness is specified against the coating-class table on the RFQ. Nut threads are over-tapped per ASME B18.2.6 to accept HDG studs.',
   },
   {
     name: 'Zinc Electroplating',
     body:
-      'Trivalent passivated zinc for indoor and short-service applications — temporary site bracing, dry-indoor truss bracing. Lighter film than HDG; not a substitute for HDG on outdoor sag-rod lines.',
+      'Trivalent passivated zinc for indoor and short-service applications - temporary site bracing, dry-indoor truss bracing. Lighter film than HDG; not a substitute for HDG on outdoor sag-rod lines.',
   },
   {
     name: 'Plain / Oiled',
@@ -163,7 +163,7 @@ const APPLICATIONS = [
     icon: Building2,
     name: 'PEB roof purlin bracing',
     body:
-      'The classic case — one, two or three lines of sag rods per bay to split the Z- or C-purlin into shorter unbraced lengths, preventing lateral-torsional buckling before and after sheeting.',
+      'The classic case - one, two or three lines of sag rods per bay to split the Z- or C-purlin into shorter unbraced lengths, preventing lateral-torsional buckling before and after sheeting.',
   },
   {
     icon: Layers,
@@ -204,14 +204,14 @@ const RELATED = [
     name: 'Stud Bolts',
     anchor: 'stud bolts for flange clamping',
     body:
-      'Fully-threaded, tap-end and double-end stud bolts to ASTM A193 B7 / B8M and DIN 976 threaded rod — for the flange termination of a sag-rod line onto a bolted connection.',
+      'Fully-threaded, tap-end and double-end stud bolts to ASTM A193 B7 / B8M and DIN 976 threaded rod - for the flange termination of a sag-rod line onto a bolted connection.',
   },
   {
     href: '/products/scaffold-accessories/',
     name: 'Scaffold Accessories',
     anchor: 'scaffold accessories and site-work hardware',
     body:
-      'Companion scaffold hardware and site-work accessories — ships together with temporary-bracing sag-rod lots on erection-stage orders.',
+      'Companion scaffold hardware and site-work accessories - ships together with temporary-bracing sag-rod lots on erection-stage orders.',
   },
 ];
 
@@ -229,7 +229,7 @@ export default function Page() {
         data={productSchema({
           name: 'Sag Rods',
           description:
-            'Threaded sag rods for PEB roof and wall purlin bracing, cold-formed steel roof framing, solar module racking cross-bracing, structural-steel truss bracing and temporary site bracing — mild-steel and high-tensile base stock, HDG, zinc or plain finish, cut-to-length to drawing.',
+            'Threaded sag rods for PEB roof and wall purlin bracing, cold-formed steel roof framing, solar module racking cross-bracing, structural-steel truss bracing and temporary site bracing - mild-steel and high-tensile base stock, HDG, zinc or plain finish, cut-to-length to drawing.',
           category: 'Industrial Fasteners / Sag Rods / Threaded Rods',
           material: 'Mild Steel (IS 2062), High-Tensile Carbon Steel',
           image: HERO_IMAGE,
@@ -247,14 +247,13 @@ export default function Page() {
             <div>
               <p className="badge badge-gold">OEM · Manufactured in Ahmedabad</p>
               <Heading as="h1" variant="hero" className="mt-4 font-heading">
-                <span className="text-gold-gradient">Sag Rods</span> Manufacturer —
-                PEB Purlin &amp; Solar Bracing
+                <span className="text-gold-gradient">Sag Rods</span> Manufacturer - PEB Purlin &amp; Solar Bracing
               </Heading>
               <hr className="rule-metal mt-5 w-40" aria-hidden="true" />
               <p className="mt-6 max-w-2xl text-lg text-ink-muted">
                 Threaded sag rods for pre-engineered-building roof and wall purlin
                 bracing, cold-formed steel framing and solar module racking
-                cross-bracing — cut-to-length, HDG or zinc, hex nuts and optional
+                cross-bracing - cut-to-length, HDG or zinc, hex nuts and optional
                 turnbuckles supplied with the lot. Made at our Ghanshyam Industrial
                 Estate plant and dispatched India-wide against the project schedule
                 or structural drawing.
@@ -303,7 +302,7 @@ export default function Page() {
       {/* 2. Technical overview */}
       <Section variant="alt">
         <Container>
-          <Heading as="h2" variant="section">What a sag rod does — and where KP fits</Heading>
+          <Heading as="h2" variant="section">What a sag rod does - and where KP fits</Heading>
           <div className="mt-6 grid gap-8 md:grid-cols-2">
             <Prose>
               <p>
@@ -330,7 +329,7 @@ export default function Page() {
                 >
                   foundation anchor bolts
                 </Link>
-                . They are also distinct from compression tie-rod assemblies — a sag
+                . They are also distinct from compression tie-rod assemblies - a sag
                 rod carries tension only, with hex nuts at each end.
               </p>
             </Prose>
@@ -340,7 +339,7 @@ export default function Page() {
                 production line: base round-bar stock in mild steel (IS 2062) and
                 high-tensile carbon-steel grades is cut to the drawing length, the
                 thread run at each end is rolled or cut to 6g tolerance per IS 1367,
-                and the lot is coated to the specified class — most commonly hot-dip
+                and the lot is coated to the specified class - most commonly hot-dip
                 galvanised for outdoor service.
               </p>
               <p className="mt-4">
@@ -359,7 +358,7 @@ export default function Page() {
         <Container>
           <Heading as="h2" variant="section">Standards we manufacture against</Heading>
           <p className="mt-3 max-w-3xl text-ink-muted">
-            Sag rods are a field-fabricated assembly — adherence is base-metal-driven
+            Sag rods are a field-fabricated assembly - adherence is base-metal-driven
             rather than driven by a dedicated sag-rod product standard. The rows below
             map the standards that govern the base steel, the thread form and the
             coating class we supply against. Every row is referenced to a published
@@ -385,7 +384,7 @@ export default function Page() {
                   cells: [
                     'IS 2062',
                     'India (BIS)',
-                    'Hot-rolled structural steel — base round-bar stock',
+                    'Hot-rolled structural steel - base round-bar stock',
                     'E250 (Gr A / B / C), E350',
                     'MS sag-rod base stock for PEB and structural bracing',
                   ],
@@ -413,7 +412,7 @@ export default function Page() {
                     'ISO 898-1',
                     'International (ISO)',
                     'Mechanical properties of carbon- & alloy-steel fasteners',
-                    'Property class 4.6 – 10.9',
+                    'Property class 4.6 - 10.9',
                     'Metric mechanical minima for high-tensile sag-rod stock',
                   ],
                 },
@@ -584,7 +583,7 @@ export default function Page() {
           <p className="mt-3 max-w-3xl text-ink-muted">
             A short decision block for procurement officers working from a PEB
             schedule, a solar racking BOM or a structural-steel bracing drawing. KP
-            supplies against the engineer’s specification — we do not perform the
+            supplies against the engineer’s specification - we do not perform the
             bracing design itself.
           </p>
           <div className="mt-8 grid gap-6 md:grid-cols-2">
@@ -594,7 +593,7 @@ export default function Page() {
               </Heading>
               <Prose className="mt-3">
                 <ul className="list-disc space-y-2 pl-5">
-                  <li>Diameter: typical <strong>M12 – M20</strong> per span table.</li>
+                  <li>Diameter: typical <strong>M12 - M20</strong> per span table.</li>
                   <li>Base: <strong>MS property class 4.6 / 4.8</strong>.</li>
                   <li>Coating: <strong>HDG</strong> (ASTM A153 / IS 2629).</li>
                   <li>Ends: threaded both ends with matching hex nuts.</li>
@@ -607,7 +606,7 @@ export default function Page() {
               </Heading>
               <Prose className="mt-3">
                 <ul className="list-disc space-y-2 pl-5">
-                  <li>Diameter: typical <strong>M12 – M16</strong> per racking OEM detail.</li>
+                  <li>Diameter: typical <strong>M12 - M16</strong> per racking OEM detail.</li>
                   <li>Base: <strong>MS property class 4.6 / 4.8</strong>.</li>
                   <li>Coating: <strong>HDG</strong> (field default for outdoor).</li>
                   <li>Optional centre turnbuckle for in-field tensioning.</li>
@@ -620,7 +619,7 @@ export default function Page() {
               </Heading>
               <Prose className="mt-3">
                 <ul className="list-disc space-y-2 pl-5">
-                  <li>Diameter: typical <strong>M16 – M24</strong> per engineer’s callout.</li>
+                  <li>Diameter: typical <strong>M16 - M24</strong> per engineer’s callout.</li>
                   <li>Base: <strong>property class 8.8</strong> on confirmed stock.</li>
                   <li>Coating: <strong>HDG</strong> or paint-ready plain finish.</li>
                   <li>Companion washers (F436 if structural) on request.</li>
@@ -633,10 +632,10 @@ export default function Page() {
               </Heading>
               <Prose className="mt-3">
                 <ul className="list-disc space-y-2 pl-5">
-                  <li>Diameter: typical <strong>M12 – M16</strong>.</li>
+                  <li>Diameter: typical <strong>M12 - M16</strong>.</li>
                   <li>Base: <strong>MS property class 4.6</strong>.</li>
                   <li>Coating: <strong>plain / oiled</strong> or black-oxide.</li>
-                  <li>Short-service — removed after permanent bracing is in.</li>
+                  <li>Short-service - removed after permanent bracing is in.</li>
                 </ul>
               </Prose>
             </Card>
@@ -696,7 +695,7 @@ export default function Page() {
               <Heading as="h2" variant="section">Quality control &amp; documentation</Heading>
               <ul className="mt-6 space-y-3 text-ink">
                 {[
-                  'Dimensional inspection — diameter, cut-length and thread engagement — on every manufactured lot.',
+                  'Dimensional inspection - diameter, cut-length and thread engagement - on every manufactured lot.',
                   'Thread gauge inspection to ISO 965 / IS 1367 (6g go / no-go) per lot.',
                   'HDG coating-thickness check per ASTM A153 / IS 2629 class on coated lots.',
                   'Hardness verification (Rockwell / Brinell) against the base property class.',

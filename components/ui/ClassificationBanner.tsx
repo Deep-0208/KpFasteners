@@ -21,12 +21,12 @@ const COPY: Record<
   trading: {
     badge: 'Distribution range',
     badgeClass: 'badge badge-steel',
-    body: 'Part of our distribution range — sourced from vetted partners. Brand and country of origin vary by SKU.',
+    body: 'Part of our distribution range - sourced from vetted partners. Brand and country of origin vary by SKU.',
     cardClass:
       'border-[color:var(--steel-300)] bg-brand-steel-soft/60 text-ink',
   },
   ambiguous: {
-    badge: 'Manufactured & supplied — SKU-specific',
+    badge: 'Manufactured & supplied - SKU-specific',
     badgeClass: 'badge badge-gold',
     body: 'Some SKUs are manufactured in-house; others are supplied through distribution. Confirm on the quote line.',
     cardClass:

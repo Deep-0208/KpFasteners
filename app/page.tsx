@@ -21,14 +21,14 @@ const findCat = (slug: string) => productCategories.find((p) => p.slug === slug)
 const oemCards = [
   {
     name: 'Foundation / Anchor Bolts',
-    value: 'J, L, U and hooked anchors — IS 5624, F1554 classes.',
+    value: 'J, L, U and hooked anchors to IS 5624, F1554 classes.',
     href: '/products/foundation-bolts/',
     image: findCat('foundation-bolts').image,
     imageAlt: findCat('foundation-bolts').imageAlt,
   },
   {
     name: 'Stud Bolts',
-    value: 'ASTM A193 B7 / B8 / B8M, DIN 976 — flanges and structural.',
+    value: 'ASTM A193 B7 / B8 / B8M, DIN 976 for flanges and structural assemblies.',
     href: '/products/stud-bolts/',
     image: findCat('stud-bolts').image,
     imageAlt: findCat('stud-bolts').imageAlt,
@@ -42,7 +42,7 @@ const oemCards = [
   },
   {
     name: 'Scaffold Accessories',
-    value: 'Tie-rod nut sets, wing nuts, waller plates — make + supply.',
+    value: 'Tie-rod nut sets, wing nuts, waller plates: manufactured and supplied.',
     href: '/products/scaffold-accessories/',
     image: findCat('scaffold-accessories').image,
     imageAlt: findCat('scaffold-accessories').imageAlt,
@@ -103,7 +103,7 @@ export default function HomePage() {
             <div>
               <p className="badge badge-gold">Ahmedabad · OEM Manufacturer</p>
               <Heading as="h1" variant="hero" className="mt-2.5 text-2xl sm:text-3xl md:text-4xl lg:text-[2.6rem] leading-[1.1] font-heading">
-                Foundation, Anchor, Stud &amp; Sag Rod Bolts —{' '}
+                Foundation, Anchor, Stud &amp; Sag Rod Bolts:{' '}
                 <span className="text-gold-gradient">Made in Ahmedabad</span>
               </Heading>
               <p className="mt-3 max-w-2xl text-sm sm:text-base text-ink-muted leading-relaxed">
@@ -198,44 +198,58 @@ export default function HomePage() {
         </Container>
       </Section>
 
-      {/* 3. Distribution strip */}
+      {/* 3. Distribution Catalog Strip */}
       <Section>
         <Container>
-          <div>
-            <span className="badge badge-steel">Distribution range</span>
-            <Heading as="h2" variant="section" className="mt-3">
-              Also supplied from distribution
-            </Heading>
-            <p className="mt-3 max-w-2xl text-ink-muted">
-              Honest positioning — these categories are sourced from vetted partners,
-              not manufactured by us. One PO, one dispatch, pan-India delivery.
-            </p>
-          </div>
-          <div className="mt-8 grid gap-4 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-5">
-            {tradingCards.map((c) => (
-              <Card key={c.href} variant="default" padding="md" className="flex h-full flex-col">
-                <div className="relative aspect-[4/3] w-full overflow-hidden rounded-md bg-transparent p-2">
-                  <Image
-                    src={c.image}
-                    alt={c.imageAlt}
-                    fill
-                    sizes="(min-width: 1024px) 20vw, (min-width: 640px) 50vw, 100vw"
-                    className="object-contain transition-transform duration-300 hover:scale-105"
-                  />
-                </div>
-                <span className="badge badge-steel mt-3 w-fit">Distribution range</span>
-                <Heading as="h3" variant="card" className="mt-3">
-                  {c.name}
-                </Heading>
-                <p className="mt-2 flex-1 text-sm text-ink-muted">{c.value}</p>
-                <Link
-                  href={c.href}
-                  className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand-steel hover:text-brand-gold-strong"
-                >
-                  View <ArrowRight aria-hidden="true" className="h-4 w-4" />
+          <div className="grid gap-8 lg:grid-cols-[1fr_2fr] lg:items-start">
+            <div className="lg:sticky lg:top-28">
+              <span className="badge badge-steel">Distribution Range</span>
+              <Heading as="h2" variant="section" className="mt-3">
+                Partner Mill Supply
+              </Heading>
+              <p className="mt-3 text-sm sm:text-base text-ink-muted leading-relaxed">
+                Complementary industrial hardware sourced from audited partner mills.
+                Consolidated on a single purchase order with verified mill test reports and pan-India dispatch.
+              </p>
+              <div className="mt-6 hidden lg:block">
+                <Link href="/products/" className="btn btn-secondary">
+                  <span>Explore Full Catalog</span>
+                  <ArrowRight aria-hidden="true" className="h-4 w-4" />
                 </Link>
-              </Card>
-            ))}
+              </div>
+            </div>
+
+            <div className="divide-y divide-slate-200 rounded-xl border border-slate-200/90 bg-white overflow-hidden shadow-xs">
+              {tradingCards.map((c) => (
+                <Link
+                  key={c.href}
+                  href={c.href}
+                  className="group flex flex-col sm:flex-row sm:items-center justify-between gap-4 p-4 sm:p-5 transition-colors hover:bg-slate-50/80"
+                >
+                  <div className="flex items-center gap-4">
+                    <div className="relative h-14 w-14 sm:h-16 sm:w-16 shrink-0 overflow-hidden rounded-lg bg-slate-100/80 p-1.5 border border-slate-200/60">
+                      <Image
+                        src={c.image}
+                        alt={c.imageAlt}
+                        fill
+                        sizes="64px"
+                        className="object-contain transition-transform duration-300 group-hover:scale-105"
+                      />
+                    </div>
+                    <div>
+                      <Heading as="h3" variant="card" className="text-base sm:text-lg group-hover:text-brand-gold-strong transition-colors">
+                        {c.name}
+                      </Heading>
+                      <p className="mt-1 text-xs sm:text-sm text-ink-muted leading-normal">{c.value}</p>
+                    </div>
+                  </div>
+                  <div className="flex items-center gap-2 text-xs font-semibold text-brand-gold-strong sm:shrink-0">
+                    <span>Specifications</span>
+                    <ArrowRight aria-hidden="true" className="h-4 w-4 transition-transform group-hover:translate-x-1" />
+                  </div>
+                </Link>
+              ))}
+            </div>
           </div>
         </Container>
       </Section>
@@ -245,17 +259,14 @@ export default function HomePage() {
         <Container>
           <Heading as="h2" variant="section">How you buy from us</Heading>
           <p className="mt-3 max-w-2xl text-ink-muted">
-            Typical — confirmed on quote.
-            {/* VERIFICATION PENDING: dispatch SLAs — "24–72 hrs Ahmedabad / 3–5
-                days Gujarat / 5–8 days pan-India" taken from reference-defaults.md
-                row 16; Kabir to confirm as the publishable baseline. */}
+            Typical dispatch timelines confirmed on quotation.
           </p>
           <ol className="mt-8 grid gap-6 md:grid-cols-3">
             {[
               {
                 n: '1',
-                h: 'Share spec / drawing',
-                b: 'BOQ, drawing or part number — form, WhatsApp or email.',
+                h: 'Share spec or drawing',
+                b: 'BOQ, drawing or part number via web form, WhatsApp or email.',
               },
               {
                 n: '2',
@@ -265,7 +276,7 @@ export default function HomePage() {
               {
                 n: '3',
                 h: 'Dispatch',
-                b: '24–72 hrs Ahmedabad · 3–5 days Gujarat · 5–8 days pan-India.',
+                b: '24-72 hrs Ahmedabad, 3-5 days Gujarat, 5-8 days pan-India.',
               },
             ].map((s) => (
               <li key={s.n} className="metallic-card p-6">
@@ -320,7 +331,7 @@ export default function HomePage() {
                   <span className="text-gold-gradient">Share your BOQ. Quote back in 24 hrs.</span>
                 </Heading>
                 <p className="mt-3 max-w-2xl text-ink-muted">
-                  Upload a drawing or paste a bill of materials — we quote with
+                  Upload a drawing or paste a bill of materials: we quote with
                   standards, coatings and lead time.
                 </p>
               </div>

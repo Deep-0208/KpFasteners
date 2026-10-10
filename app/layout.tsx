@@ -15,9 +15,9 @@ import './globals.css';
  * Three-font system, self-hosted via next/font/google (WOFF2, display: swap).
  * Only the weights the design actually uses are pulled in; expand only if a
  * new callsite genuinely needs a weight not present here.
- *   Inter          — body copy and UI labels (--font-sans)
- *   Outfit         — display / headings / .btn labels (--font-heading)
- *   JetBrains Mono — tabular spec numerals (--font-mono)
+ *   Inter - body copy and UI labels (--font-sans)
+ *   Outfit - display / headings / .btn labels (--font-heading)
+ *   JetBrains Mono - tabular spec numerals (--font-mono)
  */
 const inter = Inter({
   subsets: ['latin'],

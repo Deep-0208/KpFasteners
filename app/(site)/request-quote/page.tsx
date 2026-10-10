@@ -14,7 +14,7 @@ import { Phone, MessageCircle } from 'lucide-react';
 
 export const metadata: Metadata = buildMetadata({
   path: '/request-quote/',
-  title: 'Request a Fastener Quote — KP Fasteners, Ahmedabad',
+  title: 'Request a Fastener Quote - KP Fasteners, Ahmedabad',
   description:
     'Send your bolt, nut, stud or anchor RFQ to KP Fasteners in Ahmedabad. Upload a drawing or BOQ, or WhatsApp us on +91 98982 30448.',
 });
@@ -70,7 +70,7 @@ export default function RequestQuotePage() {
                   <li>• <strong>Diameter × length</strong> (e.g., M20 × 300 mm)</li>
                   <li>• <strong>Quantity</strong> (pieces or tonnage)</li>
                   <li>• <strong>Dispatch pin code</strong></li>
-                  <li>• <strong>Drawing</strong> (PDF, DWG, DXF, PNG, JPG — ≤ 8 MB)</li>
+                  <li>• <strong>Drawing</strong> (PDF, DWG, DXF, PNG, JPG - ≤ 8 MB)</li>
                 </ul>
               </Card>
 
@@ -83,7 +83,7 @@ export default function RequestQuotePage() {
               <Card variant="default" padding="lg" className="w-full min-w-0 max-w-full overflow-hidden">
                 <Heading as="h3" variant="card">Prefer to talk?</Heading>
                 <p className="mt-2 text-sm text-ink-muted">
-                  Some buyers don&apos;t want to fill a form — reach us directly.
+                  Some buyers don&apos;t want to fill a form - reach us directly.
                 </p>
                 <div className="mt-4 flex flex-col gap-2">
                   <a href="tel:+919898230448" className="btn btn-secondary w-full justify-center text-sm">
@@ -106,9 +106,9 @@ export default function RequestQuotePage() {
         </Container>
       </Section>
 
-      {/* VERIFICATION PENDING: response-SLA wording — "within one working day"
+      {/* VERIFICATION PENDING: response-SLA wording - "within one working day"
           needs client confirmation before promotion to Title / meta description. */}
-      {/* VERIFICATION PENDING: email sender domain — DMARC/DKIM for
+      {/* VERIFICATION PENDING: email sender domain - DMARC/DKIM for
           noreply@kpfasteners.com must be live before enabling Resend in prod. */}
     </>
   );

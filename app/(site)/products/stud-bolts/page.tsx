@@ -36,7 +36,7 @@ const HERO_IMAGE = '/images/products/threaded-rods/threaded-rod-stud.webp';
 
 const META_TITLE = 'Stud Bolts Manufacturer | ASTM A193 B7, B7M, B8M | KP';
 const META_DESCRIPTION =
-  'Fully-threaded, tap-end and double-end stud bolts to ASTM A193 B7, B7M, B8M and A320 L7 — alloy & stainless, MTC 3.1 on request. Ahmedabad-made. Request a BOQ.';
+  'Fully-threaded, tap-end and double-end stud bolts to ASTM A193 B7, B7M, B8M and A320 L7 - alloy & stainless, MTC 3.1 on request. Ahmedabad-made. Request a BOQ.';
 
 export const metadata: Metadata = buildMetadata({
   path: PATH,
@@ -58,7 +58,7 @@ const FAQS = [
   {
     question: 'Do you supply stud bolts with matching heavy-hex nuts and washers?',
     answer:
-      'Yes — stud-plus-nut sets to ASTM A193 / A194 pairings are our standard supply form. For B7 studs we ship A194 Gr 2H nuts by default; for B7M we ship 2HM; for B8 we ship Gr 8; for B8M we ship Gr 8M. Hardened washers to ASTM F436 are available on request. See our matching heavy-hex nuts (A194 2H / 2HM / 8 / 8M) and hardened washers on the hex bolts and nuts page.',
+      'Yes - stud-plus-nut sets to ASTM A193 / A194 pairings are our standard supply form. For B7 studs we ship A194 Gr 2H nuts by default; for B7M we ship 2HM; for B8 we ship Gr 8; for B8M we ship Gr 8M. Hardened washers to ASTM F436 are available on request. See our matching heavy-hex nuts (A194 2H / 2HM / 8 / 8M) and hardened washers on the hex bolts and nuts page.',
   },
   {
     question: 'Which coatings do you apply to stud bolts?',
@@ -68,7 +68,7 @@ const FAQS = [
   {
     question: 'Can you supply against a piping isometric or flange bolt schedule?',
     answer:
-      'Yes. Send the bolt schedule — grade, diameter, length, coating, quantity per size, dispatch pin — as PDF or Excel via our Request a Quote page or on WhatsApp at +91 98982 30448. We supply to the piping isometric or flange bolt list; KP does not perform the flange-joint design itself.',
+      'Yes. Send the bolt schedule - grade, diameter, length, coating, quantity per size, dispatch pin - as PDF or Excel via our Request a Quote page or on WhatsApp at +91 98982 30448. We supply to the piping isometric or flange bolt list; KP does not perform the flange-joint design itself.',
   },
   {
     question: 'Do you provide EN 10204 3.1 mill test certificates with stud bolts?',
@@ -80,20 +80,20 @@ const FAQS = [
 const VARIANTS = [
   {
     name: 'Fully-threaded studs (continuous-thread)',
-    use: 'The workhorse flange stud — threaded end-to-end to 6g tolerance. Common lengths follow ASME B16.5 flange bolt-length tables.',
-    range: 'M12 – M64 / ½" – 2½" × to drawing',
+    use: 'The workhorse flange stud - threaded end-to-end to 6g tolerance. Common lengths follow ASME B16.5 flange bolt-length tables.',
+    range: 'M12 - M64 / ½" - 2½" × to drawing',
     finish: 'Black, HDG, PTFE / Xylan',
   },
   {
     name: 'Tap-end studs',
     use: 'Threaded portion at one end with a plain shank. Typical for machinery grouting into blind tapped holes on pump bedplates and compressor skids.',
-    range: 'M12 – M48 × to drawing',
+    range: 'M12 - M48 × to drawing',
     finish: 'Black, HDG, PTFE',
   },
   {
     name: 'Double-end studs (equal / unequal)',
     use: 'Threaded at both ends with a plain body between. DIN 2510 waisted-neck geometry available for high-cycle-fatigue turbomachinery flange service.',
-    range: 'M16 – M56 × to drawing',
+    range: 'M16 - M56 × to drawing',
     finish: 'Black, PTFE',
   },
   {
@@ -111,7 +111,7 @@ const VARIANTS = [
         .
       </>
     ),
-    range: 'M12 – M64 kit-packed',
+    range: 'M12 - M64 kit-packed',
     finish: 'Matched coating per set',
   },
   {
@@ -129,13 +129,13 @@ const VARIANTS = [
         .
       </>
     ),
-    range: 'M12 – M30 × to length',
+    range: 'M12 - M30 × to length',
     finish: 'Black, zinc, HDG',
   },
   {
     name: 'Metric threaded rod to DIN 976',
-    use: 'Continuous metric threaded rod to ISO 898-1 property classes 4.6 – 10.9. Used where the project calls out metric rather than ASTM grades.',
-    range: 'M8 – M48 × 1 m / 2 m / 3 m',
+    use: 'Continuous metric threaded rod to ISO 898-1 property classes 4.6 - 10.9. Used where the project calls out metric rather than ASTM grades.',
+    range: 'M8 - M48 × 1 m / 2 m / 3 m',
     finish: 'Self-colour, zinc, HDG',
   },
 ];
@@ -147,11 +147,11 @@ const COATINGS = [
   },
   {
     name: 'Hot-Dip Galvanised (HDG)',
-    body: 'Zinc dip to ASTM A153 / IS 2629 — the default for outdoor structural stud anchorage. Nut threads are over-tapped per ASME B18.2.6 to accept HDG studs.',
+    body: 'Zinc dip to ASTM A153 / IS 2629 - the default for outdoor structural stud anchorage. Nut threads are over-tapped per ASME B18.2.6 to accept HDG studs.',
   },
   {
     name: 'PTFE / Xylan (Fluoropolymer)',
-    body: 'Xylan 1424 / Fluorokote-family fluoropolymer coatings for petrochemical, refinery and offshore flange joints — low-friction for consistent torque and repeat disassembly.',
+    body: 'Xylan 1424 / Fluorokote-family fluoropolymer coatings for petrochemical, refinery and offshore flange joints - low-friction for consistent torque and repeat disassembly.',
   },
   {
     name: 'Zinc Electroplating',
@@ -159,11 +159,11 @@ const COATINGS = [
   },
   {
     name: 'Phosphate + Oil',
-    body: 'Manganese or zinc phosphate pre-treatment with an oil film — a short-term rust inhibitor and a paint primer for site-painted assemblies.',
+    body: 'Manganese or zinc phosphate pre-treatment with an oil film - a short-term rust inhibitor and a paint primer for site-painted assemblies.',
   },
   {
     name: 'Passivated (Stainless)',
-    body: 'Citric or nitric-acid passivation per ASTM A967 for B8 / B8M stainless studs — removes free iron and restores the chromium-oxide layer.',
+    body: 'Citric or nitric-acid passivation per ASTM A967 for B8 / B8M stainless studs - removes free iron and restores the chromium-oxide layer.',
   },
 ];
 
@@ -231,7 +231,7 @@ export default function Page() {
         data={productSchema({
           name: 'Stud Bolts',
           description:
-            'Fully-threaded, tap-end and double-end stud bolts manufactured to ASTM A193 B7, B7M, B8, B8M, ASTM A320 L7 and DIN 976 — alloy-steel and austenitic stainless, with black-oxide, hot-dip galvanised and PTFE / Xylan coating options and A194 heavy-hex nut sets.',
+            'Fully-threaded, tap-end and double-end stud bolts manufactured to ASTM A193 B7, B7M, B8, B8M, ASTM A320 L7 and DIN 976 - alloy-steel and austenitic stainless, with black-oxide, hot-dip galvanised and PTFE / Xylan coating options and A194 heavy-hex nut sets.',
           category: 'Industrial Fasteners / Stud Bolts',
           material: 'Alloy Steel AISI 4140, Stainless Steel SS 304, Stainless Steel SS 316',
           image: HERO_IMAGE,
@@ -249,13 +249,12 @@ export default function Page() {
             <div>
               <p className="badge badge-gold">OEM · Manufactured in Ahmedabad</p>
               <Heading as="h1" variant="hero" className="mt-4 font-heading">
-                <span className="text-gold-gradient">Stud Bolts</span> Manufacturer —
-                ASTM A193 B7, B8, B8M &amp; L7
+                <span className="text-gold-gradient">Stud Bolts</span> Manufacturer - ASTM A193 B7, B8, B8M &amp; L7
               </Heading>
               <hr className="rule-metal mt-5 w-40" aria-hidden="true" />
               <p className="mt-6 max-w-2xl text-lg text-ink-muted">
                 Fully-threaded, tap-end and double-end stud bolts to ASTM A193 B7, B7M,
-                B8, B8M and ASTM A320 L7, with A194 heavy-hex nut sets — made at our
+                B8, B8M and ASTM A320 L7, with A194 heavy-hex nut sets - made at our
                 Ghanshyam Industrial Estate plant for refinery and petrochem flanges,
                 pressure vessels, pumps, compressors and heavy structural work. We quote
                 against your flange-bolt schedule with material, coating and MTC.
@@ -304,7 +303,7 @@ export default function Page() {
       {/* 2. Technical overview */}
       <Section variant="alt">
         <Container>
-          <Heading as="h2" variant="section">What a stud bolt is — and where KP fits</Heading>
+          <Heading as="h2" variant="section">What a stud bolt is - and where KP fits</Heading>
           <div className="mt-6 grid gap-8 md:grid-cols-2">
             <Prose>
               <p>
@@ -352,7 +351,7 @@ export default function Page() {
         <Container>
           <Heading as="h2" variant="section">Standards we manufacture against</Heading>
           <p className="mt-3 max-w-3xl text-ink-muted">
-            Every row below is referenced to a published standard — ASTM, DIN or BIS.
+            Every row below is referenced to a published standard - ASTM, DIN or BIS.
             Mechanical values are the minima defined in the standard; actual lot values
             are reported on the EN 10204 3.1 mill test certificate.
           </p>
@@ -404,7 +403,7 @@ export default function Page() {
                     'DIN 976-1',
                     'Germany (DIN)',
                     'Metric threaded rod / studs',
-                    'Property class 4.6 – 12.9 per ISO 898-1',
+                    'Property class 4.6 - 12.9 per ISO 898-1',
                     'General metric structural and machinery grouting',
                   ],
                 },
@@ -422,7 +421,7 @@ export default function Page() {
                     'IS 1367 (Part 3)',
                     'India (BIS)',
                     'Property classes for carbon-steel fasteners',
-                    'Property class 4.6 – 12.9',
+                    'Property class 4.6 - 12.9',
                     'IS-grade studs on BIS-referenced projects',
                   ],
                 },
@@ -550,7 +549,7 @@ export default function Page() {
           <p className="mt-3 max-w-3xl text-ink-muted">
             A short decision block for procurement officers working from a piping
             isometric or a flange bolt list. KP supplies against the engineer’s
-            specification — we do not perform the flange-joint design.
+            specification - we do not perform the flange-joint design.
           </p>
           <div className="mt-8 grid gap-6 md:grid-cols-2">
             <Card variant="trust" padding="lg">
@@ -567,7 +566,7 @@ export default function Page() {
             </Card>
             <Card variant="trust" padding="lg">
               <Heading as="h3" variant="card">
-                Sour service (H₂S) — NACE MR0175
+                Sour service (H₂S) - NACE MR0175
               </Heading>
               <Prose className="mt-3">
                 <ul className="list-disc space-y-2 pl-5">
@@ -655,7 +654,7 @@ export default function Page() {
                 {[
                   'Dimensional inspection per ASTM A193 tolerance tables on every manufactured lot.',
                   'Thread inspection to ISO 965 (6g tolerance) using ring and plug gauges.',
-                  'Hardness (Rockwell C) in-house — B7 target ≤ 35 HRC, B7M ≤ 22 HRC per standard.',
+                  'Hardness (Rockwell C) in-house - B7 target ≤ 35 HRC, B7M ≤ 22 HRC per standard.',
                   'Tensile verification via NABL-accredited third-party laboratory, correlated to heat number.',
                   'EN 10204 3.1 mill test certificates on request, with batch traceability by heat number.',
                 ].map((t) => (

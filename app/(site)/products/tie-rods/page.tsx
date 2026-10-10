@@ -36,7 +36,7 @@ import { company } from '@/data/company';
 const PATH = '/products/tie-rods/';
 const HERO_IMAGE = '/images/products/threaded-rods/tie-rod.webp';
 
-// Title: 57 chars (50–60 range, primary keyword first). Meta description: 156 chars (150–160 range).
+// Title: 57 chars (50-60 range, primary keyword first). Meta description: 156 chars (150-160 range).
 const META_TITLE = 'Tie Rod Manufacturer and Formwork Supplier | D15 D20 | KP';
 const META_DESCRIPTION =
   'D15 and D20 formwork tie rods with matching wing nuts, water bars, anchor plates and cones. Plain, HDG, zinc. MTC available. Request your project BOQ quote.';
@@ -53,21 +53,21 @@ const WA_PREFILL =
 const WA_URL = 'https://wa.me/919898230448?text=' + encodeURIComponent(WA_PREFILL);
 const TEL = `tel:${company.telephones[0].replace(/[^\d+]/g, '')}`;
 
-// VERIFICATION PENDING: Confirm stocked diameter range (D15 / D20 confirmed; D22 / D24 on request) — ref: brief §10 item 2
-// VERIFICATION PENDING: Confirm matching accessory inventory split (wing nuts, anchor plates, water bars, cones) — ref: brief §10 item 3
-// VERIFICATION PENDING: Confirm length stocking (6m default vs cut-to-length) — ref: brief §10 item 4
-// VERIFICATION PENDING: Confirm turnbuckle assemblies make-or-buy status for PEB bracing — ref: brief §10 item 5
-// VERIFICATION PENDING: Confirm MOQ and lead time bands per diameter and accessory family — ref: brief §10 item 6
-// VERIFICATION PENDING: Confirm IndiaMART SKU alignment for Tie Rod — ref: brief §10 item 7
-// VERIFICATION PENDING: Confirm named mill partners that may be cited — ref: brief §10 item 8
-// VERIFICATION PENDING: Real photograph of stocked tie-rod inventory at KP Fasteners Ahmedabad warehouse — ref: brief §6 & §10 item 9
-// VERIFICATION PENDING: Confirm whether KP ever customises cone-and-plate geometry on request — ref: brief §10 item 10
+// VERIFICATION PENDING: Confirm stocked diameter range (D15 / D20 confirmed; D22 / D24 on request) - ref: brief §10 item 2
+// VERIFICATION PENDING: Confirm matching accessory inventory split (wing nuts, anchor plates, water bars, cones) - ref: brief §10 item 3
+// VERIFICATION PENDING: Confirm length stocking (6m default vs cut-to-length) - ref: brief §10 item 4
+// VERIFICATION PENDING: Confirm turnbuckle assemblies make-or-buy status for PEB bracing - ref: brief §10 item 5
+// VERIFICATION PENDING: Confirm MOQ and lead time bands per diameter and accessory family - ref: brief §10 item 6
+// VERIFICATION PENDING: Confirm IndiaMART SKU alignment for Tie Rod - ref: brief §10 item 7
+// VERIFICATION PENDING: Confirm named mill partners that may be cited - ref: brief §10 item 8
+// VERIFICATION PENDING: Real photograph of stocked tie-rod inventory at KP Fasteners Ahmedabad warehouse - ref: brief §6 & §10 item 9
+// VERIFICATION PENDING: Confirm whether KP ever customises cone-and-plate geometry on request - ref: brief §10 item 10
 
 const FAQS = [
   {
     question: 'Do you manufacture tie rods in-house or source them?',
     answer:
-      'We distribute formwork tie rods and shuttering accessories from vetted primary partner mills as part of our wholesale distribution range — this is not one of KP Fasteners’ in-house OEM production lines. Our in-house manufacturing in Ahmedabad is dedicated to custom foundation bolts, anchor bolts, stud bolts, and PEB sag rods (see our About page). On a mixed shuttering BOQ, KP consolidates the coil-rod bundle, matching wing nuts, water bars, anchor plates, and cones onto a single purchase order with unified dispatch and MTC pass-through.',
+      'We distribute formwork tie rods and shuttering accessories from vetted primary partner mills as part of our wholesale distribution range - this is not one of KP Fasteners’ in-house OEM production lines. Our in-house manufacturing in Ahmedabad is dedicated to custom foundation bolts, anchor bolts, stud bolts, and PEB sag rods (see our About page). On a mixed shuttering BOQ, KP consolidates the coil-rod bundle, matching wing nuts, water bars, anchor plates, and cones onto a single purchase order with unified dispatch and MTC pass-through.',
   },
   {
     question: 'What is the difference between D15 and D20 tie rods?',
@@ -87,7 +87,7 @@ const FAQS = [
   {
     question: 'What MTC documentation and delivery lead times can I expect?',
     answer:
-      'Consignments are supported by mill test certificates (MTC EN 10204 3.1) from our originating primary partner rolling mills, verifying raw material chemistry and tensile ratings. Stocked standard D15 and D20 tie rods in 6-meter bundles dispatch within 24–72 hours across Ahmedabad and Gujarat, and 3–8 days pan-India. Companion accessories (hex wing nuts, anchor plates, water bars) are stocked year-round for immediate dispatch alongside coil bundles.',
+      'Consignments are supported by mill test certificates (MTC EN 10204 3.1) from our originating primary partner rolling mills, verifying raw material chemistry and tensile ratings. Stocked standard D15 and D20 tie rods in 6-meter bundles dispatch within 24-72 hours across Ahmedabad and Gujarat, and 3-8 days pan-India. Companion accessories (hex wing nuts, anchor plates, water bars) are stocked year-round for immediate dispatch alongside coil bundles.',
   },
 ];
 
@@ -96,7 +96,7 @@ const STANDARDS_ROWS = [
     cells: [
       'EN 12812',
       'CEN (European Standard)',
-      'Falsework — Performance requirements and general design for formwork assemblies',
+      'Falsework - Performance requirements and general design for formwork assemblies',
       'Defines safety factors, structural deflection limits, and design load combinations',
     ],
   },
@@ -104,7 +104,7 @@ const STANDARDS_ROWS = [
     cells: [
       'DIN 18216',
       'DIN (German Standard)',
-      'Formwork tie anchors — Anchor plates, wing nuts, and tie bars for concrete construction',
+      'Formwork tie anchors - Anchor plates, wing nuts, and tie bars for concrete construction',
       'Governs dimensional geometry, thread pitch profile, and proof tensile testing',
     ],
   },
@@ -136,7 +136,7 @@ const STANDARDS_ROWS = [
     cells: [
       'EN 10080',
       'CEN (European Standard)',
-      'Steel for the reinforcement of concrete — Weldable reinforcing steel',
+      'Steel for the reinforcement of concrete - Weldable reinforcing steel',
       'Provides metallurgical and mechanical benchmarks for cold-rolled coil-thread profiles',
     ],
   },
@@ -154,7 +154,7 @@ const SWL_ROWS = [
   {
     cells: [
       'D15 Formwork Tie Rod',
-      '15.0 – 16.0 mm',
+      '15.0 - 16.0 mm',
       'Continuous 10 mm Pitch Coil Thread',
       '~500 MPa',
       '~90 kN (~9.1 Tonnes)',
@@ -164,7 +164,7 @@ const SWL_ROWS = [
   {
     cells: [
       'D20 Formwork Tie Rod',
-      '20.0 – 21.0 mm',
+      '20.0 - 21.0 mm',
       'Continuous 10 mm Pitch Coil Thread',
       '~500 MPa',
       '~160 kN (~16.3 Tonnes)',
@@ -174,20 +174,20 @@ const SWL_ROWS = [
   {
     cells: [
       'D22 / D24 Heavy Tie Rod',
-      '22.0 – 24.0 mm',
+      '22.0 - 24.0 mm',
       'Continuous Heavy Coil Thread',
       '~500 MPa',
-      '~195 – 230 kN (~19.8 – 23.4 T)',
+      '~195 - 230 kN (~19.8 - 23.4 T)',
       'Mass concrete dams, deep diaphragm walls, and heavy industrial machine foundation forms',
     ],
   },
   {
     cells: [
-      'Structural Metric Tie Rod (M16 – M48)',
-      '16.0 – 48.0 mm',
+      'Structural Metric Tie Rod (M16 - M48)',
+      '16.0 - 48.0 mm',
       'Standard Metric Coarse Pitch (ISO 68-1)',
-      '400 – 800 MPa (PC 4.6 / 8.8)',
-      '45 – 350 kN (Tension Yield)',
+      '400 - 800 MPa (PC 4.6 / 8.8)',
+      '45 - 350 kN (Tension Yield)',
       'PEB roof diagonal turnbuckle bracing, canopy hanger stays, and marine bulkhead ties',
     ],
   },
@@ -273,7 +273,7 @@ const METRIC_SPEC_ROWS = [
   {
     cells: [
       'D15 Formwork Coil Rod',
-      '15.0 – 16.0 mm',
+      '15.0 - 16.0 mm',
       'Coil (10 mm Pitch)',
       'Up to 6.0 m (Cut to Spec)',
       'Mild Steel (500 MPa)',
@@ -284,7 +284,7 @@ const METRIC_SPEC_ROWS = [
   {
     cells: [
       'D20 Formwork Coil Rod',
-      '20.0 – 21.0 mm',
+      '20.0 - 21.0 mm',
       'Coil (10 mm Pitch)',
       'Up to 6.0 m (Cut to Spec)',
       'High-Strength Carbon Steel',
@@ -295,7 +295,7 @@ const METRIC_SPEC_ROWS = [
   {
     cells: [
       'D22 / D24 Formwork Coil Rod',
-      '22.0 – 24.0 mm',
+      '22.0 - 24.0 mm',
       'Coil (10 mm Pitch)',
       'Up to 6.0 m (On-Quote)',
       'High-Strength Carbon Steel',
@@ -305,8 +305,8 @@ const METRIC_SPEC_ROWS = [
   },
   {
     cells: [
-      'Turnbuckle Tie Rod M16–M24',
-      '16.0 – 24.0 mm',
+      'Turnbuckle Tie Rod M16-M24',
+      '16.0 - 24.0 mm',
       'Metric Coarse (ISO 68-1)',
       'Cut to Architectural Drawing',
       'IS 2062 E250 / Class 4.6',
@@ -316,8 +316,8 @@ const METRIC_SPEC_ROWS = [
   },
   {
     cells: [
-      'Turnbuckle Tie Rod M27–M36',
-      '27.0 – 36.0 mm',
+      'Turnbuckle Tie Rod M27-M36',
+      '27.0 - 36.0 mm',
       'Metric Coarse (ISO 68-1)',
       'Cut to Architectural Drawing',
       'IS 2062 E250 / Class 8.8',
@@ -327,8 +327,8 @@ const METRIC_SPEC_ROWS = [
   },
   {
     cells: [
-      'Heavy Bulkhead Tie Rod M42–M48',
-      '42.0 – 48.0 mm',
+      'Heavy Bulkhead Tie Rod M42-M48',
+      '42.0 - 48.0 mm',
       'Metric Coarse / Rolled Thread',
       'Up to 12.0 m with Couplers',
       'Property Class 8.8 / 10.9',
@@ -355,7 +355,7 @@ const VARIANT_ROWS = [
       'Continuous Coarse Coil (10 mm pitch)',
       'Mild Steel (~500 MPa UTS)',
       'Hot-Dip Galvanized (ISO 1461)',
-      '1.0 m – 6.0 m',
+      '1.0 m - 6.0 m',
       'Coastal construction, bridge piers, marine splash-zones, and long-stay external formwork',
     ],
   },
@@ -375,7 +375,7 @@ const VARIANT_ROWS = [
       'D15 Coil with Centered Sealing Disc',
       'Cast Steel Core + PVC Sealing Lip',
       'Self-Colour / Bitumen Primer',
-      '0.5 m – 3.0 m (Cut to Wall Width)',
+      '0.5 m - 3.0 m (Cut to Wall Width)',
       'Water retaining structures, underground metro boxes, wastewater treatment tanks, and swimming pools',
     ],
   },
@@ -392,7 +392,7 @@ const VARIANT_ROWS = [
   {
     cells: [
       'Marine & Civil Bulkhead Anchor Tie Rod',
-      'M24 – M48 Rolled Metric Thread',
+      'M24 - M48 Rolled Metric Thread',
       'Property Class 8.8 High-Tensile Steel',
       'Hot-Dip Galvanized (ISO 1461)',
       'Up to 12.0 m with Turnbuckles',
@@ -566,7 +566,7 @@ export default function Page() {
       <JsonLd data={faqPage(FAQS)} />
 
       {/* 1. Hero */}
-      {/* VERIFICATION PENDING: Real photograph of stocked tie-rod inventory at KP Fasteners Ahmedabad warehouse — ref: brief §6 & §10 item 9 */}
+      {/* VERIFICATION PENDING: Real photograph of stocked tie-rod inventory at KP Fasteners Ahmedabad warehouse - ref: brief §6 & §10 item 9 */}
       <Section>
         <Container>
           <Breadcrumbs trail={trail} />
@@ -605,7 +605,7 @@ export default function Page() {
                 <div className="relative aspect-[4/3] w-full overflow-hidden rounded-md bg-transparent p-3">
                   <Image
                     src={HERO_IMAGE}
-                    alt="KP Fasteners formwork tie rods inventory — D15 and D20 coil rods, matching hex wing nuts, and anchor spreader plates"
+                    alt="KP Fasteners formwork tie rods inventory - D15 and D20 coil rods, matching hex wing nuts, and anchor spreader plates"
                     fill
                     priority
                     sizes="(min-width: 1024px) 40vw, 100vw"
@@ -617,7 +617,7 @@ export default function Page() {
           </div>
           <div className="mt-8">
             <ClassificationBanner classification="trading">
-              Formwork tie rods and shuttering accessories — sourced from vetted partner mills; mill test certificates (EN 10204 3.1) and batch traceability provided on request. Custom structural tie rods available via our custom manufacturing line.
+              Formwork tie rods and shuttering accessories - sourced from vetted partner mills; mill test certificates (EN 10204 3.1) and batch traceability provided on request. Custom structural tie rods available via our custom manufacturing line.
             </ClassificationBanner>
           </div>
         </Container>
@@ -698,7 +698,7 @@ export default function Page() {
                         PEB Sag Rod (Structural)
                       </p>
                       <p className="mt-1.5 text-xs text-ink">
-                        <strong>Metric threaded ends (M12–M20).</strong> Permanent structural tension rod installed between PEB roof purlins or wall girts to resist lateral sag and dead loads. <strong>Manufactured in-house by KP Fasteners.</strong>
+                        <strong>Metric threaded ends (M12-M20).</strong> Permanent structural tension rod installed between PEB roof purlins or wall girts to resist lateral sag and dead loads. <strong>Manufactured in-house by KP Fasteners.</strong>
                       </p>
                       <Link
                         href="/products/sag-rods/"
@@ -730,8 +730,8 @@ export default function Page() {
       </Section>
 
       {/* 3. Tie-Rod Families & Hardware */}
-      {/* VERIFICATION PENDING: Confirm stocked diameter range (D15 / D20 confirmed; D22 / D24 on request) — ref: brief §10 item 2 */}
-      {/* VERIFICATION PENDING: Confirm matching accessory inventory split (wing nuts, anchor plates, water bars, cones) — ref: brief §10 item 3 */}
+      {/* VERIFICATION PENDING: Confirm stocked diameter range (D15 / D20 confirmed; D22 / D24 on request) - ref: brief §10 item 2 */}
+      {/* VERIFICATION PENDING: Confirm matching accessory inventory split (wing nuts, anchor plates, water bars, cones) - ref: brief §10 item 3 */}
       <Section>
         <Container>
           <div className="flex items-center gap-3">
@@ -754,7 +754,7 @@ export default function Page() {
                 The standard workhorse of high-rise building construction and commercial shuttering. Features continuous 10 mm pitch cold-rolled coil threads (outer diameter ~15.5 mm) delivering a reference safe working load of approximately 90 kN. Compatible with all standard D15 wing nuts and anchor plates.
               </p>
               <ul className="mt-4 space-y-1 text-xs text-ink-muted">
-                <li>• <strong>Outer Diameter:</strong> 15.0 – 16.0 mm</li>
+                <li>• <strong>Outer Diameter:</strong> 15.0 - 16.0 mm</li>
                 <li>• <strong>Core Diameter:</strong> ~13.0 mm</li>
                 <li>• <strong>Standard Length:</strong> 6.0 m bundles (cut to size)</li>
               </ul>
@@ -769,7 +769,7 @@ export default function Page() {
                 Engineered for heavy civil engineering, massive foundation pours, bridge piers, and precast concrete manufacturing. Delivers a reference safe working load of approximately 160 kN, resisting extreme dynamic concrete heads without formwork bulging or deflection.
               </p>
               <ul className="mt-4 space-y-1 text-xs text-ink-muted">
-                <li>• <strong>Outer Diameter:</strong> 20.0 – 21.0 mm</li>
+                <li>• <strong>Outer Diameter:</strong> 20.0 - 21.0 mm</li>
                 <li>• <strong>Core Diameter:</strong> ~17.5 mm</li>
                 <li>• <strong>Standard Length:</strong> 6.0 m bundles</li>
               </ul>
@@ -784,7 +784,7 @@ export default function Page() {
                 Specialized high-capacity tie rods specified on confirmed project engineering quotes for deep diaphragm walls, hydro-electric power dams, marine docks, and heavy industrial machine foundation blocks requiring safe working loads exceeding 195 kN.
               </p>
               <ul className="mt-4 space-y-1 text-xs text-ink-muted">
-                <li>• <strong>Outer Diameter:</strong> 22.0 – 24.0 mm</li>
+                <li>• <strong>Outer Diameter:</strong> 22.0 - 24.0 mm</li>
                 <li>• <strong>Application:</strong> Deep civil infrastructure</li>
                 <li>• <strong>Availability:</strong> Project-specific quote</li>
               </ul>
@@ -945,7 +945,7 @@ export default function Page() {
       </Section>
 
       {/* 6. Metric Size Schedule (SpecTable) */}
-      {/* VERIFICATION PENDING: Confirm length stocking (6m default vs cut-to-length) — ref: brief §10 item 4 */}
+      {/* VERIFICATION PENDING: Confirm length stocking (6m default vs cut-to-length) - ref: brief §10 item 4 */}
       <Section variant="alt">
         <Container>
           <div className="flex items-center gap-3">
@@ -1250,7 +1250,7 @@ export default function Page() {
               </a>
             </div>
             <p className="mt-6 text-xs text-ink-muted">
-              Standard stocked diameters (D15 and D20) in 6-meter bundles dispatch within 24–72 hours ex-Ahmedabad. MTC EN 10204 3.1 provided with dispatch invoice.
+              Standard stocked diameters (D15 and D20) in 6-meter bundles dispatch within 24-72 hours ex-Ahmedabad. MTC EN 10204 3.1 provided with dispatch invoice.
             </p>
           </Card>
         </Container>

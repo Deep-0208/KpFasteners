@@ -37,7 +37,7 @@ import { company } from '@/data/company';
 const PATH = '/products/csk-allen-bolts/';
 const HERO_IMAGE = '/images/products/bolts/allen-socket-csk-screw.webp';
 
-// Title: 57 chars (50–60 range, primary keyword first). Meta description: 158 chars (150–160 range).
+// Title: 57 chars (50-60 range, primary keyword first). Meta description: 158 chars (150-160 range).
 const META_TITLE = 'CSK Allen Bolts Manufacturer and Supplier | DIN 7991 | KP';
 const META_DESCRIPTION =
   'CSK Allen bolts (DIN 7991), socket cap (DIN 912) and button screws in Grade 8.8, 10.9, 12.9, SS. Black oxide, zinc, MTC available. Request your project quote.';
@@ -54,21 +54,21 @@ const WA_PREFILL =
 const WA_URL = 'https://wa.me/919898230448?text=' + encodeURIComponent(WA_PREFILL);
 const TEL = `tel:${company.telephones[0].replace(/[^\d+]/g, '')}`;
 
-// VERIFICATION PENDING: Confirm head families stocked (countersunk socket DIN 7991 confirmed on IndiaMART; button-head DIN 7380 and socket-cap DIN 912 to confirm) — ref: brief §10 item 1
-// VERIFICATION PENDING: Confirm grade split per head family (8.8 / 10.9 / 12.9 / SS A2 / SS A4) — ref: brief §10 item 2
-// VERIFICATION PENDING: Confirm stocked diameter and length range per head family (M3 to M24 drafting default) — ref: brief §10 item 3
-// VERIFICATION PENDING: Confirm coating options (black oxide default; zinc-nickel / nickel availability) — ref: brief §10 item 4
-// VERIFICATION PENDING: Confirm MOQ and lead times per head family and grade band — ref: brief §10 item 5
-// VERIFICATION PENDING: Confirm IndiaMART SKU catalogue synchronization — ref: brief §10 item 6
-// VERIFICATION PENDING: Confirm named partner mill brands that may be cited — ref: brief §10 item 7
-// VERIFICATION PENDING: Real photograph of stocked CSK Allen bolt inventory at KP Fasteners Ahmedabad warehouse — ref: brief §6 & §10 item 8
-// VERIFICATION PENDING: Confirm whether KP ever supplies bundled hex keys with kits or strictly bolts only — ref: brief §10 item 10
+// VERIFICATION PENDING: Confirm head families stocked (countersunk socket DIN 7991 confirmed on IndiaMART; button-head DIN 7380 and socket-cap DIN 912 to confirm) - ref: brief §10 item 1
+// VERIFICATION PENDING: Confirm grade split per head family (8.8 / 10.9 / 12.9 / SS A2 / SS A4) - ref: brief §10 item 2
+// VERIFICATION PENDING: Confirm stocked diameter and length range per head family (M3 to M24 drafting default) - ref: brief §10 item 3
+// VERIFICATION PENDING: Confirm coating options (black oxide default; zinc-nickel / nickel availability) - ref: brief §10 item 4
+// VERIFICATION PENDING: Confirm MOQ and lead times per head family and grade band - ref: brief §10 item 5
+// VERIFICATION PENDING: Confirm IndiaMART SKU catalogue synchronization - ref: brief §10 item 6
+// VERIFICATION PENDING: Confirm named partner mill brands that may be cited - ref: brief §10 item 7
+// VERIFICATION PENDING: Real photograph of stocked CSK Allen bolt inventory at KP Fasteners Ahmedabad warehouse - ref: brief §6 & §10 item 8
+// VERIFICATION PENDING: Confirm whether KP ever supplies bundled hex keys with kits or strictly bolts only - ref: brief §10 item 10
 
 const FAQS = [
   {
     question: 'Do you manufacture CSK Allen bolts or source them?',
     answer:
-      'We distribute CSK Allen bolts, socket head cap screws, and button head screws from vetted primary partner mills — this is not one of KP Fasteners’ in-house OEM manufacturing lines. Our in-house manufacturing in Ahmedabad is dedicated to custom foundation bolts, anchor bolts, stud bolts, and sag rods (see our About page). Supplying high-grade socket fasteners alongside our manufactured structural lines allows machine builders and tool rooms to consolidate their complete mechanical BOM onto a single purchase order with verified mill test certificates (MTC) pass-through.',
+      'We distribute CSK Allen bolts, socket head cap screws, and button head screws from vetted primary partner mills - this is not one of KP Fasteners’ in-house OEM manufacturing lines. Our in-house manufacturing in Ahmedabad is dedicated to custom foundation bolts, anchor bolts, stud bolts, and sag rods (see our About page). Supplying high-grade socket fasteners alongside our manufactured structural lines allows machine builders and tool rooms to consolidate their complete mechanical BOM onto a single purchase order with verified mill test certificates (MTC) pass-through.',
   },
   {
     question: 'What is the difference between DIN 7991, DIN 912, and DIN 7380?',
@@ -88,7 +88,7 @@ const FAQS = [
   {
     question: 'What MTC documentation and lead time can I expect on Allen bolt orders?',
     answer:
-      'Every order is backed by originating mill test certificates (MTC EN 10204 3.1) stating ladle melt chemical composition and mechanical tensile ratings, cross-referenced to the dispatch lot code. Stocked standard metric sizes (Property Classes 8.8, 10.9, and SS A2) dispatch within 24–72 hours across Ahmedabad and Gujarat, and 3–8 days across pan-India industrial clusters. Specialized sizes (PC 12.9 in large diameters or SS A4 non-standards) dispatch within 7–14 days.',
+      'Every order is backed by originating mill test certificates (MTC EN 10204 3.1) stating ladle melt chemical composition and mechanical tensile ratings, cross-referenced to the dispatch lot code. Stocked standard metric sizes (Property Classes 8.8, 10.9, and SS A2) dispatch within 24-72 hours across Ahmedabad and Gujarat, and 3-8 days across pan-India industrial clusters. Specialized sizes (PC 12.9 in large diameters or SS A4 non-standards) dispatch within 7-14 days.',
   },
 ];
 
@@ -116,7 +116,7 @@ const STANDARDS_ROWS = [
       'Button head socket screw',
       'DIN 7380',
       'ISO 7380-1',
-      '—',
+      '-',
       'Low rounded dome head; wide bearing area; prevents clothing/cable snagging',
     ],
   },
@@ -125,7 +125,7 @@ const STANDARDS_ROWS = [
       'Low-head socket cap',
       'DIN 7984',
       'ISO 14580',
-      '—',
+      '-',
       'Reduced cylindrical head height (~50% of DIN 912) for shallow counterbores',
     ],
   },
@@ -164,17 +164,17 @@ const HEX_KEY_ROWS = [
 ];
 
 const METRIC_SPEC_ROWS = [
-  { cells: ['M3', '0.50', '6 – 30 mm', 'CSK, Cap, Button', 'DIN 7991, DIN 912, DIN 7380', '8.8, SS A2'] },
-  { cells: ['M4', '0.70', '6 – 40 mm', 'CSK, Cap, Button', 'DIN 7991, DIN 912, DIN 7380', '8.8, 10.9, 12.9, SS A2'] },
-  { cells: ['M5', '0.80', '8 – 50 mm', 'CSK, Cap, Button', 'DIN 7991, DIN 912, DIN 7380', '8.8, 10.9, 12.9, SS A2, SS A4'] },
-  { cells: ['M6', '1.00', '10 – 70 mm', 'CSK, Cap, Button, Low-Head', 'DIN 7991, 912, 7380, 7984', '8.8, 10.9, 12.9, SS A2, SS A4'] },
-  { cells: ['M8', '1.25', '12 – 90 mm', 'CSK, Cap, Button, Low-Head', 'DIN 7991, 912, 7380, 7984', '8.8, 10.9, 12.9, SS A2, SS A4'] },
-  { cells: ['M10', '1.50', '16 – 100 mm', 'CSK, Cap, Button, Low-Head', 'DIN 7991, 912, 7380, 7984', '8.8, 10.9, 12.9, SS A2, SS A4'] },
-  { cells: ['M12', '1.75', '20 – 120 mm', 'CSK, Cap, Button, Low-Head', 'DIN 7991, 912, 7380, 7984', '8.8, 10.9, 12.9, SS A2, SS A4'] },
-  { cells: ['M14', '2.00', '25 – 130 mm', 'CSK, Cap', 'DIN 7991, DIN 912', '10.9, 12.9'] },
-  { cells: ['M16', '2.00', '25 – 150 mm', 'CSK, Cap, Low-Head', 'DIN 7991, DIN 912, DIN 7984', '8.8, 10.9, 12.9, SS A2, SS A4'] },
-  { cells: ['M20', '2.50', '35 – 160 mm', 'CSK, Cap', 'DIN 7991, DIN 912', '10.9, 12.9, SS A4'] },
-  { cells: ['M24', '3.00', '45 – 180 mm', 'CSK, Cap', 'DIN 7991, DIN 912', '10.9, 12.9'] },
+  { cells: ['M3', '0.50', '6 - 30 mm', 'CSK, Cap, Button', 'DIN 7991, DIN 912, DIN 7380', '8.8, SS A2'] },
+  { cells: ['M4', '0.70', '6 - 40 mm', 'CSK, Cap, Button', 'DIN 7991, DIN 912, DIN 7380', '8.8, 10.9, 12.9, SS A2'] },
+  { cells: ['M5', '0.80', '8 - 50 mm', 'CSK, Cap, Button', 'DIN 7991, DIN 912, DIN 7380', '8.8, 10.9, 12.9, SS A2, SS A4'] },
+  { cells: ['M6', '1.00', '10 - 70 mm', 'CSK, Cap, Button, Low-Head', 'DIN 7991, 912, 7380, 7984', '8.8, 10.9, 12.9, SS A2, SS A4'] },
+  { cells: ['M8', '1.25', '12 - 90 mm', 'CSK, Cap, Button, Low-Head', 'DIN 7991, 912, 7380, 7984', '8.8, 10.9, 12.9, SS A2, SS A4'] },
+  { cells: ['M10', '1.50', '16 - 100 mm', 'CSK, Cap, Button, Low-Head', 'DIN 7991, 912, 7380, 7984', '8.8, 10.9, 12.9, SS A2, SS A4'] },
+  { cells: ['M12', '1.75', '20 - 120 mm', 'CSK, Cap, Button, Low-Head', 'DIN 7991, 912, 7380, 7984', '8.8, 10.9, 12.9, SS A2, SS A4'] },
+  { cells: ['M14', '2.00', '25 - 130 mm', 'CSK, Cap', 'DIN 7991, DIN 912', '10.9, 12.9'] },
+  { cells: ['M16', '2.00', '25 - 150 mm', 'CSK, Cap, Low-Head', 'DIN 7991, DIN 912, DIN 7984', '8.8, 10.9, 12.9, SS A2, SS A4'] },
+  { cells: ['M20', '2.50', '35 - 160 mm', 'CSK, Cap', 'DIN 7991, DIN 912', '10.9, 12.9, SS A4'] },
+  { cells: ['M24', '3.00', '45 - 180 mm', 'CSK, Cap', 'DIN 7991, DIN 912', '10.9, 12.9'] },
 ];
 
 const PROPERTY_CLASS_ROWS = [
@@ -191,7 +191,7 @@ const VARIANT_ROWS = [
       'DIN 7991 / ISO 10642',
       'High-Tensile Steel (PC 10.9)',
       'Black Oxide / Phosphated',
-      'M4 – M20',
+      'M4 - M20',
       'Flush machine surfaces, guide plates, and punch tool retainers requiring high shear strength',
     ],
   },
@@ -201,7 +201,7 @@ const VARIANT_ROWS = [
       'DIN 7991 / ISO 10642',
       'Stainless Steel (A2-70 / 304)',
       'Chemical Passivation (ASTM A967)',
-      'M3 – M16',
+      'M3 - M16',
       'Food processing machinery, architectural trim, conveyor belts, and sanitary washdown housings',
     ],
   },
@@ -211,7 +211,7 @@ const VARIANT_ROWS = [
       'DIN 912 / ISO 4762',
       'Alloy Steel (PC 12.9)',
       'Black Oxide (No HDG)',
-      'M5 – M24',
+      'M5 - M24',
       'Injection moulding tool-rooms, stamping die blocks, hydraulic pump housings, and extreme shock loads',
     ],
   },
@@ -221,7 +221,7 @@ const VARIANT_ROWS = [
       'DIN 912 / ISO 4762',
       'Stainless Steel (A4-80 / 316)',
       'Chemical Passivation (ASTM A967)',
-      'M6 – M20',
+      'M6 - M20',
       'Coastal solar mounting rails, chemical reactors, offshore skids, and marine deck hardware',
     ],
   },
@@ -231,7 +231,7 @@ const VARIANT_ROWS = [
       'DIN 7380 / ISO 7380-1',
       'Carbon Steel (PC 8.8)',
       'Zinc Electroplated (IS 1573)',
-      'M4 – M12',
+      'M4 - M12',
       'Sheet-metal machine guards, safety covers, automation conveyor frames, and light structural trim',
     ],
   },
@@ -241,7 +241,7 @@ const VARIANT_ROWS = [
       'DIN 7380 / ISO 7380-1',
       'Stainless Steel (A2-70 / 304)',
       'Natural Bright / Passivated',
-      'M3 – M10',
+      'M3 - M10',
       'Electronics chassis, outdoor automation panels, instrumentation cabinets, and robotic end-effectors',
     ],
   },
@@ -251,7 +251,7 @@ const VARIANT_ROWS = [
       'DIN 7984 / ISO 14580',
       'Alloy Steel (PC 10.9)',
       'Black Oxide',
-      'M6 – M16',
+      'M6 - M16',
       'Shallow counterbores, compact hydraulic valve manifolds, and tight linear bearing blocks',
     ],
   },
@@ -431,7 +431,7 @@ export default function Page() {
       <JsonLd data={faqPage(FAQS)} />
 
       {/* 1. Hero */}
-      {/* VERIFICATION PENDING: Real photograph of stocked CSK Allen bolt inventory at KP Fasteners Ahmedabad warehouse — ref: brief §6 & §10 item 8 */}
+      {/* VERIFICATION PENDING: Real photograph of stocked CSK Allen bolt inventory at KP Fasteners Ahmedabad warehouse - ref: brief §6 & §10 item 8 */}
       <Section>
         <Container>
           <Breadcrumbs trail={trail} />
@@ -470,7 +470,7 @@ export default function Page() {
                 <div className="relative aspect-[4/3] w-full overflow-hidden rounded-md bg-transparent p-3">
                   <Image
                     src={HERO_IMAGE}
-                    alt="KP Fasteners CSK Allen bolts and socket head screws inventory — DIN 7991 countersunk, DIN 912 socket cap, and DIN 7380 button head in Grade 10.9, 12.9, and stainless steel"
+                    alt="KP Fasteners CSK Allen bolts and socket head screws inventory - DIN 7991 countersunk, DIN 912 socket cap, and DIN 7380 button head in Grade 10.9, 12.9, and stainless steel"
                     fill
                     priority
                     sizes="(min-width: 1024px) 40vw, 100vw"
@@ -482,7 +482,7 @@ export default function Page() {
           </div>
           <div className="mt-8">
             <ClassificationBanner classification="trading">
-              CSK Allen bolts and socket fasteners — sourced from vetted partner mills; property-class head markings traceable to EN 10204 3.1 mill test certificates on request.
+              CSK Allen bolts and socket fasteners - sourced from vetted partner mills; property-class head markings traceable to EN 10204 3.1 mill test certificates on request.
             </ClassificationBanner>
           </div>
         </Container>
@@ -500,7 +500,7 @@ export default function Page() {
           <div className="mt-6 grid gap-8 md:grid-cols-2">
             <Prose>
               <p>
-                In precision mechanical engineering and tool-room manufacturing, internal hexagon drive fasteners — colloquially referred to as Allen bolts — are specified wherever high clamp preload, compact head counterbores, or flush mounting geometry are demanded. Unlike standard external hexagon bolts that require perimeter spanner clearance, socket-head fasteners are tightened from within the head profile using a metric hex key or hex bit, enabling tighter joint center-to-center pitch and compact machinery envelopes.
+                In precision mechanical engineering and tool-room manufacturing, internal hexagon drive fasteners - colloquially referred to as Allen bolts - are specified wherever high clamp preload, compact head counterbores, or flush mounting geometry are demanded. Unlike standard external hexagon bolts that require perimeter spanner clearance, socket-head fasteners are tightened from within the head profile using a metric hex key or hex bit, enabling tighter joint center-to-center pitch and compact machinery envelopes.
               </p>
               <p className="mt-4">
                 The socket-head category on this page encompasses the three core head geometries that mechanical engineers and tool-room procurement managers routinely purchase in combination: <strong>countersunk socket head screws (DIN 7991 / ISO 10642)</strong> for flush-face assemblies, <strong>socket head cap screws (DIN 912 / ISO 4762)</strong> for high-torque mechanical clamp joints, and <strong>button head socket screws (DIN 7380 / ISO 7380-1)</strong> for clearance-constrained panels and sheet-metal housings. Low-head socket cap screws (DIN 7984) and socket set screws (DIN 913/914/916) are supplied on project order.
@@ -547,7 +547,7 @@ export default function Page() {
       </Section>
 
       {/* 3. Head Families Supplied */}
-      {/* VERIFICATION PENDING: Confirm head families stocked (countersunk socket DIN 7991 confirmed; button-head DIN 7380 and socket-cap DIN 912 to confirm) — ref: brief §10 item 1 */}
+      {/* VERIFICATION PENDING: Confirm head families stocked (countersunk socket DIN 7991 confirmed; button-head DIN 7380 and socket-cap DIN 912 to confirm) - ref: brief §10 item 1 */}
       <Section>
         <Container>
           <div className="flex items-center gap-3">
@@ -718,7 +718,7 @@ export default function Page() {
       </Section>
 
       {/* 5. Metric Size Schedule (SpecTable) */}
-      {/* VERIFICATION PENDING: Confirm stocked diameter and length range per head family (M3 to M24 drafting default) — ref: brief §10 item 3 */}
+      {/* VERIFICATION PENDING: Confirm stocked diameter and length range per head family (M3 to M24 drafting default) - ref: brief §10 item 3 */}
       <Section>
         <Container>
           <div className="flex items-center gap-3">
@@ -755,8 +755,8 @@ export default function Page() {
       </Section>
 
       {/* 6. Property Classes & Metallurgy */}
-      {/* VERIFICATION PENDING: Confirm grade split per head family (8.8 / 10.9 / 12.9 / SS A2 / SS A4) — ref: brief §10 item 2 */}
-      {/* VERIFICATION PENDING: Confirm coating options (black oxide default; zinc-nickel / nickel availability) — ref: brief §10 item 4 */}
+      {/* VERIFICATION PENDING: Confirm grade split per head family (8.8 / 10.9 / 12.9 / SS A2 / SS A4) - ref: brief §10 item 2 */}
+      {/* VERIFICATION PENDING: Confirm coating options (black oxide default; zinc-nickel / nickel availability) - ref: brief §10 item 4 */}
       <Section variant="alt">
         <Container>
           <div className="flex items-center gap-3">
@@ -786,7 +786,7 @@ export default function Page() {
                 </li>
               </ul>
               <div className="mt-6 rounded-lg border border-brand-steel-soft bg-brand-steel-soft/20 p-4 text-xs text-ink-muted">
-                <strong className="text-ink">Hydrogen Embrittlement Warning (ISO 898-1 §9.6):</strong> Grade 12.9 fasteners exhibit high hardness (39–44 HRC) and must never undergo conventional hot-dip galvanizing or electroplating without controlled baking, due to cataclysmic risk of hydrogen-induced delayed brittle fracture. Default surface finish is chemical black oxide.
+                <strong className="text-ink">Hydrogen Embrittlement Warning (ISO 898-1 §9.6):</strong> Grade 12.9 fasteners exhibit high hardness (39-44 HRC) and must never undergo conventional hot-dip galvanizing or electroplating without controlled baking, due to cataclysmic risk of hydrogen-induced delayed brittle fracture. Default surface finish is chemical black oxide.
               </div>
             </Prose>
 
@@ -799,7 +799,7 @@ export default function Page() {
                   <strong className="text-ink">Austenitic Stainless Steel A2-70 (AISI 304):</strong> Cold-worked austenitic stainless steel with minimum tensile strength of 700 MPa. Provides excellent resistance to atmospheric moisture, organic acids, and indoor industrial humidity. Ideal for cleanroom and food equipment.
                 </li>
                 <li>
-                  <strong className="text-ink">Austenitic Stainless Steel A4-70 / A4-80 (AISI 316):</strong> Molybdenum-alloyed austenitic stainless steel (2–3% Mo) providing outstanding pitting and crevice resistance in chloride-dense environments. Mandatory for coastal solar installations, marine deck hardware, and chemical reaction vessels.
+                  <strong className="text-ink">Austenitic Stainless Steel A4-70 / A4-80 (AISI 316):</strong> Molybdenum-alloyed austenitic stainless steel (2-3% Mo) providing outstanding pitting and crevice resistance in chloride-dense environments. Mandatory for coastal solar installations, marine deck hardware, and chemical reaction vessels.
                 </li>
               </ul>
 
@@ -1113,7 +1113,7 @@ export default function Page() {
               </a>
             </div>
             <p className="mt-6 text-xs text-ink-muted">
-              Standard stocked diameters (M3–M20) dispatch within 24–72 hours ex-Ahmedabad. MTC EN 10204 3.1 provided with dispatch invoice.
+              Standard stocked diameters (M3-M20) dispatch within 24-72 hours ex-Ahmedabad. MTC EN 10204 3.1 provided with dispatch invoice.
             </p>
           </Card>
         </Container>

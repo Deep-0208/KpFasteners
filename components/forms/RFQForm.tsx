@@ -195,7 +195,7 @@ export function RFQForm({ productOptions }: RFQFormProps) {
       );
     } catch {
       setStatus('network');
-      setSummary('Network error — the request did not reach our server.');
+      setSummary('Network error - the request did not reach our server.');
     }
   }
 
@@ -210,7 +210,7 @@ export function RFQForm({ productOptions }: RFQFormProps) {
           <CheckCircle2 aria-hidden="true" className="mt-0.5 h-6 w-6 text-success" />
           <div>
             <p className="font-heading text-lg font-semibold text-brand-steel">
-              Thanks — your RFQ is with our sales desk.
+              Thanks - your RFQ is with our sales desk.
             </p>
             <p className="mt-2 text-sm text-ink">
               We&apos;ve logged your enquiry. You&apos;ll receive an email summary; our team
@@ -251,7 +251,7 @@ export function RFQForm({ productOptions }: RFQFormProps) {
       data-tooldescription="Submit an industrial fastener quotation request (RFQ) for custom, standard, and high-tensile fasteners to KP Fasteners Ahmedabad."
       className="grid gap-5"
     >
-      {/* Honeypot — must stay empty */}
+      {/* Honeypot - must stay empty */}
       <input
         type="text"
         name="company_website"
@@ -281,7 +281,7 @@ export function RFQForm({ productOptions }: RFQFormProps) {
             <span>{summary}</span>
           </div>
           <p className="text-ink-muted">
-            Your form is still filled in — try again, or send the same details via WhatsApp:
+            Your form is still filled in - try again, or send the same details via WhatsApp:
           </p>
           <a
             href={waFallback}
@@ -334,8 +334,8 @@ export function RFQForm({ productOptions }: RFQFormProps) {
         <div className="grid gap-4 sm:grid-cols-2">
           <Field label="Full name" name="fullName" required autoComplete="name" error={errors.fullName} />
           <Field label="Company" name="company" required autoComplete="organization" error={errors.company} />
-          <Field label="Email" name="email" type="email" autoComplete="email" error={errors.email} help="Email or phone — at least one." />
-          <Field label="Phone" name="phone" type="tel" autoComplete="tel" error={errors.phone} help="With country code — +91…" />
+          <Field label="Email" name="email" type="email" autoComplete="email" error={errors.email} help="Email or phone - at least one." />
+          <Field label="Phone" name="phone" type="tel" autoComplete="tel" error={errors.phone} help="With country code - +91…" />
           <Field
             label="Delivery pin code"
             name="deliveryPin"

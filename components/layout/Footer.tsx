@@ -47,7 +47,7 @@ export function Footer() {
             <address className="mt-4 not-italic text-sm text-ink-muted">
               {company.address.streetAddress}
               <br />
-              {company.address.locality} – {company.address.postalCode}
+              {company.address.locality} - {company.address.postalCode}
               <br />
               {company.address.region}, {company.address.country}
             </address>

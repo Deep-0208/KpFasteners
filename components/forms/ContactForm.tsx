@@ -49,7 +49,7 @@ export function ContactForm() {
       >
         {status === 'submitting' ? 'Sending…' : 'Send message'}
       </button>
-      {status === 'ok' && <p role="status" className="text-success">Message sent — we will reply soon.</p>}
+      {status === 'ok' && <p role="status" className="text-success">Message sent - we will reply soon.</p>}
       {status === 'error' && <p role="status" className="text-danger">Something went wrong. Please try again.</p>}
     </form>
   );

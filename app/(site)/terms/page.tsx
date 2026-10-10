@@ -69,7 +69,7 @@ export default function TermsPage() {
               <div className="flex items-start gap-3">
                 <AlertCircle aria-hidden="true" className="mt-0.5 h-5 w-5 shrink-0 text-brand-gold-strong" />
                 <div className="text-sm">
-                  <p className="font-semibold text-brand-steel">Draft Policy Notice — Indian Commercial Counsel Review Required</p>
+                  <p className="font-semibold text-brand-steel">Draft Policy Notice - Indian Commercial Counsel Review Required</p>
                   <p className="mt-1 text-ink-muted">
                     This page is a draft. All clauses marked{' '}
                     <span className="font-mono font-semibold text-brand-gold-strong">[LAWYER REVIEW REQUIRED]</span>{' '}
@@ -96,7 +96,7 @@ export default function TermsPage() {
                     orders, and supply transactions entered into with <strong>KP Fasteners</strong> (&quot;Supplier&quot;,
                     &quot;we&quot;, &quot;us&quot;, or &quot;our&quot;), a sole proprietorship registered in Ahmedabad,
                     Gujarat, India (GSTIN: <strong>24ARDPP9803A1Z3</strong>), having its principal manufacturing and
-                    trading facility at 23/4 Ghanshyam Industrial Estate, Margha Farm, Ahmedabad – 380024, Gujarat,
+                    trading facility at 23/4 Ghanshyam Industrial Estate, Margha Farm, Ahmedabad - 380024, Gujarat,
                     India.
                   </p>
                   <p>
@@ -223,7 +223,7 @@ export default function TermsPage() {
               {/* Clause 6 */}
               <div>
                 <Heading as="h2" variant="section">
-                  6. Product Classification — In-House OEM vs. Distributed Trading Range
+                  6. Product Classification - In-House OEM vs. Distributed Trading Range
                 </Heading>
                 <div className="mt-4 space-y-3">
                   <p>
@@ -276,7 +276,7 @@ export default function TermsPage() {
 
               {/* Clause 8 */}
               <div>
-                {/* VERIFICATION PENDING: Commercial payment terms, advance percentage, and credit policy to be confirmed by Kabir and legal counsel — ref: brief §3 / §10 Q2 */}
+                {/* VERIFICATION PENDING: Commercial payment terms, advance percentage, and credit policy to be confirmed by Kabir and legal counsel - ref: brief §3 / §10 Q2 */}
                 <Heading as="h2" variant="section">
                   8. Payment Terms, Commercial Invoicing, and Statutory Taxes
                 </Heading>
@@ -316,7 +316,7 @@ export default function TermsPage() {
 
               {/* Clause 9 */}
               <div>
-                {/* VERIFICATION PENDING: Default Incoterm (Ex-Works Ahmedabad vs FOR destination) to be confirmed by client — ref: brief §3 / §10 Q1 */}
+                {/* VERIFICATION PENDING: Default Incoterm (Ex-Works Ahmedabad vs FOR destination) to be confirmed by client - ref: brief §3 / §10 Q1 */}
                 <Heading as="h2" variant="section">
                   9. Delivery Logistics, Risk of Loss, and Transfer of Title
                 </Heading>
@@ -324,7 +324,7 @@ export default function TermsPage() {
                   <p>
                     Unless expressly stipulated otherwise in the written quote, all deliveries are made on an{' '}
                     <strong>Ex-Works (EXW), Ahmedabad</strong> basis (Incoterms 2020) at our facility at 23/4 Ghanshyam
-                    Industrial Estate, Margha Farm, Ahmedabad – 380024.
+                    Industrial Estate, Margha Farm, Ahmedabad - 380024.
                   </p>
                   <p>
                     Risk of loss, transit damage, or deterioration transfers entirely to the Buyer immediately upon delivery
@@ -341,8 +341,8 @@ export default function TermsPage() {
 
               {/* Clause 10 */}
               <div>
-                {/* VERIFICATION PENDING: Warranty period on OEM items (12 months default) to be confirmed by Kabir — ref: brief §3 / §10 Q3 */}
-                {/* VERIFICATION PENDING: Pass-through warranty wording on traded distribution items to be approved by counsel — ref: brief §3 / §10 Q4 */}
+                {/* VERIFICATION PENDING: Warranty period on OEM items (12 months default) to be confirmed by Kabir - ref: brief §3 / §10 Q3 */}
+                {/* VERIFICATION PENDING: Pass-through warranty wording on traded distribution items to be approved by counsel - ref: brief §3 / §10 Q4 */}
                 <Heading as="h2" variant="section">
                   10. Warranty and Non-Conformance Remedies
                 </Heading>
@@ -413,7 +413,7 @@ export default function TermsPage() {
 
               {/* Clause 12 */}
               <div>
-                {/* VERIFICATION PENDING: Liability cap threshold and exclusions to be drafted by Indian commercial lawyer — ref: brief §3 / §10 Q9 */}
+                {/* VERIFICATION PENDING: Liability cap threshold and exclusions to be drafted by Indian commercial lawyer - ref: brief §3 / §10 Q9 */}
                 <Heading as="h2" variant="section">
                   12. Limitation of Liability
                 </Heading>
@@ -510,7 +510,7 @@ export default function TermsPage() {
 
               {/* Clause 16 */}
               <div>
-                {/* VERIFICATION PENDING: Dispute resolution mechanism (sole arbitrator vs three-member panel) to be selected by legal counsel — ref: brief §3 / §10 Q5 */}
+                {/* VERIFICATION PENDING: Dispute resolution mechanism (sole arbitrator vs three-member panel) to be selected by legal counsel - ref: brief §3 / §10 Q5 */}
                 <Heading as="h2" variant="section">
                   16. Governing Law and Dispute Resolution
                 </Heading>
@@ -555,7 +555,7 @@ export default function TermsPage() {
                         <div className="text-sm">
                           <p className="font-semibold text-brand-steel">Facility &amp; Sales Desk</p>
                           <p className="mt-1 text-ink-muted">
-                            23/4 Ghanshyam Industrial Estate, Margha Farm, Ahmedabad – 380024, Gujarat, India.
+                            23/4 Ghanshyam Industrial Estate, Margha Farm, Ahmedabad - 380024, Gujarat, India.
                           </p>
                         </div>
                       </div>

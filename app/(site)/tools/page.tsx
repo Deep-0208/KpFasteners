@@ -26,7 +26,7 @@ const FAQS = [
   {
     question: 'How accurate is the theoretical fastener weight calculator?',
     answer:
-      'The calculator estimates weights based on standard ISO/DIN shank geometry, nominal thread pitch, head allowances, and material densities (e.g., 7.85 g/cm³ for carbon steel, 7.93 g/cm³ for SS 304, and 8.00 g/cm³ for SS 316). While actual piece weights may vary slightly by ±2–3% due to manufacturing head fillet radii and thread tolerances, the total batch weight provides highly accurate planning data for freight logistics, container loading, and raw material budgeting.',
+      'The calculator estimates weights based on standard ISO/DIN shank geometry, nominal thread pitch, head allowances, and material densities (e.g., 7.85 g/cm³ for carbon steel, 7.93 g/cm³ for SS 304, and 8.00 g/cm³ for SS 316). While actual piece weights may vary slightly by ±2-3% due to manufacturing head fillet radii and thread tolerances, the total batch weight provides highly accurate planning data for freight logistics, container loading, and raw material budgeting.',
   },
   {
     question: 'What friction coefficient should I use for bolt tightening torque?',

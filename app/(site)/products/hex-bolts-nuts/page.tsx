@@ -36,7 +36,7 @@ import { company } from '@/data/company';
 const PATH = '/products/hex-bolts-nuts/';
 const HERO_IMAGE = '/images/products/bolts/hex-bolt-hex-nut.webp';
 
-// Title: 52 chars (50–60 range, primary keyword first). Meta description: 160 chars (150–160 range).
+// Title: 52 chars (50-60 range, primary keyword first). Meta description: 160 chars (150-160 range).
 const META_TITLE = 'Hex Bolts and Nuts Manufacturer & Distributor | KP';
 const META_DESCRIPTION =
   'Hex bolts & nuts to DIN 931/933/934, ISO 4014/4017. Property class 4.6 to 10.9 & SS 304/316. Zinc, HDG, black oxide. MTC available. Request your project quote.';
@@ -53,20 +53,20 @@ const WA_PREFILL =
 const WA_URL = 'https://wa.me/919898230448?text=' + encodeURIComponent(WA_PREFILL);
 const TEL = `tel:${company.telephones[0].replace(/[^\d+]/g, '')}`;
 
-// VERIFICATION PENDING: Confirm property-class stocking coverage (4.6 / 4.8 / 8.8 / 10.9 routinely stocked vs 12.9 on-quote) — ref: brief §10 item 1
-// VERIFICATION PENDING: Confirm stocked diameter and length range per property class — ref: brief §10 item 2
-// VERIFICATION PENDING: Confirm coating availability per class (HDG vs mechanical galvanizing for 10.9) — ref: brief §10 item 3
-// VERIFICATION PENDING: Confirm nut families stocked (standard, heavy hex, thin / jam, nylock, castle) — ref: brief §10 item 4
-// VERIFICATION PENDING: Confirm MOQ by grade band and lead times for made-to-order diameters — ref: brief §10 items 5 & 6
-// VERIFICATION PENDING: Confirm named partner mills that may be cited — ref: brief §10 item 8
-// VERIFICATION PENDING: Real photograph of staged hex-bolt and nut inventory at KP Fasteners Ahmedabad facility — ref: brief §6 hero-hex-bolts-nuts-kp.webp & §10 item 10
-// VERIFICATION PENDING: Confirm whether KP ever assembles proprietary hex-bolt kits in-house — ref: brief §10 item 11
+// VERIFICATION PENDING: Confirm property-class stocking coverage (4.6 / 4.8 / 8.8 / 10.9 routinely stocked vs 12.9 on-quote) - ref: brief §10 item 1
+// VERIFICATION PENDING: Confirm stocked diameter and length range per property class - ref: brief §10 item 2
+// VERIFICATION PENDING: Confirm coating availability per class (HDG vs mechanical galvanizing for 10.9) - ref: brief §10 item 3
+// VERIFICATION PENDING: Confirm nut families stocked (standard, heavy hex, thin / jam, nylock, castle) - ref: brief §10 item 4
+// VERIFICATION PENDING: Confirm MOQ by grade band and lead times for made-to-order diameters - ref: brief §10 items 5 & 6
+// VERIFICATION PENDING: Confirm named partner mills that may be cited - ref: brief §10 item 8
+// VERIFICATION PENDING: Real photograph of staged hex-bolt and nut inventory at KP Fasteners Ahmedabad facility - ref: brief §6 hero-hex-bolts-nuts-kp.webp & §10 item 10
+// VERIFICATION PENDING: Confirm whether KP ever assembles proprietary hex-bolt kits in-house - ref: brief §10 item 11
 
 const FAQS = [
   {
     question: 'Do you manufacture hex bolts and nuts in-house or source them?',
     answer:
-      'We distribute hex bolts, nuts, and washers from vetted primary partner mills — these are part of our distribution range rather than in-house OEM production. Our in-house manufacturing lines in Ahmedabad focus on custom foundation bolts, stud bolts, and PEB sag rods. Supplying commodity hex fasteners alongside our manufactured lines allows contractors and OEMs to consolidate their structural bill of materials onto a single purchase order with unified dispatch and MTC pass-through.',
+      'We distribute hex bolts, nuts, and washers from vetted primary partner mills - these are part of our distribution range rather than in-house OEM production. Our in-house manufacturing lines in Ahmedabad focus on custom foundation bolts, stud bolts, and PEB sag rods. Supplying commodity hex fasteners alongside our manufactured lines allows contractors and OEMs to consolidate their structural bill of materials onto a single purchase order with unified dispatch and MTC pass-through.',
   },
   {
     question: 'Which property classes do you routinely stock?',
@@ -81,7 +81,7 @@ const FAQS = [
   {
     question: 'Can you supply MTC EN 10204 3.1 and what is the typical lead time?',
     answer:
-      'Yes — mill test certificates (MTC EN 10204 3.1) are passed through directly from originating primary manufacturers, detailing heat chemical melt analysis and mechanical proof testing. Standard stocked metric sizes dispatch within 24–72 hours across Ahmedabad and Gujarat, and 3–7 business days pan-India. Custom non-stocked lengths or specialized surface coatings carry a 7–14 day delivery window.',
+      'Yes - mill test certificates (MTC EN 10204 3.1) are passed through directly from originating primary manufacturers, detailing heat chemical melt analysis and mechanical proof testing. Standard stocked metric sizes dispatch within 24-72 hours across Ahmedabad and Gujarat, and 3-7 business days pan-India. Custom non-stocked lengths or specialized surface coatings carry a 7-14 day delivery window.',
   },
   {
     question: 'Do you supply ASTM A325 and ASTM A490 structural bolts?',
@@ -116,27 +116,27 @@ const STANDARDS_ROWS = [
     cells: ['DIN 6923', 'ISO 4161', 'IS 1367', 'Hexagon nut with serrated or smooth integrated bearing flange'],
   },
   {
-    cells: ['ASTM A307', '—', 'IS 1367 Gr 4.6', 'Low-carbon steel externally threaded standard fasteners (60 ksi tensile)'],
+    cells: ['ASTM A307', '-', 'IS 1367 Gr 4.6', 'Low-carbon steel externally threaded standard fasteners (60 ksi tensile)'],
   },
   {
     cells: ['ASTM A325', 'ISO 7412 (overlap)', 'IS 6639 / 8.8S', 'High-strength structural bolts for structural steel joints (120 ksi tensile)'],
   },
   {
-    cells: ['ASTM A490', '—', 'IS 6639 / 10.9S', 'Heat-treated alloy steel structural bolts for dynamic framing (150 ksi tensile)'],
+    cells: ['ASTM A490', '-', 'IS 6639 / 10.9S', 'Heat-treated alloy steel structural bolts for dynamic framing (150 ksi tensile)'],
   },
   {
-    cells: ['ISO 898-1', '—', 'IS 1367 (Part 3)', 'Mechanical properties of carbon and alloy steel externally threaded bolts'],
+    cells: ['ISO 898-1', '-', 'IS 1367 (Part 3)', 'Mechanical properties of carbon and alloy steel externally threaded bolts'],
   },
   {
-    cells: ['ISO 3506-1', '—', 'IS 1367 (Part 14)', 'Mechanical properties of corrosion-resistant stainless steel fasteners (A2/A4)'],
+    cells: ['ISO 3506-1', '-', 'IS 1367 (Part 14)', 'Mechanical properties of corrosion-resistant stainless steel fasteners (A2/A4)'],
   },
 ];
 
 const BOLT_SCHEDULE_ROWS = [
   {
     cells: [
-      'M6 – M12',
-      '16 – 100 mm',
+      'M6 - M12',
+      '16 - 100 mm',
       'Class 4.6, 8.8, SS 304',
       'DIN 933 (full) / DIN 931 (part)',
       'Clear Zinc, Yellow Zinc, Natural SS',
@@ -145,8 +145,8 @@ const BOLT_SCHEDULE_ROWS = [
   },
   {
     cells: [
-      'M14 – M20',
-      '25 – 180 mm',
+      'M14 - M20',
+      '25 - 180 mm',
       'Class 8.8, 10.9, SS 316',
       'DIN 931 / DIN 933 / ISO 4014',
       'Hot-Dip Galvanized, Zinc, Black Oxide',
@@ -155,8 +155,8 @@ const BOLT_SCHEDULE_ROWS = [
   },
   {
     cells: [
-      'M22 – M30',
-      '40 – 260 mm',
+      'M22 - M30',
+      '40 - 260 mm',
       'Class 8.8, 10.9',
       'DIN 931 / ISO 4014 / IS 1364',
       'HDG (ISO 1461), Mechanical Zinc',
@@ -165,8 +165,8 @@ const BOLT_SCHEDULE_ROWS = [
   },
   {
     cells: [
-      'M33 – M42',
-      '60 – 350 mm',
+      'M33 - M42',
+      '60 - 350 mm',
       'Class 8.8, 10.9',
       'ISO 4014 / DIN 931',
       'Hot-Dip Galvanized, Self-Colour',
@@ -175,8 +175,8 @@ const BOLT_SCHEDULE_ROWS = [
   },
   {
     cells: [
-      'M48 – M64',
-      '80 – 500 mm',
+      'M48 - M64',
+      '80 - 500 mm',
       'Class 8.8, 10.9',
       'ISO 4014 / DIN 931',
       'Hot-Dip Galvanized, Black Phosphated',
@@ -185,8 +185,8 @@ const BOLT_SCHEDULE_ROWS = [
   },
   {
     cells: [
-      '1/2" – 1-1/2"',
-      '1-1/2" – 8"',
+      '1/2" - 1-1/2"',
+      '1-1/2" - 8"',
       'ASTM A325 (Type 1)',
       'ASTM A325 / ASME B18.2.6',
       'Hot-Dip Galvanized (ASTM A153)',
@@ -195,8 +195,8 @@ const BOLT_SCHEDULE_ROWS = [
   },
   {
     cells: [
-      '1/2" – 1-1/2"',
-      '2" – 8"',
+      '1/2" - 1-1/2"',
+      '2" - 8"',
       'ASTM A490 (Type 1)',
       'ASTM A490 / ASME B18.2.6',
       'Chemical Black Oxide with Oil',
@@ -205,8 +205,8 @@ const BOLT_SCHEDULE_ROWS = [
   },
   {
     cells: [
-      'M6 – M24 (SS 304)',
-      '16 – 200 mm',
+      'M6 - M24 (SS 304)',
+      '16 - 200 mm',
       'A2-70 (700 MPa UTS)',
       'DIN 933 / DIN 931 / ISO 4017',
       'Chemical Passivated (ASTM A967)',
@@ -215,8 +215,8 @@ const BOLT_SCHEDULE_ROWS = [
   },
   {
     cells: [
-      'M6 – M24 (SS 316)',
-      '16 – 200 mm',
+      'M6 - M24 (SS 316)',
+      '16 - 200 mm',
       'A4-70 (700 MPa UTS)',
       'DIN 933 / DIN 931 / ISO 4017',
       'Chemical Passivated (ASTM A967)',
@@ -231,7 +231,7 @@ const NUT_SCHEDULE_ROWS = [
       'Standard Metric Hex Nut',
       'DIN 934 / ISO 4032 / IS 1363 Pt 3',
       'Class 8, 10, SS 304, SS 316',
-      'M6 – M64',
+      'M6 - M64',
       'Zinc Plated, HDG, Passivated',
       'Standard structural and mechanical pairing matching mating bolt proof stress',
     ],
@@ -241,7 +241,7 @@ const NUT_SCHEDULE_ROWS = [
       'Heavy Hex Structural Nut',
       'ASME B18.2.2 / ASTM A194 2H / A563',
       'Grade 2H, Grade DH, Class 10',
-      '1/2" – 2-1/2" (M16 – M64)',
+      '1/2" - 2-1/2" (M16 - M64)',
       'Hot-Dip Galvanized, Black Oxide',
       'High-strength friction grip joints paired with ASTM A325/A490 and A193 B7 studs',
     ],
@@ -251,7 +251,7 @@ const NUT_SCHEDULE_ROWS = [
       'Prevailing Torque Nylock Nut',
       'DIN 985 / ISO 7040 / IS 7002',
       'Class 8, 10, SS 304',
-      'M6 – M36',
+      'M6 - M36',
       'Zinc Trivalent, Natural Stainless',
       'Self-locking vibration resistance for automotive chassis and vibrating equipment',
     ],
@@ -261,7 +261,7 @@ const NUT_SCHEDULE_ROWS = [
       'Hex Thin / Jam Lock Nut',
       'DIN 439 / ISO 4035 / IS 1364 Pt 3',
       'Class 04, 05, SS 304',
-      'M8 – M48',
+      'M8 - M48',
       'Zinc Plated, Self-Colour, SS',
       '0.5d thin profile used as secondary lock nut or in tight axial clearances',
     ],
@@ -271,7 +271,7 @@ const NUT_SCHEDULE_ROWS = [
       'Serrated Hex Flange Nut',
       'DIN 6923 / ISO 4161 / EN 1661',
       'Class 8, 10',
-      'M6 – M20',
+      'M6 - M20',
       'Zinc Plated, Geomet, HDG',
       'Spreads load and resists loosening without requiring a separate flat washer',
     ],
@@ -281,7 +281,7 @@ const NUT_SCHEDULE_ROWS = [
       'Acorn / Dome Cap Nut',
       'DIN 1587',
       'Class 6, SS 304, Brass',
-      'M6 – M24',
+      'M6 - M24',
       'Bright Chrome, Nickel, Passivated',
       'Encloses thread ends to prevent snagging injuries and seal against moisture ingress',
     ],
@@ -292,8 +292,8 @@ const VARIANT_ROWS = [
   {
     cells: [
       'Property Class 4.6 / 4.8',
-      'M4 – M30',
-      '10 – 300 mm',
+      'M4 - M30',
+      '10 - 300 mm',
       'Clear Zinc Electroplate (Cr3+), Self-Colour Black MS',
       'General commercial engineering, non-structural covers, light brackets',
     ],
@@ -301,8 +301,8 @@ const VARIANT_ROWS = [
   {
     cells: [
       'Property Class 8.8',
-      'M6 – M48',
-      '20 – 500 mm',
+      'M6 - M48',
+      '20 - 500 mm',
       'Hot-Dip Galvanized (ISO 1461), Zinc Yellow Trivalent, Black Oxide',
       'PEB steel framing, civil construction, machinery frames, solar structures',
     ],
@@ -310,8 +310,8 @@ const VARIANT_ROWS = [
   {
     cells: [
       'Property Class 10.9',
-      'M8 – M36',
-      '20 – 400 mm',
+      'M8 - M36',
+      '20 - 400 mm',
       'Mechanical Zinc, Zinc-Nickel, HDG with mandatory 200 °C bake-out',
       'Automotive tier chassis, dynamic shear joints, heavy earth-moving equipment',
     ],
@@ -319,8 +319,8 @@ const VARIANT_ROWS = [
   {
     cells: [
       'Property Class 12.9',
-      'M8 – M30',
-      '25 – 250 mm',
+      'M8 - M30',
+      '25 - 250 mm',
       'Chemical Black Oxide with rust-preventive oil (HDG strictly prohibited)',
       'High-stress machine tools, plastic injection molds, hydraulic cylinder joints',
     ],
@@ -328,8 +328,8 @@ const VARIANT_ROWS = [
   {
     cells: [
       'Stainless Steel 304 (A2-70)',
-      'M4 – M24',
-      '10 – 200 mm',
+      'M4 - M24',
+      '10 - 200 mm',
       'Acid Cleaned & Passivated per ASTM A967',
       'Food processing machinery, architectural brackets, inland solar MMS',
     ],
@@ -337,8 +337,8 @@ const VARIANT_ROWS = [
   {
     cells: [
       'Stainless Steel 316 (A4-70)',
-      'M4 – M24',
-      '10 – 200 mm',
+      'M4 - M24',
+      '10 - 200 mm',
       'Acid Cleaned & Passivated per ASTM A967',
       'Chemical process plants, coastal solar installations, marine hardware',
     ],
@@ -529,7 +529,7 @@ export default function Page() {
       <JsonLd data={faqPage(FAQS)} />
 
       {/* 1. Hero */}
-      {/* VERIFICATION PENDING: Real photograph of staged hex-bolt and nut inventory at KP Fasteners Ahmedabad facility — ref: brief §6 hero-hex-bolts-nuts-kp.webp & §10 item 10 */}
+      {/* VERIFICATION PENDING: Real photograph of staged hex-bolt and nut inventory at KP Fasteners Ahmedabad facility - ref: brief §6 hero-hex-bolts-nuts-kp.webp & §10 item 10 */}
       <Section>
         <Container>
           <Breadcrumbs trail={trail} />
@@ -568,7 +568,7 @@ export default function Page() {
                 <div className="relative aspect-[4/3] w-full overflow-hidden rounded-md bg-transparent p-3">
                   <Image
                     src={HERO_IMAGE}
-                    alt="KP Fasteners hex bolts and nuts inventory — high-tensile Class 8.8 and 10.9 bolts, standard nuts and heavy hex hardware"
+                    alt="KP Fasteners hex bolts and nuts inventory - high-tensile Class 8.8 and 10.9 bolts, standard nuts and heavy hex hardware"
                     fill
                     priority
                     sizes="(min-width: 1024px) 40vw, 100vw"
@@ -580,7 +580,7 @@ export default function Page() {
           </div>
           <div className="mt-8">
             <ClassificationBanner classification="trading">
-              Hex bolts &amp; nuts — sourced from vetted partner mills; property-class head markings traceable to EN 10204 3.1 mill test certificates on request.
+              Hex bolts &amp; nuts - sourced from vetted partner mills; property-class head markings traceable to EN 10204 3.1 mill test certificates on request.
             </ClassificationBanner>
           </div>
         </Container>
@@ -659,7 +659,7 @@ export default function Page() {
       </Section>
 
       {/* 4. Bolt Specification Schedule */}
-      {/* VERIFICATION PENDING: Confirm stocked diameter and length range per property class — ref: brief §10 item 2 */}
+      {/* VERIFICATION PENDING: Confirm stocked diameter and length range per property class - ref: brief §10 item 2 */}
       <Section variant="alt">
         <Container>
           <div className="flex items-center gap-3">
@@ -689,7 +689,7 @@ export default function Page() {
       </Section>
 
       {/* 5. Nut Specification Schedule */}
-      {/* VERIFICATION PENDING: Confirm nut families stocked (standard, heavy hex, thin / jam, nylock, castle) — ref: brief §10 item 4 */}
+      {/* VERIFICATION PENDING: Confirm nut families stocked (standard, heavy hex, thin / jam, nylock, castle) - ref: brief §10 item 4 */}
       <Section>
         <Container>
           <div className="flex items-center gap-3">
@@ -719,7 +719,7 @@ export default function Page() {
       </Section>
 
       {/* 6. Product Variant Matrix */}
-      {/* VERIFICATION PENDING: Confirm property-class stocking coverage (4.6 / 4.8 / 8.8 / 10.9 routinely stocked vs 12.9 on-quote) — ref: brief §10 item 1 */}
+      {/* VERIFICATION PENDING: Confirm property-class stocking coverage (4.6 / 4.8 / 8.8 / 10.9 routinely stocked vs 12.9 on-quote) - ref: brief §10 item 1 */}
       <Section variant="alt">
         <Container>
           <div className="flex items-center gap-3">
@@ -749,7 +749,7 @@ export default function Page() {
       </Section>
 
       {/* 7. Decision Block: Property-Class & Coating Picker */}
-      {/* VERIFICATION PENDING: Confirm coating availability per class (HDG vs mechanical galvanizing for 10.9) — ref: brief §10 item 3 */}
+      {/* VERIFICATION PENDING: Confirm coating availability per class (HDG vs mechanical galvanizing for 10.9) - ref: brief §10 item 3 */}
       <Section>
         <Container>
           <div className="flex items-center gap-3">

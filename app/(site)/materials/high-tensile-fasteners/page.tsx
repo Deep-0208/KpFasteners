@@ -33,7 +33,7 @@ import { company } from '@/data/company';
 const PATH = '/materials/high-tensile-fasteners/';
 const HERO_IMAGE = '/product-images/high-tensile/hero.webp';
 
-// Title: 55 chars (50–60 range). Meta description: 159 chars (150–160 range).
+// Title: 55 chars (50-60 range). Meta description: 159 chars (150-160 range).
 const META_TITLE = 'High-Tensile Bolts Manufacturer | PC 8.8 10.9 12.9 | KP';
 const META_DESCRIPTION =
   'Property class 4.6, 8.8, 10.9 & 12.9 compared to ISO 898-1: yield, UTS, hardness, torque & HDE risk. Pick the right grade for your joint. Request an RFQ quote.';
@@ -50,13 +50,13 @@ const WA_PREFILL =
 const WA_URL = 'https://wa.me/919898230448?text=' + encodeURIComponent(WA_PREFILL);
 const TEL = `tel:${company.telephones[0].replace(/[^\d+]/g, '')}`;
 
-// VERIFICATION PENDING: Confirm OEM status of PC 10.9 on foundation bolts and sag rods — in-house (heat-treated) or sourced? — ref: brief §10 item 1
-// VERIFICATION PENDING: Confirm PC 12.9 OEM status (brief defaults to OEM 12.9 not offered) — ref: brief §10 item 2
-// VERIFICATION PENDING: Confirm HDE bake-out protocol on HDG + PC 10.9 (190–230 °C for ≥ 4 hr within 4 hr of plating) — ref: brief §10 item 3
-// VERIFICATION PENDING: Confirm NABL partner lab name for tensile verification — ref: brief §10 item 4
-// VERIFICATION PENDING: Confirm mating-nut class policy (auto-upgrade vs quoted per PO) — ref: brief §10 item 5
-// VERIFICATION PENDING: Real photograph of high-tensile property class stamps and inventory at KP Fasteners Ahmedabad facility — ref: brief §6 hero-high-tensile-material-decision.webp & §10 item 6
-// VERIFICATION PENDING: Confirm in-house vs outsourced heat treatment (quench + temper) on OEM lines — ref: brief §10 item 7
+// VERIFICATION PENDING: Confirm OEM status of PC 10.9 on foundation bolts and sag rods - in-house (heat-treated) or sourced? - ref: brief §10 item 1
+// VERIFICATION PENDING: Confirm PC 12.9 OEM status (brief defaults to OEM 12.9 not offered) - ref: brief §10 item 2
+// VERIFICATION PENDING: Confirm HDE bake-out protocol on HDG + PC 10.9 (190-230 °C for ≥ 4 hr within 4 hr of plating) - ref: brief §10 item 3
+// VERIFICATION PENDING: Confirm NABL partner lab name for tensile verification - ref: brief §10 item 4
+// VERIFICATION PENDING: Confirm mating-nut class policy (auto-upgrade vs quoted per PO) - ref: brief §10 item 5
+// VERIFICATION PENDING: Real photograph of high-tensile property class stamps and inventory at KP Fasteners Ahmedabad facility - ref: brief §6 hero-high-tensile-material-decision.webp & §10 item 6
+// VERIFICATION PENDING: Confirm in-house vs outsourced heat treatment (quench + temper) on OEM lines - ref: brief §10 item 7
 
 const FAQS = [
   {
@@ -67,12 +67,12 @@ const FAQS = [
   {
     question: 'When should I upgrade from 8.8 to 10.9?',
     answer:
-      'Upgrade to 10.9 when the joint sees high pre-load, high cyclic load, or fatigue-driven service (pump mounts, compressor foundations, press machinery, heavy-equipment flanges). For purely static structural steel to A325 scope, PC 8.8 HDG is almost always sufficient. For tool-and-die socket-head joints, go straight to 12.9 in black oxide — never 10.9 HDG.',
+      'Upgrade to 10.9 when the joint sees high pre-load, high cyclic load, or fatigue-driven service (pump mounts, compressor foundations, press machinery, heavy-equipment flanges). For purely static structural steel to A325 scope, PC 8.8 HDG is almost always sufficient. For tool-and-die socket-head joints, go straight to 12.9 in black oxide - never 10.9 HDG.',
   },
   {
     question: 'Why does KP avoid hot-dip galvanizing on Grade 10.9?',
     answer:
-      'Hydrogen embrittlement risk per ISO 898-1 §9.6. The acid-pickling and plating step introduces atomic hydrogen into the high-strength martensite; sustained tensile load can cause sudden brittle failure within hours to days. Our default coating on PC 10.9 is mechanical galvanized or zinc-nickel, both of which avoid the aqueous hydrogen-introduction step; HDG on 10.9 is offered only with a documented 190–230 °C bake-out protocol.',
+      'Hydrogen embrittlement risk per ISO 898-1 §9.6. The acid-pickling and plating step introduces atomic hydrogen into the high-strength martensite; sustained tensile load can cause sudden brittle failure within hours to days. Our default coating on PC 10.9 is mechanical galvanized or zinc-nickel, both of which avoid the aqueous hydrogen-introduction step; HDG on 10.9 is offered only with a documented 190-230 °C bake-out protocol.',
   },
   {
     question: 'Which grades does KP manufacture in-house vs source?',
@@ -82,7 +82,7 @@ const FAQS = [
   {
     question: 'Does the matching nut have to be the same grade as the bolt?',
     answer:
-      'Yes — ISO 898-2 (for carbon-steel nuts) requires the nut proof-load class to match or exceed the bolt property class. A PC 8.8 bolt pairs with a Class 8 or Class 10 nut; a PC 10.9 bolt pairs with a Class 10 or Class 12 nut. The washer must meet ISO 898-6 hardness, and the coating on the nut should match the coating on the bolt to avoid a galvanic cell under corrosive service.',
+      'Yes - ISO 898-2 (for carbon-steel nuts) requires the nut proof-load class to match or exceed the bolt property class. A PC 8.8 bolt pairs with a Class 8 or Class 10 nut; a PC 10.9 bolt pairs with a Class 10 or Class 12 nut. The washer must meet ISO 898-6 hardness, and the coating on the nut should match the coating on the bolt to avoid a galvanic cell under corrosive service.',
   },
 ];
 
@@ -124,7 +124,7 @@ const MECHANICAL_ROWS = [
 
 const COATING_ROWS = [
   {
-    cells: ['4.6 / 4.8', '✓ (Default)', '✓', '—', '—', '✓'],
+    cells: ['4.6 / 4.8', '✓ (Default)', '✓', '-', '-', '✓'],
   },
   {
     cells: ['8.8', '✓', '✓ (Default)', '✓', '✓', '✓'],
@@ -142,7 +142,7 @@ const EQUIVALENCE_ROWS = [
     cells: ['4.6', '4.6', 'SAE Grade 1', 'ASTM A307 Grade A', '4.6'],
   },
   {
-    cells: ['4.8', '4.8', '—', 'ASTM A307 Grade B', '4.8'],
+    cells: ['4.8', '4.8', '-', 'ASTM A307 Grade B', '4.8'],
   },
   {
     cells: ['8.8', '8.8', 'SAE Grade 5', 'ASTM A325 (dim) / A449', '8.8'],
@@ -151,34 +151,34 @@ const EQUIVALENCE_ROWS = [
     cells: ['10.9', '10.9', 'SAE Grade 8', 'ASTM A490 (dim) / A354 BD / F1554 Gr 105', '10.9'],
   },
   {
-    cells: ['12.9', '12.9', '—', 'ASTM A574 (socket cap)', '12.9'],
+    cells: ['12.9', '12.9', '-', 'ASTM A574 (socket cap)', '12.9'],
   },
 ];
 
 const APPLICATION_ROWS = [
   {
-    cells: ['PEB column base plate / foundation', '4.6 (IS 5624) / 8.8 for high load', 'IS 1363 / Class 8', 'HDG', 'OEM — foundation bolts'],
+    cells: ['PEB column base plate / foundation', '4.6 (IS 5624) / 8.8 for high load', 'IS 1363 / Class 8', 'HDG', 'OEM - foundation bolts'],
   },
   {
-    cells: ['Structural steel building connection', '8.8 (A325 scope)', 'Heavy hex Class 8', 'HDG', 'Distribution — hex bolts & nuts'],
+    cells: ['Structural steel building connection', '8.8 (A325 scope)', 'Heavy hex Class 8', 'HDG', 'Distribution - hex bolts & nuts'],
   },
   {
     cells: ['Heavy machinery mounting skid', '10.9', 'DIN 985 nylock / Class 10', 'Mech-galv / zinc-nickel', 'Distribution + custom'],
   },
   {
-    cells: ['Pump / compressor foundation stud', 'ASTM A193 B7 (alloy steel)', 'ASTM A194 2H heavy hex', 'Black / zinc', 'OEM — stud bolts'],
+    cells: ['Pump / compressor foundation stud', 'ASTM A193 B7 (alloy steel)', 'ASTM A194 2H heavy hex', 'Black / zinc', 'OEM - stud bolts'],
   },
   {
-    cells: ['High-pressure piping flange', 'ASTM A193 B7 / B7M', 'ASTM A194 2H', 'Black / zinc-nickel', 'OEM — stud bolts'],
+    cells: ['High-pressure piping flange', 'ASTM A193 B7 / B7M', 'ASTM A194 2H', 'Black / zinc-nickel', 'OEM - stud bolts'],
   },
   {
-    cells: ['Tooling, dies & injection moulds', '12.9', 'Tapped hole', 'Black oxide', 'Distribution — CSK Allen bolts'],
+    cells: ['Tooling, dies & injection moulds', '12.9', 'Tapped hole', 'Black oxide', 'Distribution - CSK Allen bolts'],
   },
   {
-    cells: ['Solar MMS racking (inland)', '8.8 HDG', 'DIN 934 Class 8', 'HDG', 'Distribution — solar accessories'],
+    cells: ['Solar MMS racking (inland)', '8.8 HDG', 'DIN 934 Class 8', 'HDG', 'Distribution - solar accessories'],
   },
   {
-    cells: ['Sag rod purlin bracing', '4.6 / 8.8 to IS 801 scope', 'IS 1363 jam nut', 'HDG', 'OEM — sag rods'],
+    cells: ['Sag rod purlin bracing', '4.6 / 8.8 to IS 801 scope', 'IS 1363 jam nut', 'HDG', 'OEM - sag rods'],
   },
   {
     cells: ['Seismic framing & high-cycle fatigue', '10.9', 'Class 10 / DIN 985', 'Zinc-nickel / mech-galv', 'Distribution + custom'],
@@ -187,22 +187,22 @@ const APPLICATION_ROWS = [
 
 const MAKE_VS_TRADE_ROWS = [
   {
-    cells: ['Foundation bolts', 'OEM (IS 5624)', 'OEM (high-tensile)', 'OEM on-quote', '—'],
+    cells: ['Foundation bolts', 'OEM (IS 5624)', 'OEM (high-tensile)', 'OEM on-quote', '-'],
   },
   {
-    cells: ['Anchor bolts (ASTM F1554)', 'OEM Grade 36', 'OEM Grade 55', 'On-quote Grade 105', '—'],
+    cells: ['Anchor bolts (ASTM F1554)', 'OEM Grade 36', 'OEM Grade 55', 'On-quote Grade 105', '-'],
   },
   {
-    cells: ['Stud bolts', '—', 'OEM (B7 alloy)', 'OEM (B7 / 10.9)', '—'],
+    cells: ['Stud bolts', '-', 'OEM (B7 alloy)', 'OEM (B7 / 10.9)', '-'],
   },
   {
-    cells: ['Sag rods', 'OEM', 'OEM', '—', '—'],
+    cells: ['Sag rods', 'OEM', 'OEM', '-', '-'],
   },
   {
     cells: ['Hex bolts and nuts', 'Distribution', 'Distribution', 'Distribution', 'On-quote'],
   },
   {
-    cells: ['CSK Allen bolts', '—', 'Distribution', 'Distribution', 'Distribution (black oxide)'],
+    cells: ['CSK Allen bolts', '-', 'Distribution', 'Distribution', 'Distribution (black oxide)'],
   },
 ];
 
@@ -279,7 +279,7 @@ export default function Page() {
       <JsonLd data={faqPage(FAQS)} />
 
       {/* 1. Hero */}
-      {/* VERIFICATION PENDING: Real photograph of high-tensile property class stamps and inventory at KP Fasteners Ahmedabad facility — ref: brief §6 hero-high-tensile-material-decision.webp & §10 item 6 */}
+      {/* VERIFICATION PENDING: Real photograph of high-tensile property class stamps and inventory at KP Fasteners Ahmedabad facility - ref: brief §6 hero-high-tensile-material-decision.webp & §10 item 6 */}
       <Section>
         <Container>
           <Breadcrumbs trail={trail} />
@@ -287,7 +287,7 @@ export default function Page() {
             <div>
               <p className="badge badge-gold">Material Hub · ISO 898-1 Carbon &amp; Alloy Steel</p>
               <Heading as="h1" variant="hero" className="mt-4 font-heading">
-                <span className="text-gold-gradient">High-Tensile Fasteners</span> — Property Class 8.8, 10.9 &amp; 12.9 Decision Guide
+                <span className="text-gold-gradient">High-Tensile Fasteners</span> - Property Class 8.8, 10.9 &amp; 12.9 Decision Guide
               </Heading>
               <hr className="rule-metal mt-5 w-40" aria-hidden="true" />
               <p className="mt-6 max-w-2xl text-lg text-ink-muted">
@@ -318,7 +318,7 @@ export default function Page() {
                 <div className="relative aspect-[4/3] w-full overflow-hidden rounded-md bg-transparent p-3">
                   <Image
                     src={HERO_IMAGE}
-                    alt="KP Fasteners high-tensile bolts inventory — Grade 8.8, 10.9, and 12.9 fasteners for structural and industrial applications"
+                    alt="KP Fasteners high-tensile bolts inventory - Grade 8.8, 10.9, and 12.9 fasteners for structural and industrial applications"
                     fill
                     priority
                     sizes="(min-width: 1024px) 40vw, 100vw"
@@ -330,7 +330,7 @@ export default function Page() {
           </div>
           <div className="mt-8">
             <ClassificationBanner classification="ambiguous">
-              Property-class 8.8 / 10.9 / 12.9 — OEM for anchor applications; general hex trading from vetted mills.
+              Property-class 8.8 / 10.9 / 12.9 - OEM for anchor applications; general hex trading from vetted mills.
             </ClassificationBanner>
           </div>
         </Container>
@@ -504,13 +504,13 @@ export default function Page() {
           </div>
 
           <p className="mt-4 text-xs text-ink-muted">
-            *Source: ISO 898-1:2013 Table 3 (mechanical and physical properties of carbon and alloy steel fasteners). Hardness values are Vickers (HV); Rockwell conversions are HRC 22–32 for Class 8.8, HRC 32–39 for Class 10.9, and HRC 39–44 for Class 12.9.
+            *Source: ISO 898-1:2013 Table 3 (mechanical and physical properties of carbon and alloy steel fasteners). Hardness values are Vickers (HV); Rockwell conversions are HRC 22-32 for Class 8.8, HRC 32-39 for Class 10.9, and HRC 39-44 for Class 12.9.
           </p>
         </Container>
       </Section>
 
       {/* 5. Hydrogen Embrittlement & Coating */}
-      {/* VERIFICATION PENDING: Confirm HDE bake-out protocol on HDG + PC 10.9 (190–230 °C for ≥ 4 hr within 4 hr of plating) — ref: brief §10 item 3 */}
+      {/* VERIFICATION PENDING: Confirm HDE bake-out protocol on HDG + PC 10.9 (190-230 °C for ≥ 4 hr within 4 hr of plating) - ref: brief §10 item 3 */}
       <Section>
         <Container>
           <div className="flex items-center gap-3">
@@ -525,7 +525,7 @@ export default function Page() {
                 Hydrogen embrittlement (HDE) is a catastrophic failure mode affecting high-hardness steels (hardness ≥ 320 HV / 32 HRC, corresponding to property classes 10.9 and 12.9). During acid pickling (prior to electroplating or hot-dip galvanizing), nascent atomic hydrogen is absorbed into the steel lattice.
               </p>
               <p className="mt-4">
-                Under sustained mechanical tensile stress, dissolved hydrogen atoms diffuse to triaxial stress concentration zones (such as thread roots and the under-head radius). This reduces cohesive interatomic bonding strength, triggering sub-critical microcracks that propagate rapidly into sudden brittle fracture—frequently occurring hours or days after joint torquing without warning.
+                Under sustained mechanical tensile stress, dissolved hydrogen atoms diffuse to triaxial stress concentration zones (such as thread roots and the under-head radius). This reduces cohesive interatomic bonding strength, triggering sub-critical microcracks that propagate rapidly into sudden brittle fracture - frequently occurring hours or days after joint torquing without warning.
               </p>
             </Prose>
             <Prose>
@@ -603,7 +603,7 @@ export default function Page() {
       </Section>
 
       {/* 8. Mating Nut, Washer & Torque Discipline */}
-      {/* VERIFICATION PENDING: Confirm mating-nut class policy (auto-upgrade vs quoted per PO) — ref: brief §10 item 5 */}
+      {/* VERIFICATION PENDING: Confirm mating-nut class policy (auto-upgrade vs quoted per PO) - ref: brief §10 item 5 */}
       <Section variant="alt">
         <Container>
           <Heading as="h2" variant="section">
@@ -629,7 +629,7 @@ export default function Page() {
                 2. Hardened Washer Discipline
               </Heading>
               <p className="mt-3 text-sm text-ink-muted">
-                High-tensile bolts generate enormous clamping forces. Using commercial soft mild-steel washers under Grade 8.8 or 10.9 bolts causes the washer to dish and yield, resulting in preload relaxation. Always specify through-hardened washers per <strong>ISO 898-6</strong> or <strong>ASTM F436</strong> (hardness 38–45 HRC).
+                High-tensile bolts generate enormous clamping forces. Using commercial soft mild-steel washers under Grade 8.8 or 10.9 bolts causes the washer to dish and yield, resulting in preload relaxation. Always specify through-hardened washers per <strong>ISO 898-6</strong> or <strong>ASTM F436</strong> (hardness 38-45 HRC).
               </p>
             </Card>
 
@@ -646,9 +646,9 @@ export default function Page() {
       </Section>
 
       {/* 9. Where KP Manufactures vs Distributes */}
-      {/* VERIFICATION PENDING: Confirm in-house vs outsourced heat treatment (quench + temper) on OEM lines — ref: brief §10 item 7 */}
-      {/* VERIFICATION PENDING: Confirm OEM status of PC 10.9 on foundation bolts and sag rods — ref: brief §10 item 1 */}
-      {/* VERIFICATION PENDING: Confirm PC 12.9 OEM status — ref: brief §10 item 2 */}
+      {/* VERIFICATION PENDING: Confirm in-house vs outsourced heat treatment (quench + temper) on OEM lines - ref: brief §10 item 7 */}
+      {/* VERIFICATION PENDING: Confirm OEM status of PC 10.9 on foundation bolts and sag rods - ref: brief §10 item 1 */}
+      {/* VERIFICATION PENDING: Confirm PC 12.9 OEM status - ref: brief §10 item 2 */}
       <Section>
         <Container>
           <Heading as="h2" variant="section">
@@ -793,7 +793,7 @@ export default function Page() {
       </Section>
 
       {/* 12. Quality Assurance & MTC */}
-      {/* VERIFICATION PENDING: Confirm NABL partner lab name for tensile verification — ref: brief §10 item 4 */}
+      {/* VERIFICATION PENDING: Confirm NABL partner lab name for tensile verification - ref: brief §10 item 4 */}
       <Section variant="alt">
         <Container>
           <div className="rounded-xl border border-border bg-surface p-8 shadow-card">

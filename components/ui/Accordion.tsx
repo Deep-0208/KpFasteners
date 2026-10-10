@@ -7,7 +7,7 @@ interface AccordionItem {
 }
 
 /**
- * Native <details>/<summary> accordion — no JS, no client component.
+ * Native <details>/<summary> accordion - no JS, no client component.
  * The chevron rotates via CSS on `[open]`.
  */
 export function Accordion({ items }: { items: AccordionItem[] }) {

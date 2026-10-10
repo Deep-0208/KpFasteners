@@ -69,7 +69,7 @@ export default function PrivacyPolicyPage() {
               <div className="flex items-start gap-3">
                 <AlertCircle aria-hidden="true" className="mt-0.5 h-5 w-5 shrink-0 text-brand-gold-strong" />
                 <div className="text-sm">
-                  <p className="font-semibold text-brand-steel">Draft Policy Notice — Legal Counsel Review Required</p>
+                  <p className="font-semibold text-brand-steel">Draft Policy Notice - Legal Counsel Review Required</p>
                   <p className="mt-1 text-ink-muted">
                     This page is a preliminary draft. All clauses marked{' '}
                     <span className="font-mono font-semibold text-brand-gold-strong">[LAWYER REVIEW REQUIRED]</span>{' '}
@@ -95,7 +95,7 @@ export default function PrivacyPolicyPage() {
                     This Privacy Policy applies to personal data collected, stored, or processed by{' '}
                     <strong>KP Fasteners</strong> (&quot;we&quot;, &quot;us&quot;, or &quot;our&quot;), operating as a sole
                     proprietorship under GSTIN <strong>24ARDPP9803A1Z3</strong>, with registered manufacturing and
-                    operational premises at 23/4 Ghanshyam Industrial Estate, Margha Farm, Ahmedabad – 380024, Gujarat,
+                    operational premises at 23/4 Ghanshyam Industrial Estate, Margha Farm, Ahmedabad - 380024, Gujarat,
                     India.
                   </p>
                   <p>
@@ -194,7 +194,7 @@ export default function PrivacyPolicyPage() {
 
               {/* Clause 4 */}
               <div>
-                {/* VERIFICATION PENDING: Formal data retention schedule confirmation by legal counsel — ref: brief §3 / §10 Q2 */}
+                {/* VERIFICATION PENDING: Formal data retention schedule confirmation by legal counsel - ref: brief §3 / §10 Q2 */}
                 <Heading as="h2" variant="section">
                   4. Data Storage, Security Measures, and Retention Schedules
                 </Heading>
@@ -272,7 +272,7 @@ export default function PrivacyPolicyPage() {
 
               {/* Clause 6 */}
               <div>
-                {/* VERIFICATION PENDING: Cookie banner scope and analytics setup pending counsel confirmation — ref: brief §3 / §10 Q3 */}
+                {/* VERIFICATION PENDING: Cookie banner scope and analytics setup pending counsel confirmation - ref: brief §3 / §10 Q3 */}
                 <Heading as="h2" variant="section">
                   6. Cookies and Tracking Technologies
                 </Heading>
@@ -353,7 +353,7 @@ export default function PrivacyPolicyPage() {
 
               {/* Clause 8 */}
               <div>
-                {/* VERIFICATION PENDING: Specific Grievance Officer appointment and dedicated email address pending client and legal counsel confirmation — ref: brief §3 / §10 Q1 */}
+                {/* VERIFICATION PENDING: Specific Grievance Officer appointment and dedicated email address pending client and legal counsel confirmation - ref: brief §3 / §10 Q1 */}
                 <Heading as="h2" variant="section">
                   8. Grievance Redressal and Compliance Officer
                 </Heading>
@@ -386,7 +386,7 @@ export default function PrivacyPolicyPage() {
                       </p>
                       <p>
                         <strong className="text-brand-steel">Postal Address:</strong> KP Fasteners, 23/4 Ghanshyam
-                        Industrial Estate, Margha Farm, Ahmedabad – 380024, Gujarat, India.
+                        Industrial Estate, Margha Farm, Ahmedabad - 380024, Gujarat, India.
                       </p>
                     </div>
                   </Card>
@@ -455,7 +455,7 @@ export default function PrivacyPolicyPage() {
                         <div className="text-sm">
                           <p className="font-semibold text-brand-steel">Facility &amp; Sales Desk</p>
                           <p className="mt-1 text-ink-muted">
-                            23/4 Ghanshyam Industrial Estate, Margha Farm, Ahmedabad – 380024, Gujarat, India.
+                            23/4 Ghanshyam Industrial Estate, Margha Farm, Ahmedabad - 380024, Gujarat, India.
                           </p>
                         </div>
                       </div>

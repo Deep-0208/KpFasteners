@@ -73,7 +73,7 @@ export function localBusiness() {
       postalCode: company.address.postalCode,
       addressCountry: company.address.country,
     },
-    // Ahmedabad plant with pan-India dispatch — declare both the city and the
+    // Ahmedabad plant with pan-India dispatch - declare both the city and the
     // national supply footprint for local + national relevance.
     areaServed: [
       { '@type': 'City', name: 'Ahmedabad' },
@@ -117,10 +117,10 @@ export interface ProductJsonLdInput {
   image?: string;
   path: string;
   /**
-   * OEM       — manufactured in-house. Sets `manufacturer` to the KP Organization @id.
-   * trading   — distribution range. Sets `seller` to the KP Organization @id; `brand`
+   * OEM - manufactured in-house. Sets `manufacturer` to the KP Organization @id.
+   * trading - distribution range. Sets `seller` to the KP Organization @id; `brand`
    *             is the supplied brand if known, otherwise omitted (never faked as KP).
-   * ambiguous — some SKUs are OEM, others are supplied. Sets `seller` only.
+   * ambiguous - some SKUs are OEM, others are supplied. Sets `seller` only.
    */
   classification: ProductClassification;
   /** Brand name for `trading` items where the actual manufacturer's brand is known. */
@@ -147,7 +147,7 @@ export function product(p: ProductJsonLdInput) {
     base.seller = { '@id': ORG_ID };
     if (p.brand) base.brand = { '@type': 'Brand', name: p.brand };
   } else {
-    // ambiguous — some SKUs OEM, others sourced. Only seller is safe.
+    // ambiguous - some SKUs OEM, others sourced. Only seller is safe.
     base.seller = { '@id': ORG_ID };
   }
 

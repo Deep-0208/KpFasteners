@@ -96,7 +96,7 @@ export function Header() {
               <Link
                 href="/"
                 className="flex items-center rounded-xl p-1 transition-transform duration-200 hover:scale-[1.02] focus:outline-none focus-visible:ring-2 focus-visible:ring-amber-500"
-                aria-label={`${company.legalName} — Home`}
+                aria-label={`${company.legalName} - Home`}
               >
                 <Image
                   src="/brand/logo.webp"
@@ -203,7 +203,7 @@ export function Header() {
           </div>
         </div>
 
-        {/* Desktop Mega Menu for Products — Anchored to Header Container */}
+        {/* Desktop Mega Menu for Products - Anchored to Header Container */}
         {openMenu === 'Products' && (
           <div
             id="products-mega-menu"

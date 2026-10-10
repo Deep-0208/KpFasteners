@@ -14,9 +14,9 @@ import { findRoute } from '@/data/routes';
 
 export const metadata: Metadata = buildMetadata({
   path: '/contact/',
-  title: 'Contact KP Fasteners — Ahmedabad Factory & Sales',
+  title: 'Contact KP Fasteners - Ahmedabad Factory & Sales',
   description:
-    'Call, WhatsApp or email KP Fasteners at 23/4 Ghanshyam Industrial Estate, Ahmedabad 380024. Phone +91 98982 30448. Mon–Sat 09:30–19:00 IST.',
+    'Call, WhatsApp or email KP Fasteners at 23/4 Ghanshyam Industrial Estate, Ahmedabad 380024. Phone +91 98982 30448. Mon-Sat 09:30-19:00 IST.',
 });
 
 const WA_URL =
@@ -47,7 +47,7 @@ export default function ContactPage() {
           </Heading>
           <p className="mt-4 max-w-2xl text-lg text-ink-muted">
             Phone, WhatsApp or email our Ahmedabad sales desk. Factory, warehouse and
-            office sit at a single address — one point of contact for quotes, dispatch
+            office sit at a single address - one point of contact for quotes, dispatch
             and documentation.
           </p>
 
@@ -64,7 +64,7 @@ export default function ContactPage() {
                   +91 98982 30448
                 </a>
               </p>
-              <p className="mt-2 text-sm text-ink-muted">Mon–Sat, business hours</p>
+              <p className="mt-2 text-sm text-ink-muted">Mon-Sat, business hours</p>
             </Card>
 
             <Card variant="metallic" padding="lg">
@@ -81,7 +81,7 @@ export default function ContactPage() {
                 </a>
               </p>
               <p className="mt-2 text-sm text-ink-muted">
-                Faster response — attach specs or photos
+                Faster response - attach specs or photos
               </p>
             </Card>
 
@@ -116,7 +116,7 @@ export default function ContactPage() {
                     <br />
                     23/4 Ghanshyam Industrial Estate
                     <br />
-                    Margha Farm, Ahmedabad — 380024
+                    Margha Farm, Ahmedabad - 380024
                     <br />
                     Gujarat, India
                   </address>
@@ -135,8 +135,8 @@ export default function ContactPage() {
                   <table className="mt-3 text-sm">
                     <tbody>
                       <tr>
-                        <td className="pr-6 py-0.5 text-ink">Monday – Saturday</td>
-                        <td className="py-0.5 text-ink">09:30 – 19:00 IST</td>
+                        <td className="pr-6 py-0.5 text-ink">Monday - Saturday</td>
+                        <td className="py-0.5 text-ink">09:30 - 19:00 IST</td>
                       </tr>
                       <tr>
                         <td className="pr-6 py-0.5 text-ink">Sunday</td>
@@ -145,7 +145,7 @@ export default function ContactPage() {
                     </tbody>
                   </table>
                   <p className="mt-3 text-sm text-ink-muted">
-                    Visits by prior appointment appreciated — call ahead so the right
+                    Visits by prior appointment appreciated - call ahead so the right
                     team member is on site.
                   </p>
                 </div>
@@ -153,11 +153,11 @@ export default function ContactPage() {
             </Card>
           </div>
 
-          {/* Map — plain iframe, aspect-ratio wrapper prevents CLS */}
+          {/* Map - plain iframe, aspect-ratio wrapper prevents CLS */}
           <div className="mt-8 overflow-hidden rounded-[14px] border border-border shadow-card">
             <div style={{ aspectRatio: '16 / 9' }} className="w-full">
               <iframe
-                title="KP Fasteners factory location — Ahmedabad"
+                title="KP Fasteners factory location - Ahmedabad"
                 src={MAP_SRC}
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
@@ -173,7 +173,7 @@ export default function ContactPage() {
         <Container>
           <Heading as="h2" variant="section">Why reach us here</Heading>
           <p className="mt-3 max-w-2xl text-ink-muted">
-            Direct lines to the sales desk — not a form that disappears into a shared
+            Direct lines to the sales desk - not a form that disappears into a shared
             inbox.
           </p>
           <div className="mt-8 grid gap-6 md:grid-cols-3">
@@ -181,7 +181,7 @@ export default function ContactPage() {
               <ShieldCheck aria-hidden="true" className="h-6 w-6 text-brand-gold-strong" />
               <Heading as="h3" variant="card" className="mt-3">Visible phone &amp; WhatsApp</Heading>
               <p className="mt-2 text-sm text-ink-muted">
-                One number for both. We answer during working hours — no gatekeeping.
+                One number for both. We answer during working hours - no gatekeeping.
               </p>
             </Card>
             <Card variant="default" padding="lg">
@@ -210,7 +210,7 @@ export default function ContactPage() {
               <span className="text-gold-gradient">Have a BOQ or drawing?</span>
             </Heading>
             <p className="mt-3 max-w-2xl text-ink-muted">
-              Our quote form captures everything we need to price a job — standard,
+              Our quote form captures everything we need to price a job - standard,
               grade, coating, quantity, pin code, and your drawing.
             </p>
             <p className="mt-4 text-xs text-ink-muted">
@@ -233,9 +233,9 @@ export default function ContactPage() {
         </Container>
       </Section>
 
-      {/* VERIFICATION PENDING: factory lat/lng — need 5-decimal coordinates
+      {/* VERIFICATION PENDING: factory lat/lng - need 5-decimal coordinates
           from Google Maps to populate LocalBusiness.geo and Maps Static embed. */}
-      {/* VERIFICATION PENDING: Google Business Profile URL — add to
+      {/* VERIFICATION PENDING: Google Business Profile URL - add to
           company.sameAs once the GBP listing is claimed. */}
     </>
   );

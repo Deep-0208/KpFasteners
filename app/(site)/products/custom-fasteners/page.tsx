@@ -34,7 +34,7 @@ import { company } from '@/data/company';
 const PATH = '/products/custom-fasteners/';
 const HERO_IMAGE = '/images/products/bolts/socket-head-cap-screw.webp';
 
-// Title: 55 chars (50–60 range, primary keyword first). Meta description: 159 chars (150–160 range).
+// Title: 55 chars (50-60 range, primary keyword first). Meta description: 159 chars (150-160 range).
 const META_TITLE = 'Custom Fasteners Manufacturer and Sourcing Partner | KP';
 const META_DESCRIPTION =
   'Custom fastener manufacturing and sourcing to print. Send PDF or CAD drawings for quote on tolerances, materials, finishes and lead times. Upload your drawing.';
@@ -51,16 +51,16 @@ const WA_PREFILL =
 const WA_URL = 'https://wa.me/919898230448?text=' + encodeURIComponent(WA_PREFILL);
 const TEL = `tel:${company.telephones[0].replace(/[^\d+]/g, '')}`;
 
-// VERIFICATION PENDING: Confirm sourcing partner network geography scope (Rajkot / Ludhiana / Taiwan / China) — ref: brief §10 item 1
-// VERIFICATION PENDING: Confirm MOQ default (500 kg per SKU default vs lower feasibility threshold) — ref: brief §10 item 2
-// VERIFICATION PENDING: Confirm accepted drawing formats (PDF, DWG, DXF, STEP) — ref: brief §10 item 3
-// VERIFICATION PENDING: Confirm mutual NDA template handling — ref: brief §10 item 4
-// VERIFICATION PENDING: Confirm routine tolerance envelope (IS 1367 Grade A/B/C vs CNC micro-tolerances) — ref: brief §10 item 5
-// VERIFICATION PENDING: Confirm in-network lead times (10-21 days) vs new die tooling (4-8 weeks) — ref: brief §10 item 6
-// VERIFICATION PENDING: Confirm IP and sample batch retention period — ref: brief §10 item 7
-// VERIFICATION PENDING: Confirm sector exclusions confirmation (aerospace, nuclear, medical) — ref: brief §10 item 8
-// VERIFICATION PENDING: Real photograph of drawing review table at Ahmedabad facility — ref: brief §6 & §10 item 9
-// VERIFICATION PENDING: Confirm tool/die ownership policy for repeat custom orders — ref: brief §10 item 10
+// VERIFICATION PENDING: Confirm sourcing partner network geography scope (Rajkot / Ludhiana / Taiwan / China) - ref: brief §10 item 1
+// VERIFICATION PENDING: Confirm MOQ default (500 kg per SKU default vs lower feasibility threshold) - ref: brief §10 item 2
+// VERIFICATION PENDING: Confirm accepted drawing formats (PDF, DWG, DXF, STEP) - ref: brief §10 item 3
+// VERIFICATION PENDING: Confirm mutual NDA template handling - ref: brief §10 item 4
+// VERIFICATION PENDING: Confirm routine tolerance envelope (IS 1367 Grade A/B/C vs CNC micro-tolerances) - ref: brief §10 item 5
+// VERIFICATION PENDING: Confirm in-network lead times (10-21 days) vs new die tooling (4-8 weeks) - ref: brief §10 item 6
+// VERIFICATION PENDING: Confirm IP and sample batch retention period - ref: brief §10 item 7
+// VERIFICATION PENDING: Confirm sector exclusions confirmation (aerospace, nuclear, medical) - ref: brief §10 item 8
+// VERIFICATION PENDING: Real photograph of drawing review table at Ahmedabad facility - ref: brief §6 & §10 item 9
+// VERIFICATION PENDING: Confirm tool/die ownership policy for repeat custom orders - ref: brief §10 item 10
 
 const FAQS = [
   {
@@ -76,7 +76,7 @@ const FAQS = [
   {
     question: 'What is your minimum order quantity (MOQ) and production lead time?',
     answer:
-      'For custom threaded studs and foundation anchor rods produced in-house, minimum orders start from flexible project batches (50–100 pieces). For partner-sourced cold-headed or forged specials requiring dedicated tooling setup, the standard MOQ is 500 kg per SKU. Typical lead time is 10–21 business days for in-network tooling recipes and 4–8 weeks when dedicated forging dies or punch tooling must be fabricated.',
+      'For custom threaded studs and foundation anchor rods produced in-house, minimum orders start from flexible project batches (50-100 pieces). For partner-sourced cold-headed or forged specials requiring dedicated tooling setup, the standard MOQ is 500 kg per SKU. Typical lead time is 10-21 business days for in-network tooling recipes and 4-8 weeks when dedicated forging dies or punch tooling must be fabricated.',
   },
   {
     question: 'How do you protect customer intellectual property and drawing confidentiality?',
@@ -142,7 +142,7 @@ const CAPABILITY_ROWS = [
   {
     cells: [
       'Batch MOQ',
-      'Flexible short-run (50 – 100 pcs for custom studs/anchors)',
+      'Flexible short-run (50 - 100 pcs for custom studs/anchors)',
       '500 kg per SKU default for cold-headed / forged specials',
       'Below-MOQ feasibility batches quoted with tooling surcharge',
     ],
@@ -150,8 +150,8 @@ const CAPABILITY_ROWS = [
   {
     cells: [
       'Production Lead Time',
-      '24 – 72 hours for urgent studs; 5 – 10 days for anchor assemblies',
-      '10 – 21 days for in-network; 4 – 8 weeks for new die tooling',
+      '24 - 72 hours for urgent studs; 5 - 10 days for anchor assemblies',
+      '10 - 21 days for in-network; 4 - 8 weeks for new die tooling',
       'Staged delivery schedules aligned to site construction milestones',
     ],
   },
@@ -182,7 +182,7 @@ const DRAWING_CHECKLIST_ROWS = [
   {
     cells: [
       'Mechanical Property Class & Hardness',
-      'e.g. Class 8.8, 10.9, 12.9, or 28–34 HRC',
+      'e.g. Class 8.8, 10.9, 12.9, or 28-34 HRC',
       'Defines the heat-treatment recipe (quench and temper cycle) to ensure required yield and proof stress',
     ],
   },
@@ -346,7 +346,7 @@ const MOQ_PRICING_ROWS = [
       'In-Network Recipe (Common Alloy & Finish)',
       '500 kg per SKU',
       'Quoted per kg',
-      '10 – 21 business days',
+      '10 - 21 business days',
       'Utilizes existing tooling and active partner rolling lines',
     ],
   },
@@ -355,7 +355,7 @@ const MOQ_PRICING_ROWS = [
       'New Forging Die / Custom Tooling Required',
       '500 kg + Tooling Cost',
       'One-time die charge + per kg',
-      '4 – 8 weeks',
+      '4 - 8 weeks',
       'Includes die fabrication, trial runs, and sample piece approval',
     ],
   },
@@ -364,7 +364,7 @@ const MOQ_PRICING_ROWS = [
       'Specialty Non-Ferrous (Brass, Bronze, Duplex)',
       '500 kg or Batch Value',
       'Quoted per piece / per kg',
-      '6 – 12 weeks',
+      '6 - 12 weeks',
       'Subject to certified raw ingot availability and specialized machining',
     ],
   },
@@ -373,7 +373,7 @@ const MOQ_PRICING_ROWS = [
       'Below-MOQ Prototype Feasibility Batch',
       'Case-by-Case Evaluation',
       'Per-piece premium',
-      '2 – 6 weeks',
+      '2 - 6 weeks',
       'Evaluated individually for design prototyping and pre-production validation',
     ],
   },
@@ -477,7 +477,7 @@ export default function Page() {
       <JsonLd data={faqPage(FAQS)} />
 
       {/* 1. Hero */}
-      {/* VERIFICATION PENDING: Real photograph of drawing review table at Ahmedabad facility — ref: brief §6 & §10 item 9 */}
+      {/* VERIFICATION PENDING: Real photograph of drawing review table at Ahmedabad facility - ref: brief §6 & §10 item 9 */}
       <Section>
         <Container>
           <Breadcrumbs trail={trail} />
@@ -516,7 +516,7 @@ export default function Page() {
                 <div className="relative aspect-[4/3] w-full overflow-hidden rounded-md bg-transparent p-3">
                   <Image
                     src={HERO_IMAGE}
-                    alt="KP Fasteners custom drawing-based fastener manufacturing and sourcing — precision engineering blueprints, machined sample parts, and specialized industrial hardware"
+                    alt="KP Fasteners custom drawing-based fastener manufacturing and sourcing - precision engineering blueprints, machined sample parts, and specialized industrial hardware"
                     fill
                     priority
                     sizes="(min-width: 1024px) 40vw, 100vw"
@@ -528,15 +528,15 @@ export default function Page() {
           </div>
           <div className="mt-8">
             <ClassificationBanner classification="ambiguous">
-              Manufactured &amp; supplied — SKU-specific. Drawing-based parts within our capability window are made in-house; others brokered through vetted mills with full traceability.
+              Manufactured &amp; supplied - SKU-specific. Drawing-based parts within our capability window are made in-house; others brokered through vetted mills with full traceability.
             </ClassificationBanner>
           </div>
         </Container>
       </Section>
 
       {/* 2. Capability Window Block (REQUIRED) */}
-      {/* VERIFICATION PENDING: Confirm sourcing partner network geography scope (Rajkot / Ludhiana / Taiwan / China) — ref: brief §10 item 1 */}
-      {/* VERIFICATION PENDING: Confirm routine tolerance envelope (IS 1367 Grade A/B/C vs CNC micro-tolerances) — ref: brief §10 item 5 */}
+      {/* VERIFICATION PENDING: Confirm sourcing partner network geography scope (Rajkot / Ludhiana / Taiwan / China) - ref: brief §10 item 1 */}
+      {/* VERIFICATION PENDING: Confirm routine tolerance envelope (IS 1367 Grade A/B/C vs CNC micro-tolerances) - ref: brief §10 item 5 */}
       <Section variant="alt">
         <Container>
           <div className="flex items-center gap-3">
@@ -658,7 +658,7 @@ export default function Page() {
       </Section>
 
       {/* 4. 5-Step Process Block */}
-      {/* VERIFICATION PENDING: Confirm in-network lead times (10-21 days) vs new die tooling (4-8 weeks) — ref: brief §10 item 6 */}
+      {/* VERIFICATION PENDING: Confirm in-network lead times (10-21 days) vs new die tooling (4-8 weeks) - ref: brief §10 item 6 */}
       <Section variant="alt">
         <Container>
           <div className="flex items-center gap-3">
@@ -773,7 +773,7 @@ export default function Page() {
       </Section>
 
       {/* 6. Drawing Checklist */}
-      {/* VERIFICATION PENDING: Confirm accepted drawing formats (PDF, DWG, DXF, STEP) — ref: brief §10 item 3 */}
+      {/* VERIFICATION PENDING: Confirm accepted drawing formats (PDF, DWG, DXF, STEP) - ref: brief §10 item 3 */}
       <Section variant="alt">
         <Container>
           <div className="flex items-center gap-3">
@@ -956,9 +956,9 @@ export default function Page() {
       </Section>
 
       {/* 10. Confidentiality & IP Protocol */}
-      {/* VERIFICATION PENDING: Confirm mutual NDA template handling — ref: brief §10 item 4 */}
-      {/* VERIFICATION PENDING: Confirm IP and sample batch retention period — ref: brief §10 item 7 */}
-      {/* VERIFICATION PENDING: Confirm sector exclusions confirmation (aerospace, nuclear, medical) — ref: brief §10 item 8 */}
+      {/* VERIFICATION PENDING: Confirm mutual NDA template handling - ref: brief §10 item 4 */}
+      {/* VERIFICATION PENDING: Confirm IP and sample batch retention period - ref: brief §10 item 7 */}
+      {/* VERIFICATION PENDING: Confirm sector exclusions confirmation (aerospace, nuclear, medical) - ref: brief §10 item 8 */}
       <Section variant="alt">
         <Container>
           <div className="flex items-center gap-3">
