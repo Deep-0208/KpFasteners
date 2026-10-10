@@ -63,10 +63,15 @@ __pycache__/
 *.key
 *.crt
 *.cert
+credentials
 credentials/
-*credentials*.json
+/credentials
+/credentials/
+*credentials*
+*credential*
 *service-account*.json
 gsc*.json
+*gsc*.json
 
 # IDE & Code Editors / Agents
 .agents/
