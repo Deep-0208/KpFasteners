@@ -1,11 +1,23 @@
 import Link from 'next/link';
-import { ArrowRight, Factory, Truck, Layers, ShieldCheck, FileText, Wrench } from 'lucide-react';
+import {
+  ArrowRight,
+  Layers,
+  Wrench,
+  FileText,
+  Phone,
+  Building2,
+  CheckCircle2,
+} from 'lucide-react';
+import { company } from '@/data/company';
 
 /**
- * 4-column industrial mega menu for Products.
- * Accepts optional onClose callback to dismiss menu on link selection.
+ * Clean, intuitive B2B product mega menu for KP Fasteners.
+ * Organized by natural fastener categories with clear visual hierarchy,
+ * eliminating confusing internal jargon and visual clutter.
  */
 export function MegaMenu({ onClose }: { onClose?: () => void }) {
+  const tel = `tel:${company.telephones[0].replace(/[^\d+]/g, '')}`;
+
   return (
     <div className="space-y-5">
       {/* Directory Sub-Header */}
@@ -13,118 +25,105 @@ export function MegaMenu({ onClose }: { onClose?: () => void }) {
         <div className="flex items-center gap-2">
           <span className="h-2 w-2 rounded-full bg-amber-600" />
           <p className="font-heading text-xs font-bold uppercase tracking-wider text-slate-900">
-            Industrial Fastener Engineering Directory
+            Fastener Products &amp; Technical Catalog
           </p>
         </div>
-        <p className="hidden text-xs text-slate-500 sm:block">
-          9 Product Families · Verified Technical Specifications · Pan-India Dispatch
-        </p>
+        <Link
+          href="/products/"
+          onClick={onClose}
+          className="inline-flex items-center gap-1 text-xs font-semibold text-amber-700 hover:text-amber-800 hover:underline"
+        >
+          <span>View All 9 Product Categories</span>
+          <ArrowRight aria-hidden="true" className="h-3.5 w-3.5" />
+        </Link>
       </div>
 
-      <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
-        {/* Column 1: OEM In-House Fasteners (Highlighted) */}
-        <div className="rounded-xl border border-amber-200/70 bg-amber-50/40 p-4">
-          <div className="mb-2 flex items-center justify-between">
-            <div className="flex items-center gap-1.5">
-              <Factory aria-hidden="true" className="h-4 w-4 text-amber-700" />
-              <p className="text-xs font-bold uppercase tracking-wider text-amber-900">
-                OEM Fasteners
-              </p>
-            </div>
-            <span className="rounded bg-amber-200/80 px-1.5 py-0.5 text-[10px] font-bold text-amber-900">
-              Ahmedabad
-            </span>
+      <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
+        {/* Column 1: Anchors & Structural Rods */}
+        <div>
+          <div className="mb-3 flex items-center gap-2 border-b border-slate-100 pb-2">
+            <Building2 aria-hidden="true" className="h-4 w-4 text-amber-600" />
+            <p className="font-heading text-xs font-bold uppercase tracking-wider text-slate-800">
+              Anchors &amp; Rods
+            </p>
           </div>
-          <p className="mb-3 text-[11px] text-amber-900/70">
-            Manufactured in-house at our plant
-          </p>
           <ul className="space-y-1">
             {[
               {
                 href: '/products/foundation-bolts/',
                 label: 'Foundation Bolts',
-                desc: 'IS 5624 · J, L, U & Anchors',
+                desc: 'IS 5624 · J, L, U & Hooked Anchors',
               },
               {
                 href: '/products/stud-bolts/',
                 label: 'Stud Bolts',
-                desc: 'ASTM A193 B7 / B8 / B8M',
+                desc: 'ASTM A193 B7 / B8 / B8M Flange Studs',
               },
               {
                 href: '/products/sag-rods/',
                 label: 'Sag Rods',
-                desc: 'PEB Purlin & Structural Bracing',
+                desc: 'PEB Purlin & Solar Bracing Rods',
               },
               {
-                href: '/products/custom-fasteners/',
-                label: 'Custom Fasteners',
-                desc: 'Drawing-to-Print Fabrication',
+                href: '/products/tie-rods/',
+                label: 'Tie Rods',
+                desc: 'D15 / D20 Civil Formwork Rods',
               },
             ].map((item) => (
               <li key={item.href}>
                 <Link
                   href={item.href}
                   onClick={onClose}
-                  className="group block rounded-lg px-2.5 py-1.5 transition-colors hover:bg-amber-100/70"
+                  className="group block rounded-lg px-2.5 py-2 transition-colors hover:bg-slate-50"
                 >
-                  <p className="font-heading text-xs font-bold text-slate-900 group-hover:text-amber-900">
+                  <p className="font-heading text-xs font-bold text-slate-900 group-hover:text-amber-700">
                     {item.label}
                   </p>
-                  <p className="text-[11px] text-slate-600 group-hover:text-amber-800">
-                    {item.desc}
-                  </p>
+                  <p className="text-[11px] text-slate-500">{item.desc}</p>
                 </Link>
               </li>
             ))}
           </ul>
         </div>
 
-        {/* Column 2: Distribution Range Hardware */}
-        <div className="p-1">
-          <div className="mb-2 flex items-center gap-1.5">
-            <Truck aria-hidden="true" className="h-4 w-4 text-slate-700" />
-            <p className="text-xs font-bold uppercase tracking-wider text-slate-800">
-              Distribution Range
+        {/* Column 2: Bolts & Hardware */}
+        <div>
+          <div className="mb-3 flex items-center gap-2 border-b border-slate-100 pb-2">
+            <Wrench aria-hidden="true" className="h-4 w-4 text-amber-600" />
+            <p className="font-heading text-xs font-bold uppercase tracking-wider text-slate-800">
+              Bolts &amp; Hardware
             </p>
           </div>
-          <p className="mb-3 text-[11px] text-slate-500">
-            Vetted partner inventory · Single PO
-          </p>
           <ul className="space-y-1">
             {[
               {
                 href: '/products/hex-bolts-nuts/',
                 label: 'Hex Bolts & Nuts',
-                desc: 'DIN 933 / 934 · Gr 4.6 to 10.9',
+                desc: 'DIN 933 / 934 · Property Class 4.6–10.9',
               },
               {
                 href: '/products/csk-allen-bolts/',
                 label: 'CSK Allen Bolts',
-                desc: 'DIN 7991 · Socket Screws',
-              },
-              {
-                href: '/products/tie-rods/',
-                label: 'Tie Rods',
-                desc: 'D15 / D20 Civil Formwork',
-              },
-              {
-                href: '/products/scaffold-accessories/',
-                label: 'Scaffold Accessories',
-                desc: 'Wing Nuts & Waller Plates',
+                desc: 'DIN 7991 · Flush Socket Screws',
               },
               {
                 href: '/products/solar-accessories/',
                 label: 'Solar Accessories',
-                desc: 'MMS Flange Bolts & Clamps',
+                desc: 'MMS Flange Bolts & Module Clamps',
+              },
+              {
+                href: '/products/scaffold-accessories/',
+                label: 'Scaffold Accessories',
+                desc: 'Wing Nuts, Waller Plates & Nut Sets',
               },
             ].map((item) => (
               <li key={item.href}>
                 <Link
                   href={item.href}
                   onClick={onClose}
-                  className="group block rounded-lg px-2 py-1 transition-colors hover:bg-slate-100"
+                  className="group block rounded-lg px-2.5 py-2 transition-colors hover:bg-slate-50"
                 >
-                  <p className="font-heading text-xs font-semibold text-slate-800 group-hover:text-amber-800">
+                  <p className="font-heading text-xs font-bold text-slate-900 group-hover:text-amber-700">
                     {item.label}
                   </p>
                   <p className="text-[11px] text-slate-500">{item.desc}</p>
@@ -134,37 +133,44 @@ export function MegaMenu({ onClose }: { onClose?: () => void }) {
           </ul>
         </div>
 
-        {/* Column 3: Materials & Metallurgy */}
-        <div className="p-1">
-          <div className="mb-2 flex items-center gap-1.5">
-            <Layers aria-hidden="true" className="h-4 w-4 text-slate-700" />
-            <p className="text-xs font-bold uppercase tracking-wider text-slate-800">
-              Materials
+        {/* Column 3: Custom & Metallurgy */}
+        <div>
+          <div className="mb-3 flex items-center gap-2 border-b border-slate-100 pb-2">
+            <Layers aria-hidden="true" className="h-4 w-4 text-amber-600" />
+            <p className="font-heading text-xs font-bold uppercase tracking-wider text-slate-800">
+              Custom &amp; Materials
             </p>
           </div>
-          <p className="mb-3 text-[11px] text-slate-500">
-            Certified chemical &amp; tensile grades
-          </p>
           <ul className="space-y-1">
             {[
+              {
+                href: '/products/custom-fasteners/',
+                label: 'Custom Fasteners',
+                desc: 'Drawing-to-Print Special Fabrication',
+              },
               {
                 href: '/materials/high-tensile-fasteners/',
                 label: 'High-Tensile Steel',
-                desc: 'Property Class 8.8, 10.9 & 12.9',
+                desc: 'Class 8.8, 10.9 & 12.9 Alloy Steels',
               },
               {
                 href: '/materials/stainless-steel-fasteners/',
-                label: 'Stainless Steel',
-                desc: 'SS 304 & Marine-Grade SS 316',
+                label: 'Stainless Steel Fasteners',
+                desc: 'SS 304 (A2-70) & SS 316 (A4-70)',
+              },
+              {
+                href: '/tools/',
+                label: 'Fastener Calculators',
+                desc: 'Weight, Torque & Pitch Engineering Tools',
               },
             ].map((item) => (
               <li key={item.href}>
                 <Link
                   href={item.href}
                   onClick={onClose}
-                  className="group block rounded-lg px-2 py-1 transition-colors hover:bg-slate-100"
+                  className="group block rounded-lg px-2.5 py-2 transition-colors hover:bg-slate-50"
                 >
-                  <p className="font-heading text-xs font-semibold text-slate-800 group-hover:text-amber-800">
+                  <p className="font-heading text-xs font-bold text-slate-900 group-hover:text-amber-700">
                     {item.label}
                   </p>
                   <p className="text-[11px] text-slate-500">{item.desc}</p>
@@ -172,88 +178,64 @@ export function MegaMenu({ onClose }: { onClose?: () => void }) {
               </li>
             ))}
           </ul>
-
-          {/* Quick Engineering Tools Card */}
-          <Link
-            href="/tools/"
-            onClick={onClose}
-            className="mt-4 block rounded-lg border border-slate-200 bg-slate-50 p-2.5 transition-all hover:border-amber-300 hover:bg-amber-50/50"
-          >
-            <div className="flex items-center gap-1.5 text-xs font-bold text-slate-800">
-              <Wrench aria-hidden="true" className="h-3.5 w-3.5 text-amber-600" />
-              <span>Engineering Tools &amp; MTC</span>
-            </div>
-            <p className="mt-0.5 text-[11px] text-slate-600">
-              Weight, torque &amp; 3.1 cert specs →
-            </p>
-          </Link>
         </div>
 
-        {/* Column 4: Industries Served */}
-        <div className="p-1">
-          <div className="mb-2 flex items-center gap-1.5">
-            <ShieldCheck aria-hidden="true" className="h-4 w-4 text-slate-700" />
-            <p className="text-xs font-bold uppercase tracking-wider text-slate-800">
-              Industries
+        {/* Column 4: Quick RFQ Callout Card */}
+        <div className="flex flex-col justify-between rounded-xl border border-amber-200/80 bg-gradient-to-br from-amber-50/60 to-white p-4 shadow-xs">
+          <div>
+            <div className="flex items-center gap-2">
+              <div className="flex h-7 w-7 items-center justify-center rounded-lg bg-amber-100 text-amber-800">
+                <FileText aria-hidden="true" className="h-4 w-4" />
+              </div>
+              <p className="font-heading text-xs font-bold uppercase tracking-wider text-amber-950">
+                Direct Project RFQ
+              </p>
+            </div>
+            <p className="mt-2.5 text-xs text-slate-600 leading-relaxed">
+              Have a bill of materials or custom technical drawing? We quote within 24 hours with exact standards, coatings, and MTC 3.1 availability.
             </p>
+            <div className="mt-3 flex items-center gap-1.5 text-[11px] font-medium text-slate-700">
+              <CheckCircle2 aria-hidden="true" className="h-3.5 w-3.5 text-emerald-600 shrink-0" />
+              <span>Drawings accepted: PDF, CAD, DWG</span>
+            </div>
           </div>
-          <p className="mb-3 text-[11px] text-slate-500">
-            Sector-aligned fastener BOMs
-          </p>
-          <ul className="space-y-1">
-            {[
-              {
-                href: '/industries/construction-infrastructure/',
-                label: 'Construction & PEB',
-                desc: 'Base Plates, Anchor Cages & Frames',
-              },
-              {
-                href: '/industries/solar-mounting-fasteners/',
-                label: 'Solar Mounting Arrays',
-                desc: 'Rooftop MMS & Ground Mounts',
-              },
-              {
-                href: '/industries/automotive-heavy-engineering/',
-                label: 'Heavy Engineering & OEMs',
-                desc: 'Machinery & Equipment Fasteners',
-              },
-            ].map((item) => (
-              <li key={item.href}>
-                <Link
-                  href={item.href}
-                  onClick={onClose}
-                  className="group block rounded-lg px-2 py-1 transition-colors hover:bg-slate-100"
-                >
-                  <p className="font-heading text-xs font-semibold text-slate-800 group-hover:text-amber-800">
-                    {item.label}
-                  </p>
-                  <p className="text-[11px] text-slate-500">{item.desc}</p>
-                </Link>
-              </li>
-            ))}
-          </ul>
+
+          <div className="mt-4 space-y-2 pt-2 border-t border-amber-200/50">
+            <Link
+              href="/request-quote/"
+              onClick={onClose}
+              className="flex w-full items-center justify-center gap-1.5 rounded-lg bg-gradient-to-b from-amber-600 to-amber-700 py-2.5 px-3 font-heading text-xs font-bold text-white shadow-xs transition-all hover:from-amber-500 hover:to-amber-600 active:scale-[0.98]"
+            >
+              <span>Request Quote / Upload BOQ</span>
+              <ArrowRight aria-hidden="true" className="h-3.5 w-3.5 text-amber-200" />
+            </Link>
+            <a
+              href={tel}
+              className="flex items-center justify-center gap-1.5 py-1 text-[11px] font-semibold text-slate-700 hover:text-amber-800"
+            >
+              <Phone aria-hidden="true" className="h-3 w-3 text-amber-600" />
+              <span>Call: {company.telephones[0]}</span>
+            </a>
+          </div>
         </div>
       </div>
 
-      {/* MegaMenu Bottom Action Bar */}
-      <div className="flex flex-wrap items-center justify-between gap-3 border-t border-slate-100 pt-3.5 text-xs">
+      {/* Clean Bottom Trust Strip */}
+      <div className="flex flex-wrap items-center justify-between gap-3 border-t border-slate-100 pt-3 text-xs text-slate-500">
+        <div className="flex items-center gap-4">
+          <span className="flex items-center gap-1">
+            <span className="h-1.5 w-1.5 rounded-full bg-emerald-500" />
+            <span>Ahmedabad Plant Manufacturing &amp; Dispatch</span>
+          </span>
+          <span className="hidden sm:inline text-slate-300">·</span>
+          <span className="hidden sm:inline">EN 10204 3.1 MTC on request</span>
+        </div>
         <Link
-          href="/products/"
+          href="/contact/"
           onClick={onClose}
-          className="inline-flex items-center gap-1 font-heading font-bold text-amber-700 hover:text-amber-800 hover:underline"
+          className="font-heading font-semibold text-slate-700 hover:text-amber-700 hover:underline"
         >
-          View All 9 Product Categories <ArrowRight aria-hidden="true" className="h-3.5 w-3.5" />
-        </Link>
-        <span className="hidden items-center gap-1 text-slate-500 sm:flex">
-          <FileText aria-hidden="true" className="h-3.5 w-3.5 text-amber-600" />
-          <span>Drawings accepted as PDF / DWG · EN 10204 3.1 MTC on request</span>
-        </span>
-        <Link
-          href="/request-quote/"
-          onClick={onClose}
-          className="font-heading font-bold text-slate-800 hover:text-amber-700 hover:underline"
-        >
-          Submit Drawing for RFQ →
+          Contact Sales Team →
         </Link>
       </div>
     </div>

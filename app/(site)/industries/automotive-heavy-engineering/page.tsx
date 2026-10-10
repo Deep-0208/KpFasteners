@@ -21,6 +21,7 @@ import { Container } from '@/components/ui/Container';
 import { Section } from '@/components/ui/Section';
 import { Heading } from '@/components/ui/Heading';
 import { Card } from '@/components/ui/Card';
+import { RelatedProductCards } from '@/components/ui/RelatedProductCards';
 import { Prose } from '@/components/ui/Prose';
 import { Breadcrumbs } from '@/components/ui/Breadcrumbs';
 import { Accordion } from '@/components/ui/Accordion';
@@ -892,12 +893,12 @@ export default function Page() {
       {/* VERIFICATION PENDING: Confirm PPAP capability (Level 2 on request vs Level 3 case-by-case), FAIR template, and in-house PMI gun — ref: brief §10 items 3, 6 & 7 */}
       <Section variant="alt">
         <Container>
-          <div className="rounded-xl border border-border bg-surface p-8 shadow-card">
-            <div className="grid gap-8 lg:grid-cols-[1.5fr_1fr] lg:items-center">
-              <div>
-                <div className="flex items-center gap-2">
-                  <FileCheck aria-hidden="true" className="h-6 w-6 text-brand-gold-strong" />
-                  <Heading as="h2" variant="section">
+          <div className="rounded-xl border border-border bg-surface p-5 sm:p-6 lg:p-8 shadow-card overflow-hidden">
+            <div className="grid gap-8 lg:grid-cols-[1.5fr_1fr] lg:items-center min-w-0">
+              <div className="min-w-0">
+                <div className="flex items-start sm:items-center gap-2.5">
+                  <FileCheck aria-hidden="true" className="h-6 w-6 shrink-0 text-brand-gold-strong mt-1 sm:mt-0" />
+                  <Heading as="h2" variant="section" className="min-w-0 flex-1">
                     Quality documentation &amp; dispatch inspection envelope
                   </Heading>
                 </div>
@@ -905,7 +906,7 @@ export default function Page() {
                   Every production consignment leaving our Ahmedabad facility is accompanied by complete inspection documentation, ensuring total traceability and compliance with engineering specifications:
                 </p>
 
-                <div className="mt-6">
+                <div className="mt-6 min-w-0 overflow-hidden">
                   <SpecTable
                     headers={[
                       'Documentation Deliverable',
@@ -916,12 +917,12 @@ export default function Page() {
                   />
                 </div>
               </div>
-              <div className="space-y-4 text-center lg:text-right">
+              <div className="space-y-4 text-center lg:text-right min-w-0">
                 <Link
                   href="/tools/"
-                  className="btn btn-secondary"
+                  className="btn btn-secondary inline-flex max-w-full text-center text-sm"
                 >
-                  MTC EN 10204 3.1, PPAP Level 2 / 3, PMI, NABL tensile →
+                  Explore Quality &amp; Testing Documentation →
                 </Link>
                 <p className="text-xs text-ink-muted">
                   Learn more about our quality control lab, hardness testing calibration, and NABL partner network.
@@ -945,24 +946,15 @@ export default function Page() {
             Explore dedicated technical catalogs and materials selection guides across our high-tensile and precision fastener lines:
           </p>
 
-          <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {FORMS.map((form) => (
-              <Card key={form.slug} variant="default" padding="lg">
-                <Heading as="h3" variant="card">
-                  {form.title}
-                </Heading>
-                <p className="mt-2 text-sm text-ink-muted">{form.description}</p>
-                <div className="mt-4">
-                  <Link
-                    href={form.slug}
-                    className="inline-flex items-center gap-1 text-sm font-semibold text-brand-gold-strong hover:underline"
-                  >
-                    View {form.anchorText}
-                    <ArrowRight aria-hidden="true" className="h-4 w-4" />
-                  </Link>
-                </div>
-              </Card>
-            ))}
+          <div className="mt-8">
+            <RelatedProductCards
+              items={FORMS.map((form) => ({
+                href: form.slug,
+                title: form.title,
+                body: form.description,
+                anchor: form.anchorText,
+              }))}
+            />
           </div>
 
           <div className="mt-8 text-center">

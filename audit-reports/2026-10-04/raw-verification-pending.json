@@ -21,22 +21,22 @@
   },
   {
     "file": "app\\(site)\\about\\page.tsx",
-    "line": 297,
+    "line": 288,
     "text": "{/* VERIFICATION PENDING: Real photograph of factory sign board, manufacturing shop floor, and warehouse at Ahmedabad — ref: brief §6 & §10 item 5 */}"
   },
   {
     "file": "app\\(site)\\about\\page.tsx",
-    "line": 508,
+    "line": 496,
     "text": "{/* VERIFICATION PENDING: Exact shop-floor square footage, machine inventory, and annual tonnage — ref: brief §3 & §10 item 5 */}"
   },
   {
     "file": "app\\(site)\\contact\\page.tsx",
-    "line": 240,
+    "line": 236,
     "text": "{/* VERIFICATION PENDING: factory lat/lng — need 5-decimal coordinates"
   },
   {
     "file": "app\\(site)\\contact\\page.tsx",
-    "line": 242,
+    "line": 238,
     "text": "{/* VERIFICATION PENDING: Google Business Profile URL — add to"
   },
   {
@@ -96,22 +96,22 @@
   },
   {
     "file": "app\\(site)\\industries\\automotive-heavy-engineering\\page.tsx",
-    "line": 532,
+    "line": 529,
     "text": "{/* VERIFICATION PENDING: Confirm whether KP actively serves automotive OEMs or tier suppliers (tier-1, tier-2, tier-3) & IATF 16949 status — ref: brief §10 items 1 & 4 */}"
   },
   {
     "file": "app\\(site)\\industries\\automotive-heavy-engineering\\page.tsx",
-    "line": 605,
+    "line": 602,
     "text": "{/* VERIFICATION PENDING: Confirm heavy-engineering sector list (power / machinery / mining / oil & gas BOP / agricultural) — ref: brief §10 item 2 */}"
   },
   {
     "file": "app\\(site)\\industries\\automotive-heavy-engineering\\page.tsx",
-    "line": 734,
+    "line": 731,
     "text": "{/* VERIFICATION PENDING: Confirm OEM-coded coating partners (zinc-nickel / Dacromet / Geomet) — ref: brief §10 item 8 */}"
   },
   {
     "file": "app\\(site)\\industries\\automotive-heavy-engineering\\page.tsx",
-    "line": 895,
+    "line": 892,
     "text": "{/* VERIFICATION PENDING: Confirm PPAP capability (Level 2 on request vs Level 3 case-by-case), FAIR template, and in-house PMI gun — ref: brief §10 items 3, 6 & 7 */}"
   },
   {
@@ -161,27 +161,27 @@
   },
   {
     "file": "app\\(site)\\industries\\construction-infrastructure\\page.tsx",
-    "line": 637,
+    "line": 634,
     "text": "{/* VERIFICATION PENDING: Confirm tunnel / metro-rail scope & lifting-anchor stud scope for precast — ref: brief §10 items 1 & 2 */}"
   },
   {
     "file": "app\\(site)\\industries\\construction-infrastructure\\page.tsx",
-    "line": 819,
+    "line": 816,
     "text": "{/* VERIFICATION PENDING: Confirm exclusion of post-tensioning tendons, bridge stay-cable anchorages, and soil-nailing bars — ref: brief §10 item 8 */}"
   },
   {
     "file": "app\\(site)\\industries\\construction-infrastructure\\page.tsx",
-    "line": 888,
+    "line": 885,
     "text": "{/* VERIFICATION PENDING: Confirm dispatch SLA table by metro-cluster pin codes — ref: brief §10 item 3 & §4.4 */}"
   },
   {
     "file": "app\\(site)\\industries\\construction-infrastructure\\page.tsx",
-    "line": 976,
+    "line": 973,
     "text": "{/* VERIFICATION PENDING: Confirm anonymised project references and named EPC references with written permission — ref: brief §10 items 4 & 5 */}"
   },
   {
     "file": "app\\(site)\\industries\\construction-infrastructure\\page.tsx",
-    "line": 977,
+    "line": 974,
     "text": "{/* VERIFICATION PENDING: Confirm whether KP has approved-vendor status on any state or central agency vendor list (SOR / NIT) that we may cite — ref: brief §10 item 7 */}"
   },
   {
@@ -226,32 +226,32 @@
   },
   {
     "file": "app\\(site)\\industries\\solar-mounting-fasteners\\page.tsx",
-    "line": 475,
+    "line": 472,
     "text": "{/* VERIFICATION PENDING: Confirm tracker OEM supply scope — does KP supply tracker torque-tube BOMs today or fixed-tilt + rooftop only? — ref: brief §10 item 1 */}"
   },
   {
     "file": "app\\(site)\\industries\\solar-mounting-fasteners\\page.tsx",
-    "line": 543,
+    "line": 540,
     "text": "{/* VERIFICATION PENDING: Confirm indicative fastener quantities per MWp — ref: brief §10 item 7 */}"
   },
   {
     "file": "app\\(site)\\industries\\solar-mounting-fasteners\\page.tsx",
-    "line": 718,
+    "line": 715,
     "text": "{/* VERIFICATION PENDING: Confirm dispatch SLA table by state and pin-code cluster — ref: brief §10 item 2 */}"
   },
   {
     "file": "app\\(site)\\industries\\solar-mounting-fasteners\\page.tsx",
-    "line": 719,
+    "line": 716,
     "text": "{/* VERIFICATION PENDING: Confirm stocked J-bolt sizes for solar piers vs MTO lead times — ref: brief §10 item 8 */}"
   },
   {
     "file": "app\\(site)\\industries\\solar-mounting-fasteners\\page.tsx",
-    "line": 747,
+    "line": 744,
     "text": "{/* VERIFICATION PENDING: Confirm anonymised project references and named EPC references with written permission — ref: brief §10 items 3 & 4 */}"
   },
   {
     "file": "app\\(site)\\industries\\solar-mounting-fasteners\\page.tsx",
-    "line": 748,
+    "line": 745,
     "text": "{/* VERIFICATION PENDING: Confirm coastal solar project references with SS 316 upgrade — ref: brief §10 item 5 */}"
   },
   {
@@ -296,32 +296,32 @@
   },
   {
     "file": "app\\(site)\\materials\\high-tensile-fasteners\\page.tsx",
-    "line": 515,
+    "line": 512,
     "text": "{/* VERIFICATION PENDING: Confirm HDE bake-out protocol on HDG + PC 10.9 (190–230 °C for ≥ 4 hr within 4 hr of plating) — ref: brief §10 item 3 */}"
   },
   {
     "file": "app\\(site)\\materials\\high-tensile-fasteners\\page.tsx",
-    "line": 608,
+    "line": 605,
     "text": "{/* VERIFICATION PENDING: Confirm mating-nut class policy (auto-upgrade vs quoted per PO) — ref: brief §10 item 5 */}"
   },
   {
     "file": "app\\(site)\\materials\\high-tensile-fasteners\\page.tsx",
-    "line": 651,
+    "line": 648,
     "text": "{/* VERIFICATION PENDING: Confirm in-house vs outsourced heat treatment (quench + temper) on OEM lines — ref: brief §10 item 7 */}"
   },
   {
     "file": "app\\(site)\\materials\\high-tensile-fasteners\\page.tsx",
-    "line": 652,
+    "line": 649,
     "text": "{/* VERIFICATION PENDING: Confirm OEM status of PC 10.9 on foundation bolts and sag rods — ref: brief §10 item 1 */}"
   },
   {
     "file": "app\\(site)\\materials\\high-tensile-fasteners\\page.tsx",
-    "line": 653,
+    "line": 650,
     "text": "{/* VERIFICATION PENDING: Confirm PC 12.9 OEM status — ref: brief §10 item 2 */}"
   },
   {
     "file": "app\\(site)\\materials\\high-tensile-fasteners\\page.tsx",
-    "line": 787,
+    "line": 784,
     "text": "{/* VERIFICATION PENDING: Confirm NABL partner lab name for tensile verification — ref: brief §10 item 4 */}"
   },
   {
@@ -361,47 +361,47 @@
   },
   {
     "file": "app\\(site)\\materials\\stainless-steel-fasteners\\page.tsx",
-    "line": 407,
+    "line": 404,
     "text": "{/* VERIFICATION PENDING: Confirm whether SS 202 is ever supplied under KP dispatch or excluded entirely from inventory — ref: brief §10 item 2 */}"
   },
   {
     "file": "app\\(site)\\materials\\stainless-steel-fasteners\\page.tsx",
-    "line": 488,
+    "line": 485,
     "text": "{/* VERIFICATION PENDING: Confirm whether SS 316Ti is stocked or supplied strictly on-quote — ref: brief §10 item 1 */}"
   },
   {
     "file": "app\\(site)\\materials\\stainless-steel-fasteners\\page.tsx",
-    "line": 505,
+    "line": 502,
     "text": "{/* VERIFICATION PENDING: Confirm duplex 2205 minimum batch quantity and sourcing lead time — ref: brief §10 item 1 */}"
   },
   {
     "file": "app\\(site)\\materials\\stainless-steel-fasteners\\page.tsx",
-    "line": 787,
+    "line": 784,
     "text": "{/* VERIFICATION PENDING: Confirm in-house vs partner passivation discipline and chemical bath standards — ref: brief §10 item 4 */}"
   },
   {
     "file": "app\\(site)\\materials\\stainless-steel-fasteners\\page.tsx",
-    "line": 832,
+    "line": 829,
     "text": "{/* VERIFICATION PENDING: Confirm whether KP performs PMI inspection in-house with an owned XRF analyzer or routes lots to an accredited NABL testing partner — ref: brief §10 item 3 */}"
   },
   {
     "file": "app\\(site)\\materials\\stainless-steel-fasteners\\page.tsx",
-    "line": 833,
+    "line": 830,
     "text": "{/* VERIFICATION PENDING: Confirm named NABL partner testing laboratory for external verification — ref: brief §10 item 5 */}"
   },
   {
     "file": "app\\(site)\\privacy-policy\\page.tsx",
-    "line": 201,
+    "line": 197,
     "text": "{/* VERIFICATION PENDING: Formal data retention schedule confirmation by legal counsel — ref: brief §3 / §10 Q2 */}"
   },
   {
     "file": "app\\(site)\\privacy-policy\\page.tsx",
-    "line": 279,
+    "line": 275,
     "text": "{/* VERIFICATION PENDING: Cookie banner scope and analytics setup pending counsel confirmation — ref: brief §3 / §10 Q3 */}"
   },
   {
     "file": "app\\(site)\\privacy-policy\\page.tsx",
-    "line": 360,
+    "line": 356,
     "text": "{/* VERIFICATION PENDING: Specific Grievance Officer appointment and dedicated email address pending client and legal counsel confirmation — ref: brief §3 / §10 Q1 */}"
   },
   {
@@ -451,27 +451,27 @@
   },
   {
     "file": "app\\(site)\\products\\csk-allen-bolts\\page.tsx",
-    "line": 434,
+    "line": 433,
     "text": "{/* VERIFICATION PENDING: Real photograph of stocked CSK Allen bolt inventory at KP Fasteners Ahmedabad warehouse — ref: brief §6 & §10 item 8 */}"
   },
   {
     "file": "app\\(site)\\products\\csk-allen-bolts\\page.tsx",
-    "line": 553,
+    "line": 549,
     "text": "{/* VERIFICATION PENDING: Confirm head families stocked (countersunk socket DIN 7991 confirmed; button-head DIN 7380 and socket-cap DIN 912 to confirm) — ref: brief §10 item 1 */}"
   },
   {
     "file": "app\\(site)\\products\\csk-allen-bolts\\page.tsx",
-    "line": 724,
+    "line": 720,
     "text": "{/* VERIFICATION PENDING: Confirm stocked diameter and length range per head family (M3 to M24 drafting default) — ref: brief §10 item 3 */}"
   },
   {
     "file": "app\\(site)\\products\\csk-allen-bolts\\page.tsx",
-    "line": 761,
+    "line": 757,
     "text": "{/* VERIFICATION PENDING: Confirm grade split per head family (8.8 / 10.9 / 12.9 / SS A2 / SS A4) — ref: brief §10 item 2 */}"
   },
   {
     "file": "app\\(site)\\products\\csk-allen-bolts\\page.tsx",
-    "line": 762,
+    "line": 758,
     "text": "{/* VERIFICATION PENDING: Confirm coating options (black oxide default; zinc-nickel / nickel availability) — ref: brief §10 item 4 */}"
   },
   {
@@ -526,47 +526,47 @@
   },
   {
     "file": "app\\(site)\\products\\custom-fasteners\\page.tsx",
-    "line": 480,
+    "line": 479,
     "text": "{/* VERIFICATION PENDING: Real photograph of drawing review table at Ahmedabad facility — ref: brief §6 & §10 item 9 */}"
   },
   {
     "file": "app\\(site)\\products\\custom-fasteners\\page.tsx",
-    "line": 541,
+    "line": 537,
     "text": "{/* VERIFICATION PENDING: Confirm sourcing partner network geography scope (Rajkot / Ludhiana / Taiwan / China) — ref: brief §10 item 1 */}"
   },
   {
     "file": "app\\(site)\\products\\custom-fasteners\\page.tsx",
-    "line": 542,
+    "line": 538,
     "text": "{/* VERIFICATION PENDING: Confirm routine tolerance envelope (IS 1367 Grade A/B/C vs CNC micro-tolerances) — ref: brief §10 item 5 */}"
   },
   {
     "file": "app\\(site)\\products\\custom-fasteners\\page.tsx",
-    "line": 664,
+    "line": 660,
     "text": "{/* VERIFICATION PENDING: Confirm in-network lead times (10-21 days) vs new die tooling (4-8 weeks) — ref: brief §10 item 6 */}"
   },
   {
     "file": "app\\(site)\\products\\custom-fasteners\\page.tsx",
-    "line": 779,
+    "line": 775,
     "text": "{/* VERIFICATION PENDING: Confirm accepted drawing formats (PDF, DWG, DXF, STEP) — ref: brief §10 item 3 */}"
   },
   {
     "file": "app\\(site)\\products\\custom-fasteners\\page.tsx",
-    "line": 962,
+    "line": 958,
     "text": "{/* VERIFICATION PENDING: Confirm mutual NDA template handling — ref: brief §10 item 4 */}"
   },
   {
     "file": "app\\(site)\\products\\custom-fasteners\\page.tsx",
-    "line": 963,
+    "line": 959,
     "text": "{/* VERIFICATION PENDING: Confirm IP and sample batch retention period — ref: brief §10 item 7 */}"
   },
   {
     "file": "app\\(site)\\products\\custom-fasteners\\page.tsx",
-    "line": 964,
+    "line": 960,
     "text": "{/* VERIFICATION PENDING: Confirm sector exclusions confirmation (aerospace, nuclear, medical) — ref: brief §10 item 8 */}"
   },
   {
     "file": "app\\(site)\\products\\foundation-bolts\\page.tsx",
-    "line": 324,
+    "line": 317,
     "text": "{/* VERIFICATION PENDING: ASTM F1554 Grade 105 (alloy, heat-treated,"
   },
   {
@@ -611,27 +611,27 @@
   },
   {
     "file": "app\\(site)\\products\\hex-bolts-nuts\\page.tsx",
-    "line": 532,
+    "line": 531,
     "text": "{/* VERIFICATION PENDING: Real photograph of staged hex-bolt and nut inventory at KP Fasteners Ahmedabad facility — ref: brief §6 hero-hex-bolts-nuts-kp.webp & §10 item 10 */}"
   },
   {
     "file": "app\\(site)\\products\\hex-bolts-nuts\\page.tsx",
-    "line": 665,
+    "line": 661,
     "text": "{/* VERIFICATION PENDING: Confirm stocked diameter and length range per property class — ref: brief §10 item 2 */}"
   },
   {
     "file": "app\\(site)\\products\\hex-bolts-nuts\\page.tsx",
-    "line": 695,
+    "line": 691,
     "text": "{/* VERIFICATION PENDING: Confirm nut families stocked (standard, heavy hex, thin / jam, nylock, castle) — ref: brief §10 item 4 */}"
   },
   {
     "file": "app\\(site)\\products\\hex-bolts-nuts\\page.tsx",
-    "line": 725,
+    "line": 721,
     "text": "{/* VERIFICATION PENDING: Confirm property-class stocking coverage (4.6 / 4.8 / 8.8 / 10.9 routinely stocked vs 12.9 on-quote) — ref: brief §10 item 1 */}"
   },
   {
     "file": "app\\(site)\\products\\hex-bolts-nuts\\page.tsx",
-    "line": 755,
+    "line": 751,
     "text": "{/* VERIFICATION PENDING: Confirm coating availability per class (HDG vs mechanical galvanizing for 10.9) — ref: brief §10 item 3 */}"
   },
   {
@@ -641,72 +641,72 @@
   },
   {
     "file": "app\\(site)\\products\\page.tsx",
-    "line": 341,
+    "line": 336,
     "text": "{/* VERIFICATION PENDING: Real inventory lay-flat photography for products hub hero — ref: brief §6 / §10 Q5 */}"
   },
   {
     "file": "app\\(site)\\products\\page.tsx",
-    "line": 559,
+    "line": 554,
     "text": "{/* VERIFICATION PENDING: Client to confirm heavy engineering & automotive OEM client base — ref: brief §4.3 / §10 Q3 */}"
   },
   {
     "file": "app\\(site)\\products\\page.tsx",
-    "line": 597,
+    "line": 592,
     "text": "{/* VERIFICATION PENDING: Client to confirm 'What we don't sell' exclusion list — ref: brief §3 / §10 Q4 */}"
   },
   {
     "file": "app\\(site)\\products\\page.tsx",
-    "line": 664,
+    "line": 659,
     "text": "{/* VERIFICATION PENDING: Client to confirm exact made-vs-traded split across all categories before publish — ref: brief §5 Q1 / §10 Q2 */}"
   },
   {
     "file": "app\\(site)\\products\\page.tsx",
-    "line": 665,
+    "line": 660,
     "text": "{/* VERIFICATION PENDING: Client to confirm custom fastener MOQ and typical lead times — ref: brief §5 Q2 */}"
   },
   {
     "file": "app\\(site)\\products\\sag-rods\\page.tsx",
-    "line": 375,
+    "line": 368,
     "text": "{/* VERIFICATION PENDING: Base-metal source spec (IS 2062 grade E250 vs."
   },
   {
     "file": "app\\(site)\\products\\sag-rods\\page.tsx",
-    "line": 528,
+    "line": 521,
     "text": "{/* VERIFICATION PENDING: Property class 8.8 availability on sag-rod"
   },
   {
     "file": "app\\(site)\\products\\scaffold-accessories\\page.tsx",
-    "line": 144,
+    "line": 141,
     "text": "// VERIFICATION PENDING: Water-stopper assembly stock status is pending Kabir"
   },
   {
     "file": "app\\(site)\\products\\scaffold-accessories\\page.tsx",
-    "line": 154,
+    "line": 151,
     "text": "// VERIFICATION PENDING: Form-tie / snap-tie range is listed per standards"
   },
   {
     "file": "app\\(site)\\products\\scaffold-accessories\\page.tsx",
-    "line": 164,
+    "line": 161,
     "text": "// VERIFICATION PENDING: Scaffold coupler stock status and any IS 2750 ISI"
   },
   {
     "file": "app\\(site)\\products\\scaffold-accessories\\page.tsx",
-    "line": 172,
+    "line": 169,
     "text": "// VERIFICATION PENDING: HDG routing (in-house zinc tank vs. partner galvaniser)"
   },
   {
     "file": "app\\(site)\\products\\scaffold-accessories\\page.tsx",
-    "line": 528,
+    "line": 521,
     "text": "{/* VERIFICATION PENDING: Per-sub-type make-or-supply split, scaffold-"
   },
   {
     "file": "app\\(site)\\products\\scaffold-accessories\\page.tsx",
-    "line": 578,
+    "line": 571,
     "text": "{/* VERIFICATION PENDING: Specific SWL numbers for D15 (~90 kN) and"
   },
   {
     "file": "app\\(site)\\products\\scaffold-accessories\\page.tsx",
-    "line": 773,
+    "line": 766,
     "text": "{/* VERIFICATION PENDING: System-specific brand compatibility (PERI"
   },
   {
@@ -751,42 +751,42 @@
   },
   {
     "file": "app\\(site)\\products\\solar-accessories\\page.tsx",
-    "line": 493,
+    "line": 492,
     "text": "{/* VERIFICATION PENDING: Real photograph of solar accessories inventory at KP Fasteners Ahmedabad warehouse — ref: brief §6 hero-solar-accessories-kp.webp & §10 item 10 */}"
   },
   {
     "file": "app\\(site)\\products\\solar-accessories\\page.tsx",
-    "line": 596,
+    "line": 592,
     "text": "{/* VERIFICATION PENDING: Confirm exact solar SKU catalogue and stocking split (SS 304 vs SS 316 vs HDG) — ref: brief §10 items 1 & 2 */}"
   },
   {
     "file": "app\\(site)\\products\\solar-accessories\\page.tsx",
-    "line": 627,
+    "line": 623,
     "text": "{/* VERIFICATION PENDING: Confirm stocked module clamp heights (30 / 35 / 40 mm) — ref: brief §10 item 3 */}"
   },
   {
     "file": "app\\(site)\\products\\solar-accessories\\page.tsx",
-    "line": 657,
+    "line": 653,
     "text": "{/* VERIFICATION PENDING: Third-party MMS brand profile compatibility (Schletter / K2 / Mounting Systems) — ref: brief §10 item 1 */}"
   },
   {
     "file": "app\\(site)\\products\\solar-accessories\\page.tsx",
-    "line": 792,
+    "line": 788,
     "text": "{/* VERIFICATION PENDING: Confirm in-house testing vs supplier MTC pass-through (PMI, HDG gauge, salt-spray) & MTC availability — ref: brief §10 items 7 & 8 */}"
   },
   {
     "file": "app\\(site)\\products\\stud-bolts\\page.tsx",
-    "line": 177,
+    "line": 174,
     "text": "'B7 / B7M / B8M studs with A194 2H / 2HM / 8M nuts for process-piping flange joints. {/* VERIFICATION PENDING */}',"
   },
   {
     "file": "app\\(site)\\products\\stud-bolts\\page.tsx",
-    "line": 366,
+    "line": 359,
     "text": "{/* VERIFICATION PENDING: NACE MR0175 sour-service compliance for B7M"
   },
   {
     "file": "app\\(site)\\products\\stud-bolts\\page.tsx",
-    "line": 584,
+    "line": 577,
     "text": "{/* VERIFICATION PENDING: NACE MR0175 compliance claim for B7M is held"
   },
   {
@@ -836,67 +836,67 @@
   },
   {
     "file": "app\\(site)\\products\\tie-rods\\page.tsx",
-    "line": 569,
+    "line": 568,
     "text": "{/* VERIFICATION PENDING: Real photograph of stocked tie-rod inventory at KP Fasteners Ahmedabad warehouse — ref: brief §6 & §10 item 9 */}"
   },
   {
     "file": "app\\(site)\\products\\tie-rods\\page.tsx",
-    "line": 736,
+    "line": 732,
     "text": "{/* VERIFICATION PENDING: Confirm stocked diameter range (D15 / D20 confirmed; D22 / D24 on request) — ref: brief §10 item 2 */}"
   },
   {
     "file": "app\\(site)\\products\\tie-rods\\page.tsx",
-    "line": 737,
+    "line": 733,
     "text": "{/* VERIFICATION PENDING: Confirm matching accessory inventory split (wing nuts, anchor plates, water bars, cones) — ref: brief §10 item 3 */}"
   },
   {
     "file": "app\\(site)\\products\\tie-rods\\page.tsx",
-    "line": 951,
+    "line": 947,
     "text": "{/* VERIFICATION PENDING: Confirm length stocking (6m default vs cut-to-length) — ref: brief §10 item 4 */}"
   },
   {
     "file": "app\\(site)\\request-quote\\page.tsx",
-    "line": 110,
+    "line": 109,
     "text": "{/* VERIFICATION PENDING: response-SLA wording — \"within one working day\""
   },
   {
     "file": "app\\(site)\\request-quote\\page.tsx",
-    "line": 112,
+    "line": 111,
     "text": "{/* VERIFICATION PENDING: email sender domain — DMARC/DKIM for"
   },
   {
     "file": "app\\(site)\\terms\\page.tsx",
-    "line": 283,
+    "line": 279,
     "text": "{/* VERIFICATION PENDING: Commercial payment terms, advance percentage, and credit policy to be confirmed by Kabir and legal counsel — ref: brief §3 / §10 Q2 */}"
   },
   {
     "file": "app\\(site)\\terms\\page.tsx",
-    "line": 323,
+    "line": 319,
     "text": "{/* VERIFICATION PENDING: Default Incoterm (Ex-Works Ahmedabad vs FOR destination) to be confirmed by client — ref: brief §3 / §10 Q1 */}"
   },
   {
     "file": "app\\(site)\\terms\\page.tsx",
-    "line": 348,
+    "line": 344,
     "text": "{/* VERIFICATION PENDING: Warranty period on OEM items (12 months default) to be confirmed by Kabir — ref: brief §3 / §10 Q3 */}"
   },
   {
     "file": "app\\(site)\\terms\\page.tsx",
-    "line": 349,
+    "line": 345,
     "text": "{/* VERIFICATION PENDING: Pass-through warranty wording on traded distribution items to be approved by counsel — ref: brief §3 / §10 Q4 */}"
   },
   {
     "file": "app\\(site)\\terms\\page.tsx",
-    "line": 420,
+    "line": 416,
     "text": "{/* VERIFICATION PENDING: Liability cap threshold and exclusions to be drafted by Indian commercial lawyer — ref: brief §3 / §10 Q9 */}"
   },
   {
     "file": "app\\(site)\\terms\\page.tsx",
-    "line": 517,
+    "line": 513,
     "text": "{/* VERIFICATION PENDING: Dispute resolution mechanism (sole arbitrator vs three-member panel) to be selected by legal counsel — ref: brief §3 / §10 Q5 */}"
   },
   {
     "file": "app\\page.tsx",
-    "line": 279,
+    "line": 249,
     "text": "{/* VERIFICATION PENDING: dispatch SLAs — \"24–72 hrs Ahmedabad / 3–5"
   },
   {

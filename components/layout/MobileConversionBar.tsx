@@ -47,36 +47,40 @@ export function MobileConversionBar() {
     <div
       role="complementary"
       aria-label="Quick contact"
-      className="fixed inset-x-0 bottom-0 z-30 border-t border-border bg-surface pb-[env(safe-area-inset-bottom)] shadow-card-hover md:hidden"
+      className="fixed inset-x-0 bottom-0 z-30 w-full max-w-full overflow-hidden border-t border-border bg-surface pb-[env(safe-area-inset-bottom)] shadow-card-hover md:hidden"
     >
-      <div className="grid grid-cols-[1fr_1fr_1fr_auto]">
+      <div className="grid grid-cols-[1fr_1fr_1fr_auto] items-center text-xs sm:text-sm">
         <a
           href={tel}
-          className="flex min-h-[56px] items-center justify-center gap-2 text-sm font-medium text-brand-steel"
+          className="flex min-h-[50px] sm:min-h-[56px] items-center justify-center gap-1.5 sm:gap-2 px-1 sm:px-2 font-medium text-brand-steel hover:bg-surface-alt transition-colors"
           aria-label="Call KP Fasteners"
         >
-          <Phone aria-hidden="true" className="h-5 w-5" /> Call
+          <Phone aria-hidden="true" className="h-4 w-4 sm:h-5 sm:w-5 shrink-0" />
+          <span>Call</span>
         </a>
         <a
           href={wa}
           target="_blank"
           rel="noopener noreferrer"
-          className="flex min-h-[56px] items-center justify-center gap-2 border-x border-border bg-[#15803D] text-sm font-semibold text-white hover:bg-[#166534]"
+          className="flex min-h-[50px] sm:min-h-[56px] items-center justify-center gap-1.5 sm:gap-2 border-x border-border bg-[#15803D] px-1 sm:px-2 font-semibold text-white hover:bg-[#166534] transition-colors"
           aria-label="Message on WhatsApp"
         >
-          <MessageCircle aria-hidden="true" className="h-5 w-5" /> WhatsApp
+          <MessageCircle aria-hidden="true" className="h-4 w-4 sm:h-5 sm:w-5 shrink-0" />
+          <span className="hidden min-[360px]:inline">WhatsApp</span>
+          <span className="min-[360px]:hidden">WA</span>
         </a>
         <Link
           href="/request-quote/"
-          className="flex min-h-[56px] items-center justify-center gap-2 bg-[image:var(--gold-gradient)] text-sm font-semibold text-white shadow-gold"
+          className="flex min-h-[50px] sm:min-h-[56px] items-center justify-center gap-1.5 sm:gap-2 bg-[image:var(--gold-gradient)] px-1 sm:px-2 font-semibold text-white shadow-gold hover:brightness-105 transition-all"
         >
-          <FileText aria-hidden="true" className="h-5 w-5" /> RFQ
+          <FileText aria-hidden="true" className="h-4 w-4 sm:h-5 sm:w-5 shrink-0" />
+          <span>RFQ</span>
         </Link>
         <button
           type="button"
           onClick={close}
           aria-label="Dismiss quick-contact bar"
-          className="flex min-h-[56px] w-10 items-center justify-center border-l border-border text-ink-muted"
+          className="flex min-h-[50px] sm:min-h-[56px] w-8 sm:w-10 items-center justify-center border-l border-border text-ink-muted hover:text-ink hover:bg-surface-alt transition-colors"
         >
           <X aria-hidden="true" className="h-4 w-4" />
         </button>

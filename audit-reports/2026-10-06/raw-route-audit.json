@@ -69,7 +69,7 @@
           "@id": "https://kpfasteners.com/#organization",
           "name": "KP Fasteners",
           "url": "https://kpfasteners.com",
-          "logo": "https://kpfasteners.com/brand/logo.jpg.jpeg",
+          "logo": "https://kpfasteners.com/brand/logo.webp",
           "email": "sales@kpfasteners.com",
           "telephone": "+91-98982-30448",
           "sameAs": [
@@ -106,7 +106,7 @@
           "@id": "https://kpfasteners.com/#localbusiness",
           "name": "KP Fasteners",
           "url": "https://kpfasteners.com",
-          "image": "https://kpfasteners.com/brand/logo.png",
+          "image": "https://kpfasteners.com/brand/logo.webp",
           "telephone": "+91-98982-30448",
           "email": "sales@kpfasteners.com",
           "address": {
@@ -174,56 +174,56 @@
           "height": null
         },
         {
-          "src": "/_next/image/?url=%2Fimages%2Fproducts%2Fbolts%2Fj-bolt.jpg&amp;w=3840&amp;q=75",
-          "alt": "KP Fasteners foundation bolt — representative image (photo pending)",
+          "src": "/_next/image/?url=%2Fimages%2Fproducts%2Fbolts%2Fj-bolt.webp&amp;w=3840&amp;q=75",
+          "alt": "KP Fasteners foundation bolt — J, L, U and hooked anchors",
           "width": null,
           "height": null
         },
         {
-          "src": "/_next/image/?url=%2Fimages%2Fproducts%2Fthreaded-rods%2Fthreaded-rod-stud.jpg&amp;w=3840&amp;q=75",
-          "alt": "KP Fasteners stud bolt — representative image (photo pending)",
+          "src": "/_next/image/?url=%2Fimages%2Fproducts%2Fthreaded-rods%2Fthreaded-rod-stud.webp&amp;w=3840&amp;q=75",
+          "alt": "KP Fasteners stud bolt — ASTM A193 B7 / B8 / B8M continuous threaded rod",
           "width": null,
           "height": null
         },
         {
-          "src": "/_next/image/?url=%2Fimages%2Fproducts%2Fthreaded-rods%2Fthreaded-rod-stud.jpg&amp;w=3840&amp;q=75",
-          "alt": "KP Fasteners threaded sag rod — representative image (photo pending)",
+          "src": "/_next/image/?url=%2Fimages%2Fproducts%2Fthreaded-rods%2Fsag-rod.webp&amp;w=3840&amp;q=75",
+          "alt": "KP Fasteners threaded sag rod for PEB and solar purlin bracing",
           "width": null,
           "height": null
         },
         {
-          "src": "/_next/image/?url=%2Fimages%2Fproducts%2Fthreaded-rods%2Fwedge-anchor.jpg&amp;w=3840&amp;q=75",
-          "alt": "Scaffold accessory — representative image (photo pending)",
+          "src": "/_next/image/?url=%2Fimages%2Fproducts%2Fthreaded-rods%2Fwedge-anchor.webp&amp;w=3840&amp;q=75",
+          "alt": "Scaffold accessory — formwork hardware and wedge anchor accessories",
           "width": null,
           "height": null
         },
         {
-          "src": "/_next/image/?url=%2Fimages%2Fproducts%2Fbolts%2Fhex-bolt-hex-nut.jpg&amp;w=3840&amp;q=75",
-          "alt": "Hex bolt and hex nut — representative image (photo pending)",
+          "src": "/_next/image/?url=%2Fimages%2Fproducts%2Fbolts%2Fhex-bolt-hex-nut.webp&amp;w=3840&amp;q=75",
+          "alt": "Hex bolt and hex nut — DIN 933 / DIN 934 distribution range",
           "width": null,
           "height": null
         },
         {
-          "src": "/_next/image/?url=%2Fimages%2Fproducts%2Fbolts%2Fallen-socket-csk-screw.jpg&amp;w=3840&amp;q=75",
-          "alt": "Countersunk Allen socket screw — representative image (photo pending)",
+          "src": "/_next/image/?url=%2Fimages%2Fproducts%2Fbolts%2Fallen-socket-csk-screw.webp&amp;w=3840&amp;q=75",
+          "alt": "Countersunk Allen socket screw — DIN 7991 distribution range",
           "width": null,
           "height": null
         },
         {
-          "src": "/_next/image/?url=%2Fimages%2Fproducts%2Fthreaded-rods%2Fthreaded-rod-stud.jpg&amp;w=3840&amp;q=75",
-          "alt": "Tie rod — representative image (photo pending)",
+          "src": "/_next/image/?url=%2Fimages%2Fproducts%2Fthreaded-rods%2Ftie-rod.webp&amp;w=3840&amp;q=75",
+          "alt": "Tie rod and formwork rod — D15 and D20 distribution range",
           "width": null,
           "height": null
         },
         {
-          "src": "/_next/image/?url=%2Fimages%2Fproducts%2Fbolts%2Fhex-flange-bolt.jpg&amp;w=3840&amp;q=75",
-          "alt": "Solar mounting accessory — representative image (photo pending)",
+          "src": "/_next/image/?url=%2Fimages%2Fproducts%2Fbolts%2Fhex-flange-bolt.webp&amp;w=3840&amp;q=75",
+          "alt": "Solar mounting accessory — hex flange bolt and mounting hardware",
           "width": null,
           "height": null
         },
         {
-          "src": "/_next/image/?url=%2Fimages%2Fproducts%2Fbolts%2Fsocket-head-cap-screw.jpg&amp;w=3840&amp;q=75",
-          "alt": "Socket-head cap screw — representative image (photo pending)",
+          "src": "/_next/image/?url=%2Fimages%2Fproducts%2Fbolts%2Fsocket-head-cap-screw.webp&amp;w=3840&amp;q=75",
+          "alt": "Custom fasteners — socket-head cap screw and precision machined hardware",
           "width": null,
           "height": null
         },
@@ -261,7 +261,7 @@
     "og": {
       "title": "Fastener Manufacturer Ahmedabad | About KP Fasteners | KP",
       "desc": "Fastener manufacturer in Ahmedabad: OEM foundation, anchor, stud bolts and sag rods, plus complete distribution range. Certified MTC. Request a project quote.",
-      "image": "https://kpfasteners.com/product-images/about/facility.jpg",
+      "image": "https://kpfasteners.com/product-images/about/facility.webp",
       "twitterCard": "summary_large_image"
     },
     "headings": {
@@ -353,7 +353,7 @@
           "@id": "https://kpfasteners.com/#organization",
           "name": "KP Fasteners",
           "url": "https://kpfasteners.com",
-          "logo": "https://kpfasteners.com/brand/logo.jpg.jpeg",
+          "logo": "https://kpfasteners.com/brand/logo.webp",
           "email": "sales@kpfasteners.com",
           "telephone": "+91-98982-30448",
           "sameAs": [
@@ -390,7 +390,7 @@
           "@id": "https://kpfasteners.com/#localbusiness",
           "name": "KP Fasteners",
           "url": "https://kpfasteners.com",
-          "image": "https://kpfasteners.com/brand/logo.png",
+          "image": "https://kpfasteners.com/brand/logo.webp",
           "telephone": "+91-98982-30448",
           "email": "sales@kpfasteners.com",
           "address": {
@@ -428,7 +428,7 @@
           "height": "651"
         },
         {
-          "src": "/_next/image/?url=%2Fproduct-images%2Fabout%2Ffacility.jpg&amp;w=3840&amp;q=75",
+          "src": "/_next/image/?url=%2Fproduct-images%2Fabout%2Ffacility.webp&amp;w=3840&amp;q=75",
           "alt": "KP Fasteners facility sign board and industrial manufacturing plant in Ahmedabad, Gujarat",
           "width": null,
           "height": null
@@ -567,7 +567,7 @@
           "@id": "https://kpfasteners.com/#organization",
           "name": "KP Fasteners",
           "url": "https://kpfasteners.com",
-          "logo": "https://kpfasteners.com/brand/logo.jpg.jpeg",
+          "logo": "https://kpfasteners.com/brand/logo.webp",
           "email": "sales@kpfasteners.com",
           "telephone": "+91-98982-30448",
           "sameAs": [
@@ -604,7 +604,7 @@
           "@id": "https://kpfasteners.com/#localbusiness",
           "name": "KP Fasteners",
           "url": "https://kpfasteners.com",
-          "image": "https://kpfasteners.com/brand/logo.png",
+          "image": "https://kpfasteners.com/brand/logo.webp",
           "telephone": "+91-98982-30448",
           "email": "sales@kpfasteners.com",
           "address": {
@@ -728,7 +728,7 @@
           "@id": "https://kpfasteners.com/#organization",
           "name": "KP Fasteners",
           "url": "https://kpfasteners.com",
-          "logo": "https://kpfasteners.com/brand/logo.jpg.jpeg",
+          "logo": "https://kpfasteners.com/brand/logo.webp",
           "email": "sales@kpfasteners.com",
           "telephone": "+91-98982-30448",
           "sameAs": [
@@ -765,7 +765,7 @@
           "@id": "https://kpfasteners.com/#localbusiness",
           "name": "KP Fasteners",
           "url": "https://kpfasteners.com",
-          "image": "https://kpfasteners.com/brand/logo.png",
+          "image": "https://kpfasteners.com/brand/logo.webp",
           "telephone": "+91-98982-30448",
           "email": "sales@kpfasteners.com",
           "address": {
@@ -889,7 +889,7 @@
           "@id": "https://kpfasteners.com/#organization",
           "name": "KP Fasteners",
           "url": "https://kpfasteners.com",
-          "logo": "https://kpfasteners.com/brand/logo.jpg.jpeg",
+          "logo": "https://kpfasteners.com/brand/logo.webp",
           "email": "sales@kpfasteners.com",
           "telephone": "+91-98982-30448",
           "sameAs": [
@@ -926,7 +926,7 @@
           "@id": "https://kpfasteners.com/#localbusiness",
           "name": "KP Fasteners",
           "url": "https://kpfasteners.com",
-          "image": "https://kpfasteners.com/brand/logo.png",
+          "image": "https://kpfasteners.com/brand/logo.webp",
           "telephone": "+91-98982-30448",
           "email": "sales@kpfasteners.com",
           "address": {
@@ -997,7 +997,7 @@
     "og": {
       "title": "Industrial Fasteners Manufacturer &amp; Product Range | KP",
       "desc": "Industrial fasteners manufacturer and supplier in Ahmedabad. Browse foundation bolts, stud bolts, sag rods, hex bolts &amp; solar hardware. Request an RFQ today.",
-      "image": "https://kpfasteners.com/product-images/products-hub/hero.jpg",
+      "image": "https://kpfasteners.com/images/products/bolts/hex-bolt-hex-nut.webp",
       "twitterCard": "summary_large_image"
     },
     "headings": {
@@ -1147,7 +1147,7 @@
           "@id": "https://kpfasteners.com/#organization",
           "name": "KP Fasteners",
           "url": "https://kpfasteners.com",
-          "logo": "https://kpfasteners.com/brand/logo.jpg.jpeg",
+          "logo": "https://kpfasteners.com/brand/logo.webp",
           "email": "sales@kpfasteners.com",
           "telephone": "+91-98982-30448",
           "sameAs": [
@@ -1184,7 +1184,7 @@
           "@id": "https://kpfasteners.com/#localbusiness",
           "name": "KP Fasteners",
           "url": "https://kpfasteners.com",
-          "image": "https://kpfasteners.com/brand/logo.png",
+          "image": "https://kpfasteners.com/brand/logo.webp",
           "telephone": "+91-98982-30448",
           "email": "sales@kpfasteners.com",
           "address": {
@@ -1222,91 +1222,91 @@
           "height": "651"
         },
         {
-          "src": "/_next/image/?url=%2Fproduct-images%2Fproducts-hub%2Fhero.jpg&amp;w=3840&amp;q=75",
+          "src": "/_next/image/?url=%2Fimages%2Fproducts%2Fbolts%2Fhex-bolt-hex-nut.webp&amp;w=3840&amp;q=75",
           "alt": "KP Fasteners industrial fastener product range overview in Ahmedabad",
           "width": null,
           "height": null
         },
         {
-          "src": "/_next/image/?url=%2Fimages%2Fproducts%2Fbolts%2Fj-bolt.jpg&amp;w=3840&amp;q=75",
+          "src": "/_next/image/?url=%2Fimages%2Fproducts%2Fbolts%2Fj-bolt.webp&amp;w=3840&amp;q=75",
           "alt": "KP Fasteners foundation bolts — J, L, U and headed anchors",
           "width": null,
           "height": null
         },
         {
-          "src": "/_next/image/?url=%2Fimages%2Fproducts%2Fthreaded-rods%2Fthreaded-rod-stud.jpg&amp;w=3840&amp;q=75",
+          "src": "/_next/image/?url=%2Fimages%2Fproducts%2Fthreaded-rods%2Fthreaded-rod-stud.webp&amp;w=3840&amp;q=75",
           "alt": "KP Fasteners stud bolts — ASTM A193 B7 / B8 / B8M",
           "width": null,
           "height": null
         },
         {
-          "src": "/_next/image/?url=%2Fimages%2Fproducts%2Fthreaded-rods%2Fthreaded-rod-stud.jpg&amp;w=3840&amp;q=75",
-          "alt": "KP Fasteners threaded sag rod — representative image",
+          "src": "/_next/image/?url=%2Fimages%2Fproducts%2Fthreaded-rods%2Fsag-rod.webp&amp;w=3840&amp;q=75",
+          "alt": "KP Fasteners threaded sag rod for PEB and solar purlin bracing",
           "width": null,
           "height": null
         },
         {
-          "src": "/_next/image/?url=%2Fimages%2Fproducts%2Fthreaded-rods%2Fwedge-anchor.jpg&amp;w=3840&amp;q=75",
+          "src": "/_next/image/?url=%2Fimages%2Fproducts%2Fthreaded-rods%2Fwedge-anchor.webp&amp;w=3840&amp;q=75",
           "alt": "Scaffold accessories — wing nuts, nut sets, waller plates",
           "width": null,
           "height": null
         },
         {
-          "src": "/_next/image/?url=%2Fimages%2Fproducts%2Fbolts%2Fsocket-head-cap-screw.jpg&amp;w=3840&amp;q=75",
+          "src": "/_next/image/?url=%2Fimages%2Fproducts%2Fbolts%2Fsocket-head-cap-screw.webp&amp;w=3840&amp;q=75",
           "alt": "Custom fasteners — non-standard and drawing-to-sample",
           "width": null,
           "height": null
         },
         {
-          "src": "/_next/image/?url=%2Fimages%2Fproducts%2Fbolts%2Fhex-bolt-hex-nut.jpg&amp;w=3840&amp;q=75",
+          "src": "/_next/image/?url=%2Fimages%2Fproducts%2Fbolts%2Fhex-bolt-hex-nut.webp&amp;w=3840&amp;q=75",
           "alt": "Hex bolts and nuts — DIN 933 / DIN 934 distribution range",
           "width": null,
           "height": null
         },
         {
-          "src": "/_next/image/?url=%2Fimages%2Fproducts%2Fbolts%2Fallen-socket-csk-screw.jpg&amp;w=3840&amp;q=75",
+          "src": "/_next/image/?url=%2Fimages%2Fproducts%2Fbolts%2Fallen-socket-csk-screw.webp&amp;w=3840&amp;q=75",
           "alt": "Countersunk Allen socket screw — DIN 7991",
           "width": null,
           "height": null
         },
         {
-          "src": "/_next/image/?url=%2Fimages%2Fproducts%2Fthreaded-rods%2Fthreaded-rod-stud.jpg&amp;w=3840&amp;q=75",
+          "src": "/_next/image/?url=%2Fimages%2Fproducts%2Fthreaded-rods%2Ftie-rod.webp&amp;w=3840&amp;q=75",
           "alt": "Formwork tie rods — D15 and D20 diameter",
           "width": null,
           "height": null
         },
         {
-          "src": "/_next/image/?url=%2Fimages%2Fproducts%2Fbolts%2Fhex-flange-bolt.jpg&amp;w=3840&amp;q=75",
+          "src": "/_next/image/?url=%2Fimages%2Fproducts%2Fbolts%2Fhex-flange-bolt.webp&amp;w=3840&amp;q=75",
           "alt": "Solar mounting accessories — MMS bolts, clamps, hanger bolts",
           "width": null,
           "height": null
         },
         {
-          "src": "/_next/image/?url=%2Fproduct-images%2Fhigh-tensile%2Fhero.jpg&amp;w=3840&amp;q=75",
+          "src": "/_next/image/?url=%2Fproduct-images%2Fhigh-tensile%2Fhero.webp&amp;w=3840&amp;q=75",
           "alt": "High-tensile fasteners — property class 8.8 and 10.9 bolts",
           "width": null,
           "height": null
         },
         {
-          "src": "/_next/image/?url=%2Fproduct-images%2Fstainless-steel%2Fhero.jpg&amp;w=3840&amp;q=75",
+          "src": "/_next/image/?url=%2Fproduct-images%2Fstainless-steel%2Fhero.webp&amp;w=3840&amp;q=75",
           "alt": "Stainless steel fasteners — SS 304 and SS 316 grades",
           "width": null,
           "height": null
         },
         {
-          "src": "/_next/image/?url=%2Fproduct-images%2Fconstruction%2Fhero.jpg&amp;w=3840&amp;q=75",
+          "src": "/_next/image/?url=%2Fproduct-images%2Fconstruction%2Fhero.webp&amp;w=3840&amp;q=75",
           "alt": "Construction and infrastructure fasteners on job site",
           "width": null,
           "height": null
         },
         {
-          "src": "/_next/image/?url=%2Fproduct-images%2Fsolar%2Fhero.jpg&amp;w=3840&amp;q=75",
+          "src": "/_next/image/?url=%2Fproduct-images%2Fsolar%2Fhero.webp&amp;w=3840&amp;q=75",
           "alt": "Solar mounting fasteners and module clamp assemblies",
           "width": null,
           "height": null
         },
         {
-          "src": "/_next/image/?url=%2Fproduct-images%2Fautomotive%2Fhero.jpg&amp;w=3840&amp;q=75",
+          "src": "/_next/image/?url=%2Fproduct-images%2Fautomotive%2Fhero.webp&amp;w=3840&amp;q=75",
           "alt": "Heavy engineering and machinery fasteners",
           "width": null,
           "height": null
@@ -1345,7 +1345,7 @@
     "og": {
       "title": "Foundation Bolts Manufacturer | IS 5624 &amp; F1554 | KP",
       "desc": "J, L, U, headed &amp; swedge foundation bolts to IS 5624, DIN 529 and ASTM F1554. MS and high-tensile, HDG or zinc. Ahmedabad-manufactured. Request a BOQ quote.",
-      "image": "https://kpfasteners.com/images/products/bolts/j-bolt.jpg",
+      "image": "https://kpfasteners.com/images/products/bolts/j-bolt.webp",
       "twitterCard": "summary_large_image"
     },
     "headings": {
@@ -1374,7 +1374,7 @@
           "description": "Cast-in J, L, U, hooked, headed and swedge foundation bolts manufactured to IS 5624, DIN 529 and ASTM F1554 — mild steel and high-tensile grades, with hot-dip galvanised, zinc electroplated or self-colour finishes.",
           "category": "Industrial Fasteners",
           "material": "Mild Steel (IS 2062), High-Tensile Carbon Steel",
-          "image": "https://kpfasteners.com/images/products/bolts/j-bolt.jpg",
+          "image": "https://kpfasteners.com/images/products/bolts/j-bolt.webp",
           "url": "https://kpfasteners.com/products/foundation-bolts/",
           "brand": {
             "@type": "Brand",
@@ -1460,7 +1460,7 @@
           "@id": "https://kpfasteners.com/#organization",
           "name": "KP Fasteners",
           "url": "https://kpfasteners.com",
-          "logo": "https://kpfasteners.com/brand/logo.jpg.jpeg",
+          "logo": "https://kpfasteners.com/brand/logo.webp",
           "email": "sales@kpfasteners.com",
           "telephone": "+91-98982-30448",
           "sameAs": [
@@ -1497,7 +1497,7 @@
           "@id": "https://kpfasteners.com/#localbusiness",
           "name": "KP Fasteners",
           "url": "https://kpfasteners.com",
-          "image": "https://kpfasteners.com/brand/logo.png",
+          "image": "https://kpfasteners.com/brand/logo.webp",
           "telephone": "+91-98982-30448",
           "email": "sales@kpfasteners.com",
           "address": {
@@ -1535,7 +1535,7 @@
           "height": "651"
         },
         {
-          "src": "/_next/image/?url=%2Fimages%2Fproducts%2Fbolts%2Fj-bolt.jpg&amp;w=3840&amp;q=75",
+          "src": "/_next/image/?url=%2Fimages%2Fproducts%2Fbolts%2Fj-bolt.webp&amp;w=3840&amp;q=75",
           "alt": "J-type foundation bolt manufactured by KP Fasteners for cast-in anchorage",
           "width": null,
           "height": null
@@ -1574,7 +1574,7 @@
     "og": {
       "title": "Stud Bolts Manufacturer | ASTM A193 B7, B7M, B8M | KP",
       "desc": "Fully-threaded, tap-end and double-end stud bolts to ASTM A193 B7, B7M, B8M and A320 L7 — alloy &amp; stainless, MTC 3.1 on request. Ahmedabad-made. Request a BOQ.",
-      "image": "https://kpfasteners.com/images/products/threaded-rods/threaded-rod-stud.jpg",
+      "image": "https://kpfasteners.com/images/products/threaded-rods/threaded-rod-stud.webp",
       "twitterCard": "summary_large_image"
     },
     "headings": {
@@ -1603,7 +1603,7 @@
           "description": "Fully-threaded, tap-end and double-end stud bolts manufactured to ASTM A193 B7, B7M, B8, B8M, ASTM A320 L7 and DIN 976 — alloy-steel and austenitic stainless, with black-oxide, hot-dip galvanised and PTFE / Xylan coating options and A194 heavy-hex nut sets.",
           "category": "Industrial Fasteners / Stud Bolts",
           "material": "Alloy Steel AISI 4140, Stainless Steel SS 304, Stainless Steel SS 316",
-          "image": "https://kpfasteners.com/images/products/threaded-rods/threaded-rod-stud.jpg",
+          "image": "https://kpfasteners.com/images/products/threaded-rods/threaded-rod-stud.webp",
           "url": "https://kpfasteners.com/products/stud-bolts/",
           "brand": {
             "@type": "Brand",
@@ -1689,7 +1689,7 @@
           "@id": "https://kpfasteners.com/#organization",
           "name": "KP Fasteners",
           "url": "https://kpfasteners.com",
-          "logo": "https://kpfasteners.com/brand/logo.jpg.jpeg",
+          "logo": "https://kpfasteners.com/brand/logo.webp",
           "email": "sales@kpfasteners.com",
           "telephone": "+91-98982-30448",
           "sameAs": [
@@ -1726,7 +1726,7 @@
           "@id": "https://kpfasteners.com/#localbusiness",
           "name": "KP Fasteners",
           "url": "https://kpfasteners.com",
-          "image": "https://kpfasteners.com/brand/logo.png",
+          "image": "https://kpfasteners.com/brand/logo.webp",
           "telephone": "+91-98982-30448",
           "email": "sales@kpfasteners.com",
           "address": {
@@ -1764,7 +1764,7 @@
           "height": "651"
         },
         {
-          "src": "/_next/image/?url=%2Fimages%2Fproducts%2Fthreaded-rods%2Fthreaded-rod-stud.jpg&amp;w=3840&amp;q=75",
+          "src": "/_next/image/?url=%2Fimages%2Fproducts%2Fthreaded-rods%2Fthreaded-rod-stud.webp&amp;w=3840&amp;q=75",
           "alt": "ASTM A193 B7 stud bolt and threaded-rod stock manufactured by KP Fasteners",
           "width": null,
           "height": null
@@ -1803,7 +1803,7 @@
     "og": {
       "title": "Sag Rods Manufacturer | PEB Purlin &amp; Solar Bracing | KP",
       "desc": "Threaded sag rods for PEB purlin bracing and solar racking cross-bracing. MS and high-tensile, HDG or zinc, MTC on request. Ahmedabad-made — request a BOQ quote.",
-      "image": "https://kpfasteners.com/images/products/threaded-rods/threaded-rod-stud.jpg",
+      "image": "https://kpfasteners.com/images/products/threaded-rods/sag-rod.webp",
       "twitterCard": "summary_large_image"
     },
     "headings": {
@@ -1832,7 +1832,7 @@
           "description": "Threaded sag rods for PEB roof and wall purlin bracing, cold-formed steel roof framing, solar module racking cross-bracing, structural-steel truss bracing and temporary site bracing — mild-steel and high-tensile base stock, HDG, zinc or plain finish, cut-to-length to drawing.",
           "category": "Industrial Fasteners / Sag Rods / Threaded Rods",
           "material": "Mild Steel (IS 2062), High-Tensile Carbon Steel",
-          "image": "https://kpfasteners.com/images/products/threaded-rods/threaded-rod-stud.jpg",
+          "image": "https://kpfasteners.com/images/products/threaded-rods/sag-rod.webp",
           "url": "https://kpfasteners.com/products/sag-rods/",
           "brand": {
             "@type": "Brand",
@@ -1918,7 +1918,7 @@
           "@id": "https://kpfasteners.com/#organization",
           "name": "KP Fasteners",
           "url": "https://kpfasteners.com",
-          "logo": "https://kpfasteners.com/brand/logo.jpg.jpeg",
+          "logo": "https://kpfasteners.com/brand/logo.webp",
           "email": "sales@kpfasteners.com",
           "telephone": "+91-98982-30448",
           "sameAs": [
@@ -1955,7 +1955,7 @@
           "@id": "https://kpfasteners.com/#localbusiness",
           "name": "KP Fasteners",
           "url": "https://kpfasteners.com",
-          "image": "https://kpfasteners.com/brand/logo.png",
+          "image": "https://kpfasteners.com/brand/logo.webp",
           "telephone": "+91-98982-30448",
           "email": "sales@kpfasteners.com",
           "address": {
@@ -1993,7 +1993,7 @@
           "height": "651"
         },
         {
-          "src": "/_next/image/?url=%2Fimages%2Fproducts%2Fthreaded-rods%2Fthreaded-rod-stud.jpg&amp;w=3840&amp;q=75",
+          "src": "/_next/image/?url=%2Fimages%2Fproducts%2Fthreaded-rods%2Fsag-rod.webp&amp;w=3840&amp;q=75",
           "alt": "KP Fasteners threaded sag rod stock with hex nuts for PEB purlin bracing and solar racking cross-bracing",
           "width": null,
           "height": null
@@ -2032,7 +2032,7 @@
     "og": {
       "title": "Tie Rod Manufacturer and Formwork Supplier | D15 D20 | KP",
       "desc": "D15 and D20 formwork tie rods with matching wing nuts, water bars, anchor plates and cones. Plain, HDG, zinc. MTC available. Request your project BOQ quote.",
-      "image": "https://kpfasteners.com/product-images/tie-rods/hero.jpg",
+      "image": "https://kpfasteners.com/images/products/threaded-rods/tie-rod.webp",
       "twitterCard": "summary_large_image"
     },
     "headings": {
@@ -2061,7 +2061,7 @@
           "description": "D15 and D20 formwork tie rods with companion wing nuts, anchor spreader plates, water bars, and cones. Sourced through vetted primary rolling mills with EN 10204 3.1 MTC pass-through for RCC high-rise, civil infrastructure, and precast applications.",
           "category": "Formwork tie rods and matching accessories",
           "material": "Mild Steel (~500 MPa UTS, IS 2062 Grade E250 / EN 10080)",
-          "image": "https://kpfasteners.com/product-images/tie-rods/hero.jpg",
+          "image": "https://kpfasteners.com/images/products/threaded-rods/tie-rod.webp",
           "url": "https://kpfasteners.com/products/tie-rods/",
           "seller": {
             "@id": "https://kpfasteners.com/#organization"
@@ -2143,7 +2143,7 @@
           "@id": "https://kpfasteners.com/#organization",
           "name": "KP Fasteners",
           "url": "https://kpfasteners.com",
-          "logo": "https://kpfasteners.com/brand/logo.jpg.jpeg",
+          "logo": "https://kpfasteners.com/brand/logo.webp",
           "email": "sales@kpfasteners.com",
           "telephone": "+91-98982-30448",
           "sameAs": [
@@ -2180,7 +2180,7 @@
           "@id": "https://kpfasteners.com/#localbusiness",
           "name": "KP Fasteners",
           "url": "https://kpfasteners.com",
-          "image": "https://kpfasteners.com/brand/logo.png",
+          "image": "https://kpfasteners.com/brand/logo.webp",
           "telephone": "+91-98982-30448",
           "email": "sales@kpfasteners.com",
           "address": {
@@ -2218,7 +2218,7 @@
           "height": "651"
         },
         {
-          "src": "/_next/image/?url=%2Fproduct-images%2Ftie-rods%2Fhero.jpg&amp;w=3840&amp;q=75",
+          "src": "/_next/image/?url=%2Fimages%2Fproducts%2Fthreaded-rods%2Ftie-rod.webp&amp;w=3840&amp;q=75",
           "alt": "KP Fasteners formwork tie rods inventory — D15 and D20 coil rods, matching hex wing nuts, and anchor spreader plates",
           "width": null,
           "height": null
@@ -2257,7 +2257,7 @@
     "og": {
       "title": "CSK Allen Bolts Manufacturer and Supplier | DIN 7991 | KP",
       "desc": "CSK Allen bolts (DIN 7991), socket cap (DIN 912) and button screws in Grade 8.8, 10.9, 12.9, SS. Black oxide, zinc, MTC available. Request your project quote.",
-      "image": "https://kpfasteners.com/product-images/csk-allen/hero.jpg",
+      "image": "https://kpfasteners.com/images/products/bolts/allen-socket-csk-screw.webp",
       "twitterCard": "summary_large_image"
     },
     "headings": {
@@ -2286,7 +2286,7 @@
           "description": "CSK Allen bolts (DIN 7991), socket head cap screws (DIN 912), and button head screws (DIN 7380) in Property Classes 8.8, 10.9, 12.9, and Stainless Steel A2/A4. Sourced from vetted partner mills with EN 10204 3.1 MTC pass-through.",
           "category": "Socket-head Allen bolts (DIN 7991 countersunk, DIN 912 socket cap, DIN 7380 button head)",
           "material": "Alloy Steel (Property Class 8.8, 10.9, 12.9), Stainless Steel (A2-70, A4-70, A4-80)",
-          "image": "https://kpfasteners.com/product-images/csk-allen/hero.jpg",
+          "image": "https://kpfasteners.com/images/products/bolts/allen-socket-csk-screw.webp",
           "url": "https://kpfasteners.com/products/csk-allen-bolts/",
           "seller": {
             "@id": "https://kpfasteners.com/#organization"
@@ -2368,7 +2368,7 @@
           "@id": "https://kpfasteners.com/#organization",
           "name": "KP Fasteners",
           "url": "https://kpfasteners.com",
-          "logo": "https://kpfasteners.com/brand/logo.jpg.jpeg",
+          "logo": "https://kpfasteners.com/brand/logo.webp",
           "email": "sales@kpfasteners.com",
           "telephone": "+91-98982-30448",
           "sameAs": [
@@ -2405,7 +2405,7 @@
           "@id": "https://kpfasteners.com/#localbusiness",
           "name": "KP Fasteners",
           "url": "https://kpfasteners.com",
-          "image": "https://kpfasteners.com/brand/logo.png",
+          "image": "https://kpfasteners.com/brand/logo.webp",
           "telephone": "+91-98982-30448",
           "email": "sales@kpfasteners.com",
           "address": {
@@ -2443,7 +2443,7 @@
           "height": "651"
         },
         {
-          "src": "/_next/image/?url=%2Fproduct-images%2Fcsk-allen%2Fhero.jpg&amp;w=3840&amp;q=75",
+          "src": "/_next/image/?url=%2Fimages%2Fproducts%2Fbolts%2Fallen-socket-csk-screw.webp&amp;w=3840&amp;q=75",
           "alt": "KP Fasteners CSK Allen bolts and socket head screws inventory — DIN 7991 countersunk, DIN 912 socket cap, and DIN 7380 button head in Grade 10.9, 12.9, and stainless steel",
           "width": null,
           "height": null
@@ -2482,7 +2482,7 @@
     "og": {
       "title": "Scaffold Accessories Supplier | Tie Rods, Wing Nuts | KP",
       "desc": "Formwork tie rods (D15/D20), wing nuts, waller plates and shuttering hardware — manufactured and supplied from Ahmedabad, HDG options, MTC. Request BOQ.",
-      "image": "https://kpfasteners.com/images/products/threaded-rods/wedge-anchor.jpg",
+      "image": "https://kpfasteners.com/images/products/threaded-rods/wedge-anchor.webp",
       "twitterCard": "summary_large_image"
     },
     "headings": {
@@ -2511,7 +2511,7 @@
           "description": "Scaffold and shuttering accessories — formwork tie rods (D15 / D20), wing nuts, waller plates, sleeve nuts, water-stopper tie-rod assemblies and companion scaffolding hardware. Manufactured in Ahmedabad and supplied through our vetted partner network on an SKU-specific basis, with MS and hot-dip galvanised finishes.",
           "category": "Scaffold Accessories / Formwork Hardware",
           "material": "Mild Steel (IS 2062), Galvanised MS",
-          "image": "https://kpfasteners.com/images/products/threaded-rods/wedge-anchor.jpg",
+          "image": "https://kpfasteners.com/images/products/threaded-rods/wedge-anchor.webp",
           "url": "https://kpfasteners.com/products/scaffold-accessories/",
           "seller": {
             "@id": "https://kpfasteners.com/#organization"
@@ -2593,7 +2593,7 @@
           "@id": "https://kpfasteners.com/#organization",
           "name": "KP Fasteners",
           "url": "https://kpfasteners.com",
-          "logo": "https://kpfasteners.com/brand/logo.jpg.jpeg",
+          "logo": "https://kpfasteners.com/brand/logo.webp",
           "email": "sales@kpfasteners.com",
           "telephone": "+91-98982-30448",
           "sameAs": [
@@ -2630,7 +2630,7 @@
           "@id": "https://kpfasteners.com/#localbusiness",
           "name": "KP Fasteners",
           "url": "https://kpfasteners.com",
-          "image": "https://kpfasteners.com/brand/logo.png",
+          "image": "https://kpfasteners.com/brand/logo.webp",
           "telephone": "+91-98982-30448",
           "email": "sales@kpfasteners.com",
           "address": {
@@ -2668,7 +2668,7 @@
           "height": "651"
         },
         {
-          "src": "/_next/image/?url=%2Fimages%2Fproducts%2Fthreaded-rods%2Fwedge-anchor.jpg&amp;w=3840&amp;q=75",
+          "src": "/_next/image/?url=%2Fimages%2Fproducts%2Fthreaded-rods%2Fwedge-anchor.webp&amp;w=3840&amp;q=75",
           "alt": "KP Fasteners scaffold-accessories inventory — formwork tie rods, wing nuts and waller plates for RCC shuttering",
           "width": null,
           "height": null
@@ -2707,7 +2707,7 @@
     "og": {
       "title": "Solar Mounting Accessories Manufacturer &amp; Supply | KP",
       "desc": "T-head bolts, module clamps, MMS bolts &amp; hanger bolts for rooftop and ground solar. SS 304, SS 316 coastal, HDG steel. Sourced by KP Fasteners. Request a quote.",
-      "image": "https://kpfasteners.com/product-images/solar-accessories/hero.jpg",
+      "image": "https://kpfasteners.com/images/products/bolts/hex-flange-bolt.webp",
       "twitterCard": "summary_large_image"
     },
     "headings": {
@@ -2736,7 +2736,7 @@
           "description": "Solar mounting fasteners and accessories — T-head bolts, mid and end clamps, channel nuts, hanger bolts with EPDM washers, and purlin fasteners. Supplied from Ahmedabad across SS 304, SS 316, and HDG steel.",
           "category": "Solar Mounting Fasteners / MMS Accessories",
           "material": "Stainless Steel 304, Stainless Steel 316, Hot-Dip Galvanised Carbon Steel",
-          "image": "https://kpfasteners.com/product-images/solar-accessories/hero.jpg",
+          "image": "https://kpfasteners.com/images/products/bolts/hex-flange-bolt.webp",
           "url": "https://kpfasteners.com/products/solar-accessories/",
           "seller": {
             "@id": "https://kpfasteners.com/#organization"
@@ -2818,7 +2818,7 @@
           "@id": "https://kpfasteners.com/#organization",
           "name": "KP Fasteners",
           "url": "https://kpfasteners.com",
-          "logo": "https://kpfasteners.com/brand/logo.jpg.jpeg",
+          "logo": "https://kpfasteners.com/brand/logo.webp",
           "email": "sales@kpfasteners.com",
           "telephone": "+91-98982-30448",
           "sameAs": [
@@ -2855,7 +2855,7 @@
           "@id": "https://kpfasteners.com/#localbusiness",
           "name": "KP Fasteners",
           "url": "https://kpfasteners.com",
-          "image": "https://kpfasteners.com/brand/logo.png",
+          "image": "https://kpfasteners.com/brand/logo.webp",
           "telephone": "+91-98982-30448",
           "email": "sales@kpfasteners.com",
           "address": {
@@ -2893,7 +2893,7 @@
           "height": "651"
         },
         {
-          "src": "/_next/image/?url=%2Fproduct-images%2Fsolar-accessories%2Fhero.jpg&amp;w=3840&amp;q=75",
+          "src": "/_next/image/?url=%2Fimages%2Fproducts%2Fbolts%2Fhex-flange-bolt.webp&amp;w=3840&amp;q=75",
           "alt": "KP Fasteners solar mounting hardware — T-bolts, aluminum mid and end clamps, channel nuts, and hanger bolts",
           "width": null,
           "height": null
@@ -2932,7 +2932,7 @@
     "og": {
       "title": "Hex Bolts and Nuts Manufacturer &amp; Distributor | KP",
       "desc": "Hex bolts &amp; nuts to DIN 931/933/934, ISO 4014/4017. Property class 4.6 to 10.9 &amp; SS 304/316. Zinc, HDG, black oxide. MTC available. Request your project quote.",
-      "image": "https://kpfasteners.com/product-images/hex-bolts-nuts/hero.jpg",
+      "image": "https://kpfasteners.com/images/products/bolts/hex-bolt-hex-nut.webp",
       "twitterCard": "summary_large_image"
     },
     "headings": {
@@ -2961,7 +2961,7 @@
           "description": "Hexagon head bolts (DIN 931/933, ISO 4014/4017) and companion hex nuts (DIN 934, ISO 4032) across Property Classes 4.6, 8.8, 10.9, and SS 304/316. Distributed from vetted partner mills in Ahmedabad with MTC pass-through.",
           "category": "Industrial Hex Bolts and Hex Nuts",
           "material": "Carbon Steel (Class 4.6, 8.8, 10.9), Stainless Steel (SS 304, SS 316)",
-          "image": "https://kpfasteners.com/product-images/hex-bolts-nuts/hero.jpg",
+          "image": "https://kpfasteners.com/images/products/bolts/hex-bolt-hex-nut.webp",
           "url": "https://kpfasteners.com/products/hex-bolts-nuts/",
           "seller": {
             "@id": "https://kpfasteners.com/#organization"
@@ -3043,7 +3043,7 @@
           "@id": "https://kpfasteners.com/#organization",
           "name": "KP Fasteners",
           "url": "https://kpfasteners.com",
-          "logo": "https://kpfasteners.com/brand/logo.jpg.jpeg",
+          "logo": "https://kpfasteners.com/brand/logo.webp",
           "email": "sales@kpfasteners.com",
           "telephone": "+91-98982-30448",
           "sameAs": [
@@ -3080,7 +3080,7 @@
           "@id": "https://kpfasteners.com/#localbusiness",
           "name": "KP Fasteners",
           "url": "https://kpfasteners.com",
-          "image": "https://kpfasteners.com/brand/logo.png",
+          "image": "https://kpfasteners.com/brand/logo.webp",
           "telephone": "+91-98982-30448",
           "email": "sales@kpfasteners.com",
           "address": {
@@ -3118,7 +3118,7 @@
           "height": "651"
         },
         {
-          "src": "/_next/image/?url=%2Fproduct-images%2Fhex-bolts-nuts%2Fhero.jpg&amp;w=3840&amp;q=75",
+          "src": "/_next/image/?url=%2Fimages%2Fproducts%2Fbolts%2Fhex-bolt-hex-nut.webp&amp;w=3840&amp;q=75",
           "alt": "KP Fasteners hex bolts and nuts inventory — high-tensile Class 8.8 and 10.9 bolts, standard nuts and heavy hex hardware",
           "width": null,
           "height": null
@@ -3157,7 +3157,7 @@
     "og": {
       "title": "Custom Fasteners Manufacturer and Sourcing Partner | KP",
       "desc": "Custom fastener manufacturing and sourcing to print. Send PDF or CAD drawings for quote on tolerances, materials, finishes and lead times. Upload your drawing.",
-      "image": "https://kpfasteners.com/product-images/custom/hero.jpg",
+      "image": "https://kpfasteners.com/images/products/bolts/socket-head-cap-screw.webp",
       "twitterCard": "summary_large_image"
     },
     "headings": {
@@ -3186,7 +3186,7 @@
           "description": "Custom drawing-based fasteners manufactured in-house and sourced through vetted partner mills. Send PDF, DWG, or STEP drawings for competitive quotations on non-standard bolts, specialized studs, and precision-machined hardware.",
           "category": "Custom (drawing-based) fasteners",
           "material": "Carbon Steel (Class 4.6 to 12.9), Alloy Steel (42CrMo4), Stainless Steel (SS 304, SS 316), Brass, Duplex",
-          "image": "https://kpfasteners.com/product-images/custom/hero.jpg",
+          "image": "https://kpfasteners.com/images/products/bolts/socket-head-cap-screw.webp",
           "url": "https://kpfasteners.com/products/custom-fasteners/",
           "seller": {
             "@id": "https://kpfasteners.com/#organization"
@@ -3268,7 +3268,7 @@
           "@id": "https://kpfasteners.com/#organization",
           "name": "KP Fasteners",
           "url": "https://kpfasteners.com",
-          "logo": "https://kpfasteners.com/brand/logo.jpg.jpeg",
+          "logo": "https://kpfasteners.com/brand/logo.webp",
           "email": "sales@kpfasteners.com",
           "telephone": "+91-98982-30448",
           "sameAs": [
@@ -3305,7 +3305,7 @@
           "@id": "https://kpfasteners.com/#localbusiness",
           "name": "KP Fasteners",
           "url": "https://kpfasteners.com",
-          "image": "https://kpfasteners.com/brand/logo.png",
+          "image": "https://kpfasteners.com/brand/logo.webp",
           "telephone": "+91-98982-30448",
           "email": "sales@kpfasteners.com",
           "address": {
@@ -3343,7 +3343,7 @@
           "height": "651"
         },
         {
-          "src": "/_next/image/?url=%2Fproduct-images%2Fcustom%2Fhero.jpg&amp;w=3840&amp;q=75",
+          "src": "/_next/image/?url=%2Fimages%2Fproducts%2Fbolts%2Fsocket-head-cap-screw.webp&amp;w=3840&amp;q=75",
           "alt": "KP Fasteners custom drawing-based fastener manufacturing and sourcing — precision engineering blueprints, machined sample parts, and specialized industrial hardware",
           "width": null,
           "height": null
@@ -3382,7 +3382,7 @@
     "og": {
       "title": "High-Tensile Bolts Manufacturer | PC 8.8 10.9 12.9 | KP",
       "desc": "Property class 4.6, 8.8, 10.9 &amp; 12.9 compared to ISO 898-1: yield, UTS, hardness, torque &amp; HDE risk. Pick the right grade for your joint. Request an RFQ quote.",
-      "image": "https://kpfasteners.com/product-images/high-tensile/hero.jpg",
+      "image": "https://kpfasteners.com/images/products/threaded-rods/b7-stud.webp",
       "twitterCard": "summary_large_image"
     },
     "headings": {
@@ -3499,7 +3499,7 @@
           "@id": "https://kpfasteners.com/#organization",
           "name": "KP Fasteners",
           "url": "https://kpfasteners.com",
-          "logo": "https://kpfasteners.com/brand/logo.jpg.jpeg",
+          "logo": "https://kpfasteners.com/brand/logo.webp",
           "email": "sales@kpfasteners.com",
           "telephone": "+91-98982-30448",
           "sameAs": [
@@ -3536,7 +3536,7 @@
           "@id": "https://kpfasteners.com/#localbusiness",
           "name": "KP Fasteners",
           "url": "https://kpfasteners.com",
-          "image": "https://kpfasteners.com/brand/logo.png",
+          "image": "https://kpfasteners.com/brand/logo.webp",
           "telephone": "+91-98982-30448",
           "email": "sales@kpfasteners.com",
           "address": {
@@ -3574,7 +3574,7 @@
           "height": "651"
         },
         {
-          "src": "/_next/image/?url=%2Fproduct-images%2Fhigh-tensile%2Fhero.jpg&amp;w=3840&amp;q=75",
+          "src": "/_next/image/?url=%2Fimages%2Fproducts%2Fthreaded-rods%2Fb7-stud.webp&amp;w=3840&amp;q=75",
           "alt": "KP Fasteners high-tensile bolts inventory — Grade 8.8, 10.9, and 12.9 fasteners for structural and industrial applications",
           "width": null,
           "height": null
@@ -3613,7 +3613,7 @@
     "og": {
       "title": "Stainless Steel Fasteners Manufacturer | SS 304 vs 316 | KP",
       "desc": "SS 304, 316, 316L &amp; 316Ti compared: chemistry, PREN, corrosion, magnetism &amp; ISO 3506 specs. Decision tree for solar, coastal &amp; pharma. Request an RFQ quote.",
-      "image": "https://kpfasteners.com/product-images/stainless-steel/hero.jpg",
+      "image": "https://kpfasteners.com/images/products/bolts/allen-socket-button-head-screw.webp",
       "twitterCard": "summary_large_image"
     },
     "headings": {
@@ -3736,7 +3736,7 @@
           "@id": "https://kpfasteners.com/#organization",
           "name": "KP Fasteners",
           "url": "https://kpfasteners.com",
-          "logo": "https://kpfasteners.com/brand/logo.jpg.jpeg",
+          "logo": "https://kpfasteners.com/brand/logo.webp",
           "email": "sales@kpfasteners.com",
           "telephone": "+91-98982-30448",
           "sameAs": [
@@ -3773,7 +3773,7 @@
           "@id": "https://kpfasteners.com/#localbusiness",
           "name": "KP Fasteners",
           "url": "https://kpfasteners.com",
-          "image": "https://kpfasteners.com/brand/logo.png",
+          "image": "https://kpfasteners.com/brand/logo.webp",
           "telephone": "+91-98982-30448",
           "email": "sales@kpfasteners.com",
           "address": {
@@ -3811,7 +3811,7 @@
           "height": "651"
         },
         {
-          "src": "/_next/image/?url=%2Fproduct-images%2Fstainless-steel%2Fhero.jpg&amp;w=3840&amp;q=75",
+          "src": "/_next/image/?url=%2Fimages%2Fproducts%2Fbolts%2Fallen-socket-button-head-screw.webp&amp;w=3840&amp;q=75",
           "alt": "KP Fasteners stainless steel fasteners inventory — SS 304 and SS 316 bolts, studs, and precision hardware",
           "width": null,
           "height": null
@@ -3850,7 +3850,7 @@
     "og": {
       "title": "Solar Mounting Bolts Supplier | Rooftop &amp; Ground-Mount | KP",
       "desc": "Solar fastener BOMs for rooftop, commercial, and tracker projects: SS 304/316 hardware, HDG substructure, and OEM pier anchors. Request an RFQ quote.",
-      "image": "https://kpfasteners.com/product-images/solar/hero.jpg",
+      "image": "https://kpfasteners.com/images/products/bolts/hex-flange-bolt.webp",
       "twitterCard": "summary_large_image"
     },
     "headings": {
@@ -3972,7 +3972,7 @@
           "@id": "https://kpfasteners.com/#organization",
           "name": "KP Fasteners",
           "url": "https://kpfasteners.com",
-          "logo": "https://kpfasteners.com/brand/logo.jpg.jpeg",
+          "logo": "https://kpfasteners.com/brand/logo.webp",
           "email": "sales@kpfasteners.com",
           "telephone": "+91-98982-30448",
           "sameAs": [
@@ -4009,7 +4009,7 @@
           "@id": "https://kpfasteners.com/#localbusiness",
           "name": "KP Fasteners",
           "url": "https://kpfasteners.com",
-          "image": "https://kpfasteners.com/brand/logo.png",
+          "image": "https://kpfasteners.com/brand/logo.webp",
           "telephone": "+91-98982-30448",
           "email": "sales@kpfasteners.com",
           "address": {
@@ -4047,7 +4047,7 @@
           "height": "651"
         },
         {
-          "src": "/_next/image/?url=%2Fproduct-images%2Fsolar%2Fhero.jpg&amp;w=3840&amp;q=75",
+          "src": "/_next/image/?url=%2Fimages%2Fproducts%2Fbolts%2Fhex-flange-bolt.webp&amp;w=3840&amp;q=75",
           "alt": "KP Fasteners solar mounting hardware — T-bolts, mid and end clamps, foundation bolts, and purlin fasteners for solar structures",
           "width": null,
           "height": null
@@ -4086,7 +4086,7 @@
     "og": {
       "title": "Construction &amp; Infrastructure Fasteners Supplier | KP",
       "desc": "PEB anchor bolts, structural 8.8 hex bolts, sag rods, tie rods, HDG foundation bolts &amp; bridge fasteners from KP Fasteners, Ahmedabad. Request a project quote.",
-      "image": "https://kpfasteners.com/product-images/construction/hero.jpg",
+      "image": "https://kpfasteners.com/images/products/bolts/j-bolt.webp",
       "twitterCard": "summary_large_image"
     },
     "headings": {
@@ -4219,7 +4219,7 @@
           "@id": "https://kpfasteners.com/#organization",
           "name": "KP Fasteners",
           "url": "https://kpfasteners.com",
-          "logo": "https://kpfasteners.com/brand/logo.jpg.jpeg",
+          "logo": "https://kpfasteners.com/brand/logo.webp",
           "email": "sales@kpfasteners.com",
           "telephone": "+91-98982-30448",
           "sameAs": [
@@ -4256,7 +4256,7 @@
           "@id": "https://kpfasteners.com/#localbusiness",
           "name": "KP Fasteners",
           "url": "https://kpfasteners.com",
-          "image": "https://kpfasteners.com/brand/logo.png",
+          "image": "https://kpfasteners.com/brand/logo.webp",
           "telephone": "+91-98982-30448",
           "email": "sales@kpfasteners.com",
           "address": {
@@ -4294,7 +4294,7 @@
           "height": "651"
         },
         {
-          "src": "/_next/image/?url=%2Fproduct-images%2Fconstruction%2Fhero.jpg&amp;w=3840&amp;q=75",
+          "src": "/_next/image/?url=%2Fimages%2Fproducts%2Fbolts%2Fj-bolt.webp&amp;w=3840&amp;q=75",
           "alt": "KP Fasteners construction and infrastructure hardware — foundation anchor bolts, PEB sag rods, and structural hex bolts",
           "width": null,
           "height": null
@@ -4333,7 +4333,7 @@
     "og": {
       "title": "Automotive Fasteners Manufacturer &amp; Heavy Engg | KP",
       "desc": "High-tensile PC 10.9 &amp; 12.9 bolts, custom studs, socket screws, and heavy engineering fasteners from KP Fasteners, Ahmedabad. Request your drawing quote today.",
-      "image": "https://kpfasteners.com/product-images/automotive/hero.jpg",
+      "image": "https://kpfasteners.com/images/products/bolts/allen-socket-head-cap-screw.webp",
       "twitterCard": "summary_large_image"
     },
     "headings": {
@@ -4466,7 +4466,7 @@
           "@id": "https://kpfasteners.com/#organization",
           "name": "KP Fasteners",
           "url": "https://kpfasteners.com",
-          "logo": "https://kpfasteners.com/brand/logo.jpg.jpeg",
+          "logo": "https://kpfasteners.com/brand/logo.webp",
           "email": "sales@kpfasteners.com",
           "telephone": "+91-98982-30448",
           "sameAs": [
@@ -4503,7 +4503,7 @@
           "@id": "https://kpfasteners.com/#localbusiness",
           "name": "KP Fasteners",
           "url": "https://kpfasteners.com",
-          "image": "https://kpfasteners.com/brand/logo.png",
+          "image": "https://kpfasteners.com/brand/logo.webp",
           "telephone": "+91-98982-30448",
           "email": "sales@kpfasteners.com",
           "address": {
@@ -4541,7 +4541,7 @@
           "height": "651"
         },
         {
-          "src": "/_next/image/?url=%2Fproduct-images%2Fautomotive%2Fhero.jpg&amp;w=3840&amp;q=75",
+          "src": "/_next/image/?url=%2Fimages%2Fproducts%2Fbolts%2Fallen-socket-head-cap-screw.webp&amp;w=3840&amp;q=75",
           "alt": "KP Fasteners high-tensile automotive fasteners — Class 10.9 and 12.9 bolts, socket cap screws, and precision studs",
           "width": null,
           "height": null
@@ -4641,7 +4641,7 @@
           "@id": "https://kpfasteners.com/#organization",
           "name": "KP Fasteners",
           "url": "https://kpfasteners.com",
-          "logo": "https://kpfasteners.com/brand/logo.jpg.jpeg",
+          "logo": "https://kpfasteners.com/brand/logo.webp",
           "email": "sales@kpfasteners.com",
           "telephone": "+91-98982-30448",
           "sameAs": [
@@ -4678,7 +4678,7 @@
           "@id": "https://kpfasteners.com/#localbusiness",
           "name": "KP Fasteners",
           "url": "https://kpfasteners.com",
-          "image": "https://kpfasteners.com/brand/logo.png",
+          "image": "https://kpfasteners.com/brand/logo.webp",
           "telephone": "+91-98982-30448",
           "email": "sales@kpfasteners.com",
           "address": {
@@ -4810,7 +4810,7 @@
           "@id": "https://kpfasteners.com/#organization",
           "name": "KP Fasteners",
           "url": "https://kpfasteners.com",
-          "logo": "https://kpfasteners.com/brand/logo.jpg.jpeg",
+          "logo": "https://kpfasteners.com/brand/logo.webp",
           "email": "sales@kpfasteners.com",
           "telephone": "+91-98982-30448",
           "sameAs": [
@@ -4847,7 +4847,7 @@
           "@id": "https://kpfasteners.com/#localbusiness",
           "name": "KP Fasteners",
           "url": "https://kpfasteners.com",
-          "image": "https://kpfasteners.com/brand/logo.png",
+          "image": "https://kpfasteners.com/brand/logo.webp",
           "telephone": "+91-98982-30448",
           "email": "sales@kpfasteners.com",
           "address": {

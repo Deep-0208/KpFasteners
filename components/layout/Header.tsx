@@ -5,7 +5,6 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 import { Phone, ChevronDown, FileText, ArrowRight } from 'lucide-react';
-import { Container } from '@/components/ui/Container';
 import { headerNav } from '@/data/navigation';
 import { MegaMenu } from '@/components/layout/MegaMenu';
 import { MobileMenu } from '@/components/layout/MobileMenu';
@@ -84,15 +83,19 @@ export function Header() {
   return (
     <header
       ref={headerRef}
-      className="sticky top-0 z-40 w-full border-b border-slate-200/90 bg-white shadow-[0_2px_12px_rgba(15,23,42,0.06)]"
+      className="sticky top-0 z-40 w-full px-2 sm:px-4 lg:px-6 transition-all"
     >
-      <Container className="relative">
-        <div className="flex h-[72px] lg:h-20 items-center justify-between gap-4">
+      <div className="relative mx-auto max-w-7xl rounded-b-[24px] sm:rounded-b-[30px] lg:rounded-b-[36px] border-b border-x border-slate-200/90 bg-white/95 backdrop-blur-md shadow-[0_10px_30px_-5px_rgba(15,23,42,0.08),0_4px_12px_-2px_rgba(15,23,42,0.03)] transition-all">
+        {/* Subtle top industrial gold accent micro-strip */}
+        <div className="h-[2px] w-full bg-gradient-to-r from-transparent via-amber-500/75 to-transparent" />
+
+        <div className="px-4 sm:px-6 lg:px-8">
+          <div className="flex h-[72px] lg:h-20 items-center justify-between gap-4">
             {/* Brand Logo Zone with Vertical Divider */}
             <div className="flex items-center shrink-0">
               <Link
                 href="/"
-                className="flex items-center rounded-md p-1 focus:outline-none focus-visible:ring-2 focus-visible:ring-amber-500"
+                className="flex items-center rounded-xl p-1 transition-transform duration-200 hover:scale-[1.02] focus:outline-none focus-visible:ring-2 focus-visible:ring-amber-500"
                 aria-label={`${company.legalName} — Home`}
               >
                 <Image
@@ -112,13 +115,18 @@ export function Header() {
 
             {/* Desktop Navigation Links */}
             <nav aria-label="Primary" className="hidden h-full items-center lg:flex">
-              <ul className="flex h-full items-center gap-1">
+              <ul className="flex h-full items-center gap-1.5">
                 {headerNav.map((item) => {
                   const isProducts = item.href === '/products/';
                   const isMenuOpen = openMenu === 'Products' && isProducts;
                   const isActive =
                     pathname === item.href ||
-                    (item.href !== '/' && pathname.startsWith(item.href));
+                    (item.label === 'Products' && pathname.startsWith('/products')) ||
+                    (item.label === 'Materials' && pathname.startsWith('/materials')) ||
+                    (item.label === 'Industries' && pathname.startsWith('/industries')) ||
+                    (item.label === 'Tools' && pathname.startsWith('/tools')) ||
+                    (item.label === 'About' && pathname.startsWith('/about')) ||
+                    (item.label === 'Contact' && pathname.startsWith('/contact'));
 
                   return (
                     <li
@@ -133,19 +141,21 @@ export function Header() {
                         aria-haspopup={isProducts ? 'true' : undefined}
                         aria-controls={isProducts ? 'products-mega-menu' : undefined}
                         onKeyDown={(e) => isProducts && handleNavKeyDown(e, 'Products')}
-                        className={`inline-flex items-center gap-1.5 rounded-lg px-3 py-2 font-heading text-[14px] xl:text-[14.5px] xl:px-3.5 font-semibold tracking-tight transition-all duration-150 focus:outline-none focus-visible:ring-2 focus-visible:ring-amber-500 ${
+                        className={`group inline-flex items-center gap-1.5 rounded-full px-3.5 py-1.5 font-heading text-[14px] xl:text-[14.5px] font-semibold tracking-tight transition-all duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-amber-500 ${
                           isActive || isMenuOpen
-                            ? 'bg-amber-50 text-amber-900 border border-amber-200/80 shadow-xs'
-                            : 'text-slate-700 hover:bg-slate-100/80 hover:text-slate-900 border border-transparent'
+                            ? 'bg-amber-50 text-amber-900 border border-amber-200/90 shadow-xs'
+                            : 'text-slate-700 hover:bg-amber-50 hover:text-amber-900 hover:border-amber-200/90 hover:shadow-xs border border-transparent'
                         }`}
                       >
                         <span>{item.label}</span>
                         {isProducts && (
                           <ChevronDown
                             aria-hidden="true"
-                            className={`h-3.5 w-3.5 text-slate-400 transition-transform duration-200 ${
-                              isMenuOpen ? 'rotate-180 text-amber-800' : 'group-hover:text-slate-700'
-                            }`}
+                            className={`h-3.5 w-3.5 transition-transform duration-200 ${
+                              isMenuOpen || isActive
+                                ? 'text-amber-800'
+                                : 'text-slate-400 group-hover:text-amber-800'
+                            } ${isMenuOpen ? 'rotate-180' : ''}`}
                           />
                         )}
                       </Link>
@@ -160,10 +170,10 @@ export function Header() {
               {/* Direct Sales Hotline */}
               <a
                 href={tel}
-                className="group hidden items-center gap-2.5 rounded-lg border border-slate-200/90 bg-slate-50/70 px-3 py-1.5 transition-all hover:border-amber-300 hover:bg-amber-50/50 xl:flex"
+                className="group hidden items-center gap-2.5 rounded-full border border-slate-200/90 bg-slate-50/80 px-3.5 py-1.5 transition-all hover:border-amber-300 hover:bg-amber-50/60 xl:flex shadow-xs"
                 aria-label={`Call ${company.telephones[0]}`}
               >
-                <div className="flex h-7 w-7 items-center justify-center rounded-md bg-amber-100 text-amber-800 group-hover:bg-amber-500 group-hover:text-white transition-colors">
+                <div className="flex h-7 w-7 items-center justify-center rounded-full bg-amber-100 text-amber-800 group-hover:bg-amber-500 group-hover:text-white transition-colors">
                   <Phone aria-hidden="true" className="h-3.5 w-3.5" />
                 </div>
                 <div className="flex flex-col text-left">
@@ -180,7 +190,7 @@ export function Header() {
               {/* Primary RFQ Action */}
               <Link
                 href="/request-quote/"
-                className="inline-flex items-center gap-2 rounded-lg bg-gradient-to-b from-amber-600 to-amber-700 px-4 py-2.5 font-heading text-xs lg:text-sm font-bold tracking-tight text-white shadow-sm hover:from-amber-500 hover:to-amber-600 hover:shadow transition-all active:scale-[0.98] border border-amber-700/80"
+                className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-amber-600 via-amber-600 to-amber-700 px-4.5 py-2.5 font-heading text-xs lg:text-sm font-bold tracking-tight text-white shadow-sm hover:from-amber-500 hover:to-amber-600 hover:shadow transition-all active:scale-[0.98] border border-amber-700/80"
               >
                 <FileText aria-hidden="true" className="h-4 w-4 text-amber-200" />
                 <span>Request RFQ</span>
@@ -191,23 +201,25 @@ export function Header() {
             {/* Mobile Menu Drawer Toggle */}
             <MobileMenu />
           </div>
+        </div>
 
-          {/* Desktop Mega Menu for Products — Anchored to Header Container */}
-          {openMenu === 'Products' && (
-            <div
-              id="products-mega-menu"
-              role="region"
-              aria-label="Products directory"
-              onMouseEnter={() => handleMouseEnter('Products')}
-              onMouseLeave={handleMouseLeave}
-              className="absolute inset-x-0 top-full z-50 mx-auto w-[min(calc(100vw-2rem),64rem)] pt-2"
-            >
-              <div className="overflow-hidden rounded-xl border border-slate-200/90 bg-white p-6 shadow-2xl transition-all">
-                <MegaMenu onClose={handleCloseMega} />
-              </div>
+        {/* Desktop Mega Menu for Products — Anchored to Header Container */}
+        {openMenu === 'Products' && (
+          <div
+            id="products-mega-menu"
+            role="region"
+            aria-label="Products directory"
+            onMouseEnter={() => handleMouseEnter('Products')}
+            onMouseLeave={handleMouseLeave}
+            className="absolute inset-x-0 top-full z-50 mx-auto w-[min(calc(100vw-2rem),64rem)] pt-3"
+          >
+            <div className="overflow-hidden rounded-2xl border border-slate-200/90 bg-white p-6 shadow-2xl transition-all">
+              <MegaMenu onClose={handleCloseMega} />
             </div>
-          )}
-        </Container>
+          </div>
+        )}
+      </div>
     </header>
   );
 }
+

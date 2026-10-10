@@ -1,0 +1,80 @@
+[
+  {
+    "route": "/",
+    "slug": "home",
+    "status": "ok",
+    "file": "audit-reports/2026-10-08/axe/home.json"
+  },
+  {
+    "route": "/about/",
+    "slug": "about",
+    "status": "ok",
+    "file": "audit-reports/2026-10-08/axe/about.json"
+  },
+  {
+    "route": "/tools/",
+    "slug": "tools",
+    "status": "ok",
+    "file": "audit-reports/2026-10-08/axe/tools.json"
+  },
+  {
+    "route": "/contact/",
+    "slug": "contact",
+    "status": "ok",
+    "file": "audit-reports/2026-10-08/axe/contact.json"
+  },
+  {
+    "route": "/request-quote/",
+    "slug": "request-quote",
+    "status": "ok",
+    "file": "audit-reports/2026-10-08/axe/request-quote.json"
+  },
+  {
+    "route": "/products/",
+    "slug": "products",
+    "status": "ok",
+    "file": "audit-reports/2026-10-08/axe/products.json"
+  },
+  {
+    "route": "/products/foundation-bolts/",
+    "slug": "products-foundation-bolts",
+    "status": "ok",
+    "file": "audit-reports/2026-10-08/axe/products-foundation-bolts.json"
+  },
+  {
+    "route": "/products/stud-bolts/",
+    "slug": "products-stud-bolts",
+    "status": "ok",
+    "file": "audit-reports/2026-10-08/axe/products-stud-bolts.json"
+  },
+  {
+    "route": "/materials/high-tensile-fasteners/",
+    "slug": "materials-high-tensile-fasteners",
+    "status": "ok",
+    "file": "audit-reports/2026-10-08/axe/materials-high-tensile-fasteners.json"
+  },
+  {
+    "route": "/materials/stainless-steel-fasteners/",
+    "slug": "materials-stainless-steel-fasteners",
+    "status": "ok",
+    "file": "audit-reports/2026-10-08/axe/materials-stainless-steel-fasteners.json"
+  },
+  {
+    "route": "/industries/construction-infrastructure/",
+    "slug": "industries-construction-infrastructure",
+    "status": "ok",
+    "file": "audit-reports/2026-10-08/axe/industries-construction-infrastructure.json"
+  },
+  {
+    "route": "/terms/",
+    "slug": "terms",
+    "status": "ok",
+    "file": "audit-reports/2026-10-08/axe/terms.json"
+  },
+  {
+    "route": "/privacy-policy/",
+    "slug": "privacy-policy",
+    "status": "ok",
+    "file": "audit-reports/2026-10-08/axe/privacy-policy.json"
+  }
+]

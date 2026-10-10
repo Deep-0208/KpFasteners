@@ -328,6 +328,9 @@ export default function HomePage() {
                 <Link href="/request-quote/" className="btn btn-primary">
                   Request a Quote
                 </Link>
+                <Link href="/contact/" className="btn btn-secondary">
+                  Contact Sales Office
+                </Link>
                 <a
                   href={WA_URL}
                   target="_blank"

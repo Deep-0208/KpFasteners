@@ -20,6 +20,7 @@ import { Container } from '@/components/ui/Container';
 import { Section } from '@/components/ui/Section';
 import { Heading } from '@/components/ui/Heading';
 import { Card } from '@/components/ui/Card';
+import { RelatedProductCards } from '@/components/ui/RelatedProductCards';
 import { Prose } from '@/components/ui/Prose';
 import { Breadcrumbs } from '@/components/ui/Breadcrumbs';
 import { Accordion } from '@/components/ui/Accordion';
@@ -738,82 +739,15 @@ export default function Page() {
         </Container>
       </Section>
 
-      {/* 10. Mid-page CTA */}
-      <Section variant="alt">
-        <Container>
-          <Card variant="metallic" padding="lg">
-            <div className="grid gap-6 md:grid-cols-[1.4fr_1fr] md:items-center">
-              <div>
-                <Heading as="h2" variant="subsection">
-                  <span className="text-gold-gradient">
-                    Have a sag-rod schedule or PEB bracing drawing ready?
-                  </span>
-                </Heading>
-                <p className="mt-3 max-w-2xl text-ink-muted">
-                  Share diameter, length, thread run at each end, coating class and
-                  quantity per size. Quote back within one working day with MTC
-                  availability.
-                </p>
-              </div>
-              <div className="flex flex-wrap gap-3">
-                <Link
-                  href="/request-quote/?product=sag-rods"
-                  className="btn btn-primary"
-                >
-                  Request a BOQ quote
-                </Link>
-                <a
-                  href={WA_URL}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="btn btn-whatsapp"
-                >
-                  WhatsApp us
-                </a>
-              </div>
-            </div>
-          </Card>
-        </Container>
-      </Section>
-
-      {/* 11. FAQs */}
-      <Section>
-        <Container width="narrow">
-          <Heading as="h2" variant="section">Frequently asked questions</Heading>
-          <p className="mt-3 text-ink-muted">
-            Procurement-level answers. For project-specific detail, send your bracing
-            schedule or PEB drawing.
-          </p>
-          <div className="mt-8">
-            <Accordion
-              items={FAQS.map((f) => ({
-                question: f.question,
-                answer: <p>{f.answer}</p>,
-              }))}
-            />
-          </div>
-        </Container>
-      </Section>
-
-      {/* 12. Related products */}
+      {/* 10. Related products */}
       <Section variant="alt">
         <Container>
           <Heading as="h2" variant="section">Related product lines</Heading>
-          <div className="mt-8 grid gap-6 sm:grid-cols-3">
-            {RELATED.map((r) => (
-              <Card key={r.href} variant="metallic" padding="lg" className="flex h-full flex-col">
-                <Heading as="h3" variant="card">
-                  {r.name}
-                </Heading>
-                <p className="mt-3 flex-1 text-sm text-ink-muted">{r.body}</p>
-                <Link
-                  href={r.href}
-                  className="mt-4 inline-flex items-center gap-1 font-heading text-sm font-semibold text-brand-gold-strong hover:underline"
-                >
-                  {r.anchor} <ArrowRight aria-hidden="true" className="h-4 w-4" />
-                </Link>
-              </Card>
-            ))}
+          <p className="mt-3 max-w-3xl text-ink-muted">
+            Explore companion structural fasteners, purlin accessories, and bracing components:
+          </p>
+          <div className="mt-8">
+            <RelatedProductCards items={RELATED} />
           </div>
           <p className="mt-6 text-sm text-ink-muted">
             Back to{' '}
@@ -842,8 +776,27 @@ export default function Page() {
         </Container>
       </Section>
 
-      {/* 13. Closing CTA */}
+      {/* 11. FAQs */}
       <Section>
+        <Container width="narrow">
+          <Heading as="h2" variant="section">Frequently asked questions</Heading>
+          <p className="mt-3 text-ink-muted">
+            Procurement-level answers. For project-specific detail, send your bracing
+            schedule or PEB drawing.
+          </p>
+          <div className="mt-8">
+            <Accordion
+              items={FAQS.map((f) => ({
+                question: f.question,
+                answer: <p>{f.answer}</p>,
+              }))}
+            />
+          </div>
+        </Container>
+      </Section>
+
+      {/* 12. Single Authoritative Closing CTA */}
+      <Section variant="alt">
         <Container>
           <Card variant="metallic" padding="lg">
             <div className="grid gap-6 md:grid-cols-[1.4fr_1fr] md:items-center">
@@ -857,7 +810,7 @@ export default function Page() {
                 <p className="mt-3 max-w-2xl text-ink-muted">
                   Schedules accepted as PDF or Excel; structural drawings as PDF or
                   DWG. We reply within one working day with diameter, length,
-                  thread-run, coating class, lead time and MTC availability.
+                  thread-run, coating class, lead time and EN 10204 3.1 MTC availability.
                 </p>
               </div>
               <div className="flex flex-wrap gap-3">

@@ -18,6 +18,7 @@ import { Container } from '@/components/ui/Container';
 import { Section } from '@/components/ui/Section';
 import { Heading } from '@/components/ui/Heading';
 import { Card } from '@/components/ui/Card';
+import { RelatedProductCards } from '@/components/ui/RelatedProductCards';
 import { Prose } from '@/components/ui/Prose';
 import { Breadcrumbs } from '@/components/ui/Breadcrumbs';
 import { Accordion } from '@/components/ui/Accordion';
@@ -30,7 +31,7 @@ import { findRoute } from '@/data/routes';
 import { company } from '@/data/company';
 
 const PATH = '/materials/high-tensile-fasteners/';
-const HERO_IMAGE = '/images/products/threaded-rods/b7-stud.webp';
+const HERO_IMAGE = '/product-images/high-tensile/hero.webp';
 
 // Title: 55 chars (50–60 range). Meta description: 159 chars (150–160 range).
 const META_TITLE = 'High-Tensile Bolts Manufacturer | PC 8.8 10.9 12.9 | KP';
@@ -664,6 +665,26 @@ export default function Page() {
               caption="KP Fasteners production and distribution scope across carbon and alloy steel property classes."
             />
           </div>
+
+          <div className="mt-8 grid gap-6 md:grid-cols-[1.4fr_1fr] md:items-center">
+            <div className="rounded-xl border border-metal-subtle bg-surface p-6">
+              <Heading as="h3" variant="card" className="text-brand-steel">
+                Raw Material Alloy Feedstock &amp; Round Bar Inventory
+              </Heading>
+              <p className="mt-3 text-sm text-ink-muted">
+                Our in-house manufacturing lines in Ahmedabad utilize verified prime alloy steel round bars (EN8D, EN19, EN24, AISI 4140) tested for chemical composition, grain flow, and mechanical hardness before CNC thread rolling and heat treatment. Each lot is traceable to originating mill test certificates (EN 10204 3.1).
+              </p>
+            </div>
+            <div className="relative aspect-[4/3] w-full overflow-hidden rounded-xl border border-metal-subtle bg-surface shadow-sm">
+              <Image
+                src="/images/materials/high-strength-alloy-steel.webp"
+                alt="High-strength alloy steel round bar stock and raw material inventory at KP Fasteners Ahmedabad facility"
+                fill
+                sizes="(min-width: 1024px) 33vw, 100vw"
+                className="object-cover"
+              />
+            </div>
+          </div>
         </Container>
       </Section>
 
@@ -677,24 +698,15 @@ export default function Page() {
             Explore our comprehensive range of high-tensile fasteners across OEM manufactured and distributed product lines:
           </p>
 
-          <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {FORMS.map((form) => (
-              <Card key={form.slug} variant="default" padding="lg">
-                <Heading as="h3" variant="card">
-                  {form.title}
-                </Heading>
-                <p className="mt-2 text-sm text-ink-muted">{form.description}</p>
-                <div className="mt-4">
-                  <Link
-                    href={form.slug}
-                    className="inline-flex items-center gap-1 text-sm font-semibold text-brand-gold-strong hover:underline"
-                  >
-                    View {form.anchorText}
-                    <ArrowRight aria-hidden="true" className="h-4 w-4" />
-                  </Link>
-                </div>
-              </Card>
-            ))}
+          <div className="mt-8">
+            <RelatedProductCards
+              items={FORMS.map((form) => ({
+                href: form.slug,
+                title: form.title,
+                body: form.description,
+                anchor: form.anchorText,
+              }))}
+            />
           </div>
 
           <div className="mt-8 text-center">

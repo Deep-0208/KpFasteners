@@ -22,6 +22,7 @@ import { Container } from '@/components/ui/Container';
 import { Section } from '@/components/ui/Section';
 import { Heading } from '@/components/ui/Heading';
 import { Card } from '@/components/ui/Card';
+import { RelatedProductCards } from '@/components/ui/RelatedProductCards';
 import { Prose } from '@/components/ui/Prose';
 import { Breadcrumbs } from '@/components/ui/Breadcrumbs';
 import { Accordion } from '@/components/ui/Accordion';
@@ -34,7 +35,7 @@ import { findRoute } from '@/data/routes';
 import { company } from '@/data/company';
 
 const PATH = '/materials/stainless-steel-fasteners/';
-const HERO_IMAGE = '/images/products/bolts/allen-socket-button-head-screw.webp';
+const HERO_IMAGE = '/product-images/stainless-steel/hero.webp';
 
 // Title: 59 chars (50–60 range). Meta description: 156 chars (150–160 range).
 const META_TITLE = 'Stainless Steel Fasteners Manufacturer | SS 304 vs 316 | KP';
@@ -930,24 +931,15 @@ export default function Page() {
             KP Fasteners supplies stainless steel fasteners across full product families, combining in-house manufacture for structural anchors and studs with vetted mill distribution for standard commercial bolts and screws:
           </p>
 
-          <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {FORMS.map((form) => (
-              <Card key={form.slug} variant="default" padding="lg">
-                <Heading as="h3" variant="card">
-                  {form.title}
-                </Heading>
-                <p className="mt-2 text-sm text-ink-muted">{form.description}</p>
-                <div className="mt-4">
-                  <Link
-                    href={form.slug}
-                    className="inline-flex items-center gap-1 text-sm font-semibold text-brand-gold-strong hover:underline"
-                  >
-                    View {form.anchorText}
-                    <ArrowRight aria-hidden="true" className="h-4 w-4" />
-                  </Link>
-                </div>
-              </Card>
-            ))}
+          <div className="mt-8">
+            <RelatedProductCards
+              items={FORMS.map((form) => ({
+                href: form.slug,
+                title: form.title,
+                body: form.description,
+                anchor: form.anchorText,
+              }))}
+            />
           </div>
 
           <div className="mt-8 text-center">

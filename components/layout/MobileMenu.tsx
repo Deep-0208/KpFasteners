@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 import { useEffect, useRef, useState, useSyncExternalStore } from 'react';
 import { createPortal } from 'react-dom';
 import { Menu, X, FileText, Phone, MessageCircle } from 'lucide-react';
@@ -23,6 +24,7 @@ export function MobileMenu() {
   const mounted = useSyncExternalStore(emptySubscribe, () => true, () => false);
   const dialogRef = useRef<HTMLDivElement>(null);
   const openerRef = useRef<HTMLButtonElement>(null);
+  const pathname = usePathname();
 
   const tel = `tel:${company.telephones[0].replace(/[^\d+]/g, '')}`;
   const wa = `https://wa.me/${company.whatsapp.number.replace(/[^\d]/g, '')}?text=${encodeURIComponent(company.whatsapp.prefill)}`;
@@ -132,18 +134,33 @@ export function MobileMenu() {
             </div>
 
             {/* Primary Navigation Links */}
-            <ul className="flex flex-col gap-1">
-              {headerNav.map((item) => (
-                <li key={`nav-${item.href}`}>
-                  <Link
-                    href={item.href}
-                    onClick={() => setOpen(false)}
-                    className="flex min-h-[48px] items-center rounded-lg px-3.5 py-3 text-base font-semibold text-slate-800 transition-colors hover:bg-slate-100 hover:text-amber-900"
-                  >
-                    {item.label}
-                  </Link>
-                </li>
-              ))}
+            <ul className="flex flex-col gap-1.5">
+              {headerNav.map((item) => {
+                const isActive =
+                  pathname === item.href ||
+                  (item.label === 'Products' && pathname.startsWith('/products')) ||
+                  (item.label === 'Materials' && pathname.startsWith('/materials')) ||
+                  (item.label === 'Industries' && pathname.startsWith('/industries')) ||
+                  (item.label === 'Tools' && pathname.startsWith('/tools')) ||
+                  (item.label === 'About' && pathname.startsWith('/about')) ||
+                  (item.label === 'Contact' && pathname.startsWith('/contact'));
+
+                return (
+                  <li key={`nav-${item.href}`}>
+                    <Link
+                      href={item.href}
+                      onClick={() => setOpen(false)}
+                      className={`flex min-h-[48px] items-center rounded-xl px-4 py-3 text-base font-semibold transition-all duration-150 ${
+                        isActive
+                          ? 'bg-amber-50 text-amber-900 border border-amber-200/90 shadow-xs'
+                          : 'text-slate-800 hover:bg-amber-50 hover:text-amber-900 hover:border-amber-200/90 border border-transparent'
+                      }`}
+                    >
+                      {item.label}
+                    </Link>
+                  </li>
+                );
+              })}
             </ul>
 
             {/* Categorized Product & Material Links */}

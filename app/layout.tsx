@@ -42,9 +42,9 @@ const jetbrainsMono = JetBrains_Mono({
 
 export const metadata: Metadata = buildMetadata({
   path: '/',
-  title: 'KP Fasteners — Industrial Fastener Manufacturer, Ahmedabad',
+  title: 'Fasteners Manufacturers in Ahmedabad | KP Fasteners',
   description:
-    'KP Fasteners manufactures and supplies foundation bolts, stud bolts, tie rods and custom industrial fasteners from Ahmedabad, Gujarat. Request a quote today.',
+    'KP Fasteners is a leading fastener manufacturer in Ahmedabad, Gujarat. In-house OEM foundation bolts, ASTM A193 B7 stud bolts, sag rods & high-tensile fasteners.',
 });
 
 export const viewport: Viewport = {

@@ -35,8 +35,8 @@ export const productCategories: ProductCategory[] = [
     shortDescription:
       'J-, L-, U-type and hooked foundation / anchor bolts for civil and industrial anchoring.',
     classification: 'oem',
-    image: '/images/products/bolts/j-bolt.webp',
-    imageAlt: 'KP Fasteners foundation bolt — J, L, U and hooked anchors',
+    image: '/images/products/bolts/foundation-anchor-bolts.webp',
+    imageAlt: 'KP Fasteners foundation bolts — J, L, U and mechanical anchor bolts to IS 5624 and ASTM F1554',
   },
   {
     slug: 'stud-bolts',
@@ -45,7 +45,7 @@ export const productCategories: ProductCategory[] = [
     shortDescription: 'Metric and imperial stud bolts for flange and structural applications.',
     classification: 'oem',
     image: '/images/products/threaded-rods/threaded-rod-stud.webp',
-    imageAlt: 'KP Fasteners stud bolt — ASTM A193 B7 / B8 / B8M continuous threaded rod',
+    imageAlt: 'KP Fasteners ASTM A193 B7 stud bolt assembly with dual heavy hex nuts',
   },
   {
     slug: 'sag-rods',
@@ -55,7 +55,7 @@ export const productCategories: ProductCategory[] = [
       'Threaded sag rods for PEB purlin bracing, structural steel, and solar racking cross-bracing.',
     classification: 'oem',
     image: '/images/products/threaded-rods/sag-rod.webp',
-    imageAlt: 'KP Fasteners threaded sag rod for PEB and solar purlin bracing',
+    imageAlt: 'KP Fasteners industrial sag rod assembly with dual hex nuts for PEB purlin bracing',
   },
   {
     slug: 'scaffold-accessories',
@@ -122,3 +122,78 @@ export const productCategories: ProductCategory[] = [
 export function findProduct(slug: string): ProductCategory | undefined {
   return productCategories.find((p) => p.slug === slug);
 }
+
+export const RELATED_IMAGE_MAP: Record<string, { image: string; imageAlt: string }> = {
+  '/products/foundation-bolts/': {
+    image: '/images/products/bolts/foundation-anchor-bolts.webp',
+    imageAlt: 'KP Fasteners foundation bolts — J, L, U and mechanical anchor bolts to IS 5624 and ASTM F1554',
+  },
+  '/products/stud-bolts/': {
+    image: '/images/products/threaded-rods/threaded-rod-stud.webp',
+    imageAlt: 'KP Fasteners ASTM A193 B7 stud bolt assembly with dual heavy hex nuts',
+  },
+  '/products/sag-rods/': {
+    image: '/images/products/threaded-rods/sag-rod.webp',
+    imageAlt: 'KP Fasteners industrial sag rod assembly with dual hex nuts for PEB purlin bracing',
+  },
+  '/products/scaffold-accessories/': {
+    image: '/images/products/threaded-rods/wedge-anchor.webp',
+    imageAlt: 'Scaffold accessory — formwork hardware and wedge anchor accessories',
+  },
+  '/products/hex-bolts-nuts/': {
+    image: '/images/products/bolts/hex-bolt-hex-nut.webp',
+    imageAlt: 'Hex bolt and hex nut — DIN 933 / DIN 934 distribution range',
+  },
+  '/products/csk-allen-bolts/': {
+    image: '/images/products/bolts/allen-socket-csk-screw.webp',
+    imageAlt: 'Countersunk Allen socket screw — DIN 7991 distribution range',
+  },
+  '/products/tie-rods/': {
+    image: '/images/products/threaded-rods/tie-rod.webp',
+    imageAlt: 'Tie rod and formwork rod — D15 and D20 distribution range',
+  },
+  '/products/solar-accessories/': {
+    image: '/images/products/bolts/hex-flange-bolt.webp',
+    imageAlt: 'Solar mounting accessory — hex flange bolt and mounting hardware',
+  },
+  '/products/custom-fasteners/': {
+    image: '/images/products/bolts/socket-head-cap-screw.webp',
+    imageAlt: 'Custom fasteners — socket-head cap screw and precision machined hardware',
+  },
+  '/materials/high-tensile-fasteners/': {
+    image: '/product-images/high-tensile/hero.webp',
+    imageAlt: 'High-tensile fasteners — property class 8.8 and 10.9 bolts',
+  },
+  '/materials/stainless-steel-fasteners/': {
+    image: '/product-images/stainless-steel/hero.webp',
+    imageAlt: 'KP Fasteners stainless steel 304 and 316 fastener range',
+  },
+  '/industries/construction-infrastructure/': {
+    image: '/product-images/construction/hero.webp',
+    imageAlt: 'Construction and infrastructure structural fasteners and PEB hardware',
+  },
+  '/industries/solar-mounting-fasteners/': {
+    image: '/product-images/solar/hero.webp',
+    imageAlt: 'Solar mounting structure fasteners and module clamps',
+  },
+  '/industries/automotive-heavy-engineering/': {
+    image: '/product-images/automotive/hero.webp',
+    imageAlt: 'Automotive and heavy engineering precision fasteners',
+  },
+};
+
+export function getRelatedImage(href: string): { image: string; imageAlt: string } {
+  const normalized = href.endsWith('/') ? href : `${href}/`;
+  if (RELATED_IMAGE_MAP[normalized]) {
+    return RELATED_IMAGE_MAP[normalized];
+  }
+  const matchedProd = productCategories.find((p) => p.path === normalized);
+  if (matchedProd) {
+    return { image: matchedProd.image, imageAlt: matchedProd.imageAlt };
+  }
+  return {
+    image: '/images/products/bolts/hex-bolt-hex-nut.webp',
+    imageAlt: 'KP Fasteners industrial hardware',
+  };
+}
+

@@ -1,0 +1,4156 @@
+[
+  {
+    "route": "/",
+    "devices": {
+      "Small Mobile (iPhone SE 1st)": {
+        "viewport": "320x568",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 320,
+          "scrollWidth": 320,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 0,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 39,
+          "isMobileNavPresent": true
+        }
+      },
+      "Standard Mobile (iPhone 8/SE2)": {
+        "viewport": "375x667",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 375,
+          "scrollWidth": 375,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 0,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 39,
+          "isMobileNavPresent": true
+        }
+      },
+      "Modern Mobile (iPhone 14/15)": {
+        "viewport": "390x844",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 390,
+          "scrollWidth": 390,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 0,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 39,
+          "isMobileNavPresent": true
+        }
+      },
+      "Tablet Portrait (iPad Air)": {
+        "viewport": "768x1024",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 768,
+          "scrollWidth": 768,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 0,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 36,
+          "isMobileNavPresent": true
+        }
+      },
+      "Laptop / Tablet Landscape": {
+        "viewport": "1024x768",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 1009,
+          "scrollWidth": 1009,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 0,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 0,
+          "isMobileNavPresent": true
+        }
+      },
+      "Standard Desktop (1440p)": {
+        "viewport": "1440x900",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 1425,
+          "scrollWidth": 1425,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 0,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 0,
+          "isMobileNavPresent": true
+        }
+      },
+      "Full HD Widescreen (1080p)": {
+        "viewport": "1920x1080",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 1905,
+          "scrollWidth": 1905,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 0,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 0,
+          "isMobileNavPresent": true
+        }
+      }
+    }
+  },
+  {
+    "route": "/about/",
+    "devices": {
+      "Small Mobile (iPhone SE 1st)": {
+        "viewport": "320x568",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 320,
+          "scrollWidth": 320,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [
+            {
+              "selector": "table.min-w-full.text-sm",
+              "right": 508,
+              "width": 491,
+              "text": "Table 1: Operational supply de"
+            },
+            {
+              "selector": "caption.p-2.text-left.text-ink-muted",
+              "right": 508,
+              "width": 491,
+              "text": "Table 1: Operational supply de"
+            },
+            {
+              "selector": "thead.bg-surface-alt",
+              "right": 508,
+              "width": 491,
+              "text": "Fastener Category\tSupply Model"
+            },
+            {
+              "selector": "tr",
+              "right": 508,
+              "width": 491,
+              "text": "Fastener Category\tSupply Model"
+            },
+            {
+              "selector": "th.px-3.py-2.text-left",
+              "right": 375,
+              "width": 116,
+              "text": "Governing Standard Scope"
+            }
+          ],
+          "tableCount": 3,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 34,
+          "isMobileNavPresent": true
+        }
+      },
+      "Standard Mobile (iPhone 8/SE2)": {
+        "viewport": "375x667",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 375,
+          "scrollWidth": 375,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [
+            {
+              "selector": "table.min-w-full.text-sm",
+              "right": 508,
+              "width": 491,
+              "text": "Table 1: Operational supply de"
+            },
+            {
+              "selector": "caption.p-2.text-left.text-ink-muted",
+              "right": 508,
+              "width": 491,
+              "text": "Table 1: Operational supply de"
+            },
+            {
+              "selector": "thead.bg-surface-alt",
+              "right": 508,
+              "width": 491,
+              "text": "Fastener Category\tSupply Model"
+            },
+            {
+              "selector": "tr",
+              "right": 508,
+              "width": 491,
+              "text": "Fastener Category\tSupply Model"
+            },
+            {
+              "selector": "th.px-3.py-2.text-left",
+              "right": 508,
+              "width": 133,
+              "text": "Production & Quality Responsib"
+            }
+          ],
+          "tableCount": 3,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 41,
+          "isMobileNavPresent": true
+        }
+      },
+      "Modern Mobile (iPhone 14/15)": {
+        "viewport": "390x844",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 390,
+          "scrollWidth": 390,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [
+            {
+              "selector": "table.min-w-full.text-sm",
+              "right": 508,
+              "width": 491,
+              "text": "Table 1: Operational supply de"
+            },
+            {
+              "selector": "caption.p-2.text-left.text-ink-muted",
+              "right": 508,
+              "width": 491,
+              "text": "Table 1: Operational supply de"
+            },
+            {
+              "selector": "thead.bg-surface-alt",
+              "right": 508,
+              "width": 491,
+              "text": "Fastener Category\tSupply Model"
+            },
+            {
+              "selector": "tr",
+              "right": 508,
+              "width": 491,
+              "text": "Fastener Category\tSupply Model"
+            },
+            {
+              "selector": "th.px-3.py-2.text-left",
+              "right": 508,
+              "width": 133,
+              "text": "Production & Quality Responsib"
+            }
+          ],
+          "tableCount": 3,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 41,
+          "isMobileNavPresent": true
+        }
+      },
+      "Tablet Portrait (iPad Air)": {
+        "viewport": "768x1024",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 768,
+          "scrollWidth": 768,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 3,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 36,
+          "isMobileNavPresent": true
+        }
+      },
+      "Laptop / Tablet Landscape": {
+        "viewport": "1024x768",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 1009,
+          "scrollWidth": 1009,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 3,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 0,
+          "isMobileNavPresent": true
+        }
+      },
+      "Standard Desktop (1440p)": {
+        "viewport": "1440x900",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 1425,
+          "scrollWidth": 1425,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 3,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 0,
+          "isMobileNavPresent": true
+        }
+      },
+      "Full HD Widescreen (1080p)": {
+        "viewport": "1920x1080",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 1905,
+          "scrollWidth": 1905,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 3,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 0,
+          "isMobileNavPresent": true
+        }
+      }
+    }
+  },
+  {
+    "route": "/tools/",
+    "devices": {
+      "Small Mobile (iPhone SE 1st)": {
+        "viewport": "320x568",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 320,
+          "scrollWidth": 320,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 0,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 28,
+          "isMobileNavPresent": true
+        }
+      },
+      "Standard Mobile (iPhone 8/SE2)": {
+        "viewport": "375x667",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 375,
+          "scrollWidth": 375,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 0,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 28,
+          "isMobileNavPresent": true
+        }
+      },
+      "Modern Mobile (iPhone 14/15)": {
+        "viewport": "390x844",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 390,
+          "scrollWidth": 390,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 0,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 28,
+          "isMobileNavPresent": true
+        }
+      },
+      "Tablet Portrait (iPad Air)": {
+        "viewport": "768x1024",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 768,
+          "scrollWidth": 768,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 0,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 25,
+          "isMobileNavPresent": true
+        }
+      },
+      "Laptop / Tablet Landscape": {
+        "viewport": "1024x768",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 1009,
+          "scrollWidth": 1009,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 0,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 0,
+          "isMobileNavPresent": true
+        }
+      },
+      "Standard Desktop (1440p)": {
+        "viewport": "1440x900",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 1425,
+          "scrollWidth": 1425,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 0,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 0,
+          "isMobileNavPresent": true
+        }
+      },
+      "Full HD Widescreen (1080p)": {
+        "viewport": "1920x1080",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 1905,
+          "scrollWidth": 1905,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 0,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 0,
+          "isMobileNavPresent": true
+        }
+      }
+    }
+  },
+  {
+    "route": "/contact/",
+    "devices": {
+      "Small Mobile (iPhone SE 1st)": {
+        "viewport": "320x568",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 320,
+          "scrollWidth": 320,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 1,
+          "tablesWrapped": false,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 26,
+          "isMobileNavPresent": true
+        }
+      },
+      "Standard Mobile (iPhone 8/SE2)": {
+        "viewport": "375x667",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 375,
+          "scrollWidth": 375,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 1,
+          "tablesWrapped": false,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 26,
+          "isMobileNavPresent": true
+        }
+      },
+      "Modern Mobile (iPhone 14/15)": {
+        "viewport": "390x844",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 390,
+          "scrollWidth": 390,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 1,
+          "tablesWrapped": false,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 26,
+          "isMobileNavPresent": true
+        }
+      },
+      "Tablet Portrait (iPad Air)": {
+        "viewport": "768x1024",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 768,
+          "scrollWidth": 768,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 1,
+          "tablesWrapped": false,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 22,
+          "isMobileNavPresent": true
+        }
+      },
+      "Laptop / Tablet Landscape": {
+        "viewport": "1024x768",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 1009,
+          "scrollWidth": 1009,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 1,
+          "tablesWrapped": false,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 0,
+          "isMobileNavPresent": true
+        }
+      },
+      "Standard Desktop (1440p)": {
+        "viewport": "1440x900",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 1425,
+          "scrollWidth": 1425,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 1,
+          "tablesWrapped": false,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 0,
+          "isMobileNavPresent": true
+        }
+      },
+      "Full HD Widescreen (1080p)": {
+        "viewport": "1920x1080",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 1905,
+          "scrollWidth": 1905,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 1,
+          "tablesWrapped": false,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 0,
+          "isMobileNavPresent": true
+        }
+      }
+    }
+  },
+  {
+    "route": "/request-quote/",
+    "devices": {
+      "Small Mobile (iPhone SE 1st)": {
+        "viewport": "320x568",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 320,
+          "scrollWidth": 320,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 0,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 26,
+          "isMobileNavPresent": true
+        }
+      },
+      "Standard Mobile (iPhone 8/SE2)": {
+        "viewport": "375x667",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 375,
+          "scrollWidth": 375,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 0,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 26,
+          "isMobileNavPresent": true
+        }
+      },
+      "Modern Mobile (iPhone 14/15)": {
+        "viewport": "390x844",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 390,
+          "scrollWidth": 390,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 0,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 26,
+          "isMobileNavPresent": true
+        }
+      },
+      "Tablet Portrait (iPad Air)": {
+        "viewport": "768x1024",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 768,
+          "scrollWidth": 768,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 0,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 23,
+          "isMobileNavPresent": true
+        }
+      },
+      "Laptop / Tablet Landscape": {
+        "viewport": "1024x768",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 1009,
+          "scrollWidth": 1009,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 0,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 0,
+          "isMobileNavPresent": true
+        }
+      },
+      "Standard Desktop (1440p)": {
+        "viewport": "1440x900",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 1425,
+          "scrollWidth": 1425,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 0,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 0,
+          "isMobileNavPresent": true
+        }
+      },
+      "Full HD Widescreen (1080p)": {
+        "viewport": "1920x1080",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 1905,
+          "scrollWidth": 1905,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 0,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 0,
+          "isMobileNavPresent": true
+        }
+      }
+    }
+  },
+  {
+    "route": "/products/",
+    "devices": {
+      "Small Mobile (iPhone SE 1st)": {
+        "viewport": "320x568",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 320,
+          "scrollWidth": 320,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 0,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 39,
+          "isMobileNavPresent": true
+        }
+      },
+      "Standard Mobile (iPhone 8/SE2)": {
+        "viewport": "375x667",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 375,
+          "scrollWidth": 375,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 0,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 40,
+          "isMobileNavPresent": true
+        }
+      },
+      "Modern Mobile (iPhone 14/15)": {
+        "viewport": "390x844",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 390,
+          "scrollWidth": 390,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 0,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 40,
+          "isMobileNavPresent": true
+        }
+      },
+      "Tablet Portrait (iPad Air)": {
+        "viewport": "768x1024",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 768,
+          "scrollWidth": 768,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 0,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 34,
+          "isMobileNavPresent": true
+        }
+      },
+      "Laptop / Tablet Landscape": {
+        "viewport": "1024x768",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 1009,
+          "scrollWidth": 1009,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 0,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 0,
+          "isMobileNavPresent": true
+        }
+      },
+      "Standard Desktop (1440p)": {
+        "viewport": "1440x900",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 1425,
+          "scrollWidth": 1425,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 0,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 0,
+          "isMobileNavPresent": true
+        }
+      },
+      "Full HD Widescreen (1080p)": {
+        "viewport": "1920x1080",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 1905,
+          "scrollWidth": 1905,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 0,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 0,
+          "isMobileNavPresent": true
+        }
+      }
+    }
+  },
+  {
+    "route": "/products/foundation-bolts/",
+    "devices": {
+      "Small Mobile (iPhone SE 1st)": {
+        "viewport": "320x568",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 320,
+          "scrollWidth": 320,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [
+            {
+              "selector": "table.min-w-full.text-sm",
+              "right": 507,
+              "width": 490,
+              "text": "Standard\tCountry\tScope\tGrades"
+            },
+            {
+              "selector": "thead.bg-surface-alt",
+              "right": 507,
+              "width": 490,
+              "text": "Standard\tCountry\tScope\tGrades"
+            },
+            {
+              "selector": "tr",
+              "right": 507,
+              "width": 490,
+              "text": "Standard\tCountry\tScope\tGrades"
+            },
+            {
+              "selector": "th.px-3.py-2.text-left",
+              "right": 399,
+              "width": 91,
+              "text": "Grades / classes"
+            },
+            {
+              "selector": "th.px-3.py-2.text-left",
+              "right": 507,
+              "width": 108,
+              "text": "Typical application"
+            }
+          ],
+          "tableCount": 2,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 28,
+          "isMobileNavPresent": true
+        }
+      },
+      "Standard Mobile (iPhone 8/SE2)": {
+        "viewport": "375x667",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 375,
+          "scrollWidth": 375,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [
+            {
+              "selector": "table.min-w-full.text-sm",
+              "right": 507,
+              "width": 490,
+              "text": "Standard\tCountry\tScope\tGrades"
+            },
+            {
+              "selector": "thead.bg-surface-alt",
+              "right": 507,
+              "width": 490,
+              "text": "Standard\tCountry\tScope\tGrades"
+            },
+            {
+              "selector": "tr",
+              "right": 507,
+              "width": 490,
+              "text": "Standard\tCountry\tScope\tGrades"
+            },
+            {
+              "selector": "th.px-3.py-2.text-left",
+              "right": 399,
+              "width": 91,
+              "text": "Grades / classes"
+            },
+            {
+              "selector": "th.px-3.py-2.text-left",
+              "right": 507,
+              "width": 108,
+              "text": "Typical application"
+            }
+          ],
+          "tableCount": 2,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 31,
+          "isMobileNavPresent": true
+        }
+      },
+      "Modern Mobile (iPhone 14/15)": {
+        "viewport": "390x844",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 390,
+          "scrollWidth": 390,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [
+            {
+              "selector": "table.min-w-full.text-sm",
+              "right": 507,
+              "width": 490,
+              "text": "Standard\tCountry\tScope\tGrades"
+            },
+            {
+              "selector": "thead.bg-surface-alt",
+              "right": 507,
+              "width": 490,
+              "text": "Standard\tCountry\tScope\tGrades"
+            },
+            {
+              "selector": "tr",
+              "right": 507,
+              "width": 490,
+              "text": "Standard\tCountry\tScope\tGrades"
+            },
+            {
+              "selector": "th.px-3.py-2.text-left",
+              "right": 399,
+              "width": 91,
+              "text": "Grades / classes"
+            },
+            {
+              "selector": "th.px-3.py-2.text-left",
+              "right": 507,
+              "width": 108,
+              "text": "Typical application"
+            }
+          ],
+          "tableCount": 2,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 30,
+          "isMobileNavPresent": true
+        }
+      },
+      "Tablet Portrait (iPad Air)": {
+        "viewport": "768x1024",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 768,
+          "scrollWidth": 768,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 2,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 25,
+          "isMobileNavPresent": true
+        }
+      },
+      "Laptop / Tablet Landscape": {
+        "viewport": "1024x768",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 1009,
+          "scrollWidth": 1009,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 2,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 0,
+          "isMobileNavPresent": true
+        }
+      },
+      "Standard Desktop (1440p)": {
+        "viewport": "1440x900",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 1425,
+          "scrollWidth": 1425,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 2,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 0,
+          "isMobileNavPresent": true
+        }
+      },
+      "Full HD Widescreen (1080p)": {
+        "viewport": "1920x1080",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 1905,
+          "scrollWidth": 1905,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 2,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 0,
+          "isMobileNavPresent": true
+        }
+      }
+    }
+  },
+  {
+    "route": "/products/stud-bolts/",
+    "devices": {
+      "Small Mobile (iPhone SE 1st)": {
+        "viewport": "320x568",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 320,
+          "scrollWidth": 320,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [
+            {
+              "selector": "table.min-w-full.text-sm",
+              "right": 543,
+              "width": 526,
+              "text": "Standard\tCountry\tEquivalent /"
+            },
+            {
+              "selector": "thead.bg-surface-alt",
+              "right": 543,
+              "width": 526,
+              "text": "Standard\tCountry\tEquivalent /"
+            },
+            {
+              "selector": "tr",
+              "right": 543,
+              "width": 526,
+              "text": "Standard\tCountry\tEquivalent /"
+            },
+            {
+              "selector": "th.px-3.py-2.text-left",
+              "right": 401,
+              "width": 100,
+              "text": "Grades / classes"
+            },
+            {
+              "selector": "th.px-3.py-2.text-left",
+              "right": 543,
+              "width": 142,
+              "text": "Typical application"
+            }
+          ],
+          "tableCount": 2,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 29,
+          "isMobileNavPresent": true
+        }
+      },
+      "Standard Mobile (iPhone 8/SE2)": {
+        "viewport": "375x667",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 375,
+          "scrollWidth": 375,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [
+            {
+              "selector": "table.min-w-full.text-sm",
+              "right": 543,
+              "width": 526,
+              "text": "Standard\tCountry\tEquivalent /"
+            },
+            {
+              "selector": "thead.bg-surface-alt",
+              "right": 543,
+              "width": 526,
+              "text": "Standard\tCountry\tEquivalent /"
+            },
+            {
+              "selector": "tr",
+              "right": 543,
+              "width": 526,
+              "text": "Standard\tCountry\tEquivalent /"
+            },
+            {
+              "selector": "th.px-3.py-2.text-left",
+              "right": 401,
+              "width": 100,
+              "text": "Grades / classes"
+            },
+            {
+              "selector": "th.px-3.py-2.text-left",
+              "right": 543,
+              "width": 142,
+              "text": "Typical application"
+            }
+          ],
+          "tableCount": 2,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 29,
+          "isMobileNavPresent": true
+        }
+      },
+      "Modern Mobile (iPhone 14/15)": {
+        "viewport": "390x844",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 390,
+          "scrollWidth": 390,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [
+            {
+              "selector": "table.min-w-full.text-sm",
+              "right": 543,
+              "width": 526,
+              "text": "Standard\tCountry\tEquivalent /"
+            },
+            {
+              "selector": "thead.bg-surface-alt",
+              "right": 543,
+              "width": 526,
+              "text": "Standard\tCountry\tEquivalent /"
+            },
+            {
+              "selector": "tr",
+              "right": 543,
+              "width": 526,
+              "text": "Standard\tCountry\tEquivalent /"
+            },
+            {
+              "selector": "th.px-3.py-2.text-left",
+              "right": 401,
+              "width": 100,
+              "text": "Grades / classes"
+            },
+            {
+              "selector": "th.px-3.py-2.text-left",
+              "right": 543,
+              "width": 142,
+              "text": "Typical application"
+            }
+          ],
+          "tableCount": 2,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 29,
+          "isMobileNavPresent": true
+        }
+      },
+      "Tablet Portrait (iPad Air)": {
+        "viewport": "768x1024",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 768,
+          "scrollWidth": 768,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 2,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 25,
+          "isMobileNavPresent": true
+        }
+      },
+      "Laptop / Tablet Landscape": {
+        "viewport": "1024x768",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 1009,
+          "scrollWidth": 1009,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 2,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 0,
+          "isMobileNavPresent": true
+        }
+      },
+      "Standard Desktop (1440p)": {
+        "viewport": "1440x900",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 1425,
+          "scrollWidth": 1425,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 2,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 0,
+          "isMobileNavPresent": true
+        }
+      },
+      "Full HD Widescreen (1080p)": {
+        "viewport": "1920x1080",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 1905,
+          "scrollWidth": 1905,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 2,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 0,
+          "isMobileNavPresent": true
+        }
+      }
+    }
+  },
+  {
+    "route": "/products/sag-rods/",
+    "devices": {
+      "Small Mobile (iPhone SE 1st)": {
+        "viewport": "320x568",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 320,
+          "scrollWidth": 320,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [
+            {
+              "selector": "table.min-w-full.text-sm",
+              "right": 560,
+              "width": 543,
+              "text": "Standard\tCountry\tEquivalent /"
+            },
+            {
+              "selector": "thead.bg-surface-alt",
+              "right": 560,
+              "width": 543,
+              "text": "Standard\tCountry\tEquivalent /"
+            },
+            {
+              "selector": "tr",
+              "right": 560,
+              "width": 543,
+              "text": "Standard\tCountry\tEquivalent /"
+            },
+            {
+              "selector": "th.px-3.py-2.text-left",
+              "right": 352,
+              "width": 116,
+              "text": "Equivalent / scope"
+            },
+            {
+              "selector": "th.px-3.py-2.text-left",
+              "right": 452,
+              "width": 100,
+              "text": "Grades / classes"
+            }
+          ],
+          "tableCount": 2,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 30,
+          "isMobileNavPresent": true
+        }
+      },
+      "Standard Mobile (iPhone 8/SE2)": {
+        "viewport": "375x667",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 375,
+          "scrollWidth": 375,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [
+            {
+              "selector": "table.min-w-full.text-sm",
+              "right": 560,
+              "width": 543,
+              "text": "Standard\tCountry\tEquivalent /"
+            },
+            {
+              "selector": "thead.bg-surface-alt",
+              "right": 560,
+              "width": 543,
+              "text": "Standard\tCountry\tEquivalent /"
+            },
+            {
+              "selector": "tr",
+              "right": 560,
+              "width": 543,
+              "text": "Standard\tCountry\tEquivalent /"
+            },
+            {
+              "selector": "th.px-3.py-2.text-left",
+              "right": 452,
+              "width": 100,
+              "text": "Grades / classes"
+            },
+            {
+              "selector": "th.px-3.py-2.text-left",
+              "right": 560,
+              "width": 108,
+              "text": "Typical application"
+            }
+          ],
+          "tableCount": 2,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 29,
+          "isMobileNavPresent": true
+        }
+      },
+      "Modern Mobile (iPhone 14/15)": {
+        "viewport": "390x844",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 390,
+          "scrollWidth": 390,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [
+            {
+              "selector": "table.min-w-full.text-sm",
+              "right": 560,
+              "width": 543,
+              "text": "Standard\tCountry\tEquivalent /"
+            },
+            {
+              "selector": "thead.bg-surface-alt",
+              "right": 560,
+              "width": 543,
+              "text": "Standard\tCountry\tEquivalent /"
+            },
+            {
+              "selector": "tr",
+              "right": 560,
+              "width": 543,
+              "text": "Standard\tCountry\tEquivalent /"
+            },
+            {
+              "selector": "th.px-3.py-2.text-left",
+              "right": 452,
+              "width": 100,
+              "text": "Grades / classes"
+            },
+            {
+              "selector": "th.px-3.py-2.text-left",
+              "right": 560,
+              "width": 108,
+              "text": "Typical application"
+            }
+          ],
+          "tableCount": 2,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 29,
+          "isMobileNavPresent": true
+        }
+      },
+      "Tablet Portrait (iPad Air)": {
+        "viewport": "768x1024",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 768,
+          "scrollWidth": 768,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 2,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 27,
+          "isMobileNavPresent": true
+        }
+      },
+      "Laptop / Tablet Landscape": {
+        "viewport": "1024x768",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 1009,
+          "scrollWidth": 1009,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 2,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 0,
+          "isMobileNavPresent": true
+        }
+      },
+      "Standard Desktop (1440p)": {
+        "viewport": "1440x900",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 1425,
+          "scrollWidth": 1425,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 2,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 0,
+          "isMobileNavPresent": true
+        }
+      },
+      "Full HD Widescreen (1080p)": {
+        "viewport": "1920x1080",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 1905,
+          "scrollWidth": 1905,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 2,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 0,
+          "isMobileNavPresent": true
+        }
+      }
+    }
+  },
+  {
+    "route": "/products/tie-rods/",
+    "devices": {
+      "Small Mobile (iPhone SE 1st)": {
+        "viewport": "320x568",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 320,
+          "scrollWidth": 320,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [
+            {
+              "selector": "table.min-w-full.text-sm",
+              "right": 519,
+              "width": 502,
+              "text": "Table 1: International and Ind"
+            },
+            {
+              "selector": "caption.p-2.text-left.text-ink-muted",
+              "right": 519,
+              "width": 502,
+              "text": "Table 1: International and Ind"
+            },
+            {
+              "selector": "thead.bg-surface-alt",
+              "right": 519,
+              "width": 502,
+              "text": "Governing Standard\tPublishing"
+            },
+            {
+              "selector": "tr",
+              "right": 519,
+              "width": 502,
+              "text": "Governing Standard\tPublishing"
+            },
+            {
+              "selector": "th.px-3.py-2.text-left",
+              "right": 386,
+              "width": 133,
+              "text": "Technical Scope"
+            }
+          ],
+          "tableCount": 7,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 32,
+          "isMobileNavPresent": true
+        }
+      },
+      "Standard Mobile (iPhone 8/SE2)": {
+        "viewport": "375x667",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 375,
+          "scrollWidth": 375,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [
+            {
+              "selector": "table.min-w-full.text-sm",
+              "right": 519,
+              "width": 502,
+              "text": "Table 1: International and Ind"
+            },
+            {
+              "selector": "caption.p-2.text-left.text-ink-muted",
+              "right": 519,
+              "width": 502,
+              "text": "Table 1: International and Ind"
+            },
+            {
+              "selector": "thead.bg-surface-alt",
+              "right": 519,
+              "width": 502,
+              "text": "Governing Standard\tPublishing"
+            },
+            {
+              "selector": "tr",
+              "right": 519,
+              "width": 502,
+              "text": "Governing Standard\tPublishing"
+            },
+            {
+              "selector": "th.px-3.py-2.text-left",
+              "right": 386,
+              "width": 133,
+              "text": "Technical Scope"
+            }
+          ],
+          "tableCount": 7,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 38,
+          "isMobileNavPresent": true
+        }
+      },
+      "Modern Mobile (iPhone 14/15)": {
+        "viewport": "390x844",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 390,
+          "scrollWidth": 390,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [
+            {
+              "selector": "table.min-w-full.text-sm",
+              "right": 519,
+              "width": 502,
+              "text": "Table 1: International and Ind"
+            },
+            {
+              "selector": "caption.p-2.text-left.text-ink-muted",
+              "right": 519,
+              "width": 502,
+              "text": "Table 1: International and Ind"
+            },
+            {
+              "selector": "thead.bg-surface-alt",
+              "right": 519,
+              "width": 502,
+              "text": "Governing Standard\tPublishing"
+            },
+            {
+              "selector": "tr",
+              "right": 519,
+              "width": 502,
+              "text": "Governing Standard\tPublishing"
+            },
+            {
+              "selector": "th.px-3.py-2.text-left",
+              "right": 519,
+              "width": 133,
+              "text": "Engineering Implementation"
+            }
+          ],
+          "tableCount": 7,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 37,
+          "isMobileNavPresent": true
+        }
+      },
+      "Tablet Portrait (iPad Air)": {
+        "viewport": "768x1024",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 768,
+          "scrollWidth": 768,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 7,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 31,
+          "isMobileNavPresent": true
+        }
+      },
+      "Laptop / Tablet Landscape": {
+        "viewport": "1024x768",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 1009,
+          "scrollWidth": 1009,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 7,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 0,
+          "isMobileNavPresent": true
+        }
+      },
+      "Standard Desktop (1440p)": {
+        "viewport": "1440x900",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 1425,
+          "scrollWidth": 1425,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 7,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 0,
+          "isMobileNavPresent": true
+        }
+      },
+      "Full HD Widescreen (1080p)": {
+        "viewport": "1920x1080",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 1905,
+          "scrollWidth": 1905,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 7,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 0,
+          "isMobileNavPresent": true
+        }
+      }
+    }
+  },
+  {
+    "route": "/products/csk-allen-bolts/",
+    "devices": {
+      "Small Mobile (iPhone SE 1st)": {
+        "viewport": "320x568",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 320,
+          "scrollWidth": 320,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [
+            {
+              "selector": "table.min-w-full.text-sm",
+              "right": 575,
+              "width": 558,
+              "text": "Table 1: International standar"
+            },
+            {
+              "selector": "caption.p-2.text-left.text-ink-muted",
+              "right": 575,
+              "width": 558,
+              "text": "Table 1: International standar"
+            },
+            {
+              "selector": "thead.bg-surface-alt",
+              "right": 575,
+              "width": 558,
+              "text": "Head Family\tDIN Standard\tISO S"
+            },
+            {
+              "selector": "tr",
+              "right": 575,
+              "width": 558,
+              "text": "Head Family\tDIN Standard\tISO S"
+            },
+            {
+              "selector": "th.px-3.py-2.text-left",
+              "right": 338,
+              "width": 85,
+              "text": "ISO Standard"
+            }
+          ],
+          "tableCount": 6,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 32,
+          "isMobileNavPresent": true
+        }
+      },
+      "Standard Mobile (iPhone 8/SE2)": {
+        "viewport": "375x667",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 375,
+          "scrollWidth": 375,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [
+            {
+              "selector": "table.min-w-full.text-sm",
+              "right": 575,
+              "width": 558,
+              "text": "Table 1: International standar"
+            },
+            {
+              "selector": "caption.p-2.text-left.text-ink-muted",
+              "right": 575,
+              "width": 558,
+              "text": "Table 1: International standar"
+            },
+            {
+              "selector": "thead.bg-surface-alt",
+              "right": 575,
+              "width": 558,
+              "text": "Head Family\tDIN Standard\tISO S"
+            },
+            {
+              "selector": "tr",
+              "right": 575,
+              "width": 558,
+              "text": "Head Family\tDIN Standard\tISO S"
+            },
+            {
+              "selector": "th.px-3.py-2.text-left",
+              "right": 433,
+              "width": 95,
+              "text": "ASME Equivalent"
+            }
+          ],
+          "tableCount": 6,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 37,
+          "isMobileNavPresent": true
+        }
+      },
+      "Modern Mobile (iPhone 14/15)": {
+        "viewport": "390x844",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 390,
+          "scrollWidth": 390,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [
+            {
+              "selector": "table.min-w-full.text-sm",
+              "right": 575,
+              "width": 558,
+              "text": "Table 1: International standar"
+            },
+            {
+              "selector": "caption.p-2.text-left.text-ink-muted",
+              "right": 575,
+              "width": 558,
+              "text": "Table 1: International standar"
+            },
+            {
+              "selector": "thead.bg-surface-alt",
+              "right": 575,
+              "width": 558,
+              "text": "Head Family\tDIN Standard\tISO S"
+            },
+            {
+              "selector": "tr",
+              "right": 575,
+              "width": 558,
+              "text": "Head Family\tDIN Standard\tISO S"
+            },
+            {
+              "selector": "th.px-3.py-2.text-left",
+              "right": 433,
+              "width": 95,
+              "text": "ASME Equivalent"
+            }
+          ],
+          "tableCount": 6,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 37,
+          "isMobileNavPresent": true
+        }
+      },
+      "Tablet Portrait (iPad Air)": {
+        "viewport": "768x1024",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 768,
+          "scrollWidth": 768,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 6,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 34,
+          "isMobileNavPresent": true
+        }
+      },
+      "Laptop / Tablet Landscape": {
+        "viewport": "1024x768",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 1009,
+          "scrollWidth": 1009,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 6,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 0,
+          "isMobileNavPresent": true
+        }
+      },
+      "Standard Desktop (1440p)": {
+        "viewport": "1440x900",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 1425,
+          "scrollWidth": 1425,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 6,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 0,
+          "isMobileNavPresent": true
+        }
+      },
+      "Full HD Widescreen (1080p)": {
+        "viewport": "1920x1080",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 1905,
+          "scrollWidth": 1905,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 6,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 0,
+          "isMobileNavPresent": true
+        }
+      }
+    }
+  },
+  {
+    "route": "/products/scaffold-accessories/",
+    "devices": {
+      "Small Mobile (iPhone SE 1st)": {
+        "viewport": "320x568",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 320,
+          "scrollWidth": 320,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [
+            {
+              "selector": "table.min-w-full.text-sm",
+              "right": 494,
+              "width": 477,
+              "text": "Standard\tCountry\tScope\tRelevan"
+            },
+            {
+              "selector": "thead.bg-surface-alt",
+              "right": 494,
+              "width": 477,
+              "text": "Standard\tCountry\tScope\tRelevan"
+            },
+            {
+              "selector": "tr",
+              "right": 494,
+              "width": 477,
+              "text": "Standard\tCountry\tScope\tRelevan"
+            },
+            {
+              "selector": "th.px-3.py-2.text-left",
+              "right": 360,
+              "width": 125,
+              "text": "Scope"
+            },
+            {
+              "selector": "th.px-3.py-2.text-left",
+              "right": 494,
+              "width": 133,
+              "text": "Relevance to this category"
+            }
+          ],
+          "tableCount": 2,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 29,
+          "isMobileNavPresent": true
+        }
+      },
+      "Standard Mobile (iPhone 8/SE2)": {
+        "viewport": "375x667",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 375,
+          "scrollWidth": 375,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [
+            {
+              "selector": "table.min-w-full.text-sm",
+              "right": 494,
+              "width": 477,
+              "text": "Standard\tCountry\tScope\tRelevan"
+            },
+            {
+              "selector": "thead.bg-surface-alt",
+              "right": 494,
+              "width": 477,
+              "text": "Standard\tCountry\tScope\tRelevan"
+            },
+            {
+              "selector": "tr",
+              "right": 494,
+              "width": 477,
+              "text": "Standard\tCountry\tScope\tRelevan"
+            },
+            {
+              "selector": "th.px-3.py-2.text-left",
+              "right": 494,
+              "width": 133,
+              "text": "Relevance to this category"
+            },
+            {
+              "selector": "tbody",
+              "right": 494,
+              "width": 477,
+              "text": "IS 2062\tIndia (BIS)\tHot-rolled"
+            }
+          ],
+          "tableCount": 2,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 32,
+          "isMobileNavPresent": true
+        }
+      },
+      "Modern Mobile (iPhone 14/15)": {
+        "viewport": "390x844",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 390,
+          "scrollWidth": 390,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [
+            {
+              "selector": "table.min-w-full.text-sm",
+              "right": 494,
+              "width": 477,
+              "text": "Standard\tCountry\tScope\tRelevan"
+            },
+            {
+              "selector": "thead.bg-surface-alt",
+              "right": 494,
+              "width": 477,
+              "text": "Standard\tCountry\tScope\tRelevan"
+            },
+            {
+              "selector": "tr",
+              "right": 494,
+              "width": 477,
+              "text": "Standard\tCountry\tScope\tRelevan"
+            },
+            {
+              "selector": "th.px-3.py-2.text-left",
+              "right": 494,
+              "width": 133,
+              "text": "Relevance to this category"
+            },
+            {
+              "selector": "tbody",
+              "right": 494,
+              "width": 477,
+              "text": "IS 2062\tIndia (BIS)\tHot-rolled"
+            }
+          ],
+          "tableCount": 2,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 32,
+          "isMobileNavPresent": true
+        }
+      },
+      "Tablet Portrait (iPad Air)": {
+        "viewport": "768x1024",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 768,
+          "scrollWidth": 768,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 2,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 27,
+          "isMobileNavPresent": true
+        }
+      },
+      "Laptop / Tablet Landscape": {
+        "viewport": "1024x768",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 1009,
+          "scrollWidth": 1009,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 2,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 0,
+          "isMobileNavPresent": true
+        }
+      },
+      "Standard Desktop (1440p)": {
+        "viewport": "1440x900",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 1425,
+          "scrollWidth": 1425,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 2,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 0,
+          "isMobileNavPresent": true
+        }
+      },
+      "Full HD Widescreen (1080p)": {
+        "viewport": "1920x1080",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 1905,
+          "scrollWidth": 1905,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 2,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 0,
+          "isMobileNavPresent": true
+        }
+      }
+    }
+  },
+  {
+    "route": "/products/solar-accessories/",
+    "devices": {
+      "Small Mobile (iPhone SE 1st)": {
+        "viewport": "320x568",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 320,
+          "scrollWidth": 320,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [
+            {
+              "selector": "table.min-w-full.text-sm",
+              "right": 665,
+              "width": 648,
+              "text": "Standard dimensional schedule"
+            },
+            {
+              "selector": "caption.p-2.text-left.text-ink-muted",
+              "right": 665,
+              "width": 648,
+              "text": "Standard dimensional schedule"
+            },
+            {
+              "selector": "thead.bg-surface-alt",
+              "right": 665,
+              "width": 648,
+              "text": "Fastener SKU Family\tStandard S"
+            },
+            {
+              "selector": "tr",
+              "right": 665,
+              "width": 648,
+              "text": "Fastener SKU Family\tStandard S"
+            },
+            {
+              "selector": "th.px-3.py-2.text-left",
+              "right": 324,
+              "width": 91,
+              "text": "Default Material (Inland)"
+            }
+          ],
+          "tableCount": 5,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 30,
+          "isMobileNavPresent": true
+        }
+      },
+      "Standard Mobile (iPhone 8/SE2)": {
+        "viewport": "375x667",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 375,
+          "scrollWidth": 375,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [
+            {
+              "selector": "table.min-w-full.text-sm",
+              "right": 665,
+              "width": 648,
+              "text": "Standard dimensional schedule"
+            },
+            {
+              "selector": "caption.p-2.text-left.text-ink-muted",
+              "right": 665,
+              "width": 648,
+              "text": "Standard dimensional schedule"
+            },
+            {
+              "selector": "thead.bg-surface-alt",
+              "right": 665,
+              "width": 648,
+              "text": "Fastener SKU Family\tStandard S"
+            },
+            {
+              "selector": "tr",
+              "right": 665,
+              "width": 648,
+              "text": "Fastener SKU Family\tStandard S"
+            },
+            {
+              "selector": "th.px-3.py-2.text-left",
+              "right": 424,
+              "width": 100,
+              "text": "Coastal Material Option"
+            }
+          ],
+          "tableCount": 5,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 29,
+          "isMobileNavPresent": true
+        }
+      },
+      "Modern Mobile (iPhone 14/15)": {
+        "viewport": "390x844",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 390,
+          "scrollWidth": 390,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [
+            {
+              "selector": "table.min-w-full.text-sm",
+              "right": 665,
+              "width": 648,
+              "text": "Standard dimensional schedule"
+            },
+            {
+              "selector": "caption.p-2.text-left.text-ink-muted",
+              "right": 665,
+              "width": 648,
+              "text": "Standard dimensional schedule"
+            },
+            {
+              "selector": "thead.bg-surface-alt",
+              "right": 665,
+              "width": 648,
+              "text": "Fastener SKU Family\tStandard S"
+            },
+            {
+              "selector": "tr",
+              "right": 665,
+              "width": 648,
+              "text": "Fastener SKU Family\tStandard S"
+            },
+            {
+              "selector": "th.px-3.py-2.text-left",
+              "right": 424,
+              "width": 100,
+              "text": "Coastal Material Option"
+            }
+          ],
+          "tableCount": 5,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 29,
+          "isMobileNavPresent": true
+        }
+      },
+      "Tablet Portrait (iPad Air)": {
+        "viewport": "768x1024",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 768,
+          "scrollWidth": 768,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 5,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 26,
+          "isMobileNavPresent": true
+        }
+      },
+      "Laptop / Tablet Landscape": {
+        "viewport": "1024x768",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 1009,
+          "scrollWidth": 1009,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 5,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 0,
+          "isMobileNavPresent": true
+        }
+      },
+      "Standard Desktop (1440p)": {
+        "viewport": "1440x900",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 1425,
+          "scrollWidth": 1425,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 5,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 0,
+          "isMobileNavPresent": true
+        }
+      },
+      "Full HD Widescreen (1080p)": {
+        "viewport": "1920x1080",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 1905,
+          "scrollWidth": 1905,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 5,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 0,
+          "isMobileNavPresent": true
+        }
+      }
+    }
+  },
+  {
+    "route": "/products/hex-bolts-nuts/",
+    "devices": {
+      "Small Mobile (iPhone SE 1st)": {
+        "viewport": "320x568",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 320,
+          "scrollWidth": 320,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [
+            {
+              "selector": "table.min-w-full.text-sm",
+              "right": 396,
+              "width": 379,
+              "text": "Cross-reference matrix linking"
+            },
+            {
+              "selector": "caption.p-2.text-left.text-ink-muted",
+              "right": 396,
+              "width": 379,
+              "text": "Cross-reference matrix linking"
+            },
+            {
+              "selector": "thead.bg-surface-alt",
+              "right": 396,
+              "width": 379,
+              "text": "DIN Standard\tISO Equivalent\tIn"
+            },
+            {
+              "selector": "tr",
+              "right": 396,
+              "width": 379,
+              "text": "DIN Standard\tISO Equivalent\tIn"
+            },
+            {
+              "selector": "th.px-3.py-2.text-left",
+              "right": 396,
+              "width": 108,
+              "text": "Engineering Description & Fast"
+            }
+          ],
+          "tableCount": 5,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 28,
+          "isMobileNavPresent": true
+        }
+      },
+      "Standard Mobile (iPhone 8/SE2)": {
+        "viewport": "375x667",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 375,
+          "scrollWidth": 375,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [
+            {
+              "selector": "table.min-w-full.text-sm",
+              "right": 396,
+              "width": 379,
+              "text": "Cross-reference matrix linking"
+            },
+            {
+              "selector": "caption.p-2.text-left.text-ink-muted",
+              "right": 396,
+              "width": 379,
+              "text": "Cross-reference matrix linking"
+            },
+            {
+              "selector": "thead.bg-surface-alt",
+              "right": 396,
+              "width": 379,
+              "text": "DIN Standard\tISO Equivalent\tIn"
+            },
+            {
+              "selector": "tr",
+              "right": 396,
+              "width": 379,
+              "text": "DIN Standard\tISO Equivalent\tIn"
+            },
+            {
+              "selector": "th.px-3.py-2.text-left",
+              "right": 396,
+              "width": 108,
+              "text": "Engineering Description & Fast"
+            }
+          ],
+          "tableCount": 5,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 31,
+          "isMobileNavPresent": true
+        }
+      },
+      "Modern Mobile (iPhone 14/15)": {
+        "viewport": "390x844",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 390,
+          "scrollWidth": 390,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [
+            {
+              "selector": "table.min-w-full.text-sm",
+              "right": 396,
+              "width": 379,
+              "text": "Cross-reference matrix linking"
+            },
+            {
+              "selector": "caption.p-2.text-left.text-ink-muted",
+              "right": 396,
+              "width": 379,
+              "text": "Cross-reference matrix linking"
+            },
+            {
+              "selector": "thead.bg-surface-alt",
+              "right": 396,
+              "width": 379,
+              "text": "DIN Standard\tISO Equivalent\tIn"
+            },
+            {
+              "selector": "tr",
+              "right": 396,
+              "width": 379,
+              "text": "DIN Standard\tISO Equivalent\tIn"
+            },
+            {
+              "selector": "th.px-3.py-2.text-left",
+              "right": 396,
+              "width": 108,
+              "text": "Engineering Description & Fast"
+            }
+          ],
+          "tableCount": 5,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 31,
+          "isMobileNavPresent": true
+        }
+      },
+      "Tablet Portrait (iPad Air)": {
+        "viewport": "768x1024",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 768,
+          "scrollWidth": 768,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 5,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 26,
+          "isMobileNavPresent": true
+        }
+      },
+      "Laptop / Tablet Landscape": {
+        "viewport": "1024x768",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 1009,
+          "scrollWidth": 1009,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 5,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 0,
+          "isMobileNavPresent": true
+        }
+      },
+      "Standard Desktop (1440p)": {
+        "viewport": "1440x900",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 1425,
+          "scrollWidth": 1425,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 5,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 0,
+          "isMobileNavPresent": true
+        }
+      },
+      "Full HD Widescreen (1080p)": {
+        "viewport": "1920x1080",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 1905,
+          "scrollWidth": 1905,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 5,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 0,
+          "isMobileNavPresent": true
+        }
+      }
+    }
+  },
+  {
+    "route": "/products/custom-fasteners/",
+    "devices": {
+      "Small Mobile (iPhone SE 1st)": {
+        "viewport": "320x568",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 320,
+          "scrollWidth": 320,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [
+            {
+              "selector": "table.min-w-full.text-sm",
+              "right": 516,
+              "width": 499,
+              "text": "Table 1: Operational capabilit"
+            },
+            {
+              "selector": "caption.p-2.text-left.text-ink-muted",
+              "right": 516,
+              "width": 499,
+              "text": "Table 1: Operational capabilit"
+            },
+            {
+              "selector": "thead.bg-surface-alt",
+              "right": 516,
+              "width": 499,
+              "text": "Technical Parameter\tIn-House A"
+            },
+            {
+              "selector": "tr",
+              "right": 516,
+              "width": 499,
+              "text": "Technical Parameter\tIn-House A"
+            },
+            {
+              "selector": "th.px-3.py-2.text-left",
+              "right": 391,
+              "width": 125,
+              "text": "Vetted Partner Sourcing Networ"
+            }
+          ],
+          "tableCount": 5,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 34,
+          "isMobileNavPresent": true
+        }
+      },
+      "Standard Mobile (iPhone 8/SE2)": {
+        "viewport": "375x667",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 375,
+          "scrollWidth": 375,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [
+            {
+              "selector": "table.min-w-full.text-sm",
+              "right": 516,
+              "width": 499,
+              "text": "Table 1: Operational capabilit"
+            },
+            {
+              "selector": "caption.p-2.text-left.text-ink-muted",
+              "right": 516,
+              "width": 499,
+              "text": "Table 1: Operational capabilit"
+            },
+            {
+              "selector": "thead.bg-surface-alt",
+              "right": 516,
+              "width": 499,
+              "text": "Technical Parameter\tIn-House A"
+            },
+            {
+              "selector": "tr",
+              "right": 516,
+              "width": 499,
+              "text": "Technical Parameter\tIn-House A"
+            },
+            {
+              "selector": "th.px-3.py-2.text-left",
+              "right": 391,
+              "width": 125,
+              "text": "Vetted Partner Sourcing Networ"
+            }
+          ],
+          "tableCount": 5,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 38,
+          "isMobileNavPresent": true
+        }
+      },
+      "Modern Mobile (iPhone 14/15)": {
+        "viewport": "390x844",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 390,
+          "scrollWidth": 390,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [
+            {
+              "selector": "table.min-w-full.text-sm",
+              "right": 516,
+              "width": 499,
+              "text": "Table 1: Operational capabilit"
+            },
+            {
+              "selector": "caption.p-2.text-left.text-ink-muted",
+              "right": 516,
+              "width": 499,
+              "text": "Table 1: Operational capabilit"
+            },
+            {
+              "selector": "thead.bg-surface-alt",
+              "right": 516,
+              "width": 499,
+              "text": "Technical Parameter\tIn-House A"
+            },
+            {
+              "selector": "tr",
+              "right": 516,
+              "width": 499,
+              "text": "Technical Parameter\tIn-House A"
+            },
+            {
+              "selector": "th.px-3.py-2.text-left",
+              "right": 516,
+              "width": 125,
+              "text": "Engineering & Quality Controls"
+            }
+          ],
+          "tableCount": 5,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 39,
+          "isMobileNavPresent": true
+        }
+      },
+      "Tablet Portrait (iPad Air)": {
+        "viewport": "768x1024",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 768,
+          "scrollWidth": 768,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 5,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 33,
+          "isMobileNavPresent": true
+        }
+      },
+      "Laptop / Tablet Landscape": {
+        "viewport": "1024x768",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 1009,
+          "scrollWidth": 1009,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 5,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 0,
+          "isMobileNavPresent": true
+        }
+      },
+      "Standard Desktop (1440p)": {
+        "viewport": "1440x900",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 1425,
+          "scrollWidth": 1425,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 5,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 0,
+          "isMobileNavPresent": true
+        }
+      },
+      "Full HD Widescreen (1080p)": {
+        "viewport": "1920x1080",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 1905,
+          "scrollWidth": 1905,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 5,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 0,
+          "isMobileNavPresent": true
+        }
+      }
+    }
+  },
+  {
+    "route": "/materials/high-tensile-fasteners/",
+    "devices": {
+      "Small Mobile (iPhone SE 1st)": {
+        "viewport": "320x568",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 320,
+          "scrollWidth": 320,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [
+            {
+              "selector": "table.min-w-full.text-sm",
+              "right": 538,
+              "width": 521,
+              "text": "Property Class\tISO 898-1 Refer"
+            },
+            {
+              "selector": "thead.bg-surface-alt",
+              "right": 538,
+              "width": 521,
+              "text": "Property Class\tISO 898-1 Refer"
+            },
+            {
+              "selector": "tr",
+              "right": 538,
+              "width": 521,
+              "text": "Property Class\tISO 898-1 Refer"
+            },
+            {
+              "selector": "th.px-3.py-2.text-left",
+              "right": 354,
+              "width": 64,
+              "text": "Min UTS (MPa)"
+            },
+            {
+              "selector": "th.px-3.py-2.text-left",
+              "right": 449,
+              "width": 96,
+              "text": "Elongation A % (min)"
+            }
+          ],
+          "tableCount": 5,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 29,
+          "isMobileNavPresent": true
+        }
+      },
+      "Standard Mobile (iPhone 8/SE2)": {
+        "viewport": "375x667",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 375,
+          "scrollWidth": 375,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [
+            {
+              "selector": "table.min-w-full.text-sm",
+              "right": 538,
+              "width": 521,
+              "text": "Property Class\tISO 898-1 Refer"
+            },
+            {
+              "selector": "thead.bg-surface-alt",
+              "right": 538,
+              "width": 521,
+              "text": "Property Class\tISO 898-1 Refer"
+            },
+            {
+              "selector": "tr",
+              "right": 538,
+              "width": 521,
+              "text": "Property Class\tISO 898-1 Refer"
+            },
+            {
+              "selector": "th.px-3.py-2.text-left",
+              "right": 449,
+              "width": 96,
+              "text": "Elongation A % (min)"
+            },
+            {
+              "selector": "th.px-3.py-2.text-left",
+              "right": 538,
+              "width": 89,
+              "text": "Hardness (HV min / max)"
+            }
+          ],
+          "tableCount": 5,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 31,
+          "isMobileNavPresent": true
+        }
+      },
+      "Modern Mobile (iPhone 14/15)": {
+        "viewport": "390x844",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 390,
+          "scrollWidth": 390,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [
+            {
+              "selector": "table.min-w-full.text-sm",
+              "right": 538,
+              "width": 521,
+              "text": "Property Class\tISO 898-1 Refer"
+            },
+            {
+              "selector": "thead.bg-surface-alt",
+              "right": 538,
+              "width": 521,
+              "text": "Property Class\tISO 898-1 Refer"
+            },
+            {
+              "selector": "tr",
+              "right": 538,
+              "width": 521,
+              "text": "Property Class\tISO 898-1 Refer"
+            },
+            {
+              "selector": "th.px-3.py-2.text-left",
+              "right": 449,
+              "width": 96,
+              "text": "Elongation A % (min)"
+            },
+            {
+              "selector": "th.px-3.py-2.text-left",
+              "right": 538,
+              "width": 89,
+              "text": "Hardness (HV min / max)"
+            }
+          ],
+          "tableCount": 5,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 32,
+          "isMobileNavPresent": true
+        }
+      },
+      "Tablet Portrait (iPad Air)": {
+        "viewport": "768x1024",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 768,
+          "scrollWidth": 768,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 5,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 25,
+          "isMobileNavPresent": true
+        }
+      },
+      "Laptop / Tablet Landscape": {
+        "viewport": "1024x768",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 1009,
+          "scrollWidth": 1009,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 5,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 0,
+          "isMobileNavPresent": true
+        }
+      },
+      "Standard Desktop (1440p)": {
+        "viewport": "1440x900",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 1425,
+          "scrollWidth": 1425,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 5,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 0,
+          "isMobileNavPresent": true
+        }
+      },
+      "Full HD Widescreen (1080p)": {
+        "viewport": "1920x1080",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 1905,
+          "scrollWidth": 1905,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 5,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 0,
+          "isMobileNavPresent": true
+        }
+      }
+    }
+  },
+  {
+    "route": "/materials/stainless-steel-fasteners/",
+    "devices": {
+      "Small Mobile (iPhone SE 1st)": {
+        "viewport": "320x568",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 320,
+          "scrollWidth": 320,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [
+            {
+              "selector": "table.min-w-full.text-sm",
+              "right": 487,
+              "width": 470,
+              "text": "Source: ASTM A276 / A479 stand"
+            },
+            {
+              "selector": "caption.p-2.text-left.text-ink-muted",
+              "right": 487,
+              "width": 470,
+              "text": "Source: ASTM A276 / A479 stand"
+            },
+            {
+              "selector": "thead.bg-surface-alt",
+              "right": 487,
+              "width": 470,
+              "text": "Grade\tCr %\tNi %\tMo %\tC % max\tM"
+            },
+            {
+              "selector": "tr",
+              "right": 487,
+              "width": 470,
+              "text": "Grade\tCr %\tNi %\tMo %\tC % max\tM"
+            },
+            {
+              "selector": "th.px-3.py-2.text-left",
+              "right": 339,
+              "width": 58,
+              "text": "C % max"
+            }
+          ],
+          "tableCount": 5,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 34,
+          "isMobileNavPresent": true
+        }
+      },
+      "Standard Mobile (iPhone 8/SE2)": {
+        "viewport": "375x667",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 375,
+          "scrollWidth": 375,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [
+            {
+              "selector": "table.min-w-full.text-sm",
+              "right": 487,
+              "width": 470,
+              "text": "Source: ASTM A276 / A479 stand"
+            },
+            {
+              "selector": "caption.p-2.text-left.text-ink-muted",
+              "right": 487,
+              "width": 470,
+              "text": "Source: ASTM A276 / A479 stand"
+            },
+            {
+              "selector": "thead.bg-surface-alt",
+              "right": 487,
+              "width": 470,
+              "text": "Grade\tCr %\tNi %\tMo %\tC % max\tM"
+            },
+            {
+              "selector": "tr",
+              "right": 487,
+              "width": 470,
+              "text": "Grade\tCr %\tNi %\tMo %\tC % max\tM"
+            },
+            {
+              "selector": "th.px-3.py-2.text-left",
+              "right": 396,
+              "width": 58,
+              "text": "Mn % max"
+            }
+          ],
+          "tableCount": 5,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 35,
+          "isMobileNavPresent": true
+        }
+      },
+      "Modern Mobile (iPhone 14/15)": {
+        "viewport": "390x844",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 390,
+          "scrollWidth": 390,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [
+            {
+              "selector": "table.min-w-full.text-sm",
+              "right": 487,
+              "width": 470,
+              "text": "Source: ASTM A276 / A479 stand"
+            },
+            {
+              "selector": "caption.p-2.text-left.text-ink-muted",
+              "right": 487,
+              "width": 470,
+              "text": "Source: ASTM A276 / A479 stand"
+            },
+            {
+              "selector": "thead.bg-surface-alt",
+              "right": 487,
+              "width": 470,
+              "text": "Grade\tCr %\tNi %\tMo %\tC % max\tM"
+            },
+            {
+              "selector": "tr",
+              "right": 487,
+              "width": 470,
+              "text": "Grade\tCr %\tNi %\tMo %\tC % max\tM"
+            },
+            {
+              "selector": "th.px-3.py-2.text-left",
+              "right": 396,
+              "width": 58,
+              "text": "Mn % max"
+            }
+          ],
+          "tableCount": 5,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 37,
+          "isMobileNavPresent": true
+        }
+      },
+      "Tablet Portrait (iPad Air)": {
+        "viewport": "768x1024",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 768,
+          "scrollWidth": 768,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 5,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 30,
+          "isMobileNavPresent": true
+        }
+      },
+      "Laptop / Tablet Landscape": {
+        "viewport": "1024x768",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 1009,
+          "scrollWidth": 1009,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 5,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 0,
+          "isMobileNavPresent": true
+        }
+      },
+      "Standard Desktop (1440p)": {
+        "viewport": "1440x900",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 1425,
+          "scrollWidth": 1425,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 5,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 0,
+          "isMobileNavPresent": true
+        }
+      },
+      "Full HD Widescreen (1080p)": {
+        "viewport": "1920x1080",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 1905,
+          "scrollWidth": 1905,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 5,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 0,
+          "isMobileNavPresent": true
+        }
+      }
+    }
+  },
+  {
+    "route": "/industries/solar-mounting-fasteners/",
+    "devices": {
+      "Small Mobile (iPhone SE 1st)": {
+        "viewport": "320x568",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 320,
+          "scrollWidth": 320,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [
+            {
+              "selector": "table.min-w-full.text-sm",
+              "right": 570,
+              "width": 553,
+              "text": "Standard structural fastener b"
+            },
+            {
+              "selector": "caption.p-2.text-left.text-ink-muted",
+              "right": 570,
+              "width": 553,
+              "text": "Standard structural fastener b"
+            },
+            {
+              "selector": "thead.bg-surface-alt",
+              "right": 570,
+              "width": 553,
+              "text": "Project Typology\tSubstructure"
+            },
+            {
+              "selector": "tr",
+              "right": 570,
+              "width": 553,
+              "text": "Project Typology\tSubstructure"
+            },
+            {
+              "selector": "th.px-3.py-2.text-left",
+              "right": 354,
+              "width": 108,
+              "text": "Purlin / Rail Connection"
+            }
+          ],
+          "tableCount": 4,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 27,
+          "isMobileNavPresent": true
+        }
+      },
+      "Standard Mobile (iPhone 8/SE2)": {
+        "viewport": "375x667",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 375,
+          "scrollWidth": 375,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [
+            {
+              "selector": "table.min-w-full.text-sm",
+              "right": 570,
+              "width": 553,
+              "text": "Standard structural fastener b"
+            },
+            {
+              "selector": "caption.p-2.text-left.text-ink-muted",
+              "right": 570,
+              "width": 553,
+              "text": "Standard structural fastener b"
+            },
+            {
+              "selector": "thead.bg-surface-alt",
+              "right": 570,
+              "width": 553,
+              "text": "Project Typology\tSubstructure"
+            },
+            {
+              "selector": "tr",
+              "right": 570,
+              "width": 553,
+              "text": "Project Typology\tSubstructure"
+            },
+            {
+              "selector": "th.px-3.py-2.text-left",
+              "right": 445,
+              "width": 91,
+              "text": "Module Side Hardware"
+            }
+          ],
+          "tableCount": 4,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 29,
+          "isMobileNavPresent": true
+        }
+      },
+      "Modern Mobile (iPhone 14/15)": {
+        "viewport": "390x844",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 390,
+          "scrollWidth": 390,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [
+            {
+              "selector": "table.min-w-full.text-sm",
+              "right": 570,
+              "width": 553,
+              "text": "Standard structural fastener b"
+            },
+            {
+              "selector": "caption.p-2.text-left.text-ink-muted",
+              "right": 570,
+              "width": 553,
+              "text": "Standard structural fastener b"
+            },
+            {
+              "selector": "thead.bg-surface-alt",
+              "right": 570,
+              "width": 553,
+              "text": "Project Typology\tSubstructure"
+            },
+            {
+              "selector": "tr",
+              "right": 570,
+              "width": 553,
+              "text": "Project Typology\tSubstructure"
+            },
+            {
+              "selector": "th.px-3.py-2.text-left",
+              "right": 445,
+              "width": 91,
+              "text": "Module Side Hardware"
+            }
+          ],
+          "tableCount": 4,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 32,
+          "isMobileNavPresent": true
+        }
+      },
+      "Tablet Portrait (iPad Air)": {
+        "viewport": "768x1024",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 768,
+          "scrollWidth": 768,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 4,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 27,
+          "isMobileNavPresent": true
+        }
+      },
+      "Laptop / Tablet Landscape": {
+        "viewport": "1024x768",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 1009,
+          "scrollWidth": 1009,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 4,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 0,
+          "isMobileNavPresent": true
+        }
+      },
+      "Standard Desktop (1440p)": {
+        "viewport": "1440x900",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 1425,
+          "scrollWidth": 1425,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 4,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 0,
+          "isMobileNavPresent": true
+        }
+      },
+      "Full HD Widescreen (1080p)": {
+        "viewport": "1920x1080",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 1905,
+          "scrollWidth": 1905,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 4,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 0,
+          "isMobileNavPresent": true
+        }
+      }
+    }
+  },
+  {
+    "route": "/industries/construction-infrastructure/",
+    "devices": {
+      "Small Mobile (iPhone SE 1st)": {
+        "viewport": "320x568",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 320,
+          "scrollWidth": 320,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [
+            {
+              "selector": "table.min-w-full.text-sm",
+              "right": 807,
+              "width": 790,
+              "text": "Cross-discipline construction"
+            },
+            {
+              "selector": "caption.p-2.text-left.text-ink-muted",
+              "right": 807,
+              "width": 790,
+              "text": "Cross-discipline construction"
+            },
+            {
+              "selector": "thead.bg-surface-alt",
+              "right": 807,
+              "width": 790,
+              "text": "Project Typology\tFoundation &"
+            },
+            {
+              "selector": "tr",
+              "right": 807,
+              "width": 790,
+              "text": "Project Typology\tFoundation &"
+            },
+            {
+              "selector": "th.px-3.py-2.text-left",
+              "right": 358,
+              "width": 108,
+              "text": "Bracing & Stud Scope"
+            }
+          ],
+          "tableCount": 5,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 32,
+          "isMobileNavPresent": true
+        }
+      },
+      "Standard Mobile (iPhone 8/SE2)": {
+        "viewport": "375x667",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 375,
+          "scrollWidth": 375,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [
+            {
+              "selector": "table.min-w-full.text-sm",
+              "right": 807,
+              "width": 790,
+              "text": "Cross-discipline construction"
+            },
+            {
+              "selector": "caption.p-2.text-left.text-ink-muted",
+              "right": 807,
+              "width": 790,
+              "text": "Cross-discipline construction"
+            },
+            {
+              "selector": "thead.bg-surface-alt",
+              "right": 807,
+              "width": 790,
+              "text": "Project Typology\tFoundation &"
+            },
+            {
+              "selector": "tr",
+              "right": 807,
+              "width": 790,
+              "text": "Project Typology\tFoundation &"
+            },
+            {
+              "selector": "th.px-3.py-2.text-left",
+              "right": 474,
+              "width": 116,
+              "text": "Structural Framing & Hardware"
+            }
+          ],
+          "tableCount": 5,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 32,
+          "isMobileNavPresent": true
+        }
+      },
+      "Modern Mobile (iPhone 14/15)": {
+        "viewport": "390x844",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 390,
+          "scrollWidth": 390,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [
+            {
+              "selector": "table.min-w-full.text-sm",
+              "right": 807,
+              "width": 790,
+              "text": "Cross-discipline construction"
+            },
+            {
+              "selector": "caption.p-2.text-left.text-ink-muted",
+              "right": 807,
+              "width": 790,
+              "text": "Cross-discipline construction"
+            },
+            {
+              "selector": "thead.bg-surface-alt",
+              "right": 807,
+              "width": 790,
+              "text": "Project Typology\tFoundation &"
+            },
+            {
+              "selector": "tr",
+              "right": 807,
+              "width": 790,
+              "text": "Project Typology\tFoundation &"
+            },
+            {
+              "selector": "th.px-3.py-2.text-left",
+              "right": 474,
+              "width": 116,
+              "text": "Structural Framing & Hardware"
+            }
+          ],
+          "tableCount": 5,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 33,
+          "isMobileNavPresent": true
+        }
+      },
+      "Tablet Portrait (iPad Air)": {
+        "viewport": "768x1024",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 768,
+          "scrollWidth": 768,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [
+            {
+              "selector": "table.min-w-full.text-sm",
+              "right": 815,
+              "width": 790,
+              "text": "Cross-discipline construction"
+            },
+            {
+              "selector": "caption.p-2.text-left.text-ink-muted",
+              "right": 815,
+              "width": 790,
+              "text": "Cross-discipline construction"
+            },
+            {
+              "selector": "thead.bg-surface-alt",
+              "right": 815,
+              "width": 790,
+              "text": "Project Typology\tFoundation &"
+            },
+            {
+              "selector": "tr",
+              "right": 815,
+              "width": 790,
+              "text": "Project Typology\tFoundation &"
+            },
+            {
+              "selector": "th.px-3.py-2.text-left",
+              "right": 815,
+              "width": 100,
+              "text": "KP Supply Role"
+            }
+          ],
+          "tableCount": 5,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 32,
+          "isMobileNavPresent": true
+        }
+      },
+      "Laptop / Tablet Landscape": {
+        "viewport": "1024x768",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 1009,
+          "scrollWidth": 1009,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 5,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 0,
+          "isMobileNavPresent": true
+        }
+      },
+      "Standard Desktop (1440p)": {
+        "viewport": "1440x900",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 1425,
+          "scrollWidth": 1425,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 5,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 0,
+          "isMobileNavPresent": true
+        }
+      },
+      "Full HD Widescreen (1080p)": {
+        "viewport": "1920x1080",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 1905,
+          "scrollWidth": 1905,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 5,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 0,
+          "isMobileNavPresent": true
+        }
+      }
+    }
+  },
+  {
+    "route": "/industries/automotive-heavy-engineering/",
+    "devices": {
+      "Small Mobile (iPhone SE 1st)": {
+        "viewport": "320x568",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 320,
+          "scrollWidth": 320,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [
+            {
+              "selector": "table.min-w-full.text-sm",
+              "right": 600,
+              "width": 583,
+              "text": "Application scope and KP suppl"
+            },
+            {
+              "selector": "caption.p-2.text-left.text-ink-muted",
+              "right": 600,
+              "width": 583,
+              "text": "Application scope and KP suppl"
+            },
+            {
+              "selector": "thead.bg-surface-alt",
+              "right": 600,
+              "width": 583,
+              "text": "Sub-Sector\tTypical Fastener Fa"
+            },
+            {
+              "selector": "tr",
+              "right": 600,
+              "width": 583,
+              "text": "Sub-Sector\tTypical Fastener Fa"
+            },
+            {
+              "selector": "th.px-3.py-2.text-left",
+              "right": 341,
+              "width": 83,
+              "text": "Material / Grade Scope"
+            }
+          ],
+          "tableCount": 6,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 29,
+          "isMobileNavPresent": true
+        }
+      },
+      "Standard Mobile (iPhone 8/SE2)": {
+        "viewport": "375x667",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 375,
+          "scrollWidth": 375,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [
+            {
+              "selector": "table.min-w-full.text-sm",
+              "right": 600,
+              "width": 583,
+              "text": "Application scope and KP suppl"
+            },
+            {
+              "selector": "caption.p-2.text-left.text-ink-muted",
+              "right": 600,
+              "width": 583,
+              "text": "Application scope and KP suppl"
+            },
+            {
+              "selector": "thead.bg-surface-alt",
+              "right": 600,
+              "width": 583,
+              "text": "Sub-Sector\tTypical Fastener Fa"
+            },
+            {
+              "selector": "tr",
+              "right": 600,
+              "width": 583,
+              "text": "Sub-Sector\tTypical Fastener Fa"
+            },
+            {
+              "selector": "th.px-3.py-2.text-left",
+              "right": 467,
+              "width": 126,
+              "text": "Recommended Protective Finish"
+            }
+          ],
+          "tableCount": 6,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 32,
+          "isMobileNavPresent": true
+        }
+      },
+      "Modern Mobile (iPhone 14/15)": {
+        "viewport": "390x844",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 390,
+          "scrollWidth": 390,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [
+            {
+              "selector": "table.min-w-full.text-sm",
+              "right": 600,
+              "width": 583,
+              "text": "Application scope and KP suppl"
+            },
+            {
+              "selector": "caption.p-2.text-left.text-ink-muted",
+              "right": 600,
+              "width": 583,
+              "text": "Application scope and KP suppl"
+            },
+            {
+              "selector": "thead.bg-surface-alt",
+              "right": 600,
+              "width": 583,
+              "text": "Sub-Sector\tTypical Fastener Fa"
+            },
+            {
+              "selector": "tr",
+              "right": 600,
+              "width": 583,
+              "text": "Sub-Sector\tTypical Fastener Fa"
+            },
+            {
+              "selector": "th.px-3.py-2.text-left",
+              "right": 467,
+              "width": 126,
+              "text": "Recommended Protective Finish"
+            }
+          ],
+          "tableCount": 6,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 35,
+          "isMobileNavPresent": true
+        }
+      },
+      "Tablet Portrait (iPad Air)": {
+        "viewport": "768x1024",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 768,
+          "scrollWidth": 768,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 6,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 33,
+          "isMobileNavPresent": true
+        }
+      },
+      "Laptop / Tablet Landscape": {
+        "viewport": "1024x768",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 1009,
+          "scrollWidth": 1009,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 6,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 0,
+          "isMobileNavPresent": true
+        }
+      },
+      "Standard Desktop (1440p)": {
+        "viewport": "1440x900",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 1425,
+          "scrollWidth": 1425,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 6,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 0,
+          "isMobileNavPresent": true
+        }
+      },
+      "Full HD Widescreen (1080p)": {
+        "viewport": "1920x1080",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 1905,
+          "scrollWidth": 1905,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 6,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 0,
+          "isMobileNavPresent": true
+        }
+      }
+    }
+  },
+  {
+    "route": "/privacy-policy/",
+    "devices": {
+      "Small Mobile (iPhone SE 1st)": {
+        "viewport": "320x568",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 320,
+          "scrollWidth": 320,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 0,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 29,
+          "isMobileNavPresent": true
+        }
+      },
+      "Standard Mobile (iPhone 8/SE2)": {
+        "viewport": "375x667",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 375,
+          "scrollWidth": 375,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 0,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 29,
+          "isMobileNavPresent": true
+        }
+      },
+      "Modern Mobile (iPhone 14/15)": {
+        "viewport": "390x844",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 390,
+          "scrollWidth": 390,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 0,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 29,
+          "isMobileNavPresent": true
+        }
+      },
+      "Tablet Portrait (iPad Air)": {
+        "viewport": "768x1024",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 768,
+          "scrollWidth": 768,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 0,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 27,
+          "isMobileNavPresent": true
+        }
+      },
+      "Laptop / Tablet Landscape": {
+        "viewport": "1024x768",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 1009,
+          "scrollWidth": 1009,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 0,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 0,
+          "isMobileNavPresent": true
+        }
+      },
+      "Standard Desktop (1440p)": {
+        "viewport": "1440x900",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 1425,
+          "scrollWidth": 1425,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 0,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 0,
+          "isMobileNavPresent": true
+        }
+      },
+      "Full HD Widescreen (1080p)": {
+        "viewport": "1920x1080",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 1905,
+          "scrollWidth": 1905,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 0,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 0,
+          "isMobileNavPresent": true
+        }
+      }
+    }
+  },
+  {
+    "route": "/terms/",
+    "devices": {
+      "Small Mobile (iPhone SE 1st)": {
+        "viewport": "320x568",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 320,
+          "scrollWidth": 320,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 0,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 27,
+          "isMobileNavPresent": true
+        }
+      },
+      "Standard Mobile (iPhone 8/SE2)": {
+        "viewport": "375x667",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 375,
+          "scrollWidth": 375,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 0,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 29,
+          "isMobileNavPresent": true
+        }
+      },
+      "Modern Mobile (iPhone 14/15)": {
+        "viewport": "390x844",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 390,
+          "scrollWidth": 390,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 0,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 29,
+          "isMobileNavPresent": true
+        }
+      },
+      "Tablet Portrait (iPad Air)": {
+        "viewport": "768x1024",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 768,
+          "scrollWidth": 768,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 0,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 26,
+          "isMobileNavPresent": true
+        }
+      },
+      "Laptop / Tablet Landscape": {
+        "viewport": "1024x768",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 1009,
+          "scrollWidth": 1009,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 0,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 0,
+          "isMobileNavPresent": true
+        }
+      },
+      "Standard Desktop (1440p)": {
+        "viewport": "1440x900",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 1425,
+          "scrollWidth": 1425,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 0,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 0,
+          "isMobileNavPresent": true
+        }
+      },
+      "Full HD Widescreen (1080p)": {
+        "viewport": "1920x1080",
+        "status": "PASS",
+        "metrics": {
+          "clientWidth": 1905,
+          "scrollWidth": 1905,
+          "hasHorizontalOverflow": false,
+          "overflowDiff": 0,
+          "overflowingElements": [],
+          "tableCount": 0,
+          "tablesWrapped": true,
+          "overflowingImagesCount": 0,
+          "viewportContent": "width=device-width, initial-scale=1",
+          "smallTouchTargets": 0,
+          "isMobileNavPresent": true
+        }
+      }
+    }
+  }
+]

@@ -57,6 +57,11 @@ All agents and contributors must operate under the following guiding tenets:
     - *Is there an already installed dependency?* → Use it.
     - *Can it be done in one line?* → Write one line.
     - *Only then:* Write the absolute minimum custom code that works safely.
+12. **Mandatory Taste Skill & Anti-Slop Discipline (`design-taste-frontend`):**
+    - Always activate and adhere to the `design-taste-frontend` (`Leonxlnx/taste-skill`) skill whenever designing, building, or modifying web pages or UI components.
+    - Output a one-line "Design Read" before generating layouts (identifying page kind, target audience, vibe language, and aesthetic family).
+    - Calibrate the Three Dials (`DESIGN_VARIANCE`, `MOTION_INTENSITY`, `VISUAL_DENSITY`) to match the context and industry.
+    - Enforce anti-default discipline: strictly reject generic AI template slop, purple gradients, 3-card bento clones, and purposeless glassmorphism.
 
 ---
 

@@ -63,6 +63,10 @@ __pycache__/
 *.key
 *.crt
 *.cert
+credentials/
+*credentials*.json
+*service-account*.json
+gsc*.json
 
 # IDE & Code Editors / Agents
 .agents/
@@ -117,4 +121,5 @@ URC*
 
 # Competitor Research & Scraped Reference Assets (kept local only)
 srgfasteners.com-audit/
-product-images/
+/product-images/
+

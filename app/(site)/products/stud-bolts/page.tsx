@@ -20,6 +20,7 @@ import { Container } from '@/components/ui/Container';
 import { Section } from '@/components/ui/Section';
 import { Heading } from '@/components/ui/Heading';
 import { Card } from '@/components/ui/Card';
+import { RelatedProductCards } from '@/components/ui/RelatedProductCards';
 import { Prose } from '@/components/ui/Prose';
 import { Breadcrumbs } from '@/components/ui/Breadcrumbs';
 import { Accordion } from '@/components/ui/Accordion';
@@ -695,40 +696,26 @@ export default function Page() {
         </Container>
       </Section>
 
-      {/* 10. Mid-page CTA */}
+      {/* 10. Related products */}
       <Section variant="alt">
         <Container>
-          <Card variant="metallic" padding="lg">
-            <div className="grid gap-6 md:grid-cols-[1.4fr_1fr] md:items-center">
-              <div>
-                <Heading as="h2" variant="subsection">
-                  <span className="text-gold-gradient">
-                    Have a stud-bolt or flange-bolt schedule ready?
-                  </span>
-                </Heading>
-                <p className="mt-3 max-w-2xl text-ink-muted">
-                  Share grade, diameter, length, coating, nut pairing and quantity per
-                  size. Quote back within one working day with MTC availability.
-                </p>
-              </div>
-              <div className="flex flex-wrap gap-3">
-                <Link
-                  href="/request-quote/?product=stud-bolts"
-                  className="btn btn-primary"
-                >
-                  Request a BOQ quote
-                </Link>
-                <a
-                  href={WA_URL}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="btn btn-whatsapp"
-                >
-                  WhatsApp us
-                </a>
-              </div>
-            </div>
-          </Card>
+          <Heading as="h2" variant="section">Related product lines</Heading>
+          <p className="mt-3 max-w-3xl text-ink-muted">
+            Explore companion threaded fasteners, flange hardware, and heavy structural rods to complete your schedule:
+          </p>
+          <div className="mt-8">
+            <RelatedProductCards items={RELATED} />
+          </div>
+          <p className="mt-6 text-sm text-ink-muted">
+            Back to{' '}
+            <Link
+              href="/products/"
+              className="font-semibold text-brand-gold-strong hover:underline"
+            >
+              our full products range
+            </Link>
+            .
+          </p>
         </Container>
       </Section>
 
@@ -751,41 +738,8 @@ export default function Page() {
         </Container>
       </Section>
 
-      {/* 12. Related products */}
+      {/* 12. Single Authoritative Closing CTA */}
       <Section variant="alt">
-        <Container>
-          <Heading as="h2" variant="section">Related product lines</Heading>
-          <div className="mt-8 grid gap-6 sm:grid-cols-3">
-            {RELATED.map((r) => (
-              <Card key={r.href} variant="metallic" padding="lg" className="flex h-full flex-col">
-                <Heading as="h3" variant="card">
-                  {r.name}
-                </Heading>
-                <p className="mt-3 flex-1 text-sm text-ink-muted">{r.body}</p>
-                <Link
-                  href={r.href}
-                  className="mt-4 inline-flex items-center gap-1 font-heading text-sm font-semibold text-brand-gold-strong hover:underline"
-                >
-                  {r.anchor} <ArrowRight aria-hidden="true" className="h-4 w-4" />
-                </Link>
-              </Card>
-            ))}
-          </div>
-          <p className="mt-6 text-sm text-ink-muted">
-            Back to{' '}
-            <Link
-              href="/products/"
-              className="font-semibold text-brand-gold-strong hover:underline"
-            >
-              our full products range
-            </Link>
-            .
-          </p>
-        </Container>
-      </Section>
-
-      {/* 13. Closing CTA */}
-      <Section>
         <Container>
           <Card variant="metallic" padding="lg">
             <div className="grid gap-6 md:grid-cols-[1.4fr_1fr] md:items-center">
@@ -793,13 +747,13 @@ export default function Page() {
                 <Wrench aria-hidden="true" className="h-6 w-6 text-brand-gold-strong" />
                 <Heading as="h2" variant="subsection" className="mt-3">
                   <span className="text-gold-gradient">
-                    Send us your flange-bolt schedule.
+                    Send us your flange-bolt schedule or piping isometric drawings.
                   </span>
                 </Heading>
                 <p className="mt-3 max-w-2xl text-ink-muted">
                   Schedules accepted as PDF or Excel; piping isometrics as PDF or DWG.
                   We reply within one working day with grade, coating, nut pairing, lead
-                  time and MTC availability.
+                  time and EN 10204 3.1 MTC availability.
                 </p>
               </div>
               <div className="flex flex-wrap gap-3">

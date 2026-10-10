@@ -19,6 +19,7 @@ import { Container } from '@/components/ui/Container';
 import { Section } from '@/components/ui/Section';
 import { Heading } from '@/components/ui/Heading';
 import { Card } from '@/components/ui/Card';
+import { RelatedProductCards } from '@/components/ui/RelatedProductCards';
 import { Prose } from '@/components/ui/Prose';
 import { Breadcrumbs } from '@/components/ui/Breadcrumbs';
 import { Accordion } from '@/components/ui/Accordion';
@@ -648,40 +649,47 @@ export default function Page() {
         </Container>
       </Section>
 
-      {/* 10. Mid-page CTA */}
+      {/* 10. Related products */}
       <Section variant="alt">
         <Container>
-          <Card variant="metallic" padding="lg">
-            <div className="grid gap-6 md:grid-cols-[1.4fr_1fr] md:items-center">
-              <div>
-                <Heading as="h2" variant="subsection">
-                  <span className="text-gold-gradient">
-                    Have a foundation-bolt BOQ ready?
-                  </span>
-                </Heading>
-                <p className="mt-3 max-w-2xl text-ink-muted">
-                  Share the shape, diameter, embedment length, coating and quantity
-                  per size. Quote back within one working day.
-                </p>
-              </div>
-              <div className="flex flex-wrap gap-3">
-                <Link
-                  href="/request-quote/?product=foundation-bolts"
-                  className="btn btn-primary"
-                >
-                  Request a BOQ quote
-                </Link>
-                <a
-                  href={WA_URL}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="btn btn-whatsapp"
-                >
-                  WhatsApp us
-                </a>
-              </div>
-            </div>
-          </Card>
+          <Heading as="h2" variant="section">Related product lines</Heading>
+          <p className="mt-3 max-w-3xl text-ink-muted">
+            Pair your foundation bolts with compatible structural fastening systems and hardware lines:
+          </p>
+          <div className="mt-8">
+            <RelatedProductCards
+              items={[
+                {
+                  href: '/products/stud-bolts/',
+                  name: 'Stud Bolts',
+                  anchor: 'ASTM A193 B7 stud bolts and threaded rod',
+                  body: 'Metric and imperial stud bolts for flange and structural applications, including chemical anchor studs.',
+                },
+                {
+                  href: '/products/sag-rods/',
+                  name: 'Sag Rods',
+                  anchor: 'Threaded sag rods for PEB bracing',
+                  body: 'Purlin and girt sag rods for PEB and solar racking cross-bracing, in matching coatings.',
+                },
+                {
+                  href: '/products/scaffold-accessories/',
+                  name: 'Scaffold Accessories',
+                  anchor: 'Scaffold anchor plates and base jacks',
+                  body: 'Tie-rod nut sets, wing nuts and waller plates compatible with foundation-bolt base plates.',
+                },
+              ]}
+            />
+          </div>
+          <p className="mt-6 text-sm text-ink-muted">
+            Back to{' '}
+            <Link
+              href="/products/"
+              className="font-semibold text-brand-gold-strong hover:underline"
+            >
+              our full products range
+            </Link>
+            .
+          </p>
         </Container>
       </Section>
 
@@ -703,60 +711,8 @@ export default function Page() {
         </Container>
       </Section>
 
-      {/* 12. Related products */}
+      {/* 12. Single Authoritative Closing CTA */}
       <Section variant="alt">
-        <Container>
-          <Heading as="h2" variant="section">Related product lines</Heading>
-          <div className="mt-8 grid gap-6 sm:grid-cols-3">
-            {[
-              {
-                href: '/products/stud-bolts/',
-                name: 'Stud Bolts',
-                anchor: 'ASTM A193 B7 stud bolts and threaded rod',
-                body: 'Metric and imperial stud bolts for flange and structural applications, including chemical anchor studs.',
-              },
-              {
-                href: '/products/sag-rods/',
-                name: 'Sag Rods',
-                anchor: 'Threaded sag rods for PEB bracing',
-                body: 'Purlin and girt sag rods for PEB and solar racking cross-bracing, in matching coatings.',
-              },
-              {
-                href: '/products/scaffold-accessories/',
-                name: 'Scaffold Accessories',
-                anchor: 'Scaffold anchor plates and base jacks',
-                body: 'Tie-rod nut sets, wing nuts and waller plates compatible with foundation-bolt base plates.',
-              },
-            ].map((r) => (
-              <Card key={r.href} variant="metallic" padding="lg" className="flex h-full flex-col">
-                <Heading as="h3" variant="card">
-                  {r.name}
-                </Heading>
-                <p className="mt-3 flex-1 text-sm text-ink-muted">{r.body}</p>
-                <Link
-                  href={r.href}
-                  className="mt-4 inline-flex items-center gap-1 font-heading text-sm font-semibold text-brand-gold-strong hover:underline"
-                >
-                  {r.anchor} <ArrowRight aria-hidden="true" className="h-4 w-4" />
-                </Link>
-              </Card>
-            ))}
-          </div>
-          <p className="mt-6 text-sm text-ink-muted">
-            Back to{' '}
-            <Link
-              href="/products/"
-              className="font-semibold text-brand-gold-strong hover:underline"
-            >
-              our full products range
-            </Link>
-            .
-          </p>
-        </Container>
-      </Section>
-
-      {/* 13. Closing CTA */}
-      <Section>
         <Container>
           <Card variant="metallic" padding="lg">
             <div className="grid gap-6 md:grid-cols-[1.4fr_1fr] md:items-center">
@@ -764,12 +720,12 @@ export default function Page() {
                 <Wrench aria-hidden="true" className="h-6 w-6 text-brand-gold-strong" />
                 <Heading as="h2" variant="subsection" className="mt-3">
                   <span className="text-gold-gradient">
-                    Send us your foundation-bolt BOQ.
+                    Send us your foundation-bolt BOQ or engineering drawing.
                   </span>
                 </Heading>
                 <p className="mt-3 max-w-2xl text-ink-muted">
-                  Drawings accepted as PDF, DWG or DXF. We reply within one working
-                  day with material, coating, lead time and MTC availability.
+                  Share your shape, diameter, embedment length, or upload PDF, DWG or DXF drawings. We reply within one working
+                  day with material grade, coating, lead time, and EN 10204 3.1 MTC availability.
                 </p>
               </div>
               <div className="flex flex-wrap gap-3">

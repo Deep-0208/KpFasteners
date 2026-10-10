@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { useMemo, useState, type FormEvent, type ReactNode } from 'react';
+import { useEffect, useMemo, useState, type FormEvent, type ReactNode } from 'react';
 import { CheckCircle2, AlertCircle, Loader2, MessageCircle, Phone, UploadCloud } from 'lucide-react';
 
 const MAX_UPLOAD_BYTES = 8 * 1024 * 1024;
@@ -35,6 +35,74 @@ export function RFQForm({ productOptions }: RFQFormProps) {
   const [errors, setErrors] = useState<FieldErrors>({});
   const [summary, setSummary] = useState<string>('');
   const [snapshot, setSnapshot] = useState<Record<string, string>>({});
+
+  // Progressive WebMCP tool registration for AI agentic browsers
+  useEffect(() => {
+    if (typeof window === 'undefined') return;
+    interface WebMCPContext {
+      registerTool?: (
+        tool: Record<string, unknown>,
+        options?: { signal?: AbortSignal }
+      ) => Promise<unknown>;
+    }
+    const win = window as unknown as { modelContext?: WebMCPContext };
+    const nav = navigator as unknown as { modelContext?: WebMCPContext };
+    const mc = win.modelContext ?? nav.modelContext;
+    if (mc && typeof mc.registerTool === 'function') {
+      const controller = new AbortController();
+      mc.registerTool(
+        {
+          name: 'request_fastener_quote',
+          description:
+            'Submit an industrial fastener quotation request (RFQ) with product category, size, grade, and contact details to KP Fasteners.',
+          inputSchema: {
+            type: 'object',
+            properties: {
+              productCategory: {
+                type: 'string',
+                description:
+                  'Product category (e.g. foundation-bolts, stud-bolts, sag-rods, hex-bolts-nuts, custom-fasteners)',
+              },
+              size: { type: 'string', description: 'Fastener size or dimensions (e.g. M24 x 600 mm)' },
+              material: { type: 'string', description: 'Material grade (e.g. Grade 8.8, SS 316, ASTM A193 B7)' },
+              coating: { type: 'string', description: 'Coating or surface finish (e.g. HDG, Zinc, PTFE)' },
+              quantity: { type: 'string', description: 'Estimated quantity or tonnage' },
+              fullName: { type: 'string', description: 'Buyer or contact person name' },
+              company: { type: 'string', description: 'Company or contractor name' },
+              email: { type: 'string', description: 'Contact corporate email address' },
+              phone: { type: 'string', description: 'Mobile or WhatsApp number with country code' },
+              deliveryPin: { type: 'string', description: '6-digit delivery postal PIN code in India' },
+              notes: { type: 'string', description: 'Any technical notes or drawing specifications' },
+            },
+            required: ['productCategory', 'fullName', 'company'],
+          },
+          annotations: {
+            consequentialHint: true,
+          },
+          async execute(inputs: Record<string, unknown>) {
+            const formData = new FormData();
+            Object.entries(inputs).forEach(([k, v]) => {
+              if (v !== undefined && v !== null) formData.append(k, String(v));
+            });
+            formData.append('consent', 'true');
+            const res = await fetch('/api/quote', { method: 'POST', body: formData });
+            return {
+              content: [
+                {
+                  type: 'text',
+                  text: res.ok
+                    ? 'Quotation request submitted successfully. KP Fasteners sales desk will review and contact you within one business day.'
+                    : 'The server could not accept the quotation request. Please check required fields or contact sales@kpfasteners.com directly.',
+                },
+              ],
+            };
+          },
+        },
+        { signal: controller.signal },
+      ).catch(() => {});
+      return () => controller.abort();
+    }
+  }, []);
 
   const waFallback = useMemo(() => {
     const text =
@@ -174,9 +242,15 @@ export function RFQForm({ productOptions }: RFQFormProps) {
       </div>
     );
   }
-
   return (
-    <form onSubmit={onSubmit} noValidate encType="multipart/form-data" className="grid gap-5">
+    <form
+      onSubmit={onSubmit}
+      noValidate
+      encType="multipart/form-data"
+      data-toolname="request_fastener_quote"
+      data-tooldescription="Submit an industrial fastener quotation request (RFQ) for custom, standard, and high-tensile fasteners to KP Fasteners Ahmedabad."
+      className="grid gap-5"
+    >
       {/* Honeypot — must stay empty */}
       <input
         type="text"
@@ -222,10 +296,10 @@ export function RFQForm({ productOptions }: RFQFormProps) {
       )}
 
       {/* Step 1: Fastener Requirements */}
-      <div className="rounded-xl border border-slate-200/90 bg-slate-50/50 p-4 sm:p-5 space-y-4">
-        <div className="flex items-center justify-between border-b border-slate-200 pb-2.5">
+      <div className="min-w-0 w-full rounded-xl border border-slate-200/90 bg-slate-50/50 p-3 sm:p-5 space-y-4">
+        <div className="flex flex-wrap items-center justify-between gap-1.5 border-b border-slate-200 pb-2.5">
           <p className="font-heading text-xs font-bold uppercase tracking-wider text-slate-800 flex items-center gap-1.5">
-            <span className="flex h-5 w-5 items-center justify-center rounded-full bg-amber-600 text-[11px] font-bold text-white">1</span>
+            <span className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-amber-600 text-[11px] font-bold text-white">1</span>
             Fastener Specifications &amp; Blueprint
           </p>
           <span className="text-[11px] font-medium text-slate-500">BOQ / Drawing</span>
@@ -249,10 +323,10 @@ export function RFQForm({ productOptions }: RFQFormProps) {
       </div>
 
       {/* Step 2: Commercial Delivery & Contact Information */}
-      <div className="rounded-xl border border-slate-200/90 bg-slate-50/50 p-4 sm:p-5 space-y-4">
-        <div className="flex items-center justify-between border-b border-slate-200 pb-2.5">
+      <div className="min-w-0 w-full rounded-xl border border-slate-200/90 bg-slate-50/50 p-3 sm:p-5 space-y-4">
+        <div className="flex flex-wrap items-center justify-between gap-1.5 border-b border-slate-200 pb-2.5">
           <p className="font-heading text-xs font-bold uppercase tracking-wider text-slate-800 flex items-center gap-1.5">
-            <span className="flex h-5 w-5 items-center justify-center rounded-full bg-amber-600 text-[11px] font-bold text-white">2</span>
+            <span className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-amber-600 text-[11px] font-bold text-white">2</span>
             Contact &amp; Delivery Destination
           </p>
           <span className="text-[11px] font-medium text-slate-500">24-hr Quote SLA</span>

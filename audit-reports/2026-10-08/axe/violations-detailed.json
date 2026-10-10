@@ -1,0 +1,56 @@
+{
+  "/": [],
+  "/about/": [],
+  "/tools/": [
+    {
+      "id": "color-contrast",
+      "impact": "serious",
+      "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "nodesCount": 2,
+      "nodes": [
+        {
+          "html": "<span class=\"inline-flex items-center gap-2 rounded-full bg-white/10 px-3 py-1 text-xs font-semibold text-brand-gold\">",
+          "target": [
+            ".bg-white\\/10"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.53 (foreground color: #b45309, background color: #475466, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "html": "<h2 class=\"font-heading text-2xl sm:text-3xl font-bold tracking-tight text-white\">Have a Complex Bill of Materials or Custom Drawing?</h2>",
+          "target": [
+            ".space-y-3 > .text-2xl.sm\\:text-3xl"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.72 (foreground color: #0f172a, background color: #334155, font size: 22.5pt (30px), font weight: bold). Expected contrast ratio of 3:1"
+        }
+      ]
+    }
+  ],
+  "/contact/": [],
+  "/request-quote/": [],
+  "/products/": [],
+  "/products/foundation-bolts/": [],
+  "/products/stud-bolts/": [],
+  "/materials/high-tensile-fasteners/": [],
+  "/materials/stainless-steel-fasteners/": [],
+  "/industries/construction-infrastructure/": [
+    {
+      "id": "scrollable-region-focusable",
+      "impact": "serious",
+      "description": "Ensure elements that have scrollable content are accessible by keyboard in Safari",
+      "help": "Scrollable region must have keyboard access",
+      "nodesCount": 1,
+      "nodes": [
+        {
+          "html": "<div class=\"overflow-x-auto rounded-lg border border-border shadow-xs\">",
+          "target": [
+            ".bg-transparent:nth-child(5) > .sm\\:px-6.lg\\:px-8.max-w-7xl > .mt-8:nth-child(3) > .relative > .overflow-x-auto.shadow-xs.rounded-lg"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element should have focusable content\n  Element should be focusable"
+        }
+      ]
+    }
+  ],
+  "/terms/": [],
+  "/privacy-policy/": []
+}

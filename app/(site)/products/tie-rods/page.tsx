@@ -22,6 +22,7 @@ import { Container } from '@/components/ui/Container';
 import { Section } from '@/components/ui/Section';
 import { Heading } from '@/components/ui/Heading';
 import { Card } from '@/components/ui/Card';
+import { RelatedProductCards } from '@/components/ui/RelatedProductCards';
 import { Prose } from '@/components/ui/Prose';
 import { Breadcrumbs } from '@/components/ui/Breadcrumbs';
 import { Accordion } from '@/components/ui/Accordion';
@@ -1191,22 +1192,8 @@ export default function Page() {
             Consolidate your civil hardware procurement by pairing formwork tie rods with companion scaffold staging jacks, foundation anchors, and structural PEB sag rods.
           </p>
 
-          <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {RELATED_PRODUCTS.map((prod, idx) => (
-              <Card key={idx} variant="default" padding="lg">
-                <Heading as="h3" variant="card">
-                  {prod.title}
-                </Heading>
-                <p className="mt-3 text-sm text-ink-muted">{prod.body}</p>
-                <Link
-                  href={prod.href}
-                  className="mt-4 inline-flex items-center gap-1.5 text-sm font-semibold text-brand-gold-strong hover:underline"
-                >
-                  View {prod.anchor}
-                  <ArrowRight aria-hidden="true" className="h-4 w-4" />
-                </Link>
-              </Card>
-            ))}
+          <div className="mt-8">
+            <RelatedProductCards items={RELATED_PRODUCTS} />
           </div>
         </Container>
       </Section>

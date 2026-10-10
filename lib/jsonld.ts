@@ -23,6 +23,16 @@ export function organization() {
     },
     foundingDate: company.commencementDate ?? '2017-07-01',
     taxID: company.gstin,
+    knowsAbout: [
+      'Fastener Manufacturing',
+      'Industrial Fasteners',
+      'Foundation Bolts (IS 5624 & ASTM F1554)',
+      'Stud Bolts (ASTM A193 B7 / B8M)',
+      'High-Tensile Fasteners (ISO 898-1)',
+      'Structural Sag Rods',
+      'Hot-Dip Galvanizing (ASTM A153 & IS 2629)',
+      'Stainless Steel Fasteners (SS 304 & SS 316)',
+    ],
     address: {
       '@type': 'PostalAddress',
       streetAddress: company.address.streetAddress,
@@ -127,6 +137,7 @@ export function product(p: ProductJsonLdInput) {
     ...(p.material ? { material: p.material } : {}),
     ...(p.image ? { image: `${SITE_URL}${p.image}` } : {}),
     url: `${SITE_URL}${p.path}`,
+    dateModified: '2026-10-09',
   } as Record<string, unknown>;
 
   if (p.classification === 'oem') {

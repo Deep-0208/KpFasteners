@@ -49,19 +49,19 @@ export default function RequestQuotePage() {
             material, coating, lead time and MTC availability.
           </p>
 
-          <div className="mt-10 grid gap-10 lg:grid-cols-[1.4fr_1fr]">
-            <Card variant="glass" padding="lg">
+          <div className="mt-10 grid w-full min-w-0 max-w-full gap-8 lg:grid-cols-[1.4fr_1fr]">
+            <Card variant="glass" padding="lg" className="w-full min-w-0 max-w-full overflow-hidden">
               <Heading as="h2" variant="card">Send us your RFQ</Heading>
               <p className="mt-2 text-sm text-ink-muted">
                 All fields marked * are required. We reply within one working day.
               </p>
-              <div className="mt-6">
+              <div className="mt-6 w-full min-w-0">
                 <RFQForm productOptions={productOptions} />
               </div>
             </Card>
 
-            <div>
-              <Card variant="metallic" padding="lg">
+            <div className="w-full min-w-0 space-y-6">
+              <Card variant="metallic" padding="lg" className="w-full min-w-0 max-w-full overflow-hidden">
                 <Heading as="h2" variant="card">What to include</Heading>
                 <ul className="mt-4 space-y-2 text-sm text-ink">
                   <li>• <strong>Product</strong> (e.g., Foundation Bolts)</li>
@@ -74,29 +74,29 @@ export default function RequestQuotePage() {
                 </ul>
               </Card>
 
-              <div className="mt-6 flex flex-wrap gap-2">
+              <div className="flex flex-wrap gap-2">
                 <span className="badge badge-gold">MTC 3.1 on request</span>
                 <span className="badge badge-steel">Ahmedabad dispatch</span>
                 <span className="badge badge-steel">WhatsApp support</span>
               </div>
 
-              <Card variant="default" padding="lg" className="mt-6">
+              <Card variant="default" padding="lg" className="w-full min-w-0 max-w-full overflow-hidden">
                 <Heading as="h3" variant="card">Prefer to talk?</Heading>
                 <p className="mt-2 text-sm text-ink-muted">
                   Some buyers don&apos;t want to fill a form — reach us directly.
                 </p>
                 <div className="mt-4 flex flex-col gap-2">
-                  <a href="tel:+919898230448" className="btn btn-secondary">
-                    <Phone aria-hidden="true" className="h-4 w-4" />
+                  <a href="tel:+919898230448" className="btn btn-secondary w-full justify-center text-sm">
+                    <Phone aria-hidden="true" className="h-4 w-4 shrink-0" />
                     &nbsp;Call +91 98982 30448
                   </a>
                   <a
                     href={WA_URL}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="btn btn-whatsapp"
+                    className="btn btn-whatsapp w-full justify-center text-sm"
                   >
-                    <MessageCircle aria-hidden="true" className="h-4 w-4" />
+                    <MessageCircle aria-hidden="true" className="h-4 w-4 shrink-0" />
                     &nbsp;WhatsApp us
                   </a>
                 </div>

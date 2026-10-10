@@ -18,6 +18,7 @@ import { Container } from '@/components/ui/Container';
 import { Section } from '@/components/ui/Section';
 import { Heading } from '@/components/ui/Heading';
 import { Card } from '@/components/ui/Card';
+import { RelatedProductCards } from '@/components/ui/RelatedProductCards';
 import { Prose } from '@/components/ui/Prose';
 import { Breadcrumbs } from '@/components/ui/Breadcrumbs';
 import { Accordion } from '@/components/ui/Accordion';
@@ -769,24 +770,15 @@ export default function Page() {
             Explore dedicated product catalogs and technical materials guides relevant to solar array construction:
           </p>
 
-          <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {FORMS.map((form) => (
-              <Card key={form.slug} variant="default" padding="lg">
-                <Heading as="h3" variant="card">
-                  {form.title}
-                </Heading>
-                <p className="mt-2 text-sm text-ink-muted">{form.description}</p>
-                <div className="mt-4">
-                  <Link
-                    href={form.slug}
-                    className="inline-flex items-center gap-1 text-sm font-semibold text-brand-gold-strong hover:underline"
-                  >
-                    View {form.anchorText}
-                    <ArrowRight aria-hidden="true" className="h-4 w-4" />
-                  </Link>
-                </div>
-              </Card>
-            ))}
+          <div className="mt-8">
+            <RelatedProductCards
+              items={FORMS.map((form) => ({
+                href: form.slug,
+                title: form.title,
+                body: form.description,
+                anchor: form.anchorText,
+              }))}
+            />
           </div>
 
           <div className="mt-8 text-center">

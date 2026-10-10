@@ -2,7 +2,8 @@
 
 import React, { useState, useEffect, useCallback } from 'react';
 import Image from 'next/image';
-import { ChevronLeft, ChevronRight } from 'lucide-react';
+import Link from 'next/link';
+import { ChevronLeft, ChevronRight, ArrowUpRight } from 'lucide-react';
 import type { HeroCarouselImage } from '@/data/hero-carousel-images';
 
 interface HeroCarouselProps {
@@ -39,10 +40,11 @@ export function HeroCarousel({ images }: HeroCarouselProps) {
       onTouchStart={() => setIsPaused(true)}
       onTouchEnd={() => setIsPaused(false)}
     >
-      {/* 1. Product Image Showcase Stage (Strictly separated, zero overlap, zero crop) */}
+      {/* 1. Product Image Showcase Stage (Clickable to dedicated product page or /products/) */}
       <div className="relative flex-1 min-h-0 w-full overflow-hidden">
         {images.map((item, index) => {
           const isActive = index === currentSlide;
+          const targetHref = item.href || '/products/';
           return (
             <div
               key={item.title}
@@ -51,7 +53,11 @@ export function HeroCarousel({ images }: HeroCarouselProps) {
                 isActive ? 'opacity-100 z-10' : 'opacity-0 z-0 pointer-events-none'
               }`}
             >
-              <div className="relative w-full h-full flex items-center justify-center">
+              <Link
+                href={targetHref}
+                className="relative w-full h-full flex items-center justify-center cursor-pointer group/link focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-gold rounded-xl"
+                aria-label={`View ${item.title} specifications and pricing`}
+              >
                 <Image
                   src={item.src}
                   alt={item.alt}
@@ -63,9 +69,9 @@ export function HeroCarousel({ images }: HeroCarouselProps) {
                   decoding={index === 0 ? 'sync' : 'async'}
                   quality={75}
                   sizes="(max-width: 640px) 360px, (max-width: 1024px) 50vw, 550px"
-                  className="object-contain w-full h-full p-2 transition-transform duration-700 ease-out group-hover:scale-105 drop-shadow-sm"
+                  className="object-contain w-full h-full p-2 transition-transform duration-700 ease-out group-hover/link:scale-105"
                 />
-              </div>
+              </Link>
             </div>
           );
         })}
@@ -74,6 +80,7 @@ export function HeroCarousel({ images }: HeroCarouselProps) {
         <button
           type="button"
           onClick={(e) => {
+            e.preventDefault();
             e.stopPropagation();
             prevSlide();
           }}
@@ -86,6 +93,7 @@ export function HeroCarousel({ images }: HeroCarouselProps) {
         <button
           type="button"
           onClick={(e) => {
+            e.preventDefault();
             e.stopPropagation();
             nextSlide();
           }}
@@ -99,15 +107,16 @@ export function HeroCarousel({ images }: HeroCarouselProps) {
       {/* 2. Dedicated Specification & Control Bar (Completely below image, no overlap) */}
       <div className="shrink-0 border-t border-slate-200/90 bg-white/95 px-3.5 py-2.5 sm:px-4 sm:py-2.5 backdrop-blur-md z-20">
         <div className="flex items-center justify-between gap-2">
-          <span
-            className={`inline-flex items-center rounded-md px-2 py-0.5 text-[10px] font-bold tracking-wider uppercase transition-colors duration-300 ${
+          <Link
+            href={activeItem.href || '/products/'}
+            className={`inline-flex items-center rounded-md px-2 py-0.5 text-[10px] font-bold tracking-wider uppercase transition-colors duration-300 hover:opacity-90 focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-gold ${
               activeItem.badge === 'IN-HOUSE OEM'
-                ? 'bg-amber-100 text-amber-900 border border-amber-300/80'
-                : 'bg-slate-100 text-slate-700 border border-slate-300/80'
+                ? 'bg-amber-100 text-amber-900 border border-amber-300/80 hover:bg-amber-200/80'
+                : 'bg-slate-100 text-slate-700 border border-slate-300/80 hover:bg-slate-200/80'
             }`}
           >
             {activeItem.badge}
-          </span>
+          </Link>
 
           {/* Progress Indicators */}
           <div className="flex items-center gap-1.5" aria-label="Carousel pagination">
@@ -116,6 +125,7 @@ export function HeroCarousel({ images }: HeroCarouselProps) {
                 key={dotIndex}
                 type="button"
                 onClick={(e) => {
+                  e.preventDefault();
                   e.stopPropagation();
                   setCurrentSlide(dotIndex);
                 }}
@@ -130,14 +140,20 @@ export function HeroCarousel({ images }: HeroCarouselProps) {
           </div>
         </div>
 
-        <div className="mt-1 flex items-baseline justify-between gap-2">
-          <p className="font-heading text-sm sm:text-base font-bold text-slate-900 truncate">
-            {activeItem.title}
-          </p>
-          <span className="shrink-0 text-[11px] font-medium text-slate-500 hidden sm:inline">
+        <Link
+          href={activeItem.href || '/products/'}
+          className="mt-1 flex items-baseline justify-between gap-2 group/title focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-gold rounded"
+        >
+          <div className="flex items-center gap-1.5 min-w-0">
+            <p className="font-heading text-sm sm:text-base font-bold text-slate-900 truncate group-hover/title:text-brand-gold transition-colors">
+              {activeItem.title}
+            </p>
+            <ArrowUpRight className="h-3.5 w-3.5 shrink-0 text-slate-400 group-hover/title:text-brand-gold transition-colors" aria-hidden="true" />
+          </div>
+          <span className="shrink-0 text-[11px] font-medium text-slate-500 hidden sm:inline group-hover/title:text-slate-700 transition-colors">
             {activeItem.specs}
           </span>
-        </div>
+        </Link>
       </div>
     </div>
   );

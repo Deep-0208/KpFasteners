@@ -71,8 +71,8 @@ const PRODUCT_CARDS: ProductCardData[] = [
     badgeClass: 'badge badge-gold',
     value: 'J, L, U, headed and swedge anchors to IS 5624, DIN 529 and ASTM F1554. Mild steel, EN8D, and high-tensile grades with HDG or zinc plating.',
     standards: 'IS 5624 · DIN 529 · ASTM F1554',
-    image: '/images/products/bolts/j-bolt.webp',
-    imageAlt: 'KP Fasteners foundation bolts — J, L, U and headed anchors',
+    image: '/images/products/bolts/foundation-anchor-bolts.webp',
+    imageAlt: 'KP Fasteners foundation bolts — J, L, U and mechanical anchor bolts to IS 5624 and ASTM F1554',
     linkText: 'View Foundation Bolts',
   },
   {
@@ -85,7 +85,7 @@ const PRODUCT_CARDS: ProductCardData[] = [
     value: 'Fully threaded, tap-end, and double-end studs to ASTM A193 B7 / B8 / B8M and DIN 976 for high-pressure piping, valves, and structural flanges.',
     standards: 'ASTM A193 B7/B8/B8M · DIN 976',
     image: '/images/products/threaded-rods/threaded-rod-stud.webp',
-    imageAlt: 'KP Fasteners stud bolts — ASTM A193 B7 / B8 / B8M',
+    imageAlt: 'KP Fasteners ASTM A193 B7 stud bolt assembly with dual heavy hex nuts',
     linkText: 'View Stud Bolts',
   },
   {
@@ -98,7 +98,7 @@ const PRODUCT_CARDS: ProductCardData[] = [
     value: 'Threaded sag rods and tie bars for PEB purlin bracing, structural steel frames, and solar racking cross-bracing in customizable lengths.',
     standards: 'IS 2062 · Grade 4.6 / 8.8',
     image: '/images/products/threaded-rods/sag-rod.webp',
-    imageAlt: 'KP Fasteners threaded sag rod for PEB and solar purlin bracing',
+    imageAlt: 'KP Fasteners threaded sag rod assembly with dual hex nuts for structural PEB bracing',
     linkText: 'View Sag Rods',
   },
   // Ambiguous (2) — Hybrid: manufactured in-house or partner-supplied SKU-specific
@@ -203,7 +203,7 @@ const MATERIAL_CARDS = [
     description:
       'Austenitic stainless steels providing superior atmospheric and chemical corrosion resistance. SS 304 (A2-70) for outdoor infrastructure and food-grade service; marine-grade SS 316 (A4-70) with 2–3% molybdenum for coastal and chemical environments.',
     image: '/product-images/stainless-steel/hero.webp',
-    imageAlt: 'Stainless steel fasteners — SS 304 and SS 316 grades',
+    imageAlt: 'KP Fasteners stainless steel 304 and 316 fastener range including U-bolts, nuts, washers and studs',
     linkText: 'Explore Stainless Steel Fasteners',
   },
 ];
@@ -217,7 +217,7 @@ const INDUSTRY_CARDS = [
     description:
       'Pre-engineered buildings (PEB), structural steel framing, civil foundations, shuttering formwork, and precast infrastructure anchors meeting IS 5624 and IS 1367 load standards.',
     image: '/product-images/construction/hero.webp',
-    imageAlt: 'Construction and infrastructure fasteners on job site',
+    imageAlt: 'High-tensile structural steel fasteners and hex bolts installed on PEB construction site',
     linkText: 'View Construction Fasteners',
   },
   {
@@ -228,7 +228,7 @@ const INDUSTRY_CARDS = [
     description:
       'Corrosion-resistant solar module mounting structure (MMS) hardware including T-head bolts, mid/end clamps, flange nuts, and hanger bolts designed for 25-year structural service life.',
     image: '/product-images/solar/hero.webp',
-    imageAlt: 'Solar mounting fasteners and module clamp assemblies',
+    imageAlt: 'Stainless steel solar mounting fasteners and module clamp assembly on solar panel structure',
     linkText: 'View Solar Fasteners',
   },
   {
@@ -239,7 +239,7 @@ const INDUSTRY_CARDS = [
     description:
       'High-tensile socket head cap screws, precision hex fasteners, and custom drawing-matched components engineered for equipment manufacturers, tooling fixtures, and industrial machinery.',
     image: '/product-images/automotive/hero.webp',
-    imageAlt: 'Heavy engineering and machinery fasteners',
+    imageAlt: 'Precision high-tensile socket head cap screws and hex fasteners on heavy industrial machinery',
     linkText: 'View Heavy Engineering Fasteners',
   },
 ];
@@ -554,13 +554,13 @@ export default function ProductsHubPage() {
             {/* VERIFICATION PENDING: Client to confirm heavy engineering & automotive OEM client base — ref: brief §4.3 / §10 Q3 */}
             {INDUSTRY_CARDS.map((ind) => (
               <Card key={ind.slug} variant="metallic" padding="lg" className="flex flex-col">
-                <div className="relative aspect-[16/9] w-full overflow-hidden rounded-md bg-transparent p-2">
+                <div className="relative aspect-[16/9] w-full overflow-hidden rounded-md bg-metal-subtle/20">
                   <Image
                     src={ind.image}
                     alt={ind.imageAlt}
                     fill
                     sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
-                    className="object-contain"
+                    className="object-cover transition-transform duration-300 hover:scale-105"
                   />
                 </div>
 
